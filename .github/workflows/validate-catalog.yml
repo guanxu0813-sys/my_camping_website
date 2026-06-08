@@ -1,0 +1,48 @@
+name: Validate catalog JSON
+
+on:
+  push:
+    paths:
+      - "data/**"
+      - ".github/workflows/validate-catalog.yml"
+  pull_request:
+    paths:
+      - "data/**"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate JSON syntax
+        run: |
+          python3 -c "
+          import json, sys
+          for path in ('data/brands.json', 'data/products.json'):
+              with open(path, encoding='utf-8') as f:
+                  json.load(f)
+              print('OK', path)
+          "
+
+      - name: Validate brand references
+        run: |
+          python3 << 'PY'
+          import json, sys
+
+          brands = json.load(open("data/brands.json", encoding="utf-8"))
+          products = json.load(open("data/products.json", encoding="utf-8"))
+          brand_ids = {b["id"] for b in brands}
+          errors = []
+
+          for p in products:
+              if p.get("brandId") not in brand_ids:
+                  errors.append(f"Unknown brandId {p['brandId']!r} in product {p.get('id')}")
+              if p.get("category") not in ("tent", "tarp"):
+                  errors.append(f"Invalid category in product {p.get('id')}")
+
+          if errors:
+              print("\n".join(errors), file=sys.stderr)
+              sys.exit(1)
+          print(f"Validated {len(products)} products, {len(brands)} brands")
+          PY

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>露营帐篷与天幕 · 参数对比</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="主导航">
+      <a class="nav__brand" href="#top">
+        <span class="nav__logo" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 4c-4 6-8 10-8 16a8 8 0 1016 0c0-6-4-10-8-16z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M16 12v12M12 18h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </span>
+        <span class="nav__brand-text">CampGear <span class="nav__brand-ai">Compare</span></span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="#tables">参数总表</a></li>
+        <li><a href="#tents">帐篷</a></li>
+        <li><a href="#tarps">天幕</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top" class="page">
+    <header class="page__head">
+      <p class="page__eyebrow">Product Compare</p>
+      <h1 class="page__title">露营帐篷与天幕 · 参数对比</h1>
+      <p class="page__lead">仅呈现主流型号的可对比参数：重量、结构、人数、价格与适用场景。数据为演示，选购请以品牌官网为准。</p>
+
+      <div class="filter-toolbar" role="group" aria-label="品类筛选">
+        <button type="button" class="filter-chip is-active" data-filter="all">全部</button>
+        <button type="button" class="filter-chip" data-filter="tent">帐篷</button>
+        <button type="button" class="filter-chip" data-filter="tarp">天幕</button>
+      </div>
+    </header>
+
+    <p id="catalog-status" class="catalog-status" role="status" aria-live="polite">正在加载产品数据…</p>
+
+    <div id="compare-root" class="compare-root" hidden></div>
+
+    <p class="page__note">数据为演示用途；Hilleberg Nammatj 2 等配图为 Wikimedia Commons 实景，其余部分为同结构或场景参考。维护数据请编辑 <code>data/products.json</code> 与 <code>data/brands.json</code>。</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p class="site-footer__copy">© <span id="year"></span> CampGear Compare · 帐篷与天幕参数对比</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
