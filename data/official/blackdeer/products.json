@@ -1,0 +1,27 @@
+[
+  {
+    "id": "blackdeer-forma-folding-table-pro",
+    "brandId": "blackdeer",
+    "category": "table",
+    "subcategory": "table",
+    "model": "Forma Folding Table Pro",
+    "modelEn": "Forma Folding Table Pro",
+    "description": "",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.4,
+      "weightDisplay": "约 0.4 kg"
+    },
+    "highlights": [],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0878/9701/4573/files/DSC09438_afe086f6-0007-4868-9e84-10b49ee010f3.jpg?v=1756176195",
+    "imageAlt": "Forma Folding Table Pro",
+    "sourceUrl": "https://www.blackdeer.com/products/forma-folding-table-pro",
+    "sourceSite": "blackdeer.com",
+    "scrapedAt": "2026-06-05T14:35:35Z",
+    "status": "draft",
+    "price": 55.99,
+    "priceMin": 11.99,
+    "priceMax": 55.99,
+    "inSummaryTable": false
+  }
+]

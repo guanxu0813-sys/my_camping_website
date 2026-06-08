@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Tent_camping_along_the_Sulayr_trail_in_La_Taha%2C_Sierra_Nevada_National_Park_%28DSCF5147%29.jpg/1280px-Tent_camping_along_the_Sulayr_trail_in_La_Taha%2C_Sierra_Nevada_National_Park_%28DSCF5147%29.jpg",
+    "imageAlt": "山地营地帐篷与远山实景",
+    "eyebrow": "CampGear Compare",
+    "title": "露营装备 · 一表看清参数差异",
+    "subtitle": "帐篷、天幕主流型号重量、结构、人数与参考价并排对比，省去反复翻官网的麻烦",
+    "ctaPrimary": { "label": "对比帐篷", "href": "tent.html#compare" },
+    "ctaSecondary": { "label": "对比天幕", "href": "tarp.html#compare" }
+  }
+}

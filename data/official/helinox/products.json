@@ -1,0 +1,446 @@
+[
+  {
+    "id": "helinox-cafe-table",
+    "brandId": "helinox",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Café Table",
+    "modelEn": "Café Table",
+    "description": "Just the right height for civilized campsite dining…or picnics, trailside lunches, van-life board game breaks, and so much more. This taller table is secure, a breeze to clean, and made to be the perfect companion to our Café Chair. A sturdy laminate top also handles temps up to 356°F–ideal for hot mugs on chilly mornings.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 3.11,
+      "weightDisplay": "约 3.11 kg",
+      "structure": "Table"
+    },
+    "highlights": [
+      "Just the right height for civilized campsite dining…or picnics, trailside lunches, van-life board game breaks, and so much more. This taller table is secure, a breeze to clean, and made to be the perfect companion to our Café Chair. A sturdy laminate top also handles temps up to 356°F–ideal for hot mugs on chilly mornings."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0039/1367/8918/files/helinox_cafe_table_coyote_tan_hero.jpg?v=1774623306",
+    "imageAlt": "Café Table",
+    "sourceUrl": "https://helinox.com/products/cafe-table",
+    "sourceSite": "helinox.com",
+    "scrapedAt": "2026-06-05T14:35:03Z",
+    "status": "draft",
+    "price": 249.95,
+    "priceMin": 249.95,
+    "priceMax": 249.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "helinox-campcore-tactical-table",
+    "brandId": "helinox",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Campcore Tactical Table L",
+    "modelEn": "Campcore Tactical Table L",
+    "description": "This product is coming soon. We'll start shipping at the end of May once stock is in. The superior stability and packability of our Tactical Table One L is integrated with the built-for-anything durability of this military-inspired line . Its lightweight folding tabletop is easy to set up, wipe clean, and pack away between trips. Elevate your wilderness ritual with the Campcore Collab, a premium, special-edition collection designed to redefine your life under the stars. We’ve come together as four industry titans to curate a seamless summer camping setup that balances rugged durability with refined organization.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Table"
+    },
+    "highlights": [
+      "This product is coming soon. We'll start shipping at the end of May once stock is in. The superior stability and packability of our Tactical Table One L is integrated with the built-for-anything durability of this military-inspired line . Its lightweight folding tabletop is easy to set up, wipe clean, and pack away between trips. Elevate your wilderness ritual with the Campcore Collab, a premium, "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0039/1367/8918/files/R7beu4Eg_1.jpg?v=1776070466",
+    "imageAlt": "Campcore Tactical Table L",
+    "sourceUrl": "https://helinox.com/products/campcore-tactical-table",
+    "sourceSite": "helinox.com",
+    "scrapedAt": "2026-06-05T14:35:03Z",
+    "status": "draft",
+    "price": 268.0,
+    "priceMin": 268.0,
+    "priceMax": 268.0,
+    "inSummaryTable": false
+  },
+  {
+    "id": "helinox-chair-one",
+    "brandId": "helinox",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Chair One",
+    "modelEn": "Chair One",
+    "description": "The Chair One’s patented design launched the category of lightweight, packable chairs with its effortless combination of comfort and compactness. It goes everywhere–bring yours to the beach, camping off the beaten path, or wherever adventure takes you.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.96,
+      "weightDisplay": "约 0.96 kg",
+      "structure": "Chair"
+    },
+    "highlights": [
+      "The Chair One’s patented design launched the category of lightweight, packable chairs with its effortless combination of comfort and compactness. It goes everywhere–bring yours to the beach, camping off the beaten path, or wherever adventure takes you."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0039/1367/8918/files/helinox_chair_one_black_hero_ea8a12ef-f947-4971-8da8-60b6122140c3.jpg?v=1773390628",
+    "imageAlt": "Chair One",
+    "sourceUrl": "https://helinox.com/products/chair-one",
+    "sourceSite": "helinox.com",
+    "scrapedAt": "2026-06-05T14:34:58Z",
+    "status": "draft",
+    "price": 109.95,
+    "priceMin": 109.95,
+    "priceMax": 109.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "helinox-chair-one-xl",
+    "brandId": "helinox",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Chair One XL",
+    "modelEn": "Chair One XL",
+    "description": "More room, more adventures, so much more comfort. The Chair One XL is 40% bigger and comfier than the Chair One, offering extra space without sacrificing portability and packability. It goes anywhere and everywhere–just with more sitting room.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.61,
+      "weightDisplay": "约 1.61 kg",
+      "structure": "Chair"
+    },
+    "highlights": [
+      "More room, more adventures, so much more comfort. The Chair One XL is 40% bigger and comfier than the Chair One, offering extra space without sacrificing portability and packability. It goes anywhere and everywhere–just with more sitting room."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0039/1367/8918/files/helinox_chair_one_xl_black_hero_fa4db6f8-0c4c-4ad4-a904-7ca4c8f68bb4.png?v=1735805759",
+    "imageAlt": "Chair One XL",
+    "sourceUrl": "https://helinox.com/products/chair-one-xl",
+    "sourceSite": "helinox.com",
+    "scrapedAt": "2026-06-05T14:34:58Z",
+    "status": "draft",
+    "price": 174.95,
+    "priceMin": 174.95,
+    "priceMax": 174.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "helinox-chair-zero-high-back",
+    "brandId": "helinox",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Chair Zero High-Back",
+    "modelEn": "Chair Zero High-Back",
+    "description": "The Chair Zero High-Back boasts unrivaled comfort for as light as it is. Combining the strong, ultralight engineering of the Chair Zero with more comfortable shoulder and upper back support, it’s ideal for rest after backpacking or a long day of trekking.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.67,
+      "weightDisplay": "约 0.67 kg",
+      "structure": "Chair"
+    },
+    "highlights": [
+      "The Chair Zero High-Back boasts unrivaled comfort for as light as it is. Combining the strong, ultralight engineering of the Chair Zero with more comfortable shoulder and upper back support, it’s ideal for rest after backpacking or a long day of trekking."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0039/1367/8918/files/helinox_chair_zero_high_back_grey_hero.jpg?v=1756891146",
+    "imageAlt": "Chair Zero High-Back",
+    "sourceUrl": "https://helinox.com/products/chair-zero-high-back",
+    "sourceSite": "helinox.com",
+    "scrapedAt": "2026-06-05T14:34:58Z",
+    "status": "draft",
+    "price": 189.95,
+    "priceMin": 179.95,
+    "priceMax": 189.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "helinox-ground-chair",
+    "brandId": "helinox",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Ground Chair",
+    "modelEn": "Ground Chair",
+    "description": "The unique square base of the ultralight Ground Chair means no more chair poles sinking into the sand. Strong and supremely packable, it’s the chair to pack on your next canoe, kayak, or bike touring adventure.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.65,
+      "weightDisplay": "约 0.65 kg",
+      "structure": "Chair"
+    },
+    "highlights": [
+      "The unique square base of the ultralight Ground Chair means no more chair poles sinking into the sand. Strong and supremely packable, it’s the chair to pack on your next canoe, kayak, or bike touring adventure."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0039/1367/8918/files/helinox_ground_chair_black_hero.jpg?v=1735805807",
+    "imageAlt": "Ground Chair",
+    "sourceUrl": "https://helinox.com/products/ground-chair",
+    "sourceSite": "helinox.com",
+    "scrapedAt": "2026-06-05T14:34:58Z",
+    "status": "draft",
+    "price": 139.95,
+    "priceMin": 139.95,
+    "priceMax": 139.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "helinox-speed-stool",
+    "brandId": "helinox",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Speed Stool",
+    "modelEn": "Speed Stool",
+    "description": "Super light, super compact seating that doesn’t require any assembly–it practically sets up itself. The no-fuss accompaniment for rest during long hikes, cycling, or fishing.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.47,
+      "weightDisplay": "约 0.47 kg",
+      "structure": "Chair"
+    },
+    "highlights": [
+      "Super light, super compact seating that doesn’t require any assembly–it practically sets up itself. The no-fuss accompaniment for rest during long hikes, cycling, or fishing."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0039/1367/8918/files/helinox_speed_stool_m_black_hero.jpg?v=1752228874",
+    "imageAlt": "Speed Stool",
+    "sourceUrl": "https://helinox.com/products/speed-stool",
+    "sourceSite": "helinox.com",
+    "scrapedAt": "2026-06-05T14:34:58Z",
+    "status": "draft",
+    "price": 99.95,
+    "priceMin": 99.95,
+    "priceMax": 99.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "helinox-table-four",
+    "brandId": "helinox",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Table Four",
+    "modelEn": "Table Four",
+    "description": "Our largest table yet, with supreme stability and capable of seating your crew for a group dinner or campside game. With an easy-to-assemble folding tabletop, the Table Four maintains an effortless packability that lets you make a meal anywhere.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 4.7,
+      "weightDisplay": "约 4.7 kg",
+      "structure": "Table"
+    },
+    "highlights": [
+      "Our largest table yet, with supreme stability and capable of seating your crew for a group dinner or campside game. With an easy-to-assemble folding tabletop, the Table Four maintains an effortless packability that lets you make a meal anywhere."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0039/1367/8918/files/helinox_table_four_black_hero.png?v=1739458850",
+    "imageAlt": "Table Four",
+    "sourceUrl": "https://helinox.com/products/table-four",
+    "sourceSite": "helinox.com",
+    "scrapedAt": "2026-06-05T14:35:03Z",
+    "status": "draft",
+    "price": 399.95,
+    "priceMin": 399.95,
+    "priceMax": 439.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "helinox-table-one",
+    "brandId": "helinox",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Table One",
+    "modelEn": "Table One",
+    "description": "Expertly portable and perfectly sized for our Helinox chairs, the Table One has integrated mesh cup holders and a stable surface area for plates of food or game of cards.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.69,
+      "weightDisplay": "约 0.69 kg",
+      "structure": "Table"
+    },
+    "highlights": [
+      "Expertly portable and perfectly sized for our Helinox chairs, the Table One has integrated mesh cup holders and a stable surface area for plates of food or game of cards."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0039/1367/8918/files/helinox_table_one_black_hero.png?v=1735805865",
+    "imageAlt": "Table One",
+    "sourceUrl": "https://helinox.com/products/table-one",
+    "sourceSite": "helinox.com",
+    "scrapedAt": "2026-06-05T14:35:03Z",
+    "status": "draft",
+    "price": 149.95,
+    "priceMin": 149.95,
+    "priceMax": 149.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "helinox-copy-of-table-one-hard-top",
+    "brandId": "helinox",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Table One Hard Top",
+    "modelEn": "Table One Hard Top",
+    "description": "The Table One Hard Top provides the superior stability and support you need while remaining exceptionally packable. Its lightweight folding tabletop is easy to set up, wipe clean, and pack away between trips.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.96,
+      "weightDisplay": "约 0.96 kg",
+      "structure": "Table"
+    },
+    "highlights": [
+      "The Table One Hard Top provides the superior stability and support you need while remaining exceptionally packable. Its lightweight folding tabletop is easy to set up, wipe clean, and pack away between trips."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0039/1367/8918/files/helinox_table_one_hard_top_coyote_tan_hero_763ff181-211d-4866-8882-2f8b7af426c5.png?v=1763551363",
+    "imageAlt": "Table One Hard Top",
+    "sourceUrl": "https://helinox.com/products/copy-of-table-one-hard-top",
+    "sourceSite": "helinox.com",
+    "scrapedAt": "2026-06-05T14:35:03Z",
+    "status": "draft",
+    "price": 149.95,
+    "priceMin": 149.95,
+    "priceMax": 159.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "helinox-table-one-hard-top-large",
+    "brandId": "helinox",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Table One Hard Top L",
+    "modelEn": "Table One Hard Top L",
+    "description": "Wider and longer than the original size, the Table One Hard Top L provides the superior stability and support you need while remaining exceptionally packable. Its lightweight folding tabletop is easy to set up, wipe clean, and pack away between trips.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.59,
+      "weightDisplay": "约 1.59 kg",
+      "structure": "Table"
+    },
+    "highlights": [
+      "Wider and longer than the original size, the Table One Hard Top L provides the superior stability and support you need while remaining exceptionally packable. Its lightweight folding tabletop is easy to set up, wipe clean, and pack away between trips."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0039/1367/8918/files/Table-One-Hard-Top-L-Black--_S_-min_1_7b2ca13d-e260-416d-ac4c-c76cde031a20.png?v=1749079998",
+    "imageAlt": "Table One Hard Top L",
+    "sourceUrl": "https://helinox.com/products/table-one-hard-top-large",
+    "sourceSite": "helinox.com",
+    "scrapedAt": "2026-06-05T14:35:03Z",
+    "status": "draft",
+    "price": 169.95,
+    "priceMin": 169.95,
+    "priceMax": 169.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "helinox-table-zero-lt",
+    "brandId": "helinox",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Table Zero LT",
+    "modelEn": "Table Zero LT",
+    "description": "Take a table where you couldn’t before. Made with GhostGrid™—a translucent monofilament mesh—it’s our lightest table ever, designed for premiere compactness and packability. Pair Table Zero with our Chair Zero LT for the ultimate under-2-lb combo when bike touring, backpacking, or anywhere space and weight are limited.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Table"
+    },
+    "highlights": [
+      "Take a table where you couldn’t before. Made with GhostGrid™—a translucent monofilament mesh—it’s our lightest table ever, designed for premiere compactness and packability. Pair Table Zero with our Chair Zero LT for the ultimate under-2-lb combo when bike touring, backpacking, or anywhere space and weight are limited."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0039/1367/8918/files/tablezero_lt_sizedhero.png?v=1770286256",
+    "imageAlt": "Table Zero LT",
+    "sourceUrl": "https://helinox.com/products/table-zero-lt",
+    "sourceSite": "helinox.com",
+    "scrapedAt": "2026-06-05T14:35:03Z",
+    "status": "draft",
+    "price": 149.95,
+    "priceMin": 149.95,
+    "priceMax": 149.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "helinox-tactical-chair-one",
+    "brandId": "helinox",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Tactical Chair One",
+    "modelEn": "Tactical Chair One",
+    "description": "The rugged, minimalist Tactical Collection is designed to meet the needs of outdoor enthusiasts who expect their gear to perform in the harshest environments. The Tactical Chair One combines the comfort and compactness of the original Chair One with the built-for-anything durability of this military-inspired line.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.04,
+      "weightDisplay": "约 1.04 kg",
+      "structure": "Chair"
+    },
+    "highlights": [
+      "The rugged, minimalist Tactical Collection is designed to meet the needs of outdoor enthusiasts who expect their gear to perform in the harshest environments. The Tactical Chair One combines the comfort and compactness of the original Chair One with the built-for-anything durability of this military-inspired line."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0039/1367/8918/files/helinox_tactical_chair_one_black_hero.jpg?v=1739459114",
+    "imageAlt": "Tactical Chair One",
+    "sourceUrl": "https://helinox.com/products/tactical-chair-one",
+    "sourceSite": "helinox.com",
+    "scrapedAt": "2026-06-05T14:34:58Z",
+    "status": "draft",
+    "price": 129.95,
+    "priceMin": 129.95,
+    "priceMax": 149.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "helinox-tactical-field-office",
+    "brandId": "helinox",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Tactical Field Office",
+    "modelEn": "Tactical Field Office",
+    "description": "The rugged, minimalist Tactical Collection is designed to meet the needs of outdoor enthusiasts who expect their gear to perform in the harshest environments. The office has changed–and this may be the most mobile office ever. Not only does it offer secure storage, an instantly deployable desk, and access to all your work tools, it’s lightweight and easy to carry. Integrated with the built-for-anything durability of this military-inspired line, the functional design of the Tactical Field Office is great for backcountry photographers, contractors moving from jobsite to jobsite, or office hours from the campsite.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.11,
+      "weightDisplay": "约 2.11 kg",
+      "structure": "Table"
+    },
+    "highlights": [
+      "The rugged, minimalist Tactical Collection is designed to meet the needs of outdoor enthusiasts who expect their gear to perform in the harshest environments. The office has changed–and this may be the most mobile office ever. Not only does it offer secure storage, an instantly deployable desk, and access to all your work tools, it’s lightweight and easy to carry. Integrated with the built-for-any"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0039/1367/8918/files/helinox_tactical_field_office_m_black_hero.png?v=1735805886",
+    "imageAlt": "Tactical Field Office",
+    "sourceUrl": "https://helinox.com/products/tactical-field-office",
+    "sourceSite": "helinox.com",
+    "scrapedAt": "2026-06-05T14:35:03Z",
+    "status": "draft",
+    "price": 249.95,
+    "priceMin": 249.95,
+    "priceMax": 274.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "helinox-tactical-table",
+    "brandId": "helinox",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Tactical Table One",
+    "modelEn": "Tactical Table One",
+    "description": "The rugged, minimalist Tactical Collection is designed to meet the needs of outdoor enthusiasts who expect their gear to perform in the harshest environments. The superior stability and packability of our Table One Hard Top is integrated with the built-for-anything durability of this military-inspired line. Its lightweight folding tabletop is easy to set up, wipe clean, and pack away between trips.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.94,
+      "weightDisplay": "约 0.94 kg",
+      "structure": "Table"
+    },
+    "highlights": [
+      "The rugged, minimalist Tactical Collection is designed to meet the needs of outdoor enthusiasts who expect their gear to perform in the harshest environments. The superior stability and packability of our Table One Hard Top is integrated with the built-for-anything durability of this military-inspired line. Its lightweight folding tabletop is easy to set up, wipe clean, and pack away between trips"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0039/1367/8918/files/helinox_tactical_table_m_black_hero.jpg?v=1735805894",
+    "imageAlt": "Tactical Table One",
+    "sourceUrl": "https://helinox.com/products/tactical-table",
+    "sourceSite": "helinox.com",
+    "scrapedAt": "2026-06-05T14:35:03Z",
+    "status": "draft",
+    "price": 174.95,
+    "priceMin": 174.95,
+    "priceMax": 194.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "helinox-tactical-table-l",
+    "brandId": "helinox",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Tactical Table One L",
+    "modelEn": "Tactical Table One L",
+    "description": "The rugged, minimalist Tactical Collection is designed to meet the needs of outdoor enthusiasts who expect their gear to perform in the harshest environments. The superior stability and packability of our Tactical Table One L is integrated with the built-for-anything durability of this military-inspired line . Its lightweight folding tabletop is easy to set up, wipe clean, and pack away between trips.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.59,
+      "weightDisplay": "约 1.59 kg",
+      "structure": "Table"
+    },
+    "highlights": [
+      "The rugged, minimalist Tactical Collection is designed to meet the needs of outdoor enthusiasts who expect their gear to perform in the harshest environments. The superior stability and packability of our Tactical Table One L is integrated with the built-for-anything durability of this military-inspired line . Its lightweight folding tabletop is easy to set up, wipe clean, and pack away between tr"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0039/1367/8918/files/helinox_tactical_table_l_coyote_tan_hero.jpg?v=1755598295",
+    "imageAlt": "Tactical Table One L",
+    "sourceUrl": "https://helinox.com/products/tactical-table-l",
+    "sourceSite": "helinox.com",
+    "scrapedAt": "2026-06-05T14:35:03Z",
+    "status": "draft",
+    "price": 194.95,
+    "priceMin": 194.95,
+    "priceMax": 214.95,
+    "inSummaryTable": false
+  }
+]

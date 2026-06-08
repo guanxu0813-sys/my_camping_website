@@ -19,11 +19,14 @@ jobs:
         run: |
           python3 -c "
           import json, sys
-          for path in ('data/brands.json', 'data/products.json'):
+          for path in ('data/brands.json', 'data/products.json', 'data/site.json'):
               with open(path, encoding='utf-8') as f:
                   json.load(f)
               print('OK', path)
           "
+
+      - name: Build catalog.js bundle
+        run: python3 scripts/build_catalog.py
 
       - name: Validate brand references
         run: |
@@ -46,3 +49,6 @@ jobs:
               sys.exit(1)
           print(f"Validated {len(products)} products, {len(brands)} brands")
           PY
+
+      - name: Validate official catalog
+        run: python3 scripts/validate_official.py

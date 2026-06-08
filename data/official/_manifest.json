@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "batches": [
+    {
+      "brandId": "naturehike",
+      "scrapedAt": "2026-05-27T14:54:45Z",
+      "productCount": 118,
+      "errors": []
+    },
+    {
+      "brandId": "snow-peak",
+      "scrapedAt": "2026-05-27T14:54:51Z",
+      "productCount": 45,
+      "errors": []
+    },
+    {
+      "brandId": "naturehike",
+      "scrapedAt": "2026-05-27T14:55:11Z",
+      "productCount": 116,
+      "errors": []
+    },
+    {
+      "brandId": "snow-peak",
+      "scrapedAt": "2026-05-27T14:55:20Z",
+      "productCount": 45,
+      "errors": []
+    },
+    {
+      "brandId": "naturehike",
+      "scrapedAt": "2026-06-03T14:15:32Z",
+      "productCount": 0,
+      "errors": [
+        "collection tents: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+        "collection sleeping-bags: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
+        "all_products: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      ]
+    },
+    {
+      "brandId": "snow-peak",
+      "scrapedAt": "2026-06-03T14:15:55Z",
+      "productCount": 0,
+      "errors": [
+        "collection tents: <urlopen error [Errno 54] Connection reset by peer>",
+        "collection 2-4-person-shelters: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+        "collection 4-8-person-shelters: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+        "collection sleeping-bags: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      ]
+    },
+    {
+      "brandId": "naturehike",
+      "scrapedAt": "2026-06-03T14:15:55Z",
+      "productCount": 0,
+      "errors": [
+        "collection tents: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+        "collection sleeping-bags: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+        "all_products: <urlopen error [Errno 54] Connection reset by peer>"
+      ]
+    },
+    {
+      "brandId": "snow-peak",
+      "scrapedAt": "2026-06-03T14:16:00Z",
+      "productCount": 0,
+      "errors": [
+        "collection tents: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+        "collection 2-4-person-shelters: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+        "collection 4-8-person-shelters: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+        "collection sleeping-bags: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      ]
+    },
+    {
+      "brandId": "naturehike",
+      "scrapedAt": "2026-06-03T14:26:29Z",
+      "productCount": 151,
+      "errors": []
+    },
+    {
+      "brandId": "snow-peak",
+      "scrapedAt": "2026-06-03T14:26:57Z",
+      "productCount": 50,
+      "errors": []
+    },
+    {
+      "brandId": "naturehike",
+      "scrapedAt": "2026-06-04T15:27:03Z",
+      "productCount": 170,
+      "errors": []
+    },
+    {
+      "brandId": "snow-peak",
+      "scrapedAt": "2026-06-04T15:27:13Z",
+      "productCount": 91,
+      "errors": []
+    },
+    {
+      "brandId": "helinox",
+      "scrapedAt": "2026-06-05T14:15:13Z",
+      "productCount": 16,
+      "errors": []
+    },
+    {
+      "brandId": "dod",
+      "scrapedAt": "2026-06-05T14:15:29Z",
+      "productCount": 29,
+      "errors": []
+    },
+    {
+      "brandId": "blackdeer",
+      "scrapedAt": "2026-06-05T14:15:35Z",
+      "productCount": 1,
+      "errors": []
+    },
+    {
+      "brandId": "mobi-garden",
+      "scrapedAt": "2026-06-05T14:15:42Z",
+      "productCount": 0,
+      "errors": [
+        "collection camp-chairs: HTTP Error 503: Service Unavailable",
+        "collection camp-tables: HTTP Error 503: Service Unavailable"
+      ]
+    },
+    {
+      "brandId": "naturehike",
+      "scrapedAt": "2026-06-05T14:34:44Z",
+      "productCount": 161,
+      "errors": [
+        "all_products: IncompleteRead(127772 bytes read)"
+      ]
+    },
+    {
+      "brandId": "snow-peak",
+      "scrapedAt": "2026-06-05T14:34:54Z",
+      "productCount": 91,
+      "errors": []
+    },
+    {
+      "brandId": "helinox",
+      "scrapedAt": "2026-06-05T14:35:03Z",
+      "productCount": 16,
+      "errors": []
+    },
+    {
+      "brandId": "dod",
+      "scrapedAt": "2026-06-05T14:35:21Z",
+      "productCount": 29,
+      "errors": []
+    },
+    {
+      "brandId": "blackdeer",
+      "scrapedAt": "2026-06-05T14:35:35Z",
+      "productCount": 1,
+      "errors": []
+    },
+    {
+      "brandId": "mobi-garden",
+      "scrapedAt": "2026-06-05T14:35:50Z",
+      "productCount": 0,
+      "errors": [
+        "collection camp-chairs: HTTP Error 503: Service Unavailable",
+        "collection camp-tables: HTTP Error 503: Service Unavailable"
+      ]
+    },
+    {
+      "brandId": "naturehike",
+      "scrapedAt": "2026-06-05T15:15:03Z",
+      "productCount": 169,
+      "errors": []
+    }
+  ]
+}

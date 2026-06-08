@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://campgear-compare.local/schemas/official-product.json",
+  "title": "OfficialCatalogProduct",
+  "type": "object",
+  "required": [
+    "id",
+    "brandId",
+    "category",
+    "model",
+    "sourceUrl",
+    "sourceSite",
+    "scrapedAt",
+    "status"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "brandId": { "type": "string" },
+    "category": {
+      "type": "string",
+      "enum": ["tent", "tarp", "sleeping-bag", "stove", "table", "chair", "other"]
+    },
+    "subcategory": { "type": "string" },
+    "model": { "type": "string", "minLength": 1 },
+    "modelEn": { "type": "string" },
+    "description": { "type": "string" },
+    "price": { "type": "number" },
+    "currency": { "type": "string", "minLength": 3, "maxLength": 3 },
+    "priceMin": { "type": "number" },
+    "priceMax": { "type": "number" },
+    "specs": {
+      "type": "object",
+      "properties": {
+        "weightKg": { "type": "number" },
+        "weightDisplay": { "type": "string" },
+        "weightRange": { "type": "string" },
+        "capacity": { "type": "string" },
+        "fabric": { "type": "string" },
+        "structure": { "type": "string" },
+        "size": { "type": "string" },
+        "tarpType": { "type": "string" },
+        "bagType": { "type": "string" },
+        "fillType": { "type": "string" },
+        "comfortTemp": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "highlights": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "imageUrl": { "type": "string" },
+    "imageLocal": { "type": "string" },
+    "imageAlt": { "type": "string" },
+    "sourceUrl": { "type": "string" },
+    "sourceSite": { "type": "string" },
+    "scrapedAt": { "type": "string", "format": "date-time" },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "verified", "merged"]
+    },
+    "structure": { "type": "string" },
+    "detailStructure": { "type": "string" },
+    "weightKg": { "type": "number" },
+    "weightDisplay": { "type": "string" },
+    "weightRange": { "type": "string" },
+    "capacity": { "type": "string" },
+    "fabric": { "type": "string" },
+    "tarpType": { "type": "string" },
+    "size": { "type": "string" },
+    "bagType": { "type": "string" },
+    "fillType": { "type": "string" },
+    "comfortTemp": { "type": "string" },
+    "scenarios": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "pros": { "type": "string" },
+    "cons": { "type": "string" },
+    "inSummaryTable": { "type": "boolean" },
+    "inDetailCards": { "type": "boolean" }
+  },
+  "additionalProperties": false
+}

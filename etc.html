@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>等等 · CampGear Compare</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="placeholder" data-category-label="等等">
+  <header class="site-header">
+    <nav class="nav" aria-label="主导航">
+      <a class="nav__brand" href="index.html" aria-label="返回首页">
+        <span class="nav__logo" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 4c-4 6-8 10-8 16a8 8 0 1016 0c0-6-4-10-8-16z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M16 12v12M12 18h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </span>
+        <span class="nav__brand-text">CampGear <span class="nav__brand-ai">Compare</span></span>
+      </a>
+      <ul class="nav__links nav__links--categories">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="tent.html">帐篷</a></li>
+        <li><a href="tarp.html">天幕</a></li>
+        <li><a href="furniture.html">家具</a></li>
+        <li><a href="sleeping-bag.html">睡袋</a></li>
+        <li><a href="other.html">其他</a></li>
+        <li><a href="etc.html" aria-current="page">等等</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page page--sub">
+    <header class="page__head">
+      <h1 class="page__title">等等</h1>
+      <p class="page__lead page__lead--compact">参数对比一览，点击缩略图查看产品介绍与详情。</p>
+    </header>
+
+    <p id="category-brands" class="category-brands category-brands--page" hidden></p>
+
+    <section class="placeholder-card" aria-label="占位说明">
+      <p class="placeholder-card__text">炊具、照明、收纳等更多品类入口，确定需求后可新增独立页面。</p>
+      <p class="placeholder-card__links">
+        <a href="index.html">返回首页</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p class="site-footer__copy">© <span id="year"></span> CampGear Compare · 露营装备对比</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+# Brand scraping configuration (Shopify storefront JSON API)
+# Run: python3 scripts/scrape/scrape_brand.py naturehike
+
+brands:
+  naturehike:
+    brandId: naturehike
+    sourceSite: naturehike.com
+    baseUrl: https://www.naturehike.com
+    currency: USD
+    adapter: shopify
+    rateLimitSeconds: 1.0
+    collections:
+      - handle: tents
+        category: tent
+        subcategory: Tents
+      - handle: sleeping-bags
+        category: sleeping-bag
+        subcategory: Sleeping Bags
+        excludeTitleKeywords:
+          - liner
+          - pillow
+          - foot cover
+          - foot covers
+          - sleeping pad
+          - mat only
+      - handle: furniture
+        classifyFurniture: true
+        subcategory: Furniture
+        excludeTitleKeywords:
+          - cot
+          - shelf
+          - wagon
+          - hook
+          - peg
+          - storage
+          - container
+    allProductsFilters:
+      - category: tarp
+        includeKeywords:
+          - tarp
+          - canopy
+          - shelter
+          - awning
+        includeProductTypes:
+          - Tarp
+          - Canopies
+        excludeTitleKeywords:
+          - pop-up tent
+          - camping tent with
+          - auto tent
+
+  snow-peak:
+    brandId: snow-peak
+    sourceSite: snowpeak.com
+    baseUrl: https://www.snowpeak.com
+    currency: USD
+    adapter: shopify
+    rateLimitSeconds: 1.0
+    collections:
+      - handle: tents
+        category: tent
+        subcategory: Tents
+      - handle: 2-4-person-shelters
+        category: tarp
+        subcategory: Tarps and Shelters
+      - handle: 4-8-person-shelters
+        category: tarp
+        subcategory: Large Shelters
+      - handle: sleeping-bags
+        category: sleeping-bag
+        subcategory: Sleeping Bags
+      - handle: tables
+        category: table
+        subcategory: Tables
+        excludeTitleKeywords:
+          - insert
+          - connector
+          - bracket
+          - leg only
+          - frame only
+          - cushion
+          - cover only
+      - handle: chairs
+        category: chair
+        subcategory: Chairs
+        excludeTitleKeywords:
+          - cushion only
+          - cover only
+
+  helinox:
+    brandId: helinox
+    sourceSite: helinox.com
+    baseUrl: https://helinox.com
+    currency: USD
+    adapter: shopify
+    useBrowserUserAgent: true
+    rateLimitSeconds: 2.0
+    collections:
+      - handle: chairs
+        category: chair
+        subcategory: Chairs
+      - handle: tables
+        category: table
+        subcategory: Tables
+
+  dod:
+    brandId: dod
+    sourceSite: dodoutdoors.com
+    baseUrl: https://www.dodoutdoors.com
+    currency: USD
+    adapter: shopify
+    useBrowserUserAgent: true
+    rateLimitSeconds: 2.0
+    collections:
+      - handle: camp-furniture
+        classifyFurniture: true
+        subcategory: Camp Furniture
+        excludeTitleKeywords:
+          - shelf
+          - wagon
+          - hook
+          - peg
+          - storage
+          - container
+          - mat only
+      - handle: tents
+        category: tent
+        subcategory: Tents
+      - handle: tarps
+        category: tarp
+        subcategory: Tarps
+
+  blackdeer:
+    brandId: blackdeer
+    sourceSite: blackdeer.com
+    baseUrl: https://www.blackdeer.com
+    currency: USD
+    adapter: shopify
+    useBrowserUserAgent: true
+    rateLimitSeconds: 2.0
+    collections:
+      - handle: camp-furniture
+        classifyFurniture: true
+        subcategory: Camp Furniture
+        excludeTitleKeywords:
+          - shelf
+          - wagon
+          - hook
+          - peg
+          - storage
+          - container
+    allProductsFilters:
+      - category: table
+        includeKeywords:
+          - table
+          - desk
+          - igt
+        excludeTitleKeywords:
+          - tent
+          - tarp
+          - sleeping
+          - bag
+          - stove
+          - mat
+          - pad
+          - pole
+      - category: chair
+        includeKeywords:
+          - chair
+          - stool
+          - sofa
+          - bench
+          - recliner
+        excludeTitleKeywords:
+          - tent
+          - tarp
+          - sleeping
+          - bag
+          - table
+
+  mobi-garden:
+    brandId: mobi-garden
+    sourceSite: mobigarden.shop
+    baseUrl: https://mobigarden.shop
+    currency: USD
+    adapter: shopify
+    useBrowserUserAgent: true
+    rateLimitSeconds: 2.5
+    collections:
+      - handle: camp-chairs
+        category: chair
+        subcategory: Camp Chairs
+        excludeTitleKeywords:
+          - cover only
+          - hook
+          - peg
+      - handle: camp-tables
+        category: table
+        subcategory: Camp Tables
+        excludeTitleKeywords:
+          - board only
+          - hook
+          - peg
+          - shelf

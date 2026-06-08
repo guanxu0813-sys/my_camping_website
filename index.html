@@ -3,54 +3,128 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>露营帐篷与天幕 · 参数对比</title>
+  <title>CampGear Compare · 露营装备对比</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <link
+    rel="preload"
+    as="image"
+    href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Tent_camping_along_the_Sulayr_trail_in_La_Taha%2C_Sierra_Nevada_National_Park_%28DSCF5147%29.jpg/1280px-Tent_camping_along_the_Sulayr_trail_in_La_Taha%2C_Sierra_Nevada_National_Park_%28DSCF5147%29.jpg"
+  />
 </head>
-<body>
+<body data-page="home">
   <header class="site-header">
     <nav class="nav" aria-label="主导航">
-      <a class="nav__brand" href="#top">
+      <a class="nav__brand" href="index.html" aria-label="返回首页">
         <span class="nav__logo" aria-hidden="true">
           <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 4c-4 6-8 10-8 16a8 8 0 1016 0c0-6-4-10-8-16z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M16 12v12M12 18h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
         </span>
         <span class="nav__brand-text">CampGear <span class="nav__brand-ai">Compare</span></span>
       </a>
-      <ul class="nav__links">
-        <li><a href="#tables">参数总表</a></li>
-        <li><a href="#tents">帐篷</a></li>
-        <li><a href="#tarps">天幕</a></li>
+      <ul class="nav__links nav__links--categories">
+        <li><a href="index.html" aria-current="page">首页</a></li>
+        <li><a href="tent.html">帐篷</a></li>
+        <li><a href="tarp.html">天幕</a></li>
+        <li><a href="furniture.html">家具</a></li>
+        <li><a href="sleeping-bag.html">睡袋</a></li>
+        <li><a href="other.html">其他</a></li>
+        <li><a href="etc.html">等等</a></li>
       </ul>
     </nav>
   </header>
 
-  <main id="top" class="page">
-    <header class="page__head">
-      <p class="page__eyebrow">Product Compare</p>
-      <h1 class="page__title">露营帐篷与天幕 · 参数对比</h1>
-      <p class="page__lead">仅呈现主流型号的可对比参数：重量、结构、人数、价格与适用场景。数据为演示，选购请以品牌官网为准。</p>
-
-      <div class="filter-toolbar" role="group" aria-label="品类筛选">
-        <button type="button" class="filter-chip is-active" data-filter="all">全部</button>
-        <button type="button" class="filter-chip" data-filter="tent">帐篷</button>
-        <button type="button" class="filter-chip" data-filter="tarp">天幕</button>
+  <section class="hero" id="top" aria-label="站点头图">
+    <img
+      class="hero__media"
+      id="hero-image"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Tent_camping_along_the_Sulayr_trail_in_La_Taha%2C_Sierra_Nevada_National_Park_%28DSCF5147%29.jpg/1280px-Tent_camping_along_the_Sulayr_trail_in_La_Taha%2C_Sierra_Nevada_National_Park_%28DSCF5147%29.jpg"
+      alt="山地营地帐篷与远山实景"
+      width="1280"
+      height="720"
+      fetchpriority="high"
+      decoding="async"
+    />
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <div class="hero__content">
+        <p class="hero__eyebrow" id="hero-eyebrow">CampGear Compare</p>
+        <h1 class="hero__title" id="hero-title">露营装备 · 一表看清参数差异</h1>
+        <p class="hero__subtitle" id="hero-subtitle">帐篷、天幕主流型号重量、结构、人数与参考价并排对比，省去反复翻官网的麻烦</p>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <p id="catalog-status" class="catalog-status" role="status" aria-live="polite">正在加载产品数据…</p>
+  <section class="home-intro" aria-label="站点简介">
+    <p class="home-intro__text">买装备前最费时间？各家官网参数分散、单位不统一。CampGear 把主流型号整理成一张表，按重量、人数、价格快速筛选。</p>
+  </section>
 
-    <div id="compare-root" class="compare-root" hidden></div>
-
-    <p class="page__note">数据为演示用途；Hilleberg Nammatj 2 等配图为 Wikimedia Commons 实景，其余部分为同结构或场景参考。维护数据请编辑 <code>data/products.json</code> 与 <code>data/brands.json</code>。</p>
+  <main class="page page--home">
+    <section class="home-hub" aria-labelledby="home-hub-title">
+      <h2 id="home-hub-title" class="home-hub__title">选择产品类型</h2>
+      <div class="home-hub__grid home-hub__grid--6">
+        <a class="home-hub__card" href="tent.html">
+          <svg class="category-icon" width="40" height="40" viewBox="0 0 32 32" fill="none" aria-hidden="true"><use href="#icon-tent"/></svg>
+          <span class="home-hub__card-label">帐篷</span>
+          <span class="home-hub__card-desc">参数对比 + 型号介绍</span>
+        </a>
+        <a class="home-hub__card" href="tarp.html">
+          <svg class="category-icon" width="40" height="40" viewBox="0 0 32 32" fill="none" aria-hidden="true"><use href="#icon-tarp"/></svg>
+          <span class="home-hub__card-label">天幕</span>
+          <span class="home-hub__card-desc">参数对比 + 型号介绍</span>
+        </a>
+        <a class="home-hub__card" href="furniture.html">
+          <svg class="category-icon" width="40" height="40" viewBox="0 0 32 32" fill="none" aria-hidden="true"><use href="#icon-table"/></svg>
+          <span class="home-hub__card-label">家具</span>
+          <span class="home-hub__card-desc">桌椅矩阵 + 详情弹窗</span>
+        </a>
+        <a class="home-hub__card home-hub__card--muted" href="sleeping-bag.html">
+          <svg class="category-icon" width="40" height="40" viewBox="0 0 32 32" fill="none" aria-hidden="true"><use href="#icon-sleeping-bag"/></svg>
+          <span class="home-hub__card-label">睡袋</span>
+          <span class="home-hub__card-desc">品类筹备中</span>
+        </a>
+        <a class="home-hub__card home-hub__card--muted" href="other.html">
+          <span class="home-hub__card-label">其他</span>
+          <span class="home-hub__card-desc">品类筹备中</span>
+        </a>
+        <a class="home-hub__card home-hub__card--muted" href="etc.html">
+          <span class="home-hub__card-label">等等</span>
+          <span class="home-hub__card-desc">更多品类占位</span>
+        </a>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
     <div class="site-footer__inner">
-      <p class="site-footer__copy">© <span id="year"></span> CampGear Compare · 帐篷与天幕参数对比</p>
+      <p class="site-footer__copy">© <span id="year"></span> CampGear Compare · 露营装备对比</p>
     </div>
   </footer>
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="icon-tent" viewBox="0 0 32 32" fill="none">
+      <path d="M8 23L16 9l8 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M7 23h18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M14 23l2-4 2 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-tarp" viewBox="0 0 32 32" fill="none">
+      <path d="M5 14l11-4 11 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M5 14L8 22h16l3-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M8 22h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-sleeping-bag" viewBox="0 0 32 32" fill="none">
+      <path d="M11 8h10c2 0 3 1.2 3 3.5v11c0 2.2-1.6 3.5-4 3.5H12c-2.4 0-4-1.3-4-3.5v-11C8 9.2 9 8 11 8z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M10 16.5h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M13 8v2M19 8v2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-table" viewBox="0 0 32 32" fill="none">
+      <path d="M7 12h18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M10 12v9M22 12v9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M6 23h8M18 23h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M10 18h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    </symbol>
+  </svg>
 
   <script src="script.js"></script>
 </body>

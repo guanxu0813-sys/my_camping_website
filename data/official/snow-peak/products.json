@@ -1,0 +1,2541 @@
+[
+  {
+    "id": "snow-peak-alpha-breeze",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Alpha Breeze",
+    "modelEn": "Alpha Breeze",
+    "description": "The updated Alpha Breeze features lighter-weight, tear-resistant ripstop materials for the rainfly and inner tent, resulting in an overall weight reduction of 2.2 lbs. The material is made without intentionally added PFAS-based treatments and is designed to meet or exceed leading chemical safety standards. Designed specifically for the North American camper, the architecture of the Alpha Breeze is inspired by traditional A-frames and Adirondack cabins. The tent features convenient entry points on all four sides, offering added ventilation, and color-coordinated pieces for simple set-up. The Alpha Breeze provides ample living space, and the vestibule can be converted into an awning for an extended gathering area. Please note: The Alpha Breeze was updated on September 18th, 2025.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 11.34,
+      "weightDisplay": "约 11.34 kg",
+      "capacity": "2-4人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The updated Alpha Breeze features lighter-weight, tear-resistant ripstop materials for the rainfly and inner tent, resulting in an overall weight reduction of 2.2 lbs. The material is made without intentionally added PFAS-based treatments and is designed to meet or exceed leading chemical safety standards. Designed specifically for the North American camper, the architecture of the Alpha Breeze is"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/SD-480P-IV-US_20200917-5DS_0120_jpg.jpg?v=1758221200",
+    "imageAlt": "Alpha Breeze",
+    "sourceUrl": "https://www.snowpeak.com/products/alpha-breeze",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 549.95,
+    "priceMin": 549.95,
+    "priceMax": 549.95
+  },
+  {
+    "id": "snow-peak-alpha-breeze-tent-set",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Alpha Breeze Tent Set",
+    "modelEn": "Alpha Breeze Tent Set",
+    "description": "The Alpha Breeze Tent Set is a 2-piece camping set inclusive of the Alpha Breeze and its Mat & Sheet Set . Designed for family camping, the Alpha Breeze comfortably sleeps four people and offers an external gathering space with an extendable front flap. Use the mat and sheet within the tent for added sleeping comfort and insulation.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 17.92,
+      "weightDisplay": "约 17.92 kg",
+      "capacity": "2-4人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Alpha Breeze Tent Set is a 2-piece camping set inclusive of the Alpha Breeze and its Mat & Sheet Set . Designed for family camping, the Alpha Breeze comfortably sleeps four people and offers an external gathering space with an extendable front flap. Use the mat and sheet within the tent for added sleeping comfort and insulation."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/4-5Alpha-Breeze-Mat-and-Sheet-Set.jpg?v=1680197003",
+    "imageAlt": "Alpha Breeze Tent Set",
+    "sourceUrl": "https://www.snowpeak.com/products/alpha-breeze-tent-set",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 707.95,
+    "priceMin": 707.95,
+    "priceMax": 707.95
+  },
+  {
+    "id": "snow-peak-amenity-dome-2",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Amenity Dome 2",
+    "modelEn": "Amenity Dome 2",
+    "description": "The Amenity Dome 2 is a Japanese-designed 2-person tent offering easy setup and high functionality. Based on the original Amenity Dome design, this version features a natural earth-tone color and incorporates a variety of functional updates. The Amenity Dome 2 features a symmetrical vestibule with arched doors on either side, and a front door with side panels for weather resistance when used as an awning. Using an updated outer frame structure, the poles are inserted into the rainfly, allowing the tent to be used as a simple shelter. The inner tent is attached with clips to the inside of the rainfly, allowing the user to remain dry while setting it up. The rainfly features triangular mesh panels on either side for enhanced ventilation.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 5.9,
+      "weightDisplay": "约 5.9 kg",
+      "capacity": "1-2人-tent",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Amenity Dome 2 is a Japanese-designed 2-person tent offering easy setup and high functionality. Based on the original Amenity Dome design, this version features a natural earth-tone color and incorporates a variety of functional updates. The Amenity Dome 2 features a symmetrical vestibule with arched doors on either side, and a front door with side panels for weather resistance when used as an"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/SD-020_20250326-SP_M4_02294_path_jpg.jpg?v=1767124596",
+    "imageAlt": "Amenity Dome 2",
+    "sourceUrl": "https://www.snowpeak.com/products/amenity-dome-2",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 499.95,
+    "priceMin": 499.95,
+    "priceMax": 499.95
+  },
+  {
+    "id": "snow-peak-amenity-dome-3",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Amenity Dome 3",
+    "modelEn": "Amenity Dome 3",
+    "description": "The Amenity Dome 3 is a Japanese-designed 3-person tent offering easy setup and high functionality. Based on the original Amenity Dome design, this version features a natural earth-tone color and incorporates a variety of functional updates. The Amenity Dome 3 features a symmetrical vestibule with arched doors on either side, and a front door with side panels for weather resistance when used as an awning. Using an updated outer frame structure, the poles are inserted into the rainfly, allowing the tent to be used as a simple shelter. The inner tent is attached with clips to the inside of the rainfly, allowing the user to remain dry while setting it up. The rainfly features triangular mesh panels on either side for enhanced ventilation.",
+    "currency": "USD",
+    "specs": {
+      "capacity": "2-4人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Amenity Dome 3 is a Japanese-designed 3-person tent offering easy setup and high functionality. Based on the original Amenity Dome design, this version features a natural earth-tone color and incorporates a variety of functional updates. The Amenity Dome 3 features a symmetrical vestibule with arched doors on either side, and a front door with side panels for weather resistance when used as an"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/SD-030_20250326-SP_M4_02269_path_jpg.jpg?v=1767126532",
+    "imageAlt": "Amenity Dome 3",
+    "sourceUrl": "https://www.snowpeak.com/products/amenity-dome-3",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 639.95,
+    "priceMin": 639.95,
+    "priceMax": 639.95
+  },
+  {
+    "id": "snow-peak-amenity-dome-m-ivory",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Amenity Dome Medium in Ivory",
+    "modelEn": "Amenity Dome Medium in Ivory",
+    "description": "The Amenity Dome Medium in Ivory is a Japanese-designed four-person tent. Use during outdoor excursions for a comfortable sleeping and living space. The Amenity Dome Medium in Ivory has undergone rigorous testing to ensure top performance in 3-season weather conditions. It features an outer vestibule, a removable rainfly, ample ventilation, color-coordinated pieces for simple set-up, and side pockets for storage. Pair the Amenity Dome Medium in Ivory with the Take! Chair and My Table for a relaxing set-up. Check out our tent care tutorial for expert advice.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 9.06,
+      "weightDisplay": "约 9.06 kg",
+      "capacity": "2-4人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Amenity Dome Medium in Ivory is a Japanese-designed four-person tent. Use during outdoor excursions for a comfortable sleeping and living space. The Amenity Dome Medium in Ivory has undergone rigorous testing to ensure top performance in 3-season weather conditions. It features an outer vestibule, a removable rainfly, ample ventilation, color-coordinated pieces for simple set-up, and side pock"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/amenity_dome_m_ivory_sde-001-iv-us_hero_01.jpg?v=1752062857",
+    "imageAlt": "Amenity Dome Medium in Ivory",
+    "sourceUrl": "https://www.snowpeak.com/products/amenity-dome-m-ivory",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 279.96,
+    "priceMin": 279.96,
+    "priceMax": 279.96
+  },
+  {
+    "id": "snow-peak-amenity-dome-s-ivory",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Amenity Dome Small in Ivory",
+    "modelEn": "Amenity Dome Small in Ivory",
+    "description": "The Amenity Dome Small in Ivory is a Japanese-designed two-person tent. Use for outdoor excursions for a comfortable sleeping and living space. The Amenity Dome Small in Ivory features an outer vestibule, a removable rainfly, ample ventilation, color-coordinated pieces for simple set-up, and side pockets for storage. Pair with the Take! Chair and My Table for a relaxing set-up. Check out our tent care tutorial for expert advice.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 5.8,
+      "weightDisplay": "约 5.8 kg",
+      "capacity": "1-2人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Amenity Dome Small in Ivory is a Japanese-designed two-person tent. Use for outdoor excursions for a comfortable sleeping and living space. The Amenity Dome Small in Ivory features an outer vestibule, a removable rainfly, ample ventilation, color-coordinated pieces for simple set-up, and side pockets for storage. Pair with the Take! Chair and My Table for a relaxing set-up. Check out our tent "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/amenity_dome_s_ivory_sde-002-iv-us_hero_01.jpg?v=1752062857",
+    "imageAlt": "Amenity Dome Small in Ivory",
+    "sourceUrl": "https://www.snowpeak.com/products/amenity-dome-s-ivory",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 227.46,
+    "priceMin": 227.46,
+    "priceMax": 227.46
+  },
+  {
+    "id": "snow-peak-long-folding-shelf-bamboo-lv-066tr",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Bamboo Folding Bench Long",
+    "modelEn": "Bamboo Folding Bench Long",
+    "description": "Made in Japan, the Renewed Long Folding Shelf offers multi-use bamboo surface supported by aluminum legs. Now in an updated finish, use the Renewed Long Folding Shelf as a narrow table, bench or storage space. Intended for use in camp or the home, the Renewed Long Folding Shelf can be set-up by simply attaching the legs to the benchtop by inserting into notches. Pair the Renewed Long Folding Shelf with the Single Action Table Large .",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 6.64,
+      "weightDisplay": "约 6.64 kg",
+      "structure": "Tables"
+    },
+    "highlights": [
+      "Made in Japan, the Renewed Long Folding Shelf offers multi-use bamboo surface supported by aluminum legs. Now in an updated finish, use the Renewed Long Folding Shelf as a narrow table, bench or storage space. Intended for use in camp or the home, the Renewed Long Folding Shelf can be set-up by simply attaching the legs to the benchtop by inserting into notches. Pair the Renewed Long Folding Shelf"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/long_folding_shelf_bamboo_lv-066tr_hero_01.jpg?v=1587494592",
+    "imageAlt": "Bamboo Folding Bench Long",
+    "sourceUrl": "https://www.snowpeak.com/products/long-folding-shelf-bamboo-lv-066tr",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 237.95,
+    "priceMin": 237.95,
+    "priceMax": 237.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-bamboo-folding-shelf-light",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Bamboo Folding Shelf Light",
+    "modelEn": "Bamboo Folding Shelf Light",
+    "description": "The Bamboo Folding Shelf Light offers a multi-use bamboo surface supported by aluminum legs. Featuring a honeycomb-shaped internal structure, the surface offers strength and stability while significantly reducing weight. Use it as a narrow table, bench, or storage shelf. Intended for use at camp or at home, the Bamboo Folding Shelf Light can be set up by simply attaching the legs to the top by inserting them into notches.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 4.08,
+      "weightDisplay": "约 4.08 kg",
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "The Bamboo Folding Shelf Light offers a multi-use bamboo surface supported by aluminum legs. Featuring a honeycomb-shaped internal structure, the surface offers strength and stability while significantly reducing weight. Use it as a narrow table, bench, or storage shelf. Intended for use at camp or at home, the Bamboo Folding Shelf Light can be set up by simply attaching the legs to the top by ins"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/LV-065TL_20231008-SP_M4_07287_path_jpg_47291e37-48fa-4080-ae77-9c3497ec20e0.png?v=1717091955",
+    "imageAlt": "Bamboo Folding Shelf Light",
+    "sourceUrl": "https://www.snowpeak.com/products/bamboo-folding-shelf-light",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 299.95,
+    "priceMin": 299.95,
+    "priceMax": 299.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-racksotto-multi-starter-set-ar",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Campfield Futon Starter Set",
+    "modelEn": "Campfield Futon Starter Set",
+    "description": "The Campfield Futon Starter Set epitomizes Japanese design and functionality. Use the futon as a bed, two individual chairs with the third portion as a table, or three separate stacking shelves. Pack it up and take it camping, use it on your patio or in your living room. The Campfield Futon Starter Set includes two natural wood armrests for added style, plus three base pieces, backrest, and seat cushions.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 27.22,
+      "weightDisplay": "约 27.22 kg",
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "The Campfield Futon Starter Set epitomizes Japanese design and functionality. Use the futon as a bed, two individual chairs with the third portion as a table, or three separate stacking shelves. Pack it up and take it camping, use it on your patio or in your living room. The Campfield Futon Starter Set includes two natural wood armrests for added style, plus three base pieces, backrest, and seat c"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/campfield_futon_starter_set_set-220_hero_01_d82f0177-1b87-4de1-ba76-72547f21b7ab.jpg?v=1590775111",
+    "imageAlt": "Campfield Futon Starter Set",
+    "sourceUrl": "https://www.snowpeak.com/products/racksotto-multi-starter-set-ar",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 969.95,
+    "priceMin": 969.95,
+    "priceMax": 969.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-connection-table",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Connection Table",
+    "modelEn": "Connection Table",
+    "description": "The Connection Table is a versatile, low-height, table. Made from stainless steel and treated with a fire-resistant coating, the Connection Table can be used as a table, shelf, or bench. The table is compatible with most IGT Extensions using Low Height Legs , and can be connected with the Jikaro Firering Table to create an extended fire-safe table space.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 7.86,
+      "weightDisplay": "约 7.86 kg",
+      "structure": "Tables"
+    },
+    "highlights": [
+      "The Connection Table is a versatile, low-height, table. Made from stainless steel and treated with a fire-resistant coating, the Connection Table can be used as a table, shelf, or bench. The table is compatible with most IGT Extensions using Low Height Legs , and can be connected with the Jikaro Firering Table to create an extended fire-safe table space."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/LV-38114.png?v=1704748612",
+    "imageAlt": "Connection Table",
+    "sourceUrl": "https://www.snowpeak.com/products/connection-table",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 329.95,
+    "priceMin": 329.95,
+    "priceMax": 329.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-dog-cot",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Dog Cot",
+    "modelEn": "Dog Cot",
+    "description": "Featuring a stainless steel body and washable canvas cover, the Dog Cot is modeled after the Low Beach Chair. Use the comfortable, elevated Dog Cot for your furry companion, then fold it up for easy storage. Pair the Dog Cot with the Dog Cushion for extra comfort. The Dog Cot supports dogs up to 33 lbs in size.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.78,
+      "weightDisplay": "约 2.78 kg",
+      "structure": "Pets"
+    },
+    "highlights": [
+      "Featuring a stainless steel body and washable canvas cover, the Dog Cot is modeled after the Low Beach Chair. Use the comfortable, elevated Dog Cot for your furry companion, then fold it up for easy storage. Pair the Dog Cot with the Dog Cushion for extra comfort. The Dog Cot supports dogs up to 33 lbs in size."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/pt-042_hero_01.jpg?v=1641513454",
+    "imageAlt": "Dog Cot",
+    "sourceUrl": "https://www.snowpeak.com/products/dog-cot",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 159.95,
+    "priceMin": 159.95,
+    "priceMax": 159.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-system-ofuton-300-slim-mat-plus",
+    "brandId": "snow-peak",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Down System Ofuton & Slim Mat",
+    "modelEn": "Down System Ofuton & Slim Mat",
+    "description": "The Down System Ofuton & Slim Mat is an adjustable comforter and mattress system designed in the style of a Japanese futon, with added functionality for improved comfort at camp. The comforter is filled with warm down and features six connection points for securing it to the mat, allowing the comforter to remain fixed in place for a comfortable night's sleep. Flaps on each side can be folded under before securing the straps, and a drawstring closure at the top of the bag can be tightened to maximize heat retention. The flaps can be secured at four points, on the top and bottom, for enhanced warmth and comfort.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.16,
+      "weightDisplay": "约 2.16 kg",
+      "structure": "Cots & Sleeping",
+      "fillType": "羽绒",
+      "bagType": "睡袋系统"
+    },
+    "highlights": [
+      "The Down System Ofuton & Slim Mat is an adjustable comforter and mattress system designed in the style of a Japanese futon, with added functionality for improved comfort at camp. The comforter is filled with warm down and features six connection points for securing it to the mat, allowing the comforter to remain fixed in place for a comfortable night's sleep. Flaps on each side can be folded under"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/BD-060_SNP0125A0180_x_c101_jpg.jpg?v=1769447105",
+    "imageAlt": "Down System Ofuton & Slim Mat",
+    "sourceUrl": "https://www.snowpeak.com/products/system-ofuton-300-slim-mat-plus",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:52Z",
+    "status": "draft",
+    "price": 364.95,
+    "priceMin": 364.95,
+    "priceMax": 364.95
+  },
+  {
+    "id": "snow-peak-system-ofuton-300-mat-plus",
+    "brandId": "snow-peak",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Down System Ofuton & Wide Mat",
+    "modelEn": "Down System Ofuton & Wide Mat",
+    "description": "The Down System Ofuton & Wide Mat is an adjustable comforter and mattress system designed in the style of a Japanese futon, with added functionality for improved comfort at camp. The comforter is filled with warm down and features six connection points for securing it to the mat, allowing the comforter to remain fixed in place for a comfortable night's sleep. Flaps on each side can be folded under before securing the straps, and a drawstring closure at the top of the bag can be tightened to maximize heat retention. The flaps can be secured at four points, on the top and bottom, for enhanced warmth and comfort.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.36,
+      "weightDisplay": "约 2.36 kg",
+      "structure": "Cots & Sleeping",
+      "fillType": "羽绒",
+      "bagType": "睡袋系统"
+    },
+    "highlights": [
+      "The Down System Ofuton & Wide Mat is an adjustable comforter and mattress system designed in the style of a Japanese futon, with added functionality for improved comfort at camp. The comforter is filled with warm down and features six connection points for securing it to the mat, allowing the comforter to remain fixed in place for a comfortable night's sleep. Flaps on each side can be folded under"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/BD-070_SNP0125A0183_x_c101_jpg.jpg?v=1769447189",
+    "imageAlt": "Down System Ofuton & Wide Mat",
+    "sourceUrl": "https://www.snowpeak.com/products/system-ofuton-300-mat-plus",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:52Z",
+    "status": "draft",
+    "price": 374.95,
+    "priceMin": 374.95,
+    "priceMax": 374.95
+  },
+  {
+    "id": "snow-peak-entry-pack-tent-tarp-1",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Entry Pack TT",
+    "modelEn": "Entry Pack TT",
+    "description": "Designed with space for the whole family, the Entry Pack Tent & Tarp is the ideal set for any outdoor adventure. The Entry Pack Tent & Tarp combines the Vault Tent with the Amenity Tarp Hexa for the ultimate car camping set-up. With space for four, the tent and tarp can be used together as a full set or separated for additional modularity. Use the tent for sleeping, and the tarp area for gathering and cooking. The tent’s arch frame consists of color-coded pieces to ensure easy setup for first-time use. The compact tarp acts as a shade on warm days and shelter from unexpected rain or wind. Pair the Entry Pack Tent & Tarp with the Entry Pack TT Mat & Sheet Set for additional comfort and protection.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 16.33,
+      "weightDisplay": "约 16.33 kg",
+      "capacity": "2-4人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "Designed with space for the whole family, the Entry Pack Tent & Tarp is the ideal set for any outdoor adventure. The Entry Pack Tent & Tarp combines the Vault Tent with the Amenity Tarp Hexa for the ultimate car camping set-up. With space for four, the tent and tarp can be used together as a full set or separated for additional modularity. Use the tent for sleeping, and the tarp area for gathering"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/set-250rh_hero_01.jpg?v=1641581514",
+    "imageAlt": "Entry Pack TT",
+    "sourceUrl": "https://www.snowpeak.com/products/entry-pack-tent-tarp-1",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 453.56,
+    "priceMin": 453.56,
+    "priceMax": 453.56
+  },
+  {
+    "id": "snow-peak-extension-igt",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Extension IGT",
+    "modelEn": "Extension IGT",
+    "description": "The Extension IGT is a two-unit expandable Iron Grill Table. The table has a minimalistic design that does not require any connection tools or extension pieces. The Extension IGT features two laminated bamboo tabletops and an aluminum alloy stand. To use, slide each side of the bamboo to their respective opposite sides and insert a stove in the middle. Pair the Extension IGT with the Double Burner Stove for a complete cooking set-up. burn Please note, the Extension IGT cannot be used with any BBQ Boxes or the Grill Burner.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 14.06,
+      "weightDisplay": "约 14.06 kg",
+      "structure": "Iron Grill Table"
+    },
+    "highlights": [
+      "The Extension IGT is a two-unit expandable Iron Grill Table. The table has a minimalistic design that does not require any connection tools or extension pieces. The Extension IGT features two laminated bamboo tabletops and an aluminum alloy stand. To use, slide each side of the bamboo to their respective opposite sides and insert a stove in the middle. Pair the Extension IGT with the Double Burner"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/extension_igt_ck-090_hero_01.jpg?v=1640206771",
+    "imageAlt": "Extension IGT",
+    "sourceUrl": "https://www.snowpeak.com/products/extension-igt",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 419.95,
+    "priceMin": 419.95,
+    "priceMax": 419.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-folding-chair-leg-cap-set",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Folding Chair Leg Cap Set",
+    "modelEn": "Folding Chair Leg Cap Set",
+    "description": "The Folding Chair Leg Cap Set adds traction and floor protection to the legs of the Folding Chair, allowing it to be used indoors. The material is made from a combination of hard and soft plastics for grip and durability, while the shape is designed to prevent the caps from slipping off accidentally.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "The Folding Chair Leg Cap Set adds traction and floor protection to the legs of the Folding Chair, allowing it to be used indoors. The material is made from a combination of hard and soft plastics for grip and durability, while the shape is designed to prevent the caps from slipping off accidentally."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/UG-156_20241016-SP_M4_02118_path_jpg.jpg?v=1760989521",
+    "imageAlt": "Folding Chair Leg Cap Set",
+    "sourceUrl": "https://www.snowpeak.com/products/folding-chair-leg-cap-set",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 17.95,
+    "priceMin": 17.95,
+    "priceMax": 17.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-gf-005",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Garden Bench",
+    "modelEn": "Garden Bench",
+    "description": "Crafted of ultra-durable itauba wood, the Garden Table Bench is the ideal seating companion for the Garden Table. Itauba is known for its density and rot resistance, making it an ideal material for outdoor decking and furniture. Thin wood slats create a comfortable seating surface that can be used indoors or on a patio. Pair with the Garden Table for a complete set-up.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 16.8,
+      "weightDisplay": "约 16.8 kg",
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "Crafted of ultra-durable itauba wood, the Garden Table Bench is the ideal seating companion for the Garden Table. Itauba is known for its density and rot resistance, making it an ideal material for outdoor decking and furniture. Thin wood slats create a comfortable seating surface that can be used indoors or on a patio. Pair with the Garden Table for a complete set-up."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/garden_table_bench_gf-005_hero_01.jpg?v=1600364600",
+    "imageAlt": "Garden Bench",
+    "sourceUrl": "https://www.snowpeak.com/products/gf-005",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 1295.95,
+    "priceMin": 1295.95,
+    "priceMax": 1295.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-garden-unit-table-set",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Garden Unit Table Set",
+    "modelEn": "Garden Unit Table Set",
+    "description": "Designed to create a beautiful backyard IGT experience, the Garden Unit Table Set includes the Garden Unit Table and four wood inserts. Both the table and inserts are crafted from durable Itauba Wood, known for its density and rot resistance, making it an ideal material for outdoor decking and furniture. Sturdy stainless steel legs and frame complete the foundation. The Garden Unit Table Set is designed to comfortably seat 4-6 with 4 units of IGT space in the center. Insert the included Wood Inserts to fill 4 units of space or add compatible cooking or storage accessories. Pair with the Garden Table Bench for a complete outdoor set.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 40.82,
+      "weightDisplay": "约 40.82 kg",
+      "structure": "Tables"
+    },
+    "highlights": [
+      "Designed to create a beautiful backyard IGT experience, the Garden Unit Table Set includes the Garden Unit Table and four wood inserts. Both the table and inserts are crafted from durable Itauba Wood, known for its density and rot resistance, making it an ideal material for outdoor decking and furniture. Sturdy stainless steel legs and frame complete the foundation. The Garden Unit Table Set is de"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/garden_table_unit_set_GF-015_hero_01.jpg?v=1623111731",
+    "imageAlt": "Garden Unit Table Set",
+    "sourceUrl": "https://www.snowpeak.com/products/garden-unit-table-set",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 2799.95,
+    "priceMin": 2799.95,
+    "priceMax": 2799.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-folding-gray-bench",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Gray Folding Bench",
+    "modelEn": "Gray Folding Bench",
+    "description": "With aluminum legs and a canvas seat, the Gray Folding Bench is a multi-functional camp essential. Use the bench for comfortably seating two adults or to store personal belongings or luggage. The Gray Folding Bench folds flat for easy storage when not in use. Pair the Gray Folding Bench with the Gray Folding Chair for a cohesive look.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 3.17,
+      "weightDisplay": "约 3.17 kg",
+      "capacity": "1-2人",
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "With aluminum legs and a canvas seat, the Gray Folding Bench is a multi-functional camp essential. Use the bench for comfortably seating two adults or to store personal belongings or luggage. The Gray Folding Bench folds flat for easy storage when not in use. Pair the Gray Folding Bench with the Gray Folding Chair for a cohesive look."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/folding_bench_gy_lv-071gy_hero_01.jpg?v=1587503153",
+    "imageAlt": "Gray Folding Bench",
+    "sourceUrl": "https://www.snowpeak.com/products/folding-gray-bench",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 139.95,
+    "priceMin": 139.95,
+    "priceMax": 139.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-gray-folding-chair",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Gray Folding Chair",
+    "modelEn": "Gray Folding Chair",
+    "description": "Designed in Japan, the Gray Folding Chair has aluminum legs and a comfortable canvas seat. The chair is sleek enough for the home and durable enough for the campsite. Fold it down flat for compact storage. Pair the Gray Folding Chair with the Renewed Bamboo My Table for a complete set-up.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 4.02,
+      "weightDisplay": "约 4.02 kg",
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "Designed in Japan, the Gray Folding Chair has aluminum legs and a comfortable canvas seat. The chair is sleek enough for the home and durable enough for the campsite. Fold it down flat for compact storage. Pair the Gray Folding Chair with the Renewed Bamboo My Table for a complete set-up."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/folding_chair_gy_lv-077gy_hero_01.jpg?v=1587494927",
+    "imageAlt": "Gray Folding Chair",
+    "sourceUrl": "https://www.snowpeak.com/products/gray-folding-chair",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 149.95,
+    "priceMin": 149.95,
+    "priceMax": 149.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-hd-tarp-shield-mawe",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Large Shelters",
+    "model": "HD Para Tarp",
+    "modelEn": "HD Para Tarp",
+    "description": "The HD Para Tarp is a three-pole tarp with a new innovative design. The tarp features an elevated front for easy entry, while the center section is optimal for seated gatherings. The structure of the tarp funnels rainwater toward the outer corners, protecting campers from the elements. The HD Para Tarp is comprised of waterproof fabric that also provides UV protection. Pair the tarp with the Red Lounge Set for a protected gathering experience. Please note: Wing Poles are not included and need to be purchased separately.",
+    "currency": "USD",
+    "specs": {
+      "capacity": "4-8人-shelter",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "The HD Para Tarp is a three-pole tarp with a new innovative design. The tarp features an elevated front for easy entry, while the center section is optimal for seated gatherings. The structure of the tarp funnels rainwater toward the outer corners, protecting campers from the elements. The HD Para Tarp is comprised of waterproof fabric that also provides UV protection. Pair the tarp with the Red L"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/mawe_tarp_tp-511_hero_01.jpg?v=1626214190",
+    "imageAlt": "HD Para Tarp",
+    "sourceUrl": "https://www.snowpeak.com/products/hd-tarp-shield-mawe",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:51Z",
+    "status": "draft",
+    "price": 293.97,
+    "priceMin": 293.97,
+    "priceMax": 293.97
+  },
+  {
+    "id": "snow-peak-hd-tarp-hexa-evo-pro-ivory",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Large Shelters",
+    "model": "HD Tarp Hexa Evo Pro. Ivory",
+    "modelEn": "HD Tarp Hexa Evo Pro. Ivory",
+    "description": "Part of the Snow Peak Ivory Series, the elegant HD Tarp Hexa Evo Pro. Ivory Tarp provides protection from the elements while creating ample living space for any outdoor experience. The 2 pole, 6 stake set-up is easy and efficient while the applied Shield process provides water-repellent coverage. Pair with the HD Tarp Hexa Evo Pro. Ivory with the Red Wing 280cm for a cohesive look. Please note poles and stakes are sold separately. We suggest pairing with the Wing Pole 280cm .",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 5.69,
+      "weightDisplay": "约 5.69 kg",
+      "capacity": "4-6人",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "Part of the Snow Peak Ivory Series, the elegant HD Tarp Hexa Evo Pro. Ivory Tarp provides protection from the elements while creating ample living space for any outdoor experience. The 2 pole, 6 stake set-up is easy and efficient while the applied Shield process provides water-repellent coverage. Pair with the HD Tarp Hexa Evo Pro. Ivory with the Red Wing 280cm for a cohesive look. Please note pol"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/hd_tarp_hexa_evo_pro._ivory_tp-260iv_hero_01.jpg?v=1587502766",
+    "imageAlt": "HD Tarp Hexa Evo Pro. Ivory",
+    "sourceUrl": "https://www.snowpeak.com/products/hd-tarp-hexa-evo-pro-ivory",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:51Z",
+    "status": "draft",
+    "price": 549.95,
+    "priceMin": 549.95,
+    "priceMax": 549.95
+  },
+  {
+    "id": "snow-peak-hd-tarp-shield-hexa-evo-pro",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Large Shelters",
+    "model": "HD Tarp Shield Hexa Evo Pro.",
+    "modelEn": "HD Tarp Shield Hexa Evo Pro.",
+    "description": "The HD Tarp Shield Hexa Evo Pro is a Japanese-designed tarp made of Snow Peak Shield Material. The easy-to-set-up tarp requires only two poles and six stakes to create a central gathering space in the campsite. The elegant shape combines innovative design with the functionality to house multiple tents and living areas underneath. Please note: Wing Poles are not included. For use during Takibi Time, pair with the fire-resistant Hexa Evo Takibi Inner Tarp.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 4.99,
+      "weightDisplay": "约 4.99 kg",
+      "capacity": "4-6人",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "The HD Tarp Shield Hexa Evo Pro is a Japanese-designed tarp made of Snow Peak Shield Material. The easy-to-set-up tarp requires only two poles and six stakes to create a central gathering space in the campsite. The elegant shape combines innovative design with the functionality to house multiple tents and living areas underneath. Please note: Wing Poles are not included. For use during Takibi Time"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/hd_tarp_shield_hexa_evo_pro._tp-250r_hero_01.jpg?v=1587506100",
+    "imageAlt": "HD Tarp Shield Hexa Evo Pro.",
+    "sourceUrl": "https://www.snowpeak.com/products/hd-tarp-shield-hexa-evo-pro",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:51Z",
+    "status": "draft",
+    "price": 499.95,
+    "priceMin": 499.95,
+    "priceMax": 499.95
+  },
+  {
+    "id": "snow-peak-hexa-ease-1-ivory",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Hexa Ease 1 in Ivory",
+    "modelEn": "Hexa Ease 1 in Ivory",
+    "description": "The Hexa Ease 1 in Ivory is a tent and tarp combination designed for one person. The Hexa Ease 1 in Ivory is compact and lightweight. It features an extended flysheet that offers additional living space and a multi-entrance inner tent with ample mesh ventilation. Pair with the Gigapower Stove and Ti-Mini Solo for a minimalist solo trip.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 5.67,
+      "weightDisplay": "约 5.67 kg",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Hexa Ease 1 in Ivory is a tent and tarp combination designed for one person. The Hexa Ease 1 in Ivory is compact and lightweight. It features an extended flysheet that offers additional living space and a multi-entrance inner tent with ample mesh ventilation. Pair with the Gigapower Stove and Ti-Mini Solo for a minimalist solo trip."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/hexa_ease_ivory_sdi-101-iv-us_hero_01.jpg?v=1620329884",
+    "imageAlt": "Hexa Ease 1 in Ivory",
+    "sourceUrl": "https://www.snowpeak.com/products/hexa-ease-1-ivory",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 299.97,
+    "priceMin": 299.97,
+    "priceMax": 299.97
+  },
+  {
+    "id": "snow-peak-takibi-hd-tarp-hexa-evo-pro-inner-roof",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Large Shelters",
+    "model": "Hexa Evo Takibi Inner Tarp",
+    "modelEn": "Hexa Evo Takibi Inner Tarp",
+    "description": "The Takibi Tarp Hexa Inner Roof is designed exclusively for Hexa tarps. The inner roof is made of fire-resistant material. Pair the Takibi Tarp Hexa Inner Roof with the HD Tarp Shield Hexa Evo Pro for a comfortable fireside gathering.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.82,
+      "weightDisplay": "约 2.82 kg",
+      "capacity": "4-8人-shelter",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "The Takibi Tarp Hexa Inner Roof is designed exclusively for Hexa tarps. The inner roof is made of fire-resistant material. Pair the Takibi Tarp Hexa Inner Roof with the HD Tarp Shield Hexa Evo Pro for a comfortable fireside gathering."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/TP-250IR_hero01.jpg?v=1630020791",
+    "imageAlt": "Hexa Evo Takibi Inner Tarp",
+    "sourceUrl": "https://www.snowpeak.com/products/takibi-hd-tarp-hexa-evo-pro-inner-roof",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:51Z",
+    "status": "draft",
+    "price": 269.95,
+    "priceMin": 269.95,
+    "priceMax": 269.95
+  },
+  {
+    "id": "snow-peak-hexa-tarp-m",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Tarps and Shelters",
+    "model": "Hexa Tarp M",
+    "modelEn": "Hexa Tarp M",
+    "description": "The HD Hexa Tarp M is a Japanese-designed tarp made of Snow Peak Shield material. Use the HD Hexa Tarp M for groups up to four people. The water-repellent tarp also offers protection from the sun, while still letting light in. Please note: Solid Stakes and Wing Poles are sold separately.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.92,
+      "weightDisplay": "约 2.92 kg",
+      "capacity": "2-4人-shelter",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "The HD Hexa Tarp M is a Japanese-designed tarp made of Snow Peak Shield material. Use the HD Hexa Tarp M for groups up to four people. The water-repellent tarp also offers protection from the sun, while still letting light in. Please note: Solid Stakes and Wing Poles are sold separately."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/TP-861H_HERO_01.jpg?v=1641854262",
+    "imageAlt": "Hexa Tarp M",
+    "sourceUrl": "https://www.snowpeak.com/products/hexa-tarp-m",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:49Z",
+    "status": "draft",
+    "price": 257.56,
+    "priceMin": 257.56,
+    "priceMax": 257.56
+  },
+  {
+    "id": "snow-peak-hexa-tarp-pro-set-m",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Tarps and Shelters",
+    "model": "Hexa Tarp Pro Set M",
+    "modelEn": "Hexa Tarp Pro Set M",
+    "description": "The HD Hexa Tarp Pro. Set M is a Japanese-designed tarp made of Snow Peak Shield material. Use the HD Hexa Tarp Pro Set M for small groups up to four people. The water-repellent tarp also offers protection from the sun, while still letting light in. The set includes Solid Stakes, Wing Pole, and Copper Head Peg Hammer. Pair the HD Hexa Tarp Pro. Set M with the Campfield Futon Starter Set for an outdoor lounge setup.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 9.4,
+      "weightDisplay": "约 9.4 kg",
+      "capacity": "2-4人",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "The HD Hexa Tarp Pro. Set M is a Japanese-designed tarp made of Snow Peak Shield material. Use the HD Hexa Tarp Pro Set M for small groups up to four people. The water-repellent tarp also offers protection from the sun, while still letting light in. The set includes Solid Stakes, Wing Pole, and Copper Head Peg Hammer. Pair the HD Hexa Tarp Pro. Set M with the Campfield Futon Starter Set for an out"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/tp-861s_hero_01.jpg?v=1641854365",
+    "imageAlt": "Hexa Tarp Pro Set M",
+    "sourceUrl": "https://www.snowpeak.com/products/hexa-tarp-pro-set-m",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:49Z",
+    "status": "draft",
+    "price": 377.96,
+    "priceMin": 377.96,
+    "priceMax": 377.96
+  },
+  {
+    "id": "snow-peak-copy-of-hd-hexa-tarp-pro-set-l",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Large Shelters",
+    "model": "Hexa Tarp Set L",
+    "modelEn": "Hexa Tarp Set L",
+    "description": "The HD Hexa Tarp Pro. Set Large is a Japanese-designed tarp made of Snow Peak Shield material. Use the HD Hexa Tarp Pro Set L for groups up to six people. The water-repellent tarp also offers protection from the sun, while still letting light in. The set includes Solid Stakes, Wing Pole, and Copper Head Peg Hammer. Pair the HD Hexa Tarp Pro. Set L with the Land Breeze 4 .",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 9.53,
+      "weightDisplay": "约 9.53 kg",
+      "capacity": "4-6人",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "The HD Hexa Tarp Pro. Set Large is a Japanese-designed tarp made of Snow Peak Shield material. Use the HD Hexa Tarp Pro Set L for groups up to six people. The water-repellent tarp also offers protection from the sun, while still letting light in. The set includes Solid Stakes, Wing Pole, and Copper Head Peg Hammer. Pair the HD Hexa Tarp Pro. Set L with the Land Breeze 4 ."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/hd_hexa_tarp_pro_set_l_tp-862s_hero_01.jpg?v=1641854654",
+    "imageAlt": "Hexa Tarp Set L",
+    "sourceUrl": "https://www.snowpeak.com/products/copy-of-hd-hexa-tarp-pro-set-l",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:51Z",
+    "status": "draft",
+    "price": 549.95,
+    "priceMin": 549.95,
+    "priceMax": 549.95
+  },
+  {
+    "id": "snow-peak-igt-slim",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "IGT Slim",
+    "modelEn": "IGT Slim",
+    "description": "The IGT Slim is a modern Iron Grill Table. The slim is made of teak wood that is highly weather resistant. The IGT Slim features six wood panels, frame with 2 foldable legs, and a carrying case. Use it in the home, garden or campsite for a cooking or dining space. Remove any of the six wood panels to insert a stovetop or use as a workspace. Pair the IGT Slim with the Low Beach Chair or inserts from our Iron Grill Table series.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 9.4,
+      "weightDisplay": "约 9.4 kg",
+      "capacity": "2-4人",
+      "structure": "Tables"
+    },
+    "highlights": [
+      "The IGT Slim is a modern Iron Grill Table. The slim is made of teak wood that is highly weather resistant. The IGT Slim features six wood panels, frame with 2 foldable legs, and a carrying case. Use it in the home, garden or campsite for a cooking or dining space. Remove any of the six wood panels to insert a stovetop or use as a workspace. Pair the IGT Slim with the Low Beach Chair or inserts fro"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/CK-180_hero01.jpg?v=1630015639",
+    "imageAlt": "IGT Slim",
+    "sourceUrl": "https://www.snowpeak.com/products/igt-slim",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 449.95,
+    "priceMin": 449.95,
+    "priceMax": 449.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-lago-1-ivory",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Lago 1 in Ivory",
+    "modelEn": "Lago 1 in Ivory",
+    "description": "The Lago in Ivory is a one-person tent designed for backpacking. The Lago 1 in Ivory is minimalist and lightweight. It features an inner and outer wall for durability and protection from the elements and mesh panels for ventilation.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.36,
+      "weightDisplay": "约 1.36 kg",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Lago in Ivory is a one-person tent designed for backpacking. The Lago 1 in Ivory is minimalist and lightweight. It features an inner and outer wall for durability and protection from the elements and mesh panels for ventilation."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/lago_1_ivory-ssd-730-iv-us_hero_01.jpg?v=1620329959",
+    "imageAlt": "Lago 1 in Ivory",
+    "sourceUrl": "https://www.snowpeak.com/products/lago-1-ivory",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 227.46,
+    "priceMin": 227.46,
+    "priceMax": 227.46
+  },
+  {
+    "id": "snow-peak-land-breeze-pro-1",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Land Breeze Pro. 1",
+    "modelEn": "Land Breeze Pro. 1",
+    "description": "Constructed with advanced materials for increased performance, the Land Breeze Pro. 1 is part of the enhanced Land Breeze dome tent series. Designed to comfortably accommodate two people, the Land Breeze Pro. 1 is wind-resistant and able to withstand year-round weather. The tent has a side vestibule entry, wall pockets for storage and color-coordinated poles for a simplified set-up. The Land Breeze series features enhanced room temperature control due to mesh skylights with zippered closures, advanced panels and mud skirt design that encourage air flow. Pair the Land Breeze Pro. 1 with the Land Breeze Pro. 1 Ground Sheet and Land Breeze Pro. 1 Inner Mat for additional protection.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 6.5,
+      "weightDisplay": "约 6.5 kg",
+      "capacity": "1-2人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "Constructed with advanced materials for increased performance, the Land Breeze Pro. 1 is part of the enhanced Land Breeze dome tent series. Designed to comfortably accommodate two people, the Land Breeze Pro. 1 is wind-resistant and able to withstand year-round weather. The tent has a side vestibule entry, wall pockets for storage and color-coordinated poles for a simplified set-up. The Land Breez"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/land_breeze_1_pro_sd-641_hero_01.jpg?v=1599174862",
+    "imageAlt": "Land Breeze Pro. 1",
+    "sourceUrl": "https://www.snowpeak.com/products/land-breeze-pro-1",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 809.95,
+    "priceMin": 809.95,
+    "priceMax": 809.95
+  },
+  {
+    "id": "snow-peak-land-breeze-pro-3",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Land Breeze Pro. 3",
+    "modelEn": "Land Breeze Pro. 3",
+    "description": "Part of the Land Breeze dome tent series, the Land Breeze Pro. 3 is constructed with advanced materials for increased performance. Designed to comfortably accommodate 3-4 people, the Land Breeze Pro. 3 is wind-resistant and able to withstand year-round weather. The tent has a large front vestibule entry, wall pockets for storage and color-coordinated poles for a simplified set-up. The Land Breeze series features enhanced room temperature control due to mesh skylights with zippered closures, advanced panels and mud skirt design that encourage air flow. Pair the Land Breeze Pro. 3 with the Land Breeze Pro. 3 Ground Sheet and Land Breeze Pro. 3 Inner Mat for additional protection.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 9.76,
+      "weightDisplay": "约 9.76 kg",
+      "capacity": "2-4人-tent",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "Part of the Land Breeze dome tent series, the Land Breeze Pro. 3 is constructed with advanced materials for increased performance. Designed to comfortably accommodate 3-4 people, the Land Breeze Pro. 3 is wind-resistant and able to withstand year-round weather. The tent has a large front vestibule entry, wall pockets for storage and color-coordinated poles for a simplified set-up. The Land Breeze "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/land_breeze_pro_3_sd-643_hero_01.jpg?v=1599177616",
+    "imageAlt": "Land Breeze Pro. 3",
+    "sourceUrl": "https://www.snowpeak.com/products/land-breeze-pro-3",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 999.95,
+    "priceMin": 999.95,
+    "priceMax": 999.95
+  },
+  {
+    "id": "snow-peak-land-lock",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Land Lock",
+    "modelEn": "Land Lock",
+    "description": "The Japanese-designed Land Lock is a tent and shelter combination for up to four adults. Use it for family or friend group camping trips and never worry about space. The Land Lock features a spacious gathering area, a private inner tent for sleeping, and two expandable shade panels for additional living space. The Land Lock also features sealable mesh windows that allow for cross breezes during hot summer nights. Pair the Land Lock with the Landlock Inner Mat for a comfortable sleeping set-up.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 26.31,
+      "weightDisplay": "约 26.31 kg",
+      "capacity": "2-4人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Japanese-designed Land Lock is a tent and shelter combination for up to four adults. Use it for family or friend group camping trips and never worry about space. The Land Lock features a spacious gathering area, a private inner tent for sleeping, and two expandable shade panels for additional living space. The Land Lock also features sealable mesh windows that allow for cross breezes during ho"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/landlock_tp-671r_hero_01.jpg?v=1587501889",
+    "imageAlt": "Land Lock",
+    "sourceUrl": "https://www.snowpeak.com/products/land-lock",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 1599.0,
+    "priceMin": 1599.0,
+    "priceMax": 1599.0
+  },
+  {
+    "id": "snow-peak-land-lock-ivory",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Land Lock Ivory",
+    "modelEn": "Land Lock Ivory",
+    "description": "Part of the Snow Peak Ivory Series, the Japanese-designed Land Lock Ivory is a tent and shelter combination intended for up to six people. Use it as an eye-catching centerpiece for your campsite with family or friends. The Land Lock Ivory features a spacious gathering area, private inner tent for sleeping and two expandable shade panels for even more living space. The Land Lock Ivory also has side panels that allow for cross breezes during hot summer nights. Pair the Land Lock Ivory with the Land Lock Inner Mat for a comfortable sleeping set-up.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 26.31,
+      "weightDisplay": "约 26.31 kg",
+      "capacity": "2-4人-tent",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "Part of the Snow Peak Ivory Series, the Japanese-designed Land Lock Ivory is a tent and shelter combination intended for up to six people. Use it as an eye-catching centerpiece for your campsite with family or friends. The Land Lock Ivory features a spacious gathering area, private inner tent for sleeping and two expandable shade panels for even more living space. The Land Lock Ivory also has side"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/landlock_ivory_tp-671iv_hero_01.jpg?v=1587497234",
+    "imageAlt": "Land Lock Ivory",
+    "sourceUrl": "https://www.snowpeak.com/products/land-lock-ivory",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 1599.0,
+    "priceMin": 1599.0,
+    "priceMax": 1599.0
+  },
+  {
+    "id": "snow-peak-land-lock-tent-set",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Land Lock Tent Set",
+    "modelEn": "Land Lock Tent Set",
+    "description": "The Land Lock Tent Set includes everything needed to create a comfortable outdoor sleeping and gathering space. The Land Lock Ivory is a tent and shelter combination for up to six people. Use it as an eye-catching centerpiece for your campsite with family or friends. The Land Lock Ivory features a spacious gathering area, a private inner tent for sleeping, and two expandable shade panels for even more living space.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 28.12,
+      "weightDisplay": "约 28.12 kg",
+      "structure": "Camping Set"
+    },
+    "highlights": [
+      "The Land Lock Tent Set includes everything needed to create a comfortable outdoor sleeping and gathering space. The Land Lock Ivory is a tent and shelter combination for up to six people. Use it as an eye-catching centerpiece for your campsite with family or friends. The Land Lock Ivory features a spacious gathering area, a private inner tent for sleeping, and two expandable shade panels for even "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/LandLockSet.png?v=1711138855",
+    "imageAlt": "Land Lock Tent Set",
+    "sourceUrl": "https://www.snowpeak.com/products/land-lock-tent-set",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 1699.0,
+    "priceMin": 1699.0,
+    "priceMax": 1699.0
+  },
+  {
+    "id": "snow-peak-landnest-dome-m",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Land Nest Dome Medium",
+    "modelEn": "Land Nest Dome Medium",
+    "description": "The Land Nest Dome Medium is a well-ventilated and easily assembled 4-person tent. The flysheet has universal door openings, and the included inner tent can be attached to the front or back, allowing for a quick and easy set-up. The Land Nest Dome Tent Medium can be used in multiple ways: as a shelter without the inner tent, as a 4-person tent, and as a 1-person tent with the complementary Land Nest Dome Medium Solo Inner Tent . Please note: The Land Nest Dome Medium Solo Inner Tent is sold separately.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 9.26,
+      "weightDisplay": "约 9.26 kg",
+      "capacity": "2-4人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Land Nest Dome Medium is a well-ventilated and easily assembled 4-person tent. The flysheet has universal door openings, and the included inner tent can be attached to the front or back, allowing for a quick and easy set-up. The Land Nest Dome Tent Medium can be used in multiple ways: as a shelter without the inner tent, as a 4-person tent, and as a 1-person tent with the complementary Land Ne"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/SDE-260_main_515Wx515H.jpg?v=1684777181",
+    "imageAlt": "Land Nest Dome Medium",
+    "sourceUrl": "https://www.snowpeak.com/products/landnest-dome-m",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 399.95,
+    "priceMin": 399.95,
+    "priceMax": 399.95
+  },
+  {
+    "id": "snow-peak-land-nest-dome-small",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Land Nest Dome Small",
+    "modelEn": "Land Nest Dome Small",
+    "description": "The Land Nest Dome Small is a well-ventilated and easily assembled 2-person tent. The flysheet has universal door openings and the inner tent can be attached to the front or back allowing for a quick and easy set-up. The Land Nest Dome Tent Small can be used in multiple ways: as a shelter without the inner tent, and as a 2-person tent in two configurations.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 8.16,
+      "weightDisplay": "约 8.16 kg",
+      "capacity": "1-2人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Land Nest Dome Small is a well-ventilated and easily assembled 2-person tent. The flysheet has universal door openings and the inner tent can be attached to the front or back allowing for a quick and easy set-up. The Land Nest Dome Tent Small can be used in multiple ways: as a shelter without the inner tent, and as a 2-person tent in two configurations."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/SDE-259_20221018-SP_M4_03608_path.png?v=1696532396",
+    "imageAlt": "Land Nest Dome Small",
+    "sourceUrl": "https://www.snowpeak.com/products/land-nest-dome-small",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 195.97,
+    "priceMin": 195.97,
+    "priceMax": 195.97
+  },
+  {
+    "id": "snow-peak-landnest-m-tent-tarp-set",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Land Nest Medium Tent Tarp Set",
+    "modelEn": "Land Nest Medium Tent Tarp Set",
+    "description": "The Land Nest Medium Tent Tarp Set is a 4-person tent and tarp set that is inclusive of the Land Nest Medium Tent and the Land Nest Tarp to offer ample space for sleeping and gathering. The easily assembled 4-person tent includes a flysheet with universal door openings, and an inner tent can be attached to the front or back. The tarp allows for a large gathering area with wind and sun protection.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 17.15,
+      "weightDisplay": "约 17.15 kg",
+      "capacity": "2-4人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Land Nest Medium Tent Tarp Set is a 4-person tent and tarp set that is inclusive of the Land Nest Medium Tent and the Land Nest Tarp to offer ample space for sleeping and gathering. The easily assembled 4-person tent includes a flysheet with universal door openings, and an inner tent can be attached to the front or back. The tarp allows for a large gathering area with wind and sun protection."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/SET-260_20221018-SP_M4_03638_path.jpg?v=1684869626",
+    "imageAlt": "Land Nest Medium Tent Tarp Set",
+    "sourceUrl": "https://www.snowpeak.com/products/landnest-m-tent-tarp-set",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 549.95,
+    "priceMin": 549.95,
+    "priceMax": 549.95
+  },
+  {
+    "id": "snow-peak-land-nest-shelter",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Tarps and Shelters",
+    "model": "Land Nest Shelter",
+    "modelEn": "Land Nest Shelter",
+    "description": "The Land Nest Shelter is a beginner-level shelter with living and sleeping spaces, providing enough space for a family of four. Based on the Land Nest Dome, the Land Nest Shelter has a symmetrical design and simple frame structure, making it easy to set up for campers of all experience levels. The inner tent can be removed to create a more spacious living area. The shelter material is designed with sun-blocking and temperature-regulating features, making it ideal for camping in any season.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 17.4,
+      "weightDisplay": "约 17.4 kg",
+      "capacity": "2-4人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Land Nest Shelter is a beginner-level shelter with living and sleeping spaces, providing enough space for a family of four. Based on the Land Nest Dome, the Land Nest Shelter has a symmetrical design and simple frame structure, making it easy to set up for campers of all experience levels. The inner tent can be removed to create a more spacious living area. The shelter material is designed wit"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/TP-2592.png?v=1745358057",
+    "imageAlt": "Land Nest Shelter",
+    "sourceUrl": "https://www.snowpeak.com/products/land-nest-shelter",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:49Z",
+    "status": "draft",
+    "price": 749.95,
+    "priceMin": 749.95,
+    "priceMax": 749.95
+  },
+  {
+    "id": "snow-peak-land-nest-shelter-in-ivory",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Tarps and Shelters",
+    "model": "Land Nest Shelter in Ivory",
+    "modelEn": "Land Nest Shelter in Ivory",
+    "description": "The Land Nest Shelter in Ivory is a beginner-level shelter with living and sleeping spaces, providing enough space for a family of four. Based on the Land Nest Dome, the Land Nest Shelter in Ivory has a symmetrical design and simple frame structure, making it easy to set up for campers of all experience levels. The inner tent can be removed to create a more spacious living area. The shelter material is designed with sun-blocking and temperature-regulating features, making it ideal for camping in any season. The Land Nest Shelter in Ivory is made without intentionally added PFAS-based treatments and is designed to meet or exceed leading chemical safety standards.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 17.4,
+      "weightDisplay": "约 17.4 kg",
+      "capacity": "2-4人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Land Nest Shelter in Ivory is a beginner-level shelter with living and sleeping spaces, providing enough space for a family of four. Based on the Land Nest Dome, the Land Nest Shelter in Ivory has a symmetrical design and simple frame structure, making it easy to set up for campers of all experience levels. The inner tent can be removed to create a more spacious living area. The shelter materi"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/TP-259-IV-INT_2508-SP-M4_0043_path.jpg?v=1773185279",
+    "imageAlt": "Land Nest Shelter in Ivory",
+    "sourceUrl": "https://www.snowpeak.com/products/land-nest-shelter-in-ivory",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:49Z",
+    "status": "draft",
+    "price": 999.95,
+    "priceMin": 999.95,
+    "priceMax": 999.95
+  },
+  {
+    "id": "snow-peak-land-nest-small-tent-tarp-set",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Land Nest Small Tent Tarp Set",
+    "modelEn": "Land Nest Small Tent Tarp Set",
+    "description": "The Land Nest Medium Tent Tarp Set is a 2-person tent and 4-person tarp set that is inclusive of the Land Nest Dome Small and the Land Nest Tarp Set to offer ample space for sleeping and gathering. The easily assembled 4-person tent includes a flysheet with universal door openings, and an inner tent can be attached to the front or back. The tarp allows for a large gathering area with wind and sun protection.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 15.42,
+      "weightDisplay": "约 15.42 kg",
+      "capacity": "1-2人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Land Nest Medium Tent Tarp Set is a 2-person tent and 4-person tarp set that is inclusive of the Land Nest Dome Small and the Land Nest Tarp Set to offer ample space for sleeping and gathering. The easily assembled 4-person tent includes a flysheet with universal door openings, and an inner tent can be attached to the front or back. The tarp allows for a large gathering area with wind and sun "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/SET-25901.png?v=1696609533",
+    "imageAlt": "Land Nest Small Tent Tarp Set",
+    "sourceUrl": "https://www.snowpeak.com/products/land-nest-small-tent-tarp-set",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 279.97,
+    "priceMin": 279.97,
+    "priceMax": 279.97
+  },
+  {
+    "id": "snow-peak-landnest-tarp",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Tarps and Shelters",
+    "model": "Land Nest Tarp Set",
+    "modelEn": "Land Nest Tarp Set",
+    "description": "The Land Nest Tarp Set is a 4-person, hexagonal-shaped tarp that protects against outdoor elements. The set includes the tarp, poles, guylines, and pegs. The tarp allows for a large gathering area while providing wind and sun protection. Use the tarp on its own, or pair it with the Land Nest Dome Medium for a full set-up.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 7.54,
+      "weightDisplay": "约 7.54 kg",
+      "capacity": "2-4人-shelter",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "The Land Nest Tarp Set is a 4-person, hexagonal-shaped tarp that protects against outdoor elements. The set includes the tarp, poles, guylines, and pegs. The tarp allows for a large gathering area while providing wind and sun protection. Use the tarp on its own, or pair it with the Land Nest Dome Medium for a full set-up."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/TP-870_20221018-SP_M4_03534_path.jpg?v=1684866051",
+    "imageAlt": "Land Nest Tarp Set",
+    "sourceUrl": "https://www.snowpeak.com/products/landnest-tarp",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:49Z",
+    "status": "draft",
+    "price": 249.95,
+    "priceMin": 249.95,
+    "priceMax": 249.95
+  },
+  {
+    "id": "snow-peak-land-station",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Large Shelters",
+    "model": "Land Station",
+    "modelEn": "Land Station",
+    "description": "The Land Station is a dynamic tarp designed to accommodate up to eight people. With a variety of set-up options, the Land Station is a natural centerpiece in camp, whether for sleeping or gathering. The Land Station is designed to protect from the elements like wind and rain, and is made from a fabric that shelters from the sun, while still letting in light. Please note: Wing Poles are not included. Pair the Land Station with the Tarp Pole 210cm Aluminum and Wing Pole 140cm Aluminum for a complete set-up.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.0,
+      "weightDisplay": "约 0.0 kg",
+      "capacity": "4-8人-shelter",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "The Land Station is a dynamic tarp designed to accommodate up to eight people. With a variety of set-up options, the Land Station is a natural centerpiece in camp, whether for sleeping or gathering. The Land Station is designed to protect from the elements like wind and rain, and is made from a fabric that shelters from the sun, while still letting in light. Please note: Wing Poles are not include"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/land_station_tp-820_hero_01.jpg?v=1587500027",
+    "imageAlt": "Land Station",
+    "sourceUrl": "https://www.snowpeak.com/products/land-station",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:51Z",
+    "status": "draft",
+    "price": 678.96,
+    "priceMin": 678.96,
+    "priceMax": 678.96
+  },
+  {
+    "id": "snow-peak-lands-station",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Large Shelters",
+    "model": "Land Station L Ivory",
+    "modelEn": "Land Station L Ivory",
+    "description": "Part of the Snow Peak Ivory Series, the Land Station is a dynamic tarp designed to accommodate up to eight people. With a variety of set-up options, the Land Station Ivory is an eye-catching centerpiece in camp, whether for sleeping or gathering. The Land Station Ivory is designed to protect from the elements like wind and rain and is made from a fabric that shelters from the sun, while still letting in light. Please note: Wing Poles are not included. Pair the Land Station Ivory with the Tarp Pole 210cm Aluminum and the Wing Pole 140cm Aluminum for a complete setup.",
+    "currency": "USD",
+    "specs": {
+      "capacity": "4-8人-shelter",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "Part of the Snow Peak Ivory Series, the Land Station is a dynamic tarp designed to accommodate up to eight people. With a variety of set-up options, the Land Station Ivory is an eye-catching centerpiece in camp, whether for sleeping or gathering. The Land Station Ivory is designed to protect from the elements like wind and rain and is made from a fabric that shelters from the sun, while still lett"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/land_station_ivory_tp-821iv_hero_01.jpg?v=1587502650",
+    "imageAlt": "Land Station L Ivory",
+    "sourceUrl": "https://www.snowpeak.com/products/lands-station",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:51Z",
+    "status": "draft",
+    "price": 831.56,
+    "priceMin": 831.56,
+    "priceMax": 831.56
+  },
+  {
+    "id": "snow-peak-living-shell-long-pro",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Large Shelters",
+    "model": "Living Shell Long Pro.",
+    "modelEn": "Living Shell Long Pro.",
+    "description": "The Living Shell Long Pro is a modular shelter. Use the eye-catching Living Shell Long during group excursions for seamless integration of nature and the comforts of home. Prop up the front flap for an extended covered space for cooking or gathering. It features a spacious, floorless gathering space, temperate control skirt, triangular ventilation, UV shield protection, and rear panel docking.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 20.8,
+      "weightDisplay": "约 20.8 kg",
+      "capacity": "4-6人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Living Shell Long Pro is a modular shelter. Use the eye-catching Living Shell Long during group excursions for seamless integration of nature and the comforts of home. Prop up the front flap for an extended covered space for cooking or gathering. It features a spacious, floorless gathering space, temperate control skirt, triangular ventilation, UV shield protection, and rear panel docking."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/living_shell_long_TP-660_hero_01.jpg?v=1634151922",
+    "imageAlt": "Living Shell Long Pro.",
+    "sourceUrl": "https://www.snowpeak.com/products/living-shell-long-pro",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:51Z",
+    "status": "draft",
+    "price": 1329.96,
+    "priceMin": 1329.96,
+    "priceMax": 1329.96
+  },
+  {
+    "id": "snow-peak-living-shell-pro-series-ivory",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Large Shelters",
+    "model": "Living Shell Long Pro. in Ivory",
+    "modelEn": "Living Shell Long Pro. in Ivory",
+    "description": "Part of the Snow Peak Ivory Series, Living Shell Long Pro. Ivory is a Japanese-designed modular shelter. Use the eye-catching Living Shell Long during group excursions for a seamless integration of nature and the comforts of home. Prop up the front flap for an extended covered space for cooking or gathering. The Living Shell Long features large mesh windows, tri-ventilation, a UV shield and can integrate with the Dock Dome Series. Pair the Living Shell Long Pro. Ivory with the Dock Dome Pro Ivory .",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 22.0,
+      "weightDisplay": "约 22.0 kg",
+      "capacity": "4-6人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "Part of the Snow Peak Ivory Series, Living Shell Long Pro. Ivory is a Japanese-designed modular shelter. Use the eye-catching Living Shell Long during group excursions for a seamless integration of nature and the comforts of home. Prop up the front flap for an extended covered space for cooking or gathering. The Living Shell Long features large mesh windows, tri-ventilation, a UV shield and can in"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/living_shell_long_pro_ivory_tp-660iv_hero_01.jpg?v=1587494550",
+    "imageAlt": "Living Shell Long Pro. in Ivory",
+    "sourceUrl": "https://www.snowpeak.com/products/living-shell-pro-series-ivory",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:51Z",
+    "status": "draft",
+    "price": 1399.96,
+    "priceMin": 1399.96,
+    "priceMax": 1399.96
+  },
+  {
+    "id": "snow-peak-long-bamboo-folding-shelf-light",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Long Bamboo Folding Shelf Light",
+    "modelEn": "Long Bamboo Folding Shelf Light",
+    "description": "The Long Bamboo Folding Shelf Light offers a multi-use bamboo surface supported by aluminum legs. Featuring a honeycomb-shaped internal structure, the surface offers strength and stability while significantly reducing weight. Use it as a narrow table, bench, or storage shelf. Intended for use at camp or at home, the Long Bamboo Folding Shelf Light can be set up by simply attaching the legs to the top by inserting them into notches.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 6.8,
+      "weightDisplay": "约 6.8 kg",
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "The Long Bamboo Folding Shelf Light offers a multi-use bamboo surface supported by aluminum legs. Featuring a honeycomb-shaped internal structure, the surface offers strength and stability while significantly reducing weight. Use it as a narrow table, bench, or storage shelf. Intended for use at camp or at home, the Long Bamboo Folding Shelf Light can be set up by simply attaching the legs to the "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/LV-066TL_20231008-SP_M4_07281_path_jpg_edce8a1c-0cf5-404f-a9a0-35c0f5de6dc5.png?v=1717092398",
+    "imageAlt": "Long Bamboo Folding Shelf Light",
+    "sourceUrl": "https://www.snowpeak.com/products/long-bamboo-folding-shelf-light",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 344.95,
+    "priceMin": 344.95,
+    "priceMax": 344.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-lounge-cushion",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Lounge Cushion",
+    "modelEn": "Lounge Cushion",
+    "description": "The Lounge Cushion is a Japanese-designed ground seat for the campfield or home. Use it for ground-level dining or relaxing whether you’re camping, at the beach, or on the patio. The Lounge Cushion folds in half for elevated seating height and compact storage.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.7,
+      "weightDisplay": "约 0.7 kg",
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "The Lounge Cushion is a Japanese-designed ground seat for the campfield or home. Use it for ground-level dining or relaxing whether you’re camping, at the beach, or on the patio. The Lounge Cushion folds in half for elevated seating height and compact storage."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/TM-096OR_alt02.jpg?v=1630020533",
+    "imageAlt": "Lounge Cushion",
+    "sourceUrl": "https://www.snowpeak.com/products/lounge-cushion",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 69.95,
+    "priceMin": 69.95,
+    "priceMax": 69.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-low-beach-chair",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Low Beach Chair",
+    "modelEn": "Low Beach Chair",
+    "description": "Designed in Japan, the Low Beach Chair has natural wood armrests and a canvas seat. The chair is stylish enough for the home or patio, but sturdy enough to withstand the rigors of camp. The Low Beach Chair features a high-quality wood armrest and back that is 7 inches taller than the Luxury Low Beach Chair . The Low Beach Chair folds into a compact case for efficient storage.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 4.54,
+      "weightDisplay": "约 4.54 kg",
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "Designed in Japan, the Low Beach Chair has natural wood armrests and a canvas seat. The chair is stylish enough for the home or patio, but sturdy enough to withstand the rigors of camp. The Low Beach Chair features a high-quality wood armrest and back that is 7 inches taller than the Luxury Low Beach Chair . The Low Beach Chair folds into a compact case for efficient storage."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/1_b0cf14da-57c9-4de7-bece-bea067bfe504.jpg?v=1587535891",
+    "imageAlt": "Low Beach Chair",
+    "sourceUrl": "https://www.snowpeak.com/products/low-beach-chair",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 149.95,
+    "priceMin": 149.95,
+    "priceMax": 149.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-low-beach-chair-leg-cap-set",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Low Beach Chair Leg Cap Set",
+    "modelEn": "Low Beach Chair Leg Cap Set",
+    "description": "The Low Beach Chair Leg Cap Set adds traction and floor protection to the rear legs of the Low Beach Chair, allowing it to be used indoors. The material is made from a combination of hard and soft plastics for grip and durability, while the shape is designed to prevent the caps from slipping off accidentally.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "The Low Beach Chair Leg Cap Set adds traction and floor protection to the rear legs of the Low Beach Chair, allowing it to be used indoors. The material is made from a combination of hard and soft plastics for grip and durability, while the shape is designed to prevent the caps from slipping off accidentally."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/UG-157_20241122-SP-M4_0472_jpg.jpg?v=1760989434",
+    "imageAlt": "Low Beach Chair Leg Cap Set",
+    "sourceUrl": "https://www.snowpeak.com/products/low-beach-chair-leg-cap-set",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 12.95,
+    "priceMin": 12.95,
+    "priceMax": 12.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-low-chair-cup-holder",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Low Chair Cup Holder",
+    "modelEn": "Low Chair Cup Holder",
+    "description": "Designed to enhance the Low Beach Chair, the Low Beach Chair Cup Holder offers a secure mesh socket for beverages. Use the Low Beach Chair Cup Holder for lounging at the patio or the campsite, without risking drink spills. The Low Beach Chair Cup Holder is compatible with the Sierra Cup , Bottles , and most canned beverages. Pair the Low Beach Chair Cup Holder with the Low Beach Chair for beverage convenience.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.08,
+      "weightDisplay": "约 0.08 kg",
+      "structure": "Cups & Mugs"
+    },
+    "highlights": [
+      "Designed to enhance the Low Beach Chair, the Low Beach Chair Cup Holder offers a secure mesh socket for beverages. Use the Low Beach Chair Cup Holder for lounging at the patio or the campsite, without risking drink spills. The Low Beach Chair Cup Holder is compatible with the Sierra Cup , Bottles , and most canned beverages. Pair the Low Beach Chair Cup Holder with the Low Beach Chair for beverage"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/UG-282_hero01.jpg?v=1630017785",
+    "imageAlt": "Low Chair Cup Holder",
+    "sourceUrl": "https://www.snowpeak.com/products/low-chair-cup-holder",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 37.95,
+    "priceMin": 37.95,
+    "priceMax": 37.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-low-chair-cushion-plus",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Low Chair Cushion Plus",
+    "modelEn": "Low Chair Cushion Plus",
+    "description": "The Low Chair Cushion plus is designed to add additional comfort to Snow Peak chairs. Use it at head-level, for lower-back support, or as a throw pillow at home, on the patio, or at the campfield. The cushion features buckles for attaching to the chair and rolls up compactly for easy storage. Use the Low Chair Cushion with the Low Beach Chair , Take! Bamboo Chair , or the High Tension Cot for extra comfort.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.27,
+      "weightDisplay": "约 0.27 kg",
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "The Low Chair Cushion plus is designed to add additional comfort to Snow Peak chairs. Use it at head-level, for lower-back support, or as a throw pillow at home, on the patio, or at the campfield. The cushion features buckles for attaching to the chair and rolls up compactly for easy storage. Use the Low Chair Cushion with the Low Beach Chair , Take! Bamboo Chair , or the High Tension Cot for extr"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/UG-410_20241016-SP_M4_02194_path_jpg.jpg?v=1759341150",
+    "imageAlt": "Low Chair Cushion Plus",
+    "sourceUrl": "https://www.snowpeak.com/products/low-chair-cushion-plus",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 40.95,
+    "priceMin": 40.95,
+    "priceMax": 40.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-gray-low-beach-chair-short",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Luxury Low Beach Chair",
+    "modelEn": "Luxury Low Beach Chair",
+    "description": "Designed in Japan, the Luxury Low Beach Chair has natural wood armrests and a canvas seat. The chair is stylish enough for the home or patio, but sturdy enough to withstand the rigors of camp. The Luxury Low Beach Chair features a mesh storage pocket, high quality wood armrest and back that is 7 inches lower than the Low Beach Chair . The Luxury Beach Chair folds into a compact case for efficient storage. Pair it with the Jikaro Firering Table and the Takibi Fire & Grill .",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 4.22,
+      "weightDisplay": "约 4.22 kg",
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "Designed in Japan, the Luxury Low Beach Chair has natural wood armrests and a canvas seat. The chair is stylish enough for the home or patio, but sturdy enough to withstand the rigors of camp. The Luxury Low Beach Chair features a mesh storage pocket, high quality wood armrest and back that is 7 inches lower than the Low Beach Chair . The Luxury Beach Chair folds into a compact case for efficient "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/lv-093gy_low_chair_luxe_gr_hero_01.jpg?v=1587504317",
+    "imageAlt": "Luxury Low Beach Chair",
+    "sourceUrl": "https://www.snowpeak.com/products/gray-low-beach-chair-short",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 249.95,
+    "priceMin": 249.95,
+    "priceMax": 249.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-mesh-folding-bench",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Mesh Folding Bench",
+    "modelEn": "Mesh Folding Bench",
+    "description": "The Mesh Folding Bench is a multi-functional camp seat. The bench is made of strong, breathable mesh fabric with an aluminum alloy frame. The Mesh Folding Bench features a collapsible frame and mesh fabric. Use the bench for seating or as a shelf for storage. Pair the Mesh Folding Bench with the Mesh Folding Chair for a matching set.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.72,
+      "weightDisplay": "约 2.72 kg",
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "The Mesh Folding Bench is a multi-functional camp seat. The bench is made of strong, breathable mesh fabric with an aluminum alloy frame. The Mesh Folding Bench features a collapsible frame and mesh fabric. Use the bench for seating or as a shelf for storage. Pair the Mesh Folding Bench with the Mesh Folding Chair for a matching set."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/mesh_folding_bench_lv-071m-bk_hero_01.jpg?v=1634748860",
+    "imageAlt": "Mesh Folding Bench",
+    "sourceUrl": "https://www.snowpeak.com/products/mesh-folding-bench",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 139.95,
+    "priceMin": 139.95,
+    "priceMax": 139.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-mesh-folding-chair",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Mesh Folding Chair",
+    "modelEn": "Mesh Folding Chair",
+    "description": "The Mesh Folding Chair is a breathable, compact camping essential. The chair is made of durable mesh polyester with an aluminum alloy frame. The Mesh Folding Chair features a back, two armrests, and a collapsible frame with a carrying handle for easy transportation. Pair the Mesh Folding Chair with the Mesh Folding Bench for a complete set.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 3.63,
+      "weightDisplay": "约 3.63 kg",
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "The Mesh Folding Chair is a breathable, compact camping essential. The chair is made of durable mesh polyester with an aluminum alloy frame. The Mesh Folding Chair features a back, two armrests, and a collapsible frame with a carrying handle for easy transportation. Pair the Mesh Folding Chair with the Mesh Folding Bench for a complete set."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/mesh_folding_chair_lv-077m-bk_hero_01.jpg?v=1634743484",
+    "imageAlt": "Mesh Folding Chair",
+    "sourceUrl": "https://www.snowpeak.com/products/mesh-folding-chair",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 149.95,
+    "priceMin": 149.95,
+    "priceMax": 149.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-minute-dome-pro-air-1",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Minute Dome Pro. Air 1",
+    "modelEn": "Minute Dome Pro. Air 1",
+    "description": "Ultralight and easy to set-up, the Minute Dome Pro. Air 1 is 1-2 person tent for backcountry trips. The Minute Dome Pro. Air 1 is designed to be set-up in less than a minute for quick response to any weather. The inner and outer system provide additional protection and include dual windows for increased ventilation.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.94,
+      "weightDisplay": "约 2.94 kg",
+      "capacity": "1-2人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "Ultralight and easy to set-up, the Minute Dome Pro. Air 1 is 1-2 person tent for backcountry trips. The Minute Dome Pro. Air 1 is designed to be set-up in less than a minute for quick response to any weather. The inner and outer system provide additional protection and include dual windows for increased ventilation."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/minute_dome_pro_ssd-712_hero_01.jpg?v=1589580518",
+    "imageAlt": "Minute Dome Pro. Air 1",
+    "sourceUrl": "https://www.snowpeak.com/products/minute-dome-pro-air-1",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 605.46,
+    "priceMin": 605.46,
+    "priceMax": 605.46
+  },
+  {
+    "id": "snow-peak-ofuton-warm-adapter",
+    "brandId": "snow-peak",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Ofuton Warm Adapter",
+    "modelEn": "Ofuton Warm Adapter",
+    "description": "The Ofuton Warm Adapter in an insulating inner sleeping bag designed to be used with the Ofuton System products for enhanced warmth and comfort. Made from a polyester fleece material, the Ofuton Warm Adapter offers improved heat retention while also keeping your mat and comforter clean, and is machine washable for easy care in between uses. Four connection points on each side allow the Warm Adapter to seamlessly integrate with the System Ofuton products.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.8,
+      "weightDisplay": "约 0.8 kg",
+      "structure": "Cots & Sleeping",
+      "bagType": "睡袋系统"
+    },
+    "highlights": [
+      "The Ofuton Warm Adapter in an insulating inner sleeping bag designed to be used with the Ofuton System products for enhanced warmth and comfort. Made from a polyester fleece material, the Ofuton Warm Adapter offers improved heat retention while also keeping your mat and comforter clean, and is machine washable for easy care in between uses. Four connection points on each side allow the Warm Adapte"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/BD-066_20251006-SP_M4_0039_path_jpg_b94401a7-56f0-464c-986e-723e797735b7.jpg?v=1769447266",
+    "imageAlt": "Ofuton Warm Adapter",
+    "sourceUrl": "https://www.snowpeak.com/products/ofuton-warm-adapter",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:52Z",
+    "status": "draft",
+    "price": 59.95,
+    "priceMin": 59.95,
+    "priceMax": 59.95
+  },
+  {
+    "id": "snow-peak-ozen-solo-table",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Ozen Solo Table",
+    "modelEn": "Ozen Solo Table",
+    "description": "Made of lightweight aluminum, the Ozen Solo Table is a small rugged backpacking table. Use the Ozen Solo Table to keep food off the ground or as a small cooking surface. The Ozen Solo Table folds down flat and easily fits in a standard pack. Pair the Ozen Solo Table with the GigaPower Stove Manual for a backcountry cooking set-up.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.41,
+      "weightDisplay": "约 0.41 kg",
+      "structure": "Tables"
+    },
+    "highlights": [
+      "Made of lightweight aluminum, the Ozen Solo Table is a small rugged backpacking table. Use the Ozen Solo Table to keep food off the ground or as a small cooking surface. The Ozen Solo Table folds down flat and easily fits in a standard pack. Pair the Ozen Solo Table with the GigaPower Stove Manual for a backcountry cooking set-up."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/SLV-171_alt02.jpg?v=1641581729",
+    "imageAlt": "Ozen Solo Table",
+    "sourceUrl": "https://www.snowpeak.com/products/ozen-solo-table",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 64.95,
+    "priceMin": 64.95,
+    "priceMax": 64.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-penta-ease-inner-tent-ivory",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Penta Ease in Ivory",
+    "modelEn": "Penta Ease in Ivory",
+    "description": "The Penta Ease 1 in Ivory is an inner tent designed to pair with the Penta Tarp in Ivory and can also be used alone. The tent features a front panel divided by a vertical zipper, interior loops, and interior pockets. The front panel consists of water-resistant fabric layered with breathable mesh and rain cover to prevent rain from entering. Pair the Penta Ease 1 in Ivory with the Penta Tarp in Ivory and Light Tarp Pole for complete protection from weather elements. Note: the Light Tarp Pole 150cm is sold separately.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.84,
+      "weightDisplay": "约 1.84 kg",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Penta Ease 1 in Ivory is an inner tent designed to pair with the Penta Tarp in Ivory and can also be used alone. The tent features a front panel divided by a vertical zipper, interior loops, and interior pockets. The front panel consists of water-resistant fabric layered with breathable mesh and rain cover to prevent rain from entering. Pair the Penta Ease 1 in Ivory with the Penta Tarp in Ivo"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/penta_ease_ivory_sdi-001-iv-us_hero_01.jpg?v=1620327760",
+    "imageAlt": "Penta Ease in Ivory",
+    "sourceUrl": "https://www.snowpeak.com/products/penta-ease-inner-tent-ivory",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 227.46,
+    "priceMin": 227.46,
+    "priceMax": 227.46
+  },
+  {
+    "id": "snow-peak-stp-381",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Tarps and Shelters",
+    "model": "Penta Tarp",
+    "modelEn": "Penta Tarp",
+    "description": "The Penta Tarp is a minimalist shelter for small groups. Use the Penta Tarp as an addition to floating trips or for camping on a river. Intended for use near the water, the Penta Tarp features a unique design that allows a paddle to be used as a pole. The Penta Tarp is durable, water-resistant, and compact - an easy addition to any excursion. Please note: Light Tarp Poles are not included. Pair the Penta Tarp with the Light Tarp Pole 150cm for set-up.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.06,
+      "weightDisplay": "约 1.06 kg",
+      "capacity": "1-2人",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "The Penta Tarp is a minimalist shelter for small groups. Use the Penta Tarp as an addition to floating trips or for camping on a river. Intended for use near the water, the Penta Tarp features a unique design that allows a paddle to be used as a pole. The Penta Tarp is durable, water-resistant, and compact - an easy addition to any excursion. Please note: Light Tarp Poles are not included. Pair th"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/penta_tarp_stp-381_hero_01.jpg?v=1587491071",
+    "imageAlt": "Penta Tarp",
+    "sourceUrl": "https://www.snowpeak.com/products/stp-381",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:49Z",
+    "status": "draft",
+    "price": 104.96,
+    "priceMin": 104.96,
+    "priceMax": 104.96
+  },
+  {
+    "id": "snow-peak-penta-tarp-ivory",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Tarps and Shelters",
+    "model": "Penta Tarp in Ivory",
+    "modelEn": "Penta Tarp in Ivory",
+    "description": "The Penta Tarp in Ivory is a minimalist shelter for one or two campers. The Penta Tarp in Ivory is durable, water-resistant, and compact. Intended for use near the water, it features a unique design that allows a paddle to be used as a pole. Pair with the Penta Ease 1 in Ivory for complete protection from weather elements and for a dedicated sleeping space. Note: the Light Tarp Pole 150cm and Penta Ease 1 inner tent are sold separately.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.2,
+      "weightDisplay": "约 1.2 kg",
+      "capacity": "2-4人-shelter",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "The Penta Tarp in Ivory is a minimalist shelter for one or two campers. The Penta Tarp in Ivory is durable, water-resistant, and compact. Intended for use near the water, it features a unique design that allows a paddle to be used as a pole. Pair with the Penta Ease 1 in Ivory for complete protection from weather elements and for a dedicated sleeping space. Note: the Light Tarp Pole 150cm and Pent"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/light_tarp_penta_ivory_stp-381-iv-us_hero_01_1.jpg?v=1620329665",
+    "imageAlt": "Penta Tarp in Ivory",
+    "sourceUrl": "https://www.snowpeak.com/products/penta-tarp-ivory",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:49Z",
+    "status": "draft",
+    "price": 104.96,
+    "priceMin": 104.96,
+    "priceMax": 104.96
+  },
+  {
+    "id": "snow-peak-reclining-chair-wide",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Reclining Chair Wide",
+    "modelEn": "Reclining Chair Wide",
+    "description": "Designed in Japan, the Reclining Chair Wide has an aluminum frame, teak wood armrests, and a polyester mesh seat. The chair features an integrated headrest, a removable cushion, and a matching ottoman. The chair is stylish enough for the home or patio, but sturdy enough to withstand the rigors of camp. The Reclining Chair Wide offers four back positions, allowing it to recline almost flat for comfortable lounging. The chair and ottoman can be easily folded and secured for transportation and storage.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 15.42,
+      "weightDisplay": "约 15.42 kg",
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "Designed in Japan, the Reclining Chair Wide has an aluminum frame, teak wood armrests, and a polyester mesh seat. The chair features an integrated headrest, a removable cushion, and a matching ottoman. The chair is stylish enough for the home or patio, but sturdy enough to withstand the rigors of camp. The Reclining Chair Wide offers four back positions, allowing it to recline almost flat for comf"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/V-400_20250620_SP-M4_0443_path_jpg.jpg?v=1755817086",
+    "imageAlt": "Reclining Chair Wide",
+    "sourceUrl": "https://www.snowpeak.com/products/reclining-chair-wide",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 499.95,
+    "priceMin": 499.95,
+    "priceMax": 499.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-recta-tarp-l",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Large Shelters",
+    "model": "Recta Tarp L",
+    "modelEn": "Recta Tarp L",
+    "description": "The Recta Tarp HD in Large features an advanced design for durable protection from sun and precipitation. The HD construction is engineered to more efficiently channel rainfall and withstand wind pressure. Shield processing applied to the fabric provides additional UV protection and shading, that can feel 2-4 degrees cooler than tarps without. Set it up for outdoor gatherings of up to 8 people. Poles and stakes are not included. We recommend two Wing Pole 240cm , four Aluminum Poles 170cm and eight Solid Stakes (sizes #30 and #40 work best). Shop the Recta Tarp HD Pro. Set in Large for the complete kit.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 4.94,
+      "weightDisplay": "约 4.94 kg",
+      "capacity": "4-8人-shelter",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "The Recta Tarp HD in Large features an advanced design for durable protection from sun and precipitation. The HD construction is engineered to more efficiently channel rainfall and withstand wind pressure. Shield processing applied to the fabric provides additional UV protection and shading, that can feel 2-4 degrees cooler than tarps without. Set it up for outdoor gatherings of up to 8 people. Po"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/recta_tarp_large_tp-842h_hero_01.jpg?v=1601077391",
+    "imageAlt": "Recta Tarp L",
+    "sourceUrl": "https://www.snowpeak.com/products/recta-tarp-l",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:51Z",
+    "status": "draft",
+    "price": 325.46,
+    "priceMin": 325.46,
+    "priceMax": 325.46
+  },
+  {
+    "id": "snow-peak-hd-trap-shield-recta-l-proset",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Large Shelters",
+    "model": "Recta Tarp L Set",
+    "modelEn": "Recta Tarp L Set",
+    "description": "The Japanese-designed Recta Tarp HD Pro. Set in Large includes the large Recta Tarp and all required pieces for set-up. Use the eight person tarp for larger outdoor gatherings, regardless of season. T he HD construction is engineered to more efficiently channel rainfall and withstand wind pressure. Shield processing applied to the fabric provides additional UV protection and shading, that can feel 2-4 degrees cooler than tarps without. The Set includes Solid Stakes, Poles, Copper Head Peg Hammer and Carry Case. The Recta Tarp HD in Large is available on its own as well. For a smaller option, explore the Recta Tarp HD Pro. Set in Medium .",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 13.61,
+      "weightDisplay": "约 13.61 kg",
+      "capacity": "4-8人-shelter",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "The Japanese-designed Recta Tarp HD Pro. Set in Large includes the large Recta Tarp and all required pieces for set-up. Use the eight person tarp for larger outdoor gatherings, regardless of season. T he HD construction is engineered to more efficiently channel rainfall and withstand wind pressure. Shield processing applied to the fabric provides additional UV protection and shading, that can feel"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/hd_tarp_shield_recta_l_proset_tp-842s_hero_01.jpg?v=1587493907",
+    "imageAlt": "Recta Tarp L Set",
+    "sourceUrl": "https://www.snowpeak.com/products/hd-trap-shield-recta-l-proset",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:51Z",
+    "status": "draft",
+    "price": 529.16,
+    "priceMin": 529.16,
+    "priceMax": 529.16
+  },
+  {
+    "id": "snow-peak-recta-tarp-m",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Large Shelters",
+    "model": "Recta Tarp M",
+    "modelEn": "Recta Tarp M",
+    "description": "The Recta Tarp HD in Medium features an advanced design for durable protection from sun and precipitation. The HD construction is engineered to more efficiently channel rainfall and withstand wind pressure. Shield processing applied to the fabric provides additional UV protection and shading, that can feel 2-4 degrees cooler than tarps without. The tarp is best for outdoor gatherings of up to 6 people. For a larger option, shop the Recta Tarp HD in Large . Poles and stakes are not included. We recommend two Wing Pole 240cm , four Aluminum Poles 170cm and eight Solid Stakes (sizes #30 and #40 work best). Shop the Recta Tarp HD Pro. Set in Medium for the complete kit.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 3.12,
+      "weightDisplay": "约 3.12 kg",
+      "capacity": "4-6人",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "The Recta Tarp HD in Medium features an advanced design for durable protection from sun and precipitation. The HD construction is engineered to more efficiently channel rainfall and withstand wind pressure. Shield processing applied to the fabric provides additional UV protection and shading, that can feel 2-4 degrees cooler than tarps without. The tarp is best for outdoor gatherings of up to 6 pe"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/recta_tarp_medium_tp-841h_hero_01.jpg?v=1601071517",
+    "imageAlt": "Recta Tarp M",
+    "sourceUrl": "https://www.snowpeak.com/products/recta-tarp-m",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:51Z",
+    "status": "draft",
+    "price": 264.56,
+    "priceMin": 264.56,
+    "priceMax": 264.56
+  },
+  {
+    "id": "snow-peak-hd-tarp-shield-recta-m-pro",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Large Shelters",
+    "model": "Recta Tarp M Set",
+    "modelEn": "Recta Tarp M Set",
+    "description": "Designed in Japan, the Recta Tarp HD Pro. Set in Medium features an advanced design for durable protection from sun and precipitation. The HD construction is engineered to more efficiently channel rainfall and withstand wind pressure. Shield processing applied to the fabric provides additional UV protection and shading, that can feel 2-4 degrees cooler than tarps without. The full set includes the Recta Tarp HD, Solid Stakes, Copper Head Peg Hammer, and Carry Case. The Recta Tarp HD in Medium is available on its own as well. For a larger option, explore the Recta Tarp HD Pro. Set in Large .",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 11.4,
+      "weightDisplay": "约 11.4 kg",
+      "capacity": "4-6人",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "Designed in Japan, the Recta Tarp HD Pro. Set in Medium features an advanced design for durable protection from sun and precipitation. The HD construction is engineered to more efficiently channel rainfall and withstand wind pressure. Shield processing applied to the fabric provides additional UV protection and shading, that can feel 2-4 degrees cooler than tarps without. The full set includes the"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/recta_tarp_pro_set_medium_tp-841s_hero_01.jpg?v=1601072783",
+    "imageAlt": "Recta Tarp M Set",
+    "sourceUrl": "https://www.snowpeak.com/products/hd-tarp-shield-recta-m-pro",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:51Z",
+    "status": "draft",
+    "price": 489.96,
+    "priceMin": 489.96,
+    "priceMax": 489.96
+  },
+  {
+    "id": "snow-peak-red-folding-camp-chair",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Red Folding Chair",
+    "modelEn": "Red Folding Chair",
+    "description": "Constructed of durable aluminum tubing and cast zinc joints, the Red Folding Chair is a campfield essential. The sturdy canvas seat and back provide lasting comfort in a collapsible frame for easy transportation to the campsite or tailgate. Pair the Red Folding Chair with the Red Folding Bench for a cohesive look.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 4.5,
+      "weightDisplay": "约 4.5 kg",
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "Constructed of durable aluminum tubing and cast zinc joints, the Red Folding Chair is a campfield essential. The sturdy canvas seat and back provide lasting comfort in a collapsible frame for easy transportation to the campsite or tailgate. Pair the Red Folding Chair with the Red Folding Bench for a cohesive look."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/folding_chair_rd_lv-077rd_hero_01.jpg?v=1587506272",
+    "imageAlt": "Red Folding Chair",
+    "sourceUrl": "https://www.snowpeak.com/products/red-folding-camp-chair",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 149.95,
+    "priceMin": 149.95,
+    "priceMax": 149.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-lounge-bundle",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Red Lounge Set",
+    "modelEn": "Red Lounge Set",
+    "description": "Created as a foundational camping furniture setup for our Signature Series, the Red Lounge Set is exclusively available in the U.S. The set includes two Red Folding Chairs for durable, collapsible seating solutions, and the Renewed Bamboo My Table as a sleek, foldable table. This set is ideal for the campsite, backyard, or tailgate. Explore the Signature Camp Collection for more legacy-grade gear recommendations to create a classic setup.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 8.8,
+      "weightDisplay": "约 8.8 kg",
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "Created as a foundational camping furniture setup for our Signature Series, the Red Lounge Set is exclusively available in the U.S. The set includes two Red Folding Chairs for durable, collapsible seating solutions, and the Renewed Bamboo My Table as a sleek, foldable table. This set is ideal for the campsite, backyard, or tailgate. Explore the Signature Camp Collection for more legacy-grade gear "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/lounge_set_lv-077rdset_hero_01.jpg?v=1595609012",
+    "imageAlt": "Red Lounge Set",
+    "sourceUrl": "https://www.snowpeak.com/products/lounge-bundle",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 368.95,
+    "priceMin": 368.95,
+    "priceMax": 368.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-bamboo-my-table-lv-034tr",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Renewed Bamboo My Table",
+    "modelEn": "Renewed Bamboo My Table",
+    "description": "The Japanese-designed Renewed Bamboo My Table can easily fit into a large tote for outdoor use. Made of coated bamboo in an updated finish and aluminum, the table is durable enough to withstand the elements and stylish enough for the home. Pair the Renewed Bamboo My Table with the Low Beach Chair for a relaxing set-up .",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.13,
+      "weightDisplay": "约 2.13 kg",
+      "structure": "Tables"
+    },
+    "highlights": [
+      "The Japanese-designed Renewed Bamboo My Table can easily fit into a large tote for outdoor use. Made of coated bamboo in an updated finish and aluminum, the table is durable enough to withstand the elements and stylish enough for the home. Pair the Renewed Bamboo My Table with the Low Beach Chair for a relaxing set-up ."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/my_table_lv-034tr_hero_01.jpg?v=1587494489",
+    "imageAlt": "Renewed Bamboo My Table",
+    "sourceUrl": "https://www.snowpeak.com/products/bamboo-my-table-lv-034tr",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 149.95,
+    "priceMin": 149.95,
+    "priceMax": 149.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-entry-igt-table",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Renewed Entry IGT",
+    "modelEn": "Renewed Entry IGT",
+    "description": "The Renewed Entry IGT features an updated design with improved functionality and reduced weight for easier transportation. Use the Entry IGT Table at home or outside for a low-height cooking and dining space. Add preferred inserts into the three units of space or simply use with the included bamboo surfaces as a standalone table. The Entry IGT Table features foldable legs for compact storage. Pair the Entry IGT Table with the Lounge Cushion or Low Beach Chair . Updated features include lighter laminated bamboo inserts, adjustable feet to accommodate mixed terrain, and an improved folding leg mechanism. Please note, alternative inserts sold separately.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 5.9,
+      "weightDisplay": "约 5.9 kg",
+      "structure": "Tables"
+    },
+    "highlights": [
+      "The Renewed Entry IGT features an updated design with improved functionality and reduced weight for easier transportation. Use the Entry IGT Table at home or outside for a low-height cooking and dining space. Add preferred inserts into the three units of space or simply use with the included bamboo surfaces as a standalone table. The Entry IGT Table features foldable legs for compact storage. Pair"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/CK-080R_20240214-SP_M4_04977_path_jpg.png?v=1733508726",
+    "imageAlt": "Renewed Entry IGT",
+    "sourceUrl": "https://www.snowpeak.com/products/entry-igt-table",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 199.95,
+    "priceMin": 199.95,
+    "priceMax": 199.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-entry-igt-black",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Renewed Entry IGT in Black",
+    "modelEn": "Renewed Entry IGT in Black",
+    "description": "The Renewed Entry IGT features an updated design with improved functionality and reduced weight for easier transportation. Use the Entry IGT Table at home or outside for a low-height cooking and dining space. Add preferred inserts into the three units of space or simply use with the included bamboo surfaces as a standalone table. The Entry IGT Table features foldable legs for compact storage. This special, limited-edition version features a black powder coating on the metal frame for a sleek look. Additional features include lighter laminated bamboo inserts, adjustable feet to accommodate mixed terrain, and an improved folding leg mechanism.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 6.12,
+      "weightDisplay": "约 6.12 kg",
+      "structure": "Iron Grill Table"
+    },
+    "highlights": [
+      "The Renewed Entry IGT features an updated design with improved functionality and reduced weight for easier transportation. Use the Entry IGT Table at home or outside for a low-height cooking and dining space. Add preferred inserts into the three units of space or simply use with the included bamboo surfaces as a standalone table. The Entry IGT Table features foldable legs for compact storage. This"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/CK-080R-EC_20240409-SP_M4_08613_path_jpg.jpg?v=1764696343",
+    "imageAlt": "Renewed Entry IGT in Black",
+    "sourceUrl": "https://www.snowpeak.com/products/entry-igt-black",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 284.95,
+    "priceMin": 284.95,
+    "priceMax": 284.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-single-action-low-table-lv-100tr",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Renewed Single Action Low Table",
+    "modelEn": "Renewed Single Action Low Table",
+    "description": "Designed in Japan, the Renewed Single Action Table Low features a laminated bamboo top in an updated finish and stable aluminum legs. The low version of the Renewed Single Action Table offers more portability and is easy to take on day trips, picnics, and car camping excursions. The Renewed Single Action Table Low folds into a thin panel for compact carrying and storage. Pair the Renewed Single Action Low Table with the Low Beach Chair for a complete set-up.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 6.66,
+      "weightDisplay": "约 6.66 kg",
+      "structure": "Tables"
+    },
+    "highlights": [
+      "Designed in Japan, the Renewed Single Action Table Low features a laminated bamboo top in an updated finish and stable aluminum legs. The low version of the Renewed Single Action Table offers more portability and is easy to take on day trips, picnics, and car camping excursions. The Renewed Single Action Table Low folds into a thin panel for compact carrying and storage. Pair the Renewed Single Ac"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/single_action_low_table_lv-100tr_hero_01.jpg?v=1587494208",
+    "imageAlt": "Renewed Single Action Low Table",
+    "sourceUrl": "https://www.snowpeak.com/products/single-action-low-table-lv-100tr",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 249.95,
+    "priceMin": 249.95,
+    "priceMax": 249.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-single-action-table-large-1",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Renewed Single Action Table Large",
+    "modelEn": "Renewed Single Action Table Large",
+    "description": "Designed in Japan, the Renewed Single Action Table Large features a solid laminated bamboo worktop in an updated finish and durable aluminum legs. Use the Renewed Single Action Table Large for dining with groups of four to six in the garden or campground. The Renewed Single Action Table Large folds in half for compact storage inside its nylon carry case. To set up, unfold the table and legs, then attach the support by inserting into the cylindrical notch and twisting closed. Each purchase includes one table and a carry case. Pair the Renewed Single Action Table Large with four Red Folding Chairs .",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 14.4,
+      "weightDisplay": "约 14.4 kg",
+      "capacity": "2-4人",
+      "structure": "Tables"
+    },
+    "highlights": [
+      "Designed in Japan, the Renewed Single Action Table Large features a solid laminated bamboo worktop in an updated finish and durable aluminum legs. Use the Renewed Single Action Table Large for dining with groups of four to six in the garden or campground. The Renewed Single Action Table Large folds in half for compact storage inside its nylon carry case. To set up, unfold the table and legs, then "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/single_action_table_large_lv-015tr_hero_01.jpg?v=1587495171",
+    "imageAlt": "Renewed Single Action Table Large",
+    "sourceUrl": "https://www.snowpeak.com/products/single-action-table-large-1",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 449.95,
+    "priceMin": 449.95,
+    "priceMax": 449.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-single-action-table-low-m-lv-071tr",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Renewed Single Action Table Low M",
+    "modelEn": "Renewed Single Action Table Low M",
+    "description": "Designed in Japan, the Renewed Single Action Table Low Medium features a laminated bamboo top in an updated finish and stable aluminum legs. The low version of the Renewed Single Action Table offers more portability and is easy to take on day trips, picnics, and car camping excursions. Use the table for groups of up to four people. The Renewed Single Action Table Low folds into a thin panel for compact carrying and storage. Pair the Renewed Single Action Table Low M with the Low Beach Chair for a complete set-up.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 4.08,
+      "weightDisplay": "约 4.08 kg",
+      "capacity": "2-4人",
+      "structure": "Tables"
+    },
+    "highlights": [
+      "Designed in Japan, the Renewed Single Action Table Low Medium features a laminated bamboo top in an updated finish and stable aluminum legs. The low version of the Renewed Single Action Table offers more portability and is easy to take on day trips, picnics, and car camping excursions. Use the table for groups of up to four people. The Renewed Single Action Table Low folds into a thin panel for co"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/LV-071TR.jpg?v=1584454361",
+    "imageAlt": "Renewed Single Action Table Low M",
+    "sourceUrl": "https://www.snowpeak.com/products/single-action-table-low-m-lv-071tr",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 215.95,
+    "priceMin": 215.95,
+    "priceMax": 215.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-single-action-table-medium-lv-010tr",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Renewed Single Action Table Medium",
+    "modelEn": "Renewed Single Action Table Medium",
+    "description": "Designed in Japan, the Renewed Single Action Table Medium features a solid laminated bamboo worktop in an updated finish and durable aluminum legs. Use the Renewed Single Action Table Medium for dining with small groups in the garden or campground. The Renewed Single Action Table Medium folds in half for compact storage inside its nylon carry case. To set up, unfold the table and legs, then attach the support by inserting into the cylindrical notch and twisting closed. Each purchase includes one table and a carry case. Pair the Renewed Single Action Table Medium with the Red Folding Chair .",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 11.5,
+      "weightDisplay": "约 11.5 kg",
+      "structure": "Tables"
+    },
+    "highlights": [
+      "Designed in Japan, the Renewed Single Action Table Medium features a solid laminated bamboo worktop in an updated finish and durable aluminum legs. Use the Renewed Single Action Table Medium for dining with small groups in the garden or campground. The Renewed Single Action Table Medium folds in half for compact storage inside its nylon carry case. To set up, unfold the table and legs, then attach"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/single_action_table_medium_lv-010tr_hero_01.jpg?v=1590506685",
+    "imageAlt": "Renewed Single Action Table Medium",
+    "sourceUrl": "https://www.snowpeak.com/products/single-action-table-medium-lv-010tr",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 349.95,
+    "priceMin": 349.95,
+    "priceMax": 349.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-take-bamboo-chair-long-lv-086",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Renewed Take! Bamboo Chair Long",
+    "modelEn": "Renewed Take! Bamboo Chair Long",
+    "description": "The Take! Renewed Bamboo Chair Long features bamboo legs, aluminum supports and a comfortable canvas seat. Simply unfold the chair for a stylish seat at home or outdoors. The long version of the Take! Renewed Bamboo Chair offers full lounge support with its extended backrest. Pair the Take! Renewed Bamboo Chair Long with the Renewed Bamboo My Table for a cohesive look.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 4.12,
+      "weightDisplay": "约 4.12 kg",
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "The Take! Renewed Bamboo Chair Long features bamboo legs, aluminum supports and a comfortable canvas seat. Simply unfold the chair for a stylish seat at home or outdoors. The long version of the Take! Renewed Bamboo Chair offers full lounge support with its extended backrest. Pair the Take! Renewed Bamboo Chair Long with the Renewed Bamboo My Table for a cohesive look."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/takelong1_v1.jpg?v=1770922784",
+    "imageAlt": "Renewed Take! Bamboo Chair Long",
+    "sourceUrl": "https://www.snowpeak.com/products/take-bamboo-chair-long-lv-086",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 169.95,
+    "priceMin": 169.95,
+    "priceMax": 169.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-shelter-inner-duo",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Shelter Inner Duo",
+    "modelEn": "Shelter Inner Duo",
+    "description": "The Shelter Inner Duo is a versatile freestanding inner tent that can be used with a variety of shelters. The frame features connected joints, making it easy to set up. The included groundsheet can be attached to the base of the tent, allowing it to be moved and repositioned within the shelter as a single piece. The tent features a passthrough section for wing poles when used with the Land Station. Please note: the Shelter Inner Duo is designed to be used with a shelter and is not intended for standalone use. Four (4) pegs are required for setup, not included.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.77,
+      "weightDisplay": "约 2.77 kg",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Shelter Inner Duo is a versatile freestanding inner tent that can be used with a variety of shelters. The frame features connected joints, making it easy to set up. The included groundsheet can be attached to the base of the tent, allowing it to be moved and repositioned within the shelter as a single piece. The tent features a passthrough section for wing poles when used with the Land Station"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/SD-460_20241011-SP_M4_01773_path_jpg.jpg?v=1760989299",
+    "imageAlt": "Shelter Inner Duo",
+    "sourceUrl": "https://www.snowpeak.com/products/shelter-inner-duo",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 299.95,
+    "priceMin": 299.95,
+    "priceMax": 299.95
+  },
+  {
+    "id": "snow-peak-single-action-rack",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Single Action Rack",
+    "modelEn": "Single Action Rack",
+    "description": "An easy storage solution, the Single Action Rack offers a two shelf system in a compact design. The single action folding system collapses the unit for compact storing when not in use. Ideal for use at home or on the campfield.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 11.34,
+      "weightDisplay": "约 11.34 kg",
+      "structure": "Tables"
+    },
+    "highlights": [
+      "An easy storage solution, the Single Action Rack offers a two shelf system in a compact design. The single action folding system collapses the unit for compact storing when not in use. Ideal for use at home or on the campfield."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/LV-250_alt04.jpg?v=1630022191",
+    "imageAlt": "Single Action Rack",
+    "sourceUrl": "https://www.snowpeak.com/products/single-action-rack",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 647.95,
+    "priceMin": 647.95,
+    "priceMax": 647.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-single-action-table-long-light",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Single Action Table Large Light",
+    "modelEn": "Single Action Table Large Light",
+    "description": "The Single Action Table Large Light features a laminated bamboo top in an updated finish and durable aluminum legs. Featuring a honeycomb-shaped internal structure, the surface offers strength and stability while significantly reducing weight. Use the Single Action Table Large Light for dining with groups of four to six in the garden or campground. The Single Action Table Large Light folds in half for compact storage inside its nylon carry case. To set up, unfold the table and legs, then attach the support by inserting into the cylindrical notch and twisting closed. Pair the Single Action Table Large Light with four Gray Folding Chairs .",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 9.53,
+      "weightDisplay": "约 9.53 kg",
+      "structure": "Tables"
+    },
+    "highlights": [
+      "The Single Action Table Large Light features a laminated bamboo top in an updated finish and durable aluminum legs. Featuring a honeycomb-shaped internal structure, the surface offers strength and stability while significantly reducing weight. Use the Single Action Table Large Light for dining with groups of four to six in the garden or campground. The Single Action Table Large Light folds in half"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/LV-015TL_20200224-5DS_0663_path_jpg.png?v=1739395365",
+    "imageAlt": "Single Action Table Large Light",
+    "sourceUrl": "https://www.snowpeak.com/products/single-action-table-long-light",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 599.95,
+    "priceMin": 599.95,
+    "priceMax": 599.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-single-action-low-table-light",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Single Action Table Low Light",
+    "modelEn": "Single Action Table Low Light",
+    "description": "The Single Action Table Low Light features a laminated bamboo top in an updated finish and stable aluminum legs. Featuring a honeycomb-shaped internal structure, the surface offers strength and stability while significantly reducing weight. The low version of the Single Action Table Light offers more portability and is easy to take on day trips, picnics, and car camping excursions. The Single Action Table Low Light folds into a thin panel for compact carrying and storage. Pair the Single Action Table Low Light with the Luxury Low Beach Chair for a complete set-up.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 4.99,
+      "weightDisplay": "约 4.99 kg",
+      "structure": "Tables"
+    },
+    "highlights": [
+      "The Single Action Table Low Light features a laminated bamboo top in an updated finish and stable aluminum legs. Featuring a honeycomb-shaped internal structure, the surface offers strength and stability while significantly reducing weight. The low version of the Single Action Table Light offers more portability and is easy to take on day trips, picnics, and car camping excursions. The Single Acti"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/LV-100TR_01_20200224-5DS_0669_jpg.png?v=1739395332",
+    "imageAlt": "Single Action Table Low Light",
+    "sourceUrl": "https://www.snowpeak.com/products/single-action-low-table-light",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 399.95,
+    "priceMin": 399.95,
+    "priceMax": 399.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-single-action-table-light",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Single Action Table Medium Light",
+    "modelEn": "Single Action Table Medium Light",
+    "description": "The Single Action Table Medium Light features a laminated bamboo top in an updated finish and durable aluminum legs. Featuring a honeycomb-shaped internal structure, the surface offers strength and stability while significantly reducing weight. Use the Single Action Table Medium Light for dining with small groups in the garden or campground. The Single Action Table Medium Light folds in half for compact storage inside its nylon carry case. To set up, unfold the table and legs, then attach the support by inserting into the cylindrical notch and twisting closed. Pair the Single Action Table Medium Light with the Gray Folding Chair .",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 8.16,
+      "weightDisplay": "约 8.16 kg",
+      "structure": "Tables"
+    },
+    "highlights": [
+      "The Single Action Table Medium Light features a laminated bamboo top in an updated finish and durable aluminum legs. Featuring a honeycomb-shaped internal structure, the surface offers strength and stability while significantly reducing weight. Use the Single Action Table Medium Light for dining with small groups in the garden or campground. The Single Action Table Medium Light folds in half for c"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/LV-010TL_20200224-5DS_0667_jpg.png?v=1739395344",
+    "imageAlt": "Single Action Table Medium Light",
+    "sourceUrl": "https://www.snowpeak.com/products/single-action-table-light",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 499.95,
+    "priceMin": 499.95,
+    "priceMax": 499.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-system-ofuton-hf-slim-mat-plus",
+    "brandId": "snow-peak",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "System Ofuton & Slim Mat",
+    "modelEn": "System Ofuton & Slim Mat",
+    "description": "The System Ofuton & Slim Mat is an adjustable comforter and mattress system designed in the style of a Japanese futon, with added functionality for improved comfort at camp. The comforter is filled with hollow polyester fibers. It features six connection points for securing it to the mat, allowing the comforter to remain fixed in place for a comfortable night's sleep. Flaps on each side can be folded under before securing the straps, and a drawstring closure at the top of the bag can be tightened to maximize heat retention. The flaps can be secured at four points, on the top and bottom, for enhanced warmth and comfort.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.16,
+      "weightDisplay": "约 2.16 kg",
+      "structure": "Cots & Sleeping",
+      "fillType": "化纤棉",
+      "bagType": "睡袋系统"
+    },
+    "highlights": [
+      "The System Ofuton & Slim Mat is an adjustable comforter and mattress system designed in the style of a Japanese futon, with added functionality for improved comfort at camp. The comforter is filled with hollow polyester fibers. It features six connection points for securing it to the mat, allowing the comforter to remain fixed in place for a comfortable night's sleep. Flaps on each side can be fol"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/BD-061_SNP0125A0181_x_c101_jpg.jpg?v=1769447140",
+    "imageAlt": "System Ofuton & Slim Mat",
+    "sourceUrl": "https://www.snowpeak.com/products/system-ofuton-hf-slim-mat-plus",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:52Z",
+    "status": "draft",
+    "price": 199.95,
+    "priceMin": 199.95,
+    "priceMax": 199.95
+  },
+  {
+    "id": "snow-peak-system-ofuton-hf-mat-plus",
+    "brandId": "snow-peak",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "System Ofuton & Wide Mat",
+    "modelEn": "System Ofuton & Wide Mat",
+    "description": "The System Ofuton & Wide Mat is an adjustable comforter and mattress system designed in the style of a Japanese futon, with added functionality for improved comfort at camp. The comforter is filled with hollow polyester fibers. It features six connection points for securing it to the mat, allowing the comforter to remain fixed in place for a comfortable night's sleep. Flaps on each side can be folded under before securing the straps, and a drawstring closure at the top of the bag can be tightened to maximize heat retention. The flaps can be secured at four points, on the top and bottom, for enhanced warmth and comfort.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.38,
+      "weightDisplay": "约 2.38 kg",
+      "structure": "Cots & Sleeping",
+      "fillType": "化纤棉",
+      "bagType": "睡袋系统"
+    },
+    "highlights": [
+      "The System Ofuton & Wide Mat is an adjustable comforter and mattress system designed in the style of a Japanese futon, with added functionality for improved comfort at camp. The comforter is filled with hollow polyester fibers. It features six connection points for securing it to the mat, allowing the comforter to remain fixed in place for a comfortable night's sleep. Flaps on each side can be fol"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/BD-071_SNP0125A0184_x_c101_jpg.jpg?v=1769447225",
+    "imageAlt": "System Ofuton & Wide Mat",
+    "sourceUrl": "https://www.snowpeak.com/products/system-ofuton-hf-mat-plus",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:52Z",
+    "status": "draft",
+    "price": 209.95,
+    "priceMin": 209.95,
+    "priceMax": 209.95
+  },
+  {
+    "id": "snow-peak-take-bamboo-chair-short-lv-085",
+    "brandId": "snow-peak",
+    "category": "chair",
+    "subcategory": "Chairs",
+    "model": "Take! Renewed Bamboo Chair",
+    "modelEn": "Take! Renewed Bamboo Chair",
+    "description": "The Japanese-designed Take! Renewed Bamboo Chair features bamboo legs, aluminum supports, and a comfortable canvas seat. Simply unfold the chair for a stylish seat at home or outdoors. Pair the Take! Renewed Bamboo Chair with the Renewed Bamboo My Table for a cohesive look.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 3.48,
+      "weightDisplay": "约 3.48 kg",
+      "structure": "Chairs"
+    },
+    "highlights": [
+      "The Japanese-designed Take! Renewed Bamboo Chair features bamboo legs, aluminum supports, and a comfortable canvas seat. Simply unfold the chair for a stylish seat at home or outdoors. Pair the Take! Renewed Bamboo Chair with the Renewed Bamboo My Table for a cohesive look."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/take1_v1.jpg?v=1770922630",
+    "imageAlt": "Take! Renewed Bamboo Chair",
+    "sourceUrl": "https://www.snowpeak.com/products/take-bamboo-chair-short-lv-085",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:54Z",
+    "status": "draft",
+    "price": 149.95,
+    "priceMin": 149.95,
+    "priceMax": 149.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-takibi-garden-table-grill-set",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Takibi Garden Table & Grill Set",
+    "modelEn": "Takibi Garden Table & Grill Set",
+    "description": "The Takibi Garden Table & Grill Set includes the Takibi Garden Table , the Takibi Fire & Grill , and the Base Plate Stand M/L , combining to create a comfortable campfire, grilling, and table space. The Takibi Fire & Grill is packable, portable, and modular, allowing for easy transportation and setup at home or camp. The Takibi Garden Table is ideal for backyard gatherings and is compatible with IGT surfaces using low-height legs for additional table space.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 51.71,
+      "weightDisplay": "约 51.71 kg",
+      "structure": "Camping Set"
+    },
+    "highlights": [
+      "The Takibi Garden Table & Grill Set includes the Takibi Garden Table , the Takibi Fire & Grill , and the Base Plate Stand M/L , combining to create a comfortable campfire, grilling, and table space. The Takibi Fire & Grill is packable, portable, and modular, allowing for easy transportation and setup at home or camp. The Takibi Garden Table is ideal for backyard gatherings and is compatible with I"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/GF-051SET_hero.png?v=1752062857",
+    "imageAlt": "Takibi Garden Table & Grill Set",
+    "sourceUrl": "https://www.snowpeak.com/products/takibi-garden-table-grill-set",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 1249.95,
+    "priceMin": 1249.95,
+    "priceMax": 1249.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-takibi-garden-table-set-xl",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Takibi Garden Table Set XL",
+    "modelEn": "Takibi Garden Table Set XL",
+    "description": "The Takibi Garden Table Set XL includes the Pack & Carry XL , the Takibi Garden Table XL , and the Pack & Carry Fireplace XL Canvas Bag . Bring the camp experience home with fireside space for groups of all sizes. The Takibi Garden Table XL can be extended with IGT surfaces using low-height legs, and the Pack & Carry XL can be stored and transported in its Canvas Bag when not in use.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 61.23,
+      "weightDisplay": "约 61.23 kg",
+      "structure": "Camping Set"
+    },
+    "highlights": [
+      "The Takibi Garden Table Set XL includes the Pack & Carry XL , the Takibi Garden Table XL , and the Pack & Carry Fireplace XL Canvas Bag . Bring the camp experience home with fireside space for groups of all sizes. The Takibi Garden Table XL can be extended with IGT surfaces using low-height legs, and the Pack & Carry XL can be stored and transported in its Canvas Bag when not in use."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/GF-052SET_hero.png?v=1752062857",
+    "imageAlt": "Takibi Garden Table Set XL",
+    "sourceUrl": "https://www.snowpeak.com/products/takibi-garden-table-set-xl",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 1549.95,
+    "priceMin": 1549.95,
+    "priceMax": 1549.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-stainless-steel-my-table",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Takibi My Table",
+    "modelEn": "Takibi My Table",
+    "description": "The Takibi My Table is a durable, fire-resistant outdoor table. Use the functional table next to your fire pit, on picnics, or at the campground. Its rounded legs offer a stable base for any ground surface. The Takibi My Table features a packable and collapsible design, and a Stainless Steel Single Unit Tray can be inserted underneath to store additional items. Pair the Takibi My Table with the Red Folding Chair .",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 3.24,
+      "weightDisplay": "约 3.24 kg",
+      "structure": "Tables"
+    },
+    "highlights": [
+      "The Takibi My Table is a durable, fire-resistant outdoor table. Use the functional table next to your fire pit, on picnics, or at the campground. Its rounded legs offer a stable base for any ground surface. The Takibi My Table features a packable and collapsible design, and a Stainless Steel Single Unit Tray can be inserted underneath to store additional items. Pair the Takibi My Table with the Re"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/1_b0f968f9-e4de-4a05-b455-cb53777b3ceb.jpg?v=1587538357",
+    "imageAlt": "Takibi My Table",
+    "sourceUrl": "https://www.snowpeak.com/products/stainless-steel-my-table",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:53Z",
+    "status": "draft",
+    "price": 199.95,
+    "priceMin": 199.95,
+    "priceMax": 199.95,
+    "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-takibi-hexa-set",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Tarps and Shelters",
+    "model": "Takibi Tarp Hexa Set M",
+    "modelEn": "Takibi Tarp Hexa Set M",
+    "description": "A US-exclusive, the Takibi Tarp Hexa Set M is designed to create fireside gatherings in every season. The waterproof, UV-blocking Ivory Hexa Tarp features an elegant curved shape. Use the tarp on its own or attach the flame-resistant Takibi Inner Roof to allow for fires underneath the tarp. Secure with the included 1.5mm Aluminum Wing Poles and store the full set in the ivory-colored carrying case. Explore our full Takibi line-up to build an ideal bonfire collection.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 9.32,
+      "weightDisplay": "约 9.32 kg",
+      "capacity": "2-4人-shelter",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "A US-exclusive, the Takibi Tarp Hexa Set M is designed to create fireside gatherings in every season. The waterproof, UV-blocking Ivory Hexa Tarp features an elegant curved shape. Use the tarp on its own or attach the flame-resistant Takibi Inner Roof to allow for fires underneath the tarp. Secure with the included 1.5mm Aluminum Wing Poles and store the full set in the ivory-colored carrying case"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/takibi_hexa_set_tp-440s-us_hero_01.jpg?v=1745947395",
+    "imageAlt": "Takibi Tarp Hexa Set M",
+    "sourceUrl": "https://www.snowpeak.com/products/takibi-hexa-set",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:49Z",
+    "status": "draft",
+    "price": 549.95,
+    "priceMin": 549.95,
+    "priceMax": 549.95
+  },
+  {
+    "id": "snow-peak-takibi-tarp-octa",
+    "brandId": "snow-peak",
+    "category": "tarp",
+    "subcategory": "Large Shelters",
+    "model": "Takibi Tarp Octa",
+    "modelEn": "Takibi Tarp Octa",
+    "description": "The Takibi Tarp Octa is a large Japanese-designed tarp with a fire-resistant liner. Use the Takibi Tarp Octa to enjoy campfires year-round and stay protected from the elements. The Takibi Tarp Octa features an elevated space that can easily fit eight people. The tarp is designed to offer maximum protection from wind and rain, while still featuring large openings for light. Pair the Takibi Tarp Octa with the Takibi Fire & Grill for a full fireside set-up. Please note: Wing Poles are not included and need to be purchased separately.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 9.18,
+      "weightDisplay": "约 9.18 kg",
+      "capacity": "4-8人-shelter",
+      "structure": "Tarps"
+    },
+    "highlights": [
+      "The Takibi Tarp Octa is a large Japanese-designed tarp with a fire-resistant liner. Use the Takibi Tarp Octa to enjoy campfires year-round and stay protected from the elements. The Takibi Tarp Octa features an elevated space that can easily fit eight people. The tarp is designed to offer maximum protection from wind and rain, while still featuring large openings for light. Pair the Takibi Tarp Oct"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/takibi_tarp_octa_tp-430_hero_01.jpg?v=1587501830",
+    "imageAlt": "Takibi Tarp Octa",
+    "sourceUrl": "https://www.snowpeak.com/products/takibi-tarp-octa",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:51Z",
+    "status": "draft",
+    "price": 777.95,
+    "priceMin": 777.95,
+    "priceMax": 777.95
+  },
+  {
+    "id": "snow-peak-toya-2",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Toya 2",
+    "modelEn": "Toya 2",
+    "description": "The Toya 2 is a ground canopy best for park picnics and backyards. The padded groundsheet offers water-resistant protection from damp grass. It features a fly sheet, frame, and groundsheet. Pair the Toya 2 with the Ground Panel Chair for a comfortable set-up. Please note: the Toya 2 is not suitable for overnight camping or during inclement weather.",
+    "currency": "USD",
+    "specs": {
+      "capacity": "1-2人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Toya 2 is a ground canopy best for park picnics and backyards. The padded groundsheet offers water-resistant protection from damp grass. It features a fly sheet, frame, and groundsheet. Pair the Toya 2 with the Ground Panel Chair for a comfortable set-up. Please note: the Toya 2 is not suitable for overnight camping or during inclement weather."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/sd-180_hero_01.png?v=1666738339",
+    "imageAlt": "Toya 2",
+    "sourceUrl": "https://www.snowpeak.com/products/toya-2",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 236.97,
+    "priceMin": 236.97,
+    "priceMax": 236.97
+  },
+  {
+    "id": "snow-peak-vault-ivory",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Vault in Ivory",
+    "modelEn": "Vault in Ivory",
+    "description": "The Vault in Ivory is a versatile four-person tent. Use it for car camping with groups for a comfortable sleeping and gathering solution. The tent can be converted into an open-air shelter by simply removing the inner lining. It also features a convenient side entrance and ample ventilation. Pair the Vault in Ivory with the Entry Pack TT Mat & Sheet Set for a comfortable sleeping space.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 9.07,
+      "weightDisplay": "约 9.07 kg",
+      "capacity": "4-6人",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Vault in Ivory is a versatile four-person tent. Use it for car camping with groups for a comfortable sleeping and gathering solution. The tent can be converted into an open-air shelter by simply removing the inner lining. It also features a convenient side entrance and ample ventilation. Pair the Vault in Ivory with the Entry Pack TT Mat & Sheet Set for a comfortable sleeping space."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/vault_ivory_sde-080-iv-us_hero_01.jpg?v=1620330023",
+    "imageAlt": "Vault in Ivory",
+    "sourceUrl": "https://www.snowpeak.com/products/vault-ivory",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-06-05T14:34:48Z",
+    "status": "draft",
+    "price": 230.96,
+    "priceMin": 230.96,
+    "priceMax": 230.96
+  }
+]
