@@ -164,6 +164,12 @@
       "scrapedAt": "2026-06-05T15:15:03Z",
       "productCount": 169,
       "errors": []
+    },
+    {
+      "brandId": "nanga",
+      "scrapedAt": "2026-06-09T14:33:29Z",
+      "productCount": 39,
+      "errors": []
     }
   ]
 }

@@ -82,5 +82,12 @@
     "nameEn": "3F UL Gear",
     "country": "CN",
     "rank": 12
+  },
+  {
+    "id": "nanga",
+    "name": "NANGA",
+    "nameEn": "NANGA",
+    "country": "JP",
+    "rank": 13
   }
 ]

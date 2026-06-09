@@ -176,6 +176,36 @@
           "excludeTitleKeywords": ["board only", "hook", "peg", "shelf"]
         }
       ]
+    },
+    "nanga": {
+      "brandId": "nanga",
+      "sourceSite": "store.nanga.jp",
+      "baseUrl": "https://store.nanga.jp",
+      "currency": "JPY",
+      "adapter": "shopify",
+      "useBrowserUserAgent": true,
+      "rateLimitSeconds": 1.5,
+      "collections": [
+        {
+          "handle": "sleeping-bag",
+          "category": "sleeping-bag",
+          "subcategory": "Sleeping Bags",
+          "excludeTitleKeywords": [
+            "inner sheet",
+            "インナー",
+            "ピロー",
+            "pillow",
+            "ストレージ",
+            "storage bag",
+            "ギフト",
+            "gift package",
+            "cover",
+            "カバー",
+            "t-shirt",
+            "シャツ"
+          ]
+        }
+      ]
     }
   }
 }

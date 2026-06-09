@@ -45,7 +45,7 @@
 
   function formatPrice(min, max, currency) {
     if (min == null && max == null) return "—";
-    var suffix = currency === "USD" ? " USD" : " 元";
+    var suffix = currency === "USD" ? " USD" : currency === "JPY" ? " 円" : " 元";
     if (min != null && max != null) {
       return min.toLocaleString("zh-CN") + "–" + max.toLocaleString("zh-CN") + suffix;
     }

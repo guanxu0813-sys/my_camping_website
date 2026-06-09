@@ -238,25 +238,37 @@ def infer_sleeping_bag_specs(product: dict[str, Any]) -> dict[str, Any]:
         if single:
             specs["comfortTemp"] = f"{single.group(1)}°F"
 
-    if "down" in blob and "synthetic" not in title_lower[:40]:
-        specs["fillType"] = "羽绒"
-    elif "synthetic" in blob or "cotton" in blob or "fibre" in blob or "fiber" in blob:
+    if "comfortTemp" not in specs:
+        jp_temp = re.search(r"快適使用温度\s*(-?\d+)\s*℃", blob)
+        if jp_temp:
+            specs["comfortTemp"] = f"{jp_temp.group(1)}°C"
+        else:
+            zzz_temp = re.search(r"zzz\s*bag\s*(-?\d+)", title_lower)
+            if zzz_temp:
+                specs["comfortTemp"] = f"{zzz_temp.group(1)}°C"
+            else:
+                level_temp = re.search(r"レベル8\s*(-?\d+)", title)
+                if level_temp:
+                    specs["comfortTemp"] = f"{level_temp.group(1)}°C"
+
+    if "down" in blob or "ダウン" in blob:
+        if "synthetic" not in title_lower[:40] and "化繊" not in blob[:80]:
+            specs["fillType"] = "羽绒"
+    elif "synthetic" in blob or "cotton" in blob or "fibre" in blob or "fiber" in blob or "化繊" in blob:
         if "cotton" in blob:
             specs["fillType"] = "棉 / 化纤"
         else:
             specs["fillType"] = "化纤棉"
-    elif "down" in blob:
-        specs["fillType"] = "羽绒"
 
-    if "mummy" in blob:
+    if "mummy" in blob or "マミー" in blob:
         specs["bagType"] = "木乃伊"
-    elif "envelope" in blob or "rectangular" in blob:
+    elif "envelope" in blob or "rectangular" in blob or "スクエアフット" in blob or "レクタンギュラー" in blob:
         specs["bagType"] = "信封式"
     elif "ofuton" in blob or "system" in blob and "mat" in blob:
         specs["bagType"] = "睡袋系统"
-    elif "liner" in blob:
+    elif "liner" in blob or "インナー" in blob:
         specs["bagType"] = "内胆"
-    elif product.get("product_type"):
+    elif product.get("product_type") and product["product_type"] not in ("SleepingBag", "Accessory"):
         specs["bagType"] = product["product_type"]
 
     return specs
