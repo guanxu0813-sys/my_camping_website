@@ -2,10 +2,14 @@
 """Bundle data/*.json into data/catalog.js for file:// preview."""
 
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
+sys.path.insert(0, str(ROOT / "scripts" / "scrape"))
+
+from common import is_visible_on_site  # noqa: E402
 
 
 def load_official_products() -> list:
@@ -23,7 +27,7 @@ def load_official_products() -> list:
             continue
         batch = json.loads(path.read_text(encoding="utf-8"))
         if isinstance(batch, list):
-            products.extend(batch)
+            products.extend(p for p in batch if isinstance(p, dict) and is_visible_on_site(p))
     return products
 
 

@@ -28,8 +28,41 @@ except ImportError:  # pragma: no cover
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 OFFICIAL_DIR = ROOT / "data" / "official"
-CONFIG_JSON = Path(__file__).resolve().parent / "config.json"
 CONFIG_YAML = Path(__file__).resolve().parent / "config.yaml"
+
+EDITORIAL_KEYS = (
+    "status",
+    "published",
+    "imageLocal",
+    "imageAlt",
+    "inSummaryTable",
+    "inDetailCards",
+    "pros",
+    "cons",
+    "scenarios",
+)
+VERIFIED_OVERRIDE_KEYS = (
+    "model",
+    "modelEn",
+    "description",
+    "specs",
+    "highlights",
+    "structure",
+    "detailStructure",
+    "weightKg",
+    "weightDisplay",
+    "weightRange",
+    "capacity",
+    "fabric",
+    "tarpType",
+    "size",
+    "bagType",
+    "fillType",
+    "comfortTemp",
+    "seatHeight",
+    "foldedSize",
+    "subcategory",
+)
 
 USER_AGENT = "CampGearCompareScraper/1.0 (+personal compare project; respectful rate limit)"
 BROWSER_USER_AGENT = (
@@ -64,15 +97,49 @@ class RateLimiter:
 
 
 def load_config() -> dict[str, Any]:
-    if CONFIG_JSON.exists():
-        with CONFIG_JSON.open(encoding="utf-8") as f:
-            data = json.load(f)
-        return data["brands"]
     if yaml is None:
-        raise RuntimeError("Missing config.json and PyYAML not installed")
+        raise RuntimeError("PyYAML required — pip install PyYAML")
+    if not CONFIG_YAML.exists():
+        raise RuntimeError(f"Missing {CONFIG_YAML}")
     with CONFIG_YAML.open(encoding="utf-8") as f:
         data = yaml.safe_load(f)
     return data["brands"]
+
+
+def collection_categories(collection: dict[str, Any]) -> set[str]:
+    if collection.get("classifyFurniture"):
+        return {"table", "chair"}
+    category = collection.get("category")
+    return {category} if category else set()
+
+
+def merge_scraped_product(existing: dict[str, Any] | None, fresh: dict[str, Any]) -> dict[str, Any]:
+    """Merge a fresh scrape into an existing record, preserving editorial fields."""
+    if not existing:
+        return fresh
+    merged = dict(fresh)
+    for key in EDITORIAL_KEYS:
+        if key in existing:
+            merged[key] = existing[key]
+    if "published" not in existing:
+        merged.pop("published", None)
+    if existing.get("status") in ("verified", "merged"):
+        for key in VERIFIED_OVERRIDE_KEYS:
+            val = existing.get(key)
+            if val not in (None, "", {}, []):
+                merged[key] = val
+    return merged
+
+
+def is_visible_on_site(product: dict[str, Any]) -> bool:
+    status = product.get("status")
+    if status in ("verified", "merged"):
+        return True
+    if product.get("published") is True:
+        return True
+    if status == "draft" and "published" not in product:
+        return True
+    return False
 
 
 def fetch_text(
@@ -458,6 +525,7 @@ def normalize_shopify_product(
         "sourceSite": source_site,
         "scrapedAt": now_iso(),
         "status": "draft",
+        "published": False,
     }
     if price is not None:
         item["price"] = price
@@ -477,15 +545,20 @@ def fetch_shopify_collection_products(
     limit: int = 250,
     *,
     user_agent: str | None = None,
+    warnings: list[str] | None = None,
 ) -> list[dict[str, Any]]:
     products: list[dict[str, Any]] = []
     page = 1
+    not_found = False
     while True:
         url = f"{base_url.rstrip('/')}/collections/{handle}/products.json?limit={limit}&page={page}"
         try:
             payload = fetch_json(url, limiter, user_agent=user_agent)
         except urllib.error.HTTPError as exc:
-            if exc.code == 404:
+            if exc.code == 404 and page == 1:
+                not_found = True
+                if warnings is not None:
+                    warnings.append(f"collection {handle}: not found (404)")
                 break
             raise
         batch = payload.get("products") or []
@@ -495,6 +568,8 @@ def fetch_shopify_collection_products(
         if len(batch) < limit:
             break
         page += 1
+    if not products and not not_found and warnings is not None:
+        warnings.append(f"collection {handle}: 0 products returned")
     return products
 
 

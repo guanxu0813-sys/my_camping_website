@@ -59,6 +59,10 @@
       "type": "string",
       "enum": ["draft", "verified", "merged"]
     },
+    "published": {
+      "type": "boolean",
+      "description": "设为 true 可在未 verified 时上架展示；新抓取默认为 false"
+    },
     "structure": { "type": "string" },
     "detailStructure": { "type": "string" },
     "weightKg": { "type": "number" },

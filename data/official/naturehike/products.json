@@ -3349,29 +3349,6 @@
     "priceMax": 59.99
   },
   {
-    "id": "naturehike-naturehike-gift-card",
-    "brandId": "naturehike",
-    "category": "sleeping-bag",
-    "subcategory": "Sleeping Bags",
-    "model": "Naturehike gift card",
-    "modelEn": "Naturehike gift card",
-    "description": "Naturehike gift card",
-    "currency": "USD",
-    "specs": {},
-    "highlights": [
-      "Naturehike gift card"
-    ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0490/8954/4346/products/gift-card.jpg?v=1740109672",
-    "imageAlt": "Naturehike gift card",
-    "sourceUrl": "https://www.naturehike.com/products/naturehike-gift-card",
-    "sourceSite": "naturehike.com",
-    "scrapedAt": "2026-06-05T15:14:53Z",
-    "status": "draft",
-    "price": 10.0,
-    "priceMin": 10.0,
-    "priceMax": 10.0
-  },
-  {
     "id": "naturehike-naturehike-l250-waterproof-sleeping-bag-for-all-seasons",
     "brandId": "naturehike",
     "category": "sleeping-bag",

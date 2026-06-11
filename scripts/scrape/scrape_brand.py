@@ -15,10 +15,12 @@ from common import (  # noqa: E402
     RateLimiter,
     USER_AGENT,
     classify_furniture,
+    collection_categories,
     fetch_shopify_all_products,
     fetch_shopify_collection_products,
     load_config,
     matches_filter,
+    merge_scraped_product,
     normalize_shopify_product,
     read_json,
     update_manifest,
@@ -39,18 +41,29 @@ def scrape_shopify_brand(brand_key: str, cfg: dict) -> int:
     brand_id = cfg["brandId"]
     by_handle: dict[str, dict] = {}
     errors: list[str] = []
+    failed_categories: set[str] = set()
 
     for collection in cfg.get("collections") or []:
         handle = collection["handle"]
         category = collection.get("category")
         subcategory = collection.get("subcategory")
+        cats = collection_categories(collection)
+        coll_warnings: list[str] = []
         try:
             raw_products = fetch_shopify_collection_products(
-                base_url, handle, limiter, user_agent=user_agent
+                base_url,
+                handle,
+                limiter,
+                user_agent=user_agent,
+                warnings=coll_warnings,
             )
         except Exception as exc:  # noqa: BLE001
             errors.append(f"collection {handle}: {exc}")
+            failed_categories |= cats
             continue
+        errors.extend(coll_warnings)
+        if not raw_products:
+            failed_categories |= cats
         for product in raw_products:
             title_lower = (product.get("title") or "").lower()
             skip = False
@@ -79,6 +92,7 @@ def scrape_shopify_brand(brand_key: str, cfg: dict) -> int:
             by_handle[item["id"]] = item
 
     filters = cfg.get("allProductsFilters") or []
+    filter_categories = {flt["category"] for flt in filters}
     all_products_failed = False
     if filters:
         try:
@@ -87,6 +101,8 @@ def scrape_shopify_brand(brand_key: str, cfg: dict) -> int:
             errors.append(f"all_products: {exc}")
             all_products = []
             all_products_failed = True
+        if all_products_failed:
+            failed_categories |= filter_categories
         for flt in filters:
             category = flt["category"]
             for product in all_products:
@@ -104,23 +120,33 @@ def scrape_shopify_brand(brand_key: str, cfg: dict) -> int:
                 by_handle[item["id"]] = item
 
     out_path = OFFICIAL_DIR / brand_id / "products.json"
-    if all_products_failed and filters and out_path.exists():
-        filter_categories = {flt["category"] for flt in filters}
+    existing_by_id: dict[str, dict] = {}
+    if out_path.exists():
         for item in read_json(out_path):
-            if item.get("category") in filter_categories and item.get("id") not in by_handle:
+            existing_by_id[item["id"]] = item
+        for item in existing_by_id.values():
+            if item.get("category") in failed_categories and item.get("id") not in by_handle:
                 by_handle[item["id"]] = item
 
-    products = sorted(by_handle.values(), key=lambda p: p["model"].lower())
+    merged: dict[str, dict] = {}
+    for pid, fresh in by_handle.items():
+        merged[pid] = merge_scraped_product(existing_by_id.get(pid), fresh)
+
+    products = sorted(merged.values(), key=lambda p: p["model"].lower())
     if not products and errors:
         print(f"Skipped write to {out_path}: 0 products and {len(errors)} error(s)", file=sys.stderr)
         if out_path.exists():
-            existing = read_json(out_path)
-            print(f"Keeping existing file ({len(existing)} products)", file=sys.stderr)
+            print(f"Keeping existing file ({len(existing_by_id)} products)", file=sys.stderr)
         update_manifest(brand_id, 0, errors)
         return 0
     write_json(out_path, products)
     update_manifest(brand_id, len(products), errors)
     print(f"Wrote {out_path} ({len(products)} products)")
+    if failed_categories:
+        print(
+            f"Preserved existing data for failed categories: {', '.join(sorted(failed_categories))}",
+            file=sys.stderr,
+        )
     if errors:
         print("Warnings:", "; ".join(errors), file=sys.stderr)
     return len(products)

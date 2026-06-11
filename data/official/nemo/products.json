@@ -1,0 +1,704 @@
+[
+  {
+    "id": "nemo-aurora-highrise",
+    "brandId": "nemo",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Aurora Highrise™ Camping Tent",
+    "modelEn": "Aurora Highrise™ Camping Tent",
+    "description": "With a spacious standing-height design, simple setup, and vibrant colors, the Aurora Highrise tent adds a dose of joy to every family camping adventure. Steep sidewalls provide massive interior volume, while large rain-protected windows add ventilation and great views. Two large doors and vestibules offer easy entry and plenty of room for keeping camping essentials organized and out of the weather. This versatile and inviting home under the stars features high-quality materials and is ideal for escaping with the whole family or simply spreading out as a couple. Aurora Highrise uses durable fabrics that meet flame-retardant standards without the use of harmful chemicals. The heavy-duty 150D polyester floor is printed with a colorful, charming pattern to keep spirits high, with Nightlight Pocket™ headlamp diffusers, multiple gear pockets, and Gatekeeper™ door clips to complete the package. And when it’s time to rejoin civilization, an oversized duffel storage bag makes packing up a breeze. With the Aurora Highrise tent, the sky is truly the limit on where you might call home.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Tents"
+    },
+    "highlights": [
+      "With a spacious standing-height design, simple setup, and vibrant colors, the Aurora Highrise tent adds a dose of joy to every family camping adventure. Steep sidewalls provide massive interior volume, while large rain-protected windows add ventilation and great views. Two large doors and vestibules offer easy entry and plenty of room for keeping camping essentials organized and out of the weather"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/gojdxhlx6uzyxreseris.jpg?v=1776198390",
+    "imageAlt": "Aurora Highrise™ Camping Tent",
+    "sourceUrl": "https://www.nemoequipment.com/products/aurora-highrise",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:17:45Z",
+    "status": "draft",
+    "published": true,
+    "price": 399.95,
+    "priceMin": 399.95,
+    "priceMax": 499.95
+  },
+  {
+    "id": "nemo-aurora-backpacking-tent-and-footprint",
+    "brandId": "nemo",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Aurora™ Backpacking Tent & Footprint",
+    "modelEn": "Aurora™ Backpacking Tent & Footprint",
+    "description": "Offering massive interior space that’s truly unmatched for its weight class, Aurora™ is a worthy investment for the adventurer that loves a roomy shelter when car camping and backpacking. Updated with premium hardware and features, this tent now also measures up to NEMO’s high sustainability standards with a PFAS-, FRC-free fabric suite and bluesign® approved recycled floor. Aurora’s vertical sidewalls and massive doors allow for comfortable side-by-side seating and the lightweight aluminum pole set includes a custom forged hub, part of NEMO’s new Elements™ hardware collection. Interior gear pockets keep personal items organized and at hand, while overhead Nightlight Pockets™ diffuse headlamp light to cast a warm glow at night. Packed in a Divvy Cube™ stuff sack, Aurora can be more efficiently stowed in a backpack, especially when the poles are removed to share the weight with a friend. A complementary tent footprint is included to help extend the lifespan of the tent, protecting it from rough terrain and abrasion.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Tents"
+    },
+    "highlights": [
+      "Offering massive interior space that’s truly unmatched for its weight class, Aurora™ is a worthy investment for the adventurer that loves a roomy shelter when car camping and backpacking. Updated with premium hardware and features, this tent now also measures up to NEMO’s high sustainability standards with a PFAS-, FRC-free fabric suite and bluesign® approved recycled floor. Aurora’s vertical side"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/uxgvtz8p3idfvwiuzavy.jpg?v=1776198386",
+    "imageAlt": "Aurora™ Backpacking Tent & Footprint",
+    "sourceUrl": "https://www.nemoequipment.com/products/aurora-backpacking-tent-and-footprint",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:17:45Z",
+    "status": "draft",
+    "published": true,
+    "price": 299.95,
+    "priceMin": 299.95,
+    "priceMax": 379.95
+  },
+  {
+    "id": "nemo-chogori-mountaineering-tent",
+    "brandId": "nemo",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Chogori™ Mountaineering Tent",
+    "modelEn": "Chogori™ Mountaineering Tent",
+    "description": "This four-season tent delivers the first big innovation in mountaineering tents in decades by integrating the fly with the body of the tent. That, paired with an external pole structure, allows for setup in half the time, a valuable time savings in extreme weather. This innovation also trims weight by 25% while maintaining category-leading ventilation, vestibule space, and guy-out options. Finally, its silicone-treated fabrics are significantly stronger and don't require seam tape, resulting in increased durability. Link two Chogori tents of the same size together to create a larger, connected shelter in which to wait out the storm.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Tents"
+    },
+    "highlights": [
+      "This four-season tent delivers the first big innovation in mountaineering tents in decades by integrating the fly with the body of the tent. That, paired with an external pole structure, allows for setup in half the time, a valuable time savings in extreme weather. This innovation also trims weight by 25% while maintaining category-leading ventilation, vestibule space, and guy-out options. Finally"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/uiu9ppxjhkjrpt1axedq.jpg?v=1776198391",
+    "imageAlt": "Chogori™ Mountaineering Tent",
+    "sourceUrl": "https://www.nemoequipment.com/products/chogori-mountaineering-tent",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:17:45Z",
+    "status": "draft",
+    "published": true,
+    "price": 799.95,
+    "priceMin": 799.95,
+    "priceMax": 899.95
+  },
+  {
+    "id": "nemo-coda-genderless-endless-promise-down-sleeping-bag",
+    "brandId": "nemo",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Coda™ Endless Promise®  Down Mummy Sleeping Bag",
+    "modelEn": "Coda™ Endless Promise®  Down Mummy Sleeping Bag",
+    "description": "With NEMO’s signature quality and innovation, Coda™ represents a new vision of what ultralight sleeping bags can be. Inspired by the traditional tapered mummy bag, Coda has a sleek, streamlined silhouette that shaves excess material and weight wherever possible — but doesn’t stop there. A mono-polymer design, Coda also meets our Endless Promise® standard and can be fully recycled at the end of its life. Coda’s single, asymmetrical front zip integrates with the all-new Headwall™ internal draft guard to provide 360-degree protection. A plush, insulated collar, Headwall wraps around the back of the neck and cozily overlaps itself in front to efficiently block cold air while creating a uniquely comfortable experience. Balancing the front zipper is a single Thermo Gill™ vent, enabling fine-tuned temperature control. With internal and external zippers, the Thermo Gill incrementally releases body heat without direct exposure to the cold. For additional, instant ventilation, or simply to let your feet poke out, the footbox also features a zippered opening. Highlighting the clean design are strategically placed vertical and horizontal baffles to optimize warmth and comfort while preventing migration of the 800 FP, RDS-certified , water-resistant down. This premium down is ideal for frigid conditions and packs down incredibly small, making Coda a versatile option for both ultralight backpacking and mountaineering trips. Manufactured from a single type of material, this sleeping bag is ",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Bags",
+      "fillType": "羽绒",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "With NEMO’s signature quality and innovation, Coda™ represents a new vision of what ultralight sleeping bags can be. Inspired by the traditional tapered mummy bag, Coda has a sleek, streamlined silhouette that shaves excess material and weight wherever possible — but doesn’t stop there. A mono-polymer design, Coda also meets our Endless Promise® standard and can be fully recycled at the end of its"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/j0d5hwqeilppa2cctgyw.jpg?v=1776198385",
+    "imageAlt": "Coda™ Endless Promise®  Down Mummy Sleeping Bag",
+    "sourceUrl": "https://www.nemoequipment.com/products/coda-genderless-endless-promise-down-sleeping-bag",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:18:05Z",
+    "status": "draft",
+    "published": true,
+    "price": 439.95,
+    "priceMin": 399.95,
+    "priceMax": 479.95
+  },
+  {
+    "id": "nemo-dagger-osmo",
+    "brandId": "nemo",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Dagger OSMO™ Lightweight Backpacking Tent",
+    "modelEn": "Dagger OSMO™ Lightweight Backpacking Tent",
+    "description": "The most livable backpacking tent in our line just got a little roomier. Dagger OSMO now features an updated pole structure that adds 4 inches to the door height, 2 inches to the peak height, and 22% more usable space to the vestibule. This maximized interior offers downright luxurious downtime in camp and comes at no extra weight cost. Rounding out the improved experience is NEMO’s custom Elements™ hardware suite, featuring the Axial™ corner anchor for one-handed setup and tensioning. The updated hardware and poles are paired with solution-dyed OSMO™ fabrics on the fly and floor that promise 4x longer lasting water repellency, 3x less stretch when wet, and a 20% higher strength rating than similar fabrics. Made from 100% recycled yarns for reduced waste, this OSMO fabric also requires less water for the dyeing process. These sustainability efforts combine to earn Dagger OSMO certification as a bluesign® product backpacking tent — the industry’s first at the time of launch. Features like the Divvy Cube™ stuff sack, Landing Zone™ waterproof storage tub, Nightlight Pockets™, and one-handed Gatekeeper™ door clips remain staples of this backpacking favorite, equipping it well for both relaxed car camping and backcountry treks. Between the feature set, ample interior, and light weight, Dagger OSMO is a true one-tent wonder for adventures of all kinds.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The most livable backpacking tent in our line just got a little roomier. Dagger OSMO now features an updated pole structure that adds 4 inches to the door height, 2 inches to the peak height, and 22% more usable space to the vestibule. This maximized interior offers downright luxurious downtime in camp and comes at no extra weight cost. Rounding out the improved experience is NEMO’s custom Element"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/m42owi2au0pvt9pfffaz.jpg?v=1776457746",
+    "imageAlt": "Dagger OSMO™ Lightweight Backpacking Tent",
+    "sourceUrl": "https://www.nemoequipment.com/products/dagger-osmo",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:17:45Z",
+    "status": "draft",
+    "published": true,
+    "price": 599.95,
+    "priceMin": 599.95,
+    "priceMax": 649.95
+  },
+  {
+    "id": "nemo-disco-mens-endless-promise-down-sleeping-bag",
+    "brandId": "nemo",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Disco™ Men's Endless Promise® Down Sleeping Bag",
+    "modelEn": "Disco™ Men's Endless Promise® Down Sleeping Bag",
+    "description": "The reigning favorite down bag for backpackers, Disco™ features the best-of-all-worlds Classic Spoon® silhouette for ultimate side-sleeping comfort. NEMO’s iconic Spoon bags are cut generously at the elbows and knees so campers can shift positions comfortably throughout the night, but shave unnecessary weight so gear still packs up light. The Classic Spoon is the sweet spot of the line, balancing packability with plush, roomy comfort. Disco includes a set of next-generation Thermo Gill™ vents on the chest to offer fine-tuned temperature control and a better outdoor sleeping experience. Each Gill features an interior and an exterior zipper with a draft-blocking intermediate layer, allowing several different configurations for dialing in the bag’s temperature without direct exposure to cold air. Our Blanket Fold™ draft collar at the neckline features a redesigned size and shape to further optimize sleep temperature. Tucked in, the Blanket Fold defiantly blocks any chill while mimicking the comfort of your bed at home. Pushed out, it helps dump excess heat instantly. Finally, Disco’s revamped design has baffles insulated with water-resistant, RDS-certified down, placed vertically along the torso for comfort and aligned horizontally below the waist to prevent down migration. Along with this suite of top features, Disco now boasts the purpose-driven Endless Promise® designation, meaning it was designed specifically to stay out of the landfill and on the trail, forever. With a shel",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Bags",
+      "fillType": "羽绒",
+      "bagType": "Sleeping Bags"
+    },
+    "highlights": [
+      "The reigning favorite down bag for backpackers, Disco™ features the best-of-all-worlds Classic Spoon® silhouette for ultimate side-sleeping comfort. NEMO’s iconic Spoon bags are cut generously at the elbows and knees so campers can shift positions comfortably throughout the night, but shave unnecessary weight so gear still packs up light. The Classic Spoon is the sweet spot of the line, balancing "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/kapguo5ilgtrwp3yzj3h.jpg?v=1776198382",
+    "imageAlt": "Disco™ Men's Endless Promise® Down Sleeping Bag",
+    "sourceUrl": "https://www.nemoequipment.com/products/disco-mens-endless-promise-down-sleeping-bag",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:18:05Z",
+    "status": "draft",
+    "published": true,
+    "price": 299.95,
+    "priceMin": 279.95,
+    "priceMax": 359.95
+  },
+  {
+    "id": "nemo-disco-womens-endless-promise-down-sleeping-bag",
+    "brandId": "nemo",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Disco™ Women's Endless Promise® Down Sleeping Bag",
+    "modelEn": "Disco™ Women's Endless Promise® Down Sleeping Bag",
+    "description": "The reigning favorite down bag for backpackers, Disco™ features the best-of-all-worlds Classic Spoon® silhouette for ultimate side-sleeping comfort. NEMO’s iconic Spoon bags are cut generously at the elbows and knees so campers can shift positions comfortably throughout the night, but shave unnecessary weight so gear still packs up light. The Classic Spoon is the sweet spot of the line, balancing packability with plush, roomy comfort. Disco includes a set of next-generation Thermo Gill™ vents on the chest to offer fine-tuned temperature control and a better outdoor sleeping experience. Each Gill features an interior and an exterior zipper with a draft-blocking intermediate layer, allowing several different configurations for dialing in the bag’s temperature without direct exposure to cold air. Our Blanket Fold™ draft collar at the neckline features a redesigned size and shape to further optimize sleep temperature. Tucked in, the Blanket Fold defiantly blocks any chill while mimicking the comfort of your bed at home. Pushed out, it helps dump excess heat instantly. Finally, Disco’s revamped design has baffles insulated with water-resistant, RDS-certified down , placed vertically along the torso for comfort and aligned horizontally below the waist to prevent down migration. Along with this suite of top features, Disco now boasts the purpose-driven Endless Promise® designation, meaning it was designed specifically to stay out of the landfill and on the trail, forever. With a she",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Bags",
+      "fillType": "羽绒",
+      "bagType": "Sleeping Bags"
+    },
+    "highlights": [
+      "The reigning favorite down bag for backpackers, Disco™ features the best-of-all-worlds Classic Spoon® silhouette for ultimate side-sleeping comfort. NEMO’s iconic Spoon bags are cut generously at the elbows and knees so campers can shift positions comfortably throughout the night, but shave unnecessary weight so gear still packs up light. The Classic Spoon is the sweet spot of the line, balancing "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/swcfncnshtk6rfwl42ot_dc3aaa48-48a0-4191-9c46-5f9511a0675c.jpg?v=1776198388",
+    "imageAlt": "Disco™ Women's Endless Promise® Down Sleeping Bag",
+    "sourceUrl": "https://www.nemoequipment.com/products/disco-womens-endless-promise-down-sleeping-bag",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:18:05Z",
+    "status": "draft",
+    "published": true,
+    "price": 299.95,
+    "priceMin": 269.95,
+    "priceMax": 349.95
+  },
+  {
+    "id": "nemo-dragonfly-osmo",
+    "brandId": "nemo",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Dragonfly OSMO™ Ultralight Backpacking Tent",
+    "modelEn": "Dragonfly OSMO™ Ultralight Backpacking Tent",
+    "description": "The Dragonfly OSMO™ has long been celebrated for its perfect balance of weight and livability — and now it soars to new heights with a brand-new crossbar design. Taller doors, expanded interior space, and a stronger, more stable frame made from recycled aluminum poles make it the ultimate freestanding tent for adventure. NEMO’s custom Elements™ hardware features a forged hub design that angles the crossbar “wings” upward before tensioning. The Precurve™ system creates a near-horizontal roof, giving you generous headroom throughout the tent, not just at the peak. Lightweight Axial™ corner anchors simplify the rainfly attachment, making setup fast and frustration-free. Inside, Dragonfly OSMO™ is as resilient as it is roomy. Its solution-dyed, PFAS-free proprietary fabric repels water, resists tearing, and stays taut in wet conditions. Designed to withstand harsh winds, it keeps you dry and protected no matter the weather. Generous doors and spacious vestibules make entry and gear access effortless. The included Landing Zone™ storage tub protects gear from mud and can be positioned in either vestibule. A gear loft, multiple pockets, and the Nightlight Pocket™ provide organized storage and soft, even illumination from your headlamp. An updated Divvy Cube™ stuff sack allows partners to split weight and pack more efficiently. Lightweight, durable, and thoughtfully engineered, Dragonfly OSMO™ combines adventure-ready performance with freestanding comfort, giving you the space, stren",
+    "currency": "USD",
+    "specs": {
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Dragonfly OSMO™ has long been celebrated for its perfect balance of weight and livability — and now it soars to new heights with a brand-new crossbar design. Taller doors, expanded interior space, and a stronger, more stable frame made from recycled aluminum poles make it the ultimate freestanding tent for adventure. NEMO’s custom Elements™ hardware features a forged hub design that angles the"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/ppilrwrnoe1zbcob6a3n.jpg?v=1776198381",
+    "imageAlt": "Dragonfly OSMO™ Ultralight Backpacking Tent",
+    "sourceUrl": "https://www.nemoequipment.com/products/dragonfly-osmo",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:17:45Z",
+    "status": "draft",
+    "published": true,
+    "price": 499.95,
+    "priceMin": 499.95,
+    "priceMax": 619.95
+  },
+  {
+    "id": "nemo-dragonfly-bikepack-footprint",
+    "brandId": "nemo",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Dragonfly™ Bikepack OSMO™ Footprint",
+    "modelEn": "Dragonfly™ Bikepack OSMO™ Footprint",
+    "description": "This NEMO footprint is an abrasion-resistant polyester tarp perfectly sized to fit underneath your corresponding NEMO tent. Adding this layer of durable, waterproof fabric reduces wear and tear on your tent floor, which can be caused by camping on rough or rocky ground.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Tents"
+    },
+    "highlights": [
+      "This NEMO footprint is an abrasion-resistant polyester tarp perfectly sized to fit underneath your corresponding NEMO tent. Adding this layer of durable, waterproof fabric reduces wear and tear on your tent floor, which can be caused by camping on rough or rocky ground."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/c0h71onyab8y0ihovuqr.jpg?v=1751900410",
+    "imageAlt": "Dragonfly™ Bikepack OSMO™ Footprint",
+    "sourceUrl": "https://www.nemoequipment.com/products/dragonfly-bikepack-footprint",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:17:45Z",
+    "status": "draft",
+    "published": true,
+    "price": 42.0,
+    "priceMin": 42.0,
+    "priceMax": 49.0
+  },
+  {
+    "id": "nemo-dragonfly-osmo-bikepack",
+    "brandId": "nemo",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Dragonfly™ Bikepack OSMO™ Ultralight Backpacking Tent",
+    "modelEn": "Dragonfly™ Bikepack OSMO™ Ultralight Backpacking Tent",
+    "description": "Dragonfly™ Bikepack OSMO™ is an ultralight, freestanding tent built for bikepacking, canoe trips, and any adventure where pack-down size matters. Now featuring an improved pole structure and a unique crossbar that expands interior space, this tent travels light while letting you truly stretch your wings. Its stronger, more stable pole set pairs with NEMO’s custom Elements™ hardware, including a forged hub design that angles the crossbar “wings” upward before tensioning. This Precurve™ system creates a near-horizontal roof and generous headroom across the tent, not just at the peak. Axial™ Lite corner anchors simplify rainfly attachment, making setup quick and effortless. Inside, Dragonfly Bikepack OSMO™ is as resilient as it is roomy. Its solution-dyed, PFAS-free proprietary fabric repels water, resists tearing, and stays taut even in heavy rain. Generous doors and spacious vestibules pair with a Landing Zone™ storage tub to keep gear protected from mud. A gear loft, multiple pockets, and the Nightlight Pocket™ provide organization and soft, even illumination from your headlamp. A configurable daisy chain inside or out helps dry wet gear or keep essentials in reach. When it’s time to move, the tent packs neatly into its bike-optimized dry bag, sized for easy packing and secure attachment to your headtube and handlebars—no wobble, no hassle. Covered by NEMO’s Adventure Forever Guarantee™, Dragonfly Bikepack OSMO™ is designed to keep your journey smooth, whether on two wheels o",
+    "currency": "USD",
+    "specs": {
+      "structure": "Tents"
+    },
+    "highlights": [
+      "Dragonfly™ Bikepack OSMO™ is an ultralight, freestanding tent built for bikepacking, canoe trips, and any adventure where pack-down size matters. Now featuring an improved pole structure and a unique crossbar that expands interior space, this tent travels light while letting you truly stretch your wings. Its stronger, more stable pole set pairs with NEMO’s custom Elements™ hardware, including a fo"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/ax2sdudfwootwrswnxbs.jpg?v=1776717913",
+    "imageAlt": "Dragonfly™ Bikepack OSMO™ Ultralight Backpacking Tent",
+    "sourceUrl": "https://www.nemoequipment.com/products/dragonfly-osmo-bikepack",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:17:45Z",
+    "status": "draft",
+    "published": true,
+    "price": 529.95,
+    "priceMin": 529.95,
+    "priceMax": 599.95
+  },
+  {
+    "id": "nemo-forte-endless-promise-mens-synthetic-sleeping-bag",
+    "brandId": "nemo",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Forte™ Endless Promise® Men's Synthetic Sleeping Bag",
+    "modelEn": "Forte™ Endless Promise® Men's Synthetic Sleeping Bag",
+    "description": "The inaugural product that launched our Endless Promise® collection, Forte is a beloved 3-season bag for the backcountry. Featuring high-performance synthetic fill and the crowd-favorite Classic Spoon® shape, it's a standout in sustainability, performance, and comfort. NEMO’s Classic Spoon shape continues to be a game changer for side sleepers, offering more room at the knees and shoulders for a less-constricted feel that’s still compact. Equipped with two-stage Thermo Gill™ zippered vents, Forte offers an extended usable temperature range that can be fine-tuned for comfort from within. Additional temperature regulation can be achieved by strategically arranging the cozy Blanket Fold™ draft collar; tuck it in for greater warmth and leave unfolded to release any excess heat. Made with a suite of recycled fabrics and filled with 100% recycled Zerofiber™ 800 synthetic fill, Forte continues to exemplify NEMO’s commitment to reducing resource consumption and keeping our gear out of the landfill. Manufactured from a single type of material, this sleeping bag is fully recyclable at the end of its life — just send it back to NEMO, and we’ll handle the rest. Packable, warm even when wet, and armed with NEMO’s top sleeping bag features, Forte is now offered in three sizes — Regular, Regular Wide, and Long — to better accommodate all adventurers.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Bags",
+      "fillType": "化纤棉",
+      "bagType": "Sleeping Bags"
+    },
+    "highlights": [
+      "The inaugural product that launched our Endless Promise® collection, Forte is a beloved 3-season bag for the backcountry. Featuring high-performance synthetic fill and the crowd-favorite Classic Spoon® shape, it's a standout in sustainability, performance, and comfort. NEMO’s Classic Spoon shape continues to be a game changer for side sleepers, offering more room at the knees and shoulders for a l"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/afz3vfyplabxsh6crf1k.jpg?v=1776198382",
+    "imageAlt": "Forte™ Endless Promise® Men's Synthetic Sleeping Bag",
+    "sourceUrl": "https://www.nemoequipment.com/products/forte-endless-promise-mens-synthetic-sleeping-bag",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:18:05Z",
+    "status": "draft",
+    "published": true,
+    "price": 199.95,
+    "priceMin": 169.95,
+    "priceMax": 259.95
+  },
+  {
+    "id": "nemo-forte-endless-promise-womens-synthetic-sleeping-bag",
+    "brandId": "nemo",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Forte™ Endless Promise® Women's Synthetic Sleeping Bag",
+    "modelEn": "Forte™ Endless Promise® Women's Synthetic Sleeping Bag",
+    "description": "The inaugural product that launched our Endless Promise® collection, Forte is a beloved 3-season bag for the backcountry. Featuring high-performance synthetic fill and the crowd-favorite Classic Spoon® shape, it's a standout in sustainability, performance, and comfort. NEMO’s Classic Spoon shape continues to be a game changer for side sleepers, offering more room at the knees and shoulders for a less-constricted feel that’s still compact. Equipped with two-stage Thermo Gill™ zippered vents, Forte offers an extended usable temperature range that can be fine-tuned for comfort from within. Additional temperature regulation can be achieved by strategically arranging the cozy Blanket Fold™ draft collar; tuck it in for greater warmth and leave unfolded to release any excess heat. Made with a suite of recycled fabrics and filled with 100% recycled Zerofiber™ 800 synthetic fill, Forte continues to exemplify NEMO’s commitment to reducing resource consumption and keeping our gear out of the landfill. Manufactured from a single type of material, this sleeping bag is fully recyclable at the end of its life — just send it back to NEMO, and we’ll handle the rest. Packable, warm even when wet, and armed with NEMO’s top sleeping bag features, Forte is now offered in three sizes — Regular, Regular Wide, and Long — to better accommodate all adventurers.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Bags",
+      "fillType": "化纤棉",
+      "bagType": "Sleeping Bags"
+    },
+    "highlights": [
+      "The inaugural product that launched our Endless Promise® collection, Forte is a beloved 3-season bag for the backcountry. Featuring high-performance synthetic fill and the crowd-favorite Classic Spoon® shape, it's a standout in sustainability, performance, and comfort. NEMO’s Classic Spoon shape continues to be a game changer for side sleepers, offering more room at the knees and shoulders for a l"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/jpj3ojvfltjfdb2h4kdo.jpg?v=1776198385",
+    "imageAlt": "Forte™ Endless Promise® Women's Synthetic Sleeping Bag",
+    "sourceUrl": "https://www.nemoequipment.com/products/forte-endless-promise-womens-synthetic-sleeping-bag",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:18:05Z",
+    "status": "draft",
+    "published": true,
+    "price": 199.95,
+    "priceMin": 169.95,
+    "priceMax": 249.95
+  },
+  {
+    "id": "nemo-heliopolis-privacy-shelter-and-shower-tent",
+    "brandId": "nemo",
+    "category": "tarp",
+    "subcategory": "Shelters",
+    "model": "Heliopolis™ Privacy Shelter & Shower Tent",
+    "modelEn": "Heliopolis™ Privacy Shelter & Shower Tent",
+    "description": "This clever portable shower tent and privacy shelter was designed specifically to pair with the Helio™ and Helio™ LX portable showers, creating a private environment for showering, changing, and more. The Heliopolis hose attachments work with the Helio’s sprayer for a hands-free, high-pressure shower anywhere. The overhead towel pocket, door lock mechanism, built-in toilet paper dispenser with dry bag, and durable floor with French drainage are just a few of the thoughtful features that bring class and quality to this privacy shelter, helping you bring the comfort of home to any setting.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Tents"
+    },
+    "highlights": [
+      "This clever portable shower tent and privacy shelter was designed specifically to pair with the Helio™ and Helio™ LX portable showers, creating a private environment for showering, changing, and more. The Heliopolis hose attachments work with the Helio’s sprayer for a hands-free, high-pressure shower anywhere. The overhead towel pocket, door lock mechanism, built-in toilet paper dispenser with dry"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/ynsec6wqfsahiseifdw6.jpg?v=1776198392",
+    "imageAlt": "Heliopolis™ Privacy Shelter & Shower Tent",
+    "sourceUrl": "https://www.nemoequipment.com/products/heliopolis-privacy-shelter-and-shower-tent",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:18:05Z",
+    "status": "draft",
+    "published": true,
+    "price": 249.95,
+    "priceMin": 249.95,
+    "priceMax": 249.95
+  },
+  {
+    "id": "nemo-hornet-elite-osmo",
+    "brandId": "nemo",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Hornet Elite OSMO™ Ultralight Backpacking Tent",
+    "modelEn": "Hornet Elite OSMO™ Ultralight Backpacking Tent",
+    "description": "Already the ultimate tent for extreme minimalists, Hornet Elite OSMO takes it to the next level with thoughtful updates and our new proprietary OSMO™ fabric. Delivering 4x longer lasting water repellency and 3x less stretch when wet, our new OSMO tent fabric is also made from 100% recycled yarns free from PFAS. The first of its kind, it was carefully designed for both exceptional performance and reduced impact on the planet. The Elite moniker means we’ve examined every detail of this tent for weight savings and performance enhancement. The poles are top-shelf DAC Featherlite. Every stitch, cord, and webbing detail are optimized for weight and strength. Our Nightlight Pocket™ headlamp diffuser adds a warm glow at night without the weight of built-in lighting. And our patent-pending Flybar™ volumizing pole clip brings headroom to the interior volume without adding unnecessary ounces. The Hornet Elite OSMO tent also features our convenient new Gatekeeper™ door tie-back and our Divvy Cube™ rectangular stuff sack that nests more efficiently in your pack and allows you to split the weight with a partner. By driving technology and design forward, NEMO’s Hornet Elite OSMO is a maximalist approach to minimalist design.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Tents"
+    },
+    "highlights": [
+      "Already the ultimate tent for extreme minimalists, Hornet Elite OSMO takes it to the next level with thoughtful updates and our new proprietary OSMO™ fabric. Delivering 4x longer lasting water repellency and 3x less stretch when wet, our new OSMO tent fabric is also made from 100% recycled yarns free from PFAS. The first of its kind, it was carefully designed for both exceptional performance and r"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/axinssuoxr8mod1djxse.jpg?v=1776198389",
+    "imageAlt": "Hornet Elite OSMO™ Ultralight Backpacking Tent",
+    "sourceUrl": "https://www.nemoequipment.com/products/hornet-elite-osmo",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:17:45Z",
+    "status": "draft",
+    "published": true,
+    "price": 599.95,
+    "priceMin": 599.95,
+    "priceMax": 699.95
+  },
+  {
+    "id": "nemo-hornet-osmo",
+    "brandId": "nemo",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Hornet OSMO™ Ultralight Backpacking Tent",
+    "modelEn": "Hornet OSMO™ Ultralight Backpacking Tent",
+    "description": "For those in search of an ultralight shelter with greater volume, Hornet OSMO offers enviable living space and comfort without sacrificing its airy weight classification. Ranging in capacity from 1P to 3P, Hornet OSMO™ is made with the ultralight variation of our OSMO™ suite of fabrics, arming it with 3x less wet stretch and a level of water repellency that starts drier and stays drier than the rest. (Even better? With OSMO, we’ve cut out forever chemicals and carbon emissions along with any unnecessary weight.) Keeping Hornet OSMO extra trim is a minimal pole structure that sets up lightning-quick and pairs with our volumizing Flybar™ and door clips to create generous internal space. Triangulated reflective guyouts and corner struts also increase volume at the foot and protect sleeping bags from tent wall condensation. An overhead Nightlight Pocket™, Gatekeeper™ one-handed tiebacks, and rectangular Divvy Cube™ stuff sack are new additions that add ease and creature comforts, not ounces. With the new Divvy Cube, this tent packs down small enough to fit in the bottom compartment of your pack — with a sleeping bag! Both the 3-person and 2-person Hornet OSMO tents have two doors and two vestibules. The 3P weighs under three pounds, the 2P clocks in at only two pounds, and the 1-person is an airy 26 ounces.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Tents"
+    },
+    "highlights": [
+      "For those in search of an ultralight shelter with greater volume, Hornet OSMO offers enviable living space and comfort without sacrificing its airy weight classification. Ranging in capacity from 1P to 3P, Hornet OSMO™ is made with the ultralight variation of our OSMO™ suite of fabrics, arming it with 3x less wet stretch and a level of water repellency that starts drier and stays drier than the re"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/vpizutjrsyhdgytfey9c.jpg?v=1776198388",
+    "imageAlt": "Hornet OSMO™ Ultralight Backpacking Tent",
+    "sourceUrl": "https://www.nemoequipment.com/products/hornet-osmo",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:17:45Z",
+    "status": "draft",
+    "published": true,
+    "price": 459.95,
+    "priceMin": 459.95,
+    "priceMax": 579.95
+  },
+  {
+    "id": "nemo-jazz",
+    "brandId": "nemo",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Jazz™ Double Synthetic Sleeping Bag",
+    "modelEn": "Jazz™ Double Synthetic Sleeping Bag",
+    "description": "Jazz brings the experience of your bed at home with you wherever you go. Its collection of thoughtful features go far beyond the ordinary: A built-in, ultra-soft bed sheet offers versatility on summer nights and is removable for washing. An integrated sleeve keeps the support of your sleeping pad in place (our Roamer™ Double Wide pad fits perfectly!) all night. Finally, Jazz is topped with an insulated, featherbed-style quilted layer for ultimate plushness and warmth. The overall design is symmetrical, with zippers on both sides to easily zip bags together, and a tapered geometry at the head and foot ends to reduce excess volume and keep the interior toasty. Our unique Blanket Fold™ draft collar is good for snuggling with and regulating body temperature, and a pillow pocket anchors your pillow in place. Best of all, when it’s time to pack up, keep your deflated sleeping pad in place and roll it up together with Jazz in the included oversized duffle for grab-and-go convenience. If you’re looking for the comforts of home for a night under the stars, Jazz hits the perfect note.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Bags",
+      "fillType": "化纤棉",
+      "bagType": "Sleeping Bags"
+    },
+    "highlights": [
+      "Jazz brings the experience of your bed at home with you wherever you go. Its collection of thoughtful features go far beyond the ordinary: A built-in, ultra-soft bed sheet offers versatility on summer nights and is removable for washing. An integrated sleeve keeps the support of your sleeping pad in place (our Roamer™ Double Wide pad fits perfectly!) all night. Finally, Jazz is topped with an insu"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/zib3fddb7qupaj0cuncx.jpg?v=1776198392",
+    "imageAlt": "Jazz™ Double Synthetic Sleeping Bag",
+    "sourceUrl": "https://www.nemoequipment.com/products/jazz",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:18:05Z",
+    "status": "draft",
+    "published": true,
+    "price": 379.95,
+    "priceMin": 379.95,
+    "priceMax": 379.95
+  },
+  {
+    "id": "nemo-kunai-3-4-season-backpacking-tent",
+    "brandId": "nemo",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Kunai™ 3–4 Season Backpacking Tent",
+    "modelEn": "Kunai™ 3–4 Season Backpacking Tent",
+    "description": "The Kunai tent is the most versatile option on the market for backpacking year-round. It's truly in a category of its own, able to handle everything from hot and humid days in the trees to frigid temps and exposure high in the mountains. If you're outfitting for an adventure that will take you across many landscapes and through a wide range of conditions, there's no better choice. The thoughtfully engineered frame design, made with top-shelf DAC poles and featuring an aggressively tapered tent profile, is built to shed wind, rain, and snow. Few tents are as adept in every season with a design this compact and lightweight. The current generation of our Kunai tent is updated with a reshaped entry area, higher volume vestibule, and larger convertible mesh panels on the sides of the inner tent.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Kunai tent is the most versatile option on the market for backpacking year-round. It's truly in a category of its own, able to handle everything from hot and humid days in the trees to frigid temps and exposure high in the mountains. If you're outfitting for an adventure that will take you across many landscapes and through a wide range of conditions, there's no better choice. The thoughtfully"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/znqd0d5mdcr4c3tgaam2.jpg?v=1776198388",
+    "imageAlt": "Kunai™ 3–4 Season Backpacking Tent",
+    "sourceUrl": "https://www.nemoequipment.com/products/kunai-3-4-season-backpacking-tent",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:17:45Z",
+    "status": "draft",
+    "published": true,
+    "price": 599.95,
+    "priceMin": 599.95,
+    "priceMax": 749.95
+  },
+  {
+    "id": "nemo-pulse-ultralite-backpacking-quilt",
+    "brandId": "nemo",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Pulse™ Endless Promise® Ultralight Backpacking Quilt",
+    "modelEn": "Pulse™ Endless Promise® Ultralight Backpacking Quilt",
+    "description": "The perfect complement to our elite ultralight kit, Pulse is built for the spec-conscious thru hiker who’s willing to make sacrifices in favor of swiftness. This quilt-style sleeping bag design capitalizes on the insulating power of NEMO sleeping pads and offers the best warmth-to-weight ratio in its category with 1,000 FP ExpeDRY gold-infused down. (The down stays evenly dispersed within Karo Step baffles, a construction decision that uses roughly 45% less material.) Pulse’s enclosed footbox keeps feet cozy overnight while included adjustable straps can be used to securely attach the bag to a sleeping pad for either casual coverage or a snug seal from the cold. Premium Cohaesive® hardware pairs with a plush collar baffle to further block drafts overnight. Made with 100% recycled polyester ripstop with a PFAS-free DWR coating, Pulse is part of the fully recyclable Endless Promise® collection and is designed to stay out of the landfill forever. When its adventures are over, just send it back to NEMO — we’ll handle the rest.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Bags",
+      "fillType": "羽绒",
+      "bagType": "Sleeping Bags"
+    },
+    "highlights": [
+      "The perfect complement to our elite ultralight kit, Pulse is built for the spec-conscious thru hiker who’s willing to make sacrifices in favor of swiftness. This quilt-style sleeping bag design capitalizes on the insulating power of NEMO sleeping pads and offers the best warmth-to-weight ratio in its category with 1,000 FP ExpeDRY gold-infused down. (The down stays evenly dispersed within Karo Ste"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/eufhley6i1uhheurn7di.jpg?v=1776717535",
+    "imageAlt": "Pulse™ Endless Promise® Ultralight Backpacking Quilt",
+    "sourceUrl": "https://www.nemoequipment.com/products/pulse-ultralite-backpacking-quilt",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:18:05Z",
+    "status": "draft",
+    "published": true,
+    "price": 549.95,
+    "priceMin": 549.95,
+    "priceMax": 599.95
+  },
+  {
+    "id": "nemo-riff-mens-endless-promise-down-sleeping-bag",
+    "brandId": "nemo",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Riff™ Men's Endless Promise® Down Sleeping Bag",
+    "modelEn": "Riff™ Men's Endless Promise® Down Sleeping Bag",
+    "description": "A pinnacle-performance 3-season 800 FP down bag, Riff™ offers a trim, athletic cut designed for side sleepers who crave space-saving packability. NEMO’s iconic Spoon® bags are cut wider at the elbows and knees so campers can easily shift positions throughout the night, and the Ultralight Spoon silhouette used on Riff maintains that extra room while cutting in tighter at the feet and shoulders. The result is a sleeping bag vastly more comfortable than a mummy bag, but still impressively compact. Riff includes a set of next-generation Thermo Gill™ vents on the chest to offer fine-tuned temperature control and a better outdoor sleeping experience. Each Gill features an interior and an exterior zipper with a draft-blocking intermediate layer, allowing several different configurations for dialing in the bag’s temperature without direct exposure to cold air. Our Blanket Fold™ draft collar at the neckline features a redesigned size and shape to further optimize sleep temperature. Tucked in, the Blanket Fold defiantly blocks any chill while mimicking the comfort of your bed at home. Pushed out, it helps dump excess heat instantly. Finally, Riff includes strategically designed baffles insulated with water-resistant, RDS-certified down that are placed vertically along the torso for comfort and aligned horizontally below the waist to prevent down migration. Riff™ is NEMO’s top-of-the-line, backcountry-oriented sleeping bag — and it’s also the latest addition to our suite of Endless Prom",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Bags",
+      "fillType": "羽绒",
+      "bagType": "Sleeping Bags"
+    },
+    "highlights": [
+      "A pinnacle-performance 3-season 800 FP down bag, Riff™ offers a trim, athletic cut designed for side sleepers who crave space-saving packability. NEMO’s iconic Spoon® bags are cut wider at the elbows and knees so campers can easily shift positions throughout the night, and the Ultralight Spoon silhouette used on Riff maintains that extra room while cutting in tighter at the feet and shoulders. The"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/mu9fwwsrv71vrhempotm.jpg?v=1776198384",
+    "imageAlt": "Riff™ Men's Endless Promise® Down Sleeping Bag",
+    "sourceUrl": "https://www.nemoequipment.com/products/riff-mens-endless-promise-down-sleeping-bag",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:18:05Z",
+    "status": "draft",
+    "published": true,
+    "price": 399.95,
+    "priceMin": 359.95,
+    "priceMax": 449.95
+  },
+  {
+    "id": "nemo-riff-womens-endless-promise-down-sleeping-bag",
+    "brandId": "nemo",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Riff™ Women's Endless Promise® Down Sleeping Bag",
+    "modelEn": "Riff™ Women's Endless Promise® Down Sleeping Bag",
+    "description": "A pinnacle-performance 3-season 800 FP down bag, Riff™ offers a trim, athletic cut designed for side sleepers who crave space-saving packability. NEMO’s iconic Spoon® bags are cut wider at the elbows and knees so campers can easily shift positions throughout the night, and the Ultralight Spoon silhouette used on Riff maintains that extra room while cutting in tighter at the feet and shoulders. The result is a sleeping bag vastly more comfortable than a mummy bag, but still impressively compact. Riff includes a set of next-generation Thermo Gill™ vents on the chest to offer fine-tuned temperature control and a better outdoor sleeping experience. Each Gill features an interior and an exterior zipper with a draft-blocking intermediate layer, allowing several different configurations for dialing in the bag’s temperature without direct exposure to cold air. Our Blanket Fold™ draft collar at the neckline features a redesigned size and shape to further optimize sleep temperature. Tucked in, the Blanket Fold defiantly blocks any chill while mimicking the comfort of your bed at home. Pushed out, it helps dump excess heat instantly. Finally, Riff includes strategically designed baffles insulated with water-resistant, RDS-certified down that are placed vertically along the torso for comfort and aligned horizontally below the waist to prevent down migration. Riff™ is NEMO’s top-of-the-line, backcountry-oriented sleeping bag — and it’s also the latest addition to our suite of Endless Prom",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Bags",
+      "fillType": "羽绒",
+      "bagType": "Sleeping Bags"
+    },
+    "highlights": [
+      "A pinnacle-performance 3-season 800 FP down bag, Riff™ offers a trim, athletic cut designed for side sleepers who crave space-saving packability. NEMO’s iconic Spoon® bags are cut wider at the elbows and knees so campers can easily shift positions throughout the night, and the Ultralight Spoon silhouette used on Riff maintains that extra room while cutting in tighter at the feet and shoulders. The"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/qyltoje9poyl76oflqsz.jpg?v=1776198391",
+    "imageAlt": "Riff™ Women's Endless Promise® Down Sleeping Bag",
+    "sourceUrl": "https://www.nemoequipment.com/products/riff-womens-endless-promise-down-sleeping-bag",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:18:05Z",
+    "status": "draft",
+    "published": true,
+    "price": 399.95,
+    "priceMin": 359.95,
+    "priceMax": 449.95
+  },
+  {
+    "id": "nemo-scalar-multi-configuration-camp-tarp",
+    "brandId": "nemo",
+    "category": "tarp",
+    "subcategory": "Shelters",
+    "model": "Scalar™ Multi-Configuration Camp Tarp",
+    "modelEn": "Scalar™ Multi-Configuration Camp Tarp",
+    "description": "For hunts where weight and speed are the top concern, a simplified shelter is a must. The Scalar™ multi-configuration camp tarp enhances the protection of a classic tarp and includes time-saving details that ensure a quick setup and pack down — because when game is on the move, there’s no time to lose. Designed in collaboration with the experts at First Lite — and featuring their proprietary Cipher™ camouflage pattern — Scalar has integrated G-hooks and webbing loops so it can easily close at one end for 3-wall protection from the elements. Built-in stash pockets at each corner store the necessary guyline for tensioning, and additional pole pockets allow trekking poles to easily stand in as tent poles, saving even more weight. (Trekking poles not included.) For versatile, lightweight protection, keep Scalar stashed in your pack for unexpected conditions and backup.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Tents"
+    },
+    "highlights": [
+      "For hunts where weight and speed are the top concern, a simplified shelter is a must. The Scalar™ multi-configuration camp tarp enhances the protection of a classic tarp and includes time-saving details that ensure a quick setup and pack down — because when game is on the move, there’s no time to lose. Designed in collaboration with the experts at First Lite — and featuring their proprietary Ciphe"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/Scalar_Browse_Image_Main.jpg?v=1744663316",
+    "imageAlt": "Scalar™ Multi-Configuration Camp Tarp",
+    "sourceUrl": "https://www.nemoequipment.com/products/scalar-multi-configuration-camp-tarp",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:18:05Z",
+    "status": "draft",
+    "published": true,
+    "price": 124.95,
+    "priceMin": 124.95,
+    "priceMax": 124.95
+  },
+  {
+    "id": "nemo-sonic-ultralight-mummy-sleeping-bag",
+    "brandId": "nemo",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Sonic™ Down Mummy Sleeping Bag",
+    "modelEn": "Sonic™ Down Mummy Sleeping Bag",
+    "description": "Sonic is built to be the only bag you need from -20°F to 40°F. The Backpacker Editors’ Choice award-winning big-mountain bag offers exceptional warmth and tuneability with a reduced environmental impact. This bag features our next-generation Thermo Gill™ vents, with a new multistage zipper system that dramatically increases the usable temperature range of the bag and allows fine-tuning of comfort from within. Sonic’s chevron baffle construction better compartmentalizes down, eliminating migration and keeping the down evenly lofted. (Not to mention, it looks awesome.) The shell and liner fabrics are 100% recycled fabrics and bluesign® approved, and the premium 800 FP hydrophobic down is 100% Responsible Down Standard (RDS) certified . Years of history in the field yielded detailed upgrades on this bag, including a perfected profile, redesigned draft collar, and bolstered draft tubes. Our proven Toester™ footbox keeps feet warmer, provides a waterproof barrier against tent wall condensation, and protects down from moisture while drying damp clothes inside the footbox. Adaptable to whatever the mountain throws at it, Sonic continues to reverberate as the ultimate extreme weather companion.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Bags",
+      "fillType": "羽绒",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "Sonic is built to be the only bag you need from -20°F to 40°F. The Backpacker Editors’ Choice award-winning big-mountain bag offers exceptional warmth and tuneability with a reduced environmental impact. This bag features our next-generation Thermo Gill™ vents, with a new multistage zipper system that dramatically increases the usable temperature range of the bag and allows fine-tuning of comfort "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/azmogjdnxpotpz9qhcd3.jpg?v=1776198389",
+    "imageAlt": "Sonic™ Down Mummy Sleeping Bag",
+    "sourceUrl": "https://www.nemoequipment.com/products/sonic-ultralight-mummy-sleeping-bag",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:18:05Z",
+    "status": "draft",
+    "published": true,
+    "price": 679.95,
+    "priceMin": 579.95,
+    "priceMax": 749.95
+  },
+  {
+    "id": "nemo-soul-endless-promise-synthetic-sleeping-bag",
+    "brandId": "nemo",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Soul™ Endless Promise® Synthetic Mummy Sleeping Bag",
+    "modelEn": "Soul™ Endless Promise® Synthetic Mummy Sleeping Bag",
+    "description": "NEMO’s newest sleeping bag silhouette is now offered with aerospace-grade, recycled synthetic insulation for ultralight adventures in any climate. Inspired by the traditional tapered mummy bag, Soul has a sleek, streamlined shape that shaves excess material and weight wherever possible but still sneaks in plenty of comfort features. A mono-polymer design, Soul also meets our Endless Promise® standard and can be fully recycled at the end of its life — just send it back to NEMO, and we’ll handle the rest. Soul’s single, asymmetrical front zip integrates with our innovative Headwall™ internal draft guard to provide 360-degree protection. A plush, insulated collar, Headwall wraps around the back of the neck and cozily overlaps itself in front to efficiently block cold air while creating a uniquely comfortable experience. Balancing the front zipper is a single Thermo Gill™ vent, enabling fine-tuned temperature control. With both internal and external zippers, the Thermo Gill incrementally releases body heat without direct exposure to the cold, extending the usable temperature range of the bag. For additional instant ventilation (or simply to let your feet poke out), the footbox also features a zippered opening. Highlighting the clean design are strategically placed vertical and horizontal baffles to optimize warmth and comfort while preventing migration of the Zerofiber™ 800 synthetic insulation. Highlighting the clean design are strategically placed vertical and horizontal baffle",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Bags",
+      "fillType": "化纤棉",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "NEMO’s newest sleeping bag silhouette is now offered with aerospace-grade, recycled synthetic insulation for ultralight adventures in any climate. Inspired by the traditional tapered mummy bag, Soul has a sleek, streamlined shape that shaves excess material and weight wherever possible but still sneaks in plenty of comfort features. A mono-polymer design, Soul also meets our Endless Promise® stand"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/zkvkzgj7qcuhbyombxej.jpg?v=1776198383",
+    "imageAlt": "Soul™ Endless Promise® Synthetic Mummy Sleeping Bag",
+    "sourceUrl": "https://www.nemoequipment.com/products/soul-endless-promise-synthetic-sleeping-bag",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:18:05Z",
+    "status": "draft",
+    "published": true,
+    "price": 299.95,
+    "priceMin": 249.95,
+    "priceMax": 339.95
+  },
+  {
+    "id": "nemo-tempo-mens-synthetic-sleeping-bag",
+    "brandId": "nemo",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Tempo™ Men's Endless Promise Synthetic Sleeping Bag",
+    "modelEn": "Tempo™ Men's Endless Promise Synthetic Sleeping Bag",
+    "description": "A feature-loaded bag for new adventurers and seasoned campers alike, Tempo™ joins our Endless Promise® collection and is now offered in NEMO’s most popular Classic Spoon® shape to provide the perfect balance of comfort and packability. NEMO’s Classic Spoon® shape continues to be a game changer for side sleepers, offering more room at the knees and shoulders for a less-constricted feel that accommodates even restless sleepers who shift positions throughout the night. Despite this extra room, Tempo is still more packable than a traditional rectangle bag and saves space in your pack or trunk. The included Blanket Fold™ draft collar provides extra comfort and makes it easy to quickly regulate temperature even during finicky shoulder seasons. Tucked in, the draft collar defiantly blocks any chill while mimicking the cozy feel of your bed at home. Pushed out, it helps dump excess heat instantly. Tempo also features an integrated Pillow Pocket™ in the hood to perfectly fit a Fillo™ or folded-up extra layers — and it’s made using the same buttery-soft fabric as our camp pillows. Constructed from a suite of recycled fabrics and filled with 100% recycled Zerofiber™ 650 synthetic fill, Tempo continues to exemplify NEMO’s commitment to reducing resource consumption and keeping our gear out of the landfill. Manufactured from a single type of material, this sleeping bag is fully recyclable at the end of its life — just send it back to NEMO, and we’ll handle the rest.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Bags",
+      "fillType": "化纤棉",
+      "bagType": "Sleeping Bags"
+    },
+    "highlights": [
+      "A feature-loaded bag for new adventurers and seasoned campers alike, Tempo™ joins our Endless Promise® collection and is now offered in NEMO’s most popular Classic Spoon® shape to provide the perfect balance of comfort and packability. NEMO’s Classic Spoon® shape continues to be a game changer for side sleepers, offering more room at the knees and shoulders for a less-constricted feel that accommo"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/mwh7vhcnkb93kgdfrihk.jpg?v=1776198387",
+    "imageAlt": "Tempo™ Men's Endless Promise Synthetic Sleeping Bag",
+    "sourceUrl": "https://www.nemoequipment.com/products/tempo-mens-synthetic-sleeping-bag",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:18:05Z",
+    "status": "draft",
+    "published": true,
+    "price": 169.95,
+    "priceMin": 149.95,
+    "priceMax": 199.95
+  },
+  {
+    "id": "nemo-tempo-womens-synthetic-sleeping-bag",
+    "brandId": "nemo",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Tempo™ Women's Endless Promise Synthetic Sleeping Bag",
+    "modelEn": "Tempo™ Women's Endless Promise Synthetic Sleeping Bag",
+    "description": "A feature-loaded bag for new adventurers and seasoned campers alike, Tempo™ joins our Endless Promise® Collection and is now offered in NEMO’s most popular Classic Spoon® shape to provide the perfect balance of comfort and packability. NEMO’s Classic Spoon® shape continues to be a game changer for side sleepers, offering more room at the knees and shoulders for a less-constricted feel that accommodates even restless sleepers who shift positions throughout the night. Despite this extra room, Tempo is still more packable than a traditional rectangle bag and saves space in your pack or trunk. The included Blanket Fold™ draft collar provides extra comfort and makes it easy to quickly regulate temperature even during finicky shoulder seasons. Tucked in, the draft collar defiantly blocks any chill while mimicking the cozy feel of your bed at home. Pushed out, it helps dump excess heat instantly. Tempo also features an integrated Pillow Pocket™ in the hood to perfectly fit a Fillo™ or folded-up extra layers — and it’s made using the same buttery-soft fabric as our camp pillows. Constructed from a suite of recycled fabrics and filled with 100% recycled Zerofiber™ 650 synthetic fill, Tempo continues to exemplify NEMO’s commitment to reducing resource consumption and keeping our gear out of the landfill. Manufactured from a single type of material, this sleeping bag is fully recyclable at the end of its life — just send it back to NEMO, and we’ll handle the rest.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Bags",
+      "fillType": "化纤棉",
+      "bagType": "Sleeping Bags"
+    },
+    "highlights": [
+      "A feature-loaded bag for new adventurers and seasoned campers alike, Tempo™ joins our Endless Promise® Collection and is now offered in NEMO’s most popular Classic Spoon® shape to provide the perfect balance of comfort and packability. NEMO’s Classic Spoon® shape continues to be a game changer for side sleepers, offering more room at the knees and shoulders for a less-constricted feel that accommo"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/vb7mgm2s8yzjgt9qo4yy.jpg?v=1776198390",
+    "imageAlt": "Tempo™ Women's Endless Promise Synthetic Sleeping Bag",
+    "sourceUrl": "https://www.nemoequipment.com/products/tempo-womens-synthetic-sleeping-bag",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:18:05Z",
+    "status": "draft",
+    "published": true,
+    "price": 169.95,
+    "priceMin": 149.95,
+    "priceMax": 199.95
+  },
+  {
+    "id": "nemo-victory-screenhouse-camp-shelter",
+    "brandId": "nemo",
+    "category": "tarp",
+    "subcategory": "Shelters",
+    "model": "Victory™ Screenhouse Camp Shelter",
+    "modelEn": "Victory™ Screenhouse Camp Shelter",
+    "description": "Victory™ Screenhouse is NEMO’s solution to keep bugs, rain, and sun at bay. A truly cavernous shelter, the screenhouse features a subdued, sophisticated color palette and can comfortably fit large groups — even seated around a picnic table! The floorless shelter offers a solid canopy with built-in rain gutters to outsmart pooling water, along with a sealed interior skirt to further protect from the elements. The vertical mesh sides effectively block insect activity without impeding breezes and beautiful views, while interior pockets provide a convenient spot to stash keys, water bottles, and more. With a standing-height design and integrated step-pad at each door, entry requires only one hand and no ducking. The two zippered doors can be secured open to encourage uninterrupted movement in and out of the shelter — perfect for cookouts and days at the beach.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Tents"
+    },
+    "highlights": [
+      "Victory™ Screenhouse is NEMO’s solution to keep bugs, rain, and sun at bay. A truly cavernous shelter, the screenhouse features a subdued, sophisticated color palette and can comfortably fit large groups — even seated around a picnic table! The floorless shelter offers a solid canopy with built-in rain gutters to outsmart pooling water, along with a sealed interior skirt to further protect from th"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/xvzdn72xq9wviowvckpz.jpg?v=1776198393",
+    "imageAlt": "Victory™ Screenhouse Camp Shelter",
+    "sourceUrl": "https://www.nemoequipment.com/products/victory-screenhouse-camp-shelter",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-06-11T15:18:05Z",
+    "status": "draft",
+    "published": true,
+    "price": 499.95,
+    "priceMin": 499.95,
+    "priceMax": 499.95
+  }
+]

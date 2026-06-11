@@ -1,5 +1,7 @@
 # Brand scraping configuration (Shopify storefront JSON API)
-# Run: python3 scripts/scrape/scrape_brand.py naturehike
+# Single source of truth — do not duplicate as config.json
+# Run one brand:  python3 scripts/scrape/scrape_brand.py naturehike
+# Run all brands: python3 scripts/scrape/scrape_all.py
 
 brands:
   naturehike:
@@ -17,6 +19,7 @@ brands:
         category: sleeping-bag
         subcategory: Sleeping Bags
         excludeTitleKeywords:
+          - gift card
           - liner
           - pillow
           - foot cover
@@ -106,7 +109,7 @@ brands:
   dod:
     brandId: dod
     sourceSite: dodoutdoors.com
-    baseUrl: https://www.dodoutdoors.com
+    baseUrl: https://dodoutdoors.com
     currency: USD
     adapter: shopify
     useBrowserUserAgent: true
@@ -129,6 +132,16 @@ brands:
       - handle: tarps
         category: tarp
         subcategory: Tarps
+      - handle: sleeping
+        category: sleeping-bag
+        subcategory: Sleeping Bags
+        excludeTitleKeywords:
+          - gift card
+          - bed in bag
+          - sleeping pad
+          - pad only
+          - liner
+          - pillow
 
   blackdeer:
     brandId: blackdeer
@@ -180,28 +193,158 @@ brands:
 
   mobi-garden:
     brandId: mobi-garden
-    sourceSite: mobigarden.shop
-    baseUrl: https://mobigarden.shop
+    sourceSite: mobigarden.com
+    baseUrl: https://www.mobigarden.com
     currency: USD
     adapter: shopify
     useBrowserUserAgent: true
-    rateLimitSeconds: 2.5
+    rateLimitSeconds: 2.0
     collections:
-      - handle: camp-chairs
+      - handle: tents
+        category: tent
+        subcategory: Tents
+      - handle: backpacking-tents
+        category: tent
+        subcategory: Backpacking Tents
+      - handle: camping-chairs
         category: chair
-        subcategory: Camp Chairs
+        subcategory: Camping Chairs
         excludeTitleKeywords:
           - cover only
           - hook
           - peg
-      - handle: camp-tables
-        category: table
-        subcategory: Camp Tables
+      - handle: sleeping-bags
+        category: sleeping-bag
+        subcategory: Sleeping Bags
         excludeTitleKeywords:
-          - board only
-          - hook
-          - peg
-          - shelf
+          - liner
+          - pillow
+          - sleeping pad
+          - pad only
+    allProductsFilters:
+      - category: tarp
+        includeKeywords:
+          - tarp
+          - canopy
+          - shelter
+        excludeTitleKeywords:
+          - tent with
+          - sleeping pad
+
+  montbell:
+    brandId: montbell
+    sourceSite: montbell.co.uk
+    baseUrl: https://www.montbell.co.uk
+    currency: GBP
+    adapter: shopify
+    useBrowserUserAgent: true
+    rateLimitSeconds: 2.0
+    collections:
+      - handle: tents-and-tarps
+        category: tent
+        subcategory: Tents
+        excludeTitleKeywords:
+          - footprint
+          - fly
+          - body
+          - pole
+          - tarp
+      - handle: tents-and-tarps
+        category: tarp
+        subcategory: Tarps
+        excludeTitleKeywords:
+          - footprint
+          - fly
+          - body
+          - pole
+          - tent
+      - handle: sleeping-bags-accessories
+        category: sleeping-bag
+        subcategory: Sleeping Bags
+        excludeTitleKeywords:
+          - sleeping pad
+          - pad
+          - liner
+          - pillow
+          - blanket
+
+  sea-to-summit:
+    brandId: sea-to-summit
+    sourceSite: seatosummit.com
+    baseUrl: https://seatosummit.com
+    currency: USD
+    adapter: shopify
+    useBrowserUserAgent: true
+    rateLimitSeconds: 1.5
+    collections:
+      - handle: ultralight-backpacking-tents
+        category: tent
+        subcategory: Ultralight Tents
+      - handle: tents
+        category: tent
+        subcategory: Tents
+      - handle: camping-tarps
+        category: tarp
+        subcategory: Camping Tarps
+      - handle: sleeping-bags
+        category: sleeping-bag
+        subcategory: Sleeping Bags
+        excludeTitleKeywords:
+          - liner
+          - sleeping pad
+          - pad
+          - pillow
+          - dry bag
+          - duffle
+
+  nemo:
+    brandId: nemo
+    sourceSite: nemoequipment.com
+    baseUrl: https://www.nemoequipment.com
+    currency: USD
+    adapter: shopify
+    useBrowserUserAgent: true
+    rateLimitSeconds: 1.5
+    collections:
+      - handle: tents
+        category: tent
+        subcategory: Tents
+      - handle: shelters
+        category: tarp
+        subcategory: Shelters
+      - handle: sleeping-bags
+        category: sleeping-bag
+        subcategory: Sleeping Bags
+        excludeTitleKeywords:
+          - liner
+          - sleeping pad
+          - pad only
+          - pillow
+
+  big-agnes:
+    brandId: big-agnes
+    sourceSite: bigagnes.com
+    baseUrl: https://www.bigagnes.com
+    currency: USD
+    adapter: shopify
+    useBrowserUserAgent: true
+    rateLimitSeconds: 1.5
+    collections:
+      - handle: tents
+        category: tent
+        subcategory: Tents
+      - handle: shelters
+        category: tarp
+        subcategory: Shelters
+      - handle: sleeping-bags
+        category: sleeping-bag
+        subcategory: Sleeping Bags
+        excludeTitleKeywords:
+          - liner
+          - sleeping pad
+          - pad only
+          - pillow
+          - accessory
 
   nanga:
     brandId: nanga

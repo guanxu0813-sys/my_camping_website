@@ -938,6 +938,15 @@
     return display;
   }
 
+  /** 是否在站点展示：verified/merged、published，或迁移前的 legacy draft。 */
+  function isVisibleOnSite(p) {
+    if (!p || typeof p !== "object") return false;
+    if (p.status === "verified" || p.status === "merged") return true;
+    if (p.published === true) return true;
+    if (p.status === "draft" && p.published === undefined) return true;
+    return false;
+  }
+
   /** 仅展示 data/official 内产品（不读取 products.json）。 */
   function productsFromOfficial(productsData, brandsData) {
     if (!Array.isArray(productsData)) return [];
@@ -953,6 +962,7 @@
       if (!p || typeof p !== "object") return;
       if (!p.id || seen[p.id]) return;
       if (!p.brandId || !brandIds[p.brandId]) return;
+      if (!isVisibleOnSite(p)) return;
       var allowed = {
         tent: true,
         tarp: true,

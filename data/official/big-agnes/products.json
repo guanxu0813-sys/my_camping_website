@@ -1,0 +1,2752 @@
+[
+  {
+    "id": "big-agnes-anthracite-twenty",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Anthracite 20°",
+    "modelEn": "Anthracite 20°",
+    "description": "Our Anthracite 20° traditional mummy-style sleeping bag is designed to be taken anywhere and provide rest after a long day outside. Stay cozy with FireLine™ Pro Eco recycled synthetic insulation and stay dry with recycled shell and lining fabrics featuring a moisture repellent coating without intentionally added PFAS. Lightweight enough to stuff in your pack for summer backpacking but comfortable enough for backyard campouts with the kids, this bag is so versatile and comfortable you’ll want to take it on every outing!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.27,
+      "weightDisplay": "约 1.27 kg",
+      "structure": "BAGS",
+      "fillType": "化纤棉",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "Our Anthracite 20° traditional mummy-style sleeping bag is designed to be taken anywhere and provide rest after a long day outside. Stay cozy with FireLine™ Pro Eco recycled synthetic insulation and stay dry with recycled shell and lining fabrics featuring a moisture repellent coating without intentionally added PFAS. Lightweight enough to stuff in your pack for summer backpacking but comfortable "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Anthracite.png?v=1779220633",
+    "imageAlt": "Anthracite 20°",
+    "sourceUrl": "https://www.bigagnes.com/products/anthracite-twenty",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 159.95,
+    "priceMin": 159.95,
+    "priceMax": 179.95
+  },
+  {
+    "id": "big-agnes-anthracite-20-alpenglow",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Anthracite 20° - Alpenglow",
+    "modelEn": "Anthracite 20° - Alpenglow",
+    "description": "Our Anthracite 20° traditional mummy-style sleeping bag is designed to be taken anywhere and provide rest after a long day outside. Stay cozy with FireLine™ Pro Eco recycled synthetic insulation and stay dry with recycled shell and lining fabrics featuring a moisture repellent coating without intentionally added PFAS. Lightweight enough to stuff in your pack for summer backpacking but comfortable enough for backyard campouts with the kids, this bag is so versatile and comfortable you’ll want to take it on every outing! Celebrate our 25th anniversary with this limited edition alpenglow print! Big Agnes - Est. 2001",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.27,
+      "weightDisplay": "约 1.27 kg",
+      "structure": "BAGS",
+      "fillType": "化纤棉",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "Our Anthracite 20° traditional mummy-style sleeping bag is designed to be taken anywhere and provide rest after a long day outside. Stay cozy with FireLine™ Pro Eco recycled synthetic insulation and stay dry with recycled shell and lining fabrics featuring a moisture repellent coating without intentionally added PFAS. Lightweight enough to stuff in your pack for summer backpacking but comfortable "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Anthracite_Alpenglow.png?v=1779220599",
+    "imageAlt": "Anthracite 20° - Alpenglow",
+    "sourceUrl": "https://www.bigagnes.com/products/anthracite-20-alpenglow",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 169.95,
+    "priceMin": 159.95,
+    "priceMax": 169.95
+  },
+  {
+    "id": "big-agnes-anthracite-thirty",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Anthracite 30°",
+    "modelEn": "Anthracite 30°",
+    "description": "Our Anthracite 30° traditional mummy-style sleeping bag is designed to be taken anywhere and provide rest after a long day outside. Stay cozy with FireLine™ Pro Eco recycled synthetic insulation and stay dry with recycled shell and lining fabrics featuring a moisture repellent coating without intentionally added PFAS. Lightweight enough to stuff in your pack for summer backpacking but comfortable enough for backyard campouts with the kids, this bag is so versatile and comfortable you’ll want to take it on every outing!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.95,
+      "weightDisplay": "约 0.95 kg",
+      "structure": "BAGS",
+      "fillType": "化纤棉",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "Our Anthracite 30° traditional mummy-style sleeping bag is designed to be taken anywhere and provide rest after a long day outside. Stay cozy with FireLine™ Pro Eco recycled synthetic insulation and stay dry with recycled shell and lining fabrics featuring a moisture repellent coating without intentionally added PFAS. Lightweight enough to stuff in your pack for summer backpacking but comfortable "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Anthracite2.png?v=1779220629",
+    "imageAlt": "Anthracite 30°",
+    "sourceUrl": "https://www.bigagnes.com/products/anthracite-thirty",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 149.95,
+    "priceMin": 149.95,
+    "priceMax": 159.95
+  },
+  {
+    "id": "big-agnes-battle-mountain-2",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Battle Mountain 2",
+    "modelEn": "Battle Mountain 2",
+    "description": "The Battle Mountain is a spacious, four-season, lightweight mountaineering tent that offers full protection in the harshest of backcountry and high-alpine conditions. The golden yellow color of the Battle Mountain was requested by Chhiring Dorje Sherpa, a Big Agnes Ambassador and friend who has summited Mount Everest 17 times. It is meant to serve as a tribute to honor the Tibetan Buddhism goddess of prosperity and good fortune, Miyo Losangma whose skin is golden yellow. The golden-colored fly is made of Dominico undyed polyester ripstop, and made with high-tenacity yarn to provide incredible tear strength and UV resistance that won’t fade in the harsh elements. With so much experience summiting 8,000+ meter peaks around the Himalaya, Chhiring’s invaluable input on the overall design, combined with his testing over the years, solidifies the Battle Mountain as one of the best mountaineering tents on the market.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 3.4,
+      "weightDisplay": "约 3.4 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "The Battle Mountain is a spacious, four-season, lightweight mountaineering tent that offers full protection in the harshest of backcountry and high-alpine conditions. The golden yellow color of the Battle Mountain was requested by Chhiring Dorje Sherpa, a Big Agnes Ambassador and friend who has summited Mount Everest 17 times. It is meant to serve as a tribute to honor the Tibetan Buddhism goddess"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Battle-Mountain-2-04.png?v=1779223120",
+    "imageAlt": "Battle Mountain 2",
+    "sourceUrl": "https://www.bigagnes.com/products/battle-mountain-2",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 719.96,
+    "priceMin": 719.96,
+    "priceMax": 719.96
+  },
+  {
+    "id": "big-agnes-bedrock-negative-20-long",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Bedrock -20˚ Long",
+    "modelEn": "Bedrock -20˚ Long",
+    "description": "Tactically minded and tuned for cold-weather, our mummy-style Bedrock sleeping bag has everything you need and nothing you don't. At home as much during a Rocky Mountain archery season as it is on the Northern tundra, the Bedrock’s 650 fill, RDS Certified water-repellent treated down will keep you warm when it matters most. Stoutly built with YKK #5 zippers, heat-distributing baffled construction, and accommodating frames up to 6’6”, the Bedrock is made for the elements. For no-frills, dependable functionality, look no further than the Bedrock.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.31,
+      "weightDisplay": "约 2.31 kg",
+      "structure": "BAGS",
+      "fillType": "羽绒",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "Tactically minded and tuned for cold-weather, our mummy-style Bedrock sleeping bag has everything you need and nothing you don't. At home as much during a Rocky Mountain archery season as it is on the Northern tundra, the Bedrock’s 650 fill, RDS Certified water-repellent treated down will keep you warm when it matters most. Stoutly built with YKK #5 zippers, heat-distributing baffled construction,"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Bedrock_Open.png?v=1779220497",
+    "imageAlt": "Bedrock -20˚ Long",
+    "sourceUrl": "https://www.bigagnes.com/products/bedrock-negative-20-long",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 599.95,
+    "priceMin": 599.95,
+    "priceMax": 599.95
+  },
+  {
+    "id": "big-agnes-benchmark-0",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Benchmark 0°",
+    "modelEn": "Benchmark 0°",
+    "description": "When warmth is just as important as packed size and weight, reach for the Benchmark 0°. High-loft synthetic insulation and a water repellent shell keep you warm and dry in any environment, while the traditional mummy shape increases thermal efficiency and provides enough wiggle room to create a cozy space for all types of sleepers. Keep those toes cozy and your pack light with the outfitter-grade Benchmark sleeping bag.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.81,
+      "weightDisplay": "约 1.81 kg",
+      "structure": "BAGS",
+      "fillType": "化纤棉",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "When warmth is just as important as packed size and weight, reach for the Benchmark 0°. High-loft synthetic insulation and a water repellent shell keep you warm and dry in any environment, while the traditional mummy shape increases thermal efficiency and provides enough wiggle room to create a cozy space for all types of sleepers. Keep those toes cozy and your pack light with the outfitter-grade "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Benchmark-20-02.png?v=1779223662",
+    "imageAlt": "Benchmark 0°",
+    "sourceUrl": "https://www.bigagnes.com/products/benchmark-0",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 169.95,
+    "priceMin": 169.95,
+    "priceMax": 179.95
+  },
+  {
+    "id": "big-agnes-benchmark-20",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Benchmark 20°",
+    "modelEn": "Benchmark 20°",
+    "description": "When warmth is just as important as packed size and weight, reach for the Benchmark 20°. High-loft synthetic insulation and a water repellent shell keep you warm and dry in any environment, while the traditional mummy shape increases thermal efficiency and provides enough wiggle room to create a cozy space for all types of sleepers. Keep those toes cozy and your pack light with the outfitter-grade Benchmark sleeping bag.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.31,
+      "weightDisplay": "约 1.31 kg",
+      "structure": "BAGS",
+      "fillType": "化纤棉",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "When warmth is just as important as packed size and weight, reach for the Benchmark 20°. High-loft synthetic insulation and a water repellent shell keep you warm and dry in any environment, while the traditional mummy shape increases thermal efficiency and provides enough wiggle room to create a cozy space for all types of sleepers. Keep those toes cozy and your pack light with the outfitter-grade"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Benchmark-20-02_35653d06-578c-45d9-bac4-d26bc49f7726.png?v=1779223662",
+    "imageAlt": "Benchmark 20°",
+    "sourceUrl": "https://www.bigagnes.com/products/benchmark-20",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 129.95,
+    "priceMin": 129.95,
+    "priceMax": 139.95
+  },
+  {
+    "id": "big-agnes-benchmark-35",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Benchmark 35°",
+    "modelEn": "Benchmark 35°",
+    "description": "When warmth is just as important as packed size and weight, reach for the Benchmark 35°. High-loft synthetic insulation and a water repellent shell keep you warm and dry in any environment, while the traditional mummy shape increases thermal efficiency and provides enough wiggle room to create a cozy space for all types of sleepers. Keep those toes cozy and your pack light with the outfitter-grade Benchmark sleeping bag.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.13,
+      "weightDisplay": "约 1.13 kg",
+      "structure": "BAGS",
+      "fillType": "化纤棉",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "When warmth is just as important as packed size and weight, reach for the Benchmark 35°. High-loft synthetic insulation and a water repellent shell keep you warm and dry in any environment, while the traditional mummy shape increases thermal efficiency and provides enough wiggle room to create a cozy space for all types of sleepers. Keep those toes cozy and your pack light with the outfitter-grade"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Benchmark-20-02_77c00f53-987f-408c-808d-5c1b136d6653.png?v=1779223661",
+    "imageAlt": "Benchmark 35°",
+    "sourceUrl": "https://www.bigagnes.com/products/benchmark-35",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 109.95,
+    "priceMin": 109.95,
+    "priceMax": 109.95
+  },
+  {
+    "id": "big-agnes-big-house-426",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Big House 4",
+    "modelEn": "Big House 4",
+    "description": "The redesigned Big House is a big deal for car campers - the perfect portable shelter for housing the whole family under one roof. Perfect for road warriors, the Big House is designed to be tall enough to stand in, while the domed design deflects wind - keeping the structure stable in stormy weather. Large doors and an easy entry rainfly make it easy to get in and out - no small matter when you're exhausted from a day spent outside getting after it. Ample interior pockets provide plenty of organization for all your gear, and the backpack-style carry bag makes getting gear from the car to the campsite more convenient than ever. Simple enough to easily set up by headlamp after pulling up to a site late at night, and roomy enough for the whole crew to wait out a mid-afternoon rainstorm inside, the Big House is your go-to car camping oasis.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 5.71,
+      "weightDisplay": "约 5.71 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "The redesigned Big House is a big deal for car campers - the perfect portable shelter for housing the whole family under one roof. Perfect for road warriors, the Big House is designed to be tall enough to stand in, while the domed design deflects wind - keeping the structure stable in stormy weather. Large doors and an easy entry rainfly make it easy to get in and out - no small matter when you're"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Big-House-4-05_a1e193b9-8e7a-4817-a4e3-bb47b93ddf74.png?v=1779220367",
+    "imageAlt": "Big House 4",
+    "sourceUrl": "https://www.bigagnes.com/products/big-house-426",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 549.95,
+    "priceMin": 549.95,
+    "priceMax": 549.95
+  },
+  {
+    "id": "big-agnes-big-house-626",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Big House 6",
+    "modelEn": "Big House 6",
+    "description": "The redesigned Big House is a big deal for car campers - the perfect portable shelter for housing the whole family under one roof. Perfect for road warriors, the Big House is designed to be tall enough to stand in, while the domed design deflects wind - keeping the structure stable in stormy weather. Large doors and an easy entry rainfly make it easy to get in and out - no small matter when your muscles are exhausted from days spent outside getting after it. Ample interior pockets provide plenty of organization for all your gear, and the backpack-style carry bag makes getting gear from the car to the campsite more convenient than ever. Simple enough to easily set up by headlamp after pulling up to a site late at night, and roomy enough for the whole crew to wait out a mid-afternoon rainstorm inside, the Big House is your go-to car camping oasis.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 7.26,
+      "weightDisplay": "约 7.26 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "The redesigned Big House is a big deal for car campers - the perfect portable shelter for housing the whole family under one roof. Perfect for road warriors, the Big House is designed to be tall enough to stand in, while the domed design deflects wind - keeping the structure stable in stormy weather. Large doors and an easy entry rainfly make it easy to get in and out - no small matter when your m"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Big-House-4-05_a1e193b9-8e7a-4817-a4e3-bb47b93ddf74.png?v=1779220367",
+    "imageAlt": "Big House 6",
+    "sourceUrl": "https://www.bigagnes.com/products/big-house-626",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 649.95,
+    "priceMin": 649.95,
+    "priceMax": 649.95
+  },
+  {
+    "id": "big-agnes-blacktail-two-vetiver",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Blacktail 2 - Vetiver",
+    "modelEn": "Blacktail 2 - Vetiver",
+    "description": "Blacktail tents are a tried and true Big Agnes classic - light enough for the backcountry, and strong enough for the front country. The Blacktail checks every box - lightweight design for backpackers who want a super comfortable tent after a long day on the trail, and excellent value for car campers looking for an easy to set up shelter with a small footprint. Burly recycled fabric means that you won't have to sacrifice durability for weight savings or sustainability - you get it all! Spacious sleeping areas and easy access through two side-entry doors and vestibules make early morning entry and exit with a tentmate a breeze when nature calls. No matter where your adventure takes you, camp comfy in a Blacktail!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.5,
+      "weightDisplay": "约 2.5 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Blacktail tents are a tried and true Big Agnes classic - light enough for the backcountry, and strong enough for the front country. The Blacktail checks every box - lightweight design for backpackers who want a super comfortable tent after a long day on the trail, and excellent value for car campers looking for an easy to set up shelter with a small footprint. Burly recycled fabric means that you "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/blacktail2-vetiver3.png?v=1779220522",
+    "imageAlt": "Blacktail 2 - Vetiver",
+    "sourceUrl": "https://www.bigagnes.com/products/blacktail-two-vetiver",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 299.95,
+    "priceMin": 299.95,
+    "priceMax": 299.95
+  },
+  {
+    "id": "big-agnes-blacktail-two",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Blacktail 2 - Warm Olive",
+    "modelEn": "Blacktail 2 - Warm Olive",
+    "description": "Blacktail tents are a tried and true Big Agnes classic - light enough for the backcountry, and strong enough for the front country. The Blacktail checks every box - lightweight design for backpackers who want a super comfortable tent after a long day on the trail, and excellent value for car campers looking for an easy to set up shelter with a small footprint. Burly recycled fabric means that you won't have to sacrifice durability for weight savings or sustainability - you get it all! Spacious sleeping areas and easy access through two side-entry doors and vestibules make early morning entry and exit with a tentmate a breeze when nature calls. No matter where your adventure takes you, camp comfy in a Blacktail!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.27,
+      "weightDisplay": "约 2.27 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Blacktail tents are a tried and true Big Agnes classic - light enough for the backcountry, and strong enough for the front country. The Blacktail checks every box - lightweight design for backpackers who want a super comfortable tent after a long day on the trail, and excellent value for car campers looking for an easy to set up shelter with a small footprint. Burly recycled fabric means that you "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Blacktail-2-fly-open.png?v=1779224259",
+    "imageAlt": "Blacktail 2 - Warm Olive",
+    "sourceUrl": "https://www.bigagnes.com/products/blacktail-two",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 299.95,
+    "priceMin": 299.95,
+    "priceMax": 299.95
+  },
+  {
+    "id": "big-agnes-blacktail-three-vetiver",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Blacktail 3 - Vetiver",
+    "modelEn": "Blacktail 3 - Vetiver",
+    "description": "Blacktail tents are a tried and true Big Agnes classic - light enough for the backcountry, and strong enough for the front country. The Blacktail checks every box - lightweight design for backpackers who want a super comfortable tent after a long day on the trail, and excellent value for car campers looking for an easy to set up shelter with a small footprint. Burly recycled fabric means that you won't have to sacrifice durability for weight savings or sustainability - you get it all! Spacious sleeping areas and easy access through two side-entry doors and vestibules make early morning entry and exit with a tentmate a breeze when nature calls. No matter where your adventure takes you, camp comfy in a Blacktail!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.77,
+      "weightDisplay": "约 2.77 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Blacktail tents are a tried and true Big Agnes classic - light enough for the backcountry, and strong enough for the front country. The Blacktail checks every box - lightweight design for backpackers who want a super comfortable tent after a long day on the trail, and excellent value for car campers looking for an easy to set up shelter with a small footprint. Burly recycled fabric means that you "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Blacktail3_Vetiver2.png?v=1779220517",
+    "imageAlt": "Blacktail 3 - Vetiver",
+    "sourceUrl": "https://www.bigagnes.com/products/blacktail-three-vetiver",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 349.95,
+    "priceMin": 349.95,
+    "priceMax": 349.95
+  },
+  {
+    "id": "big-agnes-blacktail-three",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Blacktail 3 - Warm Olive",
+    "modelEn": "Blacktail 3 - Warm Olive",
+    "description": "Blacktail tents are a tried and true Big Agnes classic - light enough for the backcountry, and strong enough for the front country. The Blacktail checks every box - lightweight design for backpackers who want a super comfortable tent after a long day on the trail, and excellent value for car campers looking for an easy to set up shelter with a small footprint. Burly recycled fabric means that you won't have to sacrifice durability for weight savings or sustainability - you get it all! Spacious sleeping areas and easy access through two side-entry doors and vestibules make early morning entry and exit with a tentmate a breeze when nature calls. No matter where your adventure takes you, camp comfy in a Blacktail!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.55,
+      "weightDisplay": "约 2.55 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Blacktail tents are a tried and true Big Agnes classic - light enough for the backcountry, and strong enough for the front country. The Blacktail checks every box - lightweight design for backpackers who want a super comfortable tent after a long day on the trail, and excellent value for car campers looking for an easy to set up shelter with a small footprint. Burly recycled fabric means that you "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Blacktail-3-03.png?v=1779224263",
+    "imageAlt": "Blacktail 3 - Warm Olive",
+    "sourceUrl": "https://www.bigagnes.com/products/blacktail-three",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 349.95,
+    "priceMin": 349.95,
+    "priceMax": 349.95
+  },
+  {
+    "id": "big-agnes-blacktail-four-vetiver",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Blacktail 4 - Vetiver",
+    "modelEn": "Blacktail 4 - Vetiver",
+    "description": "Blacktail tents are a tried and true Big Agnes classic - light enough for the backcountry, and strong enough for the front country. The Blacktail checks every box - lightweight design for backpackers who want a super comfortable tent after a long day on the trail, and excellent value for car campers looking for an easy to set up shelter with a small footprint. Burly recycled fabric means that you won't have to sacrifice durability for weight savings or sustainability - you get it all! Spacious sleeping areas and easy access through two side-entry doors and vestibules make early morning entry and exit with a tentmate a breeze when nature calls. No matter where your adventure takes you, camp comfy in a Blacktail!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 3.72,
+      "weightDisplay": "约 3.72 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Blacktail tents are a tried and true Big Agnes classic - light enough for the backcountry, and strong enough for the front country. The Blacktail checks every box - lightweight design for backpackers who want a super comfortable tent after a long day on the trail, and excellent value for car campers looking for an easy to set up shelter with a small footprint. Burly recycled fabric means that you "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Blacktail4_Vetiver2.png?v=1779220515",
+    "imageAlt": "Blacktail 4 - Vetiver",
+    "sourceUrl": "https://www.bigagnes.com/products/blacktail-four-vetiver",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 399.95,
+    "priceMin": 399.95,
+    "priceMax": 399.95
+  },
+  {
+    "id": "big-agnes-blacktail-426",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Blacktail 4 - Warm Olive",
+    "modelEn": "Blacktail 4 - Warm Olive",
+    "description": "Blacktail tents are a tried and true Big Agnes classic - light enough for the backcountry, and strong enough for the front country. The Blacktail checks every box - lightweight design for backpackers who want a super comfortable tent after a long day on the trail, and excellent value for car campers looking for an easy to set up shelter with a small footprint. Burly recycled fabric means that you won't have to sacrifice durability for weight savings or sustainability - you get it all! Spacious sleeping areas and easy access through two side-entry doors and vestibules make early morning entry and exit with a tentmate a breeze when nature calls. No matter where your adventure takes you, camp comfy in a Blacktail!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 3.52,
+      "weightDisplay": "约 3.52 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Blacktail tents are a tried and true Big Agnes classic - light enough for the backcountry, and strong enough for the front country. The Blacktail checks every box - lightweight design for backpackers who want a super comfortable tent after a long day on the trail, and excellent value for car campers looking for an easy to set up shelter with a small footprint. Burly recycled fabric means that you "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Blacktail-4-03.png?v=1779220227",
+    "imageAlt": "Blacktail 4 - Warm Olive",
+    "sourceUrl": "https://www.bigagnes.com/products/blacktail-426",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 399.95,
+    "priceMin": 399.95,
+    "priceMax": 399.95
+  },
+  {
+    "id": "big-agnes-blacktail-hotel-two",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Blacktail Hotel 2",
+    "modelEn": "Blacktail Hotel 2",
+    "description": "Blacktail tents are a tried and true Big Agnes classic - light enough for the backcountry, and strong enough for the front country. The Blacktail Hotel is ideal for those who need some extra room, without the weight and bulk of a car camping specific tent. Designed with a generous oversized vestibule on one side of the tent - perfect for storing large packs, sheltering four-legged friends, or simply for hanging out in on rainy days. Burly recycled fabric means that you won't have to sacrifice durability for weight savings or sustainability - you get it all! Spacious sleeping areas and easy access through two side-entry doors make early morning entry and exit with a tentmate a breeze when nature calls. No matter where your adventure takes you, camp comfy in a Blacktail!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.52,
+      "weightDisplay": "约 2.52 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Blacktail tents are a tried and true Big Agnes classic - light enough for the backcountry, and strong enough for the front country. The Blacktail Hotel is ideal for those who need some extra room, without the weight and bulk of a car camping specific tent. Designed with a generous oversized vestibule on one side of the tent - perfect for storing large packs, sheltering four-legged friends, or simp"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Blacktail-2-Hotel-02.png?v=1779224268",
+    "imageAlt": "Blacktail Hotel 2",
+    "sourceUrl": "https://www.bigagnes.com/products/blacktail-hotel-two",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 349.95,
+    "priceMin": 349.95,
+    "priceMax": 349.95
+  },
+  {
+    "id": "big-agnes-blacktail-hotel-three",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Blacktail Hotel 3",
+    "modelEn": "Blacktail Hotel 3",
+    "description": "Blacktail tents are a tried and true Big Agnes classic - light enough for the backcountry, and strong enough for the front country. The Blacktail Hotel is ideal for those who need some extra room, without the weight and bulk of a car camping specific tent. Designed with a generous oversized vestibule on one side of the tent - perfect for storing large packs, sheltering four-legged friends, or simply for hanging out in on rainy days. Burly recycled fabric means that you won't have to sacrifice durability for weight savings or sustainability - you get it all! Spacious sleeping areas and easy access through two side-entry doors make early morning entry and exit with a tentmate a breeze when nature calls. No matter where your adventure takes you, camp comfy in a Blacktail!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 3.09,
+      "weightDisplay": "约 3.09 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Blacktail tents are a tried and true Big Agnes classic - light enough for the backcountry, and strong enough for the front country. The Blacktail Hotel is ideal for those who need some extra room, without the weight and bulk of a car camping specific tent. Designed with a generous oversized vestibule on one side of the tent - perfect for storing large packs, sheltering four-legged friends, or simp"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Blacktail-3-Hotel-01.png?v=1779224270",
+    "imageAlt": "Blacktail Hotel 3",
+    "sourceUrl": "https://www.bigagnes.com/products/blacktail-hotel-three",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 399.95,
+    "priceMin": 399.95,
+    "priceMax": 399.95
+  },
+  {
+    "id": "big-agnes-bunk-house-426",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Bunk House 4",
+    "modelEn": "Bunk House 4",
+    "description": "The Bunk House is a full-featured, double-wall tent for three-season camping with a family or group, with a massive integrated vestibule providing extra protected space. When inclement weather keeps you from venturing out, this tent offers plenty of room for indoor activities and generous storage space to keep your gear dry. A full coverage rainfly means superior weather protection, even when it's raining sideways. Ample interior pockets provide plenty of organization for all your gear, and the backpack-style carry bag makes getting gear from the car to the campsite more convenient than ever. You’ll be amazed at how the Bunk House tent garners more ‘tent-envy’ than anything else at the campground.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 6.8,
+      "weightDisplay": "约 6.8 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "The Bunk House is a full-featured, double-wall tent for three-season camping with a family or group, with a massive integrated vestibule providing extra protected space. When inclement weather keeps you from venturing out, this tent offers plenty of room for indoor activities and generous storage space to keep your gear dry. A full coverage rainfly means superior weather protection, even when it's"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Bunkhouse-4-04.png?v=1779220372",
+    "imageAlt": "Bunk House 4",
+    "sourceUrl": "https://www.bigagnes.com/products/bunk-house-426",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 649.95,
+    "priceMin": 649.95,
+    "priceMax": 649.95
+  },
+  {
+    "id": "big-agnes-bunk-house-626",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Bunk House 6",
+    "modelEn": "Bunk House 6",
+    "description": "The Bunk House is a full-featured, double-wall tent for three-season camping with a family or group, with a massive integrated vestibule providing extra protected space. When inclement weather keeps you from venturing out, this tent offers plenty of room for indoor activities and generous storage space to keep your gear dry. A full coverage rainfly means superior weather protection, even when it's raining sideways. Ample interior pockets provide plenty of organization for all your gear, and the backpack-style carry bag makes getting gear from the car to the campsite more convenient than ever. You’ll be amazed at how the Bunk House tent garners more ‘tent-envy’ than anything else at the campground.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 8.28,
+      "weightDisplay": "约 8.28 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "The Bunk House is a full-featured, double-wall tent for three-season camping with a family or group, with a massive integrated vestibule providing extra protected space. When inclement weather keeps you from venturing out, this tent offers plenty of room for indoor activities and generous storage space to keep your gear dry. A full coverage rainfly means superior weather protection, even when it's"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Bunkhouse-4-04.png?v=1779220372",
+    "imageAlt": "Bunk House 6",
+    "sourceUrl": "https://www.bigagnes.com/products/bunk-house-626",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 749.95,
+    "priceMin": 749.95,
+    "priceMax": 749.95
+  },
+  {
+    "id": "big-agnes-c-bar-226",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "C Bar 2",
+    "modelEn": "C Bar 2",
+    "description": "Get into the backcountry with a lightweight shelter option designed to provide plenty of room without extra bulk. Streamlined architecture, with a single head entry door, combined with ample gear storage in the attached vestibule and interior mesh pockets means you don't have to sacrifice efficiency for comfort and convenience. A waterproof fly and floor made from durable recycled fabric will keep you dry when the skies turn grey. Looking for a high quality, technical tent without breaking the bank? You're looking for a C Bar.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.91,
+      "weightDisplay": "约 1.91 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Get into the backcountry with a lightweight shelter option designed to provide plenty of room without extra bulk. Streamlined architecture, with a single head entry door, combined with ample gear storage in the attached vestibule and interior mesh pockets means you don't have to sacrifice efficiency for comfort and convenience. A waterproof fly and floor made from durable recycled fabric will keep"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/C-Bar-2-02.png?v=1779288508",
+    "imageAlt": "C Bar 2",
+    "sourceUrl": "https://www.bigagnes.com/products/c-bar-226",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 299.95,
+    "priceMin": 299.95,
+    "priceMax": 299.95
+  },
+  {
+    "id": "big-agnes-c-bar-326",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "C Bar 3",
+    "modelEn": "C Bar 3",
+    "description": "Get into the backcountry with a lightweight shelter option designed to provide plenty of room without extra bulk. Streamlined architecture, with a single head entry door, combined with ample gear storage in the attached vestibule and interior mesh pockets means you don't have to sacrifice efficiency for comfort and convenience. A waterproof fly and floor made from durable recycled fabric will keep you dry when the skies turn grey. Looking for a high quality, technical tent without breaking the bank? You're looking for a C Bar.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.22,
+      "weightDisplay": "约 2.22 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Get into the backcountry with a lightweight shelter option designed to provide plenty of room without extra bulk. Streamlined architecture, with a single head entry door, combined with ample gear storage in the attached vestibule and interior mesh pockets means you don't have to sacrifice efficiency for comfort and convenience. A waterproof fly and floor made from durable recycled fabric will keep"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/C-Bar-3-02.png?v=1779288501",
+    "imageAlt": "C Bar 3",
+    "sourceUrl": "https://www.bigagnes.com/products/c-bar-326",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 349.95,
+    "priceMin": 349.95,
+    "priceMax": 349.95
+  },
+  {
+    "id": "big-agnes-camp-quillow",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Camp Quillow",
+    "modelEn": "Camp Quillow",
+    "description": "Unlock a new level of comfort around the campsite with the Camp Quillow. With the versatile Camp Quillow, easily convert between a quilt for staying cozy by the fire, and a pillow for quality backcountry rest. For maximum warmth in quilt mode use the corner hand pockets to wrap it around your shoulders. For hands-free use, fasten the clip to wear the quilt as a cape, keeping you warm while you're up and about. When you're ready for bed stuff it into the integrated pocket to use it as a comfy camp pillow!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.92,
+      "weightDisplay": "约 0.92 kg",
+      "structure": "BAGS",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "Unlock a new level of comfort around the campsite with the Camp Quillow. With the versatile Camp Quillow, easily convert between a quilt for staying cozy by the fire, and a pillow for quality backcountry rest. For maximum warmth in quilt mode use the corner hand pockets to wrap it around your shoulders. For hands-free use, fasten the clip to wear the quilt as a cape, keeping you warm while you're "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Camp-Quillow-03.png?v=1779224154",
+    "imageAlt": "Camp Quillow",
+    "sourceUrl": "https://www.bigagnes.com/products/camp-quillow",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 249.95,
+    "priceMin": 249.95,
+    "priceMax": 249.95
+  },
+  {
+    "id": "big-agnes-copper-spur-hv-ul1-bikepack",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Copper Spur HV UL1 Bikepack",
+    "modelEn": "Copper Spur HV UL1 Bikepack",
+    "description": "Our award-winning ultralight bikepacking tents are built for on and off-road adventures with features you know from our best-selling line of Copper Spur UL tents - including massive interior volume and stronger, lighter, more sustainably sourced fabrics. The Copper Spur UL Bikepack tent is enhanced and equipped with all the functions you need for two-wheeled travel, plus a few extras like the awning-style vestibules and our proprietary TipLok™ Tent Buckle™ to simplify setup. Featuring a shortened 12\" Shortstik Poleset for optimal handlebar, pannier, and saddlebag storage, complete with a burly bikepacking-ready compression sack that attaches readily to your bike with integrated daisy chain webbing. Stash your helmet in the added webbing located on the tent body exterior and dry out wet clothes and gear on daisy chain webbing loops integrated on the fly exterior. Interior storage solutions utilize dead space above your feet and keep gear stowed and out of the way. Extended footprint creates a vestibule floor for dry, dirt-free changing and additional gear storage (sold separately). The Copper Spur UL Bikepack tent is your dedicated shelter for single-track and double-track, overnight adventures.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.27,
+      "weightDisplay": "约 1.27 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Our award-winning ultralight bikepacking tents are built for on and off-road adventures with features you know from our best-selling line of Copper Spur UL tents - including massive interior volume and stronger, lighter, more sustainably sourced fabrics. The Copper Spur UL Bikepack tent is enhanced and equipped with all the functions you need for two-wheeled travel, plus a few extras like the awni"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Copper-Spur-HV-UL1-Bikepack-01.png?v=1779223331",
+    "imageAlt": "Copper Spur HV UL1 Bikepack",
+    "sourceUrl": "https://www.bigagnes.com/products/copper-spur-hv-ul1-bikepack",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 424.95,
+    "priceMin": 424.95,
+    "priceMax": 424.95
+  },
+  {
+    "id": "big-agnes-copper-spur-hv-ul3-bikepack",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Copper Spur HV UL3 Bikepack",
+    "modelEn": "Copper Spur HV UL3 Bikepack",
+    "description": "Our award-winning ultralight bikepacking tents are built for on and off road adventures with features you know from our best-selling line of Copper Spur HV UL tents. The Big Copper Spur HV UL3 bikepack tent is Redesigned with more interior volume and using stronger, lighter, more sustainably sourced fabrics. The Copper Spur HV UL Bikepack tent is enhanced and equipped with functions you need for two-wheeled travel, plus a few extras like the awning-style vestibule and our proprietary TipLok Tent Buckle™ to simplify setup.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.95,
+      "weightDisplay": "约 1.95 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Our award-winning ultralight bikepacking tents are built for on and off road adventures with features you know from our best-selling line of Copper Spur HV UL tents. The Big Copper Spur HV UL3 bikepack tent is Redesigned with more interior volume and using stronger, lighter, more sustainably sourced fabrics. The Copper Spur HV UL Bikepack tent is enhanced and equipped with functions you need for t"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Copper-Spur-HV-UL2-Bikepack-03_84791ff7-b5b3-4b74-9977-54ab751e2f12.png?v=1779223338",
+    "imageAlt": "Copper Spur HV UL3 Bikepack",
+    "sourceUrl": "https://www.bigagnes.com/products/copper-spur-hv-ul3-bikepack",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 535.45,
+    "priceMin": 535.45,
+    "priceMax": 535.45
+  },
+  {
+    "id": "big-agnes-copper-spur-ul-one",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Copper Spur UL1",
+    "modelEn": "Copper Spur UL1",
+    "description": "Since its launch in 2008, the award-winning Copper Spur has been our most popular ultralight backpacking tent. Thanks to our proprietary HyperBead® fabric, the latest Copper Spur UL is lighter, stronger, and more waterproof than ever! High volume, freestanding design provides ample interior room and the stability to keep you sleeping soundly through the roughest backcountry nights. Fully featured, with design aspects that make the backcountry more comfortable - like multiple gear storage pockets, an awning-style door, and generous vestibule space. When ultralight comfort is the priority, the Copper Spur UL is your ultimate home away from home.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.97,
+      "weightDisplay": "约 0.97 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Since its launch in 2008, the award-winning Copper Spur has been our most popular ultralight backpacking tent. Thanks to our proprietary HyperBead® fabric, the latest Copper Spur UL is lighter, stronger, and more waterproof than ever! High volume, freestanding design provides ample interior room and the stability to keep you sleeping soundly through the roughest backcountry nights. Fully featured,"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Copper-Spur-UL-1-Tangelo-10.png?v=1779224291",
+    "imageAlt": "Copper Spur UL1",
+    "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul-one",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 499.95,
+    "priceMin": 499.95,
+    "priceMax": 499.95
+  },
+  {
+    "id": "big-agnes-copper-spur-ul1-bikepack",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Copper Spur UL1 Bikepack",
+    "modelEn": "Copper Spur UL1 Bikepack",
+    "description": "Everything backpackers love about the award-winning Copper Spur UL, optimized for pedal powered backcountry adventures. Fully freestanding design provides ultimate stability and interior space, and proprietary ultralight HyperBead® fabric is stronger and more waterproof than ever. Inside, large vestibules and 3D bins turn dead space into useful storage for packs, gear, and accessories. Bikepack-specific features like a 12\" Shortstik pole set and a waterproof dry bag stuff sack make packing and mounting your tent to your bike easy, so you can save your valuable energy for crushing miles on the trail.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.36,
+      "weightDisplay": "约 1.36 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Everything backpackers love about the award-winning Copper Spur UL, optimized for pedal powered backcountry adventures. Fully freestanding design provides ultimate stability and interior space, and proprietary ultralight HyperBead® fabric is stronger and more waterproof than ever. Inside, large vestibules and 3D bins turn dead space into useful storage for packs, gear, and accessories. Bikepack-sp"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/CopperSpurUL1Bikepack_3.png?v=1779224682",
+    "imageAlt": "Copper Spur UL1 Bikepack",
+    "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul1-bikepack",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 549.95,
+    "priceMin": 549.95,
+    "priceMax": 549.95
+  },
+  {
+    "id": "big-agnes-copper-spur-ul-two",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Copper Spur UL2",
+    "modelEn": "Copper Spur UL2",
+    "description": "Since its launch in 2008, the award-winning Copper Spur has been our most popular ultralight backpacking tent. Thanks to our proprietary HyperBead® fabric, the latest Copper Spur UL is lighter, stronger, and more waterproof than ever! High volume, freestanding design provides ample interior room and the stability to keep you sleeping soundly through the roughest backcountry nights. Fully featured, with design aspects that make the backcountry more comfortable - like multiple gear storage pockets, an awning-style door, and generous vestibule space. When ultralight comfort is the priority, the Copper Spur UL is your ultimate home away from home.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.19,
+      "weightDisplay": "约 1.19 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Since its launch in 2008, the award-winning Copper Spur has been our most popular ultralight backpacking tent. Thanks to our proprietary HyperBead® fabric, the latest Copper Spur UL is lighter, stronger, and more waterproof than ever! High volume, freestanding design provides ample interior room and the stability to keep you sleeping soundly through the roughest backcountry nights. Fully featured,"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Copper-Spur-UL-2-Tangelo-04.png?v=1779224307",
+    "imageAlt": "Copper Spur UL2",
+    "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul-two",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 599.95,
+    "priceMin": 599.95,
+    "priceMax": 599.95
+  },
+  {
+    "id": "big-agnes-copper-spur-ul2-bikepack",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Copper Spur UL2 Bikepack",
+    "modelEn": "Copper Spur UL2 Bikepack",
+    "description": "Everything backpackers love about the award-winning Copper Spur UL, optimized for pedal powered backcountry adventures. Fully freestanding design provides ultimate stability and interior space, and proprietary ultralight HyperBead® fabric is stronger and more waterproof than ever. Inside, large vestibules and 3D bins turn dead space into useful storage for packs, gear, and accessories. Bikepack-specific features like a 12\" Shortstik pole set and a waterproof dry bag stuff sack make packing and mounting your tent to your bike easy, so you can save your valuable energy for crushing miles on the trail.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.67,
+      "weightDisplay": "约 1.67 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Everything backpackers love about the award-winning Copper Spur UL, optimized for pedal powered backcountry adventures. Fully freestanding design provides ultimate stability and interior space, and proprietary ultralight HyperBead® fabric is stronger and more waterproof than ever. Inside, large vestibules and 3D bins turn dead space into useful storage for packs, gear, and accessories. Bikepack-sp"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/CopperSpurUL2Bikepack_5.png?v=1779224693",
+    "imageAlt": "Copper Spur UL2 Bikepack",
+    "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul2-bikepack",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 649.95,
+    "priceMin": 649.95,
+    "priceMax": 649.95
+  },
+  {
+    "id": "big-agnes-copper-spur-ul2-mtnglo",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Copper Spur UL2 mtnGLO®",
+    "modelEn": "Copper Spur UL2 mtnGLO®",
+    "description": "Everything backpackers love about the award winning Copper Spur, plus integrated mtnGLO® Tent Light Technology. No need to fumble in the dark for a headlamp, or wander around camp trying to find your tent - simply switch on your tent's overhead light system and you're good to go. HyperBead® fabric makes the Copper Spur UL mtnGLO® lighter, stronger, and more waterproof, while high volume freestanding design provides ample interior room and the stability to keep you sleeping soundly through the roughest backcountry nights. Fully featured, with design aspects that make the backcountry more comfortable - like multiple gear storage pockets, an awning-style door, and generous vestiblue space. When ultralight comfort is the priority, the Copper Spur UL mtnGLO® is your ultimate home away from home.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.45,
+      "weightDisplay": "约 1.45 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Everything backpackers love about the award winning Copper Spur, plus integrated mtnGLO® Tent Light Technology. No need to fumble in the dark for a headlamp, or wander around camp trying to find your tent - simply switch on your tent's overhead light system and you're good to go. HyperBead® fabric makes the Copper Spur UL mtnGLO® lighter, stronger, and more waterproof, while high volume freestandi"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/CopperSpurUL2mtnGLO4.png?v=1779224661",
+    "imageAlt": "Copper Spur UL2 mtnGLO®",
+    "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul2-mtnglo",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 649.95,
+    "priceMin": 649.95,
+    "priceMax": 649.95
+  },
+  {
+    "id": "big-agnes-copper-spur-ul-two-xl",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Copper Spur UL2 XL",
+    "modelEn": "Copper Spur UL2 XL",
+    "description": "Since its launch in 2008, the award-winning Copper Spur has been our most popular ultralight backpacking tent. Thanks to our proprietary HyperBead® fabric, the latest Copper Spur UL is lighter, stronger, and more waterproof than ever! Our Copper Spur UL XL series is perfect for campers who prefer more space for themselves, gear, or four-legged friends! With an extra 6-8\"\" of length, 2\"\" of width, and 3-4\"\" of head height, the XL models feature even more room to spread out than the standard Copper Spur UL. High volume, freestanding design provides ample interior room and the stability to keep you sleeping soundly through the roughest backcountry nights. Fully featured, with design aspects that make the backcountry more comfortable - like multiple gear storage pockets, an awning-style door, and generous vestibule space. When ultralight comfort is the priority, the Copper Spur UL XL is your ultimate home away from home.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.28,
+      "weightDisplay": "约 1.28 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Since its launch in 2008, the award-winning Copper Spur has been our most popular ultralight backpacking tent. Thanks to our proprietary HyperBead® fabric, the latest Copper Spur UL is lighter, stronger, and more waterproof than ever! Our Copper Spur UL XL series is perfect for campers who prefer more space for themselves, gear, or four-legged friends! With an extra 6-8\"\" of length, 2\"\" of width, "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Copper-Spur-UL-2-XL-Tangelo-09.png?v=1779224457",
+    "imageAlt": "Copper Spur UL2 XL",
+    "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul-two-xl",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 649.95,
+    "priceMin": 649.95,
+    "priceMax": 649.95
+  },
+  {
+    "id": "big-agnes-copper-spur-ul-three",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Copper Spur UL3",
+    "modelEn": "Copper Spur UL3",
+    "description": "Since its launch in 2008, the award-winning Copper Spur has been our most popular ultralight backpacking tent. Thanks to our proprietary HyperBead® fabric, the latest Copper Spur UL is lighter, stronger, and more waterproof than ever! High volume, freestanding design provides ample interior room and the stability to keep you sleeping soundly through the roughest backcountry nights. Fully featured, with design aspects that make the backcountry more comfortable - like multiple gear storage pockets, an awning-style door, and generous vestibule space. When ultralight comfort is the priority, the Copper Spur UL is your ultimate home away from home.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.59,
+      "weightDisplay": "约 1.59 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Since its launch in 2008, the award-winning Copper Spur has been our most popular ultralight backpacking tent. Thanks to our proprietary HyperBead® fabric, the latest Copper Spur UL is lighter, stronger, and more waterproof than ever! High volume, freestanding design provides ample interior room and the stability to keep you sleeping soundly through the roughest backcountry nights. Fully featured,"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Copper-Spur-UL-2-Tangelo-04_c776c31c-2621-4b29-9e07-303e98f85dbf.png?v=1779224325",
+    "imageAlt": "Copper Spur UL3",
+    "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul-three",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 649.95,
+    "priceMin": 649.95,
+    "priceMax": 649.95
+  },
+  {
+    "id": "big-agnes-copper-spur-ul3-bikepack",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Copper Spur UL3 Bikepack",
+    "modelEn": "Copper Spur UL3 Bikepack",
+    "description": "Everything backpackers love about the award-winning Copper Spur UL, optimized for pedal powered backcountry adventures. Fully freestanding design provides ultimate stability and interior space, and proprietary ultralight HyperBead® fabric is stronger and more waterproof than ever. Inside, large vestibules and 3D bins turn dead space into useful storage for packs, gear, and accessories. Bikepack-specific features like a 12\" Shortstik pole set and a waterproof dry bag stuff sack make packing and mounting your tent to your bike easy, so you can save your valuable energy for crushing miles on the trail.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.96,
+      "weightDisplay": "约 1.96 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Everything backpackers love about the award-winning Copper Spur UL, optimized for pedal powered backcountry adventures. Fully freestanding design provides ultimate stability and interior space, and proprietary ultralight HyperBead® fabric is stronger and more waterproof than ever. Inside, large vestibules and 3D bins turn dead space into useful storage for packs, gear, and accessories. Bikepack-sp"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/CopperSpurUL3Bikepack_3.png?v=1779224702",
+    "imageAlt": "Copper Spur UL3 Bikepack",
+    "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul3-bikepack",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 699.95,
+    "priceMin": 699.95,
+    "priceMax": 699.95
+  },
+  {
+    "id": "big-agnes-copper-spur-ul3-mtnglo",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Copper Spur UL3 mtnGLO®",
+    "modelEn": "Copper Spur UL3 mtnGLO®",
+    "description": "Everything backpackers love about the award winning Copper Spur, plus integrated mtnGLO® Tent Light Technology. No need to fumble in the dark for a headlamp, or wander around camp trying to find your tent - simply switch on your tent's overhead light system and you're good to go. HyperBead® fabric makes the Copper Spur UL mtnGLO® lighter, stronger, and more waterproof, while high volume freestanding design provides ample interior room and the stability to keep you sleeping soundly through the roughest backcountry nights. Fully featured, with design aspects that make the backcountry more comfortable - like multiple gear storage pockets, an awning-style door, and generous vestiblue space. When ultralight comfort is the priority, the Copper Spur UL mtnGLO® is your ultimate home away from home.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.77,
+      "weightDisplay": "约 1.77 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Everything backpackers love about the award winning Copper Spur, plus integrated mtnGLO® Tent Light Technology. No need to fumble in the dark for a headlamp, or wander around camp trying to find your tent - simply switch on your tent's overhead light system and you're good to go. HyperBead® fabric makes the Copper Spur UL mtnGLO® lighter, stronger, and more waterproof, while high volume freestandi"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/CopperSpurUL2mtnGLO4.png?v=1779224661",
+    "imageAlt": "Copper Spur UL3 mtnGLO®",
+    "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul3-mtnglo",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 699.95,
+    "priceMin": 699.95,
+    "priceMax": 699.95
+  },
+  {
+    "id": "big-agnes-copper-spur-ul-three-xl",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Copper Spur UL3 XL",
+    "modelEn": "Copper Spur UL3 XL",
+    "description": "Since its launch in 2008, the award-winning Copper Spur has been our most popular ultralight backpacking tent. Thanks to our proprietary HyperBead® fabric, the latest Copper Spur UL is lighter, stronger, and more waterproof than ever! Our Copper Spur UL XL series is perfect for campers who prefer more space for themselves, gear, or four-legged friends! With an extra 6-8\"\" of length, 2\"\" of width, and 3-4\"\" of head height, the XL models feature even more room to spread out than the standard Copper Spur UL. High volume, freestanding design provides ample interior room and the stability to keep you sleeping soundly through the roughest backcountry nights. Fully featured, with design aspects that make the backcountry more comfortable - like multiple gear storage pockets, an awning-style door, and generous vestibule space. When ultralight comfort is the priority, the Copper Spur UL XL is your ultimate home away from home.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.62,
+      "weightDisplay": "约 1.62 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Since its launch in 2008, the award-winning Copper Spur has been our most popular ultralight backpacking tent. Thanks to our proprietary HyperBead® fabric, the latest Copper Spur UL is lighter, stronger, and more waterproof than ever! Our Copper Spur UL XL series is perfect for campers who prefer more space for themselves, gear, or four-legged friends! With an extra 6-8\"\" of length, 2\"\" of width, "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Copper-Spur-UL-3-XL-Tangelo-04.png?v=1779224488",
+    "imageAlt": "Copper Spur UL3 XL",
+    "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul-three-xl",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 699.95,
+    "priceMin": 699.95,
+    "priceMax": 699.95
+  },
+  {
+    "id": "big-agnes-copper-spur-ul-four",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Copper Spur UL4",
+    "modelEn": "Copper Spur UL4",
+    "description": "Since its launch in 2008, the award-winning Copper Spur has been our most popular ultralight backpacking tent. Thanks to our proprietary HyperBead® fabric, the latest Copper Spur UL is lighter, stronger, and more waterproof than ever! High volume, freestanding design provides ample interior room and the stability to keep you sleeping soundly through the roughest backcountry nights. Fully featured, with design aspects that make the backcountry more comfortable - like multiple gear storage pockets, an awning-style door, and generous vestibule space. When ultralight comfort is the priority, the Copper Spur UL is your ultimate home away from home.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.38,
+      "weightDisplay": "约 2.38 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Since its launch in 2008, the award-winning Copper Spur has been our most popular ultralight backpacking tent. Thanks to our proprietary HyperBead® fabric, the latest Copper Spur UL is lighter, stronger, and more waterproof than ever! High volume, freestanding design provides ample interior room and the stability to keep you sleeping soundly through the roughest backcountry nights. Fully featured,"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Copper-Spur-UL-4-Tangelo-13.png?v=1779224347",
+    "imageAlt": "Copper Spur UL4",
+    "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul-four",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 849.95,
+    "priceMin": 849.95,
+    "priceMax": 849.95
+  },
+  {
+    "id": "big-agnes-copper-spur-ul-five",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Copper Spur UL5",
+    "modelEn": "Copper Spur UL5",
+    "description": "Since its launch in 2008, the award-winning Copper Spur has been our most popular ultralight backpacking tent. Thanks to our proprietary HyperBead® fabric, the latest Copper Spur UL is lighter, stronger, and more waterproof than ever! High volume, freestanding design provides ample interior room and the stability to keep you sleeping soundly through the roughest backcountry nights. Fully featured, with design aspects that make the backcountry more comfortable - like multiple gear storage pockets, an awning-style door, and generous vestibule space. When ultralight comfort is the priority, the Copper Spur UL is your ultimate home away from home.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 3.12,
+      "weightDisplay": "约 3.12 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Since its launch in 2008, the award-winning Copper Spur has been our most popular ultralight backpacking tent. Thanks to our proprietary HyperBead® fabric, the latest Copper Spur UL is lighter, stronger, and more waterproof than ever! High volume, freestanding design provides ample interior room and the stability to keep you sleeping soundly through the roughest backcountry nights. Fully featured,"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Copper-Spur-UL5-Tangelo-11.png?v=1779224375",
+    "imageAlt": "Copper Spur UL5",
+    "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul-five",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 949.95,
+    "priceMin": 949.95,
+    "priceMax": 949.95
+  },
+  {
+    "id": "big-agnes-crag-lake-sl2",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Crag Lake SL2",
+    "modelEn": "Crag Lake SL2",
+    "description": "Simple, durable, and superlight, the Crag Lake is your ideal companion for quick overnights or any three season camping adventure. Made from durable high-tech recycled materials and treated with a water-resistant finish without intentionally added PFAS, this reliable shelter is easy on the environment, as well as your base weight.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.0,
+      "weightDisplay": "约 2.0 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Simple, durable, and superlight, the Crag Lake is your ideal companion for quick overnights or any three season camping adventure. Made from durable high-tech recycled materials and treated with a water-resistant finish without intentionally added PFAS, this reliable shelter is easy on the environment, as well as your base weight."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Crag-Lake-SL3-01.png?v=1779223809",
+    "imageAlt": "Crag Lake SL2",
+    "sourceUrl": "https://www.bigagnes.com/products/crag-lake-sl2",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 349.95,
+    "priceMin": 349.95,
+    "priceMax": 349.95
+  },
+  {
+    "id": "big-agnes-crag-lake-sl3",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Crag Lake SL3",
+    "modelEn": "Crag Lake SL3",
+    "description": "Simple, durable, and superlight, the Crag Lake is your ideal companion for quick overnights or any three season camping adventure. Made from durable high-tech recycled materials and treated with a water-resistant finish without intentionally added PFAS, this reliable shelter is easy on the environment, as well as your base weight.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.38,
+      "weightDisplay": "约 2.38 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Simple, durable, and superlight, the Crag Lake is your ideal companion for quick overnights or any three season camping adventure. Made from durable high-tech recycled materials and treated with a water-resistant finish without intentionally added PFAS, this reliable shelter is easy on the environment, as well as your base weight."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Crag-Lake-SL3-01_cff4b580-23b5-4050-bc9c-56ffe95cde62.png?v=1779223811",
+    "imageAlt": "Crag Lake SL3",
+    "sourceUrl": "https://www.bigagnes.com/products/crag-lake-sl3",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 399.95,
+    "priceMin": 399.95,
+    "priceMax": 399.95
+  },
+  {
+    "id": "big-agnes-dream-island-doublewide-20",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Dream Island 20° Doublewide",
+    "modelEn": "Dream Island 20° Doublewide",
+    "description": "Spread out in the this deluxe doublewide camp bed! Our Dream Island is part of our Doublewide Series, eliminating the need to zip two bags together so there’s nothing keeping you apart from your cuddle bug at camp. Luxurious Fireline™ Max Eco synthetic insulation and extra large design make for ultimate camp comfort with your tent-mate. Our tried and true Pad Cinch System makes connecting two pads or securing a doublewide pad easier and faster than ever. Now with a full zip off option, you can use the top quilted layer like a comforter or zip together to create a single bag when camping solo. With plenty of room for two, you can't beat the Dream Island 20° for ultimate doublewide backcountry comfort.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 3.09,
+      "weightDisplay": "约 3.09 kg",
+      "structure": "BAGS",
+      "fillType": "化纤棉",
+      "bagType": "睡袋系统"
+    },
+    "highlights": [
+      "Spread out in the this deluxe doublewide camp bed! Our Dream Island is part of our Doublewide Series, eliminating the need to zip two bags together so there’s nothing keeping you apart from your cuddle bug at camp. Luxurious Fireline™ Max Eco synthetic insulation and extra large design make for ultimate camp comfort with your tent-mate. Our tried and true Pad Cinch System makes connecting two pads"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Dream-Island-20-04.png?v=1779224158",
+    "imageAlt": "Dream Island 20° Doublewide",
+    "sourceUrl": "https://www.bigagnes.com/products/dream-island-doublewide-20",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 299.95,
+    "priceMin": 299.95,
+    "priceMax": 299.95
+  },
+  {
+    "id": "big-agnes-echo-park-zero",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Echo Park 0°",
+    "modelEn": "Echo Park 0°",
+    "description": "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes Padlok™ Sleep System keeps you on your pad all night and the Cinch Pad Sleeve accommodates deluxe pads 25\"\"-30\"\" wide. With it's unique wide long design, the Echo Park is a backcountry bed so comfortable, you won’t want to go home!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.71,
+      "weightDisplay": "约 2.71 kg",
+      "structure": "BAGS",
+      "fillType": "化纤棉",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes Padlok™ Sleep System keeps you on your pad all night and the Cinch Pa"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Echo-Park-03.png?v=1779224183",
+    "imageAlt": "Echo Park 0°",
+    "sourceUrl": "https://www.bigagnes.com/products/echo-park-zero",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 249.95,
+    "priceMin": 249.95,
+    "priceMax": 249.95
+  },
+  {
+    "id": "big-agnes-echo-park-twenty",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Echo Park 20°",
+    "modelEn": "Echo Park 20°",
+    "description": "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes Padlok™ Sleep System keeps you on your pad all night and the Cinch Pad Sleeve accommodates deluxe pads 25\"\"-30\"\" wide. With it's unique wide long design, the Echo Park is a backcountry bed so comfortable, you won’t want to go home!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.25,
+      "weightDisplay": "约 2.25 kg",
+      "structure": "BAGS",
+      "fillType": "化纤棉",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes Padlok™ Sleep System keeps you on your pad all night and the Cinch Pa"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Echo-Park-03.png?v=1779224183",
+    "imageAlt": "Echo Park 20°",
+    "sourceUrl": "https://www.bigagnes.com/products/echo-park-twenty",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 219.95,
+    "priceMin": 219.95,
+    "priceMax": 219.95
+  },
+  {
+    "id": "big-agnes-echo-park-35",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Echo Park 35°",
+    "modelEn": "Echo Park 35°",
+    "description": "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes Padlok™ Sleep System keeps you on your pad all night and the Cinch Pad Sleeve accommodates deluxe pads 25\"\"-30\"\" wide. With it's unique wide long design, the Echo Park is a backcountry bed so comfortable, you won’t want to go home!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.62,
+      "weightDisplay": "约 1.62 kg",
+      "structure": "BAGS",
+      "fillType": "化纤棉",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes Padlok™ Sleep System keeps you on your pad all night and the Cinch Pa"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Echo-Park-03.png?v=1779224183",
+    "imageAlt": "Echo Park 35°",
+    "sourceUrl": "https://www.bigagnes.com/products/echo-park-35",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 199.95,
+    "priceMin": 199.95,
+    "priceMax": 199.95
+  },
+  {
+    "id": "big-agnes-fly-creek-ul-25",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Fly Creek UL 25°",
+    "modelEn": "Fly Creek UL 25°",
+    "description": "Redefine backcountry comfort with the Fly Creek UL 25, the ideal ultralight bag for all your minimalist adventures. Premium materials, like ultralight NetPlus® fabric made from recycled fishing nets and high-quality 850-fill down, along with a sleek design featuring Big Agnes Signature Diamond Quilting, produce a lighter, more packable bag. From the ergonmic footbox to the insulated draft collar, every aspect of this sleeping bag is designed to maximize thermal efficiency, without the need for extra weight and bulk. The result is a technical sleeping bag that is a backpacker's dream, perfect for fastpacking, thru hiking, or any overnight trip in three season temperatures.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.72,
+      "weightDisplay": "约 0.72 kg",
+      "structure": "BAGS",
+      "fillType": "羽绒",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "Redefine backcountry comfort with the Fly Creek UL 25, the ideal ultralight bag for all your minimalist adventures. Premium materials, like ultralight NetPlus® fabric made from recycled fishing nets and high-quality 850-fill down, along with a sleek design featuring Big Agnes Signature Diamond Quilting, produce a lighter, more packable bag. From the ergonmic footbox to the insulated draft collar, "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Fly-Creek-UL-04.png?v=1779224210",
+    "imageAlt": "Fly Creek UL 25°",
+    "sourceUrl": "https://www.bigagnes.com/products/fly-creek-ul-25",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 499.95,
+    "priceMin": 499.95,
+    "priceMax": 519.95
+  },
+  {
+    "id": "big-agnes-fly-creek-ul-quilt",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Fly Creek UL Quilt",
+    "modelEn": "Fly Creek UL Quilt",
+    "description": "The ultimate in versatility, the unique Fly Creek UL Zip Quilt is a sleeping bag when you need one, and a quilt when you don't. A large, luxurious quilt by evening and a snug sleeping bag at night, all at about one pound. Hang out by the fire in quilt mode - then when it gets late, simply retire to your tent, turn the Flipit™ Footbox inside out, and zip up for a cozy night's sleep. Featuring Big Agnes Signature Diamond Quilting with premium down insulation, and ultralight NetPlus® fabric made from recycled fishing nets, this hybrid bag has you covered on warm weather backcountry missions.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.43,
+      "weightDisplay": "约 0.43 kg",
+      "structure": "BAGS",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "The ultimate in versatility, the unique Fly Creek UL Zip Quilt is a sleeping bag when you need one, and a quilt when you don't. A large, luxurious quilt by evening and a snug sleeping bag at night, all at about one pound. Hang out by the fire in quilt mode - then when it gets late, simply retire to your tent, turn the Flipit™ Footbox inside out, and zip up for a cozy night's sleep. Featuring Big A"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Fly-Creek-Quilt-01.png?v=1779224205",
+    "imageAlt": "Fly Creek UL Quilt",
+    "sourceUrl": "https://www.bigagnes.com/products/fly-creek-ul-quilt",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 349.95,
+    "priceMin": 349.95,
+    "priceMax": 369.95
+  },
+  {
+    "id": "big-agnes-fly-creek-ul-one",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Fly Creek UL1",
+    "modelEn": "Fly Creek UL1",
+    "description": "Lighter, stronger, and more waterproof - the award-winning Fly Creek tent is better than ever thanks to our proprietary HyperBead® fabric. High volume pole architecture maximizes your interior space so you can camp comfortably out in the backcountry, while keeping weight under two pounds. Minimalist single door design with technical features makes the Fly Creek UL a favorite among ultralight backpackers everywhere.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.77,
+      "weightDisplay": "约 0.77 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Lighter, stronger, and more waterproof - the award-winning Fly Creek tent is better than ever thanks to our proprietary HyperBead® fabric. High volume pole architecture maximizes your interior space so you can camp comfortably out in the backcountry, while keeping weight under two pounds. Minimalist single door design with technical features makes the Fly Creek UL a favorite among ultralight backp"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Fly-Creek-Ul1-01.png?v=1779224396",
+    "imageAlt": "Fly Creek UL1",
+    "sourceUrl": "https://www.bigagnes.com/products/fly-creek-ul-one",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 419.95,
+    "priceMin": 419.95,
+    "priceMax": 419.95
+  },
+  {
+    "id": "big-agnes-fly-creek-ul-two",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Fly Creek UL2",
+    "modelEn": "Fly Creek UL2",
+    "description": "Lighter, stronger, and more waterproof - the award-winning Fly Creek tent is better than ever thanks to our proprietary HyperBead® fabric. High volume pole architecture maximizes your interior space so you can camp comfortably out in the backcountry, while keeping weight under two pounds. Minimalist single door design with technical features makes the Fly Creek UL a favorite among ultralight backpackers everywhere.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.85,
+      "weightDisplay": "约 0.85 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Lighter, stronger, and more waterproof - the award-winning Fly Creek tent is better than ever thanks to our proprietary HyperBead® fabric. High volume pole architecture maximizes your interior space so you can camp comfortably out in the backcountry, while keeping weight under two pounds. Minimalist single door design with technical features makes the Fly Creek UL a favorite among ultralight backp"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Fly-Creek-Ul2-01.png?v=1779224405",
+    "imageAlt": "Fly Creek UL2",
+    "sourceUrl": "https://www.bigagnes.com/products/fly-creek-ul-two",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 449.95,
+    "priceMin": 449.95,
+    "priceMax": 449.95
+  },
+  {
+    "id": "big-agnes-gold-camp-3-tarp",
+    "brandId": "big-agnes",
+    "category": "tarp",
+    "subcategory": "Shelters",
+    "model": "Gold Camp 3 Tarp",
+    "modelEn": "Gold Camp 3 Tarp",
+    "description": "For fast and light adventures with the whole gang, the Gold Camp 3 Tarp stands above the rest. The single pole design makes setup simple, even after a long day on the trail. Inside you'll find plenty of room to stand up and change, and to sleep up to three people. Add the optional Footprint and Mesh Inner for extra protection from the elements, and sleep soundly for tomorrow's adventures!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.09,
+      "weightDisplay": "约 2.09 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "For fast and light adventures with the whole gang, the Gold Camp 3 Tarp stands above the rest. The single pole design makes setup simple, even after a long day on the trail. Inside you'll find plenty of room to stand up and change, and to sleep up to three people. Add the optional Footprint and Mesh Inner for extra protection from the elements, and sleep soundly for tomorrow's adventures!"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Gold-Camp-3-04.png?v=1779223815",
+    "imageAlt": "Gold Camp 3 Tarp",
+    "sourceUrl": "https://www.bigagnes.com/products/gold-camp-3-tarp",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 159.96,
+    "priceMin": 159.96,
+    "priceMax": 159.96
+  },
+  {
+    "id": "big-agnes-greystone-zero",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Greystone 0°",
+    "modelEn": "Greystone 0°",
+    "description": "Our Greystone 0° mummy-style sleeping bag delivers value and performance in a lightweight bag with sustainability in mind. Ideal for backpacking but versatile enough for couch surfing, the Greystone sleeping bags feature 650 fill DownTek™ insulation, recycled shell and lining fabrics, and a water-resistant coating to repel moisture. This bag is your ticket to getting out there in comfort and warmth!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.5,
+      "weightDisplay": "约 1.5 kg",
+      "structure": "BAGS",
+      "fillType": "羽绒",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "Our Greystone 0° mummy-style sleeping bag delivers value and performance in a lightweight bag with sustainability in mind. Ideal for backpacking but versatile enough for couch surfing, the Greystone sleeping bags feature 650 fill DownTek™ insulation, recycled shell and lining fabrics, and a water-resistant coating to repel moisture. This bag is your ticket to getting out there in comfort and warmt"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Greystone.png?v=1779220656",
+    "imageAlt": "Greystone 0°",
+    "sourceUrl": "https://www.bigagnes.com/products/greystone-zero",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 399.95,
+    "priceMin": 399.95,
+    "priceMax": 419.95
+  },
+  {
+    "id": "big-agnes-greystone-twenty",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Greystone 20°",
+    "modelEn": "Greystone 20°",
+    "description": "Our Greystone 20° mummy-style sleeping bag delivers value and performance in a lightweight bag with sustainability in mind. Ideal for backpacking but versatile enough for couch surfing, the Greystone sleeping bags feature 650 fill DownTek™ insulation, recycled shell and lining fabrics, and a water-resistant coating to repel moisture. This bag is your ticket to getting out there in comfort and warmth! Awards: Backpacker - Best Sleeping Bags of 2023; Best Value",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.09,
+      "weightDisplay": "约 1.09 kg",
+      "structure": "BAGS",
+      "fillType": "羽绒",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "Our Greystone 20° mummy-style sleeping bag delivers value and performance in a lightweight bag with sustainability in mind. Ideal for backpacking but versatile enough for couch surfing, the Greystone sleeping bags feature 650 fill DownTek™ insulation, recycled shell and lining fabrics, and a water-resistant coating to repel moisture. This bag is your ticket to getting out there in comfort and warm"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Greystone.png?v=1779220656",
+    "imageAlt": "Greystone 20°",
+    "sourceUrl": "https://www.bigagnes.com/products/greystone-twenty",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 299.95,
+    "priceMin": 299.95,
+    "priceMax": 319.95
+  },
+  {
+    "id": "big-agnes-greystone-thirty",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Greystone 30°",
+    "modelEn": "Greystone 30°",
+    "description": "Our Greystone 30° mummy-style sleeping bag delivers value and performance in a lightweight bag with sustainability in mind. Ideal for backpacking but versatile enough for couch surfing, the Greystone sleeping bags feature 600 fill DownTek™ insulation, recycled shell and lining fabrics, and a water-resistant coating to repel moisture. This bag is your ticket to getting out there in comfort and warmth!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.82,
+      "weightDisplay": "约 0.82 kg",
+      "structure": "BAGS",
+      "fillType": "羽绒",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "Our Greystone 30° mummy-style sleeping bag delivers value and performance in a lightweight bag with sustainability in mind. Ideal for backpacking but versatile enough for couch surfing, the Greystone sleeping bags feature 600 fill DownTek™ insulation, recycled shell and lining fabrics, and a water-resistant coating to repel moisture. This bag is your ticket to getting out there in comfort and warm"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Greystone.png?v=1779220656",
+    "imageAlt": "Greystone 30°",
+    "sourceUrl": "https://www.bigagnes.com/products/greystone-thirty",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 269.95,
+    "priceMin": 269.95,
+    "priceMax": 279.95
+  },
+  {
+    "id": "big-agnes-guard-station-8",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Guard Station 8",
+    "modelEn": "Guard Station 8",
+    "description": "Our Guard Station 8 is a dome-style mountaineering expedition dream shelter burly enough to withstand extreme high-altitude, high-alpine conditions. The Guard Station 8 features an external pole design which means it can be set up as a free-standing group shelter, or clip in the tent body to create a double-wall tent. The DAC exoskeleton pole system is incredibly strong and offers generous living space, with polyester rip-stop material developed to provide high UV resistance and stability in the most extreme environments.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 11.38,
+      "weightDisplay": "约 11.38 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Our Guard Station 8 is a dome-style mountaineering expedition dream shelter burly enough to withstand extreme high-altitude, high-alpine conditions. The Guard Station 8 features an external pole design which means it can be set up as a free-standing group shelter, or clip in the tent body to create a double-wall tent. The DAC exoskeleton pole system is incredibly strong and offers generous living "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Guard-Station-8-01.png?v=1779223149",
+    "imageAlt": "Guard Station 8",
+    "sourceUrl": "https://www.bigagnes.com/products/guard-station-8",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 1999.95,
+    "priceMin": 1999.95,
+    "priceMax": 1999.95
+  },
+  {
+    "id": "big-agnes-king-solomon-doublewide-20",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "King Solomon 20° Doublewide",
+    "modelEn": "King Solomon 20° Doublewide",
+    "description": "Your very own doublewide backcountry bed! Our King Solomon is part of our Doublewide Series, eliminating the need to zip two bags together so there’s nothing keeping you apart from your cuddle bug at camp. Lightweight and packable 650 Downtek™ PFC-Free water-repellent down insulation creates a sleeping bag for two at less weight and bulk than packing two separate bags. Our tried and true Pad Cinch System makes connecting two pads or securing a doublewide pad easier and faster than ever. Now with a full zip off option, you can use the top quilted layer like a comforter or zip together to create a single bag when camping solo. Whether you need room for two, or just prefer sleeping in lightweight, packable doublewide luxury, the King Solomon 20° is the most versatile sleep system out there.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.79,
+      "weightDisplay": "约 1.79 kg",
+      "structure": "BAGS",
+      "fillType": "羽绒",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "Your very own doublewide backcountry bed! Our King Solomon is part of our Doublewide Series, eliminating the need to zip two bags together so there’s nothing keeping you apart from your cuddle bug at camp. Lightweight and packable 650 Downtek™ PFC-Free water-repellent down insulation creates a sleeping bag for two at less weight and bulk than packing two separate bags. Our tried and true Pad Cinch"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/King-Solomon-20-06.png?v=1779224162",
+    "imageAlt": "King Solomon 20° Doublewide",
+    "sourceUrl": "https://www.bigagnes.com/products/king-solomon-doublewide-20",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 499.95,
+    "priceMin": 499.95,
+    "priceMax": 499.95
+  },
+  {
+    "id": "big-agnes-little-red-020",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Little Red 20°",
+    "modelEn": "Little Red 20°",
+    "description": "Start them young with the Little Red Kid's Sleeping Bag! Every aspect of this bag is designed to create a cozy refuge that will make your camper feel safe and warm after a day of new outdoor experiences. Sized for young kids up to 4' tall, the Little Red features the Big Agnes PadLok™ Sleep System - attaching their sleeping bag to their sleeping pad so even squirmy sleepers will stay comfortably on top of their pad. Easy to use comfort and fit features that they can adjust on their own will keep them from fussing - and keep you from losing sleep. A cozy night in this fully insulated bag will have your little one rested and ready to enjoy the next day's activities! When you get home, cinch up the attached REM Storage Sleeve and pack in your bag for storage - no need to keep track of loose storage sacks. Those first camping trips with little ones don't have to be hard - make sure they're sleeping easy with the Little Red!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.79,
+      "weightDisplay": "约 0.79 kg",
+      "structure": "BAGS",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "Start them young with the Little Red Kid's Sleeping Bag! Every aspect of this bag is designed to create a cozy refuge that will make your camper feel safe and warm after a day of new outdoor experiences. Sized for young kids up to 4' tall, the Little Red features the Big Agnes PadLok™ Sleep System - attaching their sleeping bag to their sleeping pad so even squirmy sleepers will stay comfortably o"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Little-Red-02.png?v=1779224192",
+    "imageAlt": "Little Red 20°",
+    "sourceUrl": "https://www.bigagnes.com/products/little-red-020",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 99.95,
+    "priceMin": 99.95,
+    "priceMax": 99.95
+  },
+  {
+    "id": "big-agnes-lost-ranger-3n1-015",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Lost Ranger 3N1 15°",
+    "modelEn": "Lost Ranger 3N1 15°",
+    "description": "The Lost Ranger 3N1 sleeping bag combines two sleeping bags for three different configurations - providing a sleep solution that's just right at a wide range of temperatures. This modular bag design offers just what you’d expect: three bag configurations in one simple, yet technical sleep system that stays attached to your pad, so you won’t roll off in the middle of the night. Use just outer bag for warm summer nights, just the inner bag when temperatures start to drop, and on the coldest trips combine both for ultimate warmth - it's the only bag you need for 3-season camping, backpacking and everywhere in between. These lightweight, down-fill bags deliver comfort and versatility no matter your sleep style or temperature preference.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.12,
+      "weightDisplay": "约 1.12 kg",
+      "structure": "BAGS",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "The Lost Ranger 3N1 sleeping bag combines two sleeping bags for three different configurations - providing a sleep solution that's just right at a wide range of temperatures. This modular bag design offers just what you’d expect: three bag configurations in one simple, yet technical sleep system that stays attached to your pad, so you won’t roll off in the middle of the night. Use just outer bag f"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Lost-Ranger-3N1-07.png?v=1779224203",
+    "imageAlt": "Lost Ranger 3N1 15°",
+    "sourceUrl": "https://www.bigagnes.com/products/lost-ranger-3n1-015",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 399.95,
+    "priceMin": 399.95,
+    "priceMax": 419.95
+  },
+  {
+    "id": "big-agnes-lost-ranger-3n1-00",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Lost Ranger 3N1 0°",
+    "modelEn": "Lost Ranger 3N1 0°",
+    "description": "The Lost Ranger 3N1 sleeping bag combines two sleeping bags for three different configurations - providing a sleep solution that's just right at a wide range of temperatures. This modular bag design offers just what you’d expect: three bag configurations in one simple, yet technical sleep system that stays attached to your pad, so you won’t roll off in the middle of the night. Use just outer bag for warm summer nights, just the inner bag when temperatures start to drop, and on the coldest trips combine both for ultimate warmth - it's the only bag you need for 3-season camping, backpacking and everywhere in between. These lightweight, down-fill bags deliver comfort and versatility no matter your sleep style or temperature preference.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.51,
+      "weightDisplay": "约 1.51 kg",
+      "structure": "BAGS",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "The Lost Ranger 3N1 sleeping bag combines two sleeping bags for three different configurations - providing a sleep solution that's just right at a wide range of temperatures. This modular bag design offers just what you’d expect: three bag configurations in one simple, yet technical sleep system that stays attached to your pad, so you won’t roll off in the middle of the night. Use just outer bag f"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Lost-Ranger-3N1-01.png?v=1779224197",
+    "imageAlt": "Lost Ranger 3N1 0°",
+    "sourceUrl": "https://www.bigagnes.com/products/lost-ranger-3n1-00",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 469.95,
+    "priceMin": 469.95,
+    "priceMax": 489.95
+  },
+  {
+    "id": "big-agnes-pitchpine-vst-1-5",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Pitchpine VST 1.5",
+    "modelEn": "Pitchpine VST 1.5",
+    "description": "Set your FKT with VST. Our VST tents are inspired by you , combining innovative materials with user-first design to create the ideal ultralight shelter. Engineered to provide maximum usable space for you and your gear, these tents are ultralight, durable, and reliable. HyperBead® fabric with Hybrid Single/Double Wall construction and an integrated ventilation system promotes airflow while reducing condensation. Cut weight - without cutting corners - with the VST series. No need for trekking poles - the Pitchpine VST utilizes simple design to create an extremely spacious shelter that sets up quickly and easily. Extra 0.5 sizing creates dedicated protected space for your gear, or a four legged friend. DAC Featherlite pole technology and ultralight HyperBead® fabric combine for compromise-free weight savings and protection from the elements.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.91,
+      "weightDisplay": "约 0.91 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Set your FKT with VST. Our VST tents are inspired by you , combining innovative materials with user-first design to create the ideal ultralight shelter. Engineered to provide maximum usable space for you and your gear, these tents are ultralight, durable, and reliable. HyperBead® fabric with Hybrid Single/Double Wall construction and an integrated ventilation system promotes airflow while reducing"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Pitchpine_VST_1.55.png?v=1779224739",
+    "imageAlt": "Pitchpine VST 1.5",
+    "sourceUrl": "https://www.bigagnes.com/products/pitchpine-vst-1-5",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 649.95,
+    "priceMin": 649.95,
+    "priceMax": 649.95
+  },
+  {
+    "id": "big-agnes-sage-canyon",
+    "brandId": "big-agnes",
+    "category": "tarp",
+    "subcategory": "Shelters",
+    "model": "Sage Canyon Shelter Plus",
+    "modelEn": "Sage Canyon Shelter Plus",
+    "description": "Born from the need for a shelter that stands up to the ample sunshine and sweeping winds of our Colorado home, the Sage Canyon Series is built to last. Big enough to fit over a picnic table, and small enough when packed to easily toss in the car, raft, or even backpack, these versatile shelters bring protection to any event. With 100ft² of coverage, the Sage Canyon Shelter Plus offers plenty of room to spread out. Steep wall architecture maximizes usable space, and a webbing connection frame offers stability you can rely on. Add on the Accessory Mesh Insert and up to four Accessory Walls (both sold separately) for even more protection and privacy.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 4.03,
+      "weightDisplay": "约 4.03 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Born from the need for a shelter that stands up to the ample sunshine and sweeping winds of our Colorado home, the Sage Canyon Series is built to last. Big enough to fit over a picnic table, and small enough when packed to easily toss in the car, raft, or even backpack, these versatile shelters bring protection to any event. With 100ft² of coverage, the Sage Canyon Shelter Plus offers plenty of ro"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Sage-Canyon-Shelter-01.png?v=1779288489",
+    "imageAlt": "Sage Canyon Shelter Plus",
+    "sourceUrl": "https://www.bigagnes.com/products/sage-canyon",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 379.95,
+    "priceMin": 379.95,
+    "priceMax": 379.95
+  },
+  {
+    "id": "big-agnes-salt-creek-two",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Salt Creek 2",
+    "modelEn": "Salt Creek 2",
+    "description": "Our Salt Creek SL series of tents features three doors you never knew you needed until now. Double side doors with double vestibule storage plus one head-entry door with an awning-style entrance that transforms into the best star gazing vantage point at the campsite. Steep walls create ample shoulder space and typically dead space above the foot of the tent is maximized with 3D bin pockets, providing extra storage where it won’t get in the way. This tent checks all of the boxes of a fully-featured backpacking tent that can easily make a good home at car camping spots with panoramic views.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.18,
+      "weightDisplay": "约 2.18 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Our Salt Creek SL series of tents features three doors you never knew you needed until now. Double side doors with double vestibule storage plus one head-entry door with an awning-style entrance that transforms into the best star gazing vantage point at the campsite. Steep walls create ample shoulder space and typically dead space above the foot of the tent is maximized with 3D bin pockets, provid"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/SaltCreek22.png?v=1779288465",
+    "imageAlt": "Salt Creek 2",
+    "sourceUrl": "https://www.bigagnes.com/products/salt-creek-two",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 399.95,
+    "priceMin": 399.95,
+    "priceMax": 399.95
+  },
+  {
+    "id": "big-agnes-salt-creek-three",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Salt Creek 3",
+    "modelEn": "Salt Creek 3",
+    "description": "Our Salt Creek SL series of tents features three doors you never knew you needed until now. Double side doors with double vestibule storage plus one head-entry door with an awning-style entrance that transforms into the best star gazing vantage point at the campsite. Steep walls create ample shoulder space and typically dead space above the foot of the tent is maximized with 3D bin pockets, providing extra storage where it won’t get in the way. This tent checks all of the boxes of a fully-featured backpacking tent that can easily make a good home at car camping spots with panoramic views.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.54,
+      "weightDisplay": "约 2.54 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Our Salt Creek SL series of tents features three doors you never knew you needed until now. Double side doors with double vestibule storage plus one head-entry door with an awning-style entrance that transforms into the best star gazing vantage point at the campsite. Steep walls create ample shoulder space and typically dead space above the foot of the tent is maximized with 3D bin pockets, provid"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/SaltCreek3_3.png?v=1779224828",
+    "imageAlt": "Salt Creek 3",
+    "sourceUrl": "https://www.bigagnes.com/products/salt-creek-three",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 449.95,
+    "priceMin": 449.95,
+    "priceMax": 449.95
+  },
+  {
+    "id": "big-agnes-sarvis-vst-2",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Sarvis VST 2",
+    "modelEn": "Sarvis VST 2",
+    "description": "Set your FKT with VST. Our VST tents are inspired by you, combining innovative materials with user-first design to create the ideal ultralight shelter. Engineered to provide maximum usable space for you and your gear, these tents are ultralight, durable, and reliable. HyperBead® fabric with Hybrid Single/Double Wall construction and an integrated ventilation system promotes airflow while reducing condensation. Cut weight - without cutting corners - with the VST series. Featuring freestanding DAC Featherlite pole architecture, the Sarvis VST is a fresh take on tried and true design principles. With two doors, generously sized vestibules, and integrated pole-supported vents, this sturdy ultralight shelter offers plenty of space for wide sleeping pads, without taking up extra space in your pack.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.27,
+      "weightDisplay": "约 1.27 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Set your FKT with VST. Our VST tents are inspired by you, combining innovative materials with user-first design to create the ideal ultralight shelter. Engineered to provide maximum usable space for you and your gear, these tents are ultralight, durable, and reliable. HyperBead® fabric with Hybrid Single/Double Wall construction and an integrated ventilation system promotes airflow while reducing "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/SarvisVST26.png?v=1779224725",
+    "imageAlt": "Sarvis VST 2",
+    "sourceUrl": "https://www.bigagnes.com/products/sarvis-vst-2",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 749.95,
+    "priceMin": 749.95,
+    "priceMax": 749.95
+  },
+  {
+    "id": "big-agnes-sarvis-vst-3",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Sarvis VST 3",
+    "modelEn": "Sarvis VST 3",
+    "description": "Set your FKT with VST. Our VST tents are inspired by you, combining innovative materials with user-first design to create the ideal ultralight shelter. Engineered to provide maximum usable space for you and your gear, these tents are ultralight, durable, and reliable. HyperBead® fabric with Hybrid Single/Double Wall construction and an integrated ventilation system promotes airflow while reducing condensation. Cut weight - without cutting corners - with the VST series. Featuring freestanding DAC Featherlite pole architecture, the Sarvis VST is a fresh take on tried and true design principles. With two doors, generously sized vestibules, and integrated pole-supported vents, this sturdy ultralight shelter offers plenty of space for wide sleeping pads, without taking up extra space in your pack.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.54,
+      "weightDisplay": "约 1.54 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Set your FKT with VST. Our VST tents are inspired by you, combining innovative materials with user-first design to create the ideal ultralight shelter. Engineered to provide maximum usable space for you and your gear, these tents are ultralight, durable, and reliable. HyperBead® fabric with Hybrid Single/Double Wall construction and an integrated ventilation system promotes airflow while reducing "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/SarvisVST36.png?v=1779224772",
+    "imageAlt": "Sarvis VST 3",
+    "sourceUrl": "https://www.bigagnes.com/products/sarvis-vst-3",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 849.95,
+    "priceMin": 849.95,
+    "priceMax": 849.95
+  },
+  {
+    "id": "big-agnes-sheep-mountain-1",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Sheep Mountain 1",
+    "modelEn": "Sheep Mountain 1",
+    "description": "Right in the middle of ultralight and overbuilt is where you'll find our Sheep Mountain tents. Made of durable and lightweight Oxford polyester, these versatile tents will thrive in arid desert canyons, high elevation alpine forests, and everything in between. A large door and vestibule provide easy entry and exit, ample dry space to store gear, and extra ventilation on warmer nights. Color coded webbing and buckles make set up easier, and eight interior mesh pockets keep all your accessories organized and within an arms reach.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.9,
+      "weightDisplay": "约 2.9 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Right in the middle of ultralight and overbuilt is where you'll find our Sheep Mountain tents. Made of durable and lightweight Oxford polyester, these versatile tents will thrive in arid desert canyons, high elevation alpine forests, and everything in between. A large door and vestibule provide easy entry and exit, ample dry space to store gear, and extra ventilation on warmer nights. Color coded "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Sheep-1-Tent-02.png?v=1779223719",
+    "imageAlt": "Sheep Mountain 1",
+    "sourceUrl": "https://www.bigagnes.com/products/sheep-mountain-1",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 329.95,
+    "priceMin": 329.95,
+    "priceMax": 329.95
+  },
+  {
+    "id": "big-agnes-sheep-mountain-2",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Sheep Mountain 2",
+    "modelEn": "Sheep Mountain 2",
+    "description": "Right in the middle of ultralight and overbuilt is where you'll find our Sheep Mountain tents. Made of durable and lightweight Oxford polyester, these versatile tents will thrive in arid desert canyons, high elevation alpine forests, and everything in between. Two doors and two vestibules provide easy entry and exit, ample dry space to store gear, and extra ventilation on warmer nights. Color coded webbing and buckles make set up easier, and eight interior mesh pockets keep all your accessories organized and within an arms reach.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 3.45,
+      "weightDisplay": "约 3.45 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Right in the middle of ultralight and overbuilt is where you'll find our Sheep Mountain tents. Made of durable and lightweight Oxford polyester, these versatile tents will thrive in arid desert canyons, high elevation alpine forests, and everything in between. Two doors and two vestibules provide easy entry and exit, ample dry space to store gear, and extra ventilation on warmer nights. Color code"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Sheep-Mountain-2-01.png?v=1779223351",
+    "imageAlt": "Sheep Mountain 2",
+    "sourceUrl": "https://www.bigagnes.com/products/sheep-mountain-2",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 439.95,
+    "priceMin": 439.95,
+    "priceMax": 439.95
+  },
+  {
+    "id": "big-agnes-sheep-mountain-3",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Sheep Mountain 3",
+    "modelEn": "Sheep Mountain 3",
+    "description": "Right in the middle of ultralight and overbuilt is where you'll find our Sheep Mountain tents. Made of durable and lightweight Oxford polyester, these versatile tents will thrive in arid desert canyons, high elevation alpine forests, and everything in between. Two doors and two vestibules provide easy entry and exit, ample dry space to store gear, and extra ventilation on warmer nights. Color coded webbing and buckles make set up easier, and eight interior mesh pockets keep all your accessories organized and within an arms reach.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 3.95,
+      "weightDisplay": "约 3.95 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Right in the middle of ultralight and overbuilt is where you'll find our Sheep Mountain tents. Made of durable and lightweight Oxford polyester, these versatile tents will thrive in arid desert canyons, high elevation alpine forests, and everything in between. Two doors and two vestibules provide easy entry and exit, ample dry space to store gear, and extra ventilation on warmer nights. Color code"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Sheep-Mountain-2-01_63e08443-6a2d-48b6-9c7e-9bfd16a0704f.png?v=1779223353",
+    "imageAlt": "Sheep Mountain 3",
+    "sourceUrl": "https://www.bigagnes.com/products/sheep-mountain-3",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 479.95,
+    "priceMin": 479.95,
+    "priceMax": 479.95
+  },
+  {
+    "id": "big-agnes-shield-two",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Shield 2",
+    "modelEn": "Shield 2",
+    "description": "The Shield is a lightweight, four-season mountaineering tent with a single door and single-wall design meant to be taken to the highest elevations, withstand the strongest winds, and keep you warm in the coldest climates. This bomber tent is constructed with ultralight nylon, 3-layer waterproof, breathable fabric with a microporous membrane and tricot layer to enhance moisture management and provide protection from the elements. The Accessory Vestibule (sold separately) adds covered entry and exit, plus additional gear storage when you need a little more room to spread out undercover.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.09,
+      "weightDisplay": "约 2.09 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "The Shield is a lightweight, four-season mountaineering tent with a single door and single-wall design meant to be taken to the highest elevations, withstand the strongest winds, and keep you warm in the coldest climates. This bomber tent is constructed with ultralight nylon, 3-layer waterproof, breathable fabric with a microporous membrane and tricot layer to enhance moisture management and provi"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Sheild-2-02.png?v=1779220671",
+    "imageAlt": "Shield 2",
+    "sourceUrl": "https://www.bigagnes.com/products/shield-two",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 799.95,
+    "priceMin": 799.95,
+    "priceMax": 799.95
+  },
+  {
+    "id": "big-agnes-vestibule-shield-two",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Shield 2 Accessory Vestibule",
+    "modelEn": "Shield 2 Accessory Vestibule",
+    "description": "The Shield 2 is a lightweight, four-season mountaineering tent with single-wall design meant to be taken to the highest points, lowest canyons, and every climate in between. The Accessory Vestibule (sold separately) adds protected gear storage and a covered entry.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.82,
+      "weightDisplay": "约 0.82 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "The Shield 2 is a lightweight, four-season mountaineering tent with single-wall design meant to be taken to the highest points, lowest canyons, and every climate in between. The Accessory Vestibule (sold separately) adds protected gear storage and a covered entry."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Sheild-2-05.png?v=1779224812",
+    "imageAlt": "Shield 2 Accessory Vestibule",
+    "sourceUrl": "https://www.bigagnes.com/products/vestibule-shield-two",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 249.95,
+    "priceMin": 249.95,
+    "priceMax": 249.95
+  },
+  {
+    "id": "big-agnes-sidewinder-0",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Sidewinder 0˚",
+    "modelEn": "Sidewinder 0˚",
+    "description": "Specifically designed for the over 60% of people who sleep on their sides, the second generation of our patented Sidewinder side sleeper technology ensures warmth, comfort, and ease of use in any position you settle into. Constructed for comfort, with additional body mapped insulation to optimize warmth where you need it and provide cushioning and support at the hips and shoulders, easing pressure points and other ‘side effects’. The Sidewinder is a side sleeper’s dream bag with technical features that roll seamlessly from one adventure to the next, and from one side to the other at night. U.S. Patent 11957260 B2",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.5,
+      "weightDisplay": "约 1.5 kg",
+      "structure": "BAGS",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "Specifically designed for the over 60% of people who sleep on their sides, the second generation of our patented Sidewinder side sleeper technology ensures warmth, comfort, and ease of use in any position you settle into. Constructed for comfort, with additional body mapped insulation to optimize warmth where you need it and provide cushioning and support at the hips and shoulders, easing pressure"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Sidewinder2.png?v=1779220542",
+    "imageAlt": "Sidewinder 0˚",
+    "sourceUrl": "https://www.bigagnes.com/products/sidewinder-0",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 429.95,
+    "priceMin": 429.95,
+    "priceMax": 449.95
+  },
+  {
+    "id": "big-agnes-sidewinder-20",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Sidewinder 20°",
+    "modelEn": "Sidewinder 20°",
+    "description": "Specifically designed for the over 60% of people who sleep on their sides, the second generation of our patented Sidewinder side sleeper technology ensures warmth, comfort, and ease of use in any position you settle into. Constructed for comfort, with additional body mapped insulation to optimize warmth where you need it and provide cushioning and support at the hips and shoulders, easing pressure points and other ‘side effects’. The Sidewinder is a side sleeper’s dream bag with technical features that roll seamlessly from one adventure to the next, and from one side to the other at night. U.S. Patent 11957260 B2",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.0,
+      "weightDisplay": "约 1.0 kg",
+      "structure": "BAGS",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "Specifically designed for the over 60% of people who sleep on their sides, the second generation of our patented Sidewinder side sleeper technology ensures warmth, comfort, and ease of use in any position you settle into. Constructed for comfort, with additional body mapped insulation to optimize warmth where you need it and provide cushioning and support at the hips and shoulders, easing pressure"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Sidewinder2.png?v=1779220542",
+    "imageAlt": "Sidewinder 20°",
+    "sourceUrl": "https://www.bigagnes.com/products/sidewinder-20",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 329.95,
+    "priceMin": 329.95,
+    "priceMax": 349.95
+  },
+  {
+    "id": "big-agnes-string-ridge-vst-1-5",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "String Ridge VST 1.5",
+    "modelEn": "String Ridge VST 1.5",
+    "description": "Set your FKT with VST. Our VST tents are inspired by you, combining innovative materials with user-first design to create the ideal ultralight shelter. Engineered to provide maximum usable space for you and your gear, these tents are ultralight, durable, and reliable. HyperBead® fabric with Hybrid Single/Double Wall construction and an integrated ventilation system promotes airflow while reducing condensation. Cut weight - without cutting corners - with the VST series. The String Ridge VST gives you the best of both worlds: weight stats you can only get with a trekking pole shelter, combined with a stable, reliable design. Extra 0.5 sizing creates dedicated protected space for your gear, or a four legged friend. Innovative, externally supported asymmetrical architecture makes for a spacious shelter with plenty of room to lay out your gear and get ready for the next day's adventure.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.68,
+      "weightDisplay": "约 0.68 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Set your FKT with VST. Our VST tents are inspired by you, combining innovative materials with user-first design to create the ideal ultralight shelter. Engineered to provide maximum usable space for you and your gear, these tents are ultralight, durable, and reliable. HyperBead® fabric with Hybrid Single/Double Wall construction and an integrated ventilation system promotes airflow while reducing "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/StringRidgeVST1.57_25a31e9b-8241-4975-a73d-a9f2e3bd59df.png?v=1779224748",
+    "imageAlt": "String Ridge VST 1.5",
+    "sourceUrl": "https://www.bigagnes.com/products/string-ridge-vst-1-5",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 549.95,
+    "priceMin": 549.95,
+    "priceMax": 549.95
+  },
+  {
+    "id": "big-agnes-string-ridge-vst-2-5",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "String Ridge VST 2.5",
+    "modelEn": "String Ridge VST 2.5",
+    "description": "Set your FKT with VST. Our VST tents are inspired by you, combining innovative materials with user-first design to create the ideal ultralight shelter. Engineered to provide maximum usable space for you and your gear, these tents are ultralight, durable, and reliable. HyperBead® fabric with Hybrid Single/Double Wall construction and an integrated ventilation system promotes airflow while reducing condensation. Cut weight - without cutting corners - with the VST series. The String Ridge VST gives you the best of both worlds: weight stats you can only get with a trekking pole shelter, combined with a stable, reliable design. Extra 0.5 sizing creates dedicated protected space for your gear, or a four legged friend. Innovative, externally supported asymmetrical architecture makes for a spacious shelter with plenty of room to lay out your gear and get ready for the next day's adventure.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.95,
+      "weightDisplay": "约 0.95 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Set your FKT with VST. Our VST tents are inspired by you, combining innovative materials with user-first design to create the ideal ultralight shelter. Engineered to provide maximum usable space for you and your gear, these tents are ultralight, durable, and reliable. HyperBead® fabric with Hybrid Single/Double Wall construction and an integrated ventilation system promotes airflow while reducing "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/StringRidgeVST2.56_61fdef58-0182-46a5-9124-2abc45027e44.png?v=1779224761",
+    "imageAlt": "String Ridge VST 2.5",
+    "sourceUrl": "https://www.bigagnes.com/products/string-ridge-vst-2-5",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 679.95,
+    "priceMin": 679.95,
+    "priceMax": 679.95
+  },
+  {
+    "id": "big-agnes-three-wire-hooped-bivy-shelter",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Three Wire Hooped Bivy",
+    "modelEn": "Three Wire Hooped Bivy",
+    "description": "Be ready for even the most extreme weather, without the extra weight and bulk, by packing a Three Wire Hooped Bivy. Made using premium materials for four season protection and featuring a closeable mesh window for breathability, this minimalist shelter is perfect for fast and light backpacking, and small enough to bring along as a just-in-case emergency bivy on any adventure.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.63,
+      "weightDisplay": "约 0.63 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Be ready for even the most extreme weather, without the extra weight and bulk, by packing a Three Wire Hooped Bivy. Made using premium materials for four season protection and featuring a closeable mesh window for breathability, this minimalist shelter is perfect for fast and light backpacking, and small enough to bring along as a just-in-case emergency bivy on any adventure."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Three-Wire-Bivy-Hooped-03.png?v=1779220674",
+    "imageAlt": "Three Wire Hooped Bivy",
+    "sourceUrl": "https://www.bigagnes.com/products/three-wire-hooped-bivy-shelter",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 429.95,
+    "priceMin": 429.95,
+    "priceMax": 429.95
+  },
+  {
+    "id": "big-agnes-tiger-wall-platinum-two-tent",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Tiger Wall 2 Platinum",
+    "modelEn": "Tiger Wall 2 Platinum",
+    "description": "Featuring the lightest-yet iteration of our revolutionary HyperBead® fabric, the redesigned Tiger Wall Platinum is one of the lightest freestanding shelters on the market. Two doors, two vestibules, and all the features you need for backcountry comfort - without the weight and bulk of extra frills. Designed for efficiency, the Tiger Wall Platinum is built for fast and light trail missions where every ounce counts.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.99,
+      "weightDisplay": "约 0.99 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Featuring the lightest-yet iteration of our revolutionary HyperBead® fabric, the redesigned Tiger Wall Platinum is one of the lightest freestanding shelters on the market. Two doors, two vestibules, and all the features you need for backcountry comfort - without the weight and bulk of extra frills. Designed for efficiency, the Tiger Wall Platinum is built for fast and light trail missions where ev"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/TigerWall2Platinum_3.png?v=1779224799",
+    "imageAlt": "Tiger Wall 2 Platinum",
+    "sourceUrl": "https://www.bigagnes.com/products/tiger-wall-platinum-two-tent",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 699.95,
+    "priceMin": 699.95,
+    "priceMax": 699.95
+  },
+  {
+    "id": "big-agnes-tiger-wall-platinum-three-tent",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Tiger Wall 3 Platinum",
+    "modelEn": "Tiger Wall 3 Platinum",
+    "description": "Featuring the lightest-yet iteration of our revolutionary HyperBead® fabric, the redesigned Tiger Wall Platinum is one of the lightest freestanding shelters on the market. Two doors, two vestibules, and all the features you need for backcountry comfort - without the weight and bulk of extra frills. Designed for efficiency, the Tiger Wall Platinum is built for fast and light trail missions where every ounce counts.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.11,
+      "weightDisplay": "约 1.11 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Featuring the lightest-yet iteration of our revolutionary HyperBead® fabric, the redesigned Tiger Wall Platinum is one of the lightest freestanding shelters on the market. Two doors, two vestibules, and all the features you need for backcountry comfort - without the weight and bulk of extra frills. Designed for efficiency, the Tiger Wall Platinum is built for fast and light trail missions where ev"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/TigerWallPlatinum3_4.png?v=1779224805",
+    "imageAlt": "Tiger Wall 3 Platinum",
+    "sourceUrl": "https://www.bigagnes.com/products/tiger-wall-platinum-three-tent",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 749.95,
+    "priceMin": 749.95,
+    "priceMax": 749.95
+  },
+  {
+    "id": "big-agnes-tiger-wall-ul-one",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Tiger Wall UL1",
+    "modelEn": "Tiger Wall UL1",
+    "description": "Lighter, stronger, and more waterproof than ever thanks to our proprietary HyperBead® fabric, the Tiger Wall UL is ideal for minimalists looking for a side entry, ultralight tent. Defined by its high-volume, single pole architecture with large side entry doors and generous vestibule space, this tent is a favorite for backcountry adventures for good reason. Single pole architecture using DAC Featherlite materials create a simple, yet sturdy structure you can rely on through multi-day trips. The comfort and weight savings of the Tiger Wall UL make tent life easy for your three-season adventures.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.85,
+      "weightDisplay": "约 0.85 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Lighter, stronger, and more waterproof than ever thanks to our proprietary HyperBead® fabric, the Tiger Wall UL is ideal for minimalists looking for a side entry, ultralight tent. Defined by its high-volume, single pole architecture with large side entry doors and generous vestibule space, this tent is a favorite for backcountry adventures for good reason. Single pole architecture using DAC Feathe"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Tiger-Wall-UL-1-06.png?v=1779224411",
+    "imageAlt": "Tiger Wall UL1",
+    "sourceUrl": "https://www.bigagnes.com/products/tiger-wall-ul-one",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 469.95,
+    "priceMin": 469.95,
+    "priceMax": 469.95
+  },
+  {
+    "id": "big-agnes-tiger-wall-ul1-bikepack",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Tiger Wall UL1 Bikepack",
+    "modelEn": "Tiger Wall UL1 Bikepack",
+    "description": "Designed for two wheeled travel on road and trail, the Tiger Wall UL Bikepack is ready for any adventure. Ultralight HyperBead® fabric technology combined with a specialized dry bag stuff sack means this tent is more durable and waterproof both on your bike and at camp. A shorter packed size due to our 12\" Shortstik pole set, and daisy chain loops integrated into the stuff sack make the Tiger Wall UL Bikepack easy to attach to your handlebars, frame, or anywhere you need to rig it, for bikepacking with ease. Classic Tiger Wall three pole architecture with two doors and two vestibules provides plenty of shelter for you and all your gear while waiting out rainstorms.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.19,
+      "weightDisplay": "约 1.19 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Designed for two wheeled travel on road and trail, the Tiger Wall UL Bikepack is ready for any adventure. Ultralight HyperBead® fabric technology combined with a specialized dry bag stuff sack means this tent is more durable and waterproof both on your bike and at camp. A shorter packed size due to our 12\" Shortstik pole set, and daisy chain loops integrated into the stuff sack make the Tiger Wall"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/TigerWallUL1Bikepack3.png?v=1779224636",
+    "imageAlt": "Tiger Wall UL1 Bikepack",
+    "sourceUrl": "https://www.bigagnes.com/products/tiger-wall-ul1-bikepack",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 499.95,
+    "priceMin": 499.95,
+    "priceMax": 499.95
+  },
+  {
+    "id": "big-agnes-tiger-wall-ul-two",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Tiger Wall UL2",
+    "modelEn": "Tiger Wall UL2",
+    "description": "Lighter, stronger, and more waterproof than ever thanks to our proprietary HyperBead® fabric, the Tiger Wall UL is ideal for minimalists looking for a side entry, ultralight tent. Defined by its high-volume, single pole architecture with large side entry doors and generous vestibule space, this tent is a favorite for backcountry adventures for good reason. Single pole architecture using DAC Featherlite materials create a simple, yet sturdy structure you can rely on through multi-day trips. The comfort and weight savings of the Tiger Wall UL make tent life easy for your three-season adventures.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.99,
+      "weightDisplay": "约 0.99 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Lighter, stronger, and more waterproof than ever thanks to our proprietary HyperBead® fabric, the Tiger Wall UL is ideal for minimalists looking for a side entry, ultralight tent. Defined by its high-volume, single pole architecture with large side entry doors and generous vestibule space, this tent is a favorite for backcountry adventures for good reason. Single pole architecture using DAC Feathe"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Tiger-Wall-UL-2-01.png?v=1779224425",
+    "imageAlt": "Tiger Wall UL2",
+    "sourceUrl": "https://www.bigagnes.com/products/tiger-wall-ul-two",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 499.95,
+    "priceMin": 499.95,
+    "priceMax": 499.95
+  },
+  {
+    "id": "big-agnes-tiger-wall-ul2-bikepack",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Tiger Wall UL2 Bikepack",
+    "modelEn": "Tiger Wall UL2 Bikepack",
+    "description": "Designed for two wheeled travel on road and trail, the Tiger Wall UL Bikepack is ready for any adventure. Ultralight HyperBead® fabric technology combined with a specialized dry bag stuff sack means this tent is more durable and waterproof both on your bike and at camp. A shorter packed size due to our 12\" Shortstik pole set, and daisy chain loops integrated into the stuff sack make the Tiger Wall UL Bikepack easy to attach to your handlebars, frame, or anywhere you need to rig it, for bikepacking with ease. Classic Tiger Wall three pole architecture with two doors and two vestibules provides plenty of shelter for you and all your gear while waiting out rainstorms.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.36,
+      "weightDisplay": "约 1.36 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Designed for two wheeled travel on road and trail, the Tiger Wall UL Bikepack is ready for any adventure. Ultralight HyperBead® fabric technology combined with a specialized dry bag stuff sack means this tent is more durable and waterproof both on your bike and at camp. A shorter packed size due to our 12\" Shortstik pole set, and daisy chain loops integrated into the stuff sack make the Tiger Wall"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/TigerWallUL2Bikepack13.png?v=1779224641",
+    "imageAlt": "Tiger Wall UL2 Bikepack",
+    "sourceUrl": "https://www.bigagnes.com/products/tiger-wall-ul2-bikepack",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 549.95,
+    "priceMin": 549.95,
+    "priceMax": 549.95
+  },
+  {
+    "id": "big-agnes-tiger-wall-ul-three",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Tiger Wall UL3",
+    "modelEn": "Tiger Wall UL3",
+    "description": "Lighter, stronger, and more waterproof than ever thanks to our proprietary HyperBead® fabric, the Tiger Wall UL is ideal for minimalists looking for a side entry, ultralight tent. Defined by its high-volume, single pole architecture with large side entry doors and generous vestibule space, this tent is a favorite for backcountry adventures for good reason. Single pole architecture using DAC Featherlite materials create a simple, yet sturdy structure you can rely on through multi-day trips. The comfort and weight savings of the Tiger Wall UL make tent life easy for your three-season adventures.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.19,
+      "weightDisplay": "约 1.19 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Lighter, stronger, and more waterproof than ever thanks to our proprietary HyperBead® fabric, the Tiger Wall UL is ideal for minimalists looking for a side entry, ultralight tent. Defined by its high-volume, single pole architecture with large side entry doors and generous vestibule space, this tent is a favorite for backcountry adventures for good reason. Single pole architecture using DAC Feathe"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Tiger-Wall-UL-3-04.png?v=1779224447",
+    "imageAlt": "Tiger Wall UL3",
+    "sourceUrl": "https://www.bigagnes.com/products/tiger-wall-ul-three",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 579.95,
+    "priceMin": 579.95,
+    "priceMax": 579.95
+  },
+  {
+    "id": "big-agnes-tiger-wall-ul3-bikepack",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Tiger Wall UL3 Bikepack Solution Dye",
+    "modelEn": "Tiger Wall UL3 Bikepack Solution Dye",
+    "description": "\"The features you know from our award-winning line of Tiger Wall UL tents have been enhanced and equipped with functions you need for two-wheeled travel. Now using solution-dyed fabric that is highly resistant to UV fade and drastically reduces energy consumption and water use during manufacturing, a process that is better for the environment and improves the quality of the tent fabric. Built for on and off road adventures, the Tiger Wall UL2 and UL3 Bikepack tents are our lightest two-door, two-vestibule bikepacking tents and an exciting addition to our ultralight bikepacking tent series. Featuring a shortened 12\"\" Shortstik Poleset for optimal handlebar, pannier, and saddlebag storage, complete with a burly bikepacking-ready compression sack that attaches readily to your bike with integrated daisy chain webbing. Stash your helmet in the added webbing located on the tent body exterior and dry out wet clothes and gear on daisy chain webbing loops integrated on the fly exterior. Interior storage solutions utilize dead space above your feet and keep gear stowed and out of the way. Extended footprint creates a vestibule floor for dry, dirt-free changing and additional gear storage (sold separately). Equipped with our proprietary TipLok™ Tent Buckle™ to simplify setup, the Tiger Wall UL Bikepack tent is your go-to shelter for single-track and double-track, overnight adventures.\"",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.5,
+      "weightDisplay": "约 1.5 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "\"The features you know from our award-winning line of Tiger Wall UL tents have been enhanced and equipped with functions you need for two-wheeled travel. Now using solution-dyed fabric that is highly resistant to UV fade and drastically reduces energy consumption and water use during manufacturing, a process that is better for the environment and improves the quality of the tent fabric. Built for "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Tiger-Wall-UL3-Bikepack-Solution-Dye-01.png?v=1779223331",
+    "imageAlt": "Tiger Wall UL3 Bikepack Solution Dye",
+    "sourceUrl": "https://www.bigagnes.com/products/tiger-wall-ul3-bikepack",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 467.45,
+    "priceMin": 467.45,
+    "priceMax": 467.45
+  },
+  {
+    "id": "big-agnes-torchlight-exp-0",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Torchlight EXP 0°",
+    "modelEn": "Torchlight EXP 0°",
+    "description": "Looking for a sleeping bag you can fully customize, for the most comfortable night's sleep possible? The Torchlight EXP has you covered. Easily adjust the Torchlight EXP's fit to your individual sleep style and body shape, and change it up easily whenever you need! Patented expandable side panel design adds up to 10” / 25cm of space wherever you choose - shoulders, hips, feet or your whole body. Fully insulated with 650 Fill Downtek™ PFC-Free water-repellent down, this bag keeps you warm all over while the integrated PadLok™ Sleep System keeps you on your pad all night long. Pat. 11,534,011 B2",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.75,
+      "weightDisplay": "约 0.75 kg",
+      "structure": "BAGS",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "Looking for a sleeping bag you can fully customize, for the most comfortable night's sleep possible? The Torchlight EXP has you covered. Easily adjust the Torchlight EXP's fit to your individual sleep style and body shape, and change it up easily whenever you need! Patented expandable side panel design adds up to 10” / 25cm of space wherever you choose - shoulders, hips, feet or your whole body. F"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Torchlight-EXP-10.png?v=1779224212",
+    "imageAlt": "Torchlight EXP 0°",
+    "sourceUrl": "https://www.bigagnes.com/products/torchlight-exp-0",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 469.95,
+    "priceMin": 469.95,
+    "priceMax": 489.95
+  },
+  {
+    "id": "big-agnes-torchlight-exp-20",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Torchlight EXP 20°",
+    "modelEn": "Torchlight EXP 20°",
+    "description": "Looking for a sleeping bag you can fully customize, for the most comfortable night's sleep possible? The Torchlight EXP has you covered. Easily adjust the Torchlight EXP's fit to your individual sleep style and body shape, and change it up easily whenever you need! Patented expandable side panel design adds up to 10” / 25cm of space wherever you choose - shoulders, hips, feet or your whole body. Fully insulated with 650 Fill Downtek™ PFC-Free water-repellent down, this bag keeps you warm all over while the integrated PadLok™ Sleep System keeps you on your pad all night long. Pat. 11,534,011 B2",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.05,
+      "weightDisplay": "约 1.05 kg",
+      "structure": "BAGS",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "Looking for a sleeping bag you can fully customize, for the most comfortable night's sleep possible? The Torchlight EXP has you covered. Easily adjust the Torchlight EXP's fit to your individual sleep style and body shape, and change it up easily whenever you need! Patented expandable side panel design adds up to 10” / 25cm of space wherever you choose - shoulders, hips, feet or your whole body. F"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Torchlight-EXP-10.png?v=1779224212",
+    "imageAlt": "Torchlight EXP 20°",
+    "sourceUrl": "https://www.bigagnes.com/products/torchlight-exp-20",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 369.95,
+    "priceMin": 369.95,
+    "priceMax": 389.95
+  },
+  {
+    "id": "big-agnes-torchlight-exp-30",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Torchlight EXP 30°",
+    "modelEn": "Torchlight EXP 30°",
+    "description": "Looking for a sleeping bag you can fully customize, for the most comfortable night's sleep possible? The Torchlight EXP has you covered. Easily adjust the Torchlight EXP's fit to your individual sleep style and body shape, and change it up easily whenever you need! Patented expandable side panel design adds up to 10” / 25cm of space wherever you choose - shoulders, hips, feet or your whole body. Fully insulated with 650 Fill Downtek™ PFC-Free water-repellent down, this bag keeps you warm all over while the integrated PadLok™ Sleep System keeps you on your pad all night long. Pat. 11,534,011 B2",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.86,
+      "weightDisplay": "约 0.86 kg",
+      "structure": "BAGS",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "Looking for a sleeping bag you can fully customize, for the most comfortable night's sleep possible? The Torchlight EXP has you covered. Easily adjust the Torchlight EXP's fit to your individual sleep style and body shape, and change it up easily whenever you need! Patented expandable side panel design adds up to 10” / 25cm of space wherever you choose - shoulders, hips, feet or your whole body. F"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Torchlight-EXP-10.png?v=1779224212",
+    "imageAlt": "Torchlight EXP 30°",
+    "sourceUrl": "https://www.bigagnes.com/products/torchlight-exp-30",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 329.95,
+    "priceMin": 329.95,
+    "priceMax": 349.95
+  },
+  {
+    "id": "big-agnes-torchlight-exp-youth-20",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Torchlight EXP Youth 20°",
+    "modelEn": "Torchlight EXP Youth 20°",
+    "description": "Kids grow, and so does the Torchlight EXP Youth! The Torchlight EXP Youth 20 degree junior sleeping bag is a warm, cozy Big Agnes Padlok™ Sleep System bag with packable down insulation that will grow with your lil' camper from tot to teen. Offering a customizable fit system for both length and width, the this versatile bag can be sized down to keep your littlest snug as a bug. As they grow, simply unclip the loop and closure for more room and space as needed. If they need some wiggle room, unzip the expandable side panels to give them just as much extra space as they want! When you get home, cinch up the attached REM Storage Sleve and pack in your bag for storage - no need to keep track of loose storage sacks. Give them comfort that will keep up with them and feed their love for the outdoors, with the Torchlight EXP Youth!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.79,
+      "weightDisplay": "约 0.79 kg",
+      "structure": "BAGS",
+      "fillType": "羽绒",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "Kids grow, and so does the Torchlight EXP Youth! The Torchlight EXP Youth 20 degree junior sleeping bag is a warm, cozy Big Agnes Padlok™ Sleep System bag with packable down insulation that will grow with your lil' camper from tot to teen. Offering a customizable fit system for both length and width, the this versatile bag can be sized down to keep your littlest snug as a bug. As they grow, simply"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Torchlight-Youth-07.png?v=1779224619",
+    "imageAlt": "Torchlight EXP Youth 20°",
+    "sourceUrl": "https://www.bigagnes.com/products/torchlight-exp-youth-20",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 259.95,
+    "priceMin": 259.95,
+    "priceMax": 259.95
+  },
+  {
+    "id": "big-agnes-why-not-picnic-blanket",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Why Not Picnic Blanket",
+    "modelEn": "Why Not Picnic Blanket",
+    "description": "Around camp, on the beach, or at a summer concert, the Why Not Picnic Blanket sets up the vibe. This durable blanket is perfect for ground coverage wherever you need it, with synthetic Fireline™ Eco insulation providing insulation and cushion from the cold hard ground. Grab the carry handle on the attached stuff sack, or use the stuff sack as a hidden pocket when the blanket is deployed. Relax on the soft, recycled top fabric while the durable bottom fabric with waterproof coating keeps you lounging dry and comfy.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.78,
+      "weightDisplay": "约 0.78 kg",
+      "structure": "BAGS",
+      "fillType": "化纤棉",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "Around camp, on the beach, or at a summer concert, the Why Not Picnic Blanket sets up the vibe. This durable blanket is perfect for ground coverage wherever you need it, with synthetic Fireline™ Eco insulation providing insulation and cushion from the cold hard ground. Grab the carry handle on the attached stuff sack, or use the stuff sack as a hidden pocket when the blanket is deployed. Relax on "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Why-Not-blanket-01.png?v=1779224225",
+    "imageAlt": "Why Not Picnic Blanket",
+    "sourceUrl": "https://www.bigagnes.com/products/why-not-picnic-blanket",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 99.95,
+    "priceMin": 99.95,
+    "priceMax": 149.95
+  },
+  {
+    "id": "big-agnes-why-not-blanket-alpenglow",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Why Not Picnic Blanket - Alpenglow",
+    "modelEn": "Why Not Picnic Blanket - Alpenglow",
+    "description": "Around camp, on the beach, or at a summer concert, the Why Not Picnic Blanket sets up the vibe. This durable blanket is perfect for ground coverage wherever you need it, with synthetic Fireline™ Eco insulation providing insulation and cushion from the cold hard ground. Grab the carry handle on the attached stuff sack, or use the stuff sack as a hidden pocket when the blanket is deployed. Relax on the soft, recycled top fabric while the durable bottom fabric with waterproof coating keeps you lounging dry and comfy. Celebrate our 25th anniversary with this limited edition alpenglow print! Big Agnes - EST. 2001",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.79,
+      "weightDisplay": "约 0.79 kg",
+      "structure": "BAGS",
+      "fillType": "化纤棉",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "Around camp, on the beach, or at a summer concert, the Why Not Picnic Blanket sets up the vibe. This durable blanket is perfect for ground coverage wherever you need it, with synthetic Fireline™ Eco insulation providing insulation and cushion from the cold hard ground. Grab the carry handle on the attached stuff sack, or use the stuff sack as a hidden pocket when the blanket is deployed. Relax on "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/WhyNotBlanket_Alpenglow2.png?v=1779220507",
+    "imageAlt": "Why Not Picnic Blanket - Alpenglow",
+    "sourceUrl": "https://www.bigagnes.com/products/why-not-blanket-alpenglow",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 99.95,
+    "priceMin": 99.95,
+    "priceMax": 99.95
+  },
+  {
+    "id": "big-agnes-wolverine-020",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Wolverine 20°",
+    "modelEn": "Wolverine 20°",
+    "description": "In sizes designed to fit outdoorsy tots, kids, and teens, Big Agnes youth bags are a great way to keep the family geared up to get out - throughout the growing years. Designed with the Big Agnes PadLok™ Sleep System to keep even the most restless sleeper on top of their pad, the Woverine is designed to make sleeping outdoors a positive experience for your youngster. Easy to use comfort and fit features that they can adjust on their own will keep them from fussing - and keep you from losing sleep. After a cozy night in this fully insulated bag sized for kids up to 4' 8\"\", they'll be rested and ready to enjoy the next day's activities! When you get home, cinch up the attached REM Storage Sleve and pack in your bag for storage - no need to keep track of loose storage sacks. Keeping them comfortable is keeping them outdoors - get them excited for the next trip with the Wolverine!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.02,
+      "weightDisplay": "约 1.02 kg",
+      "structure": "BAGS",
+      "bagType": "BAGS"
+    },
+    "highlights": [
+      "In sizes designed to fit outdoorsy tots, kids, and teens, Big Agnes youth bags are a great way to keep the family geared up to get out - throughout the growing years. Designed with the Big Agnes PadLok™ Sleep System to keep even the most restless sleeper on top of their pad, the Woverine is designed to make sleeping outdoors a positive experience for your youngster. Easy to use comfort and fit fea"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Wolverine-20-06.png?v=1779224195",
+    "imageAlt": "Wolverine 20°",
+    "sourceUrl": "https://www.bigagnes.com/products/wolverine-020",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 129.95,
+    "priceMin": 129.95,
+    "priceMax": 129.95
+  },
+  {
+    "id": "big-agnes-ws-anthracite-twenty",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Women's Anthracite 20°",
+    "modelEn": "Women's Anthracite 20°",
+    "description": "Our Women's Anthracite 20° traditional mummy-style sleeping bag is designed to be taken anywhere and provide rest after a long day outside. Stay cozy with FireLine™ Pro Eco recycled synthetic insulation and stay dry with recycled shell and lining fabrics featuring a moisture repellent coating without intentionally added PFAS. Lightweight enough to stuff in your pack for summer backpacking but comfortable enough for backyard campouts with the kids, this bag is so versatile and comfortable you’ll want to take it on every outing!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.41,
+      "weightDisplay": "约 1.41 kg",
+      "structure": "BAGS",
+      "fillType": "化纤棉",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "Our Women's Anthracite 20° traditional mummy-style sleeping bag is designed to be taken anywhere and provide rest after a long day outside. Stay cozy with FireLine™ Pro Eco recycled synthetic insulation and stay dry with recycled shell and lining fabrics featuring a moisture repellent coating without intentionally added PFAS. Lightweight enough to stuff in your pack for summer backpacking but comf"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/WsAnthracite.png?v=1779220623",
+    "imageAlt": "Women's Anthracite 20°",
+    "sourceUrl": "https://www.bigagnes.com/products/ws-anthracite-twenty",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 159.95,
+    "priceMin": 159.95,
+    "priceMax": 179.95
+  },
+  {
+    "id": "big-agnes-ws-anthracite-20",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Women's Anthracite 20°",
+    "modelEn": "Women's Anthracite 20°",
+    "description": "Our Women's Anthracite 20° traditional mummy-style sleeping bag is designed to be taken anywhere and provide rest after a long day outside. Stay cozy with FireLine™ Pro Eco recycled synthetic insulation and stay dry with recycled shell and lining fabrics featuring a moisture repellent coating without intentionally added PFAS. Lightweight enough to stuff in your pack for summer backpacking but comfortable enough for backyard campouts with the kids, this bag is so versatile and comfortable you’ll want to take it on every outing!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.45,
+      "weightDisplay": "约 1.45 kg",
+      "structure": "BAGS",
+      "fillType": "化纤棉",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "Our Women's Anthracite 20° traditional mummy-style sleeping bag is designed to be taken anywhere and provide rest after a long day outside. Stay cozy with FireLine™ Pro Eco recycled synthetic insulation and stay dry with recycled shell and lining fabrics featuring a moisture repellent coating without intentionally added PFAS. Lightweight enough to stuff in your pack for summer backpacking but comf"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/WsGreystone1_ca423228-7106-4771-aee8-0df52308833d.png?v=1779223779",
+    "imageAlt": "Women's Anthracite 20°",
+    "sourceUrl": "https://www.bigagnes.com/products/ws-anthracite-20",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 111.96,
+    "priceMin": 111.96,
+    "priceMax": 111.96
+  },
+  {
+    "id": "big-agnes-ws-anthracite-20-alpenglow",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Women's Anthracite 20° - Alpenglow",
+    "modelEn": "Women's Anthracite 20° - Alpenglow",
+    "description": "Our Women's Anthracite 20° traditional mummy-style sleeping bag is designed to be taken anywhere and provide rest after a long day outside. Stay cozy with FireLine™ Pro Eco recycled synthetic insulation and stay dry with recycled shell and lining fabrics featuring a moisture repellent coating without intentionally added PFAS. Lightweight enough to stuff in your pack for summer backpacking but comfortable enough for backyard campouts with the kids, this bag is so versatile and comfortable you’ll want to take it on every outing! Celebrate our 25th anniversary with this limited edition alpenglow print! Big Agnes - Est. 2001",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.41,
+      "weightDisplay": "约 1.41 kg",
+      "structure": "BAGS",
+      "fillType": "化纤棉",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "Our Women's Anthracite 20° traditional mummy-style sleeping bag is designed to be taken anywhere and provide rest after a long day outside. Stay cozy with FireLine™ Pro Eco recycled synthetic insulation and stay dry with recycled shell and lining fabrics featuring a moisture repellent coating without intentionally added PFAS. Lightweight enough to stuff in your pack for summer backpacking but comf"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Ws_Anthracite_Alpenglow.png?v=1779220592",
+    "imageAlt": "Women's Anthracite 20° - Alpenglow",
+    "sourceUrl": "https://www.bigagnes.com/products/ws-anthracite-20-alpenglow",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 169.95,
+    "priceMin": 159.95,
+    "priceMax": 169.95
+  },
+  {
+    "id": "big-agnes-ws-anthracite-thirty",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Women's Anthracite 30°",
+    "modelEn": "Women's Anthracite 30°",
+    "description": "Our Women's Anthracite 30° traditional mummy-style sleeping bag is designed to be taken anywhere and provide rest after a long day outside. Stay cozy with FireLine™ Pro Eco recycled synthetic insulation and stay dry with recycled shell and lining fabrics featuring a moisture repellent coating without intentionally added PFAS. Lightweight enough to stuff in your pack for summer backpacking but comfortable enough for backyard campouts with the kids, this bag is so versatile and comfortable you’ll want to take it on every outing!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.13,
+      "weightDisplay": "约 1.13 kg",
+      "structure": "BAGS",
+      "fillType": "化纤棉",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "Our Women's Anthracite 30° traditional mummy-style sleeping bag is designed to be taken anywhere and provide rest after a long day outside. Stay cozy with FireLine™ Pro Eco recycled synthetic insulation and stay dry with recycled shell and lining fabrics featuring a moisture repellent coating without intentionally added PFAS. Lightweight enough to stuff in your pack for summer backpacking but comf"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/WsAnthracite.png?v=1779220623",
+    "imageAlt": "Women's Anthracite 30°",
+    "sourceUrl": "https://www.bigagnes.com/products/ws-anthracite-thirty",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 149.95,
+    "priceMin": 149.95,
+    "priceMax": 159.95
+  },
+  {
+    "id": "big-agnes-ws-greystone-twenty",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Women's Greystone 20°",
+    "modelEn": "Women's Greystone 20°",
+    "description": "Our Women's Greystone 20° mummy-style sleeping bag delivers value and performance in a lightweight bag with sustainability in mind. Ideal for backpacking but versatile enough for couch surfing, the Greystone sleeping bags feature 650 fill DownTek™ insulation, recycled shell and lining fabrics, and a water-resistant coating to repel moisture. This bag is your ticket to getting out there in comfort and warmth!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.09,
+      "weightDisplay": "约 1.09 kg",
+      "structure": "BAGS",
+      "fillType": "羽绒",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "Our Women's Greystone 20° mummy-style sleeping bag delivers value and performance in a lightweight bag with sustainability in mind. Ideal for backpacking but versatile enough for couch surfing, the Greystone sleeping bags feature 650 fill DownTek™ insulation, recycled shell and lining fabrics, and a water-resistant coating to repel moisture. This bag is your ticket to getting out there in comfort "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/WsGreystone.png?v=1779220641",
+    "imageAlt": "Women's Greystone 20°",
+    "sourceUrl": "https://www.bigagnes.com/products/ws-greystone-twenty",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 299.95,
+    "priceMin": 299.95,
+    "priceMax": 319.95
+  },
+  {
+    "id": "big-agnes-ws-greystone-thirty",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Women's Greystone 30°",
+    "modelEn": "Women's Greystone 30°",
+    "description": "Our Women's greystone 30° mummy-style sleeping bag delivers value and performance in a lightweight bag with sustainability in mind. Ideal for backpacking but versatile enough for couch surfing, the Greystone sleeping bags feature 650 fill DownTek™ insulation, recycled shell and lining fabrics, and a water-resistant coating to repel moisture. This bag is your ticket to getting out there in comfort and warmth!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.86,
+      "weightDisplay": "约 0.86 kg",
+      "structure": "BAGS",
+      "fillType": "羽绒",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "Our Women's greystone 30° mummy-style sleeping bag delivers value and performance in a lightweight bag with sustainability in mind. Ideal for backpacking but versatile enough for couch surfing, the Greystone sleeping bags feature 650 fill DownTek™ insulation, recycled shell and lining fabrics, and a water-resistant coating to repel moisture. This bag is your ticket to getting out there in comfort "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/WsGreystone.png?v=1779220641",
+    "imageAlt": "Women's Greystone 30°",
+    "sourceUrl": "https://www.bigagnes.com/products/ws-greystone-thirty",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 269.95,
+    "priceMin": 269.95,
+    "priceMax": 279.95
+  },
+  {
+    "id": "big-agnes-womens-sidewinder-sl-20",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Women's Sidewinder SL 20°",
+    "modelEn": "Women's Sidewinder SL 20°",
+    "description": "Specifically designed for those who sleep on their sides, the patented Sidewinder Series was engineered to ensure warmth, comfort, and ease of use no matter which side you’re on. Constructed with features you expect from a traditional mummy bag with additional body mapped insulation to optimize warmth where you need it and minimize pressure points and other ‘side effects’. The Sidewinder SL is a side sleeper’s dream bag with technical features that roll seamlessly from one adventure to the next, and from one side to the other at night. U.S. Patent 11957260 B2",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.09,
+      "weightDisplay": "约 1.09 kg",
+      "structure": "BAGS",
+      "bagType": "木乃伊"
+    },
+    "highlights": [
+      "Specifically designed for those who sleep on their sides, the patented Sidewinder Series was engineered to ensure warmth, comfort, and ease of use no matter which side you’re on. Constructed with features you expect from a traditional mummy bag with additional body mapped insulation to optimize warmth where you need it and minimize pressure points and other ‘side effects’. The Sidewinder SL is a s"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Ws-Sidewinder-SL-20-new.png?v=1779223516",
+    "imageAlt": "Women's Sidewinder SL 20°",
+    "sourceUrl": "https://www.bigagnes.com/products/womens-sidewinder-sl-20",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:29Z",
+    "status": "draft",
+    "published": true,
+    "price": 187.46,
+    "priceMin": 187.46,
+    "priceMax": 187.46
+  },
+  {
+    "id": "big-agnes-wyoming-trail-2",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Wyoming Trail 2",
+    "modelEn": "Wyoming Trail 2",
+    "description": "Built to maximize vestibule area for shared common space or gear storage, the Wyoming Trail 2 tent provides double-wall protection with plenty of room to hang out under cover. This 2-person tent is packable for two-wheeled bikepacking travel and the weight can be easily split between your tentmate on the road. The Wyoming Trail 2 is your new favorite three-season, freestanding, multi-use shelter for bikepacking, adventure moto missions, car camping and beyond.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 5.58,
+      "weightDisplay": "约 5.58 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Built to maximize vestibule area for shared common space or gear storage, the Wyoming Trail 2 tent provides double-wall protection with plenty of room to hang out under cover. This 2-person tent is packable for two-wheeled bikepacking travel and the weight can be easily split between your tentmate on the road. The Wyoming Trail 2 is your new favorite three-season, freestanding, multi-use shelter f"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Wyoming-Trail-2-01.png?v=1779223643",
+    "imageAlt": "Wyoming Trail 2",
+    "sourceUrl": "https://www.bigagnes.com/products/wyoming-trail-2",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 324.97,
+    "priceMin": 324.97,
+    "priceMax": 324.97
+  },
+  {
+    "id": "big-agnes-wyoming-trail-4",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Wyoming Trail 4",
+    "modelEn": "Wyoming Trail 4",
+    "description": "Built to maximize vestibule area for shared common space or gear storage, the Wyoming Trail 4 tent provides double-wall protection with plenty of room to hang out under cover. This 4-person tent can accommodate two separate sleeping areas for couples, or families with older kids who prefer the privacy. The Wyoming Trail 4 is your new favorite three-season, free-standing, multi-use shelter for adventure moto missions, car camping and beyond.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 10.12,
+      "weightDisplay": "约 10.12 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Built to maximize vestibule area for shared common space or gear storage, the Wyoming Trail 4 tent provides double-wall protection with plenty of room to hang out under cover. This 4-person tent can accommodate two separate sleeping areas for couples, or families with older kids who prefer the privacy. The Wyoming Trail 4 is your new favorite three-season, free-standing, multi-use shelter for adve"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Wyoming-Trail-4-01.png?v=1779223647",
+    "imageAlt": "Wyoming Trail 4",
+    "sourceUrl": "https://www.bigagnes.com/products/wyoming-trail-4",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-06-11T15:18:09Z",
+    "status": "draft",
+    "published": true,
+    "price": 499.97,
+    "priceMin": 499.97,
+    "priceMax": 499.97
+  }
+]

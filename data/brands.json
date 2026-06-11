@@ -89,5 +89,33 @@
     "nameEn": "NANGA",
     "country": "JP",
     "rank": 13
+  },
+  {
+    "id": "montbell",
+    "name": "Montbell",
+    "nameEn": "Montbell",
+    "country": "JP",
+    "rank": 14
+  },
+  {
+    "id": "sea-to-summit",
+    "name": "Sea to Summit",
+    "nameEn": "Sea to Summit",
+    "country": "AU",
+    "rank": 15
+  },
+  {
+    "id": "nemo",
+    "name": "NEMO",
+    "nameEn": "NEMO Equipment",
+    "country": "US",
+    "rank": 16
+  },
+  {
+    "id": "big-agnes",
+    "name": "Big Agnes",
+    "nameEn": "Big Agnes",
+    "country": "US",
+    "rank": 17
   }
 ]

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Merge verified official catalog entries into data/products.json."""
+"""Legacy: merge verified official catalog entries into data/products.json.
+
+The site reads data/official/ directly; this script is only for exporting to the
+old products.json format.
+"""
 
 from __future__ import annotations
 

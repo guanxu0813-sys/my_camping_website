@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CampGear Compare · 露营装备对比</title>
+  <title>CampGear Compare · Camping Gear Comparison</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -16,33 +16,33 @@
 </head>
 <body data-page="home">
   <header class="site-header">
-    <nav class="nav" aria-label="主导航">
-      <a class="nav__brand" href="index.html" aria-label="返回首页">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav__brand" href="index.html" aria-label="Back to home">
         <span class="nav__logo" aria-hidden="true">
           <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 4c-4 6-8 10-8 16a8 8 0 1016 0c0-6-4-10-8-16z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M16 12v12M12 18h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
         </span>
         <span class="nav__brand-text">CampGear <span class="nav__brand-ai">Compare</span></span>
       </a>
       <ul class="nav__links nav__links--categories">
-        <li><a href="index.html" aria-current="page">首页</a></li>
-        <li><a href="tent.html">帐篷</a></li>
-        <li><a href="tarp.html">天幕</a></li>
-        <li><a href="furniture.html">家具</a></li>
-        <li><a href="sleeping-bag.html">睡袋</a></li>
-        <li><a href="other.html">其他</a></li>
-        <li><a href="etc.html">等等</a></li>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="tent.html">Tents</a></li>
+        <li><a href="tarp.html">Tarps</a></li>
+        <li><a href="furniture.html">Furniture</a></li>
+        <li><a href="sleeping-bag.html">Sleeping Bags</a></li>
+        <li><a href="other.html">Other</a></li>
+        <li><a href="etc.html">More</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero" id="top" aria-label="站点头图">
+  <section class="hero" id="top" aria-label="Site hero">
     <img
       class="hero__media"
       id="hero-image"
-      src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Tent_camping_along_the_Sulayr_trail_in_La_Taha%2C_Sierra_Nevada_National_Park_%28DSCF5147%29.jpg/1280px-Tent_camping_along_the_Sulayr_trail_in_La_Taha%2C_Sierra_Nevada_National_Park_%28DSCF5147%29.jpg"
-      alt="山地营地帐篷与远山实景"
-      width="1280"
-      height="720"
+      src="assets/hero-home.jpg"
+      alt="Camping tent by a lake at sunrise"
+      width="1920"
+      height="1075"
       fetchpriority="high"
       decoding="async"
     />
@@ -50,47 +50,43 @@
     <div class="hero__inner">
       <div class="hero__content">
         <p class="hero__eyebrow" id="hero-eyebrow">CampGear Compare</p>
-        <h1 class="hero__title" id="hero-title">露营装备 · 一表看清参数差异</h1>
-        <p class="hero__subtitle" id="hero-subtitle">帐篷、天幕主流型号重量、结构、人数与参考价并排对比，省去反复翻官网的麻烦</p>
+        <h1 class="hero__title" id="hero-title">Camping Gear · Compare Specs in One Table</h1>
+        <p class="hero__subtitle" id="hero-subtitle">Compare specs and prices for popular camping gear models—skip the hassle of browsing brand sites</p>
       </div>
     </div>
   </section>
 
-  <section class="home-intro" aria-label="站点简介">
-    <p class="home-intro__text">买装备前最费时间？各家官网参数分散、单位不统一。CampGear 把主流型号整理成一张表，按重量、人数、价格快速筛选。</p>
-  </section>
-
   <main class="page page--home">
     <section class="home-hub" aria-labelledby="home-hub-title">
-      <h2 id="home-hub-title" class="home-hub__title">选择产品类型</h2>
+      <h2 id="home-hub-title" class="home-hub__title">Choose a Category</h2>
       <div class="home-hub__grid home-hub__grid--6">
         <a class="home-hub__card" href="tent.html">
           <svg class="category-icon" width="40" height="40" viewBox="0 0 32 32" fill="none" aria-hidden="true"><use href="#icon-tent"/></svg>
-          <span class="home-hub__card-label">帐篷</span>
-          <span class="home-hub__card-desc">参数对比 + 型号介绍</span>
+          <span class="home-hub__card-label">Tents</span>
+          <span class="home-hub__card-desc">Compare specs + model guides</span>
         </a>
         <a class="home-hub__card" href="tarp.html">
           <svg class="category-icon" width="40" height="40" viewBox="0 0 32 32" fill="none" aria-hidden="true"><use href="#icon-tarp"/></svg>
-          <span class="home-hub__card-label">天幕</span>
-          <span class="home-hub__card-desc">参数对比 + 型号介绍</span>
+          <span class="home-hub__card-label">Tarps</span>
+          <span class="home-hub__card-desc">Compare specs + model guides</span>
         </a>
         <a class="home-hub__card" href="furniture.html">
           <svg class="category-icon" width="40" height="40" viewBox="0 0 32 32" fill="none" aria-hidden="true"><use href="#icon-table"/></svg>
-          <span class="home-hub__card-label">家具</span>
-          <span class="home-hub__card-desc">桌椅矩阵 + 详情弹窗</span>
+          <span class="home-hub__card-label">Furniture</span>
+          <span class="home-hub__card-desc">Table &amp; chair matrix + details</span>
         </a>
-        <a class="home-hub__card home-hub__card--muted" href="sleeping-bag.html">
+        <a class="home-hub__card" href="sleeping-bag.html">
           <svg class="category-icon" width="40" height="40" viewBox="0 0 32 32" fill="none" aria-hidden="true"><use href="#icon-sleeping-bag"/></svg>
-          <span class="home-hub__card-label">睡袋</span>
-          <span class="home-hub__card-desc">品类筹备中</span>
+          <span class="home-hub__card-label">Sleeping Bags</span>
+          <span class="home-hub__card-desc">Temp, weight &amp; specs + model guides</span>
         </a>
         <a class="home-hub__card home-hub__card--muted" href="other.html">
-          <span class="home-hub__card-label">其他</span>
-          <span class="home-hub__card-desc">品类筹备中</span>
+          <span class="home-hub__card-label">Other</span>
+          <span class="home-hub__card-desc">Coming soon</span>
         </a>
         <a class="home-hub__card home-hub__card--muted" href="etc.html">
-          <span class="home-hub__card-label">等等</span>
-          <span class="home-hub__card-desc">更多品类占位</span>
+          <span class="home-hub__card-label">More</span>
+          <span class="home-hub__card-desc">More categories coming</span>
         </a>
       </div>
     </section>
@@ -98,7 +94,7 @@
 
   <footer class="site-footer">
     <div class="site-footer__inner">
-      <p class="site-footer__copy">© <span id="year"></span> CampGear Compare · 露营装备对比</p>
+      <p class="site-footer__copy">© <span id="year"></span> CampGear Compare · Camping Gear Comparison</p>
     </div>
   </footer>
 

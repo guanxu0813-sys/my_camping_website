@@ -170,6 +170,49 @@
       "scrapedAt": "2026-06-09T14:33:29Z",
       "productCount": 39,
       "errors": []
+    },
+    {
+      "brandId": "dod",
+      "scrapedAt": "2026-06-09T15:22:28Z",
+      "productCount": 0,
+      "errors": [
+        "collection camp-furniture: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
+        "collection tents: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
+        "collection tarps: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
+        "collection sleeping: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
+      ]
+    },
+    {
+      "brandId": "mobi-garden",
+      "scrapedAt": "2026-06-11T15:17:24Z",
+      "productCount": 16,
+      "errors": [
+        "collection sleeping-bags: 0 products returned"
+      ]
+    },
+    {
+      "brandId": "montbell",
+      "scrapedAt": "2026-06-11T15:17:30Z",
+      "productCount": 27,
+      "errors": []
+    },
+    {
+      "brandId": "sea-to-summit",
+      "scrapedAt": "2026-06-11T15:17:40Z",
+      "productCount": 45,
+      "errors": []
+    },
+    {
+      "brandId": "nemo",
+      "scrapedAt": "2026-06-11T15:18:05Z",
+      "productCount": 26,
+      "errors": []
+    },
+    {
+      "brandId": "big-agnes",
+      "scrapedAt": "2026-06-11T15:18:29Z",
+      "productCount": 96,
+      "errors": []
     }
   ]
 }
