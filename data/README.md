@@ -17,6 +17,7 @@
 | [`brands.json`](brands.json) | 品牌列表，`id` 供产品引用 |
 | [`products.json`](products.json) | 遗留手工库（页面不读） |
 | [`site.json`](site.json) | 首页头图文案与配图 URL |
+| [`analytics.json`](analytics.json) | Plausible 分析配置（`enabled` + `plausibleDomain`） |
 | [`catalog.js`](catalog.js) | 由 `scripts/build_catalog.py` 自动生成，供 `file://` 双击预览 |
 | [`official/`](official/) | 官网抓取库（按品牌分子目录） |
 | [`products.schema.json`](products.schema.json) | 官网产品 JSON 字段说明（JSON Schema） |
@@ -31,7 +32,30 @@ python3 scripts/build_catalog.py
 
 品牌官网（Shopify 商城）通过脚本抓取产品图、型号、价格与介绍，写入 `data/official/{brandId}/products.json`，**即站点展示源**。
 
-**合规提示：** 产品图与文案通常受版权保护；请仅用于个人/非商用参数对比，保留 `sourceUrl` 溯源。抓取脚本限速运行，**不会**在 CI 中自动执行。
+**合规提示：** 产品图与文案通常受版权保护。站点用于参数对比与联盟导流（见 [`legal.html`](../legal.html)），保留 `sourceUrl` 溯源。**默认仅外链展示品牌 CDN 图片**（`imageUrl`）；本地 `imageLocal` 仅在 `imageLicense: "brand-approved"` 时使用。抓取脚本限速运行，**不会**在 CI 中自动执行。
+
+### 图片策略（商业化）
+
+| 策略 | 说明 |
+|------|------|
+| 默认 | 前端优先 `imageUrl`（品牌 CDN 外链），不复制到 GitHub Pages |
+| 本地图 | 仅当产品有 `imageLicense: "brand-approved"` 时使用 `imageLocal` |
+| 批量下载 | `download_images.py` 需品牌书面授权后再运行；无授权时不要本地化图片 |
+| 展示 | 对比表缩略图与 Modal 显示 `© Brand · Image from official site` 标注 |
+
+### 分析埋点
+
+配置 [`analytics.json`](analytics.json)：
+
+```json
+{
+  "provider": "plausible",
+  "enabled": true,
+  "plausibleDomain": "your-domain.com"
+}
+```
+
+本地开发时（`localhost`）事件会输出到浏览器控制台 `[CampGear analytics]`。上线前将 `enabled` 设为 `true` 并填入 Plausible 域名。
 
 ### 依赖
 

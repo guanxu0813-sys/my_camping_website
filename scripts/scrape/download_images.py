@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Download official product images to assets/products/{brandId}/."""
+"""Download official product images to assets/products/{brandId}/.
+
+WARNING: Local copies are re-distribution of brand copyrighted images.
+Only run for products with written brand authorization (imageLicense: brand-approved).
+For production display, prefer hotlinking imageUrl from the brand CDN — see data/README.md.
+"""
 
 from __future__ import annotations
 

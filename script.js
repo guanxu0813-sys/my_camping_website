@@ -13,7 +13,69 @@
   var tableSortBound = false;
   var furnitureModalBound = false;
   var furnitureMatrixBound = false;
+  var outboundTrackingBound = false;
   var lastModalFocus = null;
+  var analyticsConfig = null;
+
+  function loadAnalytics() {
+    if (window.location.protocol === "file:") {
+      return Promise.resolve(null);
+    }
+    return fetch("data/analytics.json")
+      .then(function (r) {
+        if (!r.ok) return null;
+        return r.json();
+      })
+      .then(function (cfg) {
+        analyticsConfig = cfg;
+        if (cfg && cfg.enabled && cfg.plausibleDomain) {
+          var s = document.createElement("script");
+          s.defer = true;
+          s.dataset.domain = cfg.plausibleDomain;
+          s.src = "https://plausible.io/js/script.js";
+          document.head.appendChild(s);
+        }
+        return cfg;
+      })
+      .catch(function () {
+        return null;
+      });
+  }
+
+  function trackEvent(name, props) {
+    var payload = props || {};
+    if (typeof window.plausible === "function") {
+      window.plausible(name, { props: payload });
+    }
+    if (
+      window.location.hostname === "localhost" ||
+      window.location.hostname === "127.0.0.1" ||
+      !analyticsConfig ||
+      !analyticsConfig.enabled
+    ) {
+      console.info("[CampGear analytics]", name, payload);
+    }
+  }
+
+  function bindOutboundTracking() {
+    if (outboundTrackingBound) return;
+    outboundTrackingBound = true;
+    document.addEventListener("click", function (e) {
+      var link = e.target.closest(
+        "a.purchase-link, a.sponsor-link, a.outbound-link, #product-modal-link"
+      );
+      if (!link || !link.href || link.href === "#" || link.href.indexOf("javascript:") === 0) {
+        return;
+      }
+      trackEvent("Outbound Click", {
+        productId: link.getAttribute("data-product-id") || "",
+        platform: link.getAttribute("data-platform") || "official",
+        href: link.href,
+        page: document.body.getAttribute("data-page") || "unknown",
+        category: document.body.getAttribute("data-category") || "",
+      });
+    });
+  }
 
   function scrollToHash(hash) {
     if (!hash || hash === "#") return;
@@ -45,32 +107,77 @@
 
   function formatPrice(min, max, currency) {
     if (min == null && max == null) return "—";
-    var suffix = currency === "USD" ? " USD" : currency === "JPY" ? " 円" : " 元";
+    var suffix = currency === "USD" ? " USD" : currency === "JPY" ? " JPY" : " CNY";
     if (min != null && max != null) {
-      return min.toLocaleString("zh-CN") + "–" + max.toLocaleString("zh-CN") + suffix;
+      return min.toLocaleString("en-US") + "–" + max.toLocaleString("en-US") + suffix;
     }
-    return (min != null ? min : max).toLocaleString("zh-CN") + suffix;
+    return (min != null ? min : max).toLocaleString("en-US") + suffix;
   }
 
   function priceForProduct(p) {
     return formatPrice(p.priceMin, p.priceMax, p.currency);
   }
 
+  var DISPLAY_TERM_MAP = [
+    ["睡袋系统", "Sleeping bag system"],
+    ["化纤棉", "Synthetic fill"],
+    ["棉 / 化纤", "Cotton / synthetic"],
+    ["羽绒", "Down"],
+    ["信封式", "Envelope"],
+    ["木乃伊", "Mummy"],
+    ["双层帐", "Double-wall tent"],
+    ["单层帐", "Single-wall tent"],
+    ["双层", "Double-wall"],
+    ["单层", "Single-wall"],
+    ["四季", "4-season"],
+    ["三季", "3-season"],
+    ["露营地", "Campsite"],
+    ["登山", "Mountaineering"],
+    ["徒步", "Hiking"],
+    ["自驾", "Car camping"],
+    ["家庭", "Family"],
+    ["天幕", "Tarp"],
+    ["帐篷", "Tent"],
+    ["睡袋", "Sleeping bag"],
+  ];
+
+  function localizeDisplayValue(value) {
+    if (value == null) return value;
+    var s = String(value);
+    DISPLAY_TERM_MAP.forEach(function (pair) {
+      s = s.split(pair[0]).join(pair[1]);
+    });
+    s = s.replace(/约\s+/g, "~");
+    s = s.replace(/(\d[\d\-–~to]*)\s*人/g, function (_, n) {
+      return n + " ppl";
+    });
+    s = s.replace(/人/g, "");
+    s = s.replace(/元\b/g, "CNY");
+    s = s.replace(/\s{2,}/g, " ").trim();
+    return s;
+  }
+
+  function displayCell(value) {
+    if (value == null || value === "") return "—";
+    return localizeDisplayValue(value);
+  }
+
   function formatWeight(product) {
-    if (product.weightDisplay) return product.weightDisplay;
-    if (product.weightRange) return product.weightRange;
-    if (product.weightKg != null) return "约 " + product.weightKg + " kg";
+    if (product.weightDisplay) return localizeDisplayValue(product.weightDisplay);
+    if (product.weightRange) return localizeDisplayValue(product.weightRange);
+    if (product.weightKg != null) return "~" + product.weightKg + " kg";
     return "—";
   }
 
   function formatScenarios(scenarios) {
     if (!scenarios || !scenarios.length) return "—";
-    return scenarios.join("、");
+    return scenarios.map(localizeDisplayValue).join(", ");
   }
 
   function brandName(brandId) {
     var b = brandMap[brandId];
-    return b ? b.name : brandId;
+    if (!b) return brandId;
+    return b.nameEn || b.name || brandId;
   }
 
   function brandRank(brandId) {
@@ -83,7 +190,7 @@
     var ra = brandRank(a.brandId);
     var rb = brandRank(b.brandId);
     if (ra !== rb) return ra - rb;
-    return (a.model || "").localeCompare(b.model || "", "zh-CN");
+    return (a.model || "").localeCompare(b.model || "", "en");
   }
 
   function sortBrandsByFame(list) {
@@ -91,7 +198,7 @@
       var ra = a.rank != null && isFinite(a.rank) ? a.rank : 9999;
       var rb = b.rank != null && isFinite(b.rank) ? b.rank : 9999;
       if (ra !== rb) return ra - rb;
-      return (a.name || a.id || "").localeCompare(b.name || b.id || "", "zh-CN");
+      return (a.name || a.id || "").localeCompare(b.name || b.id || "", "en");
     });
   }
 
@@ -261,9 +368,30 @@
     return "product-" + product.id;
   }
 
+  function imageCreditHtml(product, className) {
+    if (!product.imageUrl) return "";
+    var brand = brandName(product.brandId);
+    var credit =
+      "© " +
+      brand +
+      " · Image from official site";
+    if (product.sourceUrl) {
+      return (
+        '<p class="' +
+        escapeHtml(className) +
+        '">© ' +
+        escapeHtml(brand) +
+        ' · <a href="' +
+        escapeHtml(product.sourceUrl) +
+        '" target="_blank" rel="noopener noreferrer">Image from official site</a></p>'
+      );
+    }
+    return '<p class="' + escapeHtml(className) + '">' + escapeHtml(credit) + "</p>";
+  }
+
   function renderTableThumb(product) {
     var alt = escapeHtml(product.imageAlt || product.model);
-    var label = escapeHtml("查看「" + (product.model || "") + "」详情");
+    var label = escapeHtml('View details for "' + (product.model || "") + '"');
     if (product.imageUrl) {
       var img =
         '<img src="' +
@@ -279,7 +407,9 @@
         label +
         '">' +
         img +
-        "</button></td>"
+        "</button>" +
+        imageCreditHtml(product, "compare-table__thumb-credit") +
+        "</td>"
       );
     }
     return '<td class="compare-table__thumb compare-table__thumb--empty"><span aria-hidden="true">—</span></td>';
@@ -293,10 +423,10 @@
           "<td>" + escapeHtml(brandName(p.brandId)) + "</td>" +
           "<td>" + escapeHtml(p.model) + "</td>" +
           renderTableThumb(p) +
-          "<td>" + escapeHtml(p.structure || "—") + "</td>" +
+          "<td>" + escapeHtml(displayCell(p.structure)) + "</td>" +
           "<td>" + escapeHtml(formatWeight(p)) + "</td>" +
-          "<td>" + escapeHtml(p.capacity || "—") + "</td>" +
-          "<td>" + escapeHtml(p.fabric || "—") + "</td>" +
+          "<td>" + escapeHtml(displayCell(p.capacity)) + "</td>" +
+          "<td>" + escapeHtml(displayCell(p.fabric)) + "</td>" +
           "<td>" + escapeHtml(priceForProduct(p)) + "</td>" +
           "<td>" + escapeHtml(formatScenarios(p.scenarios)) + "</td>" +
           "</tr>"
@@ -306,16 +436,16 @@
 
     return (
       '<div class="compare-block" data-compare-group="tent">' +
-      '<h2 class="compare-block__title">帐篷参数总表</h2>' +
+      '<h2 class="compare-block__title">Tent Specs Overview</h2>' +
       TABLE_SCROLL_HINT +
       '<div class="table-wrap"><table class="compare-table">' +
       "<thead><tr>" +
-      "<th scope=\"col\">品牌</th><th scope=\"col\">型号</th><th scope=\"col\" class=\"compare-table__thumb-col\">缩略图</th><th scope=\"col\">结构</th>" +
-      renderSortableTh("重量", "weight", "tent") +
-      renderSortableTh("人数", "capacity", "tent") +
-      "<th scope=\"col\">面料 / 防水</th>" +
-      renderSortableTh("参考价", "price", "tent") +
-      "<th scope=\"col\">适用场景</th>" +
+      "<th scope=\"col\">Brand</th><th scope=\"col\">Model</th><th scope=\"col\" class=\"compare-table__thumb-col\">Thumb</th><th scope=\"col\">Structure</th>" +
+      renderSortableTh("Weight", "weight", "tent") +
+      renderSortableTh("Capacity", "capacity", "tent") +
+      "<th scope=\"col\">Fabric / Waterproofing</th>" +
+      renderSortableTh("Price", "price", "tent") +
+      "<th scope=\"col\">Use Cases</th>" +
       "</tr></thead><tbody>" +
       body +
       "</tbody></table></div></div>"
@@ -330,10 +460,10 @@
           "<td>" + escapeHtml(brandName(p.brandId)) + "</td>" +
           "<td>" + escapeHtml(p.model) + "</td>" +
           renderTableThumb(p) +
-          "<td>" + escapeHtml(p.tarpType || "—") + "</td>" +
+          "<td>" + escapeHtml(displayCell(p.tarpType)) + "</td>" +
           "<td>" + escapeHtml(formatWeight(p)) + "</td>" +
-          "<td>" + escapeHtml(p.capacity || "—") + "</td>" +
-          "<td>" + escapeHtml(p.size || "—") + "</td>" +
+          "<td>" + escapeHtml(displayCell(p.capacity)) + "</td>" +
+          "<td>" + escapeHtml(displayCell(p.size)) + "</td>" +
           "<td>" + escapeHtml(priceForProduct(p)) + "</td>" +
           "<td>" + escapeHtml(formatScenarios(p.scenarios)) + "</td>" +
           "</tr>"
@@ -343,16 +473,16 @@
 
     return (
       '<div class="compare-block" data-compare-group="tarp">' +
-      '<h2 class="compare-block__title">天幕参数总表</h2>' +
+      '<h2 class="compare-block__title">Tarp Specs Overview</h2>' +
       TABLE_SCROLL_HINT +
       '<div class="table-wrap"><table class="compare-table">' +
       "<thead><tr>" +
-      "<th scope=\"col\">品牌</th><th scope=\"col\">型号</th><th scope=\"col\" class=\"compare-table__thumb-col\">缩略图</th><th scope=\"col\">类型</th>" +
-      renderSortableTh("重量", "weight", "tarp") +
-      renderSortableTh("人数", "capacity", "tarp") +
-      "<th scope=\"col\">尺寸</th>" +
-      renderSortableTh("参考价", "price", "tarp") +
-      "<th scope=\"col\">适用场景</th>" +
+      "<th scope=\"col\">Brand</th><th scope=\"col\">Model</th><th scope=\"col\" class=\"compare-table__thumb-col\">Thumb</th><th scope=\"col\">Type</th>" +
+      renderSortableTh("Weight", "weight", "tarp") +
+      renderSortableTh("Capacity", "capacity", "tarp") +
+      "<th scope=\"col\">Size</th>" +
+      renderSortableTh("Price", "price", "tarp") +
+      "<th scope=\"col\">Use Cases</th>" +
       "</tr></thead><tbody>" +
       body +
       "</tbody></table></div></div>"
@@ -367,10 +497,10 @@
           "<td class=\"compare-table__brand\">" + escapeHtml(brandName(p.brandId)) + "</td>" +
           "<td class=\"compare-table__model\">" + escapeHtml(p.model) + "</td>" +
           renderTableThumb(p) +
-          "<td>" + escapeHtml(p.bagType || p.structure || "—") + "</td>" +
+          "<td>" + escapeHtml(displayCell(p.bagType || p.structure)) + "</td>" +
           "<td class=\"compare-table__num\">" + escapeHtml(formatWeight(p)) + "</td>" +
-          "<td class=\"compare-table__num\">" + escapeHtml(p.comfortTemp || "—") + "</td>" +
-          "<td>" + escapeHtml(p.fillType || p.fabric || "—") + "</td>" +
+          "<td class=\"compare-table__num\">" + escapeHtml(displayCell(p.comfortTemp)) + "</td>" +
+          "<td>" + escapeHtml(displayCell(p.fillType || p.fabric)) + "</td>" +
           "<td class=\"compare-table__price\">" + escapeHtml(priceForProduct(p)) + "</td>" +
           "<td class=\"compare-table__scenarios\">" + escapeHtml(formatScenarios(p.scenarios)) + "</td>" +
           "</tr>"
@@ -380,17 +510,17 @@
 
     return (
       '<div class="compare-block" data-compare-group="sleeping-bag">' +
-      '<h2 class="compare-block__title">睡袋参数总表</h2>' +
+      '<h2 class="compare-block__title">Sleeping Bag Specs Overview</h2>' +
       TABLE_SCROLL_HINT +
       '<div class="table-wrap"><table class="compare-table compare-table--sleeping-bag">' +
       "<thead><tr>" +
-      "<th scope=\"col\">品牌</th><th scope=\"col\">型号</th><th scope=\"col\" class=\"compare-table__thumb-col\">缩略图</th>" +
-      "<th scope=\"col\">类型</th>" +
-      renderSortableTh("重量", "weight", "sleeping-bag") +
-      renderSortableTh("舒适温标", "comfort", "sleeping-bag") +
-      "<th scope=\"col\">填充</th>" +
-      renderSortableTh("参考价", "price", "sleeping-bag") +
-      "<th scope=\"col\">适用场景</th>" +
+      "<th scope=\"col\">Brand</th><th scope=\"col\">Model</th><th scope=\"col\" class=\"compare-table__thumb-col\">Thumb</th>" +
+      "<th scope=\"col\">Type</th>" +
+      renderSortableTh("Weight", "weight", "sleeping-bag") +
+      renderSortableTh("Comfort Rating", "comfort", "sleeping-bag") +
+      "<th scope=\"col\">Fill</th>" +
+      renderSortableTh("Price", "price", "sleeping-bag") +
+      "<th scope=\"col\">Use Cases</th>" +
       "</tr></thead><tbody>" +
       body +
       "</tbody></table></div></div>"
@@ -406,8 +536,8 @@
           "<tr>" +
           "<td>" + escapeHtml(fullModelName(p)) + "</td>" +
           "<td>" + escapeHtml(priceForProduct(p)) + "</td>" +
-          "<td>" + escapeHtml(p.pros) + "</td>" +
-          "<td>" + escapeHtml(p.cons) + "</td>" +
+          "<td>" + escapeHtml(displayCell(p.pros)) + "</td>" +
+          "<td>" + escapeHtml(displayCell(p.cons)) + "</td>" +
           "</tr>"
         );
       })
@@ -415,12 +545,12 @@
 
     return (
       '<div class="compare-block" data-compare-group="tent">' +
-      '<h2 class="compare-block__title">同价位徒步帐 · 优缺点对比</h2>' +
+      '<h2 class="compare-block__title">Backpacking Tents at Similar Prices · Pros &amp; Cons</h2>' +
       TABLE_SCROLL_HINT +
       '<div class="table-wrap"><table class="compare-table compare-table--pros">' +
       "<thead><tr>" +
-      "<th scope=\"col\">品牌型号</th><th scope=\"col\">参考价格</th>" +
-      "<th scope=\"col\">核心优势</th><th scope=\"col\">相对短板</th>" +
+      "<th scope=\"col\">Brand &amp; Model</th><th scope=\"col\">Price</th>" +
+      "<th scope=\"col\">Strengths</th><th scope=\"col\">Trade-offs</th>" +
       "</tr></thead><tbody>" +
       body +
       "</tbody></table></div></div>"
@@ -430,22 +560,22 @@
   function renderProductCard(product) {
     var specs = [];
     if (product.category === "tent") {
-      specs.push({ label: "结构", value: product.detailStructure || product.structure || "—" });
-      specs.push({ label: "重量", value: formatWeight(product) });
+      specs.push({ label: "Structure", value: displayCell(product.detailStructure || product.structure) });
+      specs.push({ label: "Weight", value: formatWeight(product) });
     } else if (product.category === "sleeping-bag") {
-      specs.push({ label: "类型", value: product.bagType || product.detailStructure || "—" });
-      specs.push({ label: "重量", value: formatWeight(product) });
-      specs.push({ label: "舒适温标", value: product.comfortTemp || "—" });
-      specs.push({ label: "填充", value: product.fillType || "—" });
+      specs.push({ label: "Type", value: displayCell(product.bagType || product.detailStructure) });
+      specs.push({ label: "Weight", value: formatWeight(product) });
+      specs.push({ label: "Comfort Rating", value: displayCell(product.comfortTemp) });
+      specs.push({ label: "Fill", value: displayCell(product.fillType) });
     } else {
-      specs.push({ label: "类型", value: product.detailStructure || product.tarpType || "—" });
-      specs.push({ label: "重量", value: formatWeight(product) });
-      specs.push({ label: "人数", value: product.capacity || "—" });
+      specs.push({ label: "Type", value: displayCell(product.detailStructure || product.tarpType) });
+      specs.push({ label: "Weight", value: formatWeight(product) });
+      specs.push({ label: "Capacity", value: displayCell(product.capacity) });
     }
-    specs.push({ label: "参考价", value: priceForProduct(product) });
+    specs.push({ label: "Price", value: priceForProduct(product) });
     specs.push({
-      label: "特点",
-      value: (product.highlights && product.highlights[0]) || "—",
+      label: "Highlights",
+      value: displayCell(product.highlights && product.highlights[0]),
     });
 
     var specHtml = specs
@@ -461,11 +591,11 @@
 
     var desc =
       product.description
-        ? '<p class="product-card__desc">' + escapeHtml(product.description.slice(0, 220)) + (product.description.length > 220 ? "…" : "") + "</p>"
+        ? '<p class="product-card__desc">' + escapeHtml(localizeDisplayValue(product.description).slice(0, 220)) + (product.description.length > 220 ? "…" : "") + "</p>"
         : "";
 
     var sourceLink = product.sourceUrl
-      ? '<p class="product-card__source"><a href="' + escapeHtml(product.sourceUrl) + '" target="_blank" rel="noopener noreferrer">查看官网</a></p>'
+      ? '<p class="product-card__source"><a href="' + escapeHtml(product.sourceUrl) + '" target="_blank" rel="noopener noreferrer">View official site</a></p>'
       : "";
 
     return (
@@ -501,13 +631,13 @@
   }
 
   var CATEGORY_LABELS = {
-    tent: "帐篷",
-    tarp: "天幕",
-    "sleeping-bag": "睡袋",
-    stove: "炉具",
-    table: "桌椅",
-    chair: "桌椅",
-    other: "其他",
+    tent: "Tents",
+    tarp: "Tarps",
+    "sleeping-bag": "Sleeping Bags",
+    stove: "Stoves",
+    table: "Tables & Chairs",
+    chair: "Tables & Chairs",
+    other: "Other",
   };
 
   function ensureSortState(tableId) {
@@ -539,7 +669,7 @@
     var el = document.getElementById("category-brands");
     if (!el) return;
     var names = categoryBrandNames(category);
-    el.textContent = names.length ? "对比品牌：" + names.join(" · ") : "";
+    el.textContent = names.length ? "Brands: " + names.join(" · ") : "";
     el.hidden = !names.length;
   }
 
@@ -573,7 +703,7 @@
     var compareRoot = document.getElementById("compare-root");
     if (compareRoot) {
       compareRoot.innerHTML =
-        compareHtml || '<p class="page__lead">该品类暂无参数对比数据。</p>';
+        compareHtml || '<p class="page__lead">No comparison data for this category yet.</p>';
       compareRoot.hidden = false;
     }
 
@@ -583,11 +713,11 @@
       var sectionHtml = renderDetailSection(
         category,
         category + "-detail",
-        label + " · 产品介绍",
-        "数据与配图来自品牌官网抓取库（data/official），仅供参考。"
+        label + " · Model Guides",
+        "Data and images are from brand official sites (data/official) and are for reference only."
       );
       introRoot.innerHTML =
-        sectionHtml || '<p class="page__lead">该品类暂无产品介绍数据。</p>';
+        sectionHtml || '<p class="page__lead">No model guide data for this category yet.</p>';
       introRoot.hidden = false;
     }
 
@@ -617,14 +747,14 @@
         '" alt="' +
         escapeHtml(product.imageAlt || product.model) +
         '" width="320" height="240" loading="lazy" />'
-      : '<span class="matrix-card__no-img">暂无图片</span>';
+      : '<span class="matrix-card__no-img">No image</span>';
     return (
       '<article class="matrix-card" role="listitem">' +
       '<button type="button" class="matrix-card__btn" data-product-id="' +
       escapeHtml(product.id) +
-      '" aria-label="查看 ' +
+      '" aria-label="View ' +
       escapeHtml(fullModelName(product)) +
-      ' 详情">' +
+      ' details">' +
       '<span class="matrix-card__media">' +
       img +
       "</span>" +
@@ -637,7 +767,9 @@
       '<span class="matrix-card__price">' +
       escapeHtml(priceForProduct(product)) +
       "</span>" +
-      "</button></article>"
+      "</button>" +
+      imageCreditHtml(product, "matrix-card__credit") +
+      "</article>"
     );
   }
 
@@ -650,7 +782,7 @@
       })
     );
     if (!rows.length) {
-      root.innerHTML = '<p class="product-matrix__empty">该分类暂无收录型号。</p>';
+      root.innerHTML = '<p class="product-matrix__empty">No models in this category yet.</p>';
       return 0;
     }
     root.innerHTML = rows.map(renderMatrixCard).join("");
@@ -674,32 +806,32 @@
     var rows = [];
     var cat = product.category;
     if (cat === "tent") {
-      rows.push({ label: "结构", value: product.structure || product.detailStructure || "—" });
-      rows.push({ label: "重量", value: formatWeight(product) });
-      rows.push({ label: "人数", value: product.capacity || "—" });
-      rows.push({ label: "面料 / 防水", value: product.fabric || "—" });
+      rows.push({ label: "Structure", value: displayCell(product.structure || product.detailStructure) });
+      rows.push({ label: "Weight", value: formatWeight(product) });
+      rows.push({ label: "Capacity", value: displayCell(product.capacity) });
+      rows.push({ label: "Fabric / Waterproofing", value: displayCell(product.fabric) });
     } else if (cat === "tarp") {
-      rows.push({ label: "类型", value: product.tarpType || product.detailStructure || "—" });
-      rows.push({ label: "重量", value: formatWeight(product) });
-      rows.push({ label: "人数", value: product.capacity || "—" });
-      rows.push({ label: "尺寸", value: product.size || "—" });
+      rows.push({ label: "Type", value: displayCell(product.tarpType || product.detailStructure) });
+      rows.push({ label: "Weight", value: formatWeight(product) });
+      rows.push({ label: "Capacity", value: displayCell(product.capacity) });
+      rows.push({ label: "Size", value: displayCell(product.size) });
     } else if (cat === "sleeping-bag") {
-      rows.push({ label: "类型", value: product.bagType || product.detailStructure || "—" });
-      rows.push({ label: "重量", value: formatWeight(product) });
-      rows.push({ label: "舒适温标", value: product.comfortTemp || "—" });
-      rows.push({ label: "填充", value: product.fillType || "—" });
+      rows.push({ label: "Type", value: displayCell(product.bagType || product.detailStructure) });
+      rows.push({ label: "Weight", value: formatWeight(product) });
+      rows.push({ label: "Comfort Rating", value: displayCell(product.comfortTemp) });
+      rows.push({ label: "Fill", value: displayCell(product.fillType) });
     } else if (cat === "table" || cat === "chair") {
-      rows.push({ label: "重量", value: formatWeight(product) });
-      if (product.seatHeight) rows.push({ label: "座高", value: product.seatHeight });
-      if (product.foldedSize) rows.push({ label: "收纳", value: product.foldedSize });
-      if (product.subcategory) rows.push({ label: "类型", value: product.subcategory });
+      rows.push({ label: "Weight", value: formatWeight(product) });
+      if (product.seatHeight) rows.push({ label: "Seat Height", value: displayCell(product.seatHeight) });
+      if (product.foldedSize) rows.push({ label: "Packed Size", value: displayCell(product.foldedSize) });
+      if (product.subcategory) rows.push({ label: "Type", value: displayCell(product.subcategory) });
     }
-    rows.push({ label: "参考价", value: priceForProduct(product) });
+    rows.push({ label: "Price", value: priceForProduct(product) });
     if (product.scenarios && product.scenarios.length) {
-      rows.push({ label: "适用场景", value: formatScenarios(product.scenarios) });
+      rows.push({ label: "Use Cases", value: formatScenarios(product.scenarios) });
     }
-    if (product.pros) rows.push({ label: "核心优势", value: product.pros });
-    if (product.cons) rows.push({ label: "相对短板", value: product.cons });
+    if (product.pros) rows.push({ label: "Strengths", value: displayCell(product.pros) });
+    if (product.cons) rows.push({ label: "Trade-offs", value: displayCell(product.cons) });
     return rows;
   }
 
@@ -717,8 +849,9 @@
           escapeHtml(product.imageUrl) +
           '" alt="' +
           escapeHtml(product.imageAlt || product.model) +
-          '" />'
-        : '<p class="product-modal__no-img">暂无产品图</p>';
+          '" />' +
+          imageCreditHtml(product, "product-modal__image-credit")
+        : '<p class="product-modal__no-img">No product image</p>';
     }
 
     var brandEl = document.getElementById("product-modal-brand");
@@ -745,7 +878,7 @@
     var descEl = document.getElementById("product-modal-desc");
     if (descEl) {
       if (product.description) {
-        descEl.textContent = product.description.trim();
+        descEl.textContent = localizeDisplayValue(product.description.trim());
         descEl.hidden = false;
       } else {
         descEl.textContent = "";
@@ -759,7 +892,7 @@
       if (modalHi.length) {
         hiEl.innerHTML = modalHi
           .map(function (h) {
-            return "<li>" + escapeHtml(h) + "</li>";
+            return "<li>" + escapeHtml(displayCell(h)) + "</li>";
           })
           .join("");
         hiEl.hidden = false;
@@ -774,13 +907,26 @@
     if (linkEl && sourceWrap) {
       if (product.sourceUrl) {
         linkEl.href = product.sourceUrl;
+        linkEl.classList.add("outbound-link");
+        linkEl.setAttribute("data-product-id", product.id);
+        linkEl.setAttribute("data-platform", "official");
         linkEl.removeAttribute("hidden");
         sourceWrap.hidden = false;
       } else {
         linkEl.href = "#";
+        linkEl.classList.remove("outbound-link");
+        linkEl.removeAttribute("data-product-id");
+        linkEl.removeAttribute("data-platform");
         sourceWrap.hidden = true;
       }
     }
+
+    trackEvent("Product Modal Open", {
+      productId: product.id,
+      brandId: product.brandId,
+      category: product.category,
+      page: document.body.getAttribute("data-page") || "unknown",
+    });
 
     modal.hidden = false;
     document.body.classList.add("modal-open");
@@ -859,7 +1005,7 @@
   }
 
   var TABLE_SCROLL_HINT =
-    '<p class="table-scroll__hint" aria-hidden="true">← 左右滑动查看更多列 →</p>';
+    '<p class="table-scroll__hint" aria-hidden="true">← Swipe to see more columns →</p>';
 
   function loadSite() {
     return fetch("data/site.json")
@@ -875,9 +1021,12 @@
 
   function officialToDisplay(raw) {
     var specs = raw.specs || {};
-    var image = raw.imageLocal || raw.imageUrl;
-    if (image && image.indexOf("http") !== 0 && image.indexOf("/") !== 0) {
-      image = "/" + image;
+    var image = raw.imageUrl;
+    if (!image && raw.imageLicense === "brand-approved" && raw.imageLocal) {
+      image = raw.imageLocal;
+      if (image.indexOf("http") !== 0 && image.indexOf("/") !== 0) {
+        image = "/" + image;
+      }
     }
     var display = {
       id: raw.id,
@@ -938,7 +1087,7 @@
     return display;
   }
 
-  /** 是否在站点展示：verified/merged、published，或迁移前的 legacy draft。 */
+  /** Visible on site: verified/merged, published, or legacy draft before migration. */
   function isVisibleOnSite(p) {
     if (!p || typeof p !== "object") return false;
     if (p.status === "verified" || p.status === "merged") return true;
@@ -947,7 +1096,7 @@
     return false;
   }
 
-  /** 仅展示 data/official 内产品（不读取 products.json）。 */
+  /** Display products from data/official only (not products.json). */
   function productsFromOfficial(productsData, brandsData) {
     if (!Array.isArray(productsData)) return [];
     var brandIds = {};
@@ -982,7 +1131,7 @@
   function loadOfficialBrandIds() {
     return fetch("data/official/index.json")
       .then(function (r) {
-        if (!r.ok) throw new Error("无法加载 official/index.json");
+        if (!r.ok) throw new Error("Failed to load official/index.json");
         return r.json();
       })
       .then(function (data) {
@@ -995,7 +1144,7 @@
     return Promise.all(
       brandIds.map(function (brandId) {
         return fetch("data/official/" + brandId + "/products.json").then(function (r) {
-          if (!r.ok) throw new Error("无法加载 official/" + brandId + "/products.json");
+          if (!r.ok) throw new Error("Failed to load official/" + brandId + "/products.json");
           return r.json();
         });
       })
@@ -1017,7 +1166,7 @@
     var statusEl = document.getElementById("catalog-status");
 
     if (!products.length) {
-      setStatus("data/official 中没有可展示的产品。", true);
+      setStatus("No products available to display in data/official.", true);
       if (statusEl) statusEl.hidden = false;
       var compareRoot = document.getElementById("compare-root");
       var introRoot = document.getElementById("intro-root");
@@ -1032,7 +1181,7 @@
         return p.category === "table" || p.category === "chair";
       }).length;
       if (!furnitureCount) {
-        setStatus("家具品类暂无桌/椅数据，请先运行抓取脚本。", true);
+        setStatus("No table or chair data for furniture yet. Run the scrape script first.", true);
         if (statusEl) statusEl.hidden = false;
       } else {
         setStatus("");
@@ -1048,7 +1197,7 @@
         return p.category === category;
       });
       if (!inCategory.length) {
-        setStatus("该品类暂无产品数据。", true);
+        setStatus("No product data for this category yet.", true);
         if (statusEl) statusEl.hidden = false;
         return;
       }
@@ -1070,7 +1219,7 @@
         return;
       }
       setStatus(
-        "无法从 file:// 加载 JSON。请在本目录运行 python3 -m http.server 8080 后访问 http://localhost:8080，或先执行 python3 scripts/build_catalog.py 生成 data/catalog.js。",
+        "Cannot load JSON from file://. Run python3 -m http.server 8080 in this directory and open http://localhost:8080, or run python3 scripts/build_catalog.py to generate data/catalog.js.",
         true
       );
       return;
@@ -1079,7 +1228,7 @@
     return Promise.all([
       loadSite(),
       fetch("data/brands.json").then(function (r) {
-        if (!r.ok) throw new Error("无法加载 brands.json");
+        if (!r.ok) throw new Error("Failed to load brands.json");
         return r.json();
       }),
       loadOfficialBrandIds().then(loadOfficialProducts),
@@ -1097,9 +1246,9 @@
           return;
         }
         setStatus(
-          "加载失败：" +
+          "Load failed: " +
             err.message +
-            "。请运行 python3 -m http.server 8080 后访问 http://localhost:8080。",
+            ". Run python3 -m http.server 8080 and open http://localhost:8080.",
           true
         );
       });
@@ -1110,10 +1259,16 @@
     yearEl.textContent = String(new Date().getFullYear());
   }
 
-  var page = document.body.getAttribute("data-page") || "home";
-  if (page === "home") {
-    loadSite();
-  } else if (page === "category" || page === "furniture") {
-    loadCatalog();
+  bindOutboundTracking();
+
+  function boot() {
+    var page = document.body.getAttribute("data-page") || "home";
+    if (page === "home") {
+      loadSite();
+    } else if (page === "category" || page === "furniture") {
+      loadCatalog();
+    }
   }
+
+  loadAnalytics().then(boot);
 })();

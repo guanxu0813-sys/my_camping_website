@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>帐篷 · CampGear Compare</title>
+  <title>Tents · CampGear Compare</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -11,45 +11,43 @@
 </head>
 <body data-page="category" data-category="tent">
   <header class="site-header">
-    <nav class="nav" aria-label="主导航">
-      <a class="nav__brand" href="index.html" aria-label="返回首页">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav__brand" href="index.html" aria-label="Back to home">
         <span class="nav__logo" aria-hidden="true">
           <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 4c-4 6-8 10-8 16a8 8 0 1016 0c0-6-4-10-8-16z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M16 12v12M12 18h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
         </span>
         <span class="nav__brand-text">CampGear <span class="nav__brand-ai">Compare</span></span>
       </a>
       <ul class="nav__links nav__links--categories">
-        <li><a href="index.html">首页</a></li>
-        <li><a href="tent.html" aria-current="page">帐篷</a></li>
-        <li><a href="tarp.html">天幕</a></li>
-        <li><a href="furniture.html">家具</a></li>
-        <li><a href="sleeping-bag.html">睡袋</a></li>
-        <li><a href="other.html">其他</a></li>
-        <li><a href="etc.html">等等</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tent.html" aria-current="page">Tents</a></li>
+        <li><a href="tarp.html">Tarps</a></li>
+        <li><a href="furniture.html">Furniture</a></li>
+        <li><a href="sleeping-bag.html">Sleeping Bags</a></li>
+        <li><a href="other.html">Other</a></li>
+        <li><a href="etc.html">More</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="page page--sub">
     <header class="page__head">
-      <h1 class="page__title">帐篷</h1>
-      <p class="page__lead page__lead--compact">参数对比一览，点击缩略图查看产品介绍与详情。</p>
+      <h1 class="page__title">Tents</h1>
+      <p class="page__lead page__lead--compact">Side-by-side spec comparison. Click a thumbnail for product details.</p>
     </header>
 
-    <p id="catalog-status" class="catalog-status" role="status" aria-live="polite">正在加载产品数据…</p>
+    <p id="catalog-status" class="catalog-status" role="status" aria-live="polite">Loading product data…</p>
 
-    <section id="compare" class="category-section" aria-label="参数对比">
+    <section id="compare" class="category-section" aria-label="Spec comparison">
       <p id="category-brands" class="category-brands" hidden></p>
       <div id="compare-root" class="compare-root" hidden></div>
     </section>
-
-    <p class="page__note">数据来自 <code>data/official/</code>，仅供参考。</p>
   </main>
 
   <div id="product-modal" class="product-modal" hidden>
     <div class="product-modal__backdrop" data-modal-close tabindex="-1" aria-hidden="true"></div>
     <div class="product-modal__panel" role="dialog" aria-modal="true" aria-labelledby="product-modal-title">
-      <button type="button" class="product-modal__close" data-modal-close aria-label="关闭">×</button>
+      <button type="button" class="product-modal__close" data-modal-close aria-label="Close">×</button>
       <div class="product-modal__media" id="product-modal-media"></div>
       <div class="product-modal__body">
         <div class="product-modal__scroll">
@@ -60,7 +58,7 @@
           <ul class="product-modal__highlights" id="product-modal-highlights" hidden></ul>
         </div>
         <p class="product-modal__source" id="product-modal-source">
-          <a id="product-modal-link" href="#" target="_blank" rel="noopener noreferrer">查看官网 ↗</a>
+          <a id="product-modal-link" href="#" target="_blank" rel="noopener noreferrer">View official site ↗</a>
         </p>
       </div>
     </div>
@@ -68,7 +66,14 @@
 
   <footer class="site-footer">
     <div class="site-footer__inner">
-      <p class="site-footer__copy">© <span id="year"></span> CampGear Compare · 露营装备对比</p>
+      <p class="site-footer__disclaimer">CampGear Compare helps campers compare official product specs side by side. Some links may earn us a commission at no extra cost to you. Specs and images are sourced from brand websites; image copyright belongs to the respective brands.</p>
+      <nav class="site-footer__legal" aria-label="Legal">
+        <a href="legal.html#affiliate">Affiliate Disclosure</a>
+        <a href="legal.html#privacy">Privacy</a>
+        <a href="legal.html#content-ip">Content &amp; IP</a>
+        <a href="legal.html#sponsor">Sponsor Policy</a>
+      </nav>
+      <p class="site-footer__copy">© <span id="year"></span> CampGear Compare · Camping Gear Comparison</p>
     </div>
   </footer>
 

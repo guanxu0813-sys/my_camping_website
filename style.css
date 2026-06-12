@@ -641,7 +641,7 @@ a {
   padding-right: 1rem;
 }
 
-/* 重量、人数、尺寸、参考价 — 表头与数据居中 */
+/* Weight, capacity, size, price — center table headers and cells */
 .compare-table thead th:nth-child(n + 5):nth-child(-n + 8),
 .compare-table tbody td:nth-child(n + 5):nth-child(-n + 8) {
   text-align: center;
@@ -786,6 +786,21 @@ a {
 .compare-table__thumb--empty {
   color: var(--color-text-muted);
   font-size: 0.9rem;
+}
+
+.compare-table__thumb-credit {
+  margin: 0.35rem 0 0;
+  max-width: 7.5rem;
+  font-size: 0.62rem;
+  line-height: 1.35;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.compare-table__thumb-credit a {
+  color: var(--color-forest);
+  text-decoration: underline;
+  text-underline-offset: 1px;
 }
 
 .compare-table--pros td:nth-child(3),
@@ -933,10 +948,94 @@ a {
   text-align: center;
 }
 
+.site-footer__inner {
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.site-footer__disclaimer {
+  margin: 0 0 0.85rem;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  opacity: 0.72;
+}
+
+.site-footer__legal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.35rem 1rem;
+  margin: 0 0 0.85rem;
+  font-size: 0.78rem;
+}
+
+.site-footer__legal a {
+  color: rgba(240, 232, 219, 0.92);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.site-footer__legal a:hover {
+  color: #fff;
+}
+
+.site-footer__legal a[aria-current="page"] {
+  font-weight: 600;
+  text-decoration: none;
+}
+
 .site-footer__copy {
   margin: 0;
   font-size: 0.82rem;
   opacity: 0.85;
+}
+
+.page--legal .legal-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  margin: 0 0 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.9rem;
+}
+
+.page--legal .legal-nav a {
+  color: var(--color-forest);
+  font-weight: 500;
+}
+
+.legal-section {
+  max-width: 42rem;
+  margin: 0 auto 2.5rem;
+}
+
+.legal-section h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.35rem;
+  color: var(--color-forest-deep);
+}
+
+.legal-section h3 {
+  margin: 1.25rem 0 0.5rem;
+  font-size: 1.05rem;
+}
+
+.legal-section p,
+.legal-section li {
+  line-height: 1.65;
+  color: var(--color-text);
+}
+
+.legal-section ul {
+  padding-left: 1.25rem;
+}
+
+.legal-section code {
+  font-size: 0.88em;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
 }
 
 @media (max-width: 768px) {
@@ -1115,6 +1214,19 @@ a {
   color: var(--color-text-muted);
 }
 
+.matrix-card__credit {
+  margin: 0;
+  padding: 0 0.65rem 0.5rem;
+  font-size: 0.62rem;
+  line-height: 1.35;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.matrix-card__credit a {
+  color: var(--color-forest);
+}
+
 /* —— Product detail modal —— */
 body.modal-open {
   overflow: hidden;
@@ -1199,6 +1311,19 @@ body.modal-open {
   height: auto;
   object-fit: contain;
   object-position: center;
+}
+
+.product-modal__image-credit {
+  margin: 0;
+  padding: 0.5rem 1rem 0;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.product-modal__image-credit a {
+  color: var(--color-forest);
 }
 
 .product-modal__no-img {
