@@ -18,6 +18,7 @@
 | [`products.json`](products.json) | 遗留手工库（页面不读） |
 | [`site.json`](site.json) | 首页头图文案与配图 URL |
 | [`analytics.json`](analytics.json) | Plausible 分析配置（`enabled` + `plausibleDomain`） |
+| [`seo.json`](seo.json) | 站点 URL（`siteUrl`），用于 sitemap / canonical；换正式域名后更新并运行 `scripts/build_sitemap.py` |
 | [`catalog.js`](catalog.js) | 由 `scripts/build_catalog.py` 自动生成，供 `file://` 双击预览 |
 | [`official/`](official/) | 官网抓取库（按品牌分子目录） |
 | [`products.schema.json`](products.schema.json) | 官网产品 JSON 字段说明（JSON Schema） |
@@ -56,6 +57,17 @@ python3 scripts/build_catalog.py
 ```
 
 本地开发时（`localhost`）事件会输出到浏览器控制台 `[CampGear analytics]`。上线前将 `enabled` 设为 `true` 并填入 Plausible 域名。
+
+### SEO（软启动）
+
+- 站点 URL 与 sitemap 页面列表：[`seo.json`](seo.json)
+- 生成 `robots.txt` / `sitemap.xml`：
+
+```bash
+python3 scripts/build_sitemap.py
+```
+
+换正式域名时：更新 `seo.json` 的 `siteUrl`，重新运行上述命令，并批量更新各 HTML 的 `<link rel="canonical">`。
 
 ### 依赖
 

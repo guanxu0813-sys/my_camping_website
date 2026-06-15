@@ -1,0 +1,42 @@
+{
+  "siteUrl": "https://my-camping-website.vercel.app",
+  "siteName": "CampGear Compare",
+  "pages": [
+    {
+      "path": "/",
+      "file": "index.html",
+      "changefreq": "weekly",
+      "priority": "1.0"
+    },
+    {
+      "path": "/tent.html",
+      "file": "tent.html",
+      "changefreq": "weekly",
+      "priority": "0.9"
+    },
+    {
+      "path": "/tarp.html",
+      "file": "tarp.html",
+      "changefreq": "weekly",
+      "priority": "0.9"
+    },
+    {
+      "path": "/sleeping-bag.html",
+      "file": "sleeping-bag.html",
+      "changefreq": "weekly",
+      "priority": "0.9"
+    },
+    {
+      "path": "/furniture.html",
+      "file": "furniture.html",
+      "changefreq": "weekly",
+      "priority": "0.8"
+    },
+    {
+      "path": "/legal.html",
+      "file": "legal.html",
+      "changefreq": "monthly",
+      "priority": "0.3"
+    }
+  ]
+}
