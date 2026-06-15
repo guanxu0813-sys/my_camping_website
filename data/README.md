@@ -67,7 +67,13 @@ python3 scripts/build_catalog.py
 python3 scripts/build_sitemap.py
 ```
 
-换正式域名时：更新 `seo.json` 的 `siteUrl`，重新运行上述命令，并批量更新各 HTML 的 `<link rel="canonical">`。
+换正式域名时：更新 `seo.json` 的 `siteUrl`，运行：
+
+```bash
+python3 scripts/sync_site_url.py
+```
+
+（同步各 HTML canonical、`sitemap.xml`、`robots.txt` 及 docs 中的站点链接。）完整 Vercel / DNS 步骤见 [`docs/custom-domain-setup.md`](../docs/custom-domain-setup.md)。
 
 ### 品牌赞助位
 

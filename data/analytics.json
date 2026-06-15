@@ -1,6 +1,6 @@
 {
   "provider": "plausible",
   "enabled": false,
-  "plausibleDomain": "",
+  "plausibleDomain": "campgear.com",
   "contactEmail": "guanxu0813@gmail.com"
 }

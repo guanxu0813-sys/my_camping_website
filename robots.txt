@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://my-camping-website.vercel.app/sitemap.xml
+Sitemap: https://campgear.com/sitemap.xml

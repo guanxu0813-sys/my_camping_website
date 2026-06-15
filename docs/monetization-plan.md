@@ -460,8 +460,8 @@ gantt
 - [x] `data/products.schema.json` 新增 `sponsor` 字段定义
 - [x] `data/sponsors.json` + `script.js` 赞助置顶、`sponsor-badge` 渲染、`expiresAt` 过期过滤
 - [x] `style.css` 添加 `.sponsor-badge`、`.compare-table__row--sponsored`、Modal 赞助条
-- [ ] 制作媒体 kit one-pager（PV、Modal 率、出站 CTR、品牌覆盖数）
-- [ ] 确定赞助定价表与合同模板（含素材授权条款）
+- [x] 制作媒体 kit one-pager（PV、Modal 率、出站 CTR、品牌覆盖数）→ [`docs/sponsor/media-kit-one-pager.md`](sponsor/media-kit-one-pager.md)
+- [x] 确定赞助定价表与合同模板（含素材授权条款）→ [`docs/sponsor/pricing-sheet.md`](sponsor/pricing-sheet.md)、[`docs/sponsor/sponsorship-agreement-template.md`](sponsor/sponsorship-agreement-template.md)
 - [ ] 向 Naturehike / Snow Peak / Helinox / Big Agnes / Sea to Summit 发送 outreach
 
 ### Phase 2：联盟佣金
