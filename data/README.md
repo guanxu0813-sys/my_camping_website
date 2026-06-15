@@ -69,6 +69,41 @@ python3 scripts/build_sitemap.py
 
 换正式域名时：更新 `seo.json` 的 `siteUrl`，重新运行上述命令，并批量更新各 HTML 的 `<link rel="canonical">`。
 
+### 品牌赞助位
+
+活动配置 [`sponsors.json`](sponsors.json)（不必改 554 条产品 JSON）：
+
+```json
+{
+  "campaigns": [
+    {
+      "productId": "snow-peak-amenity-dome-m-ivory",
+      "active": true,
+      "tier": "table-featured",
+      "label": "Sponsored",
+      "expiresAt": "2026-12-31",
+      "campaignId": "snow-peak-q3-tent"
+    }
+  ]
+}
+```
+
+| 字段 | 说明 |
+|------|------|
+| `productId` | 对应 official 产品 `id` |
+| `active` | `true` 时生效 |
+| `tier` | `table-featured`（对比表置顶 + Modal 标注）或 `modal-featured` |
+| `expiresAt` | `YYYY-MM-DD`，过期自动失效 |
+| `campaignId` | 活动 ID，便于对账 |
+
+校验：
+
+```bash
+python3 scripts/validate_sponsors.py
+```
+
+也可在产品 JSON 内嵌 `sponsor` 对象（见 `products.schema.json`）；`sponsors.json` 会覆盖同 `productId` 的配置。
+
 ### 依赖
 
 ```bash

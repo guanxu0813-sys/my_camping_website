@@ -180,6 +180,105 @@
     return b.nameEn || b.name || brandId;
   }
 
+  function parseSponsorDate(value) {
+    if (!value) return null;
+    var d = new Date(value + "T23:59:59");
+    return isNaN(d.getTime()) ? null : d;
+  }
+
+  function normalizeSponsor(raw) {
+    if (!raw || typeof raw !== "object") return null;
+    return {
+      active: raw.active === true,
+      tier: raw.tier || "table-featured",
+      label: raw.label || "Sponsored",
+      expiresAt: raw.expiresAt || null,
+      campaignId: raw.campaignId || "",
+    };
+  }
+
+  function isSponsorActive(sponsor) {
+    if (!sponsor || !sponsor.active) return false;
+    var expires = parseSponsorDate(sponsor.expiresAt);
+    if (expires && expires < new Date()) return false;
+    return true;
+  }
+
+  function hasTableSponsor(product) {
+    if (!isSponsorActive(product.sponsor)) return false;
+    var tier = product.sponsor.tier;
+    return tier === "table-featured" || tier === "featured";
+  }
+
+  function hasModalSponsor(product) {
+    if (!isSponsorActive(product.sponsor)) return false;
+    var tier = product.sponsor.tier;
+    return tier === "modal-featured" || tier === "table-featured" || tier === "featured";
+  }
+
+  function renderSponsorBadge(product) {
+    if (!isSponsorActive(product.sponsor)) return "";
+    return (
+      '<span class="sponsor-badge">' +
+      escapeHtml(product.sponsor.label || "Sponsored") +
+      "</span>"
+    );
+  }
+
+  function renderCompareModelCell(product) {
+    return (
+      '<td class="compare-table__model">' +
+      renderSponsorBadge(product) +
+      escapeHtml(product.model) +
+      "</td>"
+    );
+  }
+
+  function compareTableRowAttrs(product) {
+    return hasTableSponsor(product) ? ' class="compare-table__row--sponsored"' : "";
+  }
+
+  function prepareCompareRows(rows, category) {
+    var sponsored = [];
+    var regular = [];
+    rows.forEach(function (p) {
+      if (hasTableSponsor(p)) sponsored.push(p);
+      else regular.push(p);
+    });
+    sponsored.sort(compareByBrandFameThenModel);
+    return sponsored.concat(sortRows(regular, category));
+  }
+
+  function applySponsorCampaigns(campaigns) {
+    if (!Array.isArray(campaigns) || !campaigns.length) return;
+    var byId = {};
+    campaigns.forEach(function (c) {
+      if (!c || !c.productId) return;
+      byId[c.productId] = normalizeSponsor(c);
+    });
+    products.forEach(function (p) {
+      if (byId[p.id]) p.sponsor = byId[p.id];
+    });
+  }
+
+  function loadSponsors() {
+    if (window.location.protocol === "file:") {
+      return Promise.resolve(
+        window.CAMPGEAR_DATA && window.CAMPGEAR_DATA.sponsors
+          ? window.CAMPGEAR_DATA.sponsors
+          : null
+      );
+    }
+    return fetch("data/sponsors.json")
+      .then(function (r) {
+        if (!r.ok) return null;
+        return r.json();
+      })
+      .catch(function () {
+        return null;
+      });
+  }
+
   function brandRank(brandId) {
     var b = brandMap[brandId];
     if (b && b.rank != null && isFinite(b.rank)) return b.rank;
@@ -419,9 +518,9 @@
     var body = rows
       .map(function (p) {
         return (
-          "<tr>" +
+          "<tr" + compareTableRowAttrs(p) + ">" +
           "<td>" + escapeHtml(brandName(p.brandId)) + "</td>" +
-          "<td>" + escapeHtml(p.model) + "</td>" +
+          renderCompareModelCell(p) +
           renderTableThumb(p) +
           "<td>" + escapeHtml(displayCell(p.structure)) + "</td>" +
           "<td>" + escapeHtml(formatWeight(p)) + "</td>" +
@@ -456,9 +555,9 @@
     var body = rows
       .map(function (p) {
         return (
-          "<tr>" +
+          "<tr" + compareTableRowAttrs(p) + ">" +
           "<td>" + escapeHtml(brandName(p.brandId)) + "</td>" +
-          "<td>" + escapeHtml(p.model) + "</td>" +
+          renderCompareModelCell(p) +
           renderTableThumb(p) +
           "<td>" + escapeHtml(displayCell(p.tarpType)) + "</td>" +
           "<td>" + escapeHtml(formatWeight(p)) + "</td>" +
@@ -493,9 +592,9 @@
     var body = rows
       .map(function (p) {
         return (
-          "<tr>" +
+          "<tr" + compareTableRowAttrs(p) + ">" +
           "<td class=\"compare-table__brand\">" + escapeHtml(brandName(p.brandId)) + "</td>" +
-          "<td class=\"compare-table__model\">" + escapeHtml(p.model) + "</td>" +
+          renderCompareModelCell(p) +
           renderTableThumb(p) +
           "<td>" + escapeHtml(displayCell(p.bagType || p.structure)) + "</td>" +
           "<td class=\"compare-table__num\">" + escapeHtml(formatWeight(p)) + "</td>" +
@@ -681,7 +780,7 @@
     var rows = products.filter(function (p) {
       return p.category === category && p.inSummaryTable !== false;
     });
-    rows = sortRows(rows, category);
+    rows = prepareCompareRows(rows, category);
 
     renderCategoryBrands(category);
 
@@ -857,6 +956,19 @@
     var brandEl = document.getElementById("product-modal-brand");
     if (brandEl) brandEl.textContent = brandName(product.brandId);
 
+    var sponsorEl = document.getElementById("product-modal-sponsor");
+    if (sponsorEl) {
+      if (hasModalSponsor(product)) {
+        sponsorEl.innerHTML =
+          renderSponsorBadge(product) +
+          '<span class="product-modal__sponsor-note">Paid placement — comparison specs are not altered.</span>';
+        sponsorEl.hidden = false;
+      } else {
+        sponsorEl.innerHTML = "";
+        sponsorEl.hidden = true;
+      }
+    }
+
     var titleEl = document.getElementById("product-modal-title");
     if (titleEl) titleEl.textContent = product.model || "";
 
@@ -926,6 +1038,7 @@
       brandId: product.brandId,
       category: product.category,
       page: document.body.getAttribute("data-page") || "unknown",
+      sponsored: hasModalSponsor(product) ? "yes" : "no",
     });
 
     modal.hidden = false;
@@ -1084,6 +1197,7 @@
       if (!display.bagType && display.subcategory) display.bagType = display.subcategory;
       if (!display.detailStructure) display.detailStructure = display.bagType || display.subcategory;
     }
+    if (raw.sponsor) display.sponsor = normalizeSponsor(raw.sponsor);
     return display;
   }
 
@@ -1155,13 +1269,16 @@
     });
   }
 
-  function hydrateCatalog(brandsData, productsData, siteData) {
+  function hydrateCatalog(brandsData, productsData, siteData, sponsorsData) {
     brands = sortBrandsByFame(Array.isArray(brandsData) ? brandsData : []);
     brandMap = {};
     brands.forEach(function (b) {
       if (b && b.id) brandMap[b.id] = b;
     });
     products = productsFromOfficial(productsData, brands);
+    if (sponsorsData && sponsorsData.campaigns) {
+      applySponsorCampaigns(sponsorsData.campaigns);
+    }
     var page = document.body.getAttribute("data-page");
     var statusEl = document.getElementById("catalog-status");
 
@@ -1214,7 +1331,8 @@
         hydrateCatalog(
           window.CAMPGEAR_DATA.brands,
           window.CAMPGEAR_DATA.products,
-          window.CAMPGEAR_DATA.site
+          window.CAMPGEAR_DATA.site,
+          window.CAMPGEAR_DATA.sponsors
         );
         return;
       }
@@ -1232,16 +1350,18 @@
         return r.json();
       }),
       loadOfficialBrandIds().then(loadOfficialProducts),
+      loadSponsors(),
     ])
       .then(function (results) {
-        hydrateCatalog(results[1], results[2], null);
+        hydrateCatalog(results[1], results[2], null, results[3]);
       })
       .catch(function (err) {
         if (window.CAMPGEAR_DATA) {
           hydrateCatalog(
             window.CAMPGEAR_DATA.brands,
             window.CAMPGEAR_DATA.products,
-            window.CAMPGEAR_DATA.site
+            window.CAMPGEAR_DATA.site,
+            window.CAMPGEAR_DATA.sponsors
           );
           return;
         }

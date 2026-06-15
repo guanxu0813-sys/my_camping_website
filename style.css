@@ -803,6 +803,46 @@ a {
   text-underline-offset: 1px;
 }
 
+.sponsor-badge {
+  display: inline-block;
+  margin-bottom: 0.25rem;
+  padding: 0.12rem 0.45rem;
+  border-radius: 4px;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #7a4e12;
+  background: rgba(180, 120, 40, 0.16);
+  border: 1px solid rgba(180, 120, 40, 0.28);
+}
+
+.compare-table__row--sponsored {
+  background: rgba(180, 120, 40, 0.07);
+}
+
+.compare-table__row--sponsored:hover {
+  background: rgba(180, 120, 40, 0.11);
+}
+
+.product-modal__sponsor {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.5rem;
+  margin: 0.35rem 0 0.15rem;
+}
+
+.product-modal__sponsor[hidden] {
+  display: none;
+}
+
+.product-modal__sponsor-note {
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--color-text-muted);
+}
+
 .compare-table--pros td:nth-child(3),
 .compare-table--pros td:nth-child(4) {
   line-height: 1.55;

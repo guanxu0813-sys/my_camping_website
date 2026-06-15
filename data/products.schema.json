@@ -82,7 +82,22 @@
     "pros": { "type": "string" },
     "cons": { "type": "string" },
     "inSummaryTable": { "type": "boolean" },
-    "inDetailCards": { "type": "boolean" }
+    "inDetailCards": { "type": "boolean" },
+    "sponsor": {
+      "type": "object",
+      "properties": {
+        "active": { "type": "boolean" },
+        "tier": {
+          "type": "string",
+          "enum": ["table-featured", "modal-featured", "featured"]
+        },
+        "label": { "type": "string" },
+        "expiresAt": { "type": "string", "format": "date" },
+        "campaignId": { "type": "string" }
+      },
+      "required": ["active"],
+      "additionalProperties": false
+    }
   },
   "additionalProperties": false
 }

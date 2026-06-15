@@ -30,3 +30,6 @@ jobs:
 
       - name: Validate official catalog
         run: python3 scripts/validate_official.py
+
+      - name: Validate sponsor campaigns
+        run: python3 scripts/validate_sponsors.py

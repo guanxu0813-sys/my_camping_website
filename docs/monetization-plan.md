@@ -457,9 +457,9 @@ gantt
 
 ### Phase 1：品牌赞助
 
-- [ ] `data/products.schema.json` 新增 `sponsor` 字段定义
-- [ ] `script.js` 实现赞助置顶 + `sponsor-badge` 渲染 + `expiresAt` 过期过滤
-- [ ] `style.css` 添加 `.sponsor-badge`、Featured 卡样式
+- [x] `data/products.schema.json` 新增 `sponsor` 字段定义
+- [x] `data/sponsors.json` + `script.js` 赞助置顶、`sponsor-badge` 渲染、`expiresAt` 过期过滤
+- [x] `style.css` 添加 `.sponsor-badge`、`.compare-table__row--sponsored`、Modal 赞助条
 - [ ] 制作媒体 kit one-pager（PV、Modal 率、出站 CTR、品牌覆盖数）
 - [ ] 确定赞助定价表与合同模板（含素材授权条款）
 - [ ] 向 Naturehike / Snow Peak / Helinox / Big Agnes / Sea to Summit 发送 outreach

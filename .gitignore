@@ -9,6 +9,9 @@ Thumbs.db
 *.swo
 *~
 
+# Node (verify scripts)
+node_modules/
+
 # Logs & env (if you add tooling later)
 *.log
 .env

@@ -35,7 +35,19 @@ def main() -> None:
     brands = json.loads((DATA / "brands.json").read_text(encoding="utf-8"))
     products = load_official_products()
     site = json.loads((DATA / "site.json").read_text(encoding="utf-8"))
-    payload = {"brands": brands, "products": products, "site": site, "source": "official"}
+    sponsors_path = DATA / "sponsors.json"
+    sponsors = (
+        json.loads(sponsors_path.read_text(encoding="utf-8"))
+        if sponsors_path.exists()
+        else {"campaigns": []}
+    )
+    payload = {
+        "brands": brands,
+        "products": products,
+        "site": site,
+        "sponsors": sponsors,
+        "source": "official",
+    }
     out = DATA / "catalog.js"
     header = "// Auto-generated from data/official — run: python3 scripts/build_catalog.py\n"
     body = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))

@@ -1,0 +1,12 @@
+{
+  "campaigns": [
+    {
+      "productId": "snow-peak-amenity-dome-m-ivory",
+      "active": true,
+      "tier": "table-featured",
+      "label": "Sponsored",
+      "expiresAt": "2026-12-31",
+      "campaignId": "demo-snow-peak-tent"
+    }
+  ]
+}
