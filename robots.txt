@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://campgear.com/sitemap.xml
+Sitemap: https://campgearcompare.com/sitemap.xml

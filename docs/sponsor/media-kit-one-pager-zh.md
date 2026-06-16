@@ -1,7 +1,7 @@
 # CampGear Compare — 媒体 Kit（One-Pager）
 
 **最后更新：** 2026 年 6 月  
-**站点：** [https://campgear.com](https://campgear.com)  
+**站点：** [https://campgearcompare.com](https://campgearcompare.com)  
 **赞助联系：** [guanxu0813@gmail.com](mailto:guanxu0813@gmail.com)  
 **英文版：** [`media-kit-one-pager.md`](./media-kit-one-pager.md)
 
@@ -101,7 +101,7 @@ Big Agnes · Blackdeer · DOD · Helinox · Mobi Garden · Montbell · NANGA · 
 - 赞助行 **置顶并标注**——规格列保持客观事实。
 - 赞助产品须已在官方目录中（优先 `status: verified`）。
 - 活动通过 `expiresAt` **自动到期**——无「幽灵」赞助位。
-- 公开政策：[Sponsor Policy](https://campgear.com/legal.html#sponsor)
+- 公开政策：[Sponsor Policy](https://campgearcompare.com/legal.html#sponsor)
 
 ---
 
