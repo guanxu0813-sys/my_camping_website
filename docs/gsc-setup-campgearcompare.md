@@ -22,21 +22,25 @@ curl -s https://www.campgearcompare.com/tent.html | grep canonical
 
 期望：
 - `siteUrl` = `https://www.campgearcompare.com`
-- sitemap 中 URL 均为 `campgearcompare.com`
-- canonical 与 sitemap 一致
+- sitemap / canonical 中 URL 均为 `www.campgearcompare.com`
 
-### Vercel 域名跳转（重要）
+### Vercel 域名跳转（当前配置）
 
-若 `campgearcompare.com` 308 跳到 `www.campgearcompare.com`，请在 Vercel **Domains** 中：
-
-1. `campgearcompare.com` → **Production**（主域）
-2. `www.campgearcompare.com` → **Redirect** 到 `campgearcompare.com`
-
-与项目 `vercel.json` 一致，避免 canonical 与真实访问 URL 冲突。
+- **主域（Production）：** `www.campgearcompare.com`
+- **无 www：** `campgearcompare.com` → 301 到 `www`（见 `vercel.json`）
+- GSC 资源 URL：`https://www.campgearcompare.com`
 
 ---
 
-## 1. 新建 GSC 资源
+## 进度
+
+- [x] GSC 资源创建 + HTML 文件验证（`google552523522ea8ca31.html`）
+- [ ] 提交站点地图 `sitemap.xml`
+- [ ] 主要页面「请求编入索引」（见 §4）
+
+---
+
+## 1. 新建 GSC 资源（已完成）
 
 1. 打开 [Google Search Console](https://search.google.com/search-console)
 2. 左上角 **添加资源**
@@ -48,7 +52,7 @@ curl -s https://www.campgearcompare.com/tent.html | grep canonical
 
 ---
 
-## 2. 验证所有权（二选一）
+## 2. 验证所有权（已完成 ✓）
 
 ### 方式 A：HTML 文件（推荐，与测试域相同流程）
 
