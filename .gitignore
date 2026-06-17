@@ -16,6 +16,12 @@ node_modules/
 *.log
 .env
 .env.*
+.env.local
 .venv/
 __pycache__/
 *.pyc
+
+# Google Indexing API / secrets
+*-sa.json
+secrets/
+*.credentials.json
