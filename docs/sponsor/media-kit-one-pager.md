@@ -1,7 +1,7 @@
 # CampGear Compare — Media Kit (One-Pager)
 
 **Last updated:** June 2026  
-**Site:** [https://campgearcompare.com](https://campgearcompare.com)  
+**Site:** [https://www.campgearcompare.com](https://www.campgearcompare.com)  
 **Sponsorship contact:** [guanxu0813@gmail.com](mailto:guanxu0813@gmail.com)
 
 ---
@@ -100,7 +100,7 @@ Fill this table once Plausible is enabled on your production domain (minimum **3
 - Sponsored rows are **pinned and labeled**—spec columns stay factual.
 - Sponsored products must exist in our official catalog (`status: verified` preferred).
 - Campaigns auto-expire via `expiresAt` in our config—no “ghost” placements.
-- Public policy: [Sponsor Policy](https://campgearcompare.com/legal.html#sponsor)
+- Public policy: [Sponsor Policy](https://www.campgearcompare.com/legal.html#sponsor)
 
 ---
 

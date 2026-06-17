@@ -2,8 +2,8 @@
 
 > 正式域 SEO 配置清单。测试域 `my-camping-website.vercel.app` 的 GSC **不会**自动迁移。
 
-**主域（canonical）：** `https://campgearcompare.com`  
-**Sitemap：** `https://campgearcompare.com/sitemap.xml`
+**主域（canonical）：** `https://www.campgearcompare.com`  
+**Sitemap：** `https://www.campgearcompare.com/sitemap.xml`
 
 ---
 
@@ -15,13 +15,13 @@ grep siteUrl data/seo.json
 head -5 sitemap.xml
 
 # 线上（部署 push 后）
-curl -sI https://campgearcompare.com/
-curl -s https://campgearcompare.com/sitemap.xml | head -8
-curl -s https://campgearcompare.com/tent.html | grep canonical
+curl -sI https://www.campgearcompare.com/
+curl -s https://www.campgearcompare.com/sitemap.xml | head -8
+curl -s https://www.campgearcompare.com/tent.html | grep canonical
 ```
 
 期望：
-- `siteUrl` = `https://campgearcompare.com`
+- `siteUrl` = `https://www.campgearcompare.com`
 - sitemap 中 URL 均为 `campgearcompare.com`
 - canonical 与 sitemap 一致
 
@@ -41,7 +41,7 @@ curl -s https://campgearcompare.com/tent.html | grep canonical
 1. 打开 [Google Search Console](https://search.google.com/search-console)
 2. 左上角 **添加资源**
 3. 类型选 **网址前缀**
-4. 输入：`https://campgearcompare.com`
+4. 输入：`https://www.campgearcompare.com`
 5. **继续**
 
 > 若你最终只用 `www` 作主域，资源 URL 改为 `https://www.campgearcompare.com`，并同步修改 `data/seo.json` + 运行 `python3 scripts/sync_site_url.py`。
@@ -56,7 +56,7 @@ curl -s https://campgearcompare.com/tent.html | grep canonical
 2. 下载 `googleXXXXXXXX.html`
 3. 放到项目**根目录**（与 `index.html` 同级）
 4. `git add googleXXXXXXXX.html && git commit && git push`
-5. 浏览器访问 `https://campgearcompare.com/googleXXXXXXXX.html` 确认 200
+5. 浏览器访问 `https://www.campgearcompare.com/googleXXXXXXXX.html` 确认 200
 6. GSC 点 **验证**
 
 ### 方式 B：DNS TXT（不改代码）
@@ -85,7 +85,7 @@ sitemap.xml
 | ✅ 正确 | ❌ 错误 |
 |--------|--------|
 | `sitemap.xml` | `/`（首页不是 sitemap） |
-| | `https://campgearcompare.com/` |
+| | `https://www.campgearcompare.com/` |
 
 成功标志：状态非「无法抓取」，**已发现的网页** 约 **6** 条。
 
@@ -97,12 +97,12 @@ sitemap.xml
 
 | 页面 | URL |
 |------|-----|
-| 首页 | `https://campgearcompare.com/` |
-| 帐篷 | `https://campgearcompare.com/tent.html` |
-| 天幕 | `https://campgearcompare.com/tarp.html` |
-| 睡袋 | `https://campgearcompare.com/sleeping-bag.html` |
-| 家具 | `https://campgearcompare.com/furniture.html` |
-| 法律 | `https://campgearcompare.com/legal.html` |
+| 首页 | `https://www.campgearcompare.com/` |
+| 帐篷 | `https://www.campgearcompare.com/tent.html` |
+| 天幕 | `https://www.campgearcompare.com/tarp.html` |
+| 睡袋 | `https://www.campgearcompare.com/sleeping-bag.html` |
+| 家具 | `https://www.campgearcompare.com/furniture.html` |
+| 法律 | `https://www.campgearcompare.com/legal.html` |
 
 `other.html`、`etc.html` 为 `noindex`，**不必**提交。
 
@@ -127,7 +127,7 @@ sitemap.xml
 ## 快速复制
 
 ```
-GSC 资源：https://campgearcompare.com
+GSC 资源：https://www.campgearcompare.com
 Sitemap：sitemap.xml
-Robots：https://campgearcompare.com/robots.txt
+Robots：https://www.campgearcompare.com/robots.txt
 ```

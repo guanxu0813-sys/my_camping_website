@@ -2,8 +2,8 @@
   "redirects": [
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "www.campgearcompare.com" }],
-      "destination": "https://campgearcompare.com/:path*",
+      "has": [{ "type": "host", "value": "campgearcompare.com" }],
+      "destination": "https://www.campgearcompare.com/:path*",
       "permanent": true
     }
   ]
