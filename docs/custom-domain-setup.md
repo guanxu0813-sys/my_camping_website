@@ -95,6 +95,8 @@ curl -s https://campgearcompare.com/tent.html | grep canonical
 
 旧资源 `my-camping-website.vercel.app` 可保留观察，但排名以正式域为准。
 
+详细步骤见 [`gsc-setup-campgearcompare.md`](./gsc-setup-campgearcompare.md)。
+
 ---
 
 ## 5. Plausible Analytics（正式域上线后）
