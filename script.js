@@ -29,11 +29,13 @@
       .then(function (cfg) {
         analyticsConfig = cfg;
         if (cfg && cfg.enabled && cfg.plausibleDomain) {
-          var s = document.createElement("script");
-          s.defer = true;
-          s.dataset.domain = cfg.plausibleDomain;
-          s.src = "https://plausible.io/js/script.js";
-          document.head.appendChild(s);
+          if (!document.querySelector('script[src="https://plausible.io/js/script.js"]')) {
+            var s = document.createElement("script");
+            s.defer = true;
+            s.dataset.domain = cfg.plausibleDomain;
+            s.src = "https://plausible.io/js/script.js";
+            document.head.appendChild(s);
+          }
         }
         return cfg;
       })
