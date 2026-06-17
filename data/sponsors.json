@@ -2,7 +2,7 @@
   "campaigns": [
     {
       "productId": "snow-peak-amenity-dome-m-ivory",
-      "active": true,
+      "active": false,
       "tier": "table-featured",
       "label": "Sponsored",
       "expiresAt": "2026-12-31",
