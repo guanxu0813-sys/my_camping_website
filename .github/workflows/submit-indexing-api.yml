@@ -1,0 +1,38 @@
+name: Submit URLs to Google Indexing API
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/seo.json"
+      - "sitemap.xml"
+      - "robots.txt"
+      - "*.html"
+      - "scripts/submit_indexing_api.py"
+      - ".github/workflows/submit-indexing-api.yml"
+  workflow_dispatch:
+
+jobs:
+  submit-indexing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Preview URLs (dry-run)
+        run: python3 scripts/submit_indexing_api.py --dry-run
+
+      - name: Skip — GSC_INDEXING_SA_JSON not configured
+        if: ${{ secrets.GSC_INDEXING_SA_JSON == '' }}
+        run: |
+          echo "::notice title=Indexing API skipped::Add repository secret GSC_INDEXING_SA_JSON. See docs/gsc-indexing-api-setup.md"
+
+      - name: Submit URLs to Google Indexing API
+        if: ${{ secrets.GSC_INDEXING_SA_JSON != '' }}
+        env:
+          GSC_INDEXING_SA_JSON: ${{ secrets.GSC_INDEXING_SA_JSON }}
+        run: |
+          echo "$GSC_INDEXING_SA_JSON" > /tmp/gsc-indexing-sa.json
+          chmod 600 /tmp/gsc-indexing-sa.json
+          export GOOGLE_APPLICATION_CREDENTIALS=/tmp/gsc-indexing-sa.json
+          pip install -q -r requirements-dev.txt
+          python3 scripts/submit_indexing_api.py

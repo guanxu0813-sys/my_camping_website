@@ -153,22 +153,51 @@ secrets/
 
 ## 7. 接入 CI（部署后自动提交）
 
-### 方案 A：GitHub Actions（推荐）
+### 已配置：GitHub Actions
 
-在 `.github/workflows/` 新增 workflow（**不要**把 JSON 写进仓库）：
+仓库 workflow：[`.github/workflows/submit-indexing-api.yml`](../.github/workflows/submit-indexing-api.yml)
 
-1. 将 `campgear-indexing-sa.json` 内容存入 GitHub **Secrets** → `GSC_INDEXING_SA_JSON`
-2. 在 `deploy` 或 `push main` 后：
+- **触发**：`main` 分支 push（SEO 相关文件变更）或手动 **Run workflow**
+- **无密钥时**：只跑 `--dry-run`，不会失败
+- **有密钥时**：自动对 `data/seo.json` 中 6 个 URL 调用 Indexing API
 
-```yaml
-- name: Submit URLs to Google Indexing API
-  env:
-    GSC_INDEXING_SA_JSON: ${{ secrets.GSC_INDEXING_SA_JSON }}
-  run: |
-    echo "$GSC_INDEXING_SA_JSON" > /tmp/sa.json
-    export GOOGLE_APPLICATION_CREDENTIALS=/tmp/sa.json
-    pip install google-auth requests
-    python3 scripts/submit_indexing_api.py
+### 你需要做的一次性配置（约 15 分钟）
+
+#### A. Google Cloud
+
+1. [Google Cloud Console](https://console.cloud.google.com/) → 新建项目 `campgear-indexing`
+2. **API 和服务 → 库** → 启用 **Web Search Indexing API**
+3. **IAM → 服务账号 → 创建** `campgear-gsc-indexing`
+4. **密钥 → 添加密钥 → JSON** → 下载 `campgear-indexing-sa.json`
+
+#### B. Search Console 授权
+
+1. [Search Console](https://search.google.com/search-console) → **`https://www.campgearcompare.com`**
+2. **设置 → 用户和权限 → 添加用户**
+3. 填入服务账号邮箱（JSON 内 `client_email`，形如 `xxx@xxx.iam.gserviceaccount.com`）
+4. 权限：**所有者**
+
+#### C. GitHub Secret
+
+1. 打开 GitHub 仓库 → **Settings → Secrets and variables → Actions**
+2. **New repository secret**
+3. Name：`GSC_INDEXING_SA_JSON`
+4. Value：粘贴 **整个** JSON 文件内容（从 `{` 到 `}`）
+5. 保存
+
+#### D. 验证
+
+1. GitHub → **Actions** → **Submit URLs to Google Indexing API** → **Run workflow**
+2. 日志中应出现 6 行 `OK https://www.campgearcompare.com/...`
+3. 若 `403`：检查 GSC 是否已添加服务账号、API 是否已启用
+
+### 本地手动运行（可选）
+
+```bash
+pip install -r requirements-dev.txt
+export GOOGLE_APPLICATION_CREDENTIALS="/path/to/campgear-indexing-sa.json"
+python3 scripts/submit_indexing_api.py --dry-run
+python3 scripts/submit_indexing_api.py
 ```
 
 ### 方案 B：Vercel Deploy Hook + 本地 cron
@@ -235,5 +264,5 @@ CampGear 主战场是 Google，**优先完成 Indexing API** 即可。
 - [ ] 本地 `GOOGLE_APPLICATION_CREDENTIALS` 指向 JSON
 - [ ] `python3 scripts/submit_indexing_api.py --dry-run` 输出 6 条 URL
 - [ ] 正式运行脚本，返回 200
-- [ ] （可选）GitHub Secret + Actions 部署后自动跑
+- [ ] （可选）GitHub Secret `GSC_INDEXING_SA_JSON` + Actions workflow 跑通
 - [ ] GSC 几天后查看「网页编制索引」是否增加

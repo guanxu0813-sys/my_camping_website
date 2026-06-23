@@ -123,7 +123,7 @@ sitemap.xml
 
 ## 6. 验证完成后（可选）
 
-- **自动提交索引（API）**：见 [`gsc-indexing-api-setup.md`](./gsc-indexing-api-setup.md)
+- **自动提交索引（API）**：见 [`gsc-indexing-api-setup.md`](./gsc-indexing-api-setup.md)（GitHub Actions 已配置，需添加 Secret `GSC_INDEXING_SA_JSON`）
 - 启用 Plausible：见 [`custom-domain-setup.md`](./custom-domain-setup.md) §5
 - 30 天后填媒体 kit 流量表：[`sponsor/media-kit-one-pager-zh.md`](./sponsor/media-kit-one-pager-zh.md)
 
