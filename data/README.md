@@ -75,6 +75,8 @@ python3 scripts/sync_site_url.py
 
 （同步各 HTML canonical、`sitemap.xml`、`robots.txt` 及 docs 中的站点链接。）完整 Vercel / DNS 步骤见 [`docs/custom-domain-setup.md`](../docs/custom-domain-setup.md)。
 
+百度搜索收录（与 Google 独立）：[`docs/baidu-setup-campgearcompare.md`](../docs/baidu-setup-campgearcompare.md)。验证通过后配置 `BAIDU_PUSH_TOKEN` 可自动 API 推送。
+
 ### 品牌赞助位
 
 活动配置 [`sponsors.json`](sponsors.json)（不必改 554 条产品 JSON）：

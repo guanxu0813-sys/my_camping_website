@@ -17,6 +17,28 @@
   var lastModalFocus = null;
   var analyticsConfig = null;
 
+  function isLocalDevHost() {
+    var host = window.location.hostname;
+    return host === "localhost" || host === "127.0.0.1";
+  }
+
+  function loadBaiduPush() {
+    if (window.location.protocol === "file:" || isLocalDevHost()) {
+      return;
+    }
+    var bp = document.createElement("script");
+    bp.src =
+      window.location.protocol === "https:"
+        ? "https://zz.bdstatic.com/linksubmit/push.js"
+        : "http://push.zhanzhang.baidu.com/push.js";
+    var first = document.getElementsByTagName("script")[0];
+    if (first && first.parentNode) {
+      first.parentNode.insertBefore(bp, first);
+    } else {
+      document.head.appendChild(bp);
+    }
+  }
+
   function loadAnalytics() {
     if (window.location.protocol === "file:") {
       return Promise.resolve(null);
@@ -1392,5 +1414,6 @@
     }
   }
 
+  loadBaiduPush();
   loadAnalytics().then(boot);
 })();

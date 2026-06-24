@@ -34,5 +34,16 @@ for p in seo["pages"]:
 PY
 
 echo ""
+echo "=== Baidu: verify + submit (manual) ==="
+echo "  1. https://ziyuan.baidu.com → 添加站点 $SITE_URL"
+echo "  2. 验证：根目录放置 baidu_verify_xxxx.html 或 DNS/meta"
+echo "  3. 普通收录 → Sitemap: sitemap.xml"
+echo "  4. API 提交 → 复制 token → GitHub secret BAIDU_PUSH_TOKEN"
+echo "  见 docs/baidu-setup-campgearcompare.md"
+echo ""
+echo "=== Baidu API dry-run ==="
+python3 "$ROOT/scripts/submit_baidu_urls.py" --dry-run || true
+
+echo ""
 echo "=== Live checks ==="
 bash "$ROOT/scripts/check_site_seo.sh" "$SITE_URL"
