@@ -21,16 +21,14 @@ jobs:
       - name: Preview URLs (dry-run)
         run: python3 scripts/submit_indexing_api.py --dry-run
 
-      - name: Skip — GSC_INDEXING_SA_JSON not configured
-        if: ${{ secrets.GSC_INDEXING_SA_JSON == '' }}
-        run: |
-          echo "::notice title=Indexing API skipped::Add repository secret GSC_INDEXING_SA_JSON. See docs/gsc-indexing-api-setup.md"
-
       - name: Submit URLs to Google Indexing API
-        if: ${{ secrets.GSC_INDEXING_SA_JSON != '' }}
         env:
           GSC_INDEXING_SA_JSON: ${{ secrets.GSC_INDEXING_SA_JSON }}
         run: |
+          if [ -z "$GSC_INDEXING_SA_JSON" ]; then
+            echo "::notice title=Indexing API skipped::Add repository secret GSC_INDEXING_SA_JSON. See docs/gsc-indexing-api-setup.md"
+            exit 0
+          fi
           echo "$GSC_INDEXING_SA_JSON" > /tmp/gsc-indexing-sa.json
           chmod 600 /tmp/gsc-indexing-sa.json
           export GOOGLE_APPLICATION_CREDENTIALS=/tmp/gsc-indexing-sa.json

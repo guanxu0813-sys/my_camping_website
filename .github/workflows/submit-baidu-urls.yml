@@ -21,15 +21,13 @@ jobs:
       - name: Preview URLs (dry-run)
         run: python3 scripts/submit_baidu_urls.py --dry-run
 
-      - name: Skip — BAIDU_PUSH_TOKEN not configured
-        if: ${{ secrets.BAIDU_PUSH_TOKEN == '' }}
-        run: |
-          echo "::notice title=Baidu API skipped::Add repository secret BAIDU_PUSH_TOKEN. See docs/baidu-setup-campgearcompare.md"
-
       - name: Submit URLs to Baidu API
-        if: ${{ secrets.BAIDU_PUSH_TOKEN != '' }}
         env:
           BAIDU_PUSH_TOKEN: ${{ secrets.BAIDU_PUSH_TOKEN }}
         run: |
+          if [ -z "$BAIDU_PUSH_TOKEN" ]; then
+            echo "::notice title=Baidu API skipped::Add repository secret BAIDU_PUSH_TOKEN. See docs/baidu-setup-campgearcompare.md"
+            exit 0
+          fi
           pip install -q -r requirements-dev.txt
           python3 scripts/submit_baidu_urls.py
