@@ -76,6 +76,17 @@ def push_urls(urls: list[str], site: str, token: str, dry_run: bool) -> int:
             remain = body.get("remain")
             if remain is not None:
                 print(f"    remain quota today: {remain}")
+        elif body.get("message") == "over quota":
+            print(
+                f"WARN quota exhausted site={site} — {body}",
+                file=sys.stderr,
+            )
+            print(
+                "Baidu daily API quota is used up (common for new sites). "
+                "Retry tomorrow or use manual submission.",
+                file=sys.stderr,
+            )
+            return 2
         else:
             errors += 1
             print(
@@ -109,5 +120,10 @@ def main() -> int:
     return push_urls(targets, site, token, args.dry_run)
 
 
+def exit_code(result: int) -> int:
+    # 2 = quota exhausted (not a workflow/config failure)
+    return 0 if result == 2 else result
+
+
 if __name__ == "__main__":
-    raise SystemExit(main())
+    raise SystemExit(exit_code(main()))

@@ -30,4 +30,9 @@ jobs:
             exit 0
           fi
           pip install -q -r requirements-dev.txt
-          python3 scripts/submit_baidu_urls.py
+          python3 scripts/submit_baidu_urls.py || code=$?
+          if [ "${code:-0}" -eq 2 ]; then
+            echo "::warning title=Baidu quota exhausted::Daily API quota used up. Retry tomorrow."
+            exit 0
+          fi
+          exit "${code:-0}"
