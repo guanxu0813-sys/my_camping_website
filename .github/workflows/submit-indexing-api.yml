@@ -8,6 +8,7 @@ on:
       - "sitemap.xml"
       - "robots.txt"
       - "*.html"
+      - "scripts/build_sitemap.py"
       - "scripts/submit_indexing_api.py"
       - ".github/workflows/submit-indexing-api.yml"
   workflow_dispatch:
@@ -17,6 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Build sitemap and SEO assets
+        run: python3 scripts/build_sitemap.py
 
       - name: Preview URLs (dry-run)
         run: python3 scripts/submit_indexing_api.py --dry-run

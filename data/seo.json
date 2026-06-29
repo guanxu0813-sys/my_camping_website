@@ -1,43 +1,71 @@
 {
   "siteUrl": "https://www.campgearcompare.com",
-  "baiduSite": "www.campgearcompare.com",
   "siteName": "CampGear Compare",
+  "baiduSite": "www.campgearcompare.com",
+  "defaultOgImage": "https://www.campgearcompare.com/assets/hero-home.jpg",
   "pages": [
     {
       "path": "/",
       "file": "index.html",
+      "title": "Compare Camping Gear Specs & Prices · CampGear Compare",
+      "description": "Side-by-side camping gear comparisons—tents, tarps, sleeping bags, and camp furniture. Sort by weight, capacity, and price from official brand specs.",
       "changefreq": "weekly",
-      "priority": "1.0"
+      "priority": "1.0",
+      "schema": "home"
     },
     {
       "path": "/tent.html",
       "file": "tent.html",
+      "title": "Compare Camping Tents by Weight, Capacity & Price · CampGear",
+      "description": "Compare 200+ camping tents side by side—weight, structure, capacity, fabric, and price. Data from Naturehike, Snow Peak, Big Agnes, and more official sources.",
       "changefreq": "weekly",
-      "priority": "0.9"
+      "priority": "0.9",
+      "schema": "category",
+      "categories": ["tent"],
+      "breadcrumb": "Tents"
     },
     {
       "path": "/tarp.html",
       "file": "tarp.html",
+      "title": "Compare Camping Tarps by Weight, Size & Price · CampGear",
+      "description": "Camping tarp comparison table—sort by weight, type, capacity, size, and price. Specs sourced from brand official websites.",
       "changefreq": "weekly",
-      "priority": "0.9"
+      "priority": "0.9",
+      "schema": "category",
+      "categories": ["tarp"],
+      "breadcrumb": "Tarps"
     },
     {
       "path": "/sleeping-bag.html",
       "file": "sleeping-bag.html",
+      "title": "Compare Sleeping Bags by Temp Rating & Weight · CampGear",
+      "description": "Sleeping bag spec comparison—comfort rating, fill type, weight, and price across major outdoor brands. Official data in a sortable table.",
       "changefreq": "weekly",
-      "priority": "0.9"
+      "priority": "0.9",
+      "schema": "category",
+      "categories": ["sleeping-bag"],
+      "breadcrumb": "Sleeping Bags"
     },
     {
       "path": "/furniture.html",
       "file": "furniture.html",
+      "title": "Compare Camp Tables & Chairs by Weight & Price · CampGear",
+      "description": "Camp furniture comparison—camping tables and chairs sorted by brand, weight, and price. Helinox, Snow Peak, DOD, and more.",
       "changefreq": "weekly",
-      "priority": "0.8"
+      "priority": "0.8",
+      "schema": "category",
+      "categories": ["table", "chair"],
+      "breadcrumb": "Furniture"
     },
     {
       "path": "/legal.html",
       "file": "legal.html",
+      "title": "Legal & Policies · CampGear Compare",
+      "description": "Affiliate disclosure, privacy policy, content and IP policy, and sponsor policy for CampGear Compare camping gear comparison site.",
       "changefreq": "monthly",
-      "priority": "0.3"
+      "priority": "0.3",
+      "schema": "legal",
+      "breadcrumb": "Legal"
     }
   ]
 }

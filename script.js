@@ -1,10 +1,22 @@
 (function () {
   var header = document.querySelector(".site-header");
   var navHeight = header ? header.offsetHeight : 68;
-  var filter = "all";
+  var brandFilter = "all";
+  var searchQuery = "";
+  var catalogLoaded = false;
+  var catalogLoadPromise = null;
+  var navSearchBound = false;
+  var categoryFiltersBound = false;
   var brands = [];
   var products = [];
   var brandMap = {};
+  var CATEGORY_PAGES = {
+    tent: "tent.html",
+    tarp: "tarp.html",
+    "sleeping-bag": "sleeping-bag.html",
+    table: "furniture.html",
+    chair: "furniture.html",
+  };
   var tableSort = {
     tent: { key: null, dir: "asc" },
     tarp: { key: null, dir: "asc" },
@@ -259,7 +271,14 @@
   }
 
   function compareTableRowAttrs(product) {
-    return hasTableSponsor(product) ? ' class="compare-table__row--sponsored"' : "";
+    var attrs =
+      ' data-product-id="' +
+      escapeHtml(product.id) +
+      '" data-brand-id="' +
+      escapeHtml(product.brandId) +
+      '"';
+    if (hasTableSponsor(product)) attrs += ' class="compare-table__row--sponsored"';
+    return attrs;
   }
 
   function prepareCompareRows(rows, category) {
@@ -329,23 +348,414 @@
     return brandName(product.brandId) + " " + product.model;
   }
 
-  function applyFilter() {
-    document.querySelectorAll("[data-compare-group]").forEach(function (el) {
-      var group = el.getAttribute("data-compare-group");
-      var show = filter === "all" || filter === group;
-      el.classList.toggle("is-hidden", !show);
+  function normalizeSearchText(text) {
+    return String(text || "").trim().toLowerCase();
+  }
+
+  function productSearchHaystack(product) {
+    var parts = [
+      brandName(product.brandId),
+      product.brandId,
+      product.model,
+      product.structure,
+      product.fabric,
+      product.capacity,
+      product.tarpType,
+      product.bagType,
+      product.fillType,
+      product.comfortTemp,
+      product.subcategory,
+      product.size,
+      product.weightDisplay,
+      product.weightRange,
+    ];
+    return parts.filter(Boolean).join(" ").toLowerCase();
+  }
+
+  function productMatchesSearch(product, query) {
+    if (!query) return true;
+    return productSearchHaystack(product).indexOf(query) !== -1;
+  }
+
+  function productMatchesBrandFilter(product, brandId) {
+    if (!brandId || brandId === "all") return true;
+    return product.brandId === brandId;
+  }
+
+  function productInCategories(product, categories) {
+    return categories.indexOf(product.category) !== -1;
+  }
+
+  function currentPageCategories() {
+    var page = document.body.getAttribute("data-page");
+    if (page === "furniture") return ["table", "chair"];
+    var category = document.body.getAttribute("data-category");
+    return category ? [category] : [];
+  }
+
+  function syncSearchInputs(value, source) {
+    searchQuery = value;
+    var navInput = document.getElementById("nav-search-input");
+    var pageInput = document.getElementById("catalog-search-input");
+    if (navInput && navInput !== source) navInput.value = value;
+    if (pageInput && pageInput !== source) pageInput.value = value;
+    document.querySelectorAll(".nav-search__clear, .catalog-search__clear").forEach(function (btn) {
+      btn.hidden = !value;
     });
   }
 
-  document.querySelectorAll(".filter-chip").forEach(function (btn) {
-    btn.addEventListener("click", function () {
-      filter = btn.getAttribute("data-filter") || "all";
-      document.querySelectorAll(".filter-chip").forEach(function (b) {
-        b.classList.toggle("is-active", b === btn);
-      });
-      applyFilter();
+  function updateSearchUrl() {
+    if (window.location.protocol === "file:") return;
+    var page = document.body.getAttribute("data-page");
+    if (page !== "category" && page !== "furniture") return;
+    var url = new URL(window.location.href);
+    if (searchQuery) {
+      url.searchParams.set("q", searchQuery);
+    } else {
+      url.searchParams.delete("q");
+    }
+    history.replaceState(null, "", url.pathname + url.search + url.hash);
+  }
+
+  function readSearchFromUrl() {
+    if (window.location.protocol === "file:") return;
+    var q = new URL(window.location.href).searchParams.get("q");
+    if (!q) return;
+    syncSearchInputs(q);
+  }
+
+  function setBrandFilter(brandId) {
+    brandFilter = brandId || "all";
+    document.querySelectorAll("[data-brand-filter]").forEach(function (btn) {
+      var active = (btn.getAttribute("data-brand-filter") || "all") === brandFilter;
+      btn.classList.toggle("is-active", active);
+      btn.setAttribute("aria-pressed", active ? "true" : "false");
     });
-  });
+  }
+
+  function applyCatalogFilters() {
+    var categories = currentPageCategories();
+    if (!categories.length) return;
+
+    var query = normalizeSearchText(searchQuery);
+    var seenIds = {};
+    var visibleIds = {};
+
+    document.querySelectorAll("tr[data-product-id], .matrix-card[data-product-id]").forEach(function (el) {
+      var id = el.getAttribute("data-product-id");
+      var product = findProductById(id);
+      if (!product || !productInCategories(product, categories)) return;
+      seenIds[id] = true;
+      var show =
+        productMatchesBrandFilter(product, brandFilter) && productMatchesSearch(product, query);
+      el.classList.toggle("is-filtered-out", !show);
+      if (show) visibleIds[id] = true;
+    });
+
+    document.querySelectorAll(".compare-block").forEach(function (block) {
+      var rows = block.querySelectorAll("tbody tr[data-product-id]");
+      if (!rows.length) return;
+      var anyVisible = false;
+      rows.forEach(function (row) {
+        if (!row.classList.contains("is-filtered-out")) anyVisible = true;
+      });
+      block.classList.toggle("is-filtered-empty", !anyVisible);
+    });
+
+    document.querySelectorAll(".product-matrix").forEach(function (matrix) {
+      var cards = matrix.querySelectorAll(".matrix-card[data-product-id]");
+      if (!cards.length) return;
+      var anyVisible = false;
+      cards.forEach(function (card) {
+        if (!card.classList.contains("is-filtered-out")) anyVisible = true;
+      });
+      matrix.classList.toggle("is-filtered-empty", !anyVisible);
+    });
+
+    var totalCount = Object.keys(seenIds).length;
+    var visibleCount = Object.keys(visibleIds).length;
+
+    var statusEl = document.getElementById("catalog-filter-status");
+    if (statusEl) {
+      var filtering = query || (brandFilter && brandFilter !== "all");
+      if (!filtering) {
+        statusEl.hidden = true;
+        statusEl.textContent = "";
+      } else {
+        statusEl.hidden = false;
+        statusEl.textContent =
+          visibleCount === totalCount
+            ? "Showing all " + totalCount + " models"
+            : "Showing " + visibleCount + " of " + totalCount + " models";
+      }
+    }
+
+    updateSearchUrl();
+    renderNavSearchResults();
+  }
+
+  function onSearchInput(value, source) {
+    syncSearchInputs(value, source);
+    applyCatalogFilters();
+  }
+
+  function onBrandFilterClick(brandId) {
+    setBrandFilter(brandId);
+    applyCatalogFilters();
+  }
+
+  function categoryBrandIds(category) {
+    var categories = category === "furniture" ? ["table", "chair"] : [category];
+    var seen = {};
+    var ids = [];
+    products.forEach(function (p) {
+      if (categories.indexOf(p.category) === -1) return;
+      if (p.inSummaryTable === false && category !== "furniture") return;
+      if (!p.brandId || seen[p.brandId]) return;
+      seen[p.brandId] = true;
+      ids.push(p.brandId);
+    });
+    ids.sort(function (a, b) {
+      return brandRank(a) - brandRank(b);
+    });
+    return ids;
+  }
+
+  function renderBrandFilterToolbar(category) {
+    var toolbar = document.getElementById("brand-filter-toolbar");
+    if (!toolbar) return;
+    var ids = categoryBrandIds(category);
+    var chips =
+      '<button type="button" class="filter-chip is-active" data-brand-filter="all" aria-pressed="true">All brands</button>';
+    ids.forEach(function (brandId) {
+      chips +=
+        '<button type="button" class="filter-chip" data-brand-filter="' +
+        escapeHtml(brandId) +
+        '" aria-pressed="false">' +
+        escapeHtml(brandName(brandId)) +
+        "</button>";
+    });
+    toolbar.innerHTML = chips;
+    setBrandFilter(brandFilter);
+  }
+
+  function ensureCategoryFilters(category) {
+    var page = document.body.getAttribute("data-page");
+    if (page !== "category" && page !== "furniture") return;
+
+    var mount =
+      page === "furniture"
+        ? document.getElementById("category-brands") || document.querySelector(".page__head")
+        : document.getElementById("catalog-status") || document.querySelector(".page__head");
+    if (!mount) return;
+
+    var root = document.getElementById("catalog-filters");
+    if (!root) {
+      root = document.createElement("div");
+      root.id = "catalog-filters";
+      root.className = "catalog-filters";
+      root.innerHTML =
+        '<div class="catalog-search">' +
+        '<label class="catalog-search__label" for="catalog-search-input">Search models</label>' +
+        '<div class="catalog-search__field">' +
+        '<input type="search" id="catalog-search-input" class="catalog-search__input" placeholder="Brand, model, or spec…" autocomplete="off" enterkeyhint="search" />' +
+        '<button type="button" class="catalog-search__clear" hidden aria-label="Clear search">×</button>' +
+        "</div></div>" +
+        '<div class="filter-toolbar" id="brand-filter-toolbar" role="group" aria-label="Filter by brand"></div>' +
+        '<p class="catalog-filters__status" id="catalog-filter-status" hidden></p>';
+      mount.insertAdjacentElement("afterend", root);
+    }
+
+    renderBrandFilterToolbar(category);
+
+    if (!categoryFiltersBound) {
+      categoryFiltersBound = true;
+      root.addEventListener("input", function (e) {
+        if (e.target.id === "catalog-search-input") {
+          onSearchInput(e.target.value, e.target);
+        }
+      });
+      root.addEventListener("click", function (e) {
+        var clearBtn = e.target.closest(".catalog-search__clear");
+        if (clearBtn) {
+          onSearchInput("", null);
+          var input = document.getElementById("catalog-search-input");
+          if (input) input.focus();
+          return;
+        }
+        var chip = e.target.closest("[data-brand-filter]");
+        if (chip) {
+          onBrandFilterClick(chip.getAttribute("data-brand-filter") || "all");
+        }
+      });
+    }
+
+    syncSearchInputs(searchQuery);
+  }
+
+  function searchAllProducts(query, limit) {
+    var normalized = normalizeSearchText(query);
+    if (!normalized) return [];
+    var max = limit || 8;
+    var matches = [];
+    for (var i = 0; i < products.length; i++) {
+      var product = products[i];
+      if (!productMatchesSearch(product, normalized)) continue;
+      matches.push(product);
+      if (matches.length >= max) break;
+    }
+    return matches;
+  }
+
+  function productResultHref(product) {
+    var page = CATEGORY_PAGES[product.category] || "index.html";
+    var href = page + "?q=" + encodeURIComponent(product.model || "");
+    return href;
+  }
+
+  function renderNavSearchResults() {
+    var panel = document.getElementById("nav-search-results");
+    var input = document.getElementById("nav-search-input");
+    if (!panel || !input) return;
+
+    var page = document.body.getAttribute("data-page");
+    if (page === "category" || page === "furniture") {
+      panel.hidden = true;
+      panel.innerHTML = "";
+      return;
+    }
+
+    var query = normalizeSearchText(input.value);
+    if (!query) {
+      panel.hidden = true;
+      panel.innerHTML = "";
+      return;
+    }
+
+    if (!catalogLoaded) {
+      panel.hidden = false;
+      panel.innerHTML = '<p class="nav-search__hint">Loading product index…</p>';
+      ensureCatalogForSearch().then(function () {
+        renderNavSearchResults();
+      });
+      return;
+    }
+
+    var matches = searchAllProducts(query, 8);
+    if (!matches.length) {
+      panel.hidden = false;
+      panel.innerHTML = '<p class="nav-search__empty">No matching models</p>';
+      return;
+    }
+
+    panel.hidden = false;
+    panel.innerHTML = matches
+      .map(function (product) {
+        var categoryLabel = CATEGORY_LABELS[product.category] || product.category;
+        return (
+          '<a class="nav-search__result" href="' +
+          escapeHtml(productResultHref(product)) +
+          '">' +
+          '<span class="nav-search__result-name">' +
+          escapeHtml(fullModelName(product)) +
+          "</span>" +
+          '<span class="nav-search__result-meta">' +
+          escapeHtml(categoryLabel) +
+          "</span></a>"
+        );
+      })
+      .join("");
+  }
+
+  function bindNavSearch() {
+    if (navSearchBound) return;
+    var form = document.querySelector(".nav-search__form");
+    var input = document.getElementById("nav-search-input");
+    if (!form || !input) return;
+    navSearchBound = true;
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var page = document.body.getAttribute("data-page");
+      if (page === "category" || page === "furniture") {
+        applyCatalogFilters();
+        var compare = document.getElementById("compare") || document.getElementById("tables-section");
+        if (compare) scrollToHash("#" + compare.id);
+        return;
+      }
+      renderNavSearchResults();
+      var first = document.querySelector(".nav-search__result");
+      if (first) {
+        window.location.href = first.getAttribute("href");
+      }
+    });
+
+    input.addEventListener("input", function () {
+      var page = document.body.getAttribute("data-page");
+      if (page === "category" || page === "furniture") {
+        onSearchInput(input.value, input);
+      } else {
+        renderNavSearchResults();
+      }
+    });
+
+    input.addEventListener("focus", function () {
+      if (document.body.getAttribute("data-page") === "home") {
+        ensureCatalogForSearch();
+      }
+      renderNavSearchResults();
+    });
+
+    document.addEventListener("click", function (e) {
+      var panel = document.getElementById("nav-search-results");
+      if (!panel || panel.hidden) return;
+      if (e.target.closest(".nav-search")) return;
+      panel.hidden = true;
+    });
+
+    var clearBtn = document.querySelector(".nav-search__clear");
+    if (clearBtn) {
+      clearBtn.addEventListener("click", function () {
+        onSearchInput("", null);
+        input.focus();
+        renderNavSearchResults();
+      });
+    }
+  }
+
+  function injectNavSearch() {
+    var nav = document.querySelector(".site-header .nav");
+    if (!nav || nav.querySelector(".nav-search")) return;
+
+    var wrap = document.createElement("div");
+    wrap.className = "nav-search";
+    wrap.innerHTML =
+      '<form class="nav-search__form" role="search">' +
+      '<label class="visually-hidden" for="nav-search-input">Search camping gear</label>' +
+      '<span class="nav-search__icon" aria-hidden="true">' +
+      '<svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>' +
+      "</span>" +
+      '<input type="search" id="nav-search-input" class="nav-search__input" placeholder="Search models…" autocomplete="off" enterkeyhint="search" />' +
+      '<button type="button" class="nav-search__clear" hidden aria-label="Clear search">×</button>' +
+      "</form>" +
+      '<div class="nav-search__results" id="nav-search-results" hidden></div>';
+    var links = nav.querySelector(".nav__links");
+    if (links) {
+      nav.insertBefore(wrap, links);
+    } else {
+      nav.appendChild(wrap);
+    }
+    bindNavSearch();
+  }
+
+  function ensureCatalogForSearch() {
+    if (catalogLoaded) return Promise.resolve();
+    if (catalogLoadPromise) return catalogLoadPromise;
+    catalogLoadPromise = Promise.resolve(loadCatalog()).then(function () {
+      return catalogLoaded;
+    });
+    return catalogLoadPromise;
+  }
 
   function parseFirstNumber(text) {
     if (text == null || text === "") return null;
@@ -656,7 +1066,7 @@
     var body = rows
       .map(function (p) {
         return (
-          "<tr>" +
+          "<tr" + compareTableRowAttrs(p) + ">" +
           "<td>" + escapeHtml(fullModelName(p)) + "</td>" +
           "<td>" + escapeHtml(priceForProduct(p)) + "</td>" +
           "<td>" + escapeHtml(displayCell(p.pros)) + "</td>" +
@@ -849,6 +1259,8 @@
     if (compareHtml) {
       bindTableSortHandlers();
     }
+    ensureCategoryFilters(category);
+    applyCatalogFilters();
     scrollToProductHashIfPresent();
   }
 
@@ -872,7 +1284,11 @@
         '" width="320" height="240" loading="lazy" />'
       : '<span class="matrix-card__no-img">No image</span>';
     return (
-      '<article class="matrix-card" role="listitem">' +
+      '<article class="matrix-card" role="listitem" data-product-id="' +
+      escapeHtml(product.id) +
+      '" data-brand-id="' +
+      escapeHtml(product.brandId) +
+      '">' +
       '<button type="button" class="matrix-card__btn" data-product-id="' +
       escapeHtml(product.id) +
       '" aria-label="View ' +
@@ -1116,6 +1532,8 @@
 
     bindProductModalHandlers();
     bindFurnitureMatrixHandlers();
+    ensureCategoryFilters("furniture");
+    applyCatalogFilters();
   }
 
   function setStatus(message, isError) {
@@ -1300,6 +1718,7 @@
       if (b && b.id) brandMap[b.id] = b;
     });
     products = productsFromOfficial(productsData, brands);
+    catalogLoaded = true;
     if (sponsorsData && sponsorsData.campaigns) {
       applySponsorCampaigns(sponsorsData.campaigns);
     }
@@ -1406,9 +1825,12 @@
   bindOutboundTracking();
 
   function boot() {
+    injectNavSearch();
+    readSearchFromUrl();
     var page = document.body.getAttribute("data-page") || "home";
     if (page === "home") {
       loadSite();
+      ensureCatalogForSearch();
     } else if (page === "category" || page === "furniture") {
       loadCatalog();
     }

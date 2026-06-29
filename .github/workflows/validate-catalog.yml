@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - "data/**"
+      - "data/seo.json"
+      - "scripts/build_sitemap.py"
       - ".github/workflows/validate-catalog.yml"
   pull_request:
     paths:
@@ -27,6 +29,9 @@ jobs:
 
       - name: Build catalog.js bundle
         run: python3 scripts/build_catalog.py
+
+      - name: Build sitemap and SEO assets
+        run: python3 scripts/build_sitemap.py
 
       - name: Validate official catalog
         run: python3 scripts/validate_official.py
