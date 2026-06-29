@@ -1258,6 +1258,22 @@ a {
   text-decoration: none;
 }
 
+.site-footer__brand-url {
+  margin: 0 0 0.65rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--color-forest);
+}
+
+.site-footer__brand-url a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-footer__brand-url a:hover {
+  color: var(--color-moss);
+}
+
 .site-footer__copy {
   margin: 0;
   font-size: 0.82rem;

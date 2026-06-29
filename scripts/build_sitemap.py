@@ -109,6 +109,40 @@ def escape_html(text: str) -> str:
     )
 
 
+def brand_config(seo: dict) -> dict:
+    return seo.get("brand") or {}
+
+
+def site_domain(seo: dict) -> str:
+    url = seo.get("siteUrl", "").rstrip("/")
+    domain = url.replace("https://", "").replace("http://", "")
+    if domain.startswith("www."):
+        domain = domain[4:]
+    return domain
+
+
+def build_organization_node(site_url: str, seo: dict) -> dict:
+    site_name = seo.get("siteName", "CampGear Compare")
+    brand = brand_config(seo)
+    org: dict = {
+        "@type": "Organization",
+        "@id": f"{site_url}/#organization",
+        "name": brand.get("displayName") or site_name,
+        "url": f"{site_url}/",
+        "logo": f"{site_url}/favicon.svg",
+    }
+    alternate = brand.get("alternateNames") or []
+    if alternate:
+        org["alternateName"] = alternate
+    description = brand.get("description")
+    if description:
+        org["description"] = description
+    same_as = [u for u in (brand.get("sameAs") or []) if u]
+    if same_as:
+        org["sameAs"] = same_as
+    return org
+
+
 def build_og_and_twitter(page: dict, site_url: str, seo: dict) -> str:
     title = page["title"]
     description = page["description"]
@@ -126,6 +160,10 @@ def build_og_and_twitter(page: dict, site_url: str, seo: dict) -> str:
         f'<meta name="twitter:description" content="{escape_html(description)}" />',
         f'<meta name="twitter:image" content="{image}" />',
     ]
+    if page.get("schema") == "home":
+        keywords = brand_config(seo).get("keywords")
+        if keywords:
+            lines.append(f'<meta name="keywords" content="{escape_html(keywords)}" />')
     return "\n  ".join(lines)
 
 
@@ -134,13 +172,7 @@ def build_home_schema(site_url: str, seo: dict) -> dict:
     return {
         "@context": "https://schema.org",
         "@graph": [
-            {
-                "@type": "Organization",
-                "@id": f"{site_url}/#organization",
-                "name": site_name,
-                "url": f"{site_url}/",
-                "logo": f"{site_url}/favicon.svg",
-            },
+            build_organization_node(site_url, seo),
             {
                 "@type": "WebSite",
                 "@id": f"{site_url}/#website",
@@ -307,6 +339,7 @@ def build_crawl_paragraph(
     page: dict,
     products: list[dict],
     brands: dict[str, dict],
+    seo: dict,
 ) -> str:
     rows = sorted_products_for_page(page, products, brands)
     if not rows:
@@ -336,10 +369,22 @@ def build_crawl_paragraph(
     if len(brand_names) > 14:
         brands_text += ", and more"
     samples_text = "; ".join(sample_models)
+    brand = brand_config(seo).get("displayName") or seo.get("siteName", "CampGear Compare")
+    domain = site_domain(seo)
     return (
+        f"{brand} ({domain}) — "
         f"Compare {len(rows)} {label_plural} from {brands_text}. "
         f"Sortable specs include weight, capacity, materials, and reference price. "
         f"Featured models: {samples_text}."
+    )
+
+
+def build_home_crawl_paragraph(seo: dict) -> str:
+    brand = brand_config(seo).get("displayName") or seo.get("siteName", "CampGear Compare")
+    domain = site_domain(seo)
+    return (
+        f"{brand} — {domain} · Side-by-side camping gear spec comparisons from official brand data. "
+        f"露营装备参数对比：帐篷、天幕、睡袋、露营家具。"
     )
 
 
@@ -347,15 +392,33 @@ def build_crawl_block(
     page: dict,
     products: list[dict],
     brands: dict[str, dict],
+    seo: dict,
 ) -> str:
-    paragraph = build_crawl_paragraph(page, products, brands)
+    if page.get("schema") == "home":
+        paragraph = build_home_crawl_paragraph(seo)
+    else:
+        paragraph = build_crawl_paragraph(page, products, brands, seo)
     if not paragraph:
         return ""
+    crawl_id = "seo-crawl-home" if page.get("schema") == "home" else "seo-crawl"
     return (
         f"{SEO_CRAWL_START}\n"
-        f'  <p class="seo-crawl" id="seo-crawl">{escape_html(paragraph)}</p>\n'
+        f'  <p class="seo-crawl" id="{crawl_id}">{escape_html(paragraph)}</p>\n'
         f"  {SEO_CRAWL_END}"
     )
+
+
+def sync_html_title_description(text: str, page: dict) -> str:
+    title = escape_html(page["title"])
+    description = escape_html(page["description"])
+    text = re.sub(r"<title>[^<]*</title>", f"<title>{title}</title>", text, count=1)
+    text = re.sub(
+        r'<meta name="description" content="[^"]*" />',
+        f'<meta name="description" content="{description}" />',
+        text,
+        count=1,
+    )
+    return text
 
 
 def inject_html_seo(
@@ -370,6 +433,7 @@ def inject_html_seo(
         return False
 
     text = html_path.read_text(encoding="utf-8")
+    text = sync_html_title_description(text, page)
     head_block = build_seo_head_block(page, site_url, seo, products, brands)
     head_pattern = re.compile(re.escape(SEO_HEAD_START) + r".*?" + re.escape(SEO_HEAD_END), re.DOTALL)
     if head_pattern.search(text):
@@ -383,7 +447,7 @@ def inject_html_seo(
         )
 
     if page.get("schema") == "category":
-        crawl_block = build_crawl_block(page, products, brands)
+        crawl_block = build_crawl_block(page, products, brands, seo)
         if crawl_block:
             crawl_pattern = re.compile(
                 re.escape(SEO_CRAWL_START) + r".*?" + re.escape(SEO_CRAWL_END),
@@ -394,6 +458,23 @@ def inject_html_seo(
             else:
                 text = re.sub(
                     r'(class="page__lead page__lead--compact">[^<]+</p>\n)',
+                    r"\1\n    " + crawl_block + "\n",
+                    text,
+                    count=1,
+                )
+
+    if page.get("schema") == "home":
+        crawl_block = build_crawl_block(page, products, brands, seo)
+        if crawl_block:
+            crawl_pattern = re.compile(
+                re.escape(SEO_CRAWL_START) + r".*?" + re.escape(SEO_CRAWL_END),
+                re.DOTALL,
+            )
+            if crawl_pattern.search(text):
+                text = crawl_pattern.sub(crawl_block, text, count=1)
+            else:
+                text = re.sub(
+                    r'(</section>\n\n  <main class="page page--home">)',
                     r"\1\n    " + crawl_block + "\n",
                     text,
                     count=1,

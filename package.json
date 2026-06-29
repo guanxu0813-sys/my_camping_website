@@ -1,7 +1,7 @@
 {
   "name": "my_camping_website",
   "version": "1.0.0",
-  "description": "",
+  "description": "CampGear Compare — side-by-side camping gear spec comparisons at campgearcompare.com",
   "main": "script.js",
   "directories": {
     "doc": "docs"
@@ -13,14 +13,14 @@
     "type": "git",
     "url": "git+https://github.com/guanxu0813-sys/my_camping_website.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["campgearcompare", "CampGear Compare", "camping gear", "comparison"],
+  "author": "CampGear Compare",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/guanxu0813-sys/my_camping_website/issues"
   },
-  "homepage": "https://github.com/guanxu0813-sys/my_camping_website#readme",
+  "homepage": "https://www.campgearcompare.com",
   "devDependencies": {
     "jsdom": "^29.1.1"
   }
