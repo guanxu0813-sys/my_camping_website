@@ -7,7 +7,7 @@
     "displayName": "CampGear Compare",
     "alternateNames": ["campgearcompare", "campgearcompare.com", "CampGearCompare"],
     "description": "CampGear Compare (campgearcompare.com) — side-by-side camping gear spec comparisons from official brand data.",
-    "keywords": "CampGear Compare,campgearcompare,露营装备对比,帐篷对比,睡袋对比",
+    "keywords": "CampGear Compare,campgearcompare,露营装备对比,帐篷对比,睡袋对比,睡垫对比",
     "sameAs": [
       "https://github.com/guanxu0813-sys/my_camping_website"
     ]
@@ -54,6 +54,17 @@
       "schema": "category",
       "categories": ["sleeping-bag"],
       "breadcrumb": "Sleeping Bags"
+    },
+    {
+      "path": "/sleeping-pad.html",
+      "file": "sleeping-pad.html",
+      "title": "Compare Sleeping Pads by R-Value & Weight · CampGear Compare",
+      "description": "Sleeping pad spec comparison on CampGear Compare — R-value, pad type, weight, size, and price across Naturehike, Sea to Summit, NEMO, Therm-a-Rest, Klymit, and more.",
+      "changefreq": "weekly",
+      "priority": "0.9",
+      "schema": "category",
+      "categories": ["sleeping-pad"],
+      "breadcrumb": "Sleeping Pads"
     },
     {
       "path": "/furniture.html",

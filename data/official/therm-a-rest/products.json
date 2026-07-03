@@ -1,0 +1,462 @@
+[
+  {
+    "id": "therm-a-rest-basecamp-sleeping-pad",
+    "brandId": "therm-a-rest",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "BaseCamp™ Sleeping Pad",
+    "modelEn": "BaseCamp™ Sleeping Pad",
+    "description": "Built to offer supreme comfort in the frontcountry.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.13,
+      "weightDisplay": "~1.13 kg"
+    },
+    "highlights": [
+      "Built to offer supreme comfort in the frontcountry."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0574/0642/3174/files/13282_thermarest_basecamp_poseidon_large_angle.jpg?v=1724820222",
+    "imageAlt": "BaseCamp™ Sleeping Pad",
+    "sourceUrl": "https://www.thermarest.com/products/basecamp-sleeping-pad",
+    "sourceSite": "thermarest.com",
+    "scrapedAt": "2026-07-03T14:49:06Z",
+    "status": "draft",
+    "published": true,
+    "price": 119.95,
+    "priceMin": 119.95,
+    "priceMax": 159.95
+  },
+  {
+    "id": "therm-a-rest-luxurymap-sleeping-pad",
+    "brandId": "therm-a-rest",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "LuxuryMap™ Sleeping Pad",
+    "modelEn": "LuxuryMap™ Sleeping Pad",
+    "description": "Self-inflating foam with three inches of extra comfort thanks to targeted pressure mapping.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.47,
+      "weightDisplay": "~1.47 kg",
+      "padType": "Self-inflating"
+    },
+    "highlights": [
+      "Self-inflating foam with three inches of extra comfort thanks to targeted pressure mapping."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0574/0642/3174/files/13279_thermarest_luxurymap_poseidon_large_angle.jpg?v=1724820242",
+    "imageAlt": "LuxuryMap™ Sleeping Pad",
+    "sourceUrl": "https://www.thermarest.com/products/luxurymap-sleeping-pad",
+    "sourceSite": "thermarest.com",
+    "scrapedAt": "2026-07-03T14:49:06Z",
+    "status": "draft",
+    "published": true,
+    "price": 189.95,
+    "priceMin": 189.95,
+    "priceMax": 249.95
+  },
+  {
+    "id": "therm-a-rest-mattress-straps",
+    "brandId": "therm-a-rest",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Mattress Straps",
+    "modelEn": "Mattress Straps",
+    "description": "Locking nylon straps for keeping mattresses rolled tight or securing to packs.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.05,
+      "weightDisplay": "~0.05 kg"
+    },
+    "highlights": [
+      "Locking nylon straps for keeping mattresses rolled tight or securing to packs."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0574/0642/3174/files/04021-thermarest-mattress-straps-42in.jpg?v=1724820241",
+    "imageAlt": "Mattress Straps",
+    "sourceUrl": "https://www.thermarest.com/products/mattress-straps",
+    "sourceSite": "thermarest.com",
+    "scrapedAt": "2026-07-03T14:49:06Z",
+    "status": "draft",
+    "published": true,
+    "price": 8.89,
+    "priceMin": 8.89,
+    "priceMax": 8.89
+  },
+  {
+    "id": "therm-a-rest-mondoking-3d-sleeping-pad",
+    "brandId": "therm-a-rest",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "MondoKing™ 3D Sleeping Pad",
+    "modelEn": "MondoKing™ 3D Sleeping Pad",
+    "description": "Built with StrataCore construction, camp like royalty with luxury support and 3D shape.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.98,
+      "weightDisplay": "~1.98 kg"
+    },
+    "highlights": [
+      "Built with StrataCore construction, camp like royalty with luxury support and 3D shape."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0574/0642/3174/files/13225_thermarest_mondoking_marine_large_angle_gear_junkie_award.jpg?v=1747407060",
+    "imageAlt": "MondoKing™ 3D Sleeping Pad",
+    "sourceUrl": "https://www.thermarest.com/products/mondoking-3d-sleeping-pad",
+    "sourceSite": "thermarest.com",
+    "scrapedAt": "2026-07-03T14:49:06Z",
+    "status": "draft",
+    "published": true,
+    "price": 259.95,
+    "priceMin": 259.95,
+    "priceMax": 289.95
+  },
+  {
+    "id": "therm-a-rest-neoair-micro-pump",
+    "brandId": "therm-a-rest",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "NeoAir® Micro Pump",
+    "modelEn": "NeoAir® Micro Pump",
+    "description": "The NeoAir Micro Pump is a compact and powerful electronic pump to inflate your Therm-a-Rest pad with a WingLock or TwinLock valve.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.07,
+      "weightDisplay": "~0.07 kg",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "The NeoAir Micro Pump is a compact and powerful electronic pump to inflate your Therm-a-Rest pad with a WingLock or TwinLock valve."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0574/0642/3174/files/13227_thermarest_neoair_micro_pump_angle.jpg?v=1724820253",
+    "imageAlt": "NeoAir® Micro Pump",
+    "sourceUrl": "https://www.thermarest.com/products/neoair-micro-pump",
+    "sourceSite": "thermarest.com",
+    "scrapedAt": "2026-07-03T14:49:06Z",
+    "status": "draft",
+    "published": true,
+    "price": 44.95,
+    "priceMin": 44.95,
+    "priceMax": 44.95
+  },
+  {
+    "id": "therm-a-rest-neoair-xlite-nxt-max-sleeping-pad",
+    "brandId": "therm-a-rest",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "NeoAir® XLite™ NXT MAX Sleeping Pad",
+    "modelEn": "NeoAir® XLite™ NXT MAX Sleeping Pad",
+    "description": "Full rectangular option of the most advanced all-season ultralight air pad.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.54,
+      "weightDisplay": "~0.54 kg",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "Full rectangular option of the most advanced all-season ultralight air pad."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0574/0642/3174/files/11631_thermarest_neoair_xlite_nxt_max_solarflare_regular_wide_angle.jpg?v=1724820254",
+    "imageAlt": "NeoAir® XLite™ NXT MAX Sleeping Pad",
+    "sourceUrl": "https://www.thermarest.com/products/neoair-xlite-nxt-max-sleeping-pad",
+    "sourceSite": "thermarest.com",
+    "scrapedAt": "2026-07-03T14:49:06Z",
+    "status": "draft",
+    "published": true,
+    "price": 219.95,
+    "priceMin": 219.95,
+    "priceMax": 239.95
+  },
+  {
+    "id": "therm-a-rest-neoair-xlite-nxt-sleeping-pad",
+    "brandId": "therm-a-rest",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "NeoAir® XLite™ NXT Sleeping Pad",
+    "modelEn": "NeoAir® XLite™ NXT Sleeping Pad",
+    "description": "The most advanced all-season do-it-all ultralight air pad.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.33,
+      "weightDisplay": "~0.33 kg",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "The most advanced all-season do-it-all ultralight air pad."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0574/0642/3174/files/11627_thermarest_neoair_xlite_nxt_solarflare_regular_angle.jpg?v=1724820257",
+    "imageAlt": "NeoAir® XLite™ NXT Sleeping Pad",
+    "sourceUrl": "https://www.thermarest.com/products/neoair-xlite-nxt-sleeping-pad",
+    "sourceSite": "thermarest.com",
+    "scrapedAt": "2026-07-03T14:49:06Z",
+    "status": "draft",
+    "published": true,
+    "price": 199.95,
+    "priceMin": 199.95,
+    "priceMax": 239.95
+  },
+  {
+    "id": "therm-a-rest-neoair-r-xtherm-nxt-max-sleeping-pad",
+    "brandId": "therm-a-rest",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "NeoAir® XTherm™ NXT MAX Sleeping Pad",
+    "modelEn": "NeoAir® XTherm™ NXT MAX Sleeping Pad",
+    "description": "The best warmth-to-weight ratio ever in a full rectangular shape.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.65,
+      "weightDisplay": "~0.65 kg",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "The best warmth-to-weight ratio ever in a full rectangular shape."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0574/0642/3174/files/11636_thermarest_neoair_xtherm_nxt_max_neptune_regular_wide_angle.jpg?v=1724820256",
+    "imageAlt": "NeoAir® XTherm™ NXT MAX Sleeping Pad",
+    "sourceUrl": "https://www.thermarest.com/products/neoair-r-xtherm-nxt-max-sleeping-pad",
+    "sourceSite": "thermarest.com",
+    "scrapedAt": "2026-07-03T14:49:06Z",
+    "status": "draft",
+    "published": true,
+    "price": 249.95,
+    "priceMin": 249.95,
+    "priceMax": 269.95
+  },
+  {
+    "id": "therm-a-rest-neoair-xtherm-nxt-sleeping-pad",
+    "brandId": "therm-a-rest",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "NeoAir® XTherm™ NXT Sleeping Pad",
+    "modelEn": "NeoAir® XTherm™ NXT Sleeping Pad",
+    "description": "The best warmth-to-weight ratio of any sleeping pad ever made.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.44,
+      "weightDisplay": "~0.44 kg",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "The best warmth-to-weight ratio of any sleeping pad ever made."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0574/0642/3174/files/11633_thermarest_neoair_xtherm_nxt_neptune_regular_angle_award.jpg?v=1724820257",
+    "imageAlt": "NeoAir® XTherm™ NXT Sleeping Pad",
+    "sourceUrl": "https://www.thermarest.com/products/neoair-xtherm-nxt-sleeping-pad",
+    "sourceSite": "thermarest.com",
+    "scrapedAt": "2026-07-03T14:49:06Z",
+    "status": "draft",
+    "published": true,
+    "price": 229.95,
+    "priceMin": 229.95,
+    "priceMax": 269.95
+  },
+  {
+    "id": "therm-a-rest-neoloft-sleeping-pad",
+    "brandId": "therm-a-rest",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "NeoLoft™ Sleeping Pad",
+    "modelEn": "NeoLoft™ Sleeping Pad",
+    "description": "Merging the cutting-edge innovation of ultralight pads with the supreme comfort of car camping pads, the NeoLoft air pad takes backpacking comfort to a whole new level.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.85,
+      "weightDisplay": "~0.85 kg",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "Merging the cutting-edge innovation of ultralight pads with the supreme comfort of car camping pads, the NeoLoft air pad takes backpacking comfort to a whole new level."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0574/0642/3174/files/14158_thermarest_neoloft_ember_regularwide_angle_backpacker_ec_2025.jpg?v=1765234222",
+    "imageAlt": "NeoLoft™ Sleeping Pad",
+    "sourceUrl": "https://www.thermarest.com/products/neoloft-sleeping-pad",
+    "sourceSite": "thermarest.com",
+    "scrapedAt": "2026-07-03T14:49:06Z",
+    "status": "draft",
+    "published": true,
+    "price": 249.95,
+    "priceMin": 249.95,
+    "priceMax": 269.95
+  },
+  {
+    "id": "therm-a-rest-original-z-lite-sleeping-pad",
+    "brandId": "therm-a-rest",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Original Z Lite™ Sleeping Pad",
+    "modelEn": "Original Z Lite™ Sleeping Pad",
+    "description": "Lightest, most compact closed-cell foam pad.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.4,
+      "weightDisplay": "~0.4 kg",
+      "padType": "Foam pad"
+    },
+    "highlights": [
+      "Lightest, most compact closed-cell foam pad."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0574/0642/3174/files/02302_tr_zlite_coyotegray_regular_angle.jpg?v=1724820255",
+    "imageAlt": "Original Z Lite™ Sleeping Pad",
+    "sourceUrl": "https://www.thermarest.com/products/original-z-lite-sleeping-pad",
+    "sourceSite": "thermarest.com",
+    "scrapedAt": "2026-07-03T14:49:06Z",
+    "status": "draft",
+    "published": true,
+    "price": 49.95,
+    "priceMin": 49.95,
+    "priceMax": 49.95
+  },
+  {
+    "id": "therm-a-rest-ridgerest-classic-sleeping-pad",
+    "brandId": "therm-a-rest",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "RidgeRest® Classic Sleeping Pad",
+    "modelEn": "RidgeRest® Classic Sleeping Pad",
+    "description": "The original returns, delivering our most basic level of backpacking comfort.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.4,
+      "weightDisplay": "~0.4 kg",
+      "padType": "Foam pad"
+    },
+    "highlights": [
+      "The original returns, delivering our most basic level of backpacking comfort."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0574/0642/3174/files/06432_tr_ridgerest_classic_charcoal_regular_angle.jpg?v=1724820274",
+    "imageAlt": "RidgeRest® Classic Sleeping Pad",
+    "sourceUrl": "https://www.thermarest.com/products/ridgerest-classic-sleeping-pad",
+    "sourceSite": "thermarest.com",
+    "scrapedAt": "2026-07-03T14:49:06Z",
+    "status": "draft",
+    "published": true,
+    "price": 34.95,
+    "priceMin": 34.95,
+    "priceMax": 44.95
+  },
+  {
+    "id": "therm-a-rest-trail-prolite-sleeping-pad",
+    "brandId": "therm-a-rest",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Trail ProLite™ Sleeping Pad",
+    "modelEn": "Trail ProLite™ Sleeping Pad",
+    "description": "The perfect balance of lightweight packability and iconic open-cell foam comfort.",
+    "currency": "USD",
+    "specs": {},
+    "highlights": [
+      "The perfect balance of lightweight packability and iconic open-cell foam comfort."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0574/0642/3174/files/14164_thermarest_trail_prolite_mango_regular_angle.jpg?v=1732506146",
+    "imageAlt": "Trail ProLite™ Sleeping Pad",
+    "sourceUrl": "https://www.thermarest.com/products/trail-prolite-sleeping-pad",
+    "sourceSite": "thermarest.com",
+    "scrapedAt": "2026-07-03T14:49:06Z",
+    "status": "draft",
+    "published": true,
+    "price": 139.95,
+    "priceMin": 139.95,
+    "priceMax": 159.95
+  },
+  {
+    "id": "therm-a-rest-trail-pro-max-sleeping-pad",
+    "brandId": "therm-a-rest",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Trail Pro™ MAX Sleeping Pad",
+    "modelEn": "Trail Pro™ MAX Sleeping Pad",
+    "description": "Classic comfort and packability in a rectangular size for maximum sleep area.",
+    "currency": "USD",
+    "specs": {},
+    "highlights": [
+      "Classic comfort and packability in a rectangular size for maximum sleep area."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0574/0642/3174/files/14163_thermarest_trail_pro_max_tide_large_angle.jpg?v=1732584111",
+    "imageAlt": "Trail Pro™ MAX Sleeping Pad",
+    "sourceUrl": "https://www.thermarest.com/products/trail-pro-max-sleeping-pad",
+    "sourceSite": "thermarest.com",
+    "scrapedAt": "2026-07-03T14:49:06Z",
+    "status": "draft",
+    "published": true,
+    "price": 179.95,
+    "priceMin": 179.95,
+    "priceMax": 189.95
+  },
+  {
+    "id": "therm-a-rest-trail-pro-sleeping-pad",
+    "brandId": "therm-a-rest",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Trail Pro™ Sleeping Pad",
+    "modelEn": "Trail Pro™ Sleeping Pad",
+    "description": "Plush stretch-knit fabric and a thick, supportive core deliver major comfort and packability.",
+    "currency": "USD",
+    "specs": {},
+    "highlights": [
+      "Plush stretch-knit fabric and a thick, supportive core deliver major comfort and packability."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0574/0642/3174/files/14160_thermarest_trail_pro_tide_regular_angle.jpg?v=1732554868",
+    "imageAlt": "Trail Pro™ Sleeping Pad",
+    "sourceUrl": "https://www.thermarest.com/products/trail-pro-sleeping-pad",
+    "sourceSite": "thermarest.com",
+    "scrapedAt": "2026-07-03T14:49:06Z",
+    "status": "draft",
+    "published": true,
+    "price": 159.95,
+    "priceMin": 159.95,
+    "priceMax": 179.95
+  },
+  {
+    "id": "therm-a-rest-trail-scout-sleeping-pad",
+    "brandId": "therm-a-rest",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Trail Scout™ Sleeping Pad",
+    "modelEn": "Trail Scout™ Sleeping Pad",
+    "description": "A three-season pad ideal for new campers who want comfort and durability.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.42,
+      "weightDisplay": "~0.42 kg"
+    },
+    "highlights": [
+      "A three-season pad ideal for new campers who want comfort and durability."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0574/0642/3174/files/11454_thermarest_trail_scout_darkforest_regular_angle.jpg?v=1724820292",
+    "imageAlt": "Trail Scout™ Sleeping Pad",
+    "sourceUrl": "https://www.thermarest.com/products/trail-scout-sleeping-pad",
+    "sourceSite": "thermarest.com",
+    "scrapedAt": "2026-07-03T14:49:06Z",
+    "status": "draft",
+    "published": true,
+    "price": 64.95,
+    "priceMin": 64.95,
+    "priceMax": 94.95
+  },
+  {
+    "id": "therm-a-rest-z-lite-sol-sleeping-pad",
+    "brandId": "therm-a-rest",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Z Lite™ SOL Sleeping Pad",
+    "modelEn": "Z Lite™ SOL Sleeping Pad",
+    "description": "Lightest, most compact closed-cell foam pad with boosted warmth.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.28,
+      "weightDisplay": "~0.28 kg",
+      "padType": "Foam pad"
+    },
+    "highlights": [
+      "Lightest, most compact closed-cell foam pad with boosted warmth."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0574/0642/3174/files/06670_tr_zlite_sol_limonsilver_regular_silver_angle_fold.jpg?v=1728427656",
+    "imageAlt": "Z Lite™ SOL Sleeping Pad",
+    "sourceUrl": "https://www.thermarest.com/products/z-lite-sol-sleeping-pad",
+    "sourceSite": "thermarest.com",
+    "scrapedAt": "2026-07-03T14:49:06Z",
+    "status": "draft",
+    "published": true,
+    "price": 49.95,
+    "priceMin": 49.95,
+    "priceMax": 59.95
+  }
+]

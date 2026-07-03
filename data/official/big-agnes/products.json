@@ -10,7 +10,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.27,
-      "weightDisplay": "约 1.27 kg",
+      "weightDisplay": "~1.27 kg",
       "structure": "BAGS",
       "fillType": "化纤棉",
       "bagType": "木乃伊"
@@ -22,7 +22,7 @@
     "imageAlt": "Anthracite 20°",
     "sourceUrl": "https://www.bigagnes.com/products/anthracite-twenty",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 159.95,
@@ -40,7 +40,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.27,
-      "weightDisplay": "约 1.27 kg",
+      "weightDisplay": "~1.27 kg",
       "structure": "BAGS",
       "fillType": "化纤棉",
       "bagType": "木乃伊"
@@ -52,7 +52,7 @@
     "imageAlt": "Anthracite 20° - Alpenglow",
     "sourceUrl": "https://www.bigagnes.com/products/anthracite-20-alpenglow",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 169.95,
@@ -70,7 +70,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.95,
-      "weightDisplay": "约 0.95 kg",
+      "weightDisplay": "~0.95 kg",
       "structure": "BAGS",
       "fillType": "化纤棉",
       "bagType": "木乃伊"
@@ -82,7 +82,7 @@
     "imageAlt": "Anthracite 30°",
     "sourceUrl": "https://www.bigagnes.com/products/anthracite-thirty",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 149.95,
@@ -100,7 +100,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 3.4,
-      "weightDisplay": "约 3.4 kg",
+      "weightDisplay": "~3.4 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -110,12 +110,40 @@
     "imageAlt": "Battle Mountain 2",
     "sourceUrl": "https://www.bigagnes.com/products/battle-mountain-2",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:18Z",
     "status": "draft",
     "published": true,
     "price": 719.96,
     "priceMin": 719.96,
     "priceMax": 719.96
+  },
+  {
+    "id": "big-agnes-battle-mountain-3",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Battle Mountain 3",
+    "modelEn": "Battle Mountain 3",
+    "description": "The Battle Mountain is a spacious, four-season, lightweight mountaineering tent that offers full protection in the harshest of backcountry and high-alpine conditions. The golden yellow color of the Battle Mountain was requested by Chhiring Dorje Sherpa, a Big Agnes Ambassador and friend who has summited Mount Everest 17 times. It is meant to serve as a tribute to honor the Tibetan Buddhism goddess of prosperity and good fortune, Miyo Losangma whose skin is golden yellow. The golden-colored fly is made of Dominico undyed polyester ripstop, and made with high-tenacity yarn to provide incredible tear strength and UV resistance that won’t fade in the harsh elements. With so much experience summiting 8,000+ meter peaks around the Himalaya, Chhiring’s invaluable input on the overall design, combined with his testing over the years, solidifies the Battle Mountain as one of the best mountaineering tents on the market.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 3.99,
+      "weightDisplay": "~3.99 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "The Battle Mountain is a spacious, four-season, lightweight mountaineering tent that offers full protection in the harshest of backcountry and high-alpine conditions. The golden yellow color of the Battle Mountain was requested by Chhiring Dorje Sherpa, a Big Agnes Ambassador and friend who has summited Mount Everest 17 times. It is meant to serve as a tribute to honor the Tibetan Buddhism goddess"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Battle-Mountain-3-03.png?v=1779299808",
+    "imageAlt": "Battle Mountain 3",
+    "sourceUrl": "https://www.bigagnes.com/products/battle-mountain-3",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-07-03T14:46:18Z",
+    "status": "draft",
+    "published": false,
+    "price": 809.96,
+    "priceMin": 809.96,
+    "priceMax": 809.96
   },
   {
     "id": "big-agnes-bedrock-negative-20-long",
@@ -128,7 +156,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.31,
-      "weightDisplay": "约 2.31 kg",
+      "weightDisplay": "~2.31 kg",
       "structure": "BAGS",
       "fillType": "羽绒",
       "bagType": "木乃伊"
@@ -140,7 +168,7 @@
     "imageAlt": "Bedrock -20˚ Long",
     "sourceUrl": "https://www.bigagnes.com/products/bedrock-negative-20-long",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 599.95,
@@ -158,7 +186,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.81,
-      "weightDisplay": "约 1.81 kg",
+      "weightDisplay": "~1.81 kg",
       "structure": "BAGS",
       "fillType": "化纤棉",
       "bagType": "木乃伊"
@@ -170,7 +198,7 @@
     "imageAlt": "Benchmark 0°",
     "sourceUrl": "https://www.bigagnes.com/products/benchmark-0",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 169.95,
@@ -188,7 +216,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.31,
-      "weightDisplay": "约 1.31 kg",
+      "weightDisplay": "~1.31 kg",
       "structure": "BAGS",
       "fillType": "化纤棉",
       "bagType": "木乃伊"
@@ -200,7 +228,7 @@
     "imageAlt": "Benchmark 20°",
     "sourceUrl": "https://www.bigagnes.com/products/benchmark-20",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 129.95,
@@ -218,7 +246,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.13,
-      "weightDisplay": "约 1.13 kg",
+      "weightDisplay": "~1.13 kg",
       "structure": "BAGS",
       "fillType": "化纤棉",
       "bagType": "木乃伊"
@@ -230,7 +258,7 @@
     "imageAlt": "Benchmark 35°",
     "sourceUrl": "https://www.bigagnes.com/products/benchmark-35",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 109.95,
@@ -248,7 +276,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 5.71,
-      "weightDisplay": "约 5.71 kg",
+      "weightDisplay": "~5.71 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -258,7 +286,7 @@
     "imageAlt": "Big House 4",
     "sourceUrl": "https://www.bigagnes.com/products/big-house-426",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:18Z",
     "status": "draft",
     "published": true,
     "price": 549.95,
@@ -276,7 +304,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 7.26,
-      "weightDisplay": "约 7.26 kg",
+      "weightDisplay": "~7.26 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -286,7 +314,7 @@
     "imageAlt": "Big House 6",
     "sourceUrl": "https://www.bigagnes.com/products/big-house-626",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:18Z",
     "status": "draft",
     "published": true,
     "price": 649.95,
@@ -304,7 +332,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.5,
-      "weightDisplay": "约 2.5 kg",
+      "weightDisplay": "~2.5 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -314,7 +342,7 @@
     "imageAlt": "Blacktail 2 - Vetiver",
     "sourceUrl": "https://www.bigagnes.com/products/blacktail-two-vetiver",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 299.95,
@@ -332,7 +360,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.27,
-      "weightDisplay": "约 2.27 kg",
+      "weightDisplay": "~2.27 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -342,7 +370,7 @@
     "imageAlt": "Blacktail 2 - Warm Olive",
     "sourceUrl": "https://www.bigagnes.com/products/blacktail-two",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 299.95,
@@ -360,7 +388,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.77,
-      "weightDisplay": "约 2.77 kg",
+      "weightDisplay": "~2.77 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -370,7 +398,7 @@
     "imageAlt": "Blacktail 3 - Vetiver",
     "sourceUrl": "https://www.bigagnes.com/products/blacktail-three-vetiver",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 349.95,
@@ -388,7 +416,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.55,
-      "weightDisplay": "约 2.55 kg",
+      "weightDisplay": "~2.55 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -398,7 +426,7 @@
     "imageAlt": "Blacktail 3 - Warm Olive",
     "sourceUrl": "https://www.bigagnes.com/products/blacktail-three",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 349.95,
@@ -416,7 +444,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 3.72,
-      "weightDisplay": "约 3.72 kg",
+      "weightDisplay": "~3.72 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -426,7 +454,7 @@
     "imageAlt": "Blacktail 4 - Vetiver",
     "sourceUrl": "https://www.bigagnes.com/products/blacktail-four-vetiver",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 399.95,
@@ -444,7 +472,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 3.52,
-      "weightDisplay": "约 3.52 kg",
+      "weightDisplay": "~3.52 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -454,7 +482,7 @@
     "imageAlt": "Blacktail 4 - Warm Olive",
     "sourceUrl": "https://www.bigagnes.com/products/blacktail-426",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 399.95,
@@ -472,7 +500,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.52,
-      "weightDisplay": "约 2.52 kg",
+      "weightDisplay": "~2.52 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -482,7 +510,7 @@
     "imageAlt": "Blacktail Hotel 2",
     "sourceUrl": "https://www.bigagnes.com/products/blacktail-hotel-two",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 349.95,
@@ -500,7 +528,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 3.09,
-      "weightDisplay": "约 3.09 kg",
+      "weightDisplay": "~3.09 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -510,7 +538,7 @@
     "imageAlt": "Blacktail Hotel 3",
     "sourceUrl": "https://www.bigagnes.com/products/blacktail-hotel-three",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 399.95,
@@ -528,7 +556,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 6.8,
-      "weightDisplay": "约 6.8 kg",
+      "weightDisplay": "~6.8 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -538,7 +566,7 @@
     "imageAlt": "Bunk House 4",
     "sourceUrl": "https://www.bigagnes.com/products/bunk-house-426",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 649.95,
@@ -556,7 +584,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 8.28,
-      "weightDisplay": "约 8.28 kg",
+      "weightDisplay": "~8.28 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -566,7 +594,7 @@
     "imageAlt": "Bunk House 6",
     "sourceUrl": "https://www.bigagnes.com/products/bunk-house-626",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 749.95,
@@ -584,7 +612,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.91,
-      "weightDisplay": "约 1.91 kg",
+      "weightDisplay": "~1.91 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -594,7 +622,7 @@
     "imageAlt": "C Bar 2",
     "sourceUrl": "https://www.bigagnes.com/products/c-bar-226",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 299.95,
@@ -612,7 +640,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.22,
-      "weightDisplay": "约 2.22 kg",
+      "weightDisplay": "~2.22 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -622,9 +650,37 @@
     "imageAlt": "C Bar 3",
     "sourceUrl": "https://www.bigagnes.com/products/c-bar-326",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
+    "price": 349.95,
+    "priceMin": 349.95,
+    "priceMax": 349.95
+  },
+  {
+    "id": "big-agnes-c-bar-three",
+    "brandId": "big-agnes",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "C Bar 3",
+    "modelEn": "C Bar 3",
+    "description": "Get into the backcountry with a lightweight shelter option designed to provide plenty of room without extra bulk. Streamlined architecture, with a single head entry door, combined with ample gear storage in the attached vestibule and interior mesh pockets means you don't have to sacrifice efficiency for comfort and convenience. A waterproof fly and floor made from durable recycled fabric will keep you dry when the skies turn grey. Looking for a high quality, technical tent without breaking the bank? You're looking for a C Bar.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.01,
+      "weightDisplay": "~2.01 kg",
+      "structure": "TENTS"
+    },
+    "highlights": [
+      "Get into the backcountry with a lightweight shelter option designed to provide plenty of room without extra bulk. Streamlined architecture, with a single head entry door, combined with ample gear storage in the attached vestibule and interior mesh pockets means you don't have to sacrifice efficiency for comfort and convenience. A waterproof fly and floor made from durable recycled fabric will keep"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/C-Bar-3-02.png?v=1779288501",
+    "imageAlt": "C Bar 3",
+    "sourceUrl": "https://www.bigagnes.com/products/c-bar-three",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-07-03T14:46:18Z",
+    "status": "draft",
+    "published": false,
     "price": 349.95,
     "priceMin": 349.95,
     "priceMax": 349.95
@@ -640,7 +696,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.92,
-      "weightDisplay": "约 0.92 kg",
+      "weightDisplay": "~0.92 kg",
       "structure": "BAGS",
       "bagType": "BAGS"
     },
@@ -651,12 +707,99 @@
     "imageAlt": "Camp Quillow",
     "sourceUrl": "https://www.bigagnes.com/products/camp-quillow",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 249.95,
     "priceMin": 249.95,
     "priceMax": 249.95
+  },
+  {
+    "id": "big-agnes-campmeister-deluxe-insulated",
+    "brandId": "big-agnes",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Campmeister Deluxe Insulated",
+    "modelEn": "Campmeister Deluxe Insulated",
+    "description": "Master your sleep setup with our warmest and most luxurious four-season air chamber pad - the Campmeister Deluxe. On top, an ultra-comfortable and super-quiet quilted stretch top provides a cushioned, pillow-soft sleeping surface for maximum sleep-ins, and inside an incredible Insulation R-Value of 7 is ready for even the coldest backcountry winter nights. You'll sleep soundly season after season as the burly 70D recycled nylon fabric and aviation-grade TPU lamination work together to keep leaks at bay. Perfect for when you're not willing to compromise between lightweight, warm, durable, and packable, the Campmeister Deluxe Insulated is the ultimate in backcountry comfort!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.0,
+      "weightDisplay": "~1.0 kg",
+      "structure": "PADS",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "Master your sleep setup with our warmest and most luxurious four-season air chamber pad - the Campmeister Deluxe. On top, an ultra-comfortable and super-quiet quilted stretch top provides a cushioned, pillow-soft sleeping surface for maximum sleep-ins, and inside an incredible Insulation R-Value of 7 is ready for even the coldest backcountry winter nights. You'll sleep soundly season after season "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Campmeister-01.png?v=1779224182",
+    "imageAlt": "Campmeister Deluxe Insulated",
+    "sourceUrl": "https://www.bigagnes.com/products/campmeister-deluxe-insulated",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-07-03T14:46:27Z",
+    "status": "draft",
+    "published": true,
+    "price": 269.95,
+    "priceMin": 269.95,
+    "priceMax": 329.95
+  },
+  {
+    "id": "big-agnes-captain-comfort-dc",
+    "brandId": "big-agnes",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Captain Comfort Deluxe Camp",
+    "modelEn": "Captain Comfort Deluxe Camp",
+    "description": "Captain Comfort lives up to its name with up to 5” of thickness for maximum comfort. This self-inflating, 3D foam-core pad is covered in a stretch fabric for a soft-touch feel that you will want to lounge on all day. With an 8-plus R-Value, you'll sleep through even the coldest nights with ease. The cushioned, pillowy sleeping surface and vertical sidewalls will have you dreaming of the next day's adventure, and waking up so well rested you'll forget you're not at home in your bed! Awards Gear Junkie - The Best Camping Mattresses and Sleeping Pads of 2023 Outside 2023 Summer Gear Guide - Best Guest Room Mattress",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.9,
+      "weightDisplay": "~2.9 kg",
+      "structure": "PADS",
+      "padType": "Self-inflating"
+    },
+    "highlights": [
+      "Captain Comfort lives up to its name with up to 5” of thickness for maximum comfort. This self-inflating, 3D foam-core pad is covered in a stretch fabric for a soft-touch feel that you will want to lounge on all day. With an 8-plus R-Value, you'll sleep through even the coldest nights with ease. The cushioned, pillowy sleeping surface and vertical sidewalls will have you dreaming of the next day's"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/CaptComfortAW1.png?v=1779223783",
+    "imageAlt": "Captain Comfort Deluxe Camp",
+    "sourceUrl": "https://www.bigagnes.com/products/captain-comfort-dc",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-07-03T14:46:27Z",
+    "status": "draft",
+    "published": true,
+    "price": 399.95,
+    "priceMin": 279.95,
+    "priceMax": 399.95
+  },
+  {
+    "id": "big-agnes-circle-back",
+    "brandId": "big-agnes",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Circle Back™ Insulated",
+    "modelEn": "Circle Back™ Insulated",
+    "description": "For ultimate comfort in the backcountry and beyond, meet the Circle Back™. Innovative two-part design pairs a premium soft cover fabric with an inner air bladder to provide warmth, dependability, and comfort on all of your adventures. Featuring sustainably-sourced materials that are fully recyclable, this pad will have you coming back for more, and feeling good about it! Awards: Outside - Outside 2024 Summer Gear Guide; Most Sustainable Front-Country Pad",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.23,
+      "weightDisplay": "~1.23 kg",
+      "structure": "PADS",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "For ultimate comfort in the backcountry and beyond, meet the Circle Back™. Innovative two-part design pairs a premium soft cover fabric with an inner air bladder to provide warmth, dependability, and comfort on all of your adventures. Featuring sustainably-sourced materials that are fully recyclable, this pad will have you coming back for more, and feeling good about it! Awards: Outside - Outside "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/CircleBackAW1.png?v=1779223962",
+    "imageAlt": "Circle Back™ Insulated",
+    "sourceUrl": "https://www.bigagnes.com/products/circle-back",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-07-03T14:46:27Z",
+    "status": "draft",
+    "published": true,
+    "price": 269.95,
+    "priceMin": 269.95,
+    "priceMax": 269.95
   },
   {
     "id": "big-agnes-copper-spur-hv-ul1-bikepack",
@@ -669,7 +812,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.27,
-      "weightDisplay": "约 1.27 kg",
+      "weightDisplay": "~1.27 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -679,7 +822,7 @@
     "imageAlt": "Copper Spur HV UL1 Bikepack",
     "sourceUrl": "https://www.bigagnes.com/products/copper-spur-hv-ul1-bikepack",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:18Z",
     "status": "draft",
     "published": true,
     "price": 424.95,
@@ -697,7 +840,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.95,
-      "weightDisplay": "约 1.95 kg",
+      "weightDisplay": "~1.95 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -707,7 +850,7 @@
     "imageAlt": "Copper Spur HV UL3 Bikepack",
     "sourceUrl": "https://www.bigagnes.com/products/copper-spur-hv-ul3-bikepack",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:18Z",
     "status": "draft",
     "published": true,
     "price": 535.45,
@@ -725,7 +868,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.97,
-      "weightDisplay": "约 0.97 kg",
+      "weightDisplay": "~0.97 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -735,7 +878,7 @@
     "imageAlt": "Copper Spur UL1",
     "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul-one",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 499.95,
@@ -753,7 +896,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.36,
-      "weightDisplay": "约 1.36 kg",
+      "weightDisplay": "~1.36 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -763,7 +906,7 @@
     "imageAlt": "Copper Spur UL1 Bikepack",
     "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul1-bikepack",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 549.95,
@@ -781,7 +924,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.19,
-      "weightDisplay": "约 1.19 kg",
+      "weightDisplay": "~1.19 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -791,7 +934,7 @@
     "imageAlt": "Copper Spur UL2",
     "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul-two",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 599.95,
@@ -809,7 +952,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.67,
-      "weightDisplay": "约 1.67 kg",
+      "weightDisplay": "~1.67 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -819,7 +962,7 @@
     "imageAlt": "Copper Spur UL2 Bikepack",
     "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul2-bikepack",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 649.95,
@@ -837,7 +980,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.45,
-      "weightDisplay": "约 1.45 kg",
+      "weightDisplay": "~1.45 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -847,7 +990,7 @@
     "imageAlt": "Copper Spur UL2 mtnGLO®",
     "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul2-mtnglo",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 649.95,
@@ -865,7 +1008,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.28,
-      "weightDisplay": "约 1.28 kg",
+      "weightDisplay": "~1.28 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -875,7 +1018,7 @@
     "imageAlt": "Copper Spur UL2 XL",
     "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul-two-xl",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 649.95,
@@ -893,7 +1036,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.59,
-      "weightDisplay": "约 1.59 kg",
+      "weightDisplay": "~1.59 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -903,7 +1046,7 @@
     "imageAlt": "Copper Spur UL3",
     "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul-three",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 649.95,
@@ -921,7 +1064,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.96,
-      "weightDisplay": "约 1.96 kg",
+      "weightDisplay": "~1.96 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -931,7 +1074,7 @@
     "imageAlt": "Copper Spur UL3 Bikepack",
     "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul3-bikepack",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 699.95,
@@ -949,7 +1092,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.77,
-      "weightDisplay": "约 1.77 kg",
+      "weightDisplay": "~1.77 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -959,7 +1102,7 @@
     "imageAlt": "Copper Spur UL3 mtnGLO®",
     "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul3-mtnglo",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 699.95,
@@ -977,7 +1120,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.62,
-      "weightDisplay": "约 1.62 kg",
+      "weightDisplay": "~1.62 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -987,7 +1130,7 @@
     "imageAlt": "Copper Spur UL3 XL",
     "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul-three-xl",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 699.95,
@@ -1005,7 +1148,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.38,
-      "weightDisplay": "约 2.38 kg",
+      "weightDisplay": "~2.38 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1015,7 +1158,7 @@
     "imageAlt": "Copper Spur UL4",
     "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul-four",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 849.95,
@@ -1033,7 +1176,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 3.12,
-      "weightDisplay": "约 3.12 kg",
+      "weightDisplay": "~3.12 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1043,7 +1186,7 @@
     "imageAlt": "Copper Spur UL5",
     "sourceUrl": "https://www.bigagnes.com/products/copper-spur-ul-five",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 949.95,
@@ -1061,7 +1204,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.0,
-      "weightDisplay": "约 2.0 kg",
+      "weightDisplay": "~2.0 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1071,7 +1214,7 @@
     "imageAlt": "Crag Lake SL2",
     "sourceUrl": "https://www.bigagnes.com/products/crag-lake-sl2",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 349.95,
@@ -1089,7 +1232,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.38,
-      "weightDisplay": "约 2.38 kg",
+      "weightDisplay": "~2.38 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1099,12 +1242,69 @@
     "imageAlt": "Crag Lake SL3",
     "sourceUrl": "https://www.bigagnes.com/products/crag-lake-sl3",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 399.95,
     "priceMin": 399.95,
     "priceMax": 399.95
+  },
+  {
+    "id": "big-agnes-divide",
+    "brandId": "big-agnes",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Divide",
+    "modelEn": "Divide",
+    "description": "A light and compact warm-weather pad with a smooth and stable sleeping surface of vertical baffles, made using sustainably-sourced materials. All the comfort that comes with a Big Agnes air chamber sleeping pad, at an incredible value!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.54,
+      "weightDisplay": "~0.54 kg",
+      "structure": "PADS",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "A light and compact warm-weather pad with a smooth and stable sleeping surface of vertical baffles, made using sustainably-sourced materials. All the comfort that comes with a Big Agnes air chamber sleeping pad, at an incredible value!"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Divide.png?v=1779223782",
+    "imageAlt": "Divide",
+    "sourceUrl": "https://www.bigagnes.com/products/divide",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-07-03T14:46:27Z",
+    "status": "draft",
+    "published": true,
+    "price": 99.95,
+    "priceMin": 99.95,
+    "priceMax": 139.95
+  },
+  {
+    "id": "big-agnes-divide-insulated",
+    "brandId": "big-agnes",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Divide Insulated",
+    "modelEn": "Divide Insulated",
+    "description": "A light and compact insulated pad with a smooth and stable sleeping surface of vertical baffles, made using recycled fabric. Stay warm with an insulation system featuring THERMOLITE®, along with heat reflective film for maximum efficiency. Lightweight warmth, comfort, and reliability at an awesome value!",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.64,
+      "weightDisplay": "~0.64 kg",
+      "structure": "PADS"
+    },
+    "highlights": [
+      "A light and compact insulated pad with a smooth and stable sleeping surface of vertical baffles, made using recycled fabric. Stay warm with an insulation system featuring THERMOLITE®, along with heat reflective film for maximum efficiency. Lightweight warmth, comfort, and reliability at an awesome value!"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/double-wide-divide-01.png?v=1779223784",
+    "imageAlt": "Divide Insulated",
+    "sourceUrl": "https://www.bigagnes.com/products/divide-insulated",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-07-03T14:46:27Z",
+    "status": "draft",
+    "published": true,
+    "price": 129.95,
+    "priceMin": 129.95,
+    "priceMax": 269.95
   },
   {
     "id": "big-agnes-dream-island-doublewide-20",
@@ -1117,7 +1317,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 3.09,
-      "weightDisplay": "约 3.09 kg",
+      "weightDisplay": "~3.09 kg",
       "structure": "BAGS",
       "fillType": "化纤棉",
       "bagType": "睡袋系统"
@@ -1129,7 +1329,7 @@
     "imageAlt": "Dream Island 20° Doublewide",
     "sourceUrl": "https://www.bigagnes.com/products/dream-island-doublewide-20",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 299.95,
@@ -1143,23 +1343,23 @@
     "subcategory": "Sleeping Bags",
     "model": "Echo Park 0°",
     "modelEn": "Echo Park 0°",
-    "description": "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes Padlok™ Sleep System keeps you on your pad all night and the Cinch Pad Sleeve accommodates deluxe pads 25\"\"-30\"\" wide. With it's unique wide long design, the Echo Park is a backcountry bed so comfortable, you won’t want to go home!",
+    "description": "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes PadLok™ Sleep System keeps you on your pad all night and the Cinch Pad Sleeve accommodates deluxe pads 25\"\"-30\"\" wide. With it's unique wide long design, the Echo Park is a backcountry bed so comfortable, you won’t want to go home!",
     "currency": "USD",
     "specs": {
       "weightKg": 2.71,
-      "weightDisplay": "约 2.71 kg",
+      "weightDisplay": "~2.71 kg",
       "structure": "BAGS",
       "fillType": "化纤棉",
       "bagType": "BAGS"
     },
     "highlights": [
-      "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes Padlok™ Sleep System keeps you on your pad all night and the Cinch Pa"
+      "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes PadLok™ Sleep System keeps you on your pad all night and the Cinch Pa"
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Echo-Park-03.png?v=1779224183",
     "imageAlt": "Echo Park 0°",
     "sourceUrl": "https://www.bigagnes.com/products/echo-park-zero",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 249.95,
@@ -1173,23 +1373,23 @@
     "subcategory": "Sleeping Bags",
     "model": "Echo Park 20°",
     "modelEn": "Echo Park 20°",
-    "description": "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes Padlok™ Sleep System keeps you on your pad all night and the Cinch Pad Sleeve accommodates deluxe pads 25\"\"-30\"\" wide. With it's unique wide long design, the Echo Park is a backcountry bed so comfortable, you won’t want to go home!",
+    "description": "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes PadLok™ Sleep System keeps you on your pad all night and the Cinch Pad Sleeve accommodates deluxe pads 25\"\"-30\"\" wide. With it's unique wide long design, the Echo Park is a backcountry bed so comfortable, you won’t want to go home!",
     "currency": "USD",
     "specs": {
       "weightKg": 2.25,
-      "weightDisplay": "约 2.25 kg",
+      "weightDisplay": "~2.25 kg",
       "structure": "BAGS",
       "fillType": "化纤棉",
       "bagType": "BAGS"
     },
     "highlights": [
-      "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes Padlok™ Sleep System keeps you on your pad all night and the Cinch Pa"
+      "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes PadLok™ Sleep System keeps you on your pad all night and the Cinch Pa"
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Echo-Park-03.png?v=1779224183",
     "imageAlt": "Echo Park 20°",
     "sourceUrl": "https://www.bigagnes.com/products/echo-park-twenty",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 219.95,
@@ -1203,23 +1403,23 @@
     "subcategory": "Sleeping Bags",
     "model": "Echo Park 35°",
     "modelEn": "Echo Park 35°",
-    "description": "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes Padlok™ Sleep System keeps you on your pad all night and the Cinch Pad Sleeve accommodates deluxe pads 25\"\"-30\"\" wide. With it's unique wide long design, the Echo Park is a backcountry bed so comfortable, you won’t want to go home!",
+    "description": "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes PadLok™ Sleep System keeps you on your pad all night and the Cinch Pad Sleeve accommodates deluxe pads 25\"\"-30\"\" wide. With it's unique wide long design, the Echo Park is a backcountry bed so comfortable, you won’t want to go home!",
     "currency": "USD",
     "specs": {
       "weightKg": 1.62,
-      "weightDisplay": "约 1.62 kg",
+      "weightDisplay": "~1.62 kg",
       "structure": "BAGS",
       "fillType": "化纤棉",
       "bagType": "BAGS"
     },
     "highlights": [
-      "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes Padlok™ Sleep System keeps you on your pad all night and the Cinch Pa"
+      "Our Echo Park Series of synthetic bags are long and wide for those who like a little more room to move around at night, and for campers of a larger stature who want a bag that sleeps just right. Ideal for everything from car camping to an overnight on your friend’s floor, this is your go-to bag for luxurious sleep. The Big Agnes PadLok™ Sleep System keeps you on your pad all night and the Cinch Pa"
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Echo-Park-03.png?v=1779224183",
     "imageAlt": "Echo Park 35°",
     "sourceUrl": "https://www.bigagnes.com/products/echo-park-35",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 199.95,
@@ -1237,7 +1437,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.72,
-      "weightDisplay": "约 0.72 kg",
+      "weightDisplay": "~0.72 kg",
       "structure": "BAGS",
       "fillType": "羽绒",
       "bagType": "BAGS"
@@ -1249,7 +1449,7 @@
     "imageAlt": "Fly Creek UL 25°",
     "sourceUrl": "https://www.bigagnes.com/products/fly-creek-ul-25",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 499.95,
@@ -1267,7 +1467,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.43,
-      "weightDisplay": "约 0.43 kg",
+      "weightDisplay": "~0.43 kg",
       "structure": "BAGS",
       "bagType": "BAGS"
     },
@@ -1278,7 +1478,7 @@
     "imageAlt": "Fly Creek UL Quilt",
     "sourceUrl": "https://www.bigagnes.com/products/fly-creek-ul-quilt",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 349.95,
@@ -1296,7 +1496,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.77,
-      "weightDisplay": "约 0.77 kg",
+      "weightDisplay": "~0.77 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1306,7 +1506,7 @@
     "imageAlt": "Fly Creek UL1",
     "sourceUrl": "https://www.bigagnes.com/products/fly-creek-ul-one",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 419.95,
@@ -1324,7 +1524,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.85,
-      "weightDisplay": "约 0.85 kg",
+      "weightDisplay": "~0.85 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1334,7 +1534,7 @@
     "imageAlt": "Fly Creek UL2",
     "sourceUrl": "https://www.bigagnes.com/products/fly-creek-ul-two",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 449.95,
@@ -1352,7 +1552,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.09,
-      "weightDisplay": "约 2.09 kg",
+      "weightDisplay": "~2.09 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1362,7 +1562,7 @@
     "imageAlt": "Gold Camp 3 Tarp",
     "sourceUrl": "https://www.bigagnes.com/products/gold-camp-3-tarp",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:19Z",
     "status": "draft",
     "published": true,
     "price": 159.96,
@@ -1380,7 +1580,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.5,
-      "weightDisplay": "约 1.5 kg",
+      "weightDisplay": "~1.5 kg",
       "structure": "BAGS",
       "fillType": "羽绒",
       "bagType": "木乃伊"
@@ -1392,7 +1592,7 @@
     "imageAlt": "Greystone 0°",
     "sourceUrl": "https://www.bigagnes.com/products/greystone-zero",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 399.95,
@@ -1410,7 +1610,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.09,
-      "weightDisplay": "约 1.09 kg",
+      "weightDisplay": "~1.09 kg",
       "structure": "BAGS",
       "fillType": "羽绒",
       "bagType": "木乃伊"
@@ -1422,7 +1622,7 @@
     "imageAlt": "Greystone 20°",
     "sourceUrl": "https://www.bigagnes.com/products/greystone-twenty",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 299.95,
@@ -1440,7 +1640,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.82,
-      "weightDisplay": "约 0.82 kg",
+      "weightDisplay": "~0.82 kg",
       "structure": "BAGS",
       "fillType": "羽绒",
       "bagType": "木乃伊"
@@ -1452,7 +1652,7 @@
     "imageAlt": "Greystone 30°",
     "sourceUrl": "https://www.bigagnes.com/products/greystone-thirty",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 269.95,
@@ -1470,7 +1670,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 11.38,
-      "weightDisplay": "约 11.38 kg",
+      "weightDisplay": "~11.38 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1480,12 +1680,41 @@
     "imageAlt": "Guard Station 8",
     "sourceUrl": "https://www.bigagnes.com/products/guard-station-8",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:18Z",
     "status": "draft",
     "published": true,
     "price": 1999.95,
     "priceMin": 1999.95,
     "priceMax": 1999.95
+  },
+  {
+    "id": "big-agnes-hinman",
+    "brandId": "big-agnes",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Hinman",
+    "modelEn": "Hinman",
+    "description": "The Hinman is a self-inflating, high-density foam-core cold-weather pad with a two-way adjustable valve that makes inflation, deflation, and micro-adjustments easier than ever. The soft, stretch-fabric top provides a cushioned yet very durable sleeping surface. With options for cushioned thickness up to 4\" / 10cm, these pads are a great choice when seeking durability and supreme insulation in colder temps. For maximum insulation in cold weather we recommend pairing with a closed cell foam pad.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.95,
+      "weightDisplay": "~0.95 kg",
+      "structure": "PADS",
+      "padType": "Self-inflating"
+    },
+    "highlights": [
+      "The Hinman is a self-inflating, high-density foam-core cold-weather pad with a two-way adjustable valve that makes inflation, deflation, and micro-adjustments easier than ever. The soft, stretch-fabric top provides a cushioned yet very durable sleeping surface. With options for cushioned thickness up to 4\" / 10cm, these pads are a great choice when seeking durability and supreme insulation in cold"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Hinman-20x72-01.png?v=1779223421",
+    "imageAlt": "Hinman",
+    "sourceUrl": "https://www.bigagnes.com/products/hinman",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-07-03T14:46:27Z",
+    "status": "draft",
+    "published": true,
+    "price": 99.95,
+    "priceMin": 99.95,
+    "priceMax": 149.95
   },
   {
     "id": "big-agnes-king-solomon-doublewide-20",
@@ -1498,7 +1727,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.79,
-      "weightDisplay": "约 1.79 kg",
+      "weightDisplay": "~1.79 kg",
       "structure": "BAGS",
       "fillType": "羽绒",
       "bagType": "BAGS"
@@ -1510,7 +1739,7 @@
     "imageAlt": "King Solomon 20° Doublewide",
     "sourceUrl": "https://www.bigagnes.com/products/king-solomon-doublewide-20",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 499.95,
@@ -1528,7 +1757,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.79,
-      "weightDisplay": "约 0.79 kg",
+      "weightDisplay": "~0.79 kg",
       "structure": "BAGS",
       "bagType": "BAGS"
     },
@@ -1539,7 +1768,7 @@
     "imageAlt": "Little Red 20°",
     "sourceUrl": "https://www.bigagnes.com/products/little-red-020",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 99.95,
@@ -1557,7 +1786,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.12,
-      "weightDisplay": "约 1.12 kg",
+      "weightDisplay": "~1.12 kg",
       "structure": "BAGS",
       "bagType": "BAGS"
     },
@@ -1568,7 +1797,7 @@
     "imageAlt": "Lost Ranger 3N1 15°",
     "sourceUrl": "https://www.bigagnes.com/products/lost-ranger-3n1-015",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 399.95,
@@ -1586,7 +1815,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.51,
-      "weightDisplay": "约 1.51 kg",
+      "weightDisplay": "~1.51 kg",
       "structure": "BAGS",
       "bagType": "BAGS"
     },
@@ -1597,7 +1826,7 @@
     "imageAlt": "Lost Ranger 3N1 0°",
     "sourceUrl": "https://www.bigagnes.com/products/lost-ranger-3n1-00",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 469.95,
@@ -1615,7 +1844,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.91,
-      "weightDisplay": "约 0.91 kg",
+      "weightDisplay": "~0.91 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1625,12 +1854,128 @@
     "imageAlt": "Pitchpine VST 1.5",
     "sourceUrl": "https://www.bigagnes.com/products/pitchpine-vst-1-5",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 649.95,
     "priceMin": 649.95,
     "priceMax": 649.95
+  },
+  {
+    "id": "big-agnes-rabbit-ears-25",
+    "brandId": "big-agnes",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Rabbit Ears 25",
+    "modelEn": "Rabbit Ears 25",
+    "description": "Functionality, value, and fun meet in our mid-temperature Rabbit Ears Series sleeping bags. Based on our top-selling Greystone, the 600 fill down Rabbit Ears sleeping bags use a baffled construction for efficient heat distribution and includes a water-resistant coating made without intentionally added PFAS to keep you dry for those warmer months under the stars. And with all the features you need and none that you don’t—and a price you can’t beat—this might just be the mid-temp bag you’ve always been looking for.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.77,
+      "weightDisplay": "~0.77 kg",
+      "fillType": "羽绒"
+    },
+    "highlights": [
+      "Functionality, value, and fun meet in our mid-temperature Rabbit Ears Series sleeping bags. Based on our top-selling Greystone, the 600 fill down Rabbit Ears sleeping bags use a baffled construction for efficient heat distribution and includes a water-resistant coating made without intentionally added PFAS to keep you dry for those warmer months under the stars. And with all the features you need "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/M_sRabbitEars.png?v=1781800539",
+    "imageAlt": "Rabbit Ears 25",
+    "sourceUrl": "https://www.bigagnes.com/products/rabbit-ears-25",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-07-03T14:46:25Z",
+    "status": "draft",
+    "published": false,
+    "price": 199.95,
+    "priceMin": 199.95,
+    "priceMax": 249.95
+  },
+  {
+    "id": "big-agnes-rapide-sl-insulated",
+    "brandId": "big-agnes",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Rapide SL Insulated",
+    "modelEn": "Rapide SL Insulated",
+    "description": "Our best-selling Rapide SL Insulated is now even better! Featuring improved insulation that boosts pad warmth and lowers weight, while packing down even smaller than the original Rapide. When it comes to superlight, three-season comfort, the Rapide SL Insulated pad stands alone. Built with offset I-Beam construction, this proprietary design reduces weight while providing multi-directional support for consistent stability and comfort. This superlight air chamber pad sleeps warmer using two layers of heat reflective film, and is third party rated with an R-Value of 4.8 for use through three seasons. The Rapide SL Insulated is lighter, tougher, more packable, easy to inflate/deflate, and provides superior performance and packability for any adventure. Save your breath for the miles ahead and use the included pumphouse high volume inflation sack to inflate. Awards: The Trek - Best Thru-Hiking Sleeping Pads of 2023 Outside - Outside 2024 Summer Gear Guide; Warmest Backpacking Pad",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.48,
+      "weightDisplay": "~0.48 kg",
+      "structure": "PADS",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "Our best-selling Rapide SL Insulated is now even better! Featuring improved insulation that boosts pad warmth and lowers weight, while packing down even smaller than the original Rapide. When it comes to superlight, three-season comfort, the Rapide SL Insulated pad stands alone. Built with offset I-Beam construction, this proprietary design reduces weight while providing multi-directional support "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/DWRapideAW.png?v=1779223951",
+    "imageAlt": "Rapide SL Insulated",
+    "sourceUrl": "https://www.bigagnes.com/products/rapide-sl-insulated",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-07-03T14:46:27Z",
+    "status": "draft",
+    "published": true,
+    "price": 169.95,
+    "priceMin": 159.95,
+    "priceMax": 339.95
+  },
+  {
+    "id": "big-agnes-rapide-alpenglow-wr",
+    "brandId": "big-agnes",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Rapide SL Insulated - Alpenglow",
+    "modelEn": "Rapide SL Insulated - Alpenglow",
+    "description": "Our best-selling Rapide SL Insulated is now even better! Featuring improved insulation that boosts pad warmth and lowers weight, while packing down even smaller than the original Rapide. When it comes to superlight, three-season comfort, the Rapide SL Insulated pad stands alone. Built with offset I-Beam construction, this proprietary design reduces weight while providing multi-directional support for consistent stability and comfort. This superlight air chamber pad sleeps warmer using two layers of heat reflective film, and is third party rated with an R-Value of 4.8 for use through three seasons. The Rapide SL Insulated is lighter, tougher, more packable, easy to inflate/deflate, and provides superior performance and packability for any adventure. Save your breath for the miles ahead and use the included pumphouse high volume inflation sack to inflate. Celebrate our 25th anniversary with our limited edition alpenglow print! Big Agnes - Est. 2001",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.51,
+      "weightDisplay": "~0.51 kg",
+      "structure": "PADS",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "Our best-selling Rapide SL Insulated is now even better! Featuring improved insulation that boosts pad warmth and lowers weight, while packing down even smaller than the original Rapide. When it comes to superlight, three-season comfort, the Rapide SL Insulated pad stands alone. Built with offset I-Beam construction, this proprietary design reduces weight while providing multi-directional support "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/RapideSLAlpenglow_4a50234a-5ea4-4bc9-a538-c0fd5794aa28.png?v=1779220579",
+    "imageAlt": "Rapide SL Insulated - Alpenglow",
+    "sourceUrl": "https://www.bigagnes.com/products/rapide-alpenglow-wr",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-07-03T14:46:27Z",
+    "status": "draft",
+    "published": true,
+    "price": 219.95,
+    "priceMin": 169.95,
+    "priceMax": 219.95
+  },
+  {
+    "id": "big-agnes-rapide-tent-floor-pad",
+    "brandId": "big-agnes",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Rapide SL Insulated Tent Floor Pad",
+    "modelEn": "Rapide SL Insulated Tent Floor Pad",
+    "description": "Our best-selling Rapide SL Insulated is now even better! Featuring improved insulation that boosts pad warmth and lowers weight, while packing down even smaller than the original Rapide. Cover your bases and the entire tent floor with the Rapide SL Insulated Tent Floor Pad. Built with a tapered design to fit perfectly into most two-person backpacking tents, you can minimize your packing list with just one pad. This doublewide air chamber pad is third party rated with an R-Value of 4.8 to keep you warm through three-season outdoor adventures. At 3.5\"\" / 9cm thick with a quilted sleeping surface, you and your tentmate will be sleeping in cushioned comfort all night long. Use the included Pumphouse high voulume inflation sack to inflate and save your breath for other camp chores.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.22,
+      "weightDisplay": "~1.22 kg",
+      "structure": "PADS",
+      "padType": "Air pad",
+      "thickness": "9cm thick"
+    },
+    "highlights": [
+      "Our best-selling Rapide SL Insulated is now even better! Featuring improved insulation that boosts pad warmth and lowers weight, while packing down even smaller than the original Rapide. Cover your bases and the entire tent floor with the Rapide SL Insulated Tent Floor Pad. Built with a tapered design to fit perfectly into most two-person backpacking tents, you can minimize your packing list with "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Raptide-SL-Insultated-Tent-Floor-Pad-01_cbac1c56-e04a-4641-8717-3f017b85077c.png?v=1779223952",
+    "imageAlt": "Rapide SL Insulated Tent Floor Pad",
+    "sourceUrl": "https://www.bigagnes.com/products/rapide-tent-floor-pad",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-07-03T14:46:27Z",
+    "status": "draft",
+    "published": true,
+    "price": 339.95,
+    "priceMin": 339.95,
+    "priceMax": 339.95
   },
   {
     "id": "big-agnes-sage-canyon",
@@ -1643,7 +1988,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 4.03,
-      "weightDisplay": "约 4.03 kg",
+      "weightDisplay": "~4.03 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1653,7 +1998,7 @@
     "imageAlt": "Sage Canyon Shelter Plus",
     "sourceUrl": "https://www.bigagnes.com/products/sage-canyon",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:19Z",
     "status": "draft",
     "published": true,
     "price": 379.95,
@@ -1671,7 +2016,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.18,
-      "weightDisplay": "约 2.18 kg",
+      "weightDisplay": "~2.18 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1681,7 +2026,7 @@
     "imageAlt": "Salt Creek 2",
     "sourceUrl": "https://www.bigagnes.com/products/salt-creek-two",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 399.95,
@@ -1699,7 +2044,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.54,
-      "weightDisplay": "约 2.54 kg",
+      "weightDisplay": "~2.54 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1709,7 +2054,7 @@
     "imageAlt": "Salt Creek 3",
     "sourceUrl": "https://www.bigagnes.com/products/salt-creek-three",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 449.95,
@@ -1727,7 +2072,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.27,
-      "weightDisplay": "约 1.27 kg",
+      "weightDisplay": "~1.27 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1737,7 +2082,7 @@
     "imageAlt": "Sarvis VST 2",
     "sourceUrl": "https://www.bigagnes.com/products/sarvis-vst-2",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 749.95,
@@ -1755,7 +2100,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.54,
-      "weightDisplay": "约 1.54 kg",
+      "weightDisplay": "~1.54 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1765,7 +2110,7 @@
     "imageAlt": "Sarvis VST 3",
     "sourceUrl": "https://www.bigagnes.com/products/sarvis-vst-3",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 849.95,
@@ -1783,7 +2128,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.9,
-      "weightDisplay": "约 2.9 kg",
+      "weightDisplay": "~2.9 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1793,7 +2138,7 @@
     "imageAlt": "Sheep Mountain 1",
     "sourceUrl": "https://www.bigagnes.com/products/sheep-mountain-1",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 329.95,
@@ -1811,7 +2156,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 3.45,
-      "weightDisplay": "约 3.45 kg",
+      "weightDisplay": "~3.45 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1821,7 +2166,7 @@
     "imageAlt": "Sheep Mountain 2",
     "sourceUrl": "https://www.bigagnes.com/products/sheep-mountain-2",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 439.95,
@@ -1839,7 +2184,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 3.95,
-      "weightDisplay": "约 3.95 kg",
+      "weightDisplay": "~3.95 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1849,7 +2194,7 @@
     "imageAlt": "Sheep Mountain 3",
     "sourceUrl": "https://www.bigagnes.com/products/sheep-mountain-3",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 479.95,
@@ -1867,7 +2212,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.09,
-      "weightDisplay": "约 2.09 kg",
+      "weightDisplay": "~2.09 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1877,7 +2222,7 @@
     "imageAlt": "Shield 2",
     "sourceUrl": "https://www.bigagnes.com/products/shield-two",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 799.95,
@@ -1895,7 +2240,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.82,
-      "weightDisplay": "约 0.82 kg",
+      "weightDisplay": "~0.82 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1905,7 +2250,7 @@
     "imageAlt": "Shield 2 Accessory Vestibule",
     "sourceUrl": "https://www.bigagnes.com/products/vestibule-shield-two",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 249.95,
@@ -1923,7 +2268,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.5,
-      "weightDisplay": "约 1.5 kg",
+      "weightDisplay": "~1.5 kg",
       "structure": "BAGS",
       "bagType": "BAGS"
     },
@@ -1934,7 +2279,7 @@
     "imageAlt": "Sidewinder 0˚",
     "sourceUrl": "https://www.bigagnes.com/products/sidewinder-0",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 429.95,
@@ -1952,7 +2297,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.0,
-      "weightDisplay": "约 1.0 kg",
+      "weightDisplay": "~1.0 kg",
       "structure": "BAGS",
       "bagType": "BAGS"
     },
@@ -1963,7 +2308,7 @@
     "imageAlt": "Sidewinder 20°",
     "sourceUrl": "https://www.bigagnes.com/products/sidewinder-20",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 329.95,
@@ -1981,7 +2326,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.68,
-      "weightDisplay": "约 0.68 kg",
+      "weightDisplay": "~0.68 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -1991,7 +2336,7 @@
     "imageAlt": "String Ridge VST 1.5",
     "sourceUrl": "https://www.bigagnes.com/products/string-ridge-vst-1-5",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 549.95,
@@ -2009,7 +2354,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.95,
-      "weightDisplay": "约 0.95 kg",
+      "weightDisplay": "~0.95 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -2019,7 +2364,7 @@
     "imageAlt": "String Ridge VST 2.5",
     "sourceUrl": "https://www.bigagnes.com/products/string-ridge-vst-2-5",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 679.95,
@@ -2037,7 +2382,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.63,
-      "weightDisplay": "约 0.63 kg",
+      "weightDisplay": "~0.63 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -2047,7 +2392,7 @@
     "imageAlt": "Three Wire Hooped Bivy",
     "sourceUrl": "https://www.bigagnes.com/products/three-wire-hooped-bivy-shelter",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 429.95,
@@ -2065,7 +2410,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.99,
-      "weightDisplay": "约 0.99 kg",
+      "weightDisplay": "~0.99 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -2075,7 +2420,7 @@
     "imageAlt": "Tiger Wall 2 Platinum",
     "sourceUrl": "https://www.bigagnes.com/products/tiger-wall-platinum-two-tent",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 699.95,
@@ -2093,7 +2438,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.11,
-      "weightDisplay": "约 1.11 kg",
+      "weightDisplay": "~1.11 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -2103,7 +2448,7 @@
     "imageAlt": "Tiger Wall 3 Platinum",
     "sourceUrl": "https://www.bigagnes.com/products/tiger-wall-platinum-three-tent",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:18Z",
     "status": "draft",
     "published": true,
     "price": 749.95,
@@ -2121,7 +2466,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.85,
-      "weightDisplay": "约 0.85 kg",
+      "weightDisplay": "~0.85 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -2131,7 +2476,7 @@
     "imageAlt": "Tiger Wall UL1",
     "sourceUrl": "https://www.bigagnes.com/products/tiger-wall-ul-one",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 469.95,
@@ -2149,7 +2494,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.19,
-      "weightDisplay": "约 1.19 kg",
+      "weightDisplay": "~1.19 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -2159,7 +2504,7 @@
     "imageAlt": "Tiger Wall UL1 Bikepack",
     "sourceUrl": "https://www.bigagnes.com/products/tiger-wall-ul1-bikepack",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:18Z",
     "status": "draft",
     "published": true,
     "price": 499.95,
@@ -2177,7 +2522,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.99,
-      "weightDisplay": "约 0.99 kg",
+      "weightDisplay": "~0.99 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -2187,7 +2532,7 @@
     "imageAlt": "Tiger Wall UL2",
     "sourceUrl": "https://www.bigagnes.com/products/tiger-wall-ul-two",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 499.95,
@@ -2205,7 +2550,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.36,
-      "weightDisplay": "约 1.36 kg",
+      "weightDisplay": "~1.36 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -2215,7 +2560,7 @@
     "imageAlt": "Tiger Wall UL2 Bikepack",
     "sourceUrl": "https://www.bigagnes.com/products/tiger-wall-ul2-bikepack",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 549.95,
@@ -2233,7 +2578,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.19,
-      "weightDisplay": "约 1.19 kg",
+      "weightDisplay": "~1.19 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -2243,7 +2588,7 @@
     "imageAlt": "Tiger Wall UL3",
     "sourceUrl": "https://www.bigagnes.com/products/tiger-wall-ul-three",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:17Z",
     "status": "draft",
     "published": true,
     "price": 579.95,
@@ -2261,7 +2606,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.5,
-      "weightDisplay": "约 1.5 kg",
+      "weightDisplay": "~1.5 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -2271,7 +2616,7 @@
     "imageAlt": "Tiger Wall UL3 Bikepack Solution Dye",
     "sourceUrl": "https://www.bigagnes.com/products/tiger-wall-ul3-bikepack",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:18Z",
     "status": "draft",
     "published": true,
     "price": 467.45,
@@ -2289,7 +2634,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.75,
-      "weightDisplay": "约 0.75 kg",
+      "weightDisplay": "~0.75 kg",
       "structure": "BAGS",
       "bagType": "BAGS"
     },
@@ -2300,7 +2645,7 @@
     "imageAlt": "Torchlight EXP 0°",
     "sourceUrl": "https://www.bigagnes.com/products/torchlight-exp-0",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 469.95,
@@ -2318,7 +2663,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.05,
-      "weightDisplay": "约 1.05 kg",
+      "weightDisplay": "~1.05 kg",
       "structure": "BAGS",
       "bagType": "BAGS"
     },
@@ -2329,7 +2674,7 @@
     "imageAlt": "Torchlight EXP 20°",
     "sourceUrl": "https://www.bigagnes.com/products/torchlight-exp-20",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 369.95,
@@ -2347,7 +2692,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.86,
-      "weightDisplay": "约 0.86 kg",
+      "weightDisplay": "~0.86 kg",
       "structure": "BAGS",
       "bagType": "BAGS"
     },
@@ -2358,7 +2703,7 @@
     "imageAlt": "Torchlight EXP 30°",
     "sourceUrl": "https://www.bigagnes.com/products/torchlight-exp-30",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 329.95,
@@ -2372,28 +2717,85 @@
     "subcategory": "Sleeping Bags",
     "model": "Torchlight EXP Youth 20°",
     "modelEn": "Torchlight EXP Youth 20°",
-    "description": "Kids grow, and so does the Torchlight EXP Youth! The Torchlight EXP Youth 20 degree junior sleeping bag is a warm, cozy Big Agnes Padlok™ Sleep System bag with packable down insulation that will grow with your lil' camper from tot to teen. Offering a customizable fit system for both length and width, the this versatile bag can be sized down to keep your littlest snug as a bug. As they grow, simply unclip the loop and closure for more room and space as needed. If they need some wiggle room, unzip the expandable side panels to give them just as much extra space as they want! When you get home, cinch up the attached REM Storage Sleve and pack in your bag for storage - no need to keep track of loose storage sacks. Give them comfort that will keep up with them and feed their love for the outdoors, with the Torchlight EXP Youth!",
+    "description": "Kids grow, and so does the Torchlight EXP Youth! The Torchlight EXP Youth 20 degree junior sleeping bag is a warm, cozy Big Agnes PadLok™ Sleep System bag with packable down insulation that will grow with your lil' camper from tot to teen. Offering a customizable fit system for both length and width, the this versatile bag can be sized down to keep your littlest snug as a bug. As they grow, simply unclip the loop and closure for more room and space as needed. If they need some wiggle room, unzip the expandable side panels to give them just as much extra space as they want! When you get home, cinch up the attached REM Storage Sleve and pack in your bag for storage - no need to keep track of loose storage sacks. Give them comfort that will keep up with them and feed their love for the outdoors, with the Torchlight EXP Youth!",
     "currency": "USD",
     "specs": {
       "weightKg": 0.79,
-      "weightDisplay": "约 0.79 kg",
+      "weightDisplay": "~0.79 kg",
       "structure": "BAGS",
       "fillType": "羽绒",
       "bagType": "BAGS"
     },
     "highlights": [
-      "Kids grow, and so does the Torchlight EXP Youth! The Torchlight EXP Youth 20 degree junior sleeping bag is a warm, cozy Big Agnes Padlok™ Sleep System bag with packable down insulation that will grow with your lil' camper from tot to teen. Offering a customizable fit system for both length and width, the this versatile bag can be sized down to keep your littlest snug as a bug. As they grow, simply"
+      "Kids grow, and so does the Torchlight EXP Youth! The Torchlight EXP Youth 20 degree junior sleeping bag is a warm, cozy Big Agnes PadLok™ Sleep System bag with packable down insulation that will grow with your lil' camper from tot to teen. Offering a customizable fit system for both length and width, the this versatile bag can be sized down to keep your littlest snug as a bug. As they grow, simply"
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/files/Torchlight-Youth-07.png?v=1779224619",
     "imageAlt": "Torchlight EXP Youth 20°",
     "sourceUrl": "https://www.bigagnes.com/products/torchlight-exp-youth-20",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 259.95,
     "priceMin": 259.95,
     "priceMax": 259.95
+  },
+  {
+    "id": "big-agnes-twistercane-bio-foam-hiking-seat",
+    "brandId": "big-agnes",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "TwisterCane™ BioFoam Hiking Seat",
+    "modelEn": "TwisterCane™ BioFoam Hiking Seat",
+    "description": "TwisterCane™ BioFoam Hiking Seats are engineered for ultralight backcountry summer trips to high alpine winter conditions. The closed-cell foam technology provides a firm, cushioned barrier between you and the ground; smooth on one side with a tire tread pattern on the other. Made from sugarcane biomass in a process that removes carbon from the atmosphere and sourced in an environmentally sustainable manner.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.06,
+      "weightDisplay": "~0.06 kg",
+      "structure": "PADS"
+    },
+    "highlights": [
+      "TwisterCane™ BioFoam Hiking Seats are engineered for ultralight backcountry summer trips to high alpine winter conditions. The closed-cell foam technology provides a firm, cushioned barrier between you and the ground; smooth on one side with a tire tread pattern on the other. Made from sugarcane biomass in a process that removes carbon from the atmosphere and sourced in an environmentally sustaina"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Twistercane-BioFoam-Hiking-Seat-01_afe7b6e2-d37f-44a5-9a2e-c00cc4c0a56e.png?v=1779223305",
+    "imageAlt": "TwisterCane™ BioFoam Hiking Seat",
+    "sourceUrl": "https://www.bigagnes.com/products/twistercane-bio-foam-hiking-seat",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-07-03T14:46:27Z",
+    "status": "draft",
+    "published": true,
+    "price": 24.95,
+    "priceMin": 24.95,
+    "priceMax": 24.95
+  },
+  {
+    "id": "big-agnes-twistercane-bio-foam-pad",
+    "brandId": "big-agnes",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "TwisterCane™ BioFoam Pad",
+    "modelEn": "TwisterCane™ BioFoam Pad",
+    "description": "TwisterCane™ BioFoam Sleeping Pads are made to be the sweetest piece of gear in your pack. Engineered for everything from ultralight backcountry summer trips to high alpine winter conditions. Closed-cell foam technology provides a firm, cushioned barrier between you and the ground; smooth on one side with a tire tread pattern on the other. Use alone or layer it with an air pad for added insulation. Made from repurposed sugarcane biomass that is sourced in an environmentally sustainable manner.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.4,
+      "weightDisplay": "~0.4 kg",
+      "structure": "PADS",
+      "padType": "Foam pad"
+    },
+    "highlights": [
+      "TwisterCane™ BioFoam Sleeping Pads are made to be the sweetest piece of gear in your pack. Engineered for everything from ultralight backcountry summer trips to high alpine winter conditions. Closed-cell foam technology provides a firm, cushioned barrier between you and the ground; smooth on one side with a tire tread pattern on the other. Use alone or layer it with an air pad for added insulation"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/Twister-Cane-BioFoam-Pad-01.png?v=1779223302",
+    "imageAlt": "TwisterCane™ BioFoam Pad",
+    "sourceUrl": "https://www.bigagnes.com/products/twistercane-bio-foam-pad",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-07-03T14:46:27Z",
+    "status": "draft",
+    "published": true,
+    "price": 69.95,
+    "priceMin": 69.95,
+    "priceMax": 69.95
   },
   {
     "id": "big-agnes-why-not-picnic-blanket",
@@ -2406,7 +2808,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.78,
-      "weightDisplay": "约 0.78 kg",
+      "weightDisplay": "~0.78 kg",
       "structure": "BAGS",
       "fillType": "化纤棉",
       "bagType": "BAGS"
@@ -2418,7 +2820,7 @@
     "imageAlt": "Why Not Picnic Blanket",
     "sourceUrl": "https://www.bigagnes.com/products/why-not-picnic-blanket",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 99.95,
@@ -2436,7 +2838,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.79,
-      "weightDisplay": "约 0.79 kg",
+      "weightDisplay": "~0.79 kg",
       "structure": "BAGS",
       "fillType": "化纤棉",
       "bagType": "BAGS"
@@ -2448,7 +2850,7 @@
     "imageAlt": "Why Not Picnic Blanket - Alpenglow",
     "sourceUrl": "https://www.bigagnes.com/products/why-not-blanket-alpenglow",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 99.95,
@@ -2466,7 +2868,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.02,
-      "weightDisplay": "约 1.02 kg",
+      "weightDisplay": "~1.02 kg",
       "structure": "BAGS",
       "bagType": "BAGS"
     },
@@ -2477,7 +2879,7 @@
     "imageAlt": "Wolverine 20°",
     "sourceUrl": "https://www.bigagnes.com/products/wolverine-020",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 129.95,
@@ -2495,7 +2897,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.41,
-      "weightDisplay": "约 1.41 kg",
+      "weightDisplay": "~1.41 kg",
       "structure": "BAGS",
       "fillType": "化纤棉",
       "bagType": "木乃伊"
@@ -2507,7 +2909,7 @@
     "imageAlt": "Women's Anthracite 20°",
     "sourceUrl": "https://www.bigagnes.com/products/ws-anthracite-twenty",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 159.95,
@@ -2525,7 +2927,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.45,
-      "weightDisplay": "约 1.45 kg",
+      "weightDisplay": "~1.45 kg",
       "structure": "BAGS",
       "fillType": "化纤棉",
       "bagType": "木乃伊"
@@ -2537,7 +2939,7 @@
     "imageAlt": "Women's Anthracite 20°",
     "sourceUrl": "https://www.bigagnes.com/products/ws-anthracite-20",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 111.96,
@@ -2555,7 +2957,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.41,
-      "weightDisplay": "约 1.41 kg",
+      "weightDisplay": "~1.41 kg",
       "structure": "BAGS",
       "fillType": "化纤棉",
       "bagType": "木乃伊"
@@ -2567,7 +2969,7 @@
     "imageAlt": "Women's Anthracite 20° - Alpenglow",
     "sourceUrl": "https://www.bigagnes.com/products/ws-anthracite-20-alpenglow",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 169.95,
@@ -2585,7 +2987,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.13,
-      "weightDisplay": "约 1.13 kg",
+      "weightDisplay": "~1.13 kg",
       "structure": "BAGS",
       "fillType": "化纤棉",
       "bagType": "木乃伊"
@@ -2597,7 +2999,7 @@
     "imageAlt": "Women's Anthracite 30°",
     "sourceUrl": "https://www.bigagnes.com/products/ws-anthracite-thirty",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 149.95,
@@ -2615,7 +3017,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.09,
-      "weightDisplay": "约 1.09 kg",
+      "weightDisplay": "~1.09 kg",
       "structure": "BAGS",
       "fillType": "羽绒",
       "bagType": "木乃伊"
@@ -2627,7 +3029,7 @@
     "imageAlt": "Women's Greystone 20°",
     "sourceUrl": "https://www.bigagnes.com/products/ws-greystone-twenty",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 299.95,
@@ -2645,7 +3047,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.86,
-      "weightDisplay": "约 0.86 kg",
+      "weightDisplay": "~0.86 kg",
       "structure": "BAGS",
       "fillType": "羽绒",
       "bagType": "木乃伊"
@@ -2657,7 +3059,7 @@
     "imageAlt": "Women's Greystone 30°",
     "sourceUrl": "https://www.bigagnes.com/products/ws-greystone-thirty",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 269.95,
@@ -2675,7 +3077,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.09,
-      "weightDisplay": "约 1.09 kg",
+      "weightDisplay": "~1.09 kg",
       "structure": "BAGS",
       "bagType": "木乃伊"
     },
@@ -2686,7 +3088,7 @@
     "imageAlt": "Women's Sidewinder SL 20°",
     "sourceUrl": "https://www.bigagnes.com/products/womens-sidewinder-sl-20",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:29Z",
+    "scrapedAt": "2026-07-03T14:46:25Z",
     "status": "draft",
     "published": true,
     "price": 187.46,
@@ -2704,7 +3106,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 5.58,
-      "weightDisplay": "约 5.58 kg",
+      "weightDisplay": "~5.58 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -2714,7 +3116,7 @@
     "imageAlt": "Wyoming Trail 2",
     "sourceUrl": "https://www.bigagnes.com/products/wyoming-trail-2",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:18Z",
     "status": "draft",
     "published": true,
     "price": 324.97,
@@ -2732,7 +3134,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 10.12,
-      "weightDisplay": "约 10.12 kg",
+      "weightDisplay": "~10.12 kg",
       "structure": "TENTS"
     },
     "highlights": [
@@ -2742,11 +3144,39 @@
     "imageAlt": "Wyoming Trail 4",
     "sourceUrl": "https://www.bigagnes.com/products/wyoming-trail-4",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-06-11T15:18:09Z",
+    "scrapedAt": "2026-07-03T14:46:18Z",
     "status": "draft",
     "published": true,
     "price": 499.97,
     "priceMin": 499.97,
     "priceMax": 499.97
+  },
+  {
+    "id": "big-agnes-zoom-ul-insulated",
+    "brandId": "big-agnes",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Zoom UL Insulated",
+    "modelEn": "Zoom UL Insulated",
+    "description": "Designed for ultralight backcountry adventures, the Zoom UL Insulated eliminates the need to compromise between comfort and weight savings. With a generous 4.3 R-Value for three-season use, sustainably sourced materials, and aviation-grade lamination for ultimate reliability, the Zoom UL provides great sleep in the backcountry, at an incredibly low weight.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.4,
+      "weightDisplay": "~0.4 kg",
+      "structure": "PADS"
+    },
+    "highlights": [
+      "Designed for ultralight backcountry adventures, the Zoom UL Insulated eliminates the need to compromise between comfort and weight savings. With a generous 4.3 R-Value for three-season use, sustainably sourced materials, and aviation-grade lamination for ultimate reliability, the Zoom UL provides great sleep in the backcountry, at an incredibly low weight."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0647/7171/9417/products/ZoomUL.png?v=1779223780",
+    "imageAlt": "Zoom UL Insulated",
+    "sourceUrl": "https://www.bigagnes.com/products/zoom-ul-insulated",
+    "sourceSite": "bigagnes.com",
+    "scrapedAt": "2026-07-03T14:46:27Z",
+    "status": "draft",
+    "published": true,
+    "price": 199.95,
+    "priceMin": 199.95,
+    "priceMax": 249.95
   }
 ]

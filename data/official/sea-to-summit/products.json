@@ -1,5 +1,133 @@
 [
   {
+    "id": "sea-to-summit-air-chair",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Air Chair",
+    "modelEn": "Air Chair",
+    "description": "The Air Chair can turn your outdoor sleeping pad into a comfortable camp chair with a few simple folds and the quick clip of some buckles. Available in both regular and large sizes, the Air Chair is compatible with all Sea to Summit Air Sprung Cell mats and most Self Inflating mats. The durable 70D base will protect your sleeping pad from rough or damp ground, and the adjustable back panel side straps will support you comfortably, whether you're lounging back or sitting upright. Regular Chair: Fits small and regular mummy shaped mats Large Chair: Fits large mummy shaped mats as well as regular and large rectangular mats. Not compatible with Comfort Deluxe Self Inflating mats NOTE: Sleeping mat not included Features Durable 70D waterproof nylon base and lower back panel. Upper back panel made of 30D Ultra-Sil CORDURA. Adjustable side straps with easily-replaceable field-repair buckles. Elasticated gussets protect your pad on both sides. Bar tack reinforced in all stress points, and all seams are double stitched for extra strength. Note: Sleeping pad not included.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.31,
+      "weightDisplay": "~0.31 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Self-inflating",
+      "size": "Regular"
+    },
+    "highlights": [
+      "Durable 70D waterproof nylon base and lower back panel.",
+      "Upper back panel made of 30D Ultra-Sil CORDURA.",
+      "Adjustable side straps with easily-replaceable field-repair buckles.",
+      "Elasticated gussets protect your pad on both sides."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/products/955_AirChair_Regular_ForWeb.jpg?v=1610985388",
+    "imageAlt": "Air Chair",
+    "sourceUrl": "https://seatosummit.com/products/air-chair",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 74.95,
+    "priceMin": 64.95,
+    "priceMax": 74.95
+  },
+  {
+    "id": "sea-to-summit-air-seat",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Air Seat",
+    "modelEn": "Air Seat",
+    "description": "So packable you won't notice the addition to your bag, but so useful you'll never leave home without it. The Air Seat is the perfect way to add a little comfort to wherever you're sitting, whether it's the ground, a bleacher or an airplane seat. Quick inflation and easy adjustment through the multi-function valve means you are comfortable as soon as it's out of the bag. Features Durable 30D polyester top and 75D base. Experience quick inflation and deflation with our multi-function valve. Use valve to tune air pressure to preferred level.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.09,
+      "weightDisplay": "~0.09 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "Durable 30D polyester top and 75D base.",
+      "Experience quick inflation and deflation with our multi-function valve.",
+      "Use valve to tune air pressure to preferred level."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/products/packable-lightweight-backpacking-camping-air-insulated-seat.jpg?v=1618950078",
+    "imageAlt": "Air Seat",
+    "sourceUrl": "https://seatosummit.com/products/air-seat",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 42.95,
+    "priceMin": 42.95,
+    "priceMax": 42.95
+  },
+  {
+    "id": "sea-to-summit-air-seat-insulated",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Air Seat Insulated",
+    "modelEn": "Air Seat Insulated",
+    "description": "The Air Seat Insulated will offer instant comfort and warmth whether you're sitting on the ground, a bleacher or at an outdoor concert. Perfect for cooler conditions, it's filled with Thermolite insulation and uses a durable 30D polyester top and 75D polyester base. It also packs down super small, making it an easy addition to your purse or pack. Features Thermolite insulation for warmth. Durable 30D polyester top and 75D base. Quick inflation and deflation with our multi-function valve. Use the valve to tune air pressure to your preferred level.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.1,
+      "weightDisplay": "~0.1 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "Thermolite insulation for warmth.",
+      "Durable 30D polyester top and 75D base.",
+      "Quick inflation and deflation with our multi-function valve.",
+      "Use the valve to tune air pressure to your preferred level."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/products/packable-lightweight-backpacking-camping-insulated-air-seat.jpg?v=1618950210",
+    "imageAlt": "Air Seat Insulated",
+    "sourceUrl": "https://seatosummit.com/products/air-seat-insulated",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 49.95,
+    "priceMin": 49.95,
+    "priceMax": 49.95
+  },
+  {
+    "id": "sea-to-summit-air-stream-dry-sack-pump",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Airstream Pump Sack",
+    "modelEn": "Airstream Pump Sack",
+    "description": "Storage by day, pump by night. The Air Stream Pump Dry Sack features a low profile valve that connects to the multi-function valve on all of our sleeping pads. With two to three cycles of air, your sleeping pad will be inflated with minimal condensation on the inside of your pad, leaving you with no dizziness from puffing. The lightweight 15D Ultra-Sil dry sack is large enough to store clothes, or a sleeping bag inside your backpack. Features Inflates most Sea to Summit sleeping pads in only two to three compressions. Fully seam-sealed dry sack with valve plug. This 20 liter volume product is perfect for storing clothes or a sleeping bag inside your pack. Packs down extremely small.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.09,
+      "weightDisplay": "~0.09 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "Inflates most Sea to Summit sleeping pads in only two to three compressions.",
+      "Fully seam-sealed dry sack with valve plug.",
+      "This 20 liter volume product is perfect for storing clothes or a sleeping bag inside your pack.",
+      "Packs down extremely small."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/products/Air-stream-pump-sack.jpg?v=1628200798",
+    "imageAlt": "Airstream Pump Sack",
+    "sourceUrl": "https://seatosummit.com/products/air-stream-dry-sack-pump",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 49.95,
+    "priceMin": 49.95,
+    "priceMax": 49.95
+  },
+  {
     "id": "sea-to-summit-alpine-down-sleeping-bag",
     "brandId": "sea-to-summit",
     "category": "sleeping-bag",
@@ -10,7 +138,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.65,
-      "weightDisplay": "约 1.65 kg",
+      "weightDisplay": "~1.65 kg",
       "structure": "Sleeping Bags",
       "fillType": "羽绒",
       "bagType": "木乃伊"
@@ -25,7 +153,7 @@
     "imageAlt": "Alpine Down Sleeping Bag",
     "sourceUrl": "https://seatosummit.com/products/alpine-down-sleeping-bag",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:40Z",
+    "scrapedAt": "2026-07-03T14:45:56Z",
     "status": "draft",
     "published": true,
     "price": 934.0,
@@ -43,7 +171,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.84,
-      "weightDisplay": "约 1.84 kg",
+      "weightDisplay": "~1.84 kg",
       "structure": "Like New"
     },
     "highlights": [
@@ -56,7 +184,7 @@
     "imageAlt": "Alto Semi-Free Standing Ultralight Tent (Like New)",
     "sourceUrl": "https://seatosummit.com/products/alto-semi-free-standing-ultralight-tent-used",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 249.5,
@@ -74,7 +202,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.04,
-      "weightDisplay": "约 0.04 kg",
+      "weightDisplay": "~0.04 kg",
       "structure": "Spare Parts"
     },
     "highlights": [
@@ -84,7 +212,7 @@
     "imageAlt": "Alto TR1 and TR1 Plus Inner Tent Stuff Sack",
     "sourceUrl": "https://seatosummit.com/products/alto-tr1-and-tr1-plus-body-stuff-sack",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 35.0,
@@ -102,7 +230,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.53,
-      "weightDisplay": "约 0.53 kg",
+      "weightDisplay": "~0.53 kg",
       "structure": "Spare Parts"
     },
     "highlights": [
@@ -115,7 +243,7 @@
     "imageAlt": "Alto TR1 Inner Tent",
     "sourceUrl": "https://seatosummit.com/products/alto-tr1-inner-tent",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 155.0,
@@ -133,7 +261,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.04,
-      "weightDisplay": "约 0.04 kg",
+      "weightDisplay": "~0.04 kg",
       "structure": "Spare Parts"
     },
     "highlights": [
@@ -143,7 +271,7 @@
     "imageAlt": "Alto TR2 and TR2 Plus Inner Tent Stuff Sack",
     "sourceUrl": "https://seatosummit.com/products/alto-tr2-and-tr2-plus-body-stuff-sack",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 35.0,
@@ -161,7 +289,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.83,
-      "weightDisplay": "约 0.83 kg",
+      "weightDisplay": "~0.83 kg",
       "structure": "Spare Parts"
     },
     "highlights": [
@@ -174,7 +302,7 @@
     "imageAlt": "Alto TR2 Inner Tent",
     "sourceUrl": "https://seatosummit.com/products/alto-tr2-inner-tent",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 180.0,
@@ -192,7 +320,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.49,
-      "weightDisplay": "约 1.49 kg",
+      "weightDisplay": "~1.49 kg",
       "structure": "Spare Parts"
     },
     "highlights": [
@@ -205,7 +333,7 @@
     "imageAlt": "Alto TR2 Plus Inner Tent",
     "sourceUrl": "https://seatosummit.com/products/alto-tr2-plus-body",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 195.0,
@@ -223,7 +351,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.9,
-      "weightDisplay": "约 0.9 kg",
+      "weightDisplay": "~0.9 kg",
       "structure": "Sleeping Bags",
       "fillType": "羽绒",
       "bagType": "Sleeping Bags"
@@ -238,7 +366,7 @@
     "imageAlt": "Ascent Down Sleeping Bag",
     "sourceUrl": "https://seatosummit.com/products/the-ascent-down-sleeping-bag",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:40Z",
+    "scrapedAt": "2026-07-03T14:45:56Z",
     "status": "draft",
     "published": true,
     "price": 399.0,
@@ -256,7 +384,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.02,
-      "weightDisplay": "约 1.02 kg",
+      "weightDisplay": "~1.02 kg",
       "structure": "Sleeping Bags",
       "fillType": "羽绒",
       "bagType": "Sleeping Bags"
@@ -271,7 +399,7 @@
     "imageAlt": "Ascent Women's Down Sleeping Bag",
     "sourceUrl": "https://seatosummit.com/products/ascent-womens-down-sleeping-bag",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:40Z",
+    "scrapedAt": "2026-07-03T14:45:56Z",
     "status": "draft",
     "published": true,
     "price": 399.0,
@@ -289,7 +417,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.01,
-      "weightDisplay": "约 2.01 kg",
+      "weightDisplay": "~2.01 kg",
       "structure": "Sleeping Bags",
       "fillType": "羽绒",
       "bagType": "信封式"
@@ -304,7 +432,7 @@
     "imageAlt": "Basecamp Down Sleeping Bag",
     "sourceUrl": "https://seatosummit.com/products/basecamp-down-sleeping-bag",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:40Z",
+    "scrapedAt": "2026-07-03T14:45:56Z",
     "status": "draft",
     "published": true,
     "price": 414.0,
@@ -322,7 +450,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.36,
-      "weightDisplay": "约 1.36 kg",
+      "weightDisplay": "~1.36 kg",
       "structure": "Sleeping Bags",
       "fillType": "化纤棉",
       "bagType": "Sleeping Bags"
@@ -337,12 +465,267 @@
     "imageAlt": "Boab Synthetic Sleeping Bag",
     "sourceUrl": "https://seatosummit.com/products/boab-synthetic-sleeping-bag",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:40Z",
+    "scrapedAt": "2026-07-03T14:45:56Z",
     "status": "draft",
     "published": true,
     "price": 124.0,
     "priceMin": 124.0,
     "priceMax": 165.0
+  },
+  {
+    "id": "sea-to-summit-camp-plus-self-inflating-sleeping-pad",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Camp Plus Self Inflating Sleeping Pad",
+    "modelEn": "Camp Plus Self Inflating Sleeping Pad",
+    "description": "The Camp Plus Self Inflating Mat delivers extra comfort with 33% more thickness than standard mats and adjustable firmness to match your sleep style. Body-mapped Air Zone construction keeps insulation where it’s needed and cuts weight where it’s not. The weight-efficient Contour Shape adds more sleep area - ideal for a wide range of body types and sleep styles. Made with rugged, certified recycled 75D polyester, it's built to last season after season. Features Body Mapped Insulation: Air Zone construction insulates where needed, reducing weight where it’s not 33% thicker than standard mats, with added depth, comfort, and adjustable firmness for any sleep style Contour Shape: Adds 12% more sleep area to allow for varied sleep positions Rectangular Shape: Offers extra sleep area for ultimate comfort Quick and Compact Deflation: XPEL valve enables tighter rolls for space-saving storage Effortless Packing: Side-loading stuff sack makes transport and storage easy Comfort in extended three-season temperatures with an ASTM R-Value of 5.3 Durable & Recycled Fabrics: Made with rugged, certified recycled 75D woven polyester",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.14,
+      "weightDisplay": "~1.14 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Self-inflating"
+    },
+    "highlights": [
+      "Body Mapped Insulation: Air Zone construction insulates where needed, reducing weight where it’s not",
+      "33% thicker than standard mats, with added depth, comfort, and adjustable firmness for any sleep style",
+      "Contour Shape: Adds 12% more sleep area to allow for varied sleep positions",
+      "Rectangular Shape: Offers extra sleep area for ultimate comfort"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/files/006305_CampPlusSIMat_RegularContour_Cypress_PRIMARY_1500.jpg?v=1769644526",
+    "imageAlt": "Camp Plus Self Inflating Sleeping Pad",
+    "sourceUrl": "https://seatosummit.com/products/camp-plus-self-inflating-sleeping-pad",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 99.0,
+    "priceMin": 99.0,
+    "priceMax": 109.0
+  },
+  {
+    "id": "sea-to-summit-camp-self-inflating-pad",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Camp Self Inflating Sleeping Pad",
+    "modelEn": "Camp Self Inflating Sleeping Pad",
+    "description": "Comfortable, durable and easy to use, the Camp Self Inflating Mat is built for campers seeking technical performance at an approachable price. Air Zone construction reduces weight with body-mapped cutouts, keeping insulation where it's needed most. The weight-efficient Contour Shape offers extra sleep surface for side sleepers and those who like more space. Made from rugged, certified recycled 75D polyester. The XPEL valve enables fast inflation and compact packing. Packs easily into the side-loading stuff sack. Features Body Mapped Insulation: Air Zone construction insulates where needed, reducing weight where it’s not Adjustable Firmness: 4cm thickness allows you to customize comfort for your ideal sleep Contour Shape: Adds 12% more sleep area for varied sleep positions Rectangular Shape: Offers extra sleep area for ultimate comfort Quick and Compact Deflation: XPEL valve enables tighter rolls for space-saving storage Effortless Packing: Side-loading stuff sack makes transport and storage easy Comfort in Three Seasons: R-Value of 4.2 provides warmth in a wide range of temperatures Durable & Recycled Fabrics: Made with rugged, certified recycled 75D woven polyester",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.91,
+      "weightDisplay": "~0.91 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Self-inflating"
+    },
+    "highlights": [
+      "Body Mapped Insulation: Air Zone construction insulates where needed, reducing weight where it’s not",
+      "Adjustable Firmness: 4cm thickness allows you to customize comfort for your ideal sleep",
+      "Contour Shape: Adds 12% more sleep area for varied sleep positions",
+      "Rectangular Shape: Offers extra sleep area for ultimate comfort"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/files/006505_CampSIMat_RegularContour_Tarragon_PRIMARY_1500.jpg?v=1769644527",
+    "imageAlt": "Camp Self Inflating Sleeping Pad",
+    "sourceUrl": "https://seatosummit.com/products/camp-self-inflating-pad",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 89.0,
+    "priceMin": 89.0,
+    "priceMax": 99.0
+  },
+  {
+    "id": "sea-to-summit-camp-self-inflating-pad-past-season",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Camp Self Inflating Sleeping Pad - Past Season",
+    "modelEn": "Camp Self Inflating Sleeping Pad - Past Season",
+    "description": "The Camp Self-Inflating Mat is a comfortable, durable option for the adventurer who wants a quality pad at an affordable price. Utilizing the multi-function valve, this pad deflates easily, with no fighting re-inflation during pack up. What's more, Delta Core-V technology removes weight and bulk without compromising on comfort, and the durable face fabric will withstand some tough adventuring. It's your back to basics, no-frills, sleeping pad that offers great comfort for backpacking and camping adventures. Features 4.2 R-Value is warm enough for all but the coldest ground. One and a half inch thick foam provides comfort, reduced weight and packability. Delta Core-V technology keeps body contact areas warmer while still offering great support and packability. Robust and abrasion resistant 75D polyester shell fabric with extrusion laminated TPU. Flip-over multi-function valve for fine-tuning air pressure, fast inflation and easy deflation. PillowLock system prevents your Sea to Summit Aeros Pillow from slipping.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.86,
+      "weightDisplay": "~0.86 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Self-inflating"
+    },
+    "highlights": [
+      "4.2 R-Value is warm enough for all but the coldest ground.",
+      "One and a half inch thick foam provides comfort, reduced weight and packability.",
+      "Delta Core-V technology keeps body contact areas warmer while still offering great support and packability.",
+      "Robust and abrasion resistant 75D polyester shell fabric with extrusion laminated TPU."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/products/CampSelfInflating.psd_0003_AMSICMR_CampMatSI_Regular_01.jpg?v=1663714087",
+    "imageAlt": "Camp Self Inflating Sleeping Pad - Past Season",
+    "sourceUrl": "https://seatosummit.com/products/camp-self-inflating-pad-past-season",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 53.4,
+    "priceMin": 53.4,
+    "priceMax": 59.4
+  },
+  {
+    "id": "sea-to-summit-comfort-deluxe-self-inflating-sleeping-pad",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Comfort Deluxe Self Inflating Sleeping Pad",
+    "modelEn": "Comfort Deluxe Self Inflating Sleeping Pad",
+    "description": "Designed for unmatched comfort, this extra plush sleeping mat uses Air Frame construction for stability. A soft, stretch-knit surface conforms to your body for support free from pressure points. The Airstream HV pump sack, cross-core design, and XPEL valve(s) make inflation and deflation fast and easy. It packs smaller and weighs less for easy transport. Made with solution-dyed, bluesign APPROVED, and certified recycled fabrics with non-PFAS chemistry. Supports 1% for the Planet. Features Air Frame construction creates a comfortable, supportive and stable sleep Stretch knit top fabric conforms around your body, eliminating pressure points Storage sack doubles as a high volume pump sack for fast inflation XPEL valve allows quick firmness adjustment and compact deflation for easy packing Side-loading stuff sack for effortless packing ASTM tested R-Value of 7.7 keeps you warm even on the coldest nights Rugged, recycled base made of solution-dyed 75D woven polyester fabric",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.99,
+      "weightDisplay": "~1.99 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Self-inflating"
+    },
+    "highlights": [
+      "Air Frame construction creates a comfortable, supportive and stable sleep",
+      "Stretch knit top fabric conforms around your body, eliminating pressure points",
+      "Storage sack doubles as a high volume pump sack for fast inflation",
+      "XPEL valve allows quick firmness adjustment and compact deflation for easy packing"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/files/002907_ComfortDeluxeSIMat_RegularWide_RainForest_PRIMARY_1500.jpg?v=1769644539",
+    "imageAlt": "Comfort Deluxe Self Inflating Sleeping Pad",
+    "sourceUrl": "https://seatosummit.com/products/comfort-deluxe-self-inflating-sleeping-pad",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 265.0,
+    "priceMin": 265.0,
+    "priceMax": 415.0
+  },
+  {
+    "id": "sea-to-summit-comfort-light-insulated-pad",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Comfort Light Insulated Air Sleeping Pad",
+    "modelEn": "Comfort Light Insulated Air Sleeping Pad",
+    "description": "Sleeping well when you're backpacking goes hand-in-hand with sleeping comfortably. The Comfort Light Insulated Sleeping Mat uses Air Sprung Cell technology and a hybrid matrix of offset cells to provide amazing stability and comfort. A double layer of cells in the torso increases warmth, while a single layer of cells in the head and legs reduces weight. Thermolite® and Exkin Platinum® are used to optimize heat retention and the multi-function valve enables simple inflation, deflation and the ability to fine-tune your personal comfort level. What's more, the uprated 30D/40D face fabric is quiet and durable, while the lamination technology continues Sea to Summit’s class-leading reliability. Features 3.7 R-Value is warm enough for all but the coldest ground. Exkin Platinum® insulation reflects radiant heat, while Thermolite® insulation prevents convective heat loss. Hybrid-Layer Air Sprung Cells provide more support, insulation and comfort in the torso. Quick and easy inflation, deflation and adjustment is made possible by our multi-function valve and supplied Airstream Pump/stuff sack. Lighter, quieter and durable 30D/40D face fabric with Sea to Summit’s liquid-extruded lamination is extremely reliable. Anti-microbial treatment added to the TPU lamination formula prevents internal mold growth. PillowLock system prevents your Sea to Summit Aeros Pillow from slipping. Comes with a stuff sack which doubles as a pump, a repair kit with six self-adhesive patches and a spare valve i",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.8,
+      "weightDisplay": "~0.8 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "3.7 R-Value is warm enough for all but the coldest ground.",
+      "Exkin Platinum® insulation reflects radiant heat, while Thermolite® insulation prevents convective heat loss.",
+      "Hybrid-Layer Air Sprung Cells provide more support, insulation and comfort in the torso.",
+      "Quick and easy inflation, deflation and adjustment is made possible by our multi-function valve and supplied Airstream Pump/stuff sack."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/products/ComfortLightInsulated_0001_AMCLINS_R-ComfortLightInsulated-Regular-01.jpg?v=1663711966",
+    "imageAlt": "Comfort Light Insulated Air Sleeping Pad",
+    "sourceUrl": "https://seatosummit.com/products/comfort-light-insulated-pad",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 119.4,
+    "priceMin": 119.4,
+    "priceMax": 131.4
+  },
+  {
+    "id": "sea-to-summit-comfort-light-insulated-womens-sleeping-pad",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Comfort Light Women's Insulated Air Sleeping Pad",
+    "modelEn": "Comfort Light Women's Insulated Air Sleeping Pad",
+    "description": "You need a good night’s sleep if you want to get the most out of each day off the beaten track. The Women's Comfort Light Insulated Air Sleeping Mat uses Air Sprung Cell technology to provide excellent stability and comfort. There's a double layer of cells in the torso for increased comfort and warmth, and a single layer of cells in the head and legs to reduce weight. The multi-function valve enables simple inflation, deflation and the ability to easily fine-tune your personal comfort level. Our women's pad also features additional Thermolite® insulation (compared to the unisex model), to provide year-round warmth for female adventurers. The pad is narrower at the shoulders, but wider between the hips and the knees. This guarantees greater comfort regardless of sleeping position and perfectly matches Sea to Summit’s Women’s Sleeping Bags. The uprated 30D/40D face fabric is quiet and durable, and the lamination technology continues Sea to Summit’s class-leading reliability. Features 3.7 R-Value is warm enough for all but the coldest ground. Exkin Platinum® insulation reflects radiant heat, while Thermolite® insulation prevents convective heat loss. Hybrid-Layer Air Sprung Cells provide more support, insulation and comfort in the torso. Quick and easy inflation, deflation and adjustment is made possible by our multi-function valve and supplied Airstream Pump™/stuff sack. Lighter, quieter and durable 30D/40D face fabric with Sea to Summit’s liquid-extruded lamination is extremel",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.75,
+      "weightDisplay": "~0.75 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "3.7 R-Value is warm enough for all but the coldest ground.",
+      "Exkin Platinum® insulation reflects radiant heat, while Thermolite® insulation prevents convective heat loss.",
+      "Hybrid-Layer Air Sprung Cells provide more support, insulation and comfort in the torso.",
+      "Quick and easy inflation, deflation and adjustment is made possible by our multi-function valve and supplied Airstream Pump™/stuff sack."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/products/WomenComfortLightInsulated_0000_AMCLINS_WR-ComfortLightInsulatedWomens-Regular-01.jpg?v=1663782614",
+    "imageAlt": "Comfort Light Women's Insulated Air Sleeping Pad",
+    "sourceUrl": "https://seatosummit.com/products/comfort-light-insulated-womens-sleeping-pad",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 119.4,
+    "priceMin": 119.4,
+    "priceMax": 131.4
+  },
+  {
+    "id": "sea-to-summit-comfort-plus-insulated-pad",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Comfort Plus Insulated Air Sleeping Pad",
+    "modelEn": "Comfort Plus Insulated Air Sleeping Pad",
+    "description": "The Comfort Plus Insulated Air Sleeping Mat earned a 2015 Backpacker Editors' Choice award for its innovative Air Sprung Cell technology and dual layer comfort. With two separate layers of interlocking air chambers and our multi-function valve, you can fine-tune the top layer to perfection as well as adjust the base layer to accommodate for rough terrain. So, if one side of the pad punctures, the other remains functional until a repair is made. It's also insulated with Thermolite® and Exkin Platinum® for great warmth. Features 4.0 R-Value is warm enough for all but the coldest ground. Exkin Platinum® insulation reflects radiant heat while Thermolite® insulation prevents convective heat loss. The dual-chamber design means there's no top-to-bottom air movement, which reduces warmth transfer from the upper to the lower side Dual-Layer Air Sprung Cells provide more support, insulation and excellent comfort. Quick and easy inflation, deflation and adjustment is made possible by our multi-function valve and supplied Airstream Pump™/stuff sack. Tough 30D/40D face fabric and Sea to Summit’s liquid-extruded lamination is quiet, durable and extremely reliable. Anti-microbial treatment added to the TPU lamination formula prevents internal mold growth. PillowLock system prevents your Sea to Summit Aeros Pillow from slipping. Comes with a stuff sack which doubles as a pump, a repair kit with six self-adhesive patches and a spare valve insert. Airstream Pump/Stuff Sack can be used to infla",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.03,
+      "weightDisplay": "~1.03 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "4.0 R-Value is warm enough for all but the coldest ground.",
+      "Exkin Platinum® insulation reflects radiant heat while Thermolite® insulation prevents convective heat loss. The dual-chamber design means there's no top-to-bottom air movement, which reduces warmth transfer from the upper to the lower side",
+      "Dual-Layer Air Sprung Cells provide more support, insulation and excellent comfort.",
+      "Quick and easy inflation, deflation and adjustment is made possible by our multi-function valve and supplied Airstream Pump™/stuff sack."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/products/ComfortPlusInsulatedPads_0001_AMCPINS_R-ComfortPlusInsulated-Regular-01.jpg?v=1663709170",
+    "imageAlt": "Comfort Plus Insulated Air Sleeping Pad",
+    "sourceUrl": "https://seatosummit.com/products/comfort-plus-insulated-pad",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 149.4,
+    "priceMin": 149.4,
+    "priceMax": 161.4
+  },
+  {
+    "id": "sea-to-summit-delta-self-inflating-seat",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Delta SI V Seat",
+    "modelEn": "Delta SI V Seat",
+    "description": "There are two options for the Delta Self-Inflating V Seat line - the Regular or the more luxurious Deluxe seat. The Regular Seat is a rectangular, easy-to-pack companion which brings foam-filled comfort to any adventure. It's one and a half inches thick PU foam provides much-needed cushioning for aching glutes or cold, uncomfortable stadium bleachers. Tough, 75D polyester fabric on the base and upper surface also means it will go the distance. The Deluxe Seat is a fold-in-the-middle rectangle. Folded together, it provides a two inch thick super-comfortable seat pad. Unfolded, it provides a one inch thick sitting surface and back cushion. It uses 75D polyester on the base and a luxurious knitted 30D polyester on the upper surface. Features 75D polyester fabric on the base for durability. PU foam provides support and insulation",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.11,
+      "weightDisplay": "~0.11 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Self-inflating",
+      "size": "Regular"
+    },
+    "highlights": [
+      "75D polyester fabric on the base for durability.",
+      "PU foam provides support and insulation"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/products/Delta_SI_Foam_Stadium_Seat_Olive.jpg?v=1571610201",
+    "imageAlt": "Delta SI V Seat",
+    "sourceUrl": "https://seatosummit.com/products/delta-self-inflating-seat",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 36.95,
+    "priceMin": 36.95,
+    "priceMax": 36.95
   },
   {
     "id": "sea-to-summit-the-ember-down-quilt",
@@ -355,7 +738,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.51,
-      "weightDisplay": "约 0.51 kg",
+      "weightDisplay": "~0.51 kg",
       "structure": "Sleeping Bags",
       "fillType": "羽绒",
       "bagType": "Sleeping Bags"
@@ -370,7 +753,7 @@
     "imageAlt": "Ember Down Quilt",
     "sourceUrl": "https://seatosummit.com/products/the-ember-down-quilt",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:40Z",
+    "scrapedAt": "2026-07-03T14:45:56Z",
     "status": "draft",
     "published": true,
     "price": 364.0,
@@ -388,7 +771,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.37,
-      "weightDisplay": "约 0.37 kg",
+      "weightDisplay": "~0.37 kg",
       "structure": "Tarps & Shelters"
     },
     "highlights": [
@@ -401,7 +784,7 @@
     "imageAlt": "Escapist Evo Tarp",
     "sourceUrl": "https://seatosummit.com/products/escapist-evo-tarp",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:37Z",
+    "scrapedAt": "2026-07-03T14:45:54Z",
     "status": "draft",
     "published": true,
     "price": 220.0,
@@ -419,7 +802,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.56,
-      "weightDisplay": "约 0.56 kg",
+      "weightDisplay": "~0.56 kg",
       "structure": "Like New"
     },
     "highlights": [
@@ -432,7 +815,7 @@
     "imageAlt": "Escapist Inner Bug Tent (Like New)",
     "sourceUrl": "https://seatosummit.com/products/escapist-inner-bug-tent-used",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 167.3,
@@ -450,7 +833,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.43,
-      "weightDisplay": "约 0.43 kg",
+      "weightDisplay": "~0.43 kg",
       "structure": "Tarps & Shelters"
     },
     "highlights": [
@@ -463,12 +846,76 @@
     "imageAlt": "Escapist Mesh Bug Shelter",
     "sourceUrl": "https://seatosummit.com/products/escapist-mesh-bug-shelter",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:37Z",
+    "scrapedAt": "2026-07-03T14:45:54Z",
     "status": "draft",
     "published": true,
     "price": 220.0,
     "priceMin": 220.0,
     "priceMax": 220.0
+  },
+  {
+    "id": "sea-to-summit-ether-light-xr-insulated-air-sleeping-pad",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Ether Light XR Insulated Air Sleeping Pad",
+    "modelEn": "Ether Light XR Insulated Air Sleeping Pad",
+    "description": "The Ether Light XR eases you to sleep with its 3.9in of plush comfort. A long day on the trail deserves a great night’s rest with minimum effort. The Airstream pump integrated into the stuff sack and a high-airflow XPRESS valve make inflation and deflation quick and simple. Lean into the ThermalCore technology which increases insulation while keeping weight and volume low. So toss it in your pannier or backpack and head into the backcountry knowing that your sleep comfort is one less thing to worry about. Features Thermal Core insulation with a suspended TRM layer reflects warmth back to the sleeper effectively 3+ season capable, ASTM-tested R-Value 4.1 Lighter weight and significantly reduced packed size when compared to past models Air Sprung Cell construction, 3.9in thick for plush comfort in any sleeping position XPRESS valve and pumpsack integrated into stuff sack make inflation, adjustment and deflation a breeze Increased weld strength for greater durability",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.56,
+      "weightDisplay": "~0.56 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "Thermal Core insulation with a suspended TRM layer reflects warmth back to the sleeper effectively",
+      "3+ season capable, ASTM-tested R-Value 4.1",
+      "Lighter weight and significantly reduced packed size when compared to past models",
+      "Air Sprung Cell construction, 3.9in thick for plush comfort in any sleeping position"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/files/EtherLightXRInsulatedASCMat-S_ASL051152-041701_PRIMARY-1500x1500-da33726.jpg?v=1738782910",
+    "imageAlt": "Ether Light XR Insulated Air Sleeping Pad",
+    "sourceUrl": "https://seatosummit.com/products/ether-light-xr-insulated-air-sleeping-pad",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 189.0,
+    "priceMin": 189.0,
+    "priceMax": 259.0
+  },
+  {
+    "id": "sea-to-summit-ether-light-xr-pro-insulated-air-sleeping-pad",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Ether Light XR Pro Insulated Air Sleeping Pad",
+    "modelEn": "Ether Light XR Pro Insulated Air Sleeping Pad",
+    "description": "An evolution of the renowned Ether Light mats has arrived with the XR Pro. Staying true to their comfort, durability, the XR Pro boasts ThermalCore technology which increases insulation value while keeping weight and packed volume minimal. Air Sprung Cell construction provides 10cm of plush comfort wherever you sleep. Inflation and deflation are a breeze with the XPRESS valve and Airstream pump built into the stuff sack. With double the weld strength of previous models the XR Pro is perfect for alpine adventurers to winter campers. Outdoor winter sleep never felt this good. Features ThermalCore insulation consists of multiple TRM layers that are quiet yet thermally efficient Four-season capable, ASTM-tested R-Value 7.4 Lighter weight and significantly reduced packed size Air Sprung Cell construction, 10cm thick for plush comfort in any sleeping position XPRESS valve and pumpsack integrated into stuff sack make inflation, adjustment and deflation simple Increased weld strength for greater durability",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.66,
+      "weightDisplay": "~0.66 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "ThermalCore insulation consists of multiple TRM layers that are quiet yet thermally efficient",
+      "Four-season capable, ASTM-tested R-Value 7.4",
+      "Lighter weight and significantly reduced packed size",
+      "Air Sprung Cell construction, 10cm thick for plush comfort in any sleeping position"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/files/EtherLightXRProInsulatedASCMat-S_ASL051142-040101_PRIMARY-1200x1200-be6a8e8_1.jpg?v=1738782880",
+    "imageAlt": "Ether Light XR Pro Insulated Air Sleeping Pad",
+    "sourceUrl": "https://seatosummit.com/products/ether-light-xr-pro-insulated-air-sleeping-pad",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 219.0,
+    "priceMin": 219.0,
+    "priceMax": 289.0
   },
   {
     "id": "sea-to-summit-ground-control-light-tent-pegs-6-pack-used",
@@ -481,7 +928,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.1,
-      "weightDisplay": "约 0.1 kg",
+      "weightDisplay": "~0.1 kg",
       "structure": "Like New"
     },
     "highlights": [
@@ -494,7 +941,7 @@
     "imageAlt": "Ground Control Light Tent Pegs (6 Pack) (Like New)",
     "sourceUrl": "https://seatosummit.com/products/ground-control-light-tent-pegs-6-pack-used",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 0.0,
@@ -512,7 +959,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.06,
-      "weightDisplay": "约 0.06 kg",
+      "weightDisplay": "~0.06 kg",
       "structure": "Tent Accessories"
     },
     "highlights": [
@@ -525,7 +972,7 @@
     "imageAlt": "Ground Control Light Tent Pegs - [6 Pack]",
     "sourceUrl": "https://seatosummit.com/products/light-tent-pegs",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 21.95,
@@ -543,7 +990,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.14,
-      "weightDisplay": "约 0.14 kg",
+      "weightDisplay": "~0.14 kg",
       "structure": "Tent Accessories"
     },
     "highlights": [
@@ -556,7 +1003,7 @@
     "imageAlt": "Ground Control Tent Pegs",
     "sourceUrl": "https://seatosummit.com/products/ground-control-tent-pegs",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 33.95,
@@ -574,7 +1021,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.2,
-      "weightDisplay": "约 0.2 kg",
+      "weightDisplay": "~0.2 kg",
       "structure": "Like New"
     },
     "highlights": [
@@ -587,7 +1034,7 @@
     "imageAlt": "Ground Control Tent Pegs (Like New)",
     "sourceUrl": "https://seatosummit.com/products/ground-control-tent-pegs-used",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 14.98,
@@ -605,7 +1052,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.27,
-      "weightDisplay": "约 1.27 kg",
+      "weightDisplay": "~1.27 kg",
       "structure": "Sleeping Bags",
       "fillType": "化纤棉",
       "bagType": "Sleeping Bags"
@@ -620,7 +1067,7 @@
     "imageAlt": "Hamelin Synthetic Sleeping Bag",
     "sourceUrl": "https://seatosummit.com/products/hamelin-synthetic-sleeping-bag",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:40Z",
+    "scrapedAt": "2026-07-03T14:45:56Z",
     "status": "draft",
     "published": true,
     "price": 176.0,
@@ -638,7 +1085,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.6,
-      "weightDisplay": "约 1.6 kg",
+      "weightDisplay": "~1.6 kg",
       "structure": "Sleeping Bags",
       "fillType": "化纤棉",
       "bagType": "Sleeping Bags"
@@ -653,7 +1100,7 @@
     "imageAlt": "Hamelin Women's Synthetic Sleeping Bag",
     "sourceUrl": "https://seatosummit.com/products/hamelin-womens-synthetic-sleeping-bag",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:40Z",
+    "scrapedAt": "2026-07-03T14:45:56Z",
     "status": "draft",
     "published": true,
     "price": 176.0,
@@ -671,7 +1118,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.88,
-      "weightDisplay": "约 2.88 kg",
+      "weightDisplay": "~2.88 kg",
       "capacity": "2-Person",
       "structure": "Ultralight Backpacking Tents"
     },
@@ -685,7 +1132,7 @@
     "imageAlt": "Ikos Evo Tent",
     "sourceUrl": "https://seatosummit.com/products/ikos-evo-tent",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 350.0,
@@ -703,7 +1150,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 3.96,
-      "weightDisplay": "约 3.96 kg",
+      "weightDisplay": "~3.96 kg",
       "structure": "Like New"
     },
     "highlights": [
@@ -716,7 +1163,7 @@
     "imageAlt": "Ikos Lightweight Tent (Like New)",
     "sourceUrl": "https://seatosummit.com/products/ikos-lightweight-tent-used",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 224.5,
@@ -734,7 +1181,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.69,
-      "weightDisplay": "约 0.69 kg",
+      "weightDisplay": "~0.69 kg",
       "structure": "Like New"
     },
     "highlights": [
@@ -747,7 +1194,7 @@
     "imageAlt": "Ikos Tent Bigfoot Footprint (Like New)",
     "sourceUrl": "https://seatosummit.com/products/ikos-tent-bigfoot-footprint-used",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 29.98,
@@ -765,7 +1212,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.93,
-      "weightDisplay": "约 0.93 kg",
+      "weightDisplay": "~0.93 kg",
       "structure": "Spare Parts"
     },
     "highlights": [
@@ -778,7 +1225,7 @@
     "imageAlt": "Ikos TR2 Inner Tent",
     "sourceUrl": "https://seatosummit.com/products/ikos-tr2-inner-tent",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 145.0,
@@ -796,7 +1243,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.93,
-      "weightDisplay": "约 0.93 kg",
+      "weightDisplay": "~0.93 kg",
       "structure": "Spare Parts"
     },
     "highlights": [
@@ -809,7 +1256,7 @@
     "imageAlt": "Ikos TR3 Inner Tent",
     "sourceUrl": "https://seatosummit.com/products/ikos-tr3-inner-tent",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 165.0,
@@ -827,7 +1274,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.41,
-      "weightDisplay": "约 0.41 kg",
+      "weightDisplay": "~0.41 kg",
       "structure": "Tarps & Shelters"
     },
     "highlights": [
@@ -840,12 +1287,108 @@
     "imageAlt": "Minimalist Tarp",
     "sourceUrl": "https://seatosummit.com/products/minimalist-tarp",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:37Z",
+    "scrapedAt": "2026-07-03T14:45:54Z",
     "status": "draft",
     "published": true,
     "price": 270.0,
     "priceMin": 270.0,
     "priceMax": 270.0
+  },
+  {
+    "id": "sea-to-summit-mat-coupler-kit-loops",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Pad Coupler Kit Loops",
+    "modelEn": "Pad Coupler Kit Loops",
+    "description": "The Mat Coupler Kit Loops ensure your sleeping pad stays connected to your partner's. A slim design means they'll fit inside your sleeping pad's stuff sack easily, so you'll have no more issues negotiating the gap between pads when you're snuggling with your tent buddy. Secures Sea to Summit sleeping pads together. Low Profile but sturdy design stays flat so you won't even notice it's there. Each strap is 108\" / 275cm long. Allowing for 2\" / 5cm to be threaded through the buckle, this equates to two loops 26.5\" / 67cm next to one another Large enough to fit two of our Large mats up to 3\" thick (Comfort Deluxe will not fit)",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.03,
+      "weightDisplay": "~0.03 kg",
+      "structure": "Sleeping Pads"
+    },
+    "highlights": [
+      "Secures Sea to Summit sleeping pads together.",
+      "Low Profile but sturdy design stays flat so you won't even notice it's there.",
+      "Each strap is 108\" / 275cm long. Allowing for 2\" / 5cm to be threaded through the buckle, this equates to two loops 26.5\" / 67cm next to one another",
+      "Large enough to fit two of our Large mats up to 3\" thick (Comfort Deluxe will not fit)"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/products/sleeping-pads-coupler-loops.jpg?v=1631302277",
+    "imageAlt": "Pad Coupler Kit Loops",
+    "sourceUrl": "https://seatosummit.com/products/mat-coupler-kit-loops",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 9.95,
+    "priceMin": 9.95,
+    "priceMax": 9.95
+  },
+  {
+    "id": "sea-to-summit-pursuit-plus-self-inflating-sleeping-pad",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Pursuit Plus Self Inflating Sleeping Pad",
+    "modelEn": "Pursuit Plus Self Inflating Sleeping Pad",
+    "description": "Made for comfort-seeking outdoors lovers, The Pursuit Plus is a 7.5cm thick, self-inflating sleeping mat for maximum comfort in the wilderness. Available in the lightweight Contour or complete Rectangular versions, both use Horizontal Delta Coring construction to create foam-supported air channels for maximum comfort at a minimum weight. The XPEL Multi-Function Valve allows the mat to be rolled up easily, and a side-loading stuff sack streamlines the packing process. Pursuit Plus is built with bluesign APPROVED, RCS-recycled, solution-dyed fabric to create a mat with a high level of comfort and a low environmental impact. Features 7.5cm | 3in Horizontal Delta Cores reduce weight and packed volume, but create air-filled chambers to increase comfort Thermally efficient Contour shape. Room to side sleep and adjust positions with ease, without adding extra weight XPEL Valve and side-loading stuff sack make inflation, adjustment, deflation and packing a breeze ASTM-tested R-Value of 4.1, offering extended three season comfort and insulation Available in Rectangular version for maximum room or Contour shape for weight-efficient comfort. Recycled, solution-dyed, bluesign APPROVED, non-PFAS 20 denier ultralight fabric Pursuit Plus is part of our 1% for the Planet commitment",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.85,
+      "weightDisplay": "~0.85 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Self-inflating",
+      "thickness": "7.5cm thick"
+    },
+    "highlights": [
+      "7.5cm | 3in Horizontal Delta Cores reduce weight and packed volume, but create air-filled chambers to increase comfort",
+      "Thermally efficient Contour shape. Room to side sleep and adjust positions with ease, without adding extra weight",
+      "XPEL Valve and side-loading stuff sack make inflation, adjustment, deflation and packing a breeze",
+      "ASTM-tested R-Value of 4.1, offering extended three season comfort and insulation"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/files/PursuitPlusSIMatLargeContour_ASL053081-060604_PRIMARY-1500x1500-da33726.jpg?v=1738782892",
+    "imageAlt": "Pursuit Plus Self Inflating Sleeping Pad",
+    "sourceUrl": "https://seatosummit.com/products/pursuit-plus-self-inflating-sleeping-pad",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 169.0,
+    "priceMin": 169.0,
+    "priceMax": 224.0
+  },
+  {
+    "id": "sea-to-summit-pursuit-self-inflating-sleeping-pad",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Pursuit Self Inflating Sleeping Pad",
+    "modelEn": "Pursuit Self Inflating Sleeping Pad",
+    "description": "Pack light and sleep deeply with the Pursuit self-inflating sleeping mat. A lightweight, performance sleeping mat, it’s built for long alpine days that demand restful nights. Available in the weight-efficient Contour or luxurious Rectangular versions to suit any sleeper. Both feature Horizontal Delta Coring which creates foam-supported air channels for serious comfort at low weight. The XPEL Multi Function Valve and side-loading stuff sack allow the mat to be packed up swiftly. Pursuit is built with bluesign APPROVED, RCS-recycled, solution-dyed fabric so you can rest easy. Features 5cm Horizontal Delta Cores create air-filled chambers for increased comfort while keeping weight and size low The lightest mat in its class Available Contour shape for weight-efficient comfort and Rectangular version for maximum space Recycled, solution-dyed, bluesign APPROVED fabric, 1% for the Planet. XPEL Valve and side-loading stuff sack make inflation, adjustment deflation and packing a breeze",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.65,
+      "weightDisplay": "~0.65 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Self-inflating"
+    },
+    "highlights": [
+      "5cm Horizontal Delta Cores create air-filled chambers for increased comfort while keeping weight and size low",
+      "The lightest mat in its class",
+      "Available Contour shape for weight-efficient comfort and Rectangular version for maximum space",
+      "Recycled, solution-dyed, bluesign APPROVED fabric, 1% for the Planet."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/files/PursuitSIMatLargeContour_ASL053102-060304_PRIMARY-1500x1500-da33726.jpg?v=1738782920",
+    "imageAlt": "Pursuit Self Inflating Sleeping Pad",
+    "sourceUrl": "https://seatosummit.com/products/pursuit-self-inflating-sleeping-pad",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 149.0,
+    "priceMin": 149.0,
+    "priceMax": 179.0
   },
   {
     "id": "sea-to-summit-spark-down-sleeping-bag",
@@ -858,7 +1401,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.44,
-      "weightDisplay": "约 0.44 kg",
+      "weightDisplay": "~0.44 kg",
       "structure": "Sleeping Bags",
       "fillType": "羽绒",
       "bagType": "内胆"
@@ -873,7 +1416,7 @@
     "imageAlt": "Spark Down Sleeping Bag",
     "sourceUrl": "https://seatosummit.com/products/spark-down-sleeping-bag",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:40Z",
+    "scrapedAt": "2026-07-03T14:45:56Z",
     "status": "draft",
     "published": true,
     "price": 349.0,
@@ -891,7 +1434,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.73,
-      "weightDisplay": "约 0.73 kg",
+      "weightDisplay": "~0.73 kg",
       "structure": "Sleeping Bags",
       "fillType": "羽绒",
       "bagType": "Sleeping Bags"
@@ -906,7 +1449,7 @@
     "imageAlt": "Spark Pro Down Sleeping Bag",
     "sourceUrl": "https://seatosummit.com/products/spark-pro-down-sleeping-bag",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:40Z",
+    "scrapedAt": "2026-07-03T14:45:56Z",
     "status": "draft",
     "published": true,
     "price": 549.0,
@@ -924,7 +1467,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.47,
-      "weightDisplay": "约 0.47 kg",
+      "weightDisplay": "~0.47 kg",
       "structure": "Sleeping Bags",
       "fillType": "羽绒",
       "bagType": "Sleeping Bags"
@@ -939,7 +1482,7 @@
     "imageAlt": "Spark Women's Down Sleeping Bag",
     "sourceUrl": "https://seatosummit.com/products/spark-womens-down-sleeping-bag",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:40Z",
+    "scrapedAt": "2026-07-03T14:45:56Z",
     "status": "draft",
     "published": true,
     "price": 349.0,
@@ -957,7 +1500,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.69,
-      "weightDisplay": "约 0.69 kg",
+      "weightDisplay": "~0.69 kg",
       "structure": "Sleeping Bags",
       "fillType": "羽绒",
       "bagType": "睡袋系统"
@@ -972,7 +1515,7 @@
     "imageAlt": "Tanami Down Comforter",
     "sourceUrl": "https://seatosummit.com/products/tanami-down-comforter",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:40Z",
+    "scrapedAt": "2026-07-03T14:45:56Z",
     "status": "draft",
     "published": true,
     "price": 205.0,
@@ -990,7 +1533,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 3.33,
-      "weightDisplay": "约 3.33 kg",
+      "weightDisplay": "~3.33 kg",
       "structure": "Like New"
     },
     "highlights": [
@@ -1003,7 +1546,7 @@
     "imageAlt": "Telos Bikepacking TR2 - Two Person Freestanding Tent (Like New)",
     "sourceUrl": "https://seatosummit.com/products/telos-bikepacking-tr2-two-person-freestanding-tent-used",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 366.97,
@@ -1021,7 +1564,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.79,
-      "weightDisplay": "约 1.79 kg",
+      "weightDisplay": "~1.79 kg",
       "capacity": "2-Person",
       "structure": "Ultralight Backpacking Tents"
     },
@@ -1035,7 +1578,7 @@
     "imageAlt": "Telos Evo Bikepack Tent",
     "sourceUrl": "https://seatosummit.com/products/telos-evo-bikepack-tent",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 580.0,
@@ -1053,7 +1596,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.76,
-      "weightDisplay": "约 1.76 kg",
+      "weightDisplay": "~1.76 kg",
       "capacity": "2-Person",
       "structure": "Ultralight Backpacking Tents"
     },
@@ -1067,7 +1610,7 @@
     "imageAlt": "Telos Evo Tent",
     "sourceUrl": "https://seatosummit.com/products/telos-evo-tent",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 530.0,
@@ -1085,7 +1628,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.65,
-      "weightDisplay": "约 2.65 kg",
+      "weightDisplay": "~2.65 kg",
       "structure": "Like New"
     },
     "highlights": [
@@ -1098,7 +1641,7 @@
     "imageAlt": "Telos Freestanding Ultralight Tent (Like New)",
     "sourceUrl": "https://seatosummit.com/products/telos-freestanding-ultralight-tent-used",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 299.5,
@@ -1116,7 +1659,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.04,
-      "weightDisplay": "约 0.04 kg",
+      "weightDisplay": "~0.04 kg",
       "structure": "Spare Parts"
     },
     "highlights": [
@@ -1126,7 +1669,7 @@
     "imageAlt": "Telos TR2 and TR2 Plus Inner Tent Stuff Sack",
     "sourceUrl": "https://seatosummit.com/products/telos-tr2-and-tr2-plus-body-stuff-sack",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 35.0,
@@ -1144,7 +1687,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.04,
-      "weightDisplay": "约 0.04 kg",
+      "weightDisplay": "~0.04 kg",
       "structure": "Spare Parts"
     },
     "highlights": [
@@ -1155,7 +1698,7 @@
     "imageAlt": "Telos TR2 Bikepack Tent Dry Bag",
     "sourceUrl": "https://seatosummit.com/products/telos-tr2-bikepack-tent-dry-bag",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 35.0,
@@ -1173,7 +1716,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.77,
-      "weightDisplay": "约 0.77 kg",
+      "weightDisplay": "~0.77 kg",
       "structure": "Spare Parts"
     },
     "highlights": [
@@ -1186,7 +1729,7 @@
     "imageAlt": "Telos TR2 Inner Tent",
     "sourceUrl": "https://seatosummit.com/products/telos-tr2-body",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 180.0,
@@ -1204,7 +1747,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.82,
-      "weightDisplay": "约 1.82 kg",
+      "weightDisplay": "~1.82 kg",
       "structure": "Spare Parts"
     },
     "highlights": [
@@ -1217,7 +1760,7 @@
     "imageAlt": "Telos TR2 Plus Inner Tent",
     "sourceUrl": "https://seatosummit.com/products/telos-tr2-plus-body",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 210.0,
@@ -1235,7 +1778,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.05,
-      "weightDisplay": "约 0.05 kg",
+      "weightDisplay": "~0.05 kg",
       "structure": "Spare Parts"
     },
     "highlights": [
@@ -1245,7 +1788,7 @@
     "imageAlt": "Telos TR3 and TR3 Plus Inner Tent Stuff Sack",
     "sourceUrl": "https://seatosummit.com/products/telos-tr3-and-tr3-plus-body-stuff-sack",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 35.0,
@@ -1263,7 +1806,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.93,
-      "weightDisplay": "约 0.93 kg",
+      "weightDisplay": "~0.93 kg",
       "structure": "Spare Parts"
     },
     "highlights": [
@@ -1276,7 +1819,7 @@
     "imageAlt": "Telos TR3 Inner Tent",
     "sourceUrl": "https://seatosummit.com/products/telos-tr3-inner-tent",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:35Z",
+    "scrapedAt": "2026-07-03T14:45:52Z",
     "status": "draft",
     "published": true,
     "price": 210.0,
@@ -1294,7 +1837,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.65,
-      "weightDisplay": "约 0.65 kg",
+      "weightDisplay": "~0.65 kg",
       "structure": "Sleeping Bags",
       "fillType": "羽绒",
       "bagType": "Sleeping Bags"
@@ -1309,7 +1852,7 @@
     "imageAlt": "Traveller Down Sleeping Bag",
     "sourceUrl": "https://seatosummit.com/products/the-traveller-down-sleeping-bag",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:40Z",
+    "scrapedAt": "2026-07-03T14:45:56Z",
     "status": "draft",
     "published": true,
     "price": 207.0,
@@ -1327,7 +1870,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.25,
-      "weightDisplay": "约 1.25 kg",
+      "weightDisplay": "~1.25 kg",
       "structure": "Sleeping Bags",
       "fillType": "羽绒",
       "bagType": "Sleeping Bags"
@@ -1342,7 +1885,7 @@
     "imageAlt": "Trek Down Sleeping Bag",
     "sourceUrl": "https://seatosummit.com/products/trek-down-sleeping-bag",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:40Z",
+    "scrapedAt": "2026-07-03T14:45:56Z",
     "status": "draft",
     "published": true,
     "price": 364.0,
@@ -1360,7 +1903,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.39,
-      "weightDisplay": "约 1.39 kg",
+      "weightDisplay": "~1.39 kg",
       "structure": "Sleeping Bags",
       "fillType": "羽绒",
       "bagType": "Sleeping Bags"
@@ -1375,7 +1918,7 @@
     "imageAlt": "Trek Women's Down Sleeping Bag",
     "sourceUrl": "https://seatosummit.com/products/trek-womens-down-sleeping-bag",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:40Z",
+    "scrapedAt": "2026-07-03T14:45:56Z",
     "status": "draft",
     "published": true,
     "price": 364.0,
@@ -1393,7 +1936,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.21,
-      "weightDisplay": "约 0.21 kg",
+      "weightDisplay": "~0.21 kg",
       "structure": "Poncho"
     },
     "highlights": [
@@ -1406,11 +1949,139 @@
     "imageAlt": "Ultra-Sil Nano Tarp Poncho",
     "sourceUrl": "https://seatosummit.com/products/ultra-sil-nano-tarp-poncho",
     "sourceSite": "seatosummit.com",
-    "scrapedAt": "2026-06-11T15:17:37Z",
+    "scrapedAt": "2026-07-03T14:45:54Z",
     "status": "draft",
     "published": true,
     "price": 134.95,
     "priceMin": 134.95,
     "priceMax": 134.95
+  },
+  {
+    "id": "sea-to-summit-ultralight-sleeping-pad",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Ultralight Air Sleeping Pad",
+    "modelEn": "Ultralight Air Sleeping Pad",
+    "description": "When lightweight is your goal and comfort is your priority, the Ultralight Air Mat is perfect. The pad received the 'Best New Gear' award in 2014 from the Gear Institute for its innovative construction and ease of use. With a single layer of Air Sprung Cells, this pad offers minimal packed size and weight and is ideal for adventure racers, lightweight backpackers, backpacking enthusiasts or anyone looking for warm-weather comfort. Features 1.1 R-Value is designed for warm-weather use. Lighter, quieter and durable 30D/40D face fabric with Sea to Summit’s liquid-extruded lamination is extremely reliable. Quick and easy inflation, deflation and adjustment is made possible by our multi-function valve and supplied Airstream Pump/stuff sack. PillowLock system prevents your Sea to Summit Aeros Pillow from slipping. Anti-microbial treatment added to the TPU lamination formula prevents internal mold growth. PillowLock system prevents your Sea to Summit Aeros Pillow from slipping. Comes with a stuff sack which doubles as a pump, a repair kit with six self-adhesive patches and a spare valve insert. Airstream Pump/Stuff Sack can be used to inflate Aeros Pillows – turn the inflator bag inside out; the nozzle will fit the mini pillow valve. Awards Backcountry Skiing Canada - Gear of the Year National Geographic - Adventure Gear of the Year Outdoor Gear Lab Top Pick",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.46,
+      "weightDisplay": "~0.46 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "1.1 R-Value is designed for warm-weather use.",
+      "Lighter, quieter and durable 30D/40D face fabric with Sea to Summit’s liquid-extruded lamination is extremely reliable.",
+      "Quick and easy inflation, deflation and adjustment is made possible by our multi-function valve and supplied Airstream Pump/stuff sack.",
+      "PillowLock system prevents your Sea to Summit Aeros Pillow from slipping."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/products/UltraLight_0002_AMULSAS_Ultralight_Small_01.jpg?v=1663713257",
+    "imageAlt": "Ultralight Air Sleeping Pad",
+    "sourceUrl": "https://seatosummit.com/products/ultralight-sleeping-pad",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 139.0,
+    "priceMin": 139.0,
+    "priceMax": 169.0
+  },
+  {
+    "id": "sea-to-summit-ultralight-insulated-mat",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Ultralight Insulated Air Sleeping Pad",
+    "modelEn": "Ultralight Insulated Air Sleeping Pad",
+    "description": "If you're looking for a lightweight sleeping pad but don't want to compromise on comfort, durability, insulation or ease of use, look no further than the Ultralight Insulated Air Sleeping Mat. The Air Sprung Cell design delivers stability and support, while our lamination and weld quality set a new standard for reliability. What's more, Thermolite® and Exkin Platinum® insulation deliver the warmth of an ASTM standard R-Value of 3.1 - just perfect for late spring through to early fall camping. Features 3.1 R-Value is sufficient for late spring to early fall use. Exkin Platinum® insulation reflects your radiant heat back to you, while Thermolite® insulation prevents convective heat loss. Lighter, quieter and durable 30D/40D face fabric with Sea to Summit’s liquid-extruded lamination is extremely reliable. Quick and easy inflation, deflation and adjustment is made possible by our multi-function valve and supplied Airstream Pump/stuff sack. Anti-microbial treatment added to the TPU lamination formula prevents internal mold growth. PillowLock system prevents your Sea to Summit Aeros Pillow from slipping. Comes with a stuff sack which doubles as a pump, a repair kit with six self-adhesive patches and a spare valve insert. Airstream Pump/Stuff Sack can be used to inflate Aeros Pillows – turn the inflator bag inside out; the nozzle will fit the mini pillow valve. Awards Bikepacking.com - Gear of the Year",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.48,
+      "weightDisplay": "~0.48 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "3.1 R-Value is sufficient for late spring to early fall use.",
+      "Exkin Platinum® insulation reflects your radiant heat back to you, while Thermolite® insulation prevents convective heat loss.",
+      "Lighter, quieter and durable 30D/40D face fabric with Sea to Summit’s liquid-extruded lamination is extremely reliable.",
+      "Quick and easy inflation, deflation and adjustment is made possible by our multi-function valve and supplied Airstream Pump/stuff sack."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/products/UltraLightInsulatedPads_0003_AMULINS_XS-UltraLightInsulated-XSmall-01_f2e2087c-88fe-43a6-8bbb-b835c276cf25.jpg?v=1663787426",
+    "imageAlt": "Ultralight Insulated Air Sleeping Pad",
+    "sourceUrl": "https://seatosummit.com/products/ultralight-insulated-mat",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 95.4,
+    "priceMin": 95.4,
+    "priceMax": 119.4
+  },
+  {
+    "id": "sea-to-summit-ultralight-insulated-womens-sleeping-pad",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Ultralight Women's Insulated Air Sleeping Pad",
+    "modelEn": "Ultralight Women's Insulated Air Sleeping Pad",
+    "description": "The Women’s Ultralight Insulated Air Sleeping Mat saves weight because it's narrower at the shoulders, yet wider at the hips and knees for greater comfort no matter what position you sleep in. There is also extra Thermolite® insulation to provide tested three-season warmth for women backpackers. The uprated 30D/40D face fabric is quiet and durable, and the lamination technology continues Sea to Summit’s class-leading reliability. Features 3.5 R-Value is warm enough for early spring to late fall. All women's Air Sprung Cell mats feature higher-density Thermolite® insulation (compared to the unisex model) to prevent convective heat loss, laminated to Exkin Platinum® - which reflects radiant heat Lighter, quieter and durable 30D/40D face fabric with Sea to Summit’s liquid-extruded lamination is extremely reliable. Quick and easy inflation, deflation and adjustment is made possible by our multi-function valve and supplied Airstream Pump/stuff sack. Anti-microbial treatment added to the TPU lamination formula prevents internal mold growth. PillowLock system prevents your Sea to Summit Aeros Pillow from slipping. Comes with a stuff sack which doubles as a pump, a repair kit with six self-adhesive patches and a spare valve insert. Airstream Pump/Stuff Sack can be used to inflate Aeros Pillows – turn the inflator bag inside out; the nozzle will fit the mini pillow valve.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.62,
+      "weightDisplay": "~0.62 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "3.5 R-Value is warm enough for early spring to late fall.",
+      "All women's Air Sprung Cell mats feature higher-density Thermolite® insulation (compared to the unisex model) to prevent convective heat loss, laminated to Exkin Platinum® - which reflects radiant heat",
+      "Lighter, quieter and durable 30D/40D face fabric with Sea to Summit’s liquid-extruded lamination is extremely reliable.",
+      "Quick and easy inflation, deflation and adjustment is made possible by our multi-function valve and supplied Airstream Pump/stuff sack."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/products/WomenUltraLightInsulated_0001_AMULINS_WR-UltraLightInsulatedWomens-Regular-01.jpg?v=1663712584",
+    "imageAlt": "Ultralight Women's Insulated Air Sleeping Pad",
+    "sourceUrl": "https://seatosummit.com/products/ultralight-insulated-womens-sleeping-pad",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 107.4,
+    "priceMin": 107.4,
+    "priceMax": 119.4
+  },
+  {
+    "id": "sea-to-summit-ultralight-xr-insulated-air-sleeping-pad",
+    "brandId": "sea-to-summit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Ultralight XR Insulated Air Sleeping Pad",
+    "modelEn": "Ultralight XR Insulated Air Sleeping Pad",
+    "description": "The Ultralight XR Insulated Mat offers unmatched stability and comfort with 151 Air Sprung Cells that contour to your body, reducing pressure points. Its wider profile suits side sleepers, while hybrid 30/40D nylon and Ultrafresh-treated TPU laminate provide proven durability. ThermalCore insulation reflects body heat, boosting R-value and reducing pack size. Quick inflation and pressure control come via the integrated Airstream pump sack and XPRESS valve. Features Unmatched Stability: Air Sprung Cells contour to your body, reducing pressure points for a stable, comfortable sleep Wider Profile: Provides extra width ideal for side sleepers and more movement Proven Durability: Hybrid 30/40D nylon and liquid-extruded TPU laminate to withstand rugged use ThermalCore Insulation: Reflects body heat, boosting R-value and reducing packed size for extended comfort Ultralight & Compact: Lightweight design with a small packed size for easy transport Quick Inflation: Integrated Airstream pump sack makes inflation fast and effortless Extra Thickness: 2.6in | 6.5cm of adjustable firmness for personalized comfort XPRESS Valve: High airflow multi-function valve allows easy inflation, pressure adjustment, and rapid deflation PillowLock Compatible: Included pillow locks secure your pillow in place throughout the night",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.51,
+      "weightDisplay": "~0.51 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "Unmatched Stability: Air Sprung Cells contour to your body, reducing pressure points for a stable, comfortable sleep",
+      "Wider Profile: Provides extra width ideal for side sleepers and more movement",
+      "Proven Durability: Hybrid 30/40D nylon and liquid-extruded TPU laminate to withstand rugged use",
+      "ThermalCore Insulation: Reflects body heat, boosting R-value and reducing packed size for extended comfort"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2467/2501/files/045601_UltralightXRInsulatedMat_Small_Arrowwood_PRIMARY_1500.jpg?v=1769644541",
+    "imageAlt": "Ultralight XR Insulated Air Sleeping Pad",
+    "sourceUrl": "https://seatosummit.com/products/ultralight-xr-insulated-air-sleeping-pad",
+    "sourceSite": "seatosummit.com",
+    "scrapedAt": "2026-07-03T14:46:00Z",
+    "status": "draft",
+    "published": true,
+    "price": 139.0,
+    "priceMin": 139.0,
+    "priceMax": 169.0
   }
 ]

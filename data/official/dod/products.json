@@ -10,7 +10,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 6.76,
-      "weightDisplay": "约 6.76 kg"
+      "weightDisplay": "~6.76 kg"
     },
     "highlights": [
       "Expands living space of the Uchi Tent & Tsuku Base Tent.",
@@ -20,13 +20,42 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_524d1c8d-8c52-44d9-9c62-3267812c93e4.jpg?v=1696602738",
     "imageAlt": "Base Camp Awning",
-    "sourceUrl": "https://www.dodoutdoors.com/products/base-camp-awning",
+    "sourceUrl": "https://dodoutdoors.com/products/base-camp-awning",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:21Z",
+    "scrapedAt": "2026-07-03T14:48:14Z",
     "status": "draft",
-    "price": 179.0,
-    "priceMin": 179.0,
-    "priceMax": 179.0
+    "price": 199.0,
+    "priceMin": 199.0,
+    "priceMax": 199.0
+  },
+  {
+    "id": "dod-bed-in-bag",
+    "brandId": "dod",
+    "category": "sleeping-pad",
+    "subcategory": "sleeping-pad",
+    "model": "Bed in Bag",
+    "modelEn": "Bed in Bag",
+    "description": "Never again get caught sleeping on the ground with the Bed in Bag. This compact, lightweight bed can be easily carried to your next campsite or festival. Of all DOD cots, the Bed in Bag packs up the smallest. Easy to assemble and comes with its own carrying case. Compact Extra wide for extra comfort Lightweight Color: Black, Cream, and Olive Static Load Capacity (Approximate): 265 lbs (120 kg) Dimensions L x W x H: 72 in x 28 in x 6 in (183 cm x 72 cm x 15.5 cm) Packed size L x W x H: 20 in x 6 in x 5 in (51 cm x 16 cm x 12 cm) Weight: 5.7 lbs (2.6 kg) Materials Frame: Aluminum Fabric: 600D Polyester",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.99,
+      "weightDisplay": "~2.99 kg",
+      "structure": "Sleeping Pads"
+    },
+    "highlights": [
+      "Extra wide for extra comfort",
+      "Lightweight"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_-DefaultOlive_0ef0e4b0-6339-44c2-aed1-9d2f6dd48af7.jpg?v=1729154674",
+    "imageAlt": "Bed in Bag",
+    "sourceUrl": "https://dodoutdoors.com/products/bed-in-bag",
+    "sourceSite": "dodoutdoors.com",
+    "scrapedAt": "2026-07-03T14:48:22Z",
+    "status": "draft",
+    "published": true,
+    "price": 134.0,
+    "priceMin": 134.0,
+    "priceMax": 134.0
   },
   {
     "id": "dod-canvotm-rx-pyramid-tent-m",
@@ -39,8 +68,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 9.48,
-      "weightDisplay": "约 9.48 kg",
-      "capacity": "4人s or fewer"
+      "weightDisplay": "~9.48 kg",
+      "capacity": "4 ppls or fewer"
     },
     "highlights": [
       "Comfortable and well-ventilated interior.",
@@ -50,9 +79,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/MG_7549_1.jpg?v=1729100601",
     "imageAlt": "Canvo™ RX Pyramid Tent (M)",
-    "sourceUrl": "https://www.dodoutdoors.com/products/canvotm-rx-pyramid-tent-m",
+    "sourceUrl": "https://dodoutdoors.com/products/canvotm-rx-pyramid-tent-m",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
     "price": 199.0,
     "priceMin": 199.0,
@@ -69,8 +98,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 6.51,
-      "weightDisplay": "约 6.51 kg",
-      "capacity": "4人s or fewer"
+      "weightDisplay": "~6.51 kg",
+      "capacity": "4 ppls or fewer"
     },
     "highlights": [
       "Versatile design for group or solo/duo camping.",
@@ -80,13 +109,44 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_b76daa0a-a16d-4121-a761-49f797d19838.jpg?v=1723675805",
     "imageAlt": "Chimaki Tent",
-    "sourceUrl": "https://www.dodoutdoors.com/products/chimaki-tent",
+    "sourceUrl": "https://dodoutdoors.com/products/chimaki-tent",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
     "price": 159.0,
     "priceMin": 159.0,
     "priceMax": 159.0
+  },
+  {
+    "id": "dod-deka-sleeping-bag",
+    "brandId": "dod",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Deka Sleeping Bag",
+    "modelEn": "Deka Sleeping Bag",
+    "description": "A sleeping bag designed for comfort first. The Deka is a rectangular bag, suitable for sleeping in any position. Plush lining gives you a luxurious hug as you sleep. As with any DOD products, the Deka has many uses: As a sleeping bag. As a camp cushion when stowed. As a quilt when completely unzipped. Connect two together to use with your loved one. Envelope style provides ample foot space and comfortable movement. Lined with plush fabric for extra warmth and comfort. Features a compression zipper and handle for easy portability and storage. Internal flap reduces cold air intrusion through the zipper. Outer fabric is durable polyester, easy to wipe clean. Filled with hollow fiber for lightweight, effective insulation. Machine washable for easy maintenance after camping. Can be connected with another bag to form a double sleeping bag. Size: Approximately 77 in x 34 in (195 cm x 85 cm) Packed Size: Approximately 16 in x 10 in x 24 in (40 cm x 25 cm x 60 cm) Weight: Approximately 6.4 lbs (2.9 kg) Materials: Sleeping Bag: Polyester Carry Bag (Cushion Cover): Cotton Comfort temperature rating : 50°F Safety temperature rating: 40°F",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 3.99,
+      "weightDisplay": "~3.99 kg",
+      "bagType": "信封式"
+    },
+    "highlights": [
+      "Envelope style provides ample foot space and comfortable movement.",
+      "Lined with plush fabric for extra warmth and comfort.",
+      "Features a compression zipper and handle for easy portability and storage.",
+      "Internal flap reduces cold air intrusion through the zipper."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_aea83290-46e2-42bb-b433-510f2c78f8c2.jpg?v=1752506941",
+    "imageAlt": "Deka Sleeping Bag",
+    "sourceUrl": "https://dodoutdoors.com/products/deka-sleeping-bag",
+    "sourceSite": "dodoutdoors.com",
+    "scrapedAt": "2026-07-03T14:48:16Z",
+    "status": "draft",
+    "published": false,
+    "price": 119.0,
+    "priceMin": 119.0,
+    "priceMax": 119.0
   },
   {
     "id": "dod-good-luck-sofa",
@@ -95,27 +155,27 @@
     "subcategory": "Camp Furniture",
     "model": "Good Luck Sofa",
     "modelEn": "Good Luck Sofa",
-    "description": "The Good Luck Sofa is an extra wide chair for one, or a cozy seat for two. The super comfortable removable cushion cover is made from washable, breathable 100% cotton. Solid wood arms are pleasant to the touch. The Good Luck Sofa pulls double duty - set it up in the back of your van or SUV to create a shelving system to better organize your gear. Great for the backyard, the kids’ ball game, and camping. Suitable for two people to share. Removable, washable, breathable cotton cushion. Converts to a shelf unit in your SUV trunk. Extra wide solid wood armrests. Color: Olive, Tan, Black Capacity: 2 people Dimensions L x W x H: 39.4 in x 29.1 in x 19.7 in (100 cm x 74 cm x 50 cm) Packed size L x W x H: 39.4 in x 26.4 in x 5.1 in (100 cm x 67 cm x 13 cm) Weight: 12.1 lbs (5.5 kg) (including accessories) Materials Frame: Aluminum alloy Reinforcing frame: Steel Fabric: 600D polyester, polyester reinforced mesh (PVC Coating) Armrest: Wood Static load capacity: 440 lbs, 200 kg",
+    "description": "The Good Luck Sofa is an extra wide chair for one, or a cozy seat for two. The super comfortable removable cushion cover is made from washable, breathable woven fabric. Solid wood arms are pleasant to the touch. The Good Luck Sofa pulls double duty - set it up in the back of your van or SUV to create a shelving system to better organize your gear. Great for the backyard, the kids’ ball game, and camping. Suitable for two people to share. Removable, washable, breathable cushion. Converts to a shelf unit in your SUV trunk. Extra wide solid wood armrests. Color: Olive, Tan, Black Capacity: 2 people Dimensions L x W x H: 39.4 in x 29.1 in x 19.7 in (100 cm x 74 cm x 50 cm) Packed size L x W x H: 39.4 in x 26.4 in x 5.1 in (100 cm x 67 cm x 13 cm) Weight: 12.1 lbs (5.5 kg) (including accessories) Materials Frame: Aluminum alloy Reinforcing frame: Steel Fabric: 600D polyester, polyester reinforced mesh (PVC Coating) Armrest: Wood Static load capacity: 440 lbs, 200 kg",
     "currency": "USD",
     "specs": {
       "weightKg": 7.67,
-      "weightDisplay": "约 7.67 kg"
+      "weightDisplay": "~7.67 kg"
     },
     "highlights": [
       "Great for the backyard, the kids’ ball game, and camping.",
       "Suitable for two people to share.",
-      "Removable, washable, breathable cotton cushion.",
+      "Removable, washable, breathable cushion.",
       "Converts to a shelf unit in your SUV trunk."
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_a54558dc-7db6-4b0d-ae9f-e1f73831dc61.jpg?v=1731912210",
     "imageAlt": "Good Luck Sofa",
-    "sourceUrl": "https://www.dodoutdoors.com/products/good-luck-sofa",
+    "sourceUrl": "https://dodoutdoors.com/products/good-luck-sofa",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:09Z",
+    "scrapedAt": "2026-07-03T14:48:10Z",
     "status": "draft",
-    "price": 199.0,
-    "priceMin": 199.0,
-    "priceMax": 199.0,
+    "price": 169.0,
+    "priceMin": 169.0,
+    "priceMax": 169.0,
     "inSummaryTable": false
   },
   {
@@ -129,7 +189,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 7.1,
-      "weightDisplay": "约 7.1 kg",
+      "weightDisplay": "~7.1 kg",
       "structure": "Furniture"
     },
     "highlights": [
@@ -139,9 +199,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/a4071201-c40a-4213-be08-15c75bbb0318.jpg?v=1761659206",
     "imageAlt": "Good Luck Table",
-    "sourceUrl": "https://www.dodoutdoors.com/products/good-luck-table",
+    "sourceUrl": "https://dodoutdoors.com/products/good-luck-table",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:09Z",
+    "scrapedAt": "2026-07-03T14:48:10Z",
     "status": "draft",
     "price": 199.0,
     "priceMin": 199.0,
@@ -159,8 +219,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 25.4,
-      "weightDisplay": "约 25.4 kg",
-      "capacity": "5人s or more"
+      "weightDisplay": "~25.4 kg",
+      "capacity": "5 ppls or more"
     },
     "highlights": [
       "Spacious and adaptable design.",
@@ -170,9 +230,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/G4_6_51d23451-9cd4-4ac9-aa95-1e598aa34c06.webp?v=1747940230",
     "imageAlt": "Home Base Tent",
-    "sourceUrl": "https://www.dodoutdoors.com/products/home-base-tent",
+    "sourceUrl": "https://dodoutdoors.com/products/home-base-tent",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
     "price": 899.0,
     "priceMin": 899.0,
@@ -189,7 +249,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 5.71,
-      "weightDisplay": "约 5.71 kg"
+      "weightDisplay": "~5.71 kg"
     },
     "highlights": [
       "Great for the backyard, the kids’ ball game, and camping.",
@@ -197,9 +257,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_b9131b3d-db68-4cc9-bf68-df99855abd72.jpg?v=1763152228",
     "imageAlt": "Itsuka Tarp",
-    "sourceUrl": "https://www.dodoutdoors.com/products/itsuka-tarp",
+    "sourceUrl": "https://dodoutdoors.com/products/itsuka-tarp",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:21Z",
+    "scrapedAt": "2026-07-03T14:48:14Z",
     "status": "draft",
     "price": 159.0,
     "priceMin": 159.0,
@@ -216,7 +276,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 4.08,
-      "weightDisplay": "约 4.08 kg"
+      "weightDisplay": "~4.08 kg"
     },
     "highlights": [
       "Canvo ™ fabric for deep shade and longer life. Many grommets and loops for varied setups. Reinforced center for added setup options. Pairs well with large tents or can be used alone.",
@@ -226,13 +286,13 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_8.jpg?v=1763542163",
     "imageAlt": "Kama Tarp",
-    "sourceUrl": "https://www.dodoutdoors.com/products/kama-tarp",
+    "sourceUrl": "https://dodoutdoors.com/products/kama-tarp",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:21Z",
+    "scrapedAt": "2026-07-03T14:48:14Z",
     "status": "draft",
     "price": 179.0,
     "priceMin": 179.0,
-    "priceMax": 249.0
+    "priceMax": 279.0
   },
   {
     "id": "dod-kamaboko-super-tent-l",
@@ -244,7 +304,7 @@
     "description": "Introducing the Kamaboko Super Tent. A Super Tent is a large camp shelter under which you can pitch several smaller tents or set up cots. The Kamaboko comes with an sleeping chamber that sleeps 7 adults, that attaches to the ribs and can easily be removed when not in use. Inside the Kamaboko, smaller tents can go up with no rainfly so your small tent does not get muggy and sticky. During the day, pull the tents outside and use the shelter as a bug tent or sun/rain tarp. There’s no floor in the tent so it can easily be erected over a picnic table to create a comfortable campsite dining room. Super Tent – pitch smaller tents inside, or use as a bug tent, sun/rain tarp. High ceilings and wide span provide lots of unobstructed space. Goes up fast, packs up small and light. End and side doors double as awnings; awning poles not included. No floor so you can walk in and out without removing shoes or tracking in dirt. Front, back, and side panels zip up to expose mesh panels for increased airflow. Colors: Tan Olive Capacity: Sleeps 7 adults per sleeping chamber (one provided). Total capacity with 2 sleeping chambers is 14 adults. Dimensions: Area: 312 sqft Foot Print: 25 x 12.5 ft (7.6 x 3.8 m) Inner Height: 6.5 ft (195.5 cm) Packed size: 30 x 15 x 13 in (76 x 38 x 32 cm) Weight: 53 lbs (24 kg) Materials Outer Tent: 150D Polyester (PU Coating, UV cut processing) Frame: Aluminum alloy Inner tent (one provided) wall surface: 68D Polyester Inner tent (one provided) floor: 210D Polyeste",
     "currency": "USD",
     "specs": {
-      "capacity": "5人s or more"
+      "capacity": "5 ppls or more"
     },
     "highlights": [
       "Super Tent – pitch smaller tents inside, or use as a bug tent, sun/rain tarp.",
@@ -254,9 +314,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/a873de0f-34aa-4159-bd17-34ba202e5735.jpg?v=1759774861",
     "imageAlt": "Kamaboko Super Tent (L)",
-    "sourceUrl": "https://www.dodoutdoors.com/products/kamaboko-super-tent-l",
+    "sourceUrl": "https://dodoutdoors.com/products/kamaboko-super-tent-l",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
     "price": 899.0,
     "priceMin": 899.0,
@@ -273,8 +333,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 19.96,
-      "weightDisplay": "约 19.96 kg",
-      "capacity": "5人s"
+      "weightDisplay": "~19.96 kg",
+      "capacity": "5 ppls"
     },
     "highlights": [
       "Super Tent – pitch smaller tents inside, or use as a bug tent, sun/rain tarp.",
@@ -284,9 +344,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_5fe85fbc-71d9-4002-a8cc-fa0adfd3dec6.png?v=1700260149",
     "imageAlt": "Kamaboko Super Tent (M)",
-    "sourceUrl": "https://www.dodoutdoors.com/products/kamaboko-super-tent-m",
+    "sourceUrl": "https://dodoutdoors.com/products/kamaboko-super-tent-m",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
     "price": 749.0,
     "priceMin": 749.0,
@@ -303,8 +363,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 16.1,
-      "weightDisplay": "约 16.1 kg",
-      "capacity": "3人s",
+      "weightDisplay": "~16.1 kg",
+      "capacity": "3 ppls",
       "structure": "Tents"
     },
     "highlights": [
@@ -315,9 +375,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/products/1_Copyof2155-CZ3A7957_1.jpg?v=1690528852",
     "imageAlt": "Kamaboko Super Tent (S)",
-    "sourceUrl": "https://www.dodoutdoors.com/products/kamaboko-super-tent-s",
+    "sourceUrl": "https://dodoutdoors.com/products/kamaboko-super-tent-s",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
     "price": 299.0,
     "priceMin": 299.0,
@@ -333,20 +393,18 @@
     "description": "",
     "currency": "USD",
     "specs": {
-      "weightKg": 7.98,
-      "weightDisplay": "约 7.98 kg",
-      "capacity": "4人s or fewer"
+      "capacity": "4 ppls or fewer"
     },
     "highlights": [],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_1_e415c61e-5d97-45c5-be8c-ac23aeaa3782.png?v=1776699747",
     "imageAlt": "Kinoko Mushroom Tent (S)",
-    "sourceUrl": "https://www.dodoutdoors.com/products/kinoko-mushroom-tent-s",
+    "sourceUrl": "https://dodoutdoors.com/products/kinoko-mushroom-tent-s",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
-    "price": 239.0,
-    "priceMin": 239.0,
-    "priceMax": 259.0
+    "price": 199.0,
+    "priceMin": 199.0,
+    "priceMax": 279.0
   },
   {
     "id": "dod-kyanary-table",
@@ -359,7 +417,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 7.26,
-      "weightDisplay": "约 7.26 kg",
+      "weightDisplay": "~7.26 kg",
       "structure": "Furniture"
     },
     "highlights": [
@@ -367,9 +425,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_75604da7-17a5-4675-ad3e-9769d871b489.jpg?v=1775769745",
     "imageAlt": "Kyanary Table",
-    "sourceUrl": "https://www.dodoutdoors.com/products/kyanary-table",
+    "sourceUrl": "https://dodoutdoors.com/products/kyanary-table",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:09Z",
+    "scrapedAt": "2026-07-03T14:48:10Z",
     "status": "draft",
     "price": 239.0,
     "priceMin": 239.0,
@@ -387,8 +445,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 5.67,
-      "weightDisplay": "约 5.67 kg",
-      "capacity": "4人s or fewer"
+      "weightDisplay": "~5.67 kg",
+      "capacity": "4 ppls or fewer"
     },
     "highlights": [
       "Two-room structure provides distinct spaces.",
@@ -398,9 +456,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_-BestQuality.jpg?v=1763735937",
     "imageAlt": "Moto 1Pull Tent",
-    "sourceUrl": "https://www.dodoutdoors.com/products/moto-1pull-tent",
+    "sourceUrl": "https://dodoutdoors.com/products/moto-1pull-tent",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
     "price": 99.0,
     "priceMin": 99.0,
@@ -417,7 +475,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 8.85,
-      "weightDisplay": "约 8.85 kg"
+      "weightDisplay": "~8.85 kg"
     },
     "highlights": [
       "Tall work surface is easy on the back.",
@@ -426,9 +484,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/2_90626c07-9802-4368-a27c-afa00c9f3e1d.jpg?v=1761659170",
     "imageAlt": "Multi Kitchen Table",
-    "sourceUrl": "https://www.dodoutdoors.com/products/multi-kitchen-table",
+    "sourceUrl": "https://dodoutdoors.com/products/multi-kitchen-table",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:09Z",
+    "scrapedAt": "2026-07-03T14:48:10Z",
     "status": "draft",
     "price": 179.0,
     "priceMin": 179.0,
@@ -436,26 +494,32 @@
     "inSummaryTable": false
   },
   {
-    "id": "dod-musha-1pole-tent",
+    "id": "dod-musha-tent",
     "brandId": "dod",
     "category": "tent",
     "subcategory": "Tents",
     "model": "Musha 1Pole Tent",
     "modelEn": "Musha 1Pole Tent",
-    "description": "",
+    "description": "The Musha 1Pole Tent is a thoughtfully designed two-room, one-pole tent, ideal for solo campers seeking a cozy, private, functional shelter. This tent features seperate sleeping chamber and vestibule for storing gear or relaxing under cover. The canopy door functions as a vertical awning, serving as a sunshade, blind, or windbreak. The Musha is made from Canvo ™ so its more durable than polyester tents, breathes, and is more comfortable in both warm and cool weather. This tent is not just a shelter; it’s a soul-soothing haven for outdoor adventurers. Two-room structure: sleeping chamber and vestibule. Canvo ™ fabric, quiet in the wind. Canopy door for versatile use as a windbreak; Canopy door pole not included; Use trekking pole or purchase our Kiso Tarp Poles. Rollable skirt on the flysheet for wind and insect reduction. Easy setup with simple peg and pole design. Compact storage with a dedicated compression carry bag. Features an inverted T-shaped inner door, inner pockets, and a lantern hook. Ample ventilation. Colors: Olive / Tan Dimensions: W x D x H Assembled Size: 9.6 ft x 9.6 ft x 6.1 ft (290 cm x 290 cm x 183 cm) *Does not include rope or skirt. Inner Size: 8.4 ft x 4.4 ft x 5.8 ft (255 cm × 133 cm × 173 cm) Storage Size: 21 in x 8 in x 8 in (53 cm × 20 cm × 20cm) Weight: 12.56 Ibs (5.7 kg) Capacity: 1 adult Materials : Flysheet: Canvo ™ (65% polyester, 35% cotton) Inner tent: 68D polyester Pole: Aluminum alloy Peg: Steel Canvo™ is DOD's revolutionary new tent fabric",
     "currency": "USD",
     "specs": {
       "weightKg": 6.12,
-      "weightDisplay": "约 6.12 kg",
-      "capacity": "4人s or fewer"
+      "weightDisplay": "~6.12 kg",
+      "capacity": "4 ppls or fewer"
     },
-    "highlights": [],
+    "highlights": [
+      "Two-room structure: sleeping chamber and vestibule.",
+      "Canvo ™ fabric, quiet in the wind.",
+      "Canopy door for versatile use as a windbreak; Canopy door pole not included; Use trekking pole or purchase our Kiso Tarp Poles.",
+      "Rollable skirt on the flysheet for wind and insect reduction."
+    ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_DefaultTan_7af6ff4c-17c1-443d-b461-fe590e2c755a.jpg?v=1723493520",
     "imageAlt": "Musha 1Pole Tent",
-    "sourceUrl": "https://www.dodoutdoors.com/products/musha-1pole-tent",
+    "sourceUrl": "https://dodoutdoors.com/products/musha-tent",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
+    "published": false,
     "price": 119.0,
     "priceMin": 119.0,
     "priceMax": 119.0
@@ -471,7 +535,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 5.67,
-      "weightDisplay": "约 5.67 kg",
+      "weightDisplay": "~5.67 kg",
       "structure": "Furniture"
     },
     "highlights": [
@@ -482,9 +546,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_b6d9fdb3-4bc0-4f57-bed8-6ca964b9a8d6.png?v=1756279267",
     "imageAlt": "One Pole Tent Table",
-    "sourceUrl": "https://www.dodoutdoors.com/products/one-pole-tent-table",
+    "sourceUrl": "https://dodoutdoors.com/products/one-pole-tent-table",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:09Z",
+    "scrapedAt": "2026-07-03T14:48:10Z",
     "status": "draft",
     "price": 179.0,
     "priceMin": 179.0,
@@ -502,8 +566,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 10.66,
-      "weightDisplay": "约 10.66 kg",
-      "capacity": "4人s or fewer",
+      "weightDisplay": "~10.66 kg",
+      "capacity": "4 ppls or fewer",
       "structure": "Tarps"
     },
     "highlights": [
@@ -514,9 +578,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_5_1.jpg?v=1723496554",
     "imageAlt": "Pup Like Tent",
-    "sourceUrl": "https://www.dodoutdoors.com/products/pup-like-tent",
+    "sourceUrl": "https://dodoutdoors.com/products/pup-like-tent",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
     "price": 149.0,
     "priceMin": 149.0,
@@ -533,8 +597,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 13.61,
-      "weightDisplay": "约 13.61 kg",
-      "capacity": "5人s or more"
+      "weightDisplay": "~13.61 kg",
+      "capacity": "5 ppls or more"
     },
     "highlights": [
       "Easy-to-set-up pyramid shape with a balanced structure.",
@@ -544,9 +608,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_9a9d1e05-9eef-44d4-af1c-4855766e74e6.png?v=1723497715",
     "imageAlt": "RX Pyramid Tent (L)",
-    "sourceUrl": "https://www.dodoutdoors.com/products/rx-pyramid-tent-l",
+    "sourceUrl": "https://dodoutdoors.com/products/rx-pyramid-tent-l",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
     "price": 249.0,
     "priceMin": 249.0,
@@ -563,8 +627,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 6.71,
-      "weightDisplay": "约 6.71 kg",
-      "capacity": "4人s"
+      "weightDisplay": "~6.71 kg",
+      "capacity": "4 ppls"
     },
     "highlights": [
       "Easy-to-set-up pyramid shape with a balanced structure.",
@@ -574,13 +638,42 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/DJI_0105.jpg?v=1728901197",
     "imageAlt": "RX Pyramid Tent (M)",
-    "sourceUrl": "https://www.dodoutdoors.com/products/rx-pyramid-tent-m",
+    "sourceUrl": "https://dodoutdoors.com/products/rx-pyramid-tent-m",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
     "price": 149.0,
     "priceMin": 149.0,
     "priceMax": 149.0
+  },
+  {
+    "id": "dod-shonen-tent-canvotm",
+    "brandId": "dod",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Shonen Tent Canvo™",
+    "modelEn": "Shonen Tent Canvo™",
+    "description": "This is the more luxurious, Canvo ™ version of the Shonen Tent, a versatile and lightweight shelter designed for a more stylish outdoor adventure. The Shonen’s distinctive shape, with peaked ridge line and portico, might put you in mind of a Bedouin desert tent. With the inner tent installed, you get two rooms: large meshed-in sleeping chamber and a floorless antechamber to store gear undercover. Or remove the inner tent for a larger floorless covered space that you can use throughout the day. Crafted with Canvo ™ and aluminum alloy poles for durability. Ample room for your outdoor adventures. Colors: Gray, Tan Dimensions W x D x H: Assembled Size: 7.3 ft x 8.10 ft x 5.11 ft (220 cm x 270 cm x 180 cm) (not including rope) Inner Size: 6.9 ft x 37 in x 5.3 ft (205 cm x 95 cm x 160 cm) Storage Size: 20 in x 9 in x 9 in (52 cm x 22 cm x 22cm) Weight: 18.07 lbs (8.2 kg) Capacity: 1 adult Materials : Outer tent: Canvo ™ (65% polyester, 35% cotton) Inner tent: Nylon Floor: 70D nylon (PU coating) Pole: Aluminum alloy Peg: Steel Canvo™ is DOD's revolutionary new tent fabric designed to maximize comfort in camp. Canvo™ provides a vastly superior camping experience, compared to the polyester used to make most modern tents. The material breathes, so it does not become humid. It’s quieter in the wind, so you get a better night's sleep. It feels more natural than polyester and it’s more durable. You can learn more about care and maintenance of your Canvo™ tent or tarp here . You can learn ",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 8.62,
+      "weightDisplay": "~8.62 kg",
+      "capacity": "4 ppls or fewer"
+    },
+    "highlights": [
+      "Crafted with Canvo ™ and aluminum alloy poles for durability.",
+      "Ample room for your outdoor adventures."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_23b39f81-16b4-47e1-8281-125364f8756d.png?v=1723654487",
+    "imageAlt": "Shonen Tent Canvo™",
+    "sourceUrl": "https://dodoutdoors.com/products/shonen-tent-canvotm",
+    "sourceSite": "dodoutdoors.com",
+    "scrapedAt": "2026-07-03T14:48:12Z",
+    "status": "draft",
+    "published": false,
+    "price": 179.0,
+    "priceMin": 179.0,
+    "priceMax": 179.0
   },
   {
     "id": "dod-sugoi-chair",
@@ -593,7 +686,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.72,
-      "weightDisplay": "约 2.72 kg",
+      "weightDisplay": "~2.72 kg",
       "structure": "Outdoor Chairs"
     },
     "highlights": [
@@ -601,13 +694,13 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_GIFSUGOITANDEFAULTCopyofGIF8-Versamin2.gif?v=1724230329",
     "imageAlt": "Sugoi Chair",
-    "sourceUrl": "https://www.dodoutdoors.com/products/sugoi-chair",
+    "sourceUrl": "https://dodoutdoors.com/products/sugoi-chair",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:09Z",
+    "scrapedAt": "2026-07-03T14:48:10Z",
     "status": "draft",
-    "price": 149.0,
-    "priceMin": 149.0,
-    "priceMax": 149.0,
+    "price": 129.0,
+    "priceMin": 129.0,
+    "priceMax": 129.0,
     "inSummaryTable": false
   },
   {
@@ -621,8 +714,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 26.31,
-      "weightDisplay": "约 26.31 kg",
-      "capacity": "5人s or more"
+      "weightDisplay": "~26.31 kg",
+      "capacity": "5 ppls or more"
     },
     "highlights": [
       "Approximately 150 square feet of luxurious interior space ensures comfort and freedom of movement.",
@@ -632,9 +725,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_-NEW.jpg?v=1765481080",
     "imageAlt": "Takenoko Bell Tent",
-    "sourceUrl": "https://www.dodoutdoors.com/products/takenoko-bell-tent",
+    "sourceUrl": "https://dodoutdoors.com/products/takenoko-bell-tent",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
     "price": 899.0,
     "priceMin": 899.0,
@@ -653,9 +746,9 @@
     "highlights": [],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/10_82f3f45a-e188-4061-9c17-76d9049794ab.jpg?v=1776196309",
     "imageAlt": "Tequila Table (M)",
-    "sourceUrl": "https://www.dodoutdoors.com/products/tequila-bag-and-table-medium",
+    "sourceUrl": "https://dodoutdoors.com/products/tequila-bag-and-table-medium",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:09Z",
+    "scrapedAt": "2026-07-03T14:48:10Z",
     "status": "draft",
     "price": 149.0,
     "priceMin": 149.0,
@@ -673,8 +766,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 9.3,
-      "weightDisplay": "约 9.3 kg",
-      "capacity": "4人s or fewer"
+      "weightDisplay": "~9.3 kg",
+      "capacity": "4 ppls or fewer"
     },
     "highlights": [
       "Effortless 1Pull setup for quick and convenient assembly.",
@@ -684,9 +777,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/FIRSTPIC_1.png?v=1763393420",
     "imageAlt": "THE 1Pull Dome Tent",
-    "sourceUrl": "https://www.dodoutdoors.com/products/the-one-touch-dome-tent",
+    "sourceUrl": "https://dodoutdoors.com/products/the-one-touch-dome-tent",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
     "price": 239.0,
     "priceMin": 239.0,
@@ -703,8 +796,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 13.84,
-      "weightDisplay": "约 13.84 kg",
-      "capacity": "4人s or fewer"
+      "weightDisplay": "~13.84 kg",
+      "capacity": "4 ppls or fewer"
     },
     "highlights": [
       "Classic dome design with easy-to-assemble cross-frame structure.",
@@ -714,9 +807,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_7.jpg?v=1724326748",
     "imageAlt": "THE Dome Tent",
-    "sourceUrl": "https://www.dodoutdoors.com/products/the-dome-tent",
+    "sourceUrl": "https://dodoutdoors.com/products/the-dome-tent",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
     "price": 319.0,
     "priceMin": 319.0,
@@ -733,8 +826,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 4.99,
-      "weightDisplay": "约 4.99 kg",
-      "capacity": "4人s or fewer",
+      "weightDisplay": "~4.99 kg",
+      "capacity": "4 ppls or fewer",
       "structure": "Tents"
     },
     "highlights": [
@@ -745,9 +838,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_72a36838-355f-4316-9ce3-3b706feadff7.jpg?v=1728977870",
     "imageAlt": "Tomo 1Pull Dome Tent",
-    "sourceUrl": "https://www.dodoutdoors.com/products/tomo-1pull-dome-tent",
+    "sourceUrl": "https://dodoutdoors.com/products/tomo-1pull-dome-tent",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
     "price": 159.0,
     "priceMin": 159.0,
@@ -764,8 +857,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 13.15,
-      "weightDisplay": "约 13.15 kg",
-      "capacity": "5人s"
+      "weightDisplay": "~13.15 kg",
+      "capacity": "5 ppls"
     },
     "highlights": [
       "House-shaped silhouette offers a unique yet familiar visual appeal.",
@@ -775,9 +868,9 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_896294bf-29ce-4811-8f5d-a52437fd7838.jpg?v=1723561006",
     "imageAlt": "Uchi Tent",
-    "sourceUrl": "https://www.dodoutdoors.com/products/uchi-tent",
+    "sourceUrl": "https://dodoutdoors.com/products/uchi-tent",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
     "price": 499.0,
     "priceMin": 499.0,
@@ -794,8 +887,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 7.67,
-      "weightDisplay": "约 7.67 kg",
-      "capacity": "4人s or fewer"
+      "weightDisplay": "~7.67 kg",
+      "capacity": "4 ppls or fewer"
     },
     "highlights": [
       "DOD's 1Pull system allows quick setup and take down.",
@@ -804,42 +897,44 @@
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_8c1dbe5b-8209-45b5-b7ab-0b02bd90f027.png?v=1723240042",
     "imageAlt": "Wagaya 1Pull Tent",
-    "sourceUrl": "https://www.dodoutdoors.com/products/wagaya-1pull-tent",
+    "sourceUrl": "https://dodoutdoors.com/products/wagaya-1pull-tent",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:15Z",
+    "scrapedAt": "2026-07-03T14:48:12Z",
     "status": "draft",
     "price": 199.0,
     "priceMin": 199.0,
     "priceMax": 199.0
   },
   {
-    "id": "dod-yutori-chair",
+    "id": "dod-wagaya-sleeping-bag",
     "brandId": "dod",
-    "category": "chair",
-    "subcategory": "Camp Furniture",
-    "model": "Yutori Chair",
-    "modelEn": "Yutori Chair",
-    "description": "When you just need to get outside with a good book, you need the Yutori Chair. It’s comfortable enough to sit in for hours. The super cozy cushion cover is made from washable, breathable 100% cotton. When the weather is warm, just remove the cushion to convert to a mesh chair. Solid wood arms are pleasant to the touch and wide enough to hold a beverage. Great for the backyard, the kids’ ball game, and camping. Washable, breathable cushion. Converts to mesh chair when the weather warms up. Extra wide solid wood armrests. Color: Black, Tan Dimensions L x W x H: 28.7 in x 26.0 in x 32.3 in (73 cm x 66 cm x 82 cm) Packed size L x W x H: 35 in x 6.3 in x 30.7 in (89 cm x 16 cm x 78 cm) Weight: 12.1 lbs (5.5 kg) (including accessories) Materials Frame: Aluminum alloy Reinforcing frame: Steel Fabric: 600D polyester, polyester reinforced mesh (PVC Coating) Armrest: Wood Load capacity: 220 lbs (100 kg)",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Wagaya Sleeping Bag",
+    "modelEn": "Wagaya Sleeping Bag",
+    "description": "With the Wagaya Sleeping Bag, DOD takes family camping to a whole new level. This quadruple wide sleeping bag has plenty of space for both parents and all the kids. And its super versatile – offering three different sleep systems. Especially useful when camping with young children who may prefer to sleep with parents in an unfamiliar environment. When you are not using the quadruple bag, zip the top and bottom apart to get two king sized quilts. Each of the king size quilts can zip up to create two double wide sleeping bags. One sleeping bag for the whole family. Divides into two king sized quilts or 2 double wide sleeping bags. Three season bag, safety rated to 40F (5C). Stuff sack attached so you never lose it. Storage sack included, attached. Water resistant polyester outer shell, cotton inner, machine washable. Colors: Maroon, tan interior Capacity: 2 adults and 2 children Dimensions 91 in wide and 78.8 in length (230 cm x 200 cm) Packed size L x W: 26 in x 14 in (diameter) (66 cm x 36 cm (diameter)) Weight: 10.6 lbs (4.8 kg) Materials Outer fabric: Polyester Inner fabric: 100% cotton",
     "currency": "USD",
     "specs": {
-      "weightKg": 6.67,
-      "weightDisplay": "约 6.67 kg"
+      "weightKg": 6.76,
+      "weightDisplay": "~6.76 kg",
+      "structure": "sleeping bag",
+      "bagType": "sleeping bag"
     },
     "highlights": [
-      "Great for the backyard, the kids’ ball game, and camping.",
-      "Washable, breathable cushion.",
-      "Converts to mesh chair when the weather warms up.",
-      "Extra wide solid wood armrests."
+      "One sleeping bag for the whole family.",
+      "Divides into two king sized quilts or 2 double wide sleeping bags.",
+      "Three season bag, safety rated to 40F (5C).",
+      "Stuff sack attached so you never lose it."
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/files/1_t4_825_br_gallery_06.jpg?v=1754054515",
-    "imageAlt": "Yutori Chair",
-    "sourceUrl": "https://www.dodoutdoors.com/products/yutori-chair",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0555/1154/8056/products/1_CopyofCopyof_MG_3760-EDITelo.jpg?v=1723677516",
+    "imageAlt": "Wagaya Sleeping Bag",
+    "sourceUrl": "https://dodoutdoors.com/products/wagaya-sleeping-bag",
     "sourceSite": "dodoutdoors.com",
-    "scrapedAt": "2026-06-05T14:35:09Z",
+    "scrapedAt": "2026-07-03T14:48:16Z",
     "status": "draft",
-    "price": 189.0,
-    "priceMin": 189.0,
-    "priceMax": 189.0,
-    "inSummaryTable": false
+    "published": false,
+    "price": 199.0,
+    "priceMin": 199.0,
+    "priceMax": 199.0
   }
 ]

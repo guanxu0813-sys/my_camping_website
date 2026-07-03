@@ -10,7 +10,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 3.11,
-      "weightDisplay": "约 3.11 kg",
+      "weightDisplay": "~3.11 kg",
       "structure": "Table"
     },
     "highlights": [
@@ -64,7 +64,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.96,
-      "weightDisplay": "约 0.96 kg",
+      "weightDisplay": "~0.96 kg",
       "structure": "Chair"
     },
     "highlights": [
@@ -92,7 +92,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.61,
-      "weightDisplay": "约 1.61 kg",
+      "weightDisplay": "~1.61 kg",
       "structure": "Chair"
     },
     "highlights": [
@@ -120,7 +120,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.67,
-      "weightDisplay": "约 0.67 kg",
+      "weightDisplay": "~0.67 kg",
       "structure": "Chair"
     },
     "highlights": [
@@ -148,7 +148,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.65,
-      "weightDisplay": "约 0.65 kg",
+      "weightDisplay": "~0.65 kg",
       "structure": "Chair"
     },
     "highlights": [
@@ -176,7 +176,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.47,
-      "weightDisplay": "约 0.47 kg",
+      "weightDisplay": "~0.47 kg",
       "structure": "Chair"
     },
     "highlights": [
@@ -204,7 +204,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 4.7,
-      "weightDisplay": "约 4.7 kg",
+      "weightDisplay": "~4.7 kg",
       "structure": "Table"
     },
     "highlights": [
@@ -232,7 +232,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.69,
-      "weightDisplay": "约 0.69 kg",
+      "weightDisplay": "~0.69 kg",
       "structure": "Table"
     },
     "highlights": [
@@ -260,7 +260,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.96,
-      "weightDisplay": "约 0.96 kg",
+      "weightDisplay": "~0.96 kg",
       "structure": "Table"
     },
     "highlights": [
@@ -288,7 +288,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.59,
-      "weightDisplay": "约 1.59 kg",
+      "weightDisplay": "~1.59 kg",
       "structure": "Table"
     },
     "highlights": [
@@ -342,7 +342,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.04,
-      "weightDisplay": "约 1.04 kg",
+      "weightDisplay": "~1.04 kg",
       "structure": "Chair"
     },
     "highlights": [
@@ -370,7 +370,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.11,
-      "weightDisplay": "约 2.11 kg",
+      "weightDisplay": "~2.11 kg",
       "structure": "Table"
     },
     "highlights": [
@@ -398,7 +398,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.94,
-      "weightDisplay": "约 0.94 kg",
+      "weightDisplay": "~0.94 kg",
       "structure": "Table"
     },
     "highlights": [
@@ -426,7 +426,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.59,
-      "weightDisplay": "约 1.59 kg",
+      "weightDisplay": "~1.59 kg",
       "structure": "Table"
     },
     "highlights": [

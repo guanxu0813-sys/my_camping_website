@@ -10,8 +10,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 11.34,
-      "weightDisplay": "约 11.34 kg",
-      "capacity": "2-4人",
+      "weightDisplay": "~11.34 kg",
+      "capacity": "2-4 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -21,7 +21,7 @@
     "imageAlt": "Alpha Breeze",
     "sourceUrl": "https://www.snowpeak.com/products/alpha-breeze",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 549.95,
     "priceMin": 549.95,
@@ -38,8 +38,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 17.92,
-      "weightDisplay": "约 17.92 kg",
-      "capacity": "2-4人",
+      "weightDisplay": "~17.92 kg",
+      "capacity": "2-4 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -49,7 +49,7 @@
     "imageAlt": "Alpha Breeze Tent Set",
     "sourceUrl": "https://www.snowpeak.com/products/alpha-breeze-tent-set",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 707.95,
     "priceMin": 707.95,
@@ -66,8 +66,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 5.9,
-      "weightDisplay": "约 5.9 kg",
-      "capacity": "1-2人-tent",
+      "weightDisplay": "~5.9 kg",
+      "capacity": "1-2 ppl-tent",
       "structure": "Tents"
     },
     "highlights": [
@@ -77,7 +77,7 @@
     "imageAlt": "Amenity Dome 2",
     "sourceUrl": "https://www.snowpeak.com/products/amenity-dome-2",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 499.95,
     "priceMin": 499.95,
@@ -93,7 +93,7 @@
     "description": "The Amenity Dome 3 is a Japanese-designed 3-person tent offering easy setup and high functionality. Based on the original Amenity Dome design, this version features a natural earth-tone color and incorporates a variety of functional updates. The Amenity Dome 3 features a symmetrical vestibule with arched doors on either side, and a front door with side panels for weather resistance when used as an awning. Using an updated outer frame structure, the poles are inserted into the rainfly, allowing the tent to be used as a simple shelter. The inner tent is attached with clips to the inside of the rainfly, allowing the user to remain dry while setting it up. The rainfly features triangular mesh panels on either side for enhanced ventilation.",
     "currency": "USD",
     "specs": {
-      "capacity": "2-4人",
+      "capacity": "2-4 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -103,7 +103,7 @@
     "imageAlt": "Amenity Dome 3",
     "sourceUrl": "https://www.snowpeak.com/products/amenity-dome-3",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 639.95,
     "priceMin": 639.95,
@@ -120,8 +120,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 9.06,
-      "weightDisplay": "约 9.06 kg",
-      "capacity": "2-4人",
+      "weightDisplay": "~9.06 kg",
+      "capacity": "2-4 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -131,7 +131,7 @@
     "imageAlt": "Amenity Dome Medium in Ivory",
     "sourceUrl": "https://www.snowpeak.com/products/amenity-dome-m-ivory",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 279.96,
     "priceMin": 279.96,
@@ -148,8 +148,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 5.8,
-      "weightDisplay": "约 5.8 kg",
-      "capacity": "1-2人",
+      "weightDisplay": "~5.8 kg",
+      "capacity": "1-2 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -159,7 +159,7 @@
     "imageAlt": "Amenity Dome Small in Ivory",
     "sourceUrl": "https://www.snowpeak.com/products/amenity-dome-s-ivory",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 227.46,
     "priceMin": 227.46,
@@ -176,7 +176,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 6.64,
-      "weightDisplay": "约 6.64 kg",
+      "weightDisplay": "~6.64 kg",
       "structure": "Tables"
     },
     "highlights": [
@@ -186,7 +186,7 @@
     "imageAlt": "Bamboo Folding Bench Long",
     "sourceUrl": "https://www.snowpeak.com/products/long-folding-shelf-bamboo-lv-066tr",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 237.95,
     "priceMin": 237.95,
@@ -204,7 +204,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 4.08,
-      "weightDisplay": "约 4.08 kg",
+      "weightDisplay": "~4.08 kg",
       "structure": "Chairs"
     },
     "highlights": [
@@ -214,7 +214,7 @@
     "imageAlt": "Bamboo Folding Shelf Light",
     "sourceUrl": "https://www.snowpeak.com/products/bamboo-folding-shelf-light",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 299.95,
     "priceMin": 299.95,
@@ -232,7 +232,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 27.22,
-      "weightDisplay": "约 27.22 kg",
+      "weightDisplay": "~27.22 kg",
       "structure": "Chairs"
     },
     "highlights": [
@@ -242,7 +242,7 @@
     "imageAlt": "Campfield Futon Starter Set",
     "sourceUrl": "https://www.snowpeak.com/products/racksotto-multi-starter-set-ar",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 969.95,
     "priceMin": 969.95,
@@ -260,7 +260,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 7.86,
-      "weightDisplay": "约 7.86 kg",
+      "weightDisplay": "~7.86 kg",
       "structure": "Tables"
     },
     "highlights": [
@@ -270,12 +270,41 @@
     "imageAlt": "Connection Table",
     "sourceUrl": "https://www.snowpeak.com/products/connection-table",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 329.95,
     "priceMin": 329.95,
     "priceMax": 329.95,
     "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-sd-507iv",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Dock Dome Pro. 6 Ivory",
+    "modelEn": "Dock Dome Pro. 6 Ivory",
+    "description": "Part of the Snow Peak Ivory Series, The Dock Dome Pro 6 Ivory is a durable tent designed for families and groups. Use it for year-round outdoor trips, regardless of weather conditions. The white-colored tent allows light to come through, while still offering UV protection. The Dock Dome Pro 6 Ivory can sleep up to four adults and two children, and the inner tent can be removed to create a roomy open-air shelter. The Dock Dome features large windows, mud skirt for keeping out rain and wall pockets for extra storage. Pair the Dock Dome Pro.6 Ivory with the Dock Dome Pro 6 Mat for extra insulation.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 13.6,
+      "weightDisplay": "~13.6 kg",
+      "capacity": "4-6 ppl",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "Part of the Snow Peak Ivory Series, The Dock Dome Pro 6 Ivory is a durable tent designed for families and groups. Use it for year-round outdoor trips, regardless of weather conditions. The white-colored tent allows light to come through, while still offering UV protection. The Dock Dome Pro 6 Ivory can sleep up to four adults and two children, and the inner tent can be removed to create a roomy op"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/dock_dome_pro_6_ivory_sd-507iv_hero_01.jpg?v=1587497143",
+    "imageAlt": "Dock Dome Pro. 6 Ivory",
+    "sourceUrl": "https://www.snowpeak.com/products/sd-507iv",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-07-03T14:47:48Z",
+    "status": "draft",
+    "published": false,
+    "price": 1999.95,
+    "priceMin": 1999.95,
+    "priceMax": 1999.95
   },
   {
     "id": "snow-peak-dog-cot",
@@ -288,7 +317,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.78,
-      "weightDisplay": "约 2.78 kg",
+      "weightDisplay": "~2.78 kg",
       "structure": "Pets"
     },
     "highlights": [
@@ -298,7 +327,7 @@
     "imageAlt": "Dog Cot",
     "sourceUrl": "https://www.snowpeak.com/products/dog-cot",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 159.95,
     "priceMin": 159.95,
@@ -316,7 +345,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.16,
-      "weightDisplay": "约 2.16 kg",
+      "weightDisplay": "~2.16 kg",
       "structure": "Cots & Sleeping",
       "fillType": "羽绒",
       "bagType": "睡袋系统"
@@ -328,7 +357,7 @@
     "imageAlt": "Down System Ofuton & Slim Mat",
     "sourceUrl": "https://www.snowpeak.com/products/system-ofuton-300-slim-mat-plus",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:52Z",
+    "scrapedAt": "2026-07-03T14:47:54Z",
     "status": "draft",
     "price": 364.95,
     "priceMin": 364.95,
@@ -345,7 +374,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.36,
-      "weightDisplay": "约 2.36 kg",
+      "weightDisplay": "~2.36 kg",
       "structure": "Cots & Sleeping",
       "fillType": "羽绒",
       "bagType": "睡袋系统"
@@ -357,7 +386,7 @@
     "imageAlt": "Down System Ofuton & Wide Mat",
     "sourceUrl": "https://www.snowpeak.com/products/system-ofuton-300-mat-plus",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:52Z",
+    "scrapedAt": "2026-07-03T14:47:54Z",
     "status": "draft",
     "price": 374.95,
     "priceMin": 374.95,
@@ -374,8 +403,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 16.33,
-      "weightDisplay": "约 16.33 kg",
-      "capacity": "2-4人",
+      "weightDisplay": "~16.33 kg",
+      "capacity": "2-4 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -385,7 +414,7 @@
     "imageAlt": "Entry Pack TT",
     "sourceUrl": "https://www.snowpeak.com/products/entry-pack-tent-tarp-1",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 453.56,
     "priceMin": 453.56,
@@ -402,7 +431,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 14.06,
-      "weightDisplay": "约 14.06 kg",
+      "weightDisplay": "~14.06 kg",
       "structure": "Iron Grill Table"
     },
     "highlights": [
@@ -412,12 +441,70 @@
     "imageAlt": "Extension IGT",
     "sourceUrl": "https://www.snowpeak.com/products/extension-igt",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 419.95,
     "priceMin": 419.95,
     "priceMax": 419.95,
     "inSummaryTable": false
+  },
+  {
+    "id": "snow-peak-fal-pro-air-2",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Fal Pro. Air 2",
+    "modelEn": "Fal Pro. Air 2",
+    "description": "The Fal Pro Air 2 is a two-person tent for backcountry camping trips. The Fal Pro Air 2 can be set-up in less than a minute, allowing for quick shelter during unexpected weather. The Fal Pro Air 2 features an inner and outer tent for extra protection from the weather and a simple two-pole system. Pair the Fal Pro Air 2 with the Fal 2 Ground Sheet for a comfortable set-up.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.77,
+      "weightDisplay": "~1.77 kg",
+      "capacity": "1-2 ppl",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Fal Pro Air 2 is a two-person tent for backcountry camping trips. The Fal Pro Air 2 can be set-up in less than a minute, allowing for quick shelter during unexpected weather. The Fal Pro Air 2 features an inner and outer tent for extra protection from the weather and a simple two-pole system. Pair the Fal Pro Air 2 with the Fal 2 Ground Sheet for a comfortable set-up."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/fal_pro_air_2_ssd-702_hero_01.jpg?v=1587493460",
+    "imageAlt": "Fal Pro. Air 2",
+    "sourceUrl": "https://www.snowpeak.com/products/fal-pro-air-2",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-07-03T14:47:48Z",
+    "status": "draft",
+    "published": false,
+    "price": 453.56,
+    "priceMin": 453.56,
+    "priceMax": 453.56
+  },
+  {
+    "id": "snow-peak-fal-pro-air-3",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Fal Pro. Air 3",
+    "modelEn": "Fal Pro. Air 3",
+    "description": "The Fal Pro Air 3 is a three-person tent for backcountry camping trips. The Fal Pro Air 3 can be set-up in less than a minute, allowing for quick shelter during unexpected weather. The Fal Pro Air 3 features an inner and outer tent for extra protection from the weather and a simple two pole system and sleeved pole fixtures. Pair the Fal Pro Air 3 with the Fal 3 Ground Sheet.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 2.06,
+      "weightDisplay": "~2.06 kg",
+      "capacity": "2-4 ppl",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "The Fal Pro Air 3 is a three-person tent for backcountry camping trips. The Fal Pro Air 3 can be set-up in less than a minute, allowing for quick shelter during unexpected weather. The Fal Pro Air 3 features an inner and outer tent for extra protection from the weather and a simple two pole system and sleeved pole fixtures. Pair the Fal Pro Air 3 with the Fal 3 Ground Sheet."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/fal_pro_air_3_ssd-703_hero_01.jpg?v=1587495422",
+    "imageAlt": "Fal Pro. Air 3",
+    "sourceUrl": "https://www.snowpeak.com/products/fal-pro-air-3",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-07-03T14:47:48Z",
+    "status": "draft",
+    "published": false,
+    "price": 529.16,
+    "priceMin": 529.16,
+    "priceMax": 529.16
   },
   {
     "id": "snow-peak-folding-chair-leg-cap-set",
@@ -438,7 +525,7 @@
     "imageAlt": "Folding Chair Leg Cap Set",
     "sourceUrl": "https://www.snowpeak.com/products/folding-chair-leg-cap-set",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 17.95,
     "priceMin": 17.95,
@@ -456,7 +543,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 16.8,
-      "weightDisplay": "约 16.8 kg",
+      "weightDisplay": "~16.8 kg",
       "structure": "Chairs"
     },
     "highlights": [
@@ -466,7 +553,7 @@
     "imageAlt": "Garden Bench",
     "sourceUrl": "https://www.snowpeak.com/products/gf-005",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 1295.95,
     "priceMin": 1295.95,
@@ -484,7 +571,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 40.82,
-      "weightDisplay": "约 40.82 kg",
+      "weightDisplay": "~40.82 kg",
       "structure": "Tables"
     },
     "highlights": [
@@ -494,7 +581,7 @@
     "imageAlt": "Garden Unit Table Set",
     "sourceUrl": "https://www.snowpeak.com/products/garden-unit-table-set",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 2799.95,
     "priceMin": 2799.95,
@@ -512,8 +599,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 3.17,
-      "weightDisplay": "约 3.17 kg",
-      "capacity": "1-2人",
+      "weightDisplay": "~3.17 kg",
+      "capacity": "1-2 ppl",
       "structure": "Chairs"
     },
     "highlights": [
@@ -523,7 +610,7 @@
     "imageAlt": "Gray Folding Bench",
     "sourceUrl": "https://www.snowpeak.com/products/folding-gray-bench",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 139.95,
     "priceMin": 139.95,
@@ -541,7 +628,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 4.02,
-      "weightDisplay": "约 4.02 kg",
+      "weightDisplay": "~4.02 kg",
       "structure": "Chairs"
     },
     "highlights": [
@@ -551,7 +638,7 @@
     "imageAlt": "Gray Folding Chair",
     "sourceUrl": "https://www.snowpeak.com/products/gray-folding-chair",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 149.95,
     "priceMin": 149.95,
@@ -568,7 +655,7 @@
     "description": "The HD Para Tarp is a three-pole tarp with a new innovative design. The tarp features an elevated front for easy entry, while the center section is optimal for seated gatherings. The structure of the tarp funnels rainwater toward the outer corners, protecting campers from the elements. The HD Para Tarp is comprised of waterproof fabric that also provides UV protection. Pair the tarp with the Red Lounge Set for a protected gathering experience. Please note: Wing Poles are not included and need to be purchased separately.",
     "currency": "USD",
     "specs": {
-      "capacity": "4-8人-shelter",
+      "capacity": "4-8 ppl-shelter",
       "structure": "Tarps"
     },
     "highlights": [
@@ -578,7 +665,7 @@
     "imageAlt": "HD Para Tarp",
     "sourceUrl": "https://www.snowpeak.com/products/hd-tarp-shield-mawe",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:51Z",
+    "scrapedAt": "2026-07-03T14:47:52Z",
     "status": "draft",
     "price": 293.97,
     "priceMin": 293.97,
@@ -595,8 +682,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 5.69,
-      "weightDisplay": "约 5.69 kg",
-      "capacity": "4-6人",
+      "weightDisplay": "~5.69 kg",
+      "capacity": "4-6 ppl",
       "structure": "Tarps"
     },
     "highlights": [
@@ -606,7 +693,7 @@
     "imageAlt": "HD Tarp Hexa Evo Pro. Ivory",
     "sourceUrl": "https://www.snowpeak.com/products/hd-tarp-hexa-evo-pro-ivory",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:51Z",
+    "scrapedAt": "2026-07-03T14:47:52Z",
     "status": "draft",
     "price": 549.95,
     "priceMin": 549.95,
@@ -623,8 +710,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 4.99,
-      "weightDisplay": "约 4.99 kg",
-      "capacity": "4-6人",
+      "weightDisplay": "~4.99 kg",
+      "capacity": "4-6 ppl",
       "structure": "Tarps"
     },
     "highlights": [
@@ -634,7 +721,7 @@
     "imageAlt": "HD Tarp Shield Hexa Evo Pro.",
     "sourceUrl": "https://www.snowpeak.com/products/hd-tarp-shield-hexa-evo-pro",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:51Z",
+    "scrapedAt": "2026-07-03T14:47:52Z",
     "status": "draft",
     "price": 499.95,
     "priceMin": 499.95,
@@ -651,7 +738,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 5.67,
-      "weightDisplay": "约 5.67 kg",
+      "weightDisplay": "~5.67 kg",
       "structure": "Tents"
     },
     "highlights": [
@@ -661,7 +748,7 @@
     "imageAlt": "Hexa Ease 1 in Ivory",
     "sourceUrl": "https://www.snowpeak.com/products/hexa-ease-1-ivory",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 299.97,
     "priceMin": 299.97,
@@ -678,8 +765,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.82,
-      "weightDisplay": "约 2.82 kg",
-      "capacity": "4-8人-shelter",
+      "weightDisplay": "~2.82 kg",
+      "capacity": "4-8 ppl-shelter",
       "structure": "Tarps"
     },
     "highlights": [
@@ -689,7 +776,7 @@
     "imageAlt": "Hexa Evo Takibi Inner Tarp",
     "sourceUrl": "https://www.snowpeak.com/products/takibi-hd-tarp-hexa-evo-pro-inner-roof",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:51Z",
+    "scrapedAt": "2026-07-03T14:47:52Z",
     "status": "draft",
     "price": 269.95,
     "priceMin": 269.95,
@@ -706,8 +793,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.92,
-      "weightDisplay": "约 2.92 kg",
-      "capacity": "2-4人-shelter",
+      "weightDisplay": "~2.92 kg",
+      "capacity": "2-4 ppl-shelter",
       "structure": "Tarps"
     },
     "highlights": [
@@ -717,7 +804,7 @@
     "imageAlt": "Hexa Tarp M",
     "sourceUrl": "https://www.snowpeak.com/products/hexa-tarp-m",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:49Z",
+    "scrapedAt": "2026-07-03T14:47:50Z",
     "status": "draft",
     "price": 257.56,
     "priceMin": 257.56,
@@ -734,8 +821,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 9.4,
-      "weightDisplay": "约 9.4 kg",
-      "capacity": "2-4人",
+      "weightDisplay": "~9.4 kg",
+      "capacity": "2-4 ppl",
       "structure": "Tarps"
     },
     "highlights": [
@@ -745,7 +832,7 @@
     "imageAlt": "Hexa Tarp Pro Set M",
     "sourceUrl": "https://www.snowpeak.com/products/hexa-tarp-pro-set-m",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:49Z",
+    "scrapedAt": "2026-07-03T14:47:50Z",
     "status": "draft",
     "price": 377.96,
     "priceMin": 377.96,
@@ -762,8 +849,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 9.53,
-      "weightDisplay": "约 9.53 kg",
-      "capacity": "4-6人",
+      "weightDisplay": "~9.53 kg",
+      "capacity": "4-6 ppl",
       "structure": "Tarps"
     },
     "highlights": [
@@ -773,7 +860,7 @@
     "imageAlt": "Hexa Tarp Set L",
     "sourceUrl": "https://www.snowpeak.com/products/copy-of-hd-hexa-tarp-pro-set-l",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:51Z",
+    "scrapedAt": "2026-07-03T14:47:52Z",
     "status": "draft",
     "price": 549.95,
     "priceMin": 549.95,
@@ -790,8 +877,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 9.4,
-      "weightDisplay": "约 9.4 kg",
-      "capacity": "2-4人",
+      "weightDisplay": "~9.4 kg",
+      "capacity": "2-4 ppl",
       "structure": "Tables"
     },
     "highlights": [
@@ -801,7 +888,7 @@
     "imageAlt": "IGT Slim",
     "sourceUrl": "https://www.snowpeak.com/products/igt-slim",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 449.95,
     "priceMin": 449.95,
@@ -819,7 +906,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.36,
-      "weightDisplay": "约 1.36 kg",
+      "weightDisplay": "~1.36 kg",
       "structure": "Tents"
     },
     "highlights": [
@@ -829,7 +916,7 @@
     "imageAlt": "Lago 1 in Ivory",
     "sourceUrl": "https://www.snowpeak.com/products/lago-1-ivory",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 227.46,
     "priceMin": 227.46,
@@ -846,8 +933,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 6.5,
-      "weightDisplay": "约 6.5 kg",
-      "capacity": "1-2人",
+      "weightDisplay": "~6.5 kg",
+      "capacity": "1-2 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -857,7 +944,7 @@
     "imageAlt": "Land Breeze Pro. 1",
     "sourceUrl": "https://www.snowpeak.com/products/land-breeze-pro-1",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 809.95,
     "priceMin": 809.95,
@@ -874,8 +961,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 9.76,
-      "weightDisplay": "约 9.76 kg",
-      "capacity": "2-4人-tent",
+      "weightDisplay": "~9.76 kg",
+      "capacity": "2-4 ppl-tent",
       "structure": "Tents"
     },
     "highlights": [
@@ -885,11 +972,40 @@
     "imageAlt": "Land Breeze Pro. 3",
     "sourceUrl": "https://www.snowpeak.com/products/land-breeze-pro-3",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 999.95,
     "priceMin": 999.95,
     "priceMax": 999.95
+  },
+  {
+    "id": "snow-peak-land-breeze-pro-4",
+    "brandId": "snow-peak",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Land Breeze Pro. 4",
+    "modelEn": "Land Breeze Pro. 4",
+    "description": "Part of the Land Breeze dome tent series, the Land Breeze Pro. 4 is constructed with advanced materials for increased performance. The largest in the series, this tent can comfortably accommodate 5-6 people. The Land Breeze Pro. 4 is wind-resistant and able to withstand year-round weather. The tent has a large front vestibule entry, wall pockets for storage and color-coordinated poles for a simplified set-up. The Land Breeze series features enhanced room temperature control due to mesh skylights with zippered closures, advanced panels and mud skirt design that encourage air flow. Pair the Land Breeze Pro. 4 with the Land Breeze Pro. 4 Ground Sheet and Land Breeze Pro. 4 Inner Mat for additional protection.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 13.28,
+      "weightDisplay": "~13.28 kg",
+      "capacity": "4-6 ppl",
+      "structure": "Tents"
+    },
+    "highlights": [
+      "Part of the Land Breeze dome tent series, the Land Breeze Pro. 4 is constructed with advanced materials for increased performance. The largest in the series, this tent can comfortably accommodate 5-6 people. The Land Breeze Pro. 4 is wind-resistant and able to withstand year-round weather. The tent has a large front vestibule entry, wall pockets for storage and color-coordinated poles for a simpli"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/products/land_breeze_pro_4_sd-644_hero_01.jpg?v=1599177612",
+    "imageAlt": "Land Breeze Pro. 4",
+    "sourceUrl": "https://www.snowpeak.com/products/land-breeze-pro-4",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-07-03T14:47:48Z",
+    "status": "draft",
+    "published": false,
+    "price": 1187.95,
+    "priceMin": 1187.95,
+    "priceMax": 1187.95
   },
   {
     "id": "snow-peak-land-lock",
@@ -902,8 +1018,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 26.31,
-      "weightDisplay": "约 26.31 kg",
-      "capacity": "2-4人",
+      "weightDisplay": "~26.31 kg",
+      "capacity": "2-4 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -913,7 +1029,7 @@
     "imageAlt": "Land Lock",
     "sourceUrl": "https://www.snowpeak.com/products/land-lock",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 1599.0,
     "priceMin": 1599.0,
@@ -930,8 +1046,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 26.31,
-      "weightDisplay": "约 26.31 kg",
-      "capacity": "2-4人-tent",
+      "weightDisplay": "~26.31 kg",
+      "capacity": "2-4 ppl-tent",
       "structure": "Tents"
     },
     "highlights": [
@@ -941,7 +1057,7 @@
     "imageAlt": "Land Lock Ivory",
     "sourceUrl": "https://www.snowpeak.com/products/land-lock-ivory",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 1599.0,
     "priceMin": 1599.0,
@@ -958,7 +1074,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 28.12,
-      "weightDisplay": "约 28.12 kg",
+      "weightDisplay": "~28.12 kg",
       "structure": "Camping Set"
     },
     "highlights": [
@@ -968,7 +1084,7 @@
     "imageAlt": "Land Lock Tent Set",
     "sourceUrl": "https://www.snowpeak.com/products/land-lock-tent-set",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 1699.0,
     "priceMin": 1699.0,
@@ -985,8 +1101,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 9.26,
-      "weightDisplay": "约 9.26 kg",
-      "capacity": "2-4人",
+      "weightDisplay": "~9.26 kg",
+      "capacity": "2-4 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -996,7 +1112,7 @@
     "imageAlt": "Land Nest Dome Medium",
     "sourceUrl": "https://www.snowpeak.com/products/landnest-dome-m",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 399.95,
     "priceMin": 399.95,
@@ -1013,8 +1129,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 8.16,
-      "weightDisplay": "约 8.16 kg",
-      "capacity": "1-2人",
+      "weightDisplay": "~8.16 kg",
+      "capacity": "1-2 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -1024,7 +1140,7 @@
     "imageAlt": "Land Nest Dome Small",
     "sourceUrl": "https://www.snowpeak.com/products/land-nest-dome-small",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 195.97,
     "priceMin": 195.97,
@@ -1041,8 +1157,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 17.15,
-      "weightDisplay": "约 17.15 kg",
-      "capacity": "2-4人",
+      "weightDisplay": "~17.15 kg",
+      "capacity": "2-4 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -1052,7 +1168,7 @@
     "imageAlt": "Land Nest Medium Tent Tarp Set",
     "sourceUrl": "https://www.snowpeak.com/products/landnest-m-tent-tarp-set",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 549.95,
     "priceMin": 549.95,
@@ -1069,8 +1185,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 17.4,
-      "weightDisplay": "约 17.4 kg",
-      "capacity": "2-4人",
+      "weightDisplay": "~17.4 kg",
+      "capacity": "2-4 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -1080,7 +1196,7 @@
     "imageAlt": "Land Nest Shelter",
     "sourceUrl": "https://www.snowpeak.com/products/land-nest-shelter",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:49Z",
+    "scrapedAt": "2026-07-03T14:47:50Z",
     "status": "draft",
     "price": 749.95,
     "priceMin": 749.95,
@@ -1097,8 +1213,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 17.4,
-      "weightDisplay": "约 17.4 kg",
-      "capacity": "2-4人",
+      "weightDisplay": "~17.4 kg",
+      "capacity": "2-4 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -1108,7 +1224,7 @@
     "imageAlt": "Land Nest Shelter in Ivory",
     "sourceUrl": "https://www.snowpeak.com/products/land-nest-shelter-in-ivory",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:49Z",
+    "scrapedAt": "2026-07-03T14:47:50Z",
     "status": "draft",
     "price": 999.95,
     "priceMin": 999.95,
@@ -1125,8 +1241,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 15.42,
-      "weightDisplay": "约 15.42 kg",
-      "capacity": "1-2人",
+      "weightDisplay": "~15.42 kg",
+      "capacity": "1-2 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -1136,7 +1252,7 @@
     "imageAlt": "Land Nest Small Tent Tarp Set",
     "sourceUrl": "https://www.snowpeak.com/products/land-nest-small-tent-tarp-set",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 279.97,
     "priceMin": 279.97,
@@ -1153,8 +1269,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 7.54,
-      "weightDisplay": "约 7.54 kg",
-      "capacity": "2-4人-shelter",
+      "weightDisplay": "~7.54 kg",
+      "capacity": "2-4 ppl-shelter",
       "structure": "Tarps"
     },
     "highlights": [
@@ -1164,7 +1280,7 @@
     "imageAlt": "Land Nest Tarp Set",
     "sourceUrl": "https://www.snowpeak.com/products/landnest-tarp",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:49Z",
+    "scrapedAt": "2026-07-03T14:47:50Z",
     "status": "draft",
     "price": 249.95,
     "priceMin": 249.95,
@@ -1181,8 +1297,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.0,
-      "weightDisplay": "约 0.0 kg",
-      "capacity": "4-8人-shelter",
+      "weightDisplay": "~0.0 kg",
+      "capacity": "4-8 ppl-shelter",
       "structure": "Tarps"
     },
     "highlights": [
@@ -1192,7 +1308,7 @@
     "imageAlt": "Land Station",
     "sourceUrl": "https://www.snowpeak.com/products/land-station",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:51Z",
+    "scrapedAt": "2026-07-03T14:47:52Z",
     "status": "draft",
     "price": 678.96,
     "priceMin": 678.96,
@@ -1208,7 +1324,7 @@
     "description": "Part of the Snow Peak Ivory Series, the Land Station is a dynamic tarp designed to accommodate up to eight people. With a variety of set-up options, the Land Station Ivory is an eye-catching centerpiece in camp, whether for sleeping or gathering. The Land Station Ivory is designed to protect from the elements like wind and rain and is made from a fabric that shelters from the sun, while still letting in light. Please note: Wing Poles are not included. Pair the Land Station Ivory with the Tarp Pole 210cm Aluminum and the Wing Pole 140cm Aluminum for a complete setup.",
     "currency": "USD",
     "specs": {
-      "capacity": "4-8人-shelter",
+      "capacity": "4-8 ppl-shelter",
       "structure": "Tarps"
     },
     "highlights": [
@@ -1218,11 +1334,40 @@
     "imageAlt": "Land Station L Ivory",
     "sourceUrl": "https://www.snowpeak.com/products/lands-station",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:51Z",
+    "scrapedAt": "2026-07-03T14:47:52Z",
     "status": "draft",
     "price": 831.56,
     "priceMin": 831.56,
     "priceMax": 831.56
+  },
+  {
+    "id": "snow-peak-lid-for-shelf-container-25-in-black",
+    "brandId": "snow-peak",
+    "category": "table",
+    "subcategory": "Tables",
+    "model": "Lid for Shelf Container 25 in Black",
+    "modelEn": "Lid for Shelf Container 25 in Black",
+    "description": "The Lid for Stacking Shelf Container 25 in Black is a multi-use camp storage accessory. It can be used on its own as a small table or shelf, or with the Stacking Shelf Container 25 as a lid. The surface of the lid includes notches to accommodate another Lid, or Stacking Shelf Container 25 stacked on top. Festival products are limited in quantity and will not be restocked.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.0,
+      "weightDisplay": "~0.0 kg",
+      "structure": "Tables"
+    },
+    "highlights": [
+      "The Lid for Stacking Shelf Container 25 in Black is a multi-use camp storage accessory. It can be used on its own as a small table or shelf, or with the Stacking Shelf Container 25 as a lid. The surface of the lid includes notches to accommodate another Lid, or Stacking Shelf Container 25 stacked on top. Festival products are limited in quantity and will not be restocked."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0330/3299/4860/files/FES-045-BK_2601-SP_M4_0093_path.jpg?v=1780952662",
+    "imageAlt": "Lid for Shelf Container 25 in Black",
+    "sourceUrl": "https://www.snowpeak.com/products/lid-for-shelf-container-25-in-black",
+    "sourceSite": "snowpeak.com",
+    "scrapedAt": "2026-07-03T14:47:59Z",
+    "status": "draft",
+    "published": false,
+    "price": 99.95,
+    "priceMin": 99.95,
+    "priceMax": 99.95,
+    "inSummaryTable": false
   },
   {
     "id": "snow-peak-living-shell-long-pro",
@@ -1235,8 +1380,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 20.8,
-      "weightDisplay": "约 20.8 kg",
-      "capacity": "4-6人",
+      "weightDisplay": "~20.8 kg",
+      "capacity": "4-6 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -1246,7 +1391,7 @@
     "imageAlt": "Living Shell Long Pro.",
     "sourceUrl": "https://www.snowpeak.com/products/living-shell-long-pro",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:51Z",
+    "scrapedAt": "2026-07-03T14:47:52Z",
     "status": "draft",
     "price": 1329.96,
     "priceMin": 1329.96,
@@ -1263,8 +1408,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 22.0,
-      "weightDisplay": "约 22.0 kg",
-      "capacity": "4-6人",
+      "weightDisplay": "~22.0 kg",
+      "capacity": "4-6 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -1274,7 +1419,7 @@
     "imageAlt": "Living Shell Long Pro. in Ivory",
     "sourceUrl": "https://www.snowpeak.com/products/living-shell-pro-series-ivory",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:51Z",
+    "scrapedAt": "2026-07-03T14:47:52Z",
     "status": "draft",
     "price": 1399.96,
     "priceMin": 1399.96,
@@ -1291,7 +1436,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 6.8,
-      "weightDisplay": "约 6.8 kg",
+      "weightDisplay": "~6.8 kg",
       "structure": "Chairs"
     },
     "highlights": [
@@ -1301,7 +1446,7 @@
     "imageAlt": "Long Bamboo Folding Shelf Light",
     "sourceUrl": "https://www.snowpeak.com/products/long-bamboo-folding-shelf-light",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 344.95,
     "priceMin": 344.95,
@@ -1319,7 +1464,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.7,
-      "weightDisplay": "约 0.7 kg",
+      "weightDisplay": "~0.7 kg",
       "structure": "Chairs"
     },
     "highlights": [
@@ -1329,7 +1474,7 @@
     "imageAlt": "Lounge Cushion",
     "sourceUrl": "https://www.snowpeak.com/products/lounge-cushion",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 69.95,
     "priceMin": 69.95,
@@ -1347,7 +1492,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 4.54,
-      "weightDisplay": "约 4.54 kg",
+      "weightDisplay": "~4.54 kg",
       "structure": "Chairs"
     },
     "highlights": [
@@ -1357,7 +1502,7 @@
     "imageAlt": "Low Beach Chair",
     "sourceUrl": "https://www.snowpeak.com/products/low-beach-chair",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 149.95,
     "priceMin": 149.95,
@@ -1383,7 +1528,7 @@
     "imageAlt": "Low Beach Chair Leg Cap Set",
     "sourceUrl": "https://www.snowpeak.com/products/low-beach-chair-leg-cap-set",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 12.95,
     "priceMin": 12.95,
@@ -1401,7 +1546,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.08,
-      "weightDisplay": "约 0.08 kg",
+      "weightDisplay": "~0.08 kg",
       "structure": "Cups & Mugs"
     },
     "highlights": [
@@ -1411,7 +1556,7 @@
     "imageAlt": "Low Chair Cup Holder",
     "sourceUrl": "https://www.snowpeak.com/products/low-chair-cup-holder",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 37.95,
     "priceMin": 37.95,
@@ -1429,7 +1574,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.27,
-      "weightDisplay": "约 0.27 kg",
+      "weightDisplay": "~0.27 kg",
       "structure": "Chairs"
     },
     "highlights": [
@@ -1439,7 +1584,7 @@
     "imageAlt": "Low Chair Cushion Plus",
     "sourceUrl": "https://www.snowpeak.com/products/low-chair-cushion-plus",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 40.95,
     "priceMin": 40.95,
@@ -1457,7 +1602,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 4.22,
-      "weightDisplay": "约 4.22 kg",
+      "weightDisplay": "~4.22 kg",
       "structure": "Chairs"
     },
     "highlights": [
@@ -1467,7 +1612,7 @@
     "imageAlt": "Luxury Low Beach Chair",
     "sourceUrl": "https://www.snowpeak.com/products/gray-low-beach-chair-short",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 249.95,
     "priceMin": 249.95,
@@ -1485,7 +1630,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.72,
-      "weightDisplay": "约 2.72 kg",
+      "weightDisplay": "~2.72 kg",
       "structure": "Chairs"
     },
     "highlights": [
@@ -1495,7 +1640,7 @@
     "imageAlt": "Mesh Folding Bench",
     "sourceUrl": "https://www.snowpeak.com/products/mesh-folding-bench",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 139.95,
     "priceMin": 139.95,
@@ -1513,7 +1658,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 3.63,
-      "weightDisplay": "约 3.63 kg",
+      "weightDisplay": "~3.63 kg",
       "structure": "Chairs"
     },
     "highlights": [
@@ -1523,7 +1668,7 @@
     "imageAlt": "Mesh Folding Chair",
     "sourceUrl": "https://www.snowpeak.com/products/mesh-folding-chair",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 149.95,
     "priceMin": 149.95,
@@ -1541,8 +1686,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.94,
-      "weightDisplay": "约 2.94 kg",
-      "capacity": "1-2人",
+      "weightDisplay": "~2.94 kg",
+      "capacity": "1-2 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -1552,7 +1697,7 @@
     "imageAlt": "Minute Dome Pro. Air 1",
     "sourceUrl": "https://www.snowpeak.com/products/minute-dome-pro-air-1",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 605.46,
     "priceMin": 605.46,
@@ -1569,7 +1714,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.8,
-      "weightDisplay": "约 0.8 kg",
+      "weightDisplay": "~0.8 kg",
       "structure": "Cots & Sleeping",
       "bagType": "睡袋系统"
     },
@@ -1580,7 +1725,7 @@
     "imageAlt": "Ofuton Warm Adapter",
     "sourceUrl": "https://www.snowpeak.com/products/ofuton-warm-adapter",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:52Z",
+    "scrapedAt": "2026-07-03T14:47:54Z",
     "status": "draft",
     "price": 59.95,
     "priceMin": 59.95,
@@ -1597,7 +1742,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 0.41,
-      "weightDisplay": "约 0.41 kg",
+      "weightDisplay": "~0.41 kg",
       "structure": "Tables"
     },
     "highlights": [
@@ -1607,7 +1752,7 @@
     "imageAlt": "Ozen Solo Table",
     "sourceUrl": "https://www.snowpeak.com/products/ozen-solo-table",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 64.95,
     "priceMin": 64.95,
@@ -1625,7 +1770,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.84,
-      "weightDisplay": "约 1.84 kg",
+      "weightDisplay": "~1.84 kg",
       "structure": "Tents"
     },
     "highlights": [
@@ -1635,7 +1780,7 @@
     "imageAlt": "Penta Ease in Ivory",
     "sourceUrl": "https://www.snowpeak.com/products/penta-ease-inner-tent-ivory",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 227.46,
     "priceMin": 227.46,
@@ -1652,8 +1797,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.06,
-      "weightDisplay": "约 1.06 kg",
-      "capacity": "1-2人",
+      "weightDisplay": "~1.06 kg",
+      "capacity": "1-2 ppl",
       "structure": "Tarps"
     },
     "highlights": [
@@ -1663,7 +1808,7 @@
     "imageAlt": "Penta Tarp",
     "sourceUrl": "https://www.snowpeak.com/products/stp-381",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:49Z",
+    "scrapedAt": "2026-07-03T14:47:50Z",
     "status": "draft",
     "price": 104.96,
     "priceMin": 104.96,
@@ -1680,8 +1825,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 1.2,
-      "weightDisplay": "约 1.2 kg",
-      "capacity": "2-4人-shelter",
+      "weightDisplay": "~1.2 kg",
+      "capacity": "2-4 ppl-shelter",
       "structure": "Tarps"
     },
     "highlights": [
@@ -1691,7 +1836,7 @@
     "imageAlt": "Penta Tarp in Ivory",
     "sourceUrl": "https://www.snowpeak.com/products/penta-tarp-ivory",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:49Z",
+    "scrapedAt": "2026-07-03T14:47:50Z",
     "status": "draft",
     "price": 104.96,
     "priceMin": 104.96,
@@ -1708,7 +1853,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 15.42,
-      "weightDisplay": "约 15.42 kg",
+      "weightDisplay": "~15.42 kg",
       "structure": "Chairs"
     },
     "highlights": [
@@ -1718,7 +1863,7 @@
     "imageAlt": "Reclining Chair Wide",
     "sourceUrl": "https://www.snowpeak.com/products/reclining-chair-wide",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 499.95,
     "priceMin": 499.95,
@@ -1736,8 +1881,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 4.94,
-      "weightDisplay": "约 4.94 kg",
-      "capacity": "4-8人-shelter",
+      "weightDisplay": "~4.94 kg",
+      "capacity": "4-8 ppl-shelter",
       "structure": "Tarps"
     },
     "highlights": [
@@ -1747,7 +1892,7 @@
     "imageAlt": "Recta Tarp L",
     "sourceUrl": "https://www.snowpeak.com/products/recta-tarp-l",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:51Z",
+    "scrapedAt": "2026-07-03T14:47:52Z",
     "status": "draft",
     "price": 325.46,
     "priceMin": 325.46,
@@ -1764,8 +1909,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 13.61,
-      "weightDisplay": "约 13.61 kg",
-      "capacity": "4-8人-shelter",
+      "weightDisplay": "~13.61 kg",
+      "capacity": "4-8 ppl-shelter",
       "structure": "Tarps"
     },
     "highlights": [
@@ -1775,7 +1920,7 @@
     "imageAlt": "Recta Tarp L Set",
     "sourceUrl": "https://www.snowpeak.com/products/hd-trap-shield-recta-l-proset",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:51Z",
+    "scrapedAt": "2026-07-03T14:47:52Z",
     "status": "draft",
     "price": 529.16,
     "priceMin": 529.16,
@@ -1792,8 +1937,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 3.12,
-      "weightDisplay": "约 3.12 kg",
-      "capacity": "4-6人",
+      "weightDisplay": "~3.12 kg",
+      "capacity": "4-6 ppl",
       "structure": "Tarps"
     },
     "highlights": [
@@ -1803,7 +1948,7 @@
     "imageAlt": "Recta Tarp M",
     "sourceUrl": "https://www.snowpeak.com/products/recta-tarp-m",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:51Z",
+    "scrapedAt": "2026-07-03T14:47:52Z",
     "status": "draft",
     "price": 264.56,
     "priceMin": 264.56,
@@ -1820,8 +1965,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 11.4,
-      "weightDisplay": "约 11.4 kg",
-      "capacity": "4-6人",
+      "weightDisplay": "~11.4 kg",
+      "capacity": "4-6 ppl",
       "structure": "Tarps"
     },
     "highlights": [
@@ -1831,7 +1976,7 @@
     "imageAlt": "Recta Tarp M Set",
     "sourceUrl": "https://www.snowpeak.com/products/hd-tarp-shield-recta-m-pro",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:51Z",
+    "scrapedAt": "2026-07-03T14:47:52Z",
     "status": "draft",
     "price": 489.96,
     "priceMin": 489.96,
@@ -1848,7 +1993,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 4.5,
-      "weightDisplay": "约 4.5 kg",
+      "weightDisplay": "~4.5 kg",
       "structure": "Chairs"
     },
     "highlights": [
@@ -1858,7 +2003,7 @@
     "imageAlt": "Red Folding Chair",
     "sourceUrl": "https://www.snowpeak.com/products/red-folding-camp-chair",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 149.95,
     "priceMin": 149.95,
@@ -1876,7 +2021,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 8.8,
-      "weightDisplay": "约 8.8 kg",
+      "weightDisplay": "~8.8 kg",
       "structure": "Chairs"
     },
     "highlights": [
@@ -1886,7 +2031,7 @@
     "imageAlt": "Red Lounge Set",
     "sourceUrl": "https://www.snowpeak.com/products/lounge-bundle",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 368.95,
     "priceMin": 368.95,
@@ -1904,7 +2049,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.13,
-      "weightDisplay": "约 2.13 kg",
+      "weightDisplay": "~2.13 kg",
       "structure": "Tables"
     },
     "highlights": [
@@ -1914,7 +2059,7 @@
     "imageAlt": "Renewed Bamboo My Table",
     "sourceUrl": "https://www.snowpeak.com/products/bamboo-my-table-lv-034tr",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 149.95,
     "priceMin": 149.95,
@@ -1932,7 +2077,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 5.9,
-      "weightDisplay": "约 5.9 kg",
+      "weightDisplay": "~5.9 kg",
       "structure": "Tables"
     },
     "highlights": [
@@ -1942,7 +2087,7 @@
     "imageAlt": "Renewed Entry IGT",
     "sourceUrl": "https://www.snowpeak.com/products/entry-igt-table",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 199.95,
     "priceMin": 199.95,
@@ -1960,7 +2105,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 6.12,
-      "weightDisplay": "约 6.12 kg",
+      "weightDisplay": "~6.12 kg",
       "structure": "Iron Grill Table"
     },
     "highlights": [
@@ -1970,7 +2115,7 @@
     "imageAlt": "Renewed Entry IGT in Black",
     "sourceUrl": "https://www.snowpeak.com/products/entry-igt-black",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 284.95,
     "priceMin": 284.95,
@@ -1988,7 +2133,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 6.66,
-      "weightDisplay": "约 6.66 kg",
+      "weightDisplay": "~6.66 kg",
       "structure": "Tables"
     },
     "highlights": [
@@ -1998,7 +2143,7 @@
     "imageAlt": "Renewed Single Action Low Table",
     "sourceUrl": "https://www.snowpeak.com/products/single-action-low-table-lv-100tr",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 249.95,
     "priceMin": 249.95,
@@ -2016,8 +2161,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 14.4,
-      "weightDisplay": "约 14.4 kg",
-      "capacity": "2-4人",
+      "weightDisplay": "~14.4 kg",
+      "capacity": "2-4 ppl",
       "structure": "Tables"
     },
     "highlights": [
@@ -2027,7 +2172,7 @@
     "imageAlt": "Renewed Single Action Table Large",
     "sourceUrl": "https://www.snowpeak.com/products/single-action-table-large-1",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 449.95,
     "priceMin": 449.95,
@@ -2045,8 +2190,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 4.08,
-      "weightDisplay": "约 4.08 kg",
-      "capacity": "2-4人",
+      "weightDisplay": "~4.08 kg",
+      "capacity": "2-4 ppl",
       "structure": "Tables"
     },
     "highlights": [
@@ -2056,7 +2201,7 @@
     "imageAlt": "Renewed Single Action Table Low M",
     "sourceUrl": "https://www.snowpeak.com/products/single-action-table-low-m-lv-071tr",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 215.95,
     "priceMin": 215.95,
@@ -2074,7 +2219,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 11.5,
-      "weightDisplay": "约 11.5 kg",
+      "weightDisplay": "~11.5 kg",
       "structure": "Tables"
     },
     "highlights": [
@@ -2084,7 +2229,7 @@
     "imageAlt": "Renewed Single Action Table Medium",
     "sourceUrl": "https://www.snowpeak.com/products/single-action-table-medium-lv-010tr",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 349.95,
     "priceMin": 349.95,
@@ -2102,7 +2247,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 4.12,
-      "weightDisplay": "约 4.12 kg",
+      "weightDisplay": "~4.12 kg",
       "structure": "Chairs"
     },
     "highlights": [
@@ -2112,7 +2257,7 @@
     "imageAlt": "Renewed Take! Bamboo Chair Long",
     "sourceUrl": "https://www.snowpeak.com/products/take-bamboo-chair-long-lv-086",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 169.95,
     "priceMin": 169.95,
@@ -2130,7 +2275,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.77,
-      "weightDisplay": "约 2.77 kg",
+      "weightDisplay": "~2.77 kg",
       "structure": "Tents"
     },
     "highlights": [
@@ -2140,7 +2285,7 @@
     "imageAlt": "Shelter Inner Duo",
     "sourceUrl": "https://www.snowpeak.com/products/shelter-inner-duo",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 299.95,
     "priceMin": 299.95,
@@ -2157,7 +2302,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 11.34,
-      "weightDisplay": "约 11.34 kg",
+      "weightDisplay": "~11.34 kg",
       "structure": "Tables"
     },
     "highlights": [
@@ -2167,7 +2312,7 @@
     "imageAlt": "Single Action Rack",
     "sourceUrl": "https://www.snowpeak.com/products/single-action-rack",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 647.95,
     "priceMin": 647.95,
@@ -2185,7 +2330,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 9.53,
-      "weightDisplay": "约 9.53 kg",
+      "weightDisplay": "~9.53 kg",
       "structure": "Tables"
     },
     "highlights": [
@@ -2195,7 +2340,7 @@
     "imageAlt": "Single Action Table Large Light",
     "sourceUrl": "https://www.snowpeak.com/products/single-action-table-long-light",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 599.95,
     "priceMin": 599.95,
@@ -2213,7 +2358,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 4.99,
-      "weightDisplay": "约 4.99 kg",
+      "weightDisplay": "~4.99 kg",
       "structure": "Tables"
     },
     "highlights": [
@@ -2223,7 +2368,7 @@
     "imageAlt": "Single Action Table Low Light",
     "sourceUrl": "https://www.snowpeak.com/products/single-action-low-table-light",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 399.95,
     "priceMin": 399.95,
@@ -2241,7 +2386,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 8.16,
-      "weightDisplay": "约 8.16 kg",
+      "weightDisplay": "~8.16 kg",
       "structure": "Tables"
     },
     "highlights": [
@@ -2251,7 +2396,7 @@
     "imageAlt": "Single Action Table Medium Light",
     "sourceUrl": "https://www.snowpeak.com/products/single-action-table-light",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 499.95,
     "priceMin": 499.95,
@@ -2269,7 +2414,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.16,
-      "weightDisplay": "约 2.16 kg",
+      "weightDisplay": "~2.16 kg",
       "structure": "Cots & Sleeping",
       "fillType": "化纤棉",
       "bagType": "睡袋系统"
@@ -2281,7 +2426,7 @@
     "imageAlt": "System Ofuton & Slim Mat",
     "sourceUrl": "https://www.snowpeak.com/products/system-ofuton-hf-slim-mat-plus",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:52Z",
+    "scrapedAt": "2026-07-03T14:47:54Z",
     "status": "draft",
     "price": 199.95,
     "priceMin": 199.95,
@@ -2298,7 +2443,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 2.38,
-      "weightDisplay": "约 2.38 kg",
+      "weightDisplay": "~2.38 kg",
       "structure": "Cots & Sleeping",
       "fillType": "化纤棉",
       "bagType": "睡袋系统"
@@ -2310,7 +2455,7 @@
     "imageAlt": "System Ofuton & Wide Mat",
     "sourceUrl": "https://www.snowpeak.com/products/system-ofuton-hf-mat-plus",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:52Z",
+    "scrapedAt": "2026-07-03T14:47:54Z",
     "status": "draft",
     "price": 209.95,
     "priceMin": 209.95,
@@ -2327,7 +2472,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 3.48,
-      "weightDisplay": "约 3.48 kg",
+      "weightDisplay": "~3.48 kg",
       "structure": "Chairs"
     },
     "highlights": [
@@ -2337,7 +2482,7 @@
     "imageAlt": "Take! Renewed Bamboo Chair",
     "sourceUrl": "https://www.snowpeak.com/products/take-bamboo-chair-short-lv-085",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:54Z",
+    "scrapedAt": "2026-07-03T14:48:05Z",
     "status": "draft",
     "price": 149.95,
     "priceMin": 149.95,
@@ -2355,7 +2500,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 51.71,
-      "weightDisplay": "约 51.71 kg",
+      "weightDisplay": "~51.71 kg",
       "structure": "Camping Set"
     },
     "highlights": [
@@ -2365,7 +2510,7 @@
     "imageAlt": "Takibi Garden Table & Grill Set",
     "sourceUrl": "https://www.snowpeak.com/products/takibi-garden-table-grill-set",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 1249.95,
     "priceMin": 1249.95,
@@ -2383,7 +2528,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 61.23,
-      "weightDisplay": "约 61.23 kg",
+      "weightDisplay": "~61.23 kg",
       "structure": "Camping Set"
     },
     "highlights": [
@@ -2393,7 +2538,7 @@
     "imageAlt": "Takibi Garden Table Set XL",
     "sourceUrl": "https://www.snowpeak.com/products/takibi-garden-table-set-xl",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 1549.95,
     "priceMin": 1549.95,
@@ -2411,7 +2556,7 @@
     "currency": "USD",
     "specs": {
       "weightKg": 3.24,
-      "weightDisplay": "约 3.24 kg",
+      "weightDisplay": "~3.24 kg",
       "structure": "Tables"
     },
     "highlights": [
@@ -2421,7 +2566,7 @@
     "imageAlt": "Takibi My Table",
     "sourceUrl": "https://www.snowpeak.com/products/stainless-steel-my-table",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:53Z",
+    "scrapedAt": "2026-07-03T14:47:59Z",
     "status": "draft",
     "price": 199.95,
     "priceMin": 199.95,
@@ -2439,8 +2584,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 9.32,
-      "weightDisplay": "约 9.32 kg",
-      "capacity": "2-4人-shelter",
+      "weightDisplay": "~9.32 kg",
+      "capacity": "2-4 ppl-shelter",
       "structure": "Tarps"
     },
     "highlights": [
@@ -2450,7 +2595,7 @@
     "imageAlt": "Takibi Tarp Hexa Set M",
     "sourceUrl": "https://www.snowpeak.com/products/takibi-hexa-set",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:49Z",
+    "scrapedAt": "2026-07-03T14:47:50Z",
     "status": "draft",
     "price": 549.95,
     "priceMin": 549.95,
@@ -2467,8 +2612,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 9.18,
-      "weightDisplay": "约 9.18 kg",
-      "capacity": "4-8人-shelter",
+      "weightDisplay": "~9.18 kg",
+      "capacity": "4-8 ppl-shelter",
       "structure": "Tarps"
     },
     "highlights": [
@@ -2478,7 +2623,7 @@
     "imageAlt": "Takibi Tarp Octa",
     "sourceUrl": "https://www.snowpeak.com/products/takibi-tarp-octa",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:51Z",
+    "scrapedAt": "2026-07-03T14:47:52Z",
     "status": "draft",
     "price": 777.95,
     "priceMin": 777.95,
@@ -2494,7 +2639,7 @@
     "description": "The Toya 2 is a ground canopy best for park picnics and backyards. The padded groundsheet offers water-resistant protection from damp grass. It features a fly sheet, frame, and groundsheet. Pair the Toya 2 with the Ground Panel Chair for a comfortable set-up. Please note: the Toya 2 is not suitable for overnight camping or during inclement weather.",
     "currency": "USD",
     "specs": {
-      "capacity": "1-2人",
+      "capacity": "1-2 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -2504,7 +2649,7 @@
     "imageAlt": "Toya 2",
     "sourceUrl": "https://www.snowpeak.com/products/toya-2",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 236.97,
     "priceMin": 236.97,
@@ -2521,8 +2666,8 @@
     "currency": "USD",
     "specs": {
       "weightKg": 9.07,
-      "weightDisplay": "约 9.07 kg",
-      "capacity": "4-6人",
+      "weightDisplay": "~9.07 kg",
+      "capacity": "4-6 ppl",
       "structure": "Tents"
     },
     "highlights": [
@@ -2532,7 +2677,7 @@
     "imageAlt": "Vault in Ivory",
     "sourceUrl": "https://www.snowpeak.com/products/vault-ivory",
     "sourceSite": "snowpeak.com",
-    "scrapedAt": "2026-06-05T14:34:48Z",
+    "scrapedAt": "2026-07-03T14:47:48Z",
     "status": "draft",
     "price": 230.96,
     "priceMin": 230.96,

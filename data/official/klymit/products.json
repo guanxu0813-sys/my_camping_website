@@ -1,0 +1,436 @@
+[
+  {
+    "id": "klymit-double-v-sleeping-pad",
+    "brandId": "klymit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Double V™ Sleeping Pad",
+    "modelEn": "Double V™ Sleeping Pad",
+    "description": "The Double V™ is an ideal pad for backpackers and campers looking for a backcountry bed for two. The body-mapped V chamber design limits air movement to help maintain insulating performance, maximize comfort, and keep your tossing and turning from ruining your partner’s sleep. It’s sized to easily fit in a two-person tent, but rugged enough to sleep on the ground under the stars.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.04,
+      "weightDisplay": "~1.04 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "The Double V™ is an ideal pad for backpackers and campers looking for a backcountry bed for two. The body-mapped V chamber design limits air movement to help maintain insulating performance, maximize comfort, and keep your tossing and turning from ruining your partner’s sleep. It’s sized to easily fit in a two-person tent, but rugged enough to sleep on the ground under the stars."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0084/4854/0762/products/Klymit_DoubleV_06DVBL01E_WhiteBackground_2000x2000_32c377e5-3de9-4708-9895-968712649564.jpg?v=1579288059",
+    "imageAlt": "Double V™ Sleeping Pad",
+    "sourceUrl": "https://klymit.com/products/double-v-sleeping-pad",
+    "sourceSite": "klymit.com",
+    "scrapedAt": "2026-07-03T14:49:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 111.99,
+    "priceMin": 111.99,
+    "priceMax": 111.99
+  },
+  {
+    "id": "klymit-insulated-hammock-v-sleeping-pad",
+    "brandId": "klymit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Insulated Hammock V™ Sleeping Pad",
+    "modelEn": "Insulated Hammock V™ Sleeping Pad",
+    "description": "Klymit’s signature body-mapping technology and strategically placed non-slip zones hold the Insulated Hammock V™ pad in place while you sleep. The form fitting design wraps the body to create a barrier that prevents cold from creeping in from the bottom or sides and the Klymalite™ insulation separates the top and bottom halves of the pad, isolating the cold air on the bottom while keeping the warm air next to your body. Lightweight and compact, the Insulated Hammock V is easy to pack and inflates faster than you can hang your hammock. *Hammock not included. *",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.95,
+      "weightDisplay": "~0.95 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "Klymit’s signature body-mapping technology and strategically placed non-slip zones hold the Insulated Hammock V™ pad in place while you sleep. The form fitting design wraps the body to create a barrier that prevents cold from creeping in from the bottom or sides and the Klymalite™ insulation separates the top and bottom halves of the pad, isolating the cold air on the bottom while keeping the warm"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0084/4854/0762/products/Klymit_InsulatedHammockV_06IHRD01D_Front_v2_2000x2000_eead7ed3-83e4-40da-b805-354a57277632.jpg?v=1579036056",
+    "imageAlt": "Insulated Hammock V™ Sleeping Pad",
+    "sourceUrl": "https://klymit.com/products/insulated-hammock-v-sleeping-pad",
+    "sourceSite": "klymit.com",
+    "scrapedAt": "2026-07-03T14:49:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 99.99,
+    "priceMin": 99.99,
+    "priceMax": 99.99
+  },
+  {
+    "id": "klymit-insulated-klymaloft-sleeping-pad",
+    "brandId": "klymit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Insulated Klymaloft™ Peak Sleeping Pads",
+    "modelEn": "Insulated Klymaloft™ Peak Sleeping Pads",
+    "description": "The Insulated Klymaloft™ Peak takes everything you love about the original and adds serious four-season performance with an impressive ASTM R-Value. Designed for ultimate sleep comfort, it combines a plush foam topper that contours to your body and relieves pressure points with supportive I-beam air chambers that provide stability and loft.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.45,
+      "weightDisplay": "~1.45 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "The Insulated Klymaloft™ Peak takes everything you love about the original and adds serious four-season performance with an impressive ASTM R-Value. Designed for ultimate sleep comfort, it combines a plush foam topper that contours to your body and relieves pressure points with supportive I-beam air chambers that provide stability and loft."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0084/4854/0762/files/1000-RegMain-InsulatedKlymaloft.jpg?v=1746658232",
+    "imageAlt": "Insulated Klymaloft™ Peak Sleeping Pads",
+    "sourceUrl": "https://klymit.com/products/insulated-klymaloft-sleeping-pad",
+    "sourceSite": "klymit.com",
+    "scrapedAt": "2026-07-03T14:49:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 189.95,
+    "priceMin": 189.95,
+    "priceMax": 299.95
+  },
+  {
+    "id": "klymit-insulated-static-v-lite-eco-sleeping-pad",
+    "brandId": "klymit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Insulated Static V Lite Eco™ Sleeping Pad",
+    "modelEn": "Insulated Static V Lite Eco™ Sleeping Pad",
+    "description": "The Insulated Static V Lite Eco™ is the ultimate lightweight sleeping pad for four-season backpacking. This pad is designed for comfort and performance, featuring Klymit’s patented Body Mapping Technology and V-Chamber design. The V-chambers cradle your body, while integrated side rails keep you centered through the night, preventing unwanted air movement as you toss and turn. Ideal for eco-conscious adventurers, the Insulated Static V Lite Eco™ is packable, durable, and built for lightweight exploration.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.91,
+      "weightDisplay": "~0.91 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "The Insulated Static V Lite Eco™ is the ultimate lightweight sleeping pad for four-season backpacking. This pad is designed for comfort and performance, featuring Klymit’s patented Body Mapping Technology and V-Chamber design. The V-chambers cradle your body, while integrated side rails keep you centered through the night, preventing unwanted air movement as you toss and turn. Ideal for eco-consci"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0084/4854/0762/files/Klymit_InsulatedStaticVLiteEco_06I2OR02C_Front_Deep_v1_2000x2000_91c33614-5d22-43ab-9feb-33ae2ecc69d4.jpg?v=1746657787",
+    "imageAlt": "Insulated Static V Lite Eco™ Sleeping Pad",
+    "sourceUrl": "https://klymit.com/products/insulated-static-v-lite-eco-sleeping-pad",
+    "sourceSite": "klymit.com",
+    "scrapedAt": "2026-07-03T14:49:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 71.99,
+    "priceMin": 71.99,
+    "priceMax": 71.99
+  },
+  {
+    "id": "klymit-insulated-static-v-luxe-sl-camping-sleeping-pad",
+    "brandId": "klymit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Insulated Static V Luxe SL™ Sleeping Pad",
+    "modelEn": "Insulated Static V Luxe SL™ Sleeping Pad",
+    "description": "The Insulated Static V Luxe SL™ is an insulated, lightweight, luxury sleeping pad. It’s the perfect balance of weight, width, and length in a luxury size. Slightly slimmer than the Insulated Static V Luxe™, weight is trimmed by using a lightweight fabric and a slight taper at the bottom third of the pad. The exclusive V-chamber design conforms to the shape of your body while maintaining ample, lofted air pockets. The result: side, back, and stomach sleepers can all rest comfortably on a generous bed of air.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.91,
+      "weightDisplay": "~0.91 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "The Insulated Static V Luxe SL™ is an insulated, lightweight, luxury sleeping pad. It’s the perfect balance of weight, width, and length in a luxury size. Slightly slimmer than the Insulated Static V Luxe™, weight is trimmed by using a lightweight fabric and a slight taper at the bottom third of the pad. The exclusive V-chamber design conforms to the shape of your body while maintaining ample, lof"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0084/4854/0762/products/Klymit_InsulatedStaticVLuxeSL_06ISCY01D_Front_v2_2000x2000_08cc5f48-f4e6-4a78-b3b7-e6dadf9c17a4.jpg?v=1579285528",
+    "imageAlt": "Insulated Static V Luxe SL™ Sleeping Pad",
+    "sourceUrl": "https://klymit.com/products/insulated-static-v-luxe-sl-camping-sleeping-pad",
+    "sourceSite": "klymit.com",
+    "scrapedAt": "2026-07-03T14:49:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 99.99,
+    "priceMin": 99.99,
+    "priceMax": 99.99
+  },
+  {
+    "id": "klymit-insulated-static-v-peak-sleeping-pads",
+    "brandId": "klymit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Insulated Static V Peak™ Sleeping Pads",
+    "modelEn": "Insulated Static V Peak™ Sleeping Pads",
+    "description": "Experience next-level comfort with the Insulated Static V Peak™ — built for adventurers who demand extra warmth. This lightweight, backcountry-ready pad provides winter insulation and true four-season performance with an impressive ASTM R-Value of 4.2. Multiple reflective film layers and Klymalite™ synthetic insulation work together to block cold from below, while dynamic side rails keep you securely centered for a deeper, more restful sleep. When it’s time to pack up, it rolls down small for easy carry anywhere your adventure takes you. As part of the Peak Series, this pad is engineered for experienced adventurers who demand the highest level of warmth, refinement, and four-season performance.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.64,
+      "weightDisplay": "~0.64 kg",
+      "structure": "Sleeping Pads"
+    },
+    "highlights": [
+      "Experience next-level comfort with the Insulated Static V Peak™ — built for adventurers who demand extra warmth. This lightweight, backcountry-ready pad provides winter insulation and true four-season performance with an impressive ASTM R-Value of 4.2. Multiple reflective film layers and Klymalite™ synthetic insulation work together to block cold from below, while dynamic side rails keep you secur"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0084/4854/0762/files/Insulated-Static-V-Peak-RedRock-06IVFM02A-Front-1500x1500.webp?v=1763756733",
+    "imageAlt": "Insulated Static V Peak™ Sleeping Pads",
+    "sourceUrl": "https://klymit.com/products/insulated-static-v-peak-sleeping-pads",
+    "sourceSite": "klymit.com",
+    "scrapedAt": "2026-07-03T14:49:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 99.95,
+    "priceMin": 99.95,
+    "priceMax": 129.95
+  },
+  {
+    "id": "klymit-insulated-static-v-sleeping-pad-4-pack",
+    "brandId": "klymit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Insulated Static V™ Sleeping Pad 4-Pack",
+    "modelEn": "Insulated Static V™ Sleeping Pad 4-Pack",
+    "description": "A comfortable backcountry pad providing winter insulation and all-season comfort, now offered in a 4-pack for group outings or added convenience. The body-mapped shape and V chamber design combine to maintain comfort and minimize air movement that can impact insulation. The chambers are filled with light, lofty Klymalite™ synthetic insulation to add another layer of protection from the cold ground, and dynamic side rails cradle you comfortably on your pad for a more restful sleep.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 3.27,
+      "weightDisplay": "~3.27 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "A comfortable backcountry pad providing winter insulation and all-season comfort, now offered in a 4-pack for group outings or added convenience. The body-mapped shape and V chamber design combine to maintain comfort and minimize air movement that can impact insulation. The chambers are filled with light, lofty Klymalite™ synthetic insulation to add another layer of protection from the cold ground"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0084/4854/0762/files/insulated-static-v-brick-red-4-pack-06BSI4B.webp?v=1757437551",
+    "imageAlt": "Insulated Static V™ Sleeping Pad 4-Pack",
+    "sourceUrl": "https://klymit.com/products/insulated-static-v-sleeping-pad-4-pack",
+    "sourceSite": "klymit.com",
+    "scrapedAt": "2026-07-03T14:49:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 399.99,
+    "priceMin": 399.99,
+    "priceMax": 399.99
+  },
+  {
+    "id": "klymit-insulated-ultralite-sl-sleeping-pad",
+    "brandId": "klymit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Insulated V Ultralite SL™ Sleeping Pad",
+    "modelEn": "Insulated V Ultralite SL™ Sleeping Pad",
+    "description": "Finding the right backcountry gear is usually a game of sacrifices, but when it comes to the way you sleep, we say go ahead and spoil yourself. With the Insulated V Ultralite SL ™, you can count ounces and still get it all: Klymalite™ lofted synthetic insulation, a roomy V-Chambered surface to sleep on from head-to-toe, and a price that’ll make you smile.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.45,
+      "weightDisplay": "~0.45 kg",
+      "structure": "Sleeping Pads"
+    },
+    "highlights": [
+      "Finding the right backcountry gear is usually a game of sacrifices, but when it comes to the way you sleep, we say go ahead and spoil yourself. With the Insulated V Ultralite SL ™, you can count ounces and still get it all: Klymalite™ lofted synthetic insulation, a roomy V-Chambered surface to sleep on from head-to-toe, and a price that’ll make you smile."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0084/4854/0762/products/Klymit_InsulatedVUltraliteSL_06IUOR01C_Front_2000x2000_2f8f4f52-64a5-43e0-854a-71ba301e71d8.jpg?v=1746658489",
+    "imageAlt": "Insulated V Ultralite SL™ Sleeping Pad",
+    "sourceUrl": "https://klymit.com/products/insulated-ultralite-sl-sleeping-pad",
+    "sourceSite": "klymit.com",
+    "scrapedAt": "2026-07-03T14:49:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 99.99,
+    "priceMin": 99.99,
+    "priceMax": 99.99
+  },
+  {
+    "id": "klymit-klymaloft-base-sleeping-pad",
+    "brandId": "klymit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Klymaloft Base™ Sleeping Pad",
+    "modelEn": "Klymaloft Base™ Sleeping Pad",
+    "description": "The Klymaloft Base™ delivers the signature comfort of the Klymaloft™ line in a lighter, streamlined model. Its I-beam baffle construction creates plush loft and stable air chambers that cradle and align your body for deep, uninterrupted sleep. Lofted pockets formed by the I-beams allow your sleeping bag to nestle in, trapping warmth when temperatures drop. Striking the ideal balance of comfort, pack size, and weight, this pad is built for campers who won’t compromise on a great night’s sleep. As part of the Base Series, the Klymaloft Base™ delivers reliable comfort and thoughtful support, giving campers a restful night with gear they can trust.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.68,
+      "weightDisplay": "~0.68 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "The Klymaloft Base™ delivers the signature comfort of the Klymaloft™ line in a lighter, streamlined model. Its I-beam baffle construction creates plush loft and stable air chambers that cradle and align your body for deep, uninterrupted sleep. Lofted pockets formed by the I-beams allow your sleeping bag to nestle in, trapping warmth when temperatures drop. Striking the ideal balance of comfort, pa"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0084/4854/0762/files/Klymaloft-BASE-OceanDepths-06KLBL01A-Front-1500x1500.webp?v=1763756074",
+    "imageAlt": "Klymaloft Base™ Sleeping Pad",
+    "sourceUrl": "https://klymit.com/products/klymaloft-base-sleeping-pad",
+    "sourceSite": "klymit.com",
+    "scrapedAt": "2026-07-03T14:49:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 99.95,
+    "priceMin": 99.95,
+    "priceMax": 99.95
+  },
+  {
+    "id": "klymit-klymaloft-summit-sleeping-pads",
+    "brandId": "klymit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Klymaloft Summit™ Sleeping Pads",
+    "modelEn": "Klymaloft Summit™ Sleeping Pads",
+    "description": "The Klymaloft Summit™ Sleeping Pads feature advanced foam and air technology to deliver elevated comfort and support. A soft foam topper contours to the body, relieving pressure points for a restful night, while the underlying I-beam air chambers provide loft and stability. This hybrid design offers the ideal balance of comfort, compact packability, and lightweight performance. Built for the Summit Series, the Klymaloft Summit™ combines advanced materials and refined design to deliver elevated comfort, dependable support, and lightweight performance for longer adventures.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.09,
+      "weightDisplay": "~1.09 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "The Klymaloft Summit™ Sleeping Pads feature advanced foam and air technology to deliver elevated comfort and support. A soft foam topper contours to the body, relieving pressure points for a restful night, while the underlying I-beam air chambers provide loft and stability. This hybrid design offers the ideal balance of comfort, compact packability, and lightweight performance. Built for the Summi"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0084/4854/0762/files/Klymaloft-Summit-RG-06KLGR03C-Front-1500x1500.webp?v=1765916121",
+    "imageAlt": "Klymaloft Summit™ Sleeping Pads",
+    "sourceUrl": "https://klymit.com/products/klymaloft-summit-sleeping-pads",
+    "sourceSite": "klymit.com",
+    "scrapedAt": "2026-07-03T14:49:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 149.95,
+    "priceMin": 149.95,
+    "priceMax": 269.95
+  },
+  {
+    "id": "klymit-static-v-base-sleeping-pad",
+    "brandId": "klymit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Static V Base™ Sleeping Pad",
+    "modelEn": "Static V Base™ Sleeping Pad",
+    "description": "Versatile, rugged, and lightweight, the Static V Base™ offers advanced performance at an accessible price. Its body-mapped V-chamber design minimizes air movement for better insulation and ergonomic support, while dynamic side rails help keep you securely positioned on the pad. Built with durable materials, it’s tough enough for direct ground use when traveling light—no tarp, no tent required. The pad inflates in just 10–15 breaths, packs down compact, and weighs only 18.7 ounces. Part of the Base Series, the Static V Base™ offers dependable comfort and essential support, giving campers reliable performance they can count on in any outdoor setting.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.54,
+      "weightDisplay": "~0.54 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "Versatile, rugged, and lightweight, the Static V Base™ offers advanced performance at an accessible price. Its body-mapped V-chamber design minimizes air movement for better insulation and ergonomic support, while dynamic side rails help keep you securely positioned on the pad. Built with durable materials, it’s tough enough for direct ground use when traveling light—no tarp, no tent required. The"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0084/4854/0762/files/Static-V-BASE-OceanDepths-06SVBL04D-Front-1500x1500.webp?v=1763754193",
+    "imageAlt": "Static V Base™ Sleeping Pad",
+    "sourceUrl": "https://klymit.com/products/static-v-base-sleeping-pad",
+    "sourceSite": "klymit.com",
+    "scrapedAt": "2026-07-03T14:49:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 49.95,
+    "priceMin": 49.95,
+    "priceMax": 49.95
+  },
+  {
+    "id": "klymit-static-v-lite-eco-sleeping-pad",
+    "brandId": "klymit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Static V Lite Eco™ Sleeping Pad",
+    "modelEn": "Static V Lite Eco™ Sleeping Pad",
+    "description": "The Static V Lite Eco™ is a lightweight three-season backpacking sleeping pad. The Static V Lite Eco™ features Klymit’s signature Body Mapping Technology and patented V-Chamber design. Side rails are integrated into the patterning and construction of the sleeping pad to keep you securely centered on the pad while inhibiting air movement while tossing and turning during the night. The Static V Lite Eco is the perfect pad for lightweight adventures.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.91,
+      "weightDisplay": "~0.91 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "The Static V Lite Eco™ is a lightweight three-season backpacking sleeping pad. The Static V Lite Eco™ features Klymit’s signature Body Mapping Technology and patented V-Chamber design. Side rails are integrated into the patterning and construction of the sleeping pad to keep you securely centered on the pad while inhibiting air movement while tossing and turning during the night. The Static V Lite"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0084/4854/0762/files/Klymit_StaticVLiteEco_06SEGD02C_Front_2000x2000_84582527-9cd8-4617-8c93-5ab1d4272334.jpg?v=1713897932",
+    "imageAlt": "Static V Lite Eco™ Sleeping Pad",
+    "sourceUrl": "https://klymit.com/products/static-v-lite-eco-sleeping-pad",
+    "sourceSite": "klymit.com",
+    "scrapedAt": "2026-07-03T14:49:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 53.99,
+    "priceMin": 53.99,
+    "priceMax": 53.99
+  },
+  {
+    "id": "klymit-static-v-luxe-sl-camping-sleeping-pad",
+    "brandId": "klymit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Static V Luxe™ SL Sleeping Pad",
+    "modelEn": "Static V Luxe™ SL Sleeping Pad",
+    "description": "The Static V Luxe SL™ is a lightweight, luxury sleeping pad. The sleeping pad is the thickest pad in the Static Series line at 3.5”. It’s the perfect balance of weight, width, and length in a luxury size. Slightly slimmer than the Static V Luxe™, weight is trimmed by using a lightweight fabric and a slight taper at the bottom third of the pad. The exclusive V-chamber design conforms to the shape of your body while maintaining ample, lofted air pockets. The result: side, back, and stomach sleepers can all rest comfortably on a generous bed of air.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.91,
+      "weightDisplay": "~0.91 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "The Static V Luxe SL™ is a lightweight, luxury sleeping pad. The sleeping pad is the thickest pad in the Static Series line at 3.5”. It’s the perfect balance of weight, width, and length in a luxury size. Slightly slimmer than the Static V Luxe™, weight is trimmed by using a lightweight fabric and a slight taper at the bottom third of the pad. The exclusive V-chamber design conforms to the shape o"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0084/4854/0762/products/Klymit_StaticVLuxeSL_06LLBL01D_Front_v1_2000x2000_f5d7be88-10c4-4a8d-bf3a-511450fb4d5c.jpg?v=1579042992",
+    "imageAlt": "Static V Luxe™ SL Sleeping Pad",
+    "sourceUrl": "https://klymit.com/products/static-v-luxe-sl-camping-sleeping-pad",
+    "sourceSite": "klymit.com",
+    "scrapedAt": "2026-07-03T14:49:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 99.99,
+    "priceMin": 99.99,
+    "priceMax": 99.99
+  },
+  {
+    "id": "klymit-static-v-junior-sleeping-pad",
+    "brandId": "klymit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Static V Short™ Sleeping Pad",
+    "modelEn": "Static V Short™ Sleeping Pad",
+    "description": "Our most popular pad trimmed to a ¾ length that’s perfect for ounce counters, kids and Scouts, the Static V Short™ packs to the size of a soda can, and weighs a scant 14 ounces. The body-mapped V chamber design limits air movement to help maintain insulating performance and ergonomic comfort, dynamic side rails keep you centered on the pad, and the durable material is tough enough to handle direct contact with the ground when you want to travel light and leave the tent at home.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.59,
+      "weightDisplay": "~0.59 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad",
+      "size": "Short"
+    },
+    "highlights": [
+      "Our most popular pad trimmed to a ¾ length that’s perfect for ounce counters, kids and Scouts, the Static V Short™ packs to the size of a soda can, and weighs a scant 14 ounces. The body-mapped V chamber design limits air movement to help maintain insulating performance and ergonomic comfort, dynamic side rails keep you centered on the pad, and the durable material is tough enough to handle direct"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0084/4854/0762/products/Klymit_StaticV_Short_06SJGR01A_WhiteBackground_2000x2000_noVavle.jpg?v=1746660159",
+    "imageAlt": "Static V Short™ Sleeping Pad",
+    "sourceUrl": "https://klymit.com/products/static-v-junior-sleeping-pad",
+    "sourceSite": "klymit.com",
+    "scrapedAt": "2026-07-03T14:49:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 54.99,
+    "priceMin": 54.99,
+    "priceMax": 54.99
+  },
+  {
+    "id": "klymit-static-v-summit-sleeping-pads",
+    "brandId": "klymit",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Static V Summit™ Sleeping Pads",
+    "modelEn": "Static V Summit™ Sleeping Pads",
+    "description": "The Static V Summit™ is designed to keep you warm and comfortable, even in winter conditions. Its body-mapped shape and signature V-chamber design minimize air movement to maximize insulation and comfort. Each chamber is filled with lightweight, durable Klymalite™ synthetic insulation, adding crucial protection from the cold ground. Dynamic side rails keep you centered on your pad, so you sleep soundly through the night. Designed for backcountry travel, it’s ultralight, packs down small, and inflates quickly when you reach camp. As part of the Summit Series, the Static V Summit™ is crafted for dedicated adventurers who want elevated warmth, refined comfort, and reliable performance for demanding backcountry trips.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.68,
+      "weightDisplay": "~0.68 kg",
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "The Static V Summit™ is designed to keep you warm and comfortable, even in winter conditions. Its body-mapped shape and signature V-chamber design minimize air movement to maximize insulation and comfort. Each chamber is filled with lightweight, durable Klymalite™ synthetic insulation, adding crucial protection from the cold ground. Dynamic side rails keep you centered on your pad, so you sleep so"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0084/4854/0762/files/Static-V-SUMMIT-BrightChartreuse-06SMEG01A-Front-1500x1500.webp?v=1763755819",
+    "imageAlt": "Static V Summit™ Sleeping Pads",
+    "sourceUrl": "https://klymit.com/products/static-v-summit-sleeping-pads",
+    "sourceSite": "klymit.com",
+    "scrapedAt": "2026-07-03T14:49:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 79.95,
+    "priceMin": 79.95,
+    "priceMax": 139.95
+  }
+]

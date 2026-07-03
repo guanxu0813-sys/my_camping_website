@@ -1,5 +1,57 @@
 [
   {
+    "id": "nemo-astro-lightweight-insulated-sleeping-pad-series",
+    "brandId": "nemo",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Astro™ Insulated Lightweight Sleeping Pad",
+    "modelEn": "Astro™ Insulated Lightweight Sleeping Pad",
+    "description": "Astro brings lightweight comfort, durability, and much-appreciated slumber to any overnight adventure. This updated model features a full suite of more sustainable materials, with a 100% bluesign® APPROVED, 75D recycled polyester fabric shell and 100% post-consumer recycled Primaloft® insulation. Astro maintains its legacy lateral baffles, which are more comfortable and prevent the pad from curling under the body. The Pillow Baffle™ at the head end bolsters your camp pillow and helps it not slide off in the middle of the night. Our super-efficient Vortex™ pump sack works seamlessly with our Laylow™ zero-profile, micro-adjustable valve for easy inflation and personalized comfort, and helps keep moisture out of your pad. Astro makes a great go-to pad for adventures anywhere.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Pads"
+    },
+    "highlights": [
+      "Astro brings lightweight comfort, durability, and much-appreciated slumber to any overnight adventure. This updated model features a full suite of more sustainable materials, with a 100% bluesign® APPROVED, 75D recycled polyester fabric shell and 100% post-consumer recycled Primaloft® insulation. Astro maintains its legacy lateral baffles, which are more comfortable and prevent the pad from curlin"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/hse7qlz3hqfhaouwtoqq.jpg?v=1776198389",
+    "imageAlt": "Astro™ Insulated Lightweight Sleeping Pad",
+    "sourceUrl": "https://www.nemoequipment.com/products/astro-lightweight-insulated-sleeping-pad-series",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-07-03T14:46:13Z",
+    "status": "draft",
+    "published": true,
+    "price": 149.95,
+    "priceMin": 149.95,
+    "priceMax": 159.95
+  },
+  {
+    "id": "nemo-astro-lightweight-non-insulated-sleeping-pad-series",
+    "brandId": "nemo",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Astro™ Non-Insulated Lightweight Sleeping Pad",
+    "modelEn": "Astro™ Non-Insulated Lightweight Sleeping Pad",
+    "description": "Astro brings lightweight comfort, durability, and much-appreciated slumber to any overnight adventure. This updated model features a full suite of more sustainable materials, with a 100% bluesign® APPROVED, 75D recycled polyester fabric shell and 100% post-consumer recycled Primaloft® insulation. Astro maintains its legacy lateral baffles, which are more comfortable and prevent the pad from curling under the body. The Pillow Baffle™ at the head end bolsters your camp pillow and helps it not slide off in the middle of the night. Our super-efficient Vortex™ pump sack works seamlessly with our Laylow™ zero-profile, micro-adjustable valve for easy inflation and personalized comfort, and helps keep moisture out of your pad. Astro makes a great go-to pad for adventures anywhere.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Pads"
+    },
+    "highlights": [
+      "Astro brings lightweight comfort, durability, and much-appreciated slumber to any overnight adventure. This updated model features a full suite of more sustainable materials, with a 100% bluesign® APPROVED, 75D recycled polyester fabric shell and 100% post-consumer recycled Primaloft® insulation. Astro maintains its legacy lateral baffles, which are more comfortable and prevent the pad from curlin"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/iobtfpcqislk7q3bvnzo.jpg?v=1776198390",
+    "imageAlt": "Astro™ Non-Insulated Lightweight Sleeping Pad",
+    "sourceUrl": "https://www.nemoequipment.com/products/astro-lightweight-non-insulated-sleeping-pad-series",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-07-03T14:46:13Z",
+    "status": "draft",
+    "published": true,
+    "price": 129.95,
+    "priceMin": 129.95,
+    "priceMax": 139.95
+  },
+  {
     "id": "nemo-aurora-highrise",
     "brandId": "nemo",
     "category": "tent",
@@ -18,7 +70,7 @@
     "imageAlt": "Aurora Highrise™ Camping Tent",
     "sourceUrl": "https://www.nemoequipment.com/products/aurora-highrise",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:17:45Z",
+    "scrapedAt": "2026-07-03T14:46:04Z",
     "status": "draft",
     "published": true,
     "price": 399.95,
@@ -44,7 +96,7 @@
     "imageAlt": "Aurora™ Backpacking Tent & Footprint",
     "sourceUrl": "https://www.nemoequipment.com/products/aurora-backpacking-tent-and-footprint",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:17:45Z",
+    "scrapedAt": "2026-07-03T14:46:04Z",
     "status": "draft",
     "published": true,
     "price": 299.95,
@@ -70,7 +122,7 @@
     "imageAlt": "Chogori™ Mountaineering Tent",
     "sourceUrl": "https://www.nemoequipment.com/products/chogori-mountaineering-tent",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:17:45Z",
+    "scrapedAt": "2026-07-03T14:46:04Z",
     "status": "draft",
     "published": true,
     "price": 799.95,
@@ -98,7 +150,7 @@
     "imageAlt": "Coda™ Endless Promise®  Down Mummy Sleeping Bag",
     "sourceUrl": "https://www.nemoequipment.com/products/coda-genderless-endless-promise-down-sleeping-bag",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:18:05Z",
+    "scrapedAt": "2026-07-03T14:46:10Z",
     "status": "draft",
     "published": true,
     "price": 439.95,
@@ -124,7 +176,7 @@
     "imageAlt": "Dagger OSMO™ Lightweight Backpacking Tent",
     "sourceUrl": "https://www.nemoequipment.com/products/dagger-osmo",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:17:45Z",
+    "scrapedAt": "2026-07-03T14:46:04Z",
     "status": "draft",
     "published": true,
     "price": 599.95,
@@ -152,7 +204,7 @@
     "imageAlt": "Disco™ Men's Endless Promise® Down Sleeping Bag",
     "sourceUrl": "https://www.nemoequipment.com/products/disco-mens-endless-promise-down-sleeping-bag",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:18:05Z",
+    "scrapedAt": "2026-07-03T14:46:10Z",
     "status": "draft",
     "published": true,
     "price": 299.95,
@@ -180,7 +232,7 @@
     "imageAlt": "Disco™ Women's Endless Promise® Down Sleeping Bag",
     "sourceUrl": "https://www.nemoequipment.com/products/disco-womens-endless-promise-down-sleeping-bag",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:18:05Z",
+    "scrapedAt": "2026-07-03T14:46:10Z",
     "status": "draft",
     "published": true,
     "price": 299.95,
@@ -206,7 +258,7 @@
     "imageAlt": "Dragonfly OSMO™ Ultralight Backpacking Tent",
     "sourceUrl": "https://www.nemoequipment.com/products/dragonfly-osmo",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:17:45Z",
+    "scrapedAt": "2026-07-03T14:46:04Z",
     "status": "draft",
     "published": true,
     "price": 499.95,
@@ -232,7 +284,7 @@
     "imageAlt": "Dragonfly™ Bikepack OSMO™ Footprint",
     "sourceUrl": "https://www.nemoequipment.com/products/dragonfly-bikepack-footprint",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:17:45Z",
+    "scrapedAt": "2026-07-03T14:46:04Z",
     "status": "draft",
     "published": true,
     "price": 42.0,
@@ -258,12 +310,93 @@
     "imageAlt": "Dragonfly™ Bikepack OSMO™ Ultralight Backpacking Tent",
     "sourceUrl": "https://www.nemoequipment.com/products/dragonfly-osmo-bikepack",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:17:45Z",
+    "scrapedAt": "2026-07-03T14:46:04Z",
     "status": "draft",
     "published": true,
     "price": 529.95,
     "priceMin": 529.95,
     "priceMax": 599.95
+  },
+  {
+    "id": "nemo-eclipse-all-season-sleeping-pad",
+    "brandId": "nemo",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Eclipse™ All-Season Lightweight Insulated Sleeping Pad",
+    "modelEn": "Eclipse™ All-Season Lightweight Insulated Sleeping Pad",
+    "description": "A backpacking pad that puts comfort first, Eclipse™ All-Season provides 4 inches of plush, air-supported cushioning that compresses down small. Featuring supportive baffles with subtle contouring, the pad offers a cradling feel that helps keep you centered and comfortable throughout the night. The longitudinal baffles are constructed using NEMO’s Spaceframe™ technology, a design that uses low-stretch, die-cut trusses to eliminate springiness and offer unparalleled stability and weight distribution. Within each baffle, two layers of Thermal Mirror™ insulation are freely suspended to provide impressively quiet warmth (R6.2!) across all seasons. To better control your comfort, the Laylow™ valve quickly releases air pressure with just the touch of a finger, and each pad includes a Vortex™ pump sack for moisture-free, easy initial inflation.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Pads",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "A backpacking pad that puts comfort first, Eclipse™ All-Season provides 4 inches of plush, air-supported cushioning that compresses down small. Featuring supportive baffles with subtle contouring, the pad offers a cradling feel that helps keep you centered and comfortable throughout the night. The longitudinal baffles are constructed using NEMO’s Spaceframe™ technology, a design that uses low-stre"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/nrwrpithc0lkgwemeuyu.jpg?v=1776198382",
+    "imageAlt": "Eclipse™ All-Season Lightweight Insulated Sleeping Pad",
+    "sourceUrl": "https://www.nemoequipment.com/products/eclipse-all-season-sleeping-pad",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-07-03T14:46:13Z",
+    "status": "draft",
+    "published": true,
+    "price": 159.95,
+    "priceMin": 159.95,
+    "priceMax": 199.95
+  },
+  {
+    "id": "nemo-flyer-cloud-sleeping-pad",
+    "brandId": "nemo",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Flyer™ Cloud Self-Inflating Sleeping Pad",
+    "modelEn": "Flyer™ Cloud Self-Inflating Sleeping Pad",
+    "description": "Experience true backcountry luxury with Flyer™ Cloud, a bluesign® product sleeping pad that redefines comfort with its ultra-soft stretch-knit top fabric and innovative hybrid design. With its inviting texture, the stretch-knit gently conforms to your body as you shift positions overnight, working with the foam to create a smooth, quiet, and remarkably plush experience. Flyer™ Cloud combines the weightless feel of an air pad with the stable, supportive cushioning of foam, offering the perfect balance of softness and structure. Using a groundbreaking manufacturing process, nearly 60% of the foam is removed to reduce weight while increasing loft. The result: a 5.1 R-value pad that self-inflates to a full 3 inches of comfort, forming contoured ridges that adapt to your body and aid recovery after long days on the trail. Around the perimeter, an innovative air baffle adds structure and stability, while extra foam “bridges” between each baffle boost comfort without adding bulk. When it’s time to set up camp, Flyer™ Cloud can be left to inflate on its own — no additional effort required. For a quicker setup or adjusted firmness, use the included Vortex™ hybrid stuff sack, which doubles as a pump sack and connects easily to the pad’s Laylow™ valve. (As a bonus, the roll-top sack can also be used as a dry bag for other gear!) Compact when packed yet exceptionally soft and cushioned when deployed, Flyer™ Cloud delivers a deeply comfortable night’s rest wherever the trail leads — perfe",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Pads",
+      "padType": "Self-inflating"
+    },
+    "highlights": [
+      "Experience true backcountry luxury with Flyer™ Cloud, a bluesign® product sleeping pad that redefines comfort with its ultra-soft stretch-knit top fabric and innovative hybrid design. With its inviting texture, the stretch-knit gently conforms to your body as you shift positions overnight, working with the foam to create a smooth, quiet, and remarkably plush experience. Flyer™ Cloud combines the w"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/mgut6cpir3ldl5yjihin.jpg?v=1776198390",
+    "imageAlt": "Flyer™ Cloud Self-Inflating Sleeping Pad",
+    "sourceUrl": "https://www.nemoequipment.com/products/flyer-cloud-sleeping-pad",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-07-03T14:46:13Z",
+    "status": "draft",
+    "published": true,
+    "price": 159.95,
+    "priceMin": 159.95,
+    "priceMax": 199.95
+  },
+  {
+    "id": "nemo-flyer-bluesign",
+    "brandId": "nemo",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Flyer™ Self-Inflating Sleeping Pad",
+    "modelEn": "Flyer™ Self-Inflating Sleeping Pad",
+    "description": "A bluesign® product with a radical hybrid design, our best-selling Flyer™ self-inflating sleeping pad now has more cushioning while maintaining its impressively packable size and weight. Combining the thickness of an air pad with the plush durability of a foam pad, Flyer offers reliable comfort on the trail. Designed with a groundbreaking manufacturing approach that removes nearly 60% of the foam, the pad self-inflates to increase thickness and provide ridged baffling for faster recovery after a hard day on the mountain. Each horizontal foam channel is hollowed out to both reduce weight and provide progressive suspension that allows you to comfortably sink in; the baffles are linked by solid foam to evenly support and prevent any bottoming out. The latest design update introduces an air baffle around the perimeter, and by removing foam from around the edge, we could then increase the thickness of the “bridge” in between each baffle with no weight penalty. The result is a more comfortable Flyer at the same size and weight as before! Though Flyer will inflate on its own with no assistance, it now comes packaged in a stuff sack that doubles as a pump sack. This Vortex™ hybrid stuff sack connects to the pad’s Laylow™ valve and can be used to quicken inflation or simply firm up the pad’s surface to your preference and does so without introducing moisture into the pad. (As a bonus, the roll-top sack can be used as a dry bag!) Made with a 20D 100% recycled fabric set, Flyer is a cer",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Pads",
+      "padType": "Self-inflating"
+    },
+    "highlights": [
+      "A bluesign® product with a radical hybrid design, our best-selling Flyer™ self-inflating sleeping pad now has more cushioning while maintaining its impressively packable size and weight. Combining the thickness of an air pad with the plush durability of a foam pad, Flyer offers reliable comfort on the trail. Designed with a groundbreaking manufacturing approach that removes nearly 60% of the foam,"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/ilykezvo1dohaxbshfn1.jpg?v=1776198392",
+    "imageAlt": "Flyer™ Self-Inflating Sleeping Pad",
+    "sourceUrl": "https://www.nemoequipment.com/products/flyer-bluesign",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-07-03T14:46:13Z",
+    "status": "draft",
+    "published": true,
+    "price": 139.95,
+    "priceMin": 139.95,
+    "priceMax": 159.95
   },
   {
     "id": "nemo-forte-endless-promise-mens-synthetic-sleeping-bag",
@@ -286,7 +419,7 @@
     "imageAlt": "Forte™ Endless Promise® Men's Synthetic Sleeping Bag",
     "sourceUrl": "https://www.nemoequipment.com/products/forte-endless-promise-mens-synthetic-sleeping-bag",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:18:05Z",
+    "scrapedAt": "2026-07-03T14:46:10Z",
     "status": "draft",
     "published": true,
     "price": 199.95,
@@ -314,7 +447,7 @@
     "imageAlt": "Forte™ Endless Promise® Women's Synthetic Sleeping Bag",
     "sourceUrl": "https://www.nemoequipment.com/products/forte-endless-promise-womens-synthetic-sleeping-bag",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:18:05Z",
+    "scrapedAt": "2026-07-03T14:46:10Z",
     "status": "draft",
     "published": true,
     "price": 199.95,
@@ -340,38 +473,12 @@
     "imageAlt": "Heliopolis™ Privacy Shelter & Shower Tent",
     "sourceUrl": "https://www.nemoequipment.com/products/heliopolis-privacy-shelter-and-shower-tent",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:18:05Z",
+    "scrapedAt": "2026-07-03T14:46:06Z",
     "status": "draft",
     "published": true,
     "price": 249.95,
     "priceMin": 249.95,
     "priceMax": 249.95
-  },
-  {
-    "id": "nemo-hornet-elite-osmo",
-    "brandId": "nemo",
-    "category": "tent",
-    "subcategory": "Tents",
-    "model": "Hornet Elite OSMO™ Ultralight Backpacking Tent",
-    "modelEn": "Hornet Elite OSMO™ Ultralight Backpacking Tent",
-    "description": "Already the ultimate tent for extreme minimalists, Hornet Elite OSMO takes it to the next level with thoughtful updates and our new proprietary OSMO™ fabric. Delivering 4x longer lasting water repellency and 3x less stretch when wet, our new OSMO tent fabric is also made from 100% recycled yarns free from PFAS. The first of its kind, it was carefully designed for both exceptional performance and reduced impact on the planet. The Elite moniker means we’ve examined every detail of this tent for weight savings and performance enhancement. The poles are top-shelf DAC Featherlite. Every stitch, cord, and webbing detail are optimized for weight and strength. Our Nightlight Pocket™ headlamp diffuser adds a warm glow at night without the weight of built-in lighting. And our patent-pending Flybar™ volumizing pole clip brings headroom to the interior volume without adding unnecessary ounces. The Hornet Elite OSMO tent also features our convenient new Gatekeeper™ door tie-back and our Divvy Cube™ rectangular stuff sack that nests more efficiently in your pack and allows you to split the weight with a partner. By driving technology and design forward, NEMO’s Hornet Elite OSMO is a maximalist approach to minimalist design.",
-    "currency": "USD",
-    "specs": {
-      "structure": "Tents"
-    },
-    "highlights": [
-      "Already the ultimate tent for extreme minimalists, Hornet Elite OSMO takes it to the next level with thoughtful updates and our new proprietary OSMO™ fabric. Delivering 4x longer lasting water repellency and 3x less stretch when wet, our new OSMO tent fabric is also made from 100% recycled yarns free from PFAS. The first of its kind, it was carefully designed for both exceptional performance and r"
-    ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/axinssuoxr8mod1djxse.jpg?v=1776198389",
-    "imageAlt": "Hornet Elite OSMO™ Ultralight Backpacking Tent",
-    "sourceUrl": "https://www.nemoequipment.com/products/hornet-elite-osmo",
-    "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:17:45Z",
-    "status": "draft",
-    "published": true,
-    "price": 599.95,
-    "priceMin": 599.95,
-    "priceMax": 699.95
   },
   {
     "id": "nemo-hornet-osmo",
@@ -392,12 +499,38 @@
     "imageAlt": "Hornet OSMO™ Ultralight Backpacking Tent",
     "sourceUrl": "https://www.nemoequipment.com/products/hornet-osmo",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:17:45Z",
+    "scrapedAt": "2026-07-03T14:46:04Z",
     "status": "draft",
     "published": true,
     "price": 459.95,
     "priceMin": 459.95,
     "priceMax": 579.95
+  },
+  {
+    "id": "nemo-hornet-elite-osmo",
+    "brandId": "nemo",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Hornet™ Elite OSMO™ Ultralight Backpacking Tent",
+    "modelEn": "Hornet™ Elite OSMO™ Ultralight Backpacking Tent",
+    "description": "Already the ultimate tent for extreme minimalists, Hornet Elite OSMO takes it to the next level with thoughtful updates and our new proprietary OSMO™ fabric. Delivering 4x longer lasting water repellency and 3x less stretch when wet, our new OSMO tent fabric is also made from 100% recycled yarns free from PFAS. The first of its kind, it was carefully designed for both exceptional performance and reduced impact on the planet. The Elite moniker means we’ve examined every detail of this tent for weight savings and performance enhancement. The poles are top-shelf DAC Featherlite. Every stitch, cord, and webbing detail are optimized for weight and strength. Our Nightlight Pocket™ headlamp diffuser adds a warm glow at night without the weight of built-in lighting. And our patent-pending Flybar™ volumizing pole clip brings headroom to the interior volume without adding unnecessary ounces. The Hornet Elite OSMO tent also features our convenient new Gatekeeper™ door tie-back and our Divvy Cube™ rectangular stuff sack that nests more efficiently in your pack and allows you to split the weight with a partner. By driving technology and design forward, NEMO’s Hornet Elite OSMO is a maximalist approach to minimalist design.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Tents"
+    },
+    "highlights": [
+      "Already the ultimate tent for extreme minimalists, Hornet Elite OSMO takes it to the next level with thoughtful updates and our new proprietary OSMO™ fabric. Delivering 4x longer lasting water repellency and 3x less stretch when wet, our new OSMO tent fabric is also made from 100% recycled yarns free from PFAS. The first of its kind, it was carefully designed for both exceptional performance and r"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/axinssuoxr8mod1djxse.jpg?v=1776198389",
+    "imageAlt": "Hornet Elite OSMO™ Ultralight Backpacking Tent",
+    "sourceUrl": "https://www.nemoequipment.com/products/hornet-elite-osmo",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-07-03T14:46:04Z",
+    "status": "draft",
+    "published": true,
+    "price": 599.95,
+    "priceMin": 599.95,
+    "priceMax": 699.95
   },
   {
     "id": "nemo-jazz",
@@ -420,7 +553,7 @@
     "imageAlt": "Jazz™ Double Synthetic Sleeping Bag",
     "sourceUrl": "https://www.nemoequipment.com/products/jazz",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:18:05Z",
+    "scrapedAt": "2026-07-03T14:46:10Z",
     "status": "draft",
     "published": true,
     "price": 379.95,
@@ -446,7 +579,7 @@
     "imageAlt": "Kunai™ 3–4 Season Backpacking Tent",
     "sourceUrl": "https://www.nemoequipment.com/products/kunai-3-4-season-backpacking-tent",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:17:45Z",
+    "scrapedAt": "2026-07-03T14:46:04Z",
     "status": "draft",
     "published": true,
     "price": 599.95,
@@ -474,7 +607,7 @@
     "imageAlt": "Pulse™ Endless Promise® Ultralight Backpacking Quilt",
     "sourceUrl": "https://www.nemoequipment.com/products/pulse-ultralite-backpacking-quilt",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:18:05Z",
+    "scrapedAt": "2026-07-03T14:46:10Z",
     "status": "draft",
     "published": true,
     "price": 549.95,
@@ -502,7 +635,7 @@
     "imageAlt": "Riff™ Men's Endless Promise® Down Sleeping Bag",
     "sourceUrl": "https://www.nemoequipment.com/products/riff-mens-endless-promise-down-sleeping-bag",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:18:05Z",
+    "scrapedAt": "2026-07-03T14:46:10Z",
     "status": "draft",
     "published": true,
     "price": 399.95,
@@ -530,11 +663,38 @@
     "imageAlt": "Riff™ Women's Endless Promise® Down Sleeping Bag",
     "sourceUrl": "https://www.nemoequipment.com/products/riff-womens-endless-promise-down-sleeping-bag",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:18:05Z",
+    "scrapedAt": "2026-07-03T14:46:10Z",
     "status": "draft",
     "published": true,
     "price": 399.95,
     "priceMin": 359.95,
+    "priceMax": 449.95
+  },
+  {
+    "id": "nemo-roamer",
+    "brandId": "nemo",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Roamer™ Self-Inflating Mattress",
+    "modelEn": "Roamer™ Self-Inflating Mattress",
+    "description": "Roamer proves that camping doesn’t have to mean roughing it. With 4 inches of plush cushioning, it’s as comfortable as your bed at home — but packs up small enough to toss in the back of the car. Our Flow Core™ construction creates horizontal and vertical air channels that drastically speed up inflation and deflation. These same channels allow Roamer to pack smaller than the competition. The self-inflating pad also features a Laylow™ valve for fine-tuning firmness and a built-in one-way dump valve that makes deflation fast and easy when it’s time to pack up. Single and Single Wide sizes include toggles and loops to securely connect two pads for a larger sleep surface, perfect for couples. A stretch-knit top fabric adds extra softness, making every night outdoors feel cozy and inviting.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Pads",
+      "padType": "Self-inflating"
+    },
+    "highlights": [
+      "Roamer proves that camping doesn’t have to mean roughing it. With 4 inches of plush cushioning, it’s as comfortable as your bed at home — but packs up small enough to toss in the back of the car. Our Flow Core™ construction creates horizontal and vertical air channels that drastically speed up inflation and deflation. These same channels allow Roamer to pack smaller than the competition. The self-"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/kh8edqbdgap4y0nsjfje.jpg?v=1776198383",
+    "imageAlt": "Roamer™ Self-Inflating Mattress",
+    "sourceUrl": "https://www.nemoequipment.com/products/roamer",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-07-03T14:46:13Z",
+    "status": "draft",
+    "published": true,
+    "price": 259.95,
+    "priceMin": 259.95,
     "priceMax": 449.95
   },
   {
@@ -552,11 +712,11 @@
     "highlights": [
       "For hunts where weight and speed are the top concern, a simplified shelter is a must. The Scalar™ multi-configuration camp tarp enhances the protection of a classic tarp and includes time-saving details that ensure a quick setup and pack down — because when game is on the move, there’s no time to lose. Designed in collaboration with the experts at First Lite — and featuring their proprietary Ciphe"
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/Scalar_Browse_Image_Main.jpg?v=1744663316",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/lh0bwef1lo9tj0d2i8oq.jpg?v=1781806815",
     "imageAlt": "Scalar™ Multi-Configuration Camp Tarp",
     "sourceUrl": "https://www.nemoequipment.com/products/scalar-multi-configuration-camp-tarp",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:18:05Z",
+    "scrapedAt": "2026-07-03T14:46:06Z",
     "status": "draft",
     "published": true,
     "price": 124.95,
@@ -584,7 +744,7 @@
     "imageAlt": "Sonic™ Down Mummy Sleeping Bag",
     "sourceUrl": "https://www.nemoequipment.com/products/sonic-ultralight-mummy-sleeping-bag",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:18:05Z",
+    "scrapedAt": "2026-07-03T14:46:10Z",
     "status": "draft",
     "published": true,
     "price": 679.95,
@@ -612,12 +772,38 @@
     "imageAlt": "Soul™ Endless Promise® Synthetic Mummy Sleeping Bag",
     "sourceUrl": "https://www.nemoequipment.com/products/soul-endless-promise-synthetic-sleeping-bag",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:18:05Z",
+    "scrapedAt": "2026-07-03T14:46:10Z",
     "status": "draft",
     "published": true,
     "price": 299.95,
     "priceMin": 249.95,
     "priceMax": 339.95
+  },
+  {
+    "id": "nemo-switchback-ultralight-sleeping-pad",
+    "brandId": "nemo",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Switchback™ Ultralight Sleeping Pad",
+    "modelEn": "Switchback™ Ultralight Sleeping Pad",
+    "description": "With Switchback, NEMO has redefined the classic closed-cell foam sleeping pad to deliver more thickness and plush comfort in an industry-leading packed size. This pad features hexagonal nodes molded with our dual-density Axiotomic™ foam to create Hypnoelastic™ zones that conform to your body in a perfect balance of comfort and support. Switchback also leverages a metallized thermal film layer to efficiently reflect heat back to your body. Blend that with 15% more heat-trapping space, and this innovative new design is able to deliver a warmer, more comfortable sleep than other pads in this category.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Pads"
+    },
+    "highlights": [
+      "With Switchback, NEMO has redefined the classic closed-cell foam sleeping pad to deliver more thickness and plush comfort in an industry-leading packed size. This pad features hexagonal nodes molded with our dual-density Axiotomic™ foam to create Hypnoelastic™ zones that conform to your body in a perfect balance of comfort and support. Switchback also leverages a metallized thermal film layer to e"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/ljoxzmo1u6qaccutlmdg.png?v=1776198383",
+    "imageAlt": "Switchback™ Ultralight Sleeping Pad",
+    "sourceUrl": "https://www.nemoequipment.com/products/switchback-ultralight-sleeping-pad",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-07-03T14:46:13Z",
+    "status": "draft",
+    "published": true,
+    "price": 54.95,
+    "priceMin": 54.95,
+    "priceMax": 59.95
   },
   {
     "id": "nemo-tempo-mens-synthetic-sleeping-bag",
@@ -640,7 +826,7 @@
     "imageAlt": "Tempo™ Men's Endless Promise Synthetic Sleeping Bag",
     "sourceUrl": "https://www.nemoequipment.com/products/tempo-mens-synthetic-sleeping-bag",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:18:05Z",
+    "scrapedAt": "2026-07-03T14:46:10Z",
     "status": "draft",
     "published": true,
     "price": 169.95,
@@ -668,12 +854,116 @@
     "imageAlt": "Tempo™ Women's Endless Promise Synthetic Sleeping Bag",
     "sourceUrl": "https://www.nemoequipment.com/products/tempo-womens-synthetic-sleeping-bag",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:18:05Z",
+    "scrapedAt": "2026-07-03T14:46:10Z",
     "status": "draft",
     "published": true,
     "price": 169.95,
     "priceMin": 149.95,
     "priceMax": 199.95
+  },
+  {
+    "id": "nemo-tensor-extreme-ultralight-sleeping-pad",
+    "brandId": "nemo",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Tensor™ Extreme Conditions Ultralight Insulated Sleeping Pad",
+    "modelEn": "Tensor™ Extreme Conditions Ultralight Insulated Sleeping Pad",
+    "description": "Tensor™ Extreme Conditions represents a new chapter in NEMO backcountry pad innovation. With its Apex™ baffle internal structure, Tensor EC toasts the competition, achieving an 8.5 R-value and a mind-bending warmth-to-weight ratio. Now the warmest, most insulating ultralight pad on the market, it’s also still the quietest pad in its class. (Dreamy, right?) Using distinctly shaped baffles, the Apex™ design evenly suspends a record four layers of insulating Thermal Mirror™ film inside the pad. The strategic placement and number of layers combine to produce incredible warmth at as little as one pound, making this pad a winter-worthy companion that won’t weigh you down. Just as important, the floating construction prevents annoying crinkling noises so you and your camp partners can sleep soundly even on the most restless nights. Warmth, quiet, and 3.5 inches of stable cushioning together make Tensor synonymous with comfort. Tensor Extreme Conditions ushers in improved puncture-resistance and strength with a 40D nylon bottom to protect the pad from tougher terrain. Meanwhile, the premium 20D nylon top offers a soft, lightweight sleep surface. The pad’s Laylow™ valve also gets a polish, removing unnecessary elements and significantly improving the performance and ease of use in all conditions — especially colder temperatures. Plus, it still effortlessly pairs with our Vortex™ pump sack to inflate in mere minutes, without introducing excess moisture into the pad.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Pads"
+    },
+    "highlights": [
+      "Tensor™ Extreme Conditions represents a new chapter in NEMO backcountry pad innovation. With its Apex™ baffle internal structure, Tensor EC toasts the competition, achieving an 8.5 R-value and a mind-bending warmth-to-weight ratio. Now the warmest, most insulating ultralight pad on the market, it’s also still the quietest pad in its class. (Dreamy, right?) Using distinctly shaped baffles, the Apex"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/z5v1ggic21gjdrsaq7oy.jpg?v=1776198387",
+    "imageAlt": "Tensor™ Extreme Conditions Ultralight Insulated Sleeping Pad",
+    "sourceUrl": "https://www.nemoequipment.com/products/tensor-extreme-ultralight-sleeping-pad",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-07-03T14:46:13Z",
+    "status": "draft",
+    "published": true,
+    "price": 259.95,
+    "priceMin": 259.95,
+    "priceMax": 299.95
+  },
+  {
+    "id": "nemo-tensor-trail-insulated-ultralight-sleeping-pad",
+    "brandId": "nemo",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Tensor™ Trail Ultralight Insulated Sleeping Pad",
+    "modelEn": "Tensor™ Trail Ultralight Insulated Sleeping Pad",
+    "description": "Improving on our original, best-selling Tensor line, Tensor™ Trail offers versatile warmth for three-season adventures where weight is the top priority. Designed to take you from spring to fall, it keeps nights restful and packs up light. The pad’s interior features NEMO’s proprietary Spaceframe™ baffle design, which utilizes low-stretch fabric trusses to create stable support and offer just the right amount of give — all while avoiding any wobbly waterbed feeling. Inside each baffle is a suspended layer of ultra-thin, metallized Thermal Mirror™ film, which efficiently reflects body heat and contributes to the pad’s overall 2.8 R-value. The layer’s clever floating construction eliminates the crinkling, crunchy sound that many insulated air pads are known for, earning Tensor a reputation for peace and quiet under the stars. Armed with premium, durable 20D (top) and 40D (bottom) nylon, Tensor Trail is better protected against punctures and tears, and — like all NEMO sleeping pads — it includes a Vortex™ pump sack. Vortex effortlessly mates with the pad’s zero-profile, microadjustable Laylow™ valve for easy inflation in just minutes.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Pads"
+    },
+    "highlights": [
+      "Improving on our original, best-selling Tensor line, Tensor™ Trail offers versatile warmth for three-season adventures where weight is the top priority. Designed to take you from spring to fall, it keeps nights restful and packs up light. The pad’s interior features NEMO’s proprietary Spaceframe™ baffle design, which utilizes low-stretch fabric trusses to create stable support and offer just the r"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/g3mems3bqscwyusiygep.jpg?v=1776198391",
+    "imageAlt": "Tensor™ Trail Ultralight Insulated Sleeping Pad",
+    "sourceUrl": "https://www.nemoequipment.com/products/tensor-trail-insulated-ultralight-sleeping-pad",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-07-03T14:46:13Z",
+    "status": "draft",
+    "published": true,
+    "price": 189.95,
+    "priceMin": 189.95,
+    "priceMax": 219.95
+  },
+  {
+    "id": "nemo-tensor-all-season-insulated-sleeping-pad",
+    "brandId": "nemo",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Tensor™ All-Season Ultralight Insulated Sleeping Pad",
+    "modelEn": "Tensor™ All-Season Ultralight Insulated Sleeping Pad",
+    "description": "Improving on our best-selling original Tensor line, Tensor™ All-Season offers greater warmth for four-season use without adding any weight. Designed to be a go-to pad all year long, it straddles all seasons and keeps its reputation for low-decibel dozing. The pad’s interior features NEMO’s proprietary Spaceframe™ baffle design, which utilizes low-stretch fabric trusses to create stable support and offer just the right amount of give — all while avoiding any wobbly waterbed feeling. Inside each baffle are two suspended layers of ultra-thin, metallized Thermal Mirror™ film, which efficiently reflect body heat and contribute to the pad’s overall 5.4 R-value. The layers’ clever floating construction eliminates the crinkling, crunchy sound that many insulated air pads are known for, earning Tensor a reputation for peace and quiet on the trail. Armed with premium, durable 20D (top) and 40D (bottom) nylon, Tensor All-Season is better protected against punctures and tears, and — like all NEMO sleeping pads — it includes a Vortex™ pump sack. Vortex effortlessly mates with the pad’s zero-profile, microadjustable Laylow™ valve for easy inflation in just minutes.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Pads"
+    },
+    "highlights": [
+      "Improving on our best-selling original Tensor line, Tensor™ All-Season offers greater warmth for four-season use without adding any weight. Designed to be a go-to pad all year long, it straddles all seasons and keeps its reputation for low-decibel dozing. The pad’s interior features NEMO’s proprietary Spaceframe™ baffle design, which utilizes low-stretch fabric trusses to create stable support and"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/upvd6kpv23f4cxosmt4x.jpg?v=1776198384",
+    "imageAlt": "Tensor™ All-Season Ultralight Insulated Sleeping Pad",
+    "sourceUrl": "https://www.nemoequipment.com/products/tensor-all-season-insulated-sleeping-pad",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-07-03T14:46:13Z",
+    "status": "draft",
+    "published": true,
+    "price": 199.95,
+    "priceMin": 199.95,
+    "priceMax": 259.95
+  },
+  {
+    "id": "nemo-tensor-elite-ultralight-sleeping-pad",
+    "brandId": "nemo",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Tensor™ Elite Ultralight Insulated Sleeping Pad",
+    "modelEn": "Tensor™ Elite Ultralight Insulated Sleeping Pad",
+    "description": "The lightest Tensor ever made, Tensor™ Elite is NEMO’s sleeping pad solution for hyper-streamlined hikers. Offered only in gram-shaving mummy silhouettes, the 2.4 R-value pad is made using 10D CORDURA® nylon to protect from punctures and insulated with a single layer of Thermal Mirror™ film for an ethereal 240-gram weight. Made using our innovative Apex™ baffle system, Tensor Elite boasts the even weight distribution and stable comfort the pad series is known for — but does so while using less material. At 3 inches thick, Tensor Elite still provides plenty of plush cushioning and is whisper-quiet all night long, proving that you don’t need to sacrifice quality sleep when you’re on the trail. Like all NEMO air pads, this one is outfitted with a Laylow™ valve that pairs with the included Vortex™ pump sack for easy, rapid inflation. (Tensor Elite can be inflated without Vortex, too — but we promise it’s a worthwhile addition of just a couple ounces.)",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Pads"
+    },
+    "highlights": [
+      "The lightest Tensor ever made, Tensor™ Elite is NEMO’s sleeping pad solution for hyper-streamlined hikers. Offered only in gram-shaving mummy silhouettes, the 2.4 R-value pad is made using 10D CORDURA® nylon to protect from punctures and insulated with a single layer of Thermal Mirror™ film for an ethereal 240-gram weight. Made using our innovative Apex™ baffle system, Tensor Elite boasts the even"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/s6kshgf8swenb4u8nue5.jpg?v=1776198384",
+    "imageAlt": "Tensor™ Elite Ultralight Insulated Sleeping Pad",
+    "sourceUrl": "https://www.nemoequipment.com/products/tensor-elite-ultralight-sleeping-pad",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-07-03T14:46:13Z",
+    "status": "draft",
+    "published": true,
+    "price": 199.95,
+    "priceMin": 199.95,
+    "priceMax": 259.95
   },
   {
     "id": "nemo-victory-screenhouse-camp-shelter",
@@ -694,11 +984,39 @@
     "imageAlt": "Victory™ Screenhouse Camp Shelter",
     "sourceUrl": "https://www.nemoequipment.com/products/victory-screenhouse-camp-shelter",
     "sourceSite": "nemoequipment.com",
-    "scrapedAt": "2026-06-11T15:18:05Z",
+    "scrapedAt": "2026-07-03T14:46:06Z",
     "status": "draft",
     "published": true,
     "price": 499.95,
     "priceMin": 499.95,
     "priceMax": 499.95
+  },
+  {
+    "id": "nemo-vortex-pump-sack",
+    "brandId": "nemo",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Vortex™ Pump Sack",
+    "modelEn": "Vortex™ Pump Sack",
+    "description": "Filling your air pad just got a lot faster and easier with the new Vortex™ high-capacity pump sack. This smartly designed pump sack features a massive chamber that fills with ease, a stay-open collar for hassle-free inflation, and durable ultralight PU polyester that rolls up without adding bulk. Vortex™ fills a regular air pad completely with 2-3 fills and greatly reduces the amount of moisture that enters the pad.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Pads",
+      "padType": "Air pad",
+      "size": "Regular"
+    },
+    "highlights": [
+      "Filling your air pad just got a lot faster and easier with the new Vortex™ high-capacity pump sack. This smartly designed pump sack features a massive chamber that fills with ease, a stay-open collar for hassle-free inflation, and durable ultralight PU polyester that rolls up without adding bulk. Vortex™ fills a regular air pad completely with 2-3 fills and greatly reduces the amount of moisture t"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0582/1136/9133/files/p7gorcrckbjysaq0suii.png?v=1776198393",
+    "imageAlt": "Vortex™ Pump Sack",
+    "sourceUrl": "https://www.nemoequipment.com/products/vortex-pump-sack",
+    "sourceSite": "nemoequipment.com",
+    "scrapedAt": "2026-07-03T14:46:13Z",
+    "status": "draft",
+    "published": true,
+    "price": 29.95,
+    "priceMin": 29.95,
+    "priceMax": 29.95
   }
 ]

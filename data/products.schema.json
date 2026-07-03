@@ -18,7 +18,7 @@
     "brandId": { "type": "string" },
     "category": {
       "type": "string",
-      "enum": ["tent", "tarp", "sleeping-bag", "stove", "table", "chair", "other"]
+      "enum": ["tent", "tarp", "sleeping-bag", "sleeping-pad", "stove", "table", "chair", "other"]
     },
     "subcategory": { "type": "string" },
     "model": { "type": "string", "minLength": 1 },
@@ -41,7 +41,10 @@
         "tarpType": { "type": "string" },
         "bagType": { "type": "string" },
         "fillType": { "type": "string" },
-        "comfortTemp": { "type": "string" }
+        "comfortTemp": { "type": "string" },
+        "padType": { "type": "string" },
+        "rValue": { "type": "string" },
+        "thickness": { "type": "string" }
       },
       "additionalProperties": true
     },
@@ -75,6 +78,9 @@
     "bagType": { "type": "string" },
     "fillType": { "type": "string" },
     "comfortTemp": { "type": "string" },
+    "padType": { "type": "string" },
+    "rValue": { "type": "string" },
+    "thickness": { "type": "string" },
     "scenarios": {
       "type": "array",
       "items": { "type": "string" }

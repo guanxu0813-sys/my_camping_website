@@ -1,11 +1,241 @@
 [
   {
+    "id": "mobi-garden-dawa-kolon-sleeping-bag-35-f-20-f-5-f",
+    "brandId": "mobi-garden",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Dawa Kolon Sleeping Bag - 35°F/20°F/5°F",
+    "modelEn": "Dawa Kolon Sleeping Bag - 35°F/20°F/5°F",
+    "description": "On the Tibetan Plateau, the cold doesn't give warning. Above 4,000 meters, a 20°C temperature drop between afternoon sun and midnight is not an extreme event — it is the standard condition. The Hengduan design team spent seven nights at altitude in sub-zero base camps to find where goose down sleeping bags fail: shoulder seams, footbox compression, fill migration over a season. DAWA was built from those seven nights. goose down. A bag that holds its warmth through the coldest hour — the one just before dawn. DAWA is the Tibetan word for moon. On the plateau, it is the only light that holds through the night.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Bag",
+      "comfortTemp": "35°F",
+      "fillType": "羽绒",
+      "bagType": "Sleeping Bag"
+    },
+    "highlights": [
+      "On the Tibetan Plateau, the cold doesn't give warning. Above 4,000 meters, a 20°C temperature drop between afternoon sun and midnight is not an extreme event — it is the standard condition. The Hengduan design team spent seven nights at altitude in sub-zero base camps to find where goose down sleeping bags fail: shoulder seams, footbox compression, fill migration over a season. DAWA was built from"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/sku1_26eb1a38-72ac-43c6-9e0d-1ef50b7805df.webp?v=1782977316",
+    "imageAlt": "Dawa Kolon Sleeping Bag - 35°F/20°F/5°F",
+    "sourceUrl": "https://www.mobigarden.com/products/dawa-kolon-sleeping-bag-35-f-20-f-5-f",
+    "sourceSite": "mobigarden.com",
+    "scrapedAt": "2026-07-03T14:46:38Z",
+    "status": "draft",
+    "published": false,
+    "price": 549.99,
+    "priceMin": 549.99,
+    "priceMax": 999.99
+  },
+  {
+    "id": "mobi-garden-dawa-sleeping-bag-15-f-alpine-sage",
+    "brandId": "mobi-garden",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Dawa Sleeping Bag -15°F - Alpine / Sage",
+    "modelEn": "Dawa Sleeping Bag -15°F - Alpine / Sage",
+    "description": "On the Tibetan Plateau, the cold doesn't give warning. Above 4,000 meters, a 20°C temperature drop between afternoon sun and midnight is not an extreme event — it is the standard condition. The Hengduan design team spent seven nights at altitude in sub-zero base camps to find where goose down sleeping bags fail: shoulder seams, footbox compression, fill migration over a season. DAWA was built from those seven nights. goose down. A bag that holds its warmth through the coldest hour — the one just before dawn. DAWA is the Tibetan word for moon. On the plateau, it is the only light that holds through the night.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Bag",
+      "comfortTemp": "15°F",
+      "fillType": "羽绒",
+      "bagType": "Sleeping Bag"
+    },
+    "highlights": [
+      "On the Tibetan Plateau, the cold doesn't give warning. Above 4,000 meters, a 20°C temperature drop between afternoon sun and midnight is not an extreme event — it is the standard condition. The Hengduan design team spent seven nights at altitude in sub-zero base camps to find where goose down sleeping bags fail: shoulder seams, footbox compression, fill migration over a season. DAWA was built from"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/sku1_3f2e1c2a-e23d-4f9f-8b0d-9bff10df9a2f.webp?v=1782881730",
+    "imageAlt": "Dawa Sleeping Bag -15°F - Alpine / Sage",
+    "sourceUrl": "https://www.mobigarden.com/products/dawa-sleeping-bag-15-f-alpine-sage",
+    "sourceSite": "mobigarden.com",
+    "scrapedAt": "2026-07-03T14:46:38Z",
+    "status": "draft",
+    "published": false,
+    "price": 949.99,
+    "priceMin": 949.99,
+    "priceMax": 999.99
+  },
+  {
+    "id": "mobi-garden-dawa-sleeping-bag-15-f-stellar-indigo",
+    "brandId": "mobi-garden",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Dawa Sleeping Bag -15°F - Stellar / Indigo",
+    "modelEn": "Dawa Sleeping Bag -15°F - Stellar / Indigo",
+    "description": "On the Tibetan Plateau, the cold doesn't give warning. Above 4,000 meters, a 20°C temperature drop between afternoon sun and midnight is not an extreme event — it is the standard condition. The Hengduan design team spent seven nights at altitude in sub-zero base camps to find where goose down sleeping bags fail: shoulder seams, footbox compression, fill migration over a season. DAWA was built from those seven nights. goose down. A bag that holds its warmth through the coldest hour — the one just before dawn. DAWA is the Tibetan word for moon. On the plateau, it is the only light that holds through the night.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Bag",
+      "comfortTemp": "15°F",
+      "fillType": "羽绒",
+      "bagType": "Sleeping Bag"
+    },
+    "highlights": [
+      "On the Tibetan Plateau, the cold doesn't give warning. Above 4,000 meters, a 20°C temperature drop between afternoon sun and midnight is not an extreme event — it is the standard condition. The Hengduan design team spent seven nights at altitude in sub-zero base camps to find where goose down sleeping bags fail: shoulder seams, footbox compression, fill migration over a season. DAWA was built from"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/sku1_4b0b27e6-82fe-4607-946c-48f8f8b75f0b.webp?v=1782881574",
+    "imageAlt": "Dawa Sleeping Bag -15°F - Stellar / Indigo",
+    "sourceUrl": "https://www.mobigarden.com/products/dawa-sleeping-bag-15-f-stellar-indigo",
+    "sourceSite": "mobigarden.com",
+    "scrapedAt": "2026-07-03T14:46:38Z",
+    "status": "draft",
+    "published": false,
+    "price": 949.99,
+    "priceMin": 949.99,
+    "priceMax": 999.99
+  },
+  {
+    "id": "mobi-garden-dawa-sleeping-bag-5-f-moraine-khaki",
+    "brandId": "mobi-garden",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Dawa Sleeping Bag 5°F - Moraine / Khaki",
+    "modelEn": "Dawa Sleeping Bag 5°F - Moraine / Khaki",
+    "description": "On the Tibetan Plateau, the cold doesn't give warning. Above 4,000 meters, a 20°C temperature drop between afternoon sun and midnight is not an extreme event — it is the standard condition. The Hengduan design team spent seven nights at altitude in sub-zero base camps to find where goose down sleeping bags fail: shoulder seams, footbox compression, fill migration over a season. DAWA was built from those seven nights. goose down. A bag that holds its warmth through the coldest hour — the one just before dawn. DAWA is the Tibetan word for moon. On the plateau, it is the only light that holds through the night.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Bag",
+      "comfortTemp": "5°F",
+      "fillType": "羽绒",
+      "bagType": "Sleeping Bag"
+    },
+    "highlights": [
+      "On the Tibetan Plateau, the cold doesn't give warning. Above 4,000 meters, a 20°C temperature drop between afternoon sun and midnight is not an extreme event — it is the standard condition. The Hengduan design team spent seven nights at altitude in sub-zero base camps to find where goose down sleeping bags fail: shoulder seams, footbox compression, fill migration over a season. DAWA was built from"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/sku1_af2765c1-7024-4ca4-9d0c-b209416f87fa.webp?v=1782881867",
+    "imageAlt": "Dawa Sleeping Bag 5°F - Moraine / Khaki",
+    "sourceUrl": "https://www.mobigarden.com/products/dawa-sleeping-bag-5-f-moraine-khaki",
+    "sourceSite": "mobigarden.com",
+    "scrapedAt": "2026-07-03T14:46:38Z",
+    "status": "draft",
+    "published": false,
+    "price": 749.99,
+    "priceMin": 749.99,
+    "priceMax": 799.99
+  },
+  {
+    "id": "mobi-garden-mobi-garden-gennye-pro-ultralight-insulated-sleeping-pad-mummy-regular-fish-profile-r-value-8-8",
+    "brandId": "mobi-garden",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Gennye Pro Insulated Air Sleeping Pad - Mummy Regular - R-Value 8.8",
+    "modelEn": "Gennye Pro Insulated Air Sleeping Pad - Mummy Regular - R-Value 8.8",
+    "description": "Three R-value tiers — R3.9, R6, R8.8 — each ASTM-tested and mapped to a defined temperature band. HexCore™ three-dimensional honeycomb cells hold Mylar in discrete volumes, maintaining thermal geometry under body weight where flat-layer construction compresses. Available in mummy-style fish-profile and rectangular configurations, including a 76.8×51.2 in (195×130cm) double. 20D silver-coated nylon TPU face, MirrorBase™ base, CrozzValve™ valve.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Pads",
+      "rValue": "R8.8",
+      "padType": "Air pad",
+      "size": "Regular"
+    },
+    "highlights": [
+      "Three R-value tiers — R3.9, R6, R8.8 — each ASTM-tested and mapped to a defined temperature band. HexCore™ three-dimensional honeycomb cells hold Mylar in discrete volumes, maintaining thermal geometry under body weight where flat-layer construction compresses. Available in mummy-style fish-profile and rectangular configurations, including a 76.8×51.2 in (195×130cm) double. 20D silver-coated nylon"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/sku1_ded05ea4-3dac-4686-ba59-c5c2ecc8cff4.webp?v=1782976469",
+    "imageAlt": "Gennye Pro Insulated Air Sleeping Pad - Mummy Regular - R-Value 8.8",
+    "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-gennye-pro-ultralight-insulated-sleeping-pad-mummy-regular-fish-profile-r-value-8-8",
+    "sourceSite": "mobigarden.com",
+    "scrapedAt": "2026-07-03T14:46:41Z",
+    "status": "draft",
+    "published": true,
+    "price": 103.99,
+    "priceMin": 103.99,
+    "priceMax": 103.99
+  },
+  {
+    "id": "mobi-garden-mobi-garden-gennye-pro-ultralight-insulated-sleeping-pad-rectangular-double-r-value-3-9",
+    "brandId": "mobi-garden",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Gennye Pro Insulated Air Sleeping Pad - Rectangular Double - R-Value 3.9",
+    "modelEn": "Gennye Pro Insulated Air Sleeping Pad - Rectangular Double - R-Value 3.9",
+    "description": "Three R-value tiers — R3.9, R6, R8.8 — each ASTM-tested and mapped to a defined temperature band. HexCore™ three-dimensional honeycomb cells hold Mylar in discrete volumes, maintaining thermal geometry under body weight where flat-layer construction compresses. Available in mummy-style fish-profile and rectangular configurations, including a 76.8×51.2 in (195×130cm) double. 20D silver-coated nylon TPU face, MirrorBase™ base, CrozzValve™ valve.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Pads",
+      "rValue": "R3.9",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "Three R-value tiers — R3.9, R6, R8.8 — each ASTM-tested and mapped to a defined temperature band. HexCore™ three-dimensional honeycomb cells hold Mylar in discrete volumes, maintaining thermal geometry under body weight where flat-layer construction compresses. Available in mummy-style fish-profile and rectangular configurations, including a 76.8×51.2 in (195×130cm) double. 20D silver-coated nylon"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/sku1_fe8f626d-3e11-4f5b-a2d0-f45c0a06aa3b.webp?v=1782881098",
+    "imageAlt": "Gennye Pro Insulated Air Sleeping Pad - Rectangular Double - R-Value 3.9",
+    "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-gennye-pro-ultralight-insulated-sleeping-pad-rectangular-double-r-value-3-9",
+    "sourceSite": "mobigarden.com",
+    "scrapedAt": "2026-07-03T14:46:41Z",
+    "status": "draft",
+    "published": true,
+    "price": 111.99,
+    "priceMin": 111.99,
+    "priceMax": 111.99
+  },
+  {
+    "id": "mobi-garden-mobi-garden-gennye-pro-ultralight-insulated-sleeping-pad-rectangular-large-r-value-8-8",
+    "brandId": "mobi-garden",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Gennye Pro Insulated Air Sleeping Pad - Rectangular Large - R-Value 8.8",
+    "modelEn": "Gennye Pro Insulated Air Sleeping Pad - Rectangular Large - R-Value 8.8",
+    "description": "Three R-value tiers — R3.9, R6, R8.8 — each ASTM-tested and mapped to a defined temperature band. HexCore™ three-dimensional honeycomb cells hold Mylar in discrete volumes, maintaining thermal geometry under body weight where flat-layer construction compresses. Available in mummy-style fish-profile and rectangular configurations, including a 76.8×51.2 in (195×130cm) double. 20D silver-coated nylon TPU face, MirrorBase™ base, CrozzValve™ valve.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Pads",
+      "rValue": "R8.8",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "Three R-value tiers — R3.9, R6, R8.8 — each ASTM-tested and mapped to a defined temperature band. HexCore™ three-dimensional honeycomb cells hold Mylar in discrete volumes, maintaining thermal geometry under body weight where flat-layer construction compresses. Available in mummy-style fish-profile and rectangular configurations, including a 76.8×51.2 in (195×130cm) double. 20D silver-coated nylon"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/sku1_8861dfed-45fa-4c86-8e84-f836e21d014c.webp?v=1782881287",
+    "imageAlt": "Gennye Pro Insulated Air Sleeping Pad - Rectangular Large - R-Value 8.8",
+    "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-gennye-pro-ultralight-insulated-sleeping-pad-rectangular-large-r-value-8-8",
+    "sourceSite": "mobigarden.com",
+    "scrapedAt": "2026-07-03T14:46:41Z",
+    "status": "draft",
+    "published": true,
+    "price": 111.99,
+    "priceMin": 111.99,
+    "priceMax": 111.99
+  },
+  {
+    "id": "mobi-garden-mobi-garden-gennye-xt-ultralight-insulated-sleeping-pad-mummy-regularfish-profile-r-value-6-5",
+    "brandId": "mobi-garden",
+    "category": "sleeping-pad",
+    "subcategory": "Sleeping Pads",
+    "model": "Gennye XT™ Insulated Air Sleeping Pad - Mummy Regular - R-Value 6.5",
+    "modelEn": "Gennye XT™ Insulated Air Sleeping Pad - Mummy Regular - R-Value 6.5",
+    "description": "R6.5 ASTM-tested, 14.1 oz (400g), 3.5 in (9cm) thick — one configuration, fully resolved. AcoustiLayer™ mechanically decouples metallized Mylar from the 20D face fabric, eliminating friction-driven crinkling while adding a secondary thermal reflective layer. MirrorBase™ silver-coated base increases puncture and abrasion resistance at the ground contact surface. CrozzValve™ separates inflation and deflation into independent mechanical paths.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Sleeping Pads",
+      "rValue": "R6.5",
+      "padType": "Air pad",
+      "size": "Regular"
+    },
+    "highlights": [
+      "R6.5 ASTM-tested, 14.1 oz (400g), 3.5 in (9cm) thick — one configuration, fully resolved. AcoustiLayer™ mechanically decouples metallized Mylar from the 20D face fabric, eliminating friction-driven crinkling while adding a secondary thermal reflective layer. MirrorBase™ silver-coated base increases puncture and abrasion resistance at the ground contact surface. CrozzValve™ separates inflation and "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/sku1.webp?v=1782880973",
+    "imageAlt": "Gennye XT™ Insulated Air Sleeping Pad - Mummy Regular - R-Value 6.5",
+    "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-gennye-xt-ultralight-insulated-sleeping-pad-mummy-regularfish-profile-r-value-6-5",
+    "sourceSite": "mobigarden.com",
+    "scrapedAt": "2026-07-03T14:46:41Z",
+    "status": "draft",
+    "published": true,
+    "price": 179.99,
+    "priceMin": 179.99,
+    "priceMax": 179.99
+  },
+  {
     "id": "mobi-garden-mobi-garden-kawa-ul-exo-flextm-backpacking-tent",
     "brandId": "mobi-garden",
     "category": "tent",
     "subcategory": "Backpacking Tents",
-    "model": "Mobi Garden KAWA UL EXO-FLEX™ BACKPACKING TENT",
-    "modelEn": "Mobi Garden KAWA UL EXO-FLEX™ BACKPACKING TENT",
+    "model": "Kawa Exo-Flex™ Backpacking Tent",
+    "modelEn": "Kawa Exo-Flex™ Backpacking Tent",
     "description": "2 lb 13 oz (1.27 kg) minimum weight — lightest tent in the EXO-FLEX™ series. ExoSpeedFlex deploys the outer shell first; dual Y-poles at head and foot raise interior headroom at the entry point and shoulder zone, trading wind ceiling for habitable volume. 20D Ripstop Nylon throughout, 36 mph (16 m/s) wind-tested. Three-season, 2P.",
     "currency": "USD",
     "specs": {
@@ -18,20 +248,20 @@
     "imageAlt": "Mobi Garden KAWA UL EXO-FLEX™ BACKPACKING TENT",
     "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-kawa-ul-exo-flextm-backpacking-tent",
     "sourceSite": "mobigarden.com",
-    "scrapedAt": "2026-06-11T15:17:16Z",
+    "scrapedAt": "2026-07-03T14:46:31Z",
     "status": "draft",
     "published": true,
-    "price": 279.99,
-    "priceMin": 279.99,
-    "priceMax": 279.99
+    "price": 259.99,
+    "priceMin": 259.99,
+    "priceMax": 259.99
   },
   {
     "id": "mobi-garden-mobi-garden-kongar-ul-exo-flextm-backpacking-tent-alpenglow-glow",
     "brandId": "mobi-garden",
     "category": "tent",
     "subcategory": "Backpacking Tents",
-    "model": "Mobi Garden KONGAR UL EXO-FLEX™ BACKPACKING TENT",
-    "modelEn": "Mobi Garden KONGAR UL EXO-FLEX™ BACKPACKING TENT",
+    "model": "Kongar Exo-Flex™ Backpacking Tent",
+    "modelEn": "Kongar Exo-Flex™ Backpacking Tent",
     "description": "Built for multi-day Hengduan backpacking — Force 8 conditions, exposed ridgeline, no flat ground. ExoSpeedFlex deploys the outer shell first; the inner tent never contacts rain during the 60-second three-step pitch. 20D Ripstop Nylon throughout, 3,000mm HH fly and 4,000mm HH floor. FFP™ FeatherFlex Poles. 3 lb 3 oz (1.45 kg) minimum weight, 2P.",
     "currency": "USD",
     "specs": {
@@ -44,20 +274,20 @@
     "imageAlt": "Mobi Garden KONGAR UL EXO-FLEX™ BACKPACKING TENT",
     "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-kongar-ul-exo-flextm-backpacking-tent-alpenglow-glow",
     "sourceSite": "mobigarden.com",
-    "scrapedAt": "2026-06-11T15:17:16Z",
+    "scrapedAt": "2026-07-03T14:46:31Z",
     "status": "draft",
     "published": true,
-    "price": 303.99,
-    "priceMin": 303.99,
-    "priceMax": 303.99
+    "price": 299.99,
+    "priceMin": 299.99,
+    "priceMax": 299.99
   },
   {
     "id": "mobi-garden-mobi-garden-kongar-ul-exo-flextm-backpacking-tent-alpenglow-cloud",
     "brandId": "mobi-garden",
     "category": "tent",
     "subcategory": "Backpacking Tents",
-    "model": "Mobi Garden KONGAR UL EXO-FLEX™ BACKPACKING TENT",
-    "modelEn": "Mobi Garden KONGAR UL EXO-FLEX™ BACKPACKING TENT",
+    "model": "Kongar Exo-Flex™ Backpacking Tent",
+    "modelEn": "Kongar Exo-Flex™ Backpacking Tent",
     "description": "Built for multi-day Hengduan backpacking — Force 8 conditions, exposed ridgeline, no flat ground. ExoSpeedFlex deploys the outer shell first; the inner tent never contacts rain during the 60-second three-step pitch. 20D Ripstop Nylon throughout, 3,000mm HH fly and 4,000mm HH floor. FFP™ FeatherFlex Poles. 3 lb 3 oz (1.45 kg) minimum weight, 2P.",
     "currency": "USD",
     "specs": {
@@ -70,20 +300,20 @@
     "imageAlt": "Mobi Garden KONGAR UL EXO-FLEX™ BACKPACKING TENT",
     "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-kongar-ul-exo-flextm-backpacking-tent-alpenglow-cloud",
     "sourceSite": "mobigarden.com",
-    "scrapedAt": "2026-06-11T15:17:16Z",
+    "scrapedAt": "2026-07-03T14:46:31Z",
     "status": "draft",
     "published": true,
-    "price": 303.99,
-    "priceMin": 303.99,
-    "priceMax": 303.99
+    "price": 299.99,
+    "priceMin": 299.99,
+    "priceMax": 299.99
   },
   {
     "id": "mobi-garden-mobi-garden-kora-ul-exo-flextm-backpacking-tent",
     "brandId": "mobi-garden",
     "category": "tent",
     "subcategory": "Backpacking Tents",
-    "model": "Mobi Garden KORA UL EXO-FLEX™ BACKPACKING TENT",
-    "modelEn": "Mobi Garden KORA UL EXO-FLEX™ BACKPACKING TENT",
+    "model": "Kora Exo-Flex™ Backpacking Tent",
+    "modelEn": "Kora Exo-Flex™ Backpacking Tent",
     "description": "ForeBow™ asymmetric front pole raises entry height and extends vestibule volume on the single-door side — built for long traverses where pack-on entry and covered cook space matter more than symmetric geometry. ExoSpeedFlex deploys the outer shell first; inner tent stays shielded throughout the 60-second pitch. 20D Ripstop Nylon throughout, FFP™ FeatherFlex Poles, Force 8 validated. 3 lb 3 oz (1.45 kg) minimum weight.",
     "currency": "USD",
     "specs": {
@@ -96,78 +326,23 @@
     "imageAlt": "Mobi Garden KORA UL EXO-FLEX™ BACKPACKING TENT",
     "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-kora-ul-exo-flextm-backpacking-tent",
     "sourceSite": "mobigarden.com",
-    "scrapedAt": "2026-06-11T15:17:16Z",
+    "scrapedAt": "2026-07-03T14:46:31Z",
     "status": "draft",
     "published": true,
-    "price": 311.99,
-    "priceMin": 311.99,
-    "priceMax": 311.99
-  },
-  {
-    "id": "mobi-garden-mobi-garden-lunta-pro-backpacking-tent-alpenglow-cloud-2-person",
-    "brandId": "mobi-garden",
-    "category": "tent",
-    "subcategory": "Backpacking Tents",
-    "model": "Mobi Garden LUNTA PRO BACKPACKING TENT - Alpenglow / Cloud - 2 Person",
-    "modelEn": "Mobi Garden LUNTA PRO BACKPACKING TENT - Alpenglow / Cloud - 2 Person",
-    "description": "CompWeave™ 30D nylon-polyester composite fly — higher abrasion resistance than equivalent-weight pure nylon, 2,000mm HH waterproofness. X-pole freestanding architecture pitches inner-first on any surface without terrain dependency. Available in 2P and 3P with the same pole geometry and pitch sequence. 30D Ripstop Nylon floor, 3,000mm HH. From 3 lb 11 oz (1.67 kg) minimum weight.",
-    "currency": "USD",
-    "specs": {
-      "capacity": "2 人",
-      "structure": "Tents"
-    },
-    "highlights": [
-      "CompWeave™ 30D nylon-polyester composite fly — higher abrasion resistance than equivalent-weight pure nylon, 2,000mm HH waterproofness. X-pole freestanding architecture pitches inner-first on any surface without terrain dependency. Available in 2P and 3P with the same pole geometry and pitch sequence. 30D Ripstop Nylon floor, 3,000mm HH. From 3 lb 11 oz (1.67 kg) minimum weight."
-    ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/1_5521cadd-474c-481b-873e-a021b09bea7b.webp?v=1780925241",
-    "imageAlt": "Mobi Garden LUNTA PRO BACKPACKING TENT - Alpenglow / Cloud - 2 Person",
-    "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-lunta-pro-backpacking-tent-alpenglow-cloud-2-person",
-    "sourceSite": "mobigarden.com",
-    "scrapedAt": "2026-06-11T15:17:16Z",
-    "status": "draft",
-    "published": true,
-    "price": 207.99,
-    "priceMin": 207.99,
-    "priceMax": 207.99
-  },
-  {
-    "id": "mobi-garden-mobi-garden-lunta-pro-backpacking-tent-alpenglow-cloud-3-person",
-    "brandId": "mobi-garden",
-    "category": "tent",
-    "subcategory": "Backpacking Tents",
-    "model": "Mobi Garden LUNTA PRO BACKPACKING TENT - Alpenglow / Cloud - 3 Person",
-    "modelEn": "Mobi Garden LUNTA PRO BACKPACKING TENT - Alpenglow / Cloud - 3 Person",
-    "description": "CompWeave™ 30D nylon-polyester composite fly — higher abrasion resistance than equivalent-weight pure nylon, 2,000mm HH waterproofness. X-pole freestanding architecture pitches inner-first on any surface without terrain dependency. Available in 2P and 3P with the same pole geometry and pitch sequence. 30D Ripstop Nylon floor, 3,000mm HH. From 3 lb 11 oz (1.67 kg) minimum weight.",
-    "currency": "USD",
-    "specs": {
-      "capacity": "3 人",
-      "structure": "Tents"
-    },
-    "highlights": [
-      "CompWeave™ 30D nylon-polyester composite fly — higher abrasion resistance than equivalent-weight pure nylon, 2,000mm HH waterproofness. X-pole freestanding architecture pitches inner-first on any surface without terrain dependency. Available in 2P and 3P with the same pole geometry and pitch sequence. 30D Ripstop Nylon floor, 3,000mm HH. From 3 lb 11 oz (1.67 kg) minimum weight."
-    ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/1_cb1dd494-dbfa-43c9-a4cd-7752c07aa289.webp?v=1780926649",
-    "imageAlt": "Mobi Garden LUNTA PRO BACKPACKING TENT - Alpenglow / Cloud - 3 Person",
-    "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-lunta-pro-backpacking-tent-alpenglow-cloud-3-person",
-    "sourceSite": "mobigarden.com",
-    "scrapedAt": "2026-06-11T15:17:16Z",
-    "status": "draft",
-    "published": true,
-    "price": 231.99,
-    "priceMin": 231.99,
-    "priceMax": 231.99
+    "price": 299.99,
+    "priceMin": 299.99,
+    "priceMax": 299.99
   },
   {
     "id": "mobi-garden-mobi-garden-lunta-pro-backpacking-tent-quartz-pink",
     "brandId": "mobi-garden",
     "category": "tent",
     "subcategory": "Backpacking Tents",
-    "model": "Mobi Garden LUNTA PRO BACKPACKING TENT - Quartz Pink - 2 Person",
-    "modelEn": "Mobi Garden LUNTA PRO BACKPACKING TENT - Quartz Pink - 2 Person",
+    "model": "Lunta Backpacking Tent",
+    "modelEn": "Lunta Backpacking Tent",
     "description": "CompWeave™ 30D nylon-polyester composite fly — higher abrasion resistance than equivalent-weight pure nylon, 2,000mm HH waterproofness. X-pole freestanding architecture pitches inner-first on any surface without terrain dependency. Available in 2P and 3P with the same pole geometry and pitch sequence. 30D Ripstop Nylon floor, 3,000mm HH. From 3 lb 11 oz (1.67 kg) minimum weight.",
     "currency": "USD",
     "specs": {
-      "capacity": "2 人",
       "structure": "Tents"
     },
     "highlights": [
@@ -177,20 +352,72 @@
     "imageAlt": "Mobi Garden LUNTA PRO BACKPACKING TENT - Quartz Pink - 2 Person",
     "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-lunta-pro-backpacking-tent-quartz-pink",
     "sourceSite": "mobigarden.com",
-    "scrapedAt": "2026-06-11T15:17:16Z",
+    "scrapedAt": "2026-07-03T14:46:31Z",
     "status": "draft",
     "published": true,
-    "price": 207.99,
-    "priceMin": 207.99,
-    "priceMax": 207.99
+    "price": 199.99,
+    "priceMin": 199.99,
+    "priceMax": 199.99
+  },
+  {
+    "id": "mobi-garden-mobi-garden-lunta-pro-backpacking-tent-alpenglow-cloud-3-person",
+    "brandId": "mobi-garden",
+    "category": "tent",
+    "subcategory": "Backpacking Tents",
+    "model": "Lunta Backpacking Tent",
+    "modelEn": "Lunta Backpacking Tent",
+    "description": "CompWeave™ 30D nylon-polyester composite fly — higher abrasion resistance than equivalent-weight pure nylon, 2,000mm HH waterproofness. X-pole freestanding architecture pitches inner-first on any surface without terrain dependency. Available in 2P and 3P with the same pole geometry and pitch sequence. 30D Ripstop Nylon floor, 3,000mm HH. From 3 lb 11 oz (1.67 kg) minimum weight.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Tents"
+    },
+    "highlights": [
+      "CompWeave™ 30D nylon-polyester composite fly — higher abrasion resistance than equivalent-weight pure nylon, 2,000mm HH waterproofness. X-pole freestanding architecture pitches inner-first on any surface without terrain dependency. Available in 2P and 3P with the same pole geometry and pitch sequence. 30D Ripstop Nylon floor, 3,000mm HH. From 3 lb 11 oz (1.67 kg) minimum weight."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/1_cb1dd494-dbfa-43c9-a4cd-7752c07aa289.webp?v=1780926649",
+    "imageAlt": "Mobi Garden LUNTA PRO BACKPACKING TENT - Alpenglow / Cloud - 3 Person",
+    "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-lunta-pro-backpacking-tent-alpenglow-cloud-3-person",
+    "sourceSite": "mobigarden.com",
+    "scrapedAt": "2026-07-03T14:46:31Z",
+    "status": "draft",
+    "published": true,
+    "price": 239.99,
+    "priceMin": 239.99,
+    "priceMax": 239.99
+  },
+  {
+    "id": "mobi-garden-mobi-garden-lunta-pro-backpacking-tent-alpenglow-cloud-2-person",
+    "brandId": "mobi-garden",
+    "category": "tent",
+    "subcategory": "Backpacking Tents",
+    "model": "Lunta Backpacking Tent",
+    "modelEn": "Lunta Backpacking Tent",
+    "description": "CompWeave™ 30D nylon-polyester composite fly — higher abrasion resistance than equivalent-weight pure nylon, 2,000mm HH waterproofness. X-pole freestanding architecture pitches inner-first on any surface without terrain dependency. Available in 2P and 3P with the same pole geometry and pitch sequence. 30D Ripstop Nylon floor, 3,000mm HH. From 3 lb 11 oz (1.67 kg) minimum weight.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Tents"
+    },
+    "highlights": [
+      "CompWeave™ 30D nylon-polyester composite fly — higher abrasion resistance than equivalent-weight pure nylon, 2,000mm HH waterproofness. X-pole freestanding architecture pitches inner-first on any surface without terrain dependency. Available in 2P and 3P with the same pole geometry and pitch sequence. 30D Ripstop Nylon floor, 3,000mm HH. From 3 lb 11 oz (1.67 kg) minimum weight."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/1_5521cadd-474c-481b-873e-a021b09bea7b.webp?v=1780925241",
+    "imageAlt": "Mobi Garden LUNTA PRO BACKPACKING TENT - Alpenglow / Cloud - 2 Person",
+    "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-lunta-pro-backpacking-tent-alpenglow-cloud-2-person",
+    "sourceSite": "mobigarden.com",
+    "scrapedAt": "2026-07-03T14:46:31Z",
+    "status": "draft",
+    "published": true,
+    "price": 199.99,
+    "priceMin": 199.99,
+    "priceMax": 199.99
   },
   {
     "id": "mobi-garden-mobi-garden-mountain-wing-backpacking-chair",
     "brandId": "mobi-garden",
     "category": "chair",
     "subcategory": "Camping Chairs",
-    "model": "Mobi Garden Mountain Wing Backpacking Chair",
-    "modelEn": "Mobi Garden Mountain Wing Backpacking Chair",
+    "model": "Mountain Wing Backpacking Chair",
+    "modelEn": "Mountain Wing Backpacking Chair",
     "description": "From 1 lb 9 oz (698g), rated to 250 lbs (110 kg). DuroWeave™ 300D polyester construction over a 7001 aluminum alloy 66 Nylon X-HUB frame — up to 600N tear resistance. Fixed-geometry legs pack to 4.3×4.3×14.2 in (11×11×36 cm). Same seating dimensions as Mountain Wing Pro.",
     "currency": "USD",
     "specs": {
@@ -203,7 +430,7 @@
     "imageAlt": "Mobi Garden Mountain Wing Backpacking Chair",
     "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-mountain-wing-backpacking-chair",
     "sourceSite": "mobigarden.com",
-    "scrapedAt": "2026-06-11T15:17:20Z",
+    "scrapedAt": "2026-07-03T14:46:33Z",
     "status": "draft",
     "published": true,
     "price": 59.99,
@@ -216,8 +443,8 @@
     "brandId": "mobi-garden",
     "category": "chair",
     "subcategory": "Camping Chairs",
-    "model": "Mobi Garden Mountain Wing Backpacking Chair",
-    "modelEn": "Mobi Garden Mountain Wing Backpacking Chair",
+    "model": "Mountain Wing Backpacking Chair",
+    "modelEn": "Mountain Wing Backpacking Chair",
     "description": "From 1 lb 9 oz (698g), rated to 250 lbs (110 kg). DuroWeave™ 300D polyester construction over a 7001 aluminum alloy 66 Nylon X-HUB frame — up to 600N tear resistance. Fixed-geometry legs pack to 4.3×4.3×14.2 in (11×11×36 cm). Same seating dimensions as Mountain Wing Pro.",
     "currency": "USD",
     "specs": {
@@ -230,7 +457,7 @@
     "imageAlt": "Mobi Garden Mountain Wing Backpacking Chair",
     "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-mountain-wing-backpacking-chair-alpenglow-glow",
     "sourceSite": "mobigarden.com",
-    "scrapedAt": "2026-06-11T15:17:20Z",
+    "scrapedAt": "2026-07-03T14:46:33Z",
     "status": "draft",
     "published": true,
     "price": 59.99,
@@ -239,39 +466,12 @@
     "inSummaryTable": false
   },
   {
-    "id": "mobi-garden-mobi-garden-mountain-wing-pro-ultralight-backpacking-chair-glacier-blue",
-    "brandId": "mobi-garden",
-    "category": "chair",
-    "subcategory": "Camping Chairs",
-    "model": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
-    "modelEn": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
-    "description": "From 1 lb 7 oz (639g), rated to 300 lbs (140 kg). Dyneema® G-Grid fabric reaches up to 1200N tear resistance over a 7001 aluminum alloy frame with five-axis CNC-machined X-HUB connectors. All-Terrain Leveling System rotates each side's linked leg pair up to 20° for full four-point contact on uneven ground. One integrated FFP™ ground stake stores in the X-HUB cap and anchors to the leg-foot eyelet in wind.",
-    "currency": "USD",
-    "specs": {
-      "structure": "Camping Chair"
-    },
-    "highlights": [
-      "From 1 lb 7 oz (639g), rated to 300 lbs (140 kg). Dyneema® G-Grid fabric reaches up to 1200N tear resistance over a 7001 aluminum alloy frame with five-axis CNC-machined X-HUB connectors. All-Terrain Leveling System rotates each side's linked leg pair up to 20° for full four-point contact on uneven ground. One integrated FFP™ ground stake stores in the X-HUB cap and anchors to the leg-foot eyelet "
-    ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/1_fcacba1c-95a0-4dfe-b554-3fa28cf45400.webp?v=1776197698",
-    "imageAlt": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
-    "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-mountain-wing-pro-ultralight-backpacking-chair-glacier-blue",
-    "sourceSite": "mobigarden.com",
-    "scrapedAt": "2026-06-11T15:17:20Z",
-    "status": "draft",
-    "published": true,
-    "price": 89.99,
-    "priceMin": 89.99,
-    "priceMax": 89.99,
-    "inSummaryTable": false
-  },
-  {
     "id": "mobi-garden-mobi-garden-mountain-wing-pro-ultralight-backpacking-chair-summit-white",
     "brandId": "mobi-garden",
     "category": "chair",
     "subcategory": "Camping Chairs",
-    "model": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
-    "modelEn": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
+    "model": "Mountain Wing Pro Backpacking Chair",
+    "modelEn": "Mountain Wing Pro Backpacking Chair",
     "description": "From 1 lb 7 oz (639g), rated to 300 lbs (140 kg). Dyneema® G-Grid fabric reaches up to 1200N tear resistance over a 7001 aluminum alloy frame with five-axis CNC-machined X-HUB connectors. All-Terrain Leveling System rotates each side's linked leg pair up to 20° for full four-point contact on uneven ground. One integrated FFP™ ground stake stores in the X-HUB cap and anchors to the leg-foot eyelet in wind.",
     "currency": "USD",
     "specs": {
@@ -284,61 +484,7 @@
     "imageAlt": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
     "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-mountain-wing-pro-ultralight-backpacking-chair-summit-white",
     "sourceSite": "mobigarden.com",
-    "scrapedAt": "2026-06-11T15:17:20Z",
-    "status": "draft",
-    "published": true,
-    "price": 89.99,
-    "priceMin": 89.99,
-    "priceMax": 89.99,
-    "inSummaryTable": false
-  },
-  {
-    "id": "mobi-garden-mobi-garden-mountain-wing-pro-ultralight-backpacking-chair-granite-grey",
-    "brandId": "mobi-garden",
-    "category": "chair",
-    "subcategory": "Camping Chairs",
-    "model": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
-    "modelEn": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
-    "description": "From 1 lb 7 oz (639g), rated to 300 lbs (140 kg). Dyneema® G-Grid fabric reaches up to 1200N tear resistance over a 7001 aluminum alloy frame with five-axis CNC-machined X-HUB connectors. All-Terrain Leveling System rotates each side's linked leg pair up to 20° for full four-point contact on uneven ground. One integrated FFP™ ground stake stores in the X-HUB cap and anchors to the leg-foot eyelet in wind.",
-    "currency": "USD",
-    "specs": {
-      "structure": "Camping Chair"
-    },
-    "highlights": [
-      "From 1 lb 7 oz (639g), rated to 300 lbs (140 kg). Dyneema® G-Grid fabric reaches up to 1200N tear resistance over a 7001 aluminum alloy frame with five-axis CNC-machined X-HUB connectors. All-Terrain Leveling System rotates each side's linked leg pair up to 20° for full four-point contact on uneven ground. One integrated FFP™ ground stake stores in the X-HUB cap and anchors to the leg-foot eyelet "
-    ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/1_9cc894fd-e32c-4134-a52a-a2733d4e252e.webp?v=1776196400",
-    "imageAlt": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
-    "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-mountain-wing-pro-ultralight-backpacking-chair-granite-grey",
-    "sourceSite": "mobigarden.com",
-    "scrapedAt": "2026-06-11T15:17:20Z",
-    "status": "draft",
-    "published": true,
-    "price": 89.99,
-    "priceMin": 89.99,
-    "priceMax": 89.99,
-    "inSummaryTable": false
-  },
-  {
-    "id": "mobi-garden-mobi-garden-mountain-wing-pro-ultralight-backpacking-chair-obsidian-black",
-    "brandId": "mobi-garden",
-    "category": "chair",
-    "subcategory": "Camping Chairs",
-    "model": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
-    "modelEn": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
-    "description": "From 1 lb 7 oz (639g), rated to 300 lbs (140 kg). Dyneema® G-Grid fabric reaches up to 1200N tear resistance over a 7001 aluminum alloy frame with five-axis CNC-machined X-HUB connectors. All-Terrain Leveling System rotates each side's linked leg pair up to 20° for full four-point contact on uneven ground. One integrated FFP™ ground stake stores in the X-HUB cap and anchors to the leg-foot eyelet in wind.",
-    "currency": "USD",
-    "specs": {
-      "structure": "Camping Chair"
-    },
-    "highlights": [
-      "From 1 lb 7 oz (639g), rated to 300 lbs (140 kg). Dyneema® G-Grid fabric reaches up to 1200N tear resistance over a 7001 aluminum alloy frame with five-axis CNC-machined X-HUB connectors. All-Terrain Leveling System rotates each side's linked leg pair up to 20° for full four-point contact on uneven ground. One integrated FFP™ ground stake stores in the X-HUB cap and anchors to the leg-foot eyelet "
-    ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/1_881d46f5-796d-433d-ac0c-4f8c7d9821cd.webp?v=1776195207",
-    "imageAlt": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
-    "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-mountain-wing-pro-ultralight-backpacking-chair-obsidian-black",
-    "sourceSite": "mobigarden.com",
-    "scrapedAt": "2026-06-11T15:17:20Z",
+    "scrapedAt": "2026-07-03T14:46:33Z",
     "status": "draft",
     "published": true,
     "price": 89.99,
@@ -351,8 +497,8 @@
     "brandId": "mobi-garden",
     "category": "chair",
     "subcategory": "Camping Chairs",
-    "model": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
-    "modelEn": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
+    "model": "Mountain Wing Pro Backpacking Chair",
+    "modelEn": "Mountain Wing Pro Backpacking Chair",
     "description": "From 1 lb 7 oz (639g), rated to 300 lbs (140 kg). Dyneema® G-Grid fabric reaches up to 1200N tear resistance over a 7001 aluminum alloy frame with five-axis CNC-machined X-HUB connectors. All-Terrain Leveling System rotates each side's linked leg pair up to 20° for full four-point contact on uneven ground. One integrated FFP™ ground stake stores in the X-HUB cap and anchors to the leg-foot eyelet in wind.",
     "currency": "USD",
     "specs": {
@@ -365,7 +511,7 @@
     "imageAlt": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
     "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-mountain-wing-pro-ultralight-backpacking-chair",
     "sourceSite": "mobigarden.com",
-    "scrapedAt": "2026-06-11T15:17:20Z",
+    "scrapedAt": "2026-07-03T14:46:33Z",
     "status": "draft",
     "published": true,
     "price": 89.99,
@@ -374,38 +520,93 @@
     "inSummaryTable": false
   },
   {
-    "id": "mobi-garden-mobi-garden-talo-x-flextm-backpacking-tent-dusk-lichen",
+    "id": "mobi-garden-mobi-garden-mountain-wing-pro-ultralight-backpacking-chair-glacier-blue",
     "brandId": "mobi-garden",
-    "category": "tent",
-    "subcategory": "Backpacking Tents",
-    "model": "Mobi Garden TALO X-FLEX™ BACKPACKING TENT",
-    "modelEn": "Mobi Garden TALO X-FLEX™ BACKPACKING TENT",
-    "description": "X-Speed-Flex integrated sleeve construction pitches inner and outer in two steps — the fly is already in place before the inner tent rises, keeping the sleep surface dry during setup. Asymmetric tarp vestibule extends one side of the fly into covered cook and gear space, supported by trekking poles already on trail. 150D Polyester Ripstop floor, 4,000mm HH. 3 lb 15 oz (1.8 kg) minimum weight, 2P.",
+    "category": "chair",
+    "subcategory": "Camping Chairs",
+    "model": "Mountain Wing Pro Backpacking Chair",
+    "modelEn": "Mountain Wing Pro Backpacking Chair",
+    "description": "From 1 lb 7 oz (639g), rated to 300 lbs (140 kg). Dyneema® G-Grid fabric reaches up to 1200N tear resistance over a 7001 aluminum alloy frame with five-axis CNC-machined X-HUB connectors. All-Terrain Leveling System rotates each side's linked leg pair up to 20° for full four-point contact on uneven ground. One integrated FFP™ ground stake stores in the X-HUB cap and anchors to the leg-foot eyelet in wind.",
     "currency": "USD",
     "specs": {
-      "structure": "Tents"
+      "structure": "Camping Chair"
     },
     "highlights": [
-      "X-Speed-Flex integrated sleeve construction pitches inner and outer in two steps — the fly is already in place before the inner tent rises, keeping the sleep surface dry during setup. Asymmetric tarp vestibule extends one side of the fly into covered cook and gear space, supported by trekking poles already on trail. 150D Polyester Ripstop floor, 4,000mm HH. 3 lb 15 oz (1.8 kg) minimum weight, 2P."
+      "From 1 lb 7 oz (639g), rated to 300 lbs (140 kg). Dyneema® G-Grid fabric reaches up to 1200N tear resistance over a 7001 aluminum alloy frame with five-axis CNC-machined X-HUB connectors. All-Terrain Leveling System rotates each side's linked leg pair up to 20° for full four-point contact on uneven ground. One integrated FFP™ ground stake stores in the X-HUB cap and anchors to the leg-foot eyelet "
     ],
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/1_5c4f3df2-947b-4d4f-8e5a-f42b57d9690e.webp?v=1775747611",
-    "imageAlt": "Mobi Garden TALO X-FLEX™ BACKPACKING TENT",
-    "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-talo-x-flextm-backpacking-tent-dusk-lichen",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/1_fcacba1c-95a0-4dfe-b554-3fa28cf45400.webp?v=1776197698",
+    "imageAlt": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
+    "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-mountain-wing-pro-ultralight-backpacking-chair-glacier-blue",
     "sourceSite": "mobigarden.com",
-    "scrapedAt": "2026-06-11T15:17:16Z",
+    "scrapedAt": "2026-07-03T14:46:33Z",
     "status": "draft",
     "published": true,
-    "price": 159.99,
-    "priceMin": 159.99,
-    "priceMax": 159.99
+    "price": 89.99,
+    "priceMin": 89.99,
+    "priceMax": 89.99,
+    "inSummaryTable": false
+  },
+  {
+    "id": "mobi-garden-mobi-garden-mountain-wing-pro-ultralight-backpacking-chair-granite-grey",
+    "brandId": "mobi-garden",
+    "category": "chair",
+    "subcategory": "Camping Chairs",
+    "model": "Mountain Wing Pro Backpacking Chair",
+    "modelEn": "Mountain Wing Pro Backpacking Chair",
+    "description": "From 1 lb 7 oz (639g), rated to 300 lbs (140 kg). Dyneema® G-Grid fabric reaches up to 1200N tear resistance over a 7001 aluminum alloy frame with five-axis CNC-machined X-HUB connectors. All-Terrain Leveling System rotates each side's linked leg pair up to 20° for full four-point contact on uneven ground. One integrated FFP™ ground stake stores in the X-HUB cap and anchors to the leg-foot eyelet in wind.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Camping Chair"
+    },
+    "highlights": [
+      "From 1 lb 7 oz (639g), rated to 300 lbs (140 kg). Dyneema® G-Grid fabric reaches up to 1200N tear resistance over a 7001 aluminum alloy frame with five-axis CNC-machined X-HUB connectors. All-Terrain Leveling System rotates each side's linked leg pair up to 20° for full four-point contact on uneven ground. One integrated FFP™ ground stake stores in the X-HUB cap and anchors to the leg-foot eyelet "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/1_9cc894fd-e32c-4134-a52a-a2733d4e252e.webp?v=1776196400",
+    "imageAlt": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
+    "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-mountain-wing-pro-ultralight-backpacking-chair-granite-grey",
+    "sourceSite": "mobigarden.com",
+    "scrapedAt": "2026-07-03T14:46:33Z",
+    "status": "draft",
+    "published": true,
+    "price": 89.99,
+    "priceMin": 89.99,
+    "priceMax": 89.99,
+    "inSummaryTable": false
+  },
+  {
+    "id": "mobi-garden-mobi-garden-mountain-wing-pro-ultralight-backpacking-chair-obsidian-black",
+    "brandId": "mobi-garden",
+    "category": "chair",
+    "subcategory": "Camping Chairs",
+    "model": "Mountain Wing Pro Backpacking Chair",
+    "modelEn": "Mountain Wing Pro Backpacking Chair",
+    "description": "From 1 lb 7 oz (639g), rated to 300 lbs (140 kg). Dyneema® G-Grid fabric reaches up to 1200N tear resistance over a 7001 aluminum alloy frame with five-axis CNC-machined X-HUB connectors. All-Terrain Leveling System rotates each side's linked leg pair up to 20° for full four-point contact on uneven ground. One integrated FFP™ ground stake stores in the X-HUB cap and anchors to the leg-foot eyelet in wind.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Camping Chair"
+    },
+    "highlights": [
+      "From 1 lb 7 oz (639g), rated to 300 lbs (140 kg). Dyneema® G-Grid fabric reaches up to 1200N tear resistance over a 7001 aluminum alloy frame with five-axis CNC-machined X-HUB connectors. All-Terrain Leveling System rotates each side's linked leg pair up to 20° for full four-point contact on uneven ground. One integrated FFP™ ground stake stores in the X-HUB cap and anchors to the leg-foot eyelet "
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/1_881d46f5-796d-433d-ac0c-4f8c7d9821cd.webp?v=1776195207",
+    "imageAlt": "Mobi Garden Mountain Wing Pro Ultralight Backpacking Chair",
+    "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-mountain-wing-pro-ultralight-backpacking-chair-obsidian-black",
+    "sourceSite": "mobigarden.com",
+    "scrapedAt": "2026-07-03T14:46:33Z",
+    "status": "draft",
+    "published": true,
+    "price": 89.99,
+    "priceMin": 89.99,
+    "priceMax": 89.99,
+    "inSummaryTable": false
   },
   {
     "id": "mobi-garden-mobi-garden-talo-x-flextm-backpacking-tent-highland-fog-bark",
     "brandId": "mobi-garden",
     "category": "tent",
     "subcategory": "Backpacking Tents",
-    "model": "Mobi Garden TALO X-FLEX™ BACKPACKING TENT",
-    "modelEn": "Mobi Garden TALO X-FLEX™ BACKPACKING TENT",
+    "model": "Talo X-Flex™ Backpacking Tent",
+    "modelEn": "Talo X-Flex™ Backpacking Tent",
     "description": "X-Speed-Flex integrated sleeve construction pitches inner and outer in two steps — the fly is already in place before the inner tent rises, keeping the sleep surface dry during setup. Asymmetric tarp vestibule extends one side of the fly into covered cook and gear space, supported by trekking poles already on trail. 150D Polyester Ripstop floor, 4,000mm HH. 3 lb 15 oz (1.8 kg) minimum weight, 2P.",
     "currency": "USD",
     "specs": {
@@ -418,7 +619,33 @@
     "imageAlt": "Mobi Garden TALO X-FLEX™ BACKPACKING TENT",
     "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-talo-x-flextm-backpacking-tent-highland-fog-bark",
     "sourceSite": "mobigarden.com",
-    "scrapedAt": "2026-06-11T15:17:16Z",
+    "scrapedAt": "2026-07-03T14:46:31Z",
+    "status": "draft",
+    "published": true,
+    "price": 159.99,
+    "priceMin": 159.99,
+    "priceMax": 159.99
+  },
+  {
+    "id": "mobi-garden-mobi-garden-talo-x-flextm-backpacking-tent-dusk-lichen",
+    "brandId": "mobi-garden",
+    "category": "tent",
+    "subcategory": "Backpacking Tents",
+    "model": "Talo X-Flex™ Backpacking Tent",
+    "modelEn": "Talo X-Flex™ Backpacking Tent",
+    "description": "X-Speed-Flex integrated sleeve construction pitches inner and outer in two steps — the fly is already in place before the inner tent rises, keeping the sleep surface dry during setup. Asymmetric tarp vestibule extends one side of the fly into covered cook and gear space, supported by trekking poles already on trail. 150D Polyester Ripstop floor, 4,000mm HH. 3 lb 15 oz (1.8 kg) minimum weight, 2P.",
+    "currency": "USD",
+    "specs": {
+      "structure": "Tents"
+    },
+    "highlights": [
+      "X-Speed-Flex integrated sleeve construction pitches inner and outer in two steps — the fly is already in place before the inner tent rises, keeping the sleep surface dry during setup. Asymmetric tarp vestibule extends one side of the fly into covered cook and gear space, supported by trekking poles already on trail. 150D Polyester Ripstop floor, 4,000mm HH. 3 lb 15 oz (1.8 kg) minimum weight, 2P."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0801/3643/8011/files/1_5c4f3df2-947b-4d4f-8e5a-f42b57d9690e.webp?v=1775747611",
+    "imageAlt": "Mobi Garden TALO X-FLEX™ BACKPACKING TENT",
+    "sourceUrl": "https://www.mobigarden.com/products/mobi-garden-talo-x-flextm-backpacking-tent-dusk-lichen",
+    "sourceSite": "mobigarden.com",
+    "scrapedAt": "2026-07-03T14:46:31Z",
     "status": "draft",
     "published": true,
     "price": 159.99,

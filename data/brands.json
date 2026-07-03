@@ -117,5 +117,19 @@
     "nameEn": "Big Agnes",
     "country": "US",
     "rank": 17
+  },
+  {
+    "id": "therm-a-rest",
+    "name": "Therm-a-Rest",
+    "nameEn": "Therm-a-Rest",
+    "country": "US",
+    "rank": 18
+  },
+  {
+    "id": "klymit",
+    "name": "Klymit",
+    "nameEn": "Klymit",
+    "country": "US",
+    "rank": 19
   }
 ]

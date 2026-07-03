@@ -341,6 +341,56 @@ def infer_sleeping_bag_specs(product: dict[str, Any]) -> dict[str, Any]:
     return specs
 
 
+def infer_sleeping_pad_specs(product: dict[str, Any]) -> dict[str, Any]:
+    """Extract sleeping-pad fields from Shopify title, tags, and body."""
+    specs: dict[str, Any] = {}
+    title = product.get("title") or ""
+    title_lower = title.lower()
+    blob = title_lower + " " + html_to_text(product.get("body_html") or "", max_len=600).lower()
+
+    r_match = re.search(r"r[\s\-]?value?\s*[:=]?\s*(\d+(?:\.\d+)?)", blob, re.IGNORECASE)
+    if not r_match:
+        r_match = re.search(r"\br(\d+(?:\.\d+)?)\b", title_lower)
+    if r_match:
+        specs["rValue"] = f"R{r_match.group(1)}"
+
+    if "self-inflat" in blob or "self inflat" in blob:
+        specs["padType"] = "Self-inflating"
+    elif any(k in blob for k in ("closed cell", "foam pad", "foam mat", "z-lite", "ridgerest")):
+        specs["padType"] = "Foam pad"
+    elif "down mat" in blob or "down pad" in blob:
+        specs["padType"] = "Down pad"
+    elif "air" in blob or "inflat" in blob:
+        specs["padType"] = "Air pad"
+    elif product.get("product_type"):
+        ptype = product["product_type"].lower()
+        if "foam" in ptype:
+            specs["padType"] = "Foam pad"
+        elif "air" in ptype or "inflat" in ptype:
+            specs["padType"] = "Air pad"
+
+    if "double wide" in blob or "double-wide" in blob:
+        specs["size"] = "Double wide"
+    elif re.search(r"\bwide\b", title_lower) and "double" not in title_lower:
+        specs["size"] = "Wide"
+    elif re.search(r"\blong\b", title_lower):
+        specs["size"] = "Long"
+    elif re.search(r"\bshort\b", title_lower):
+        specs["size"] = "Short"
+    elif "regular" in blob:
+        specs["size"] = "Regular"
+
+    dim = re.search(r"(\d{2,3})\s*[×x]\s*(\d{2,3})\s*(?:cm)?", title)
+    if dim:
+        specs["size"] = f"{dim.group(1)}×{dim.group(2)} cm"
+
+    thick = re.search(r"(\d+(?:\.\d+)?)\s*(?:cm|in(?:ch)?)\s*thick", blob)
+    if thick:
+        specs["thickness"] = thick.group(0)
+
+    return specs
+
+
 FURNITURE_EXCLUDE_KEYWORDS = (
     "cot",
     "shelf",
@@ -505,6 +555,8 @@ def normalize_shopify_product(
     specs = infer_specs(product)
     if category == "sleeping-bag":
         specs.update(infer_sleeping_bag_specs(product))
+    if category == "sleeping-pad":
+        specs.update(infer_sleeping_pad_specs(product))
     if category in ("table", "chair"):
         specs.update(infer_furniture_specs(product))
 

@@ -213,6 +213,74 @@
       "scrapedAt": "2026-06-11T15:18:29Z",
       "productCount": 96,
       "errors": []
+    },
+    {
+      "brandId": "naturehike",
+      "scrapedAt": "2026-07-03T14:45:47Z",
+      "productCount": 203,
+      "errors": []
+    },
+    {
+      "brandId": "sea-to-summit",
+      "scrapedAt": "2026-07-03T14:46:00Z",
+      "productCount": 66,
+      "errors": []
+    },
+    {
+      "brandId": "nemo",
+      "scrapedAt": "2026-07-03T14:46:13Z",
+      "productCount": 38,
+      "errors": []
+    },
+    {
+      "brandId": "big-agnes",
+      "scrapedAt": "2026-07-03T14:46:27Z",
+      "productCount": 111,
+      "errors": []
+    },
+    {
+      "brandId": "mobi-garden",
+      "scrapedAt": "2026-07-03T14:46:46Z",
+      "productCount": 24,
+      "errors": []
+    },
+    {
+      "brandId": "montbell",
+      "scrapedAt": "2026-07-03T14:47:42Z",
+      "productCount": 32,
+      "errors": []
+    },
+    {
+      "brandId": "snow-peak",
+      "scrapedAt": "2026-07-03T14:48:05Z",
+      "productCount": 96,
+      "errors": [
+        "collection sleeping-pads: 0 products returned"
+      ]
+    },
+    {
+      "brandId": "dod",
+      "scrapedAt": "2026-07-03T14:48:22Z",
+      "productCount": 32,
+      "errors": []
+    },
+    {
+      "brandId": "nanga",
+      "scrapedAt": "2026-07-03T14:48:56Z",
+      "productCount": 39,
+      "errors": []
+    },
+    {
+      "brandId": "therm-a-rest",
+      "scrapedAt": "2026-07-03T14:49:06Z",
+      "productCount": 17,
+      "errors": []
+    },
+    {
+      "brandId": "klymit",
+      "scrapedAt": "2026-07-03T14:49:10Z",
+      "productCount": 15,
+      "errors": []
     }
   ]
 }

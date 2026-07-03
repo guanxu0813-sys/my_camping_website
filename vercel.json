@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/other.html",
+      "destination": "/sleeping-pad.html",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [{ "type": "host", "value": "campgearcompare.com" }],
       "destination": "https://www.campgearcompare.com/:path*",

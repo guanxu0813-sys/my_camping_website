@@ -26,6 +26,19 @@ brands:
           - foot covers
           - sleeping pad
           - mat only
+      - handle: sleeping-pads
+        category: sleeping-pad
+        subcategory: Sleeping Pads
+        excludeTitleKeywords:
+          - pillow
+          - liner
+          - pump only
+          - repair kit
+          - stuff sack
+          - valve only
+          - gift card
+          - car inflatable
+          - car mounted
       - handle: furniture
         classifyFurniture: true
         subcategory: Furniture
@@ -142,6 +155,20 @@ brands:
           - pad only
           - liner
           - pillow
+    allProductsFilters:
+      - category: sleeping-pad
+        includeKeywords:
+          - sleeping pad
+          - air mat
+          - inflatable mat
+          - foam mat
+          - camp mat
+        excludeTitleKeywords:
+          - sleeping bag
+          - bag only
+          - liner
+          - pillow
+          - sheet
 
   blackdeer:
     brandId: blackdeer
@@ -221,6 +248,14 @@ brands:
           - pillow
           - sleeping pad
           - pad only
+      - handle: sleeping-pads
+        category: sleeping-pad
+        subcategory: Sleeping Pads
+        excludeTitleKeywords:
+          - pillow
+          - liner
+          - pump only
+          - repair kit
     allProductsFilters:
       - category: tarp
         includeKeywords:
@@ -267,6 +302,19 @@ brands:
           - liner
           - pillow
           - blanket
+    allProductsFilters:
+      - category: sleeping-pad
+        includeKeywords:
+          - air pad
+          - sleeping pad
+          - sleeping mat
+        excludeTitleKeywords:
+          - liner
+          - pillow
+          - sleeping bag
+          - down hugger
+          - bivy
+          - blanket
 
   sea-to-summit:
     brandId: sea-to-summit
@@ -296,6 +344,15 @@ brands:
           - pillow
           - dry bag
           - duffle
+      - handle: sleeping-pads
+        category: sleeping-pad
+        subcategory: Sleeping Pads
+        excludeTitleKeywords:
+          - pillow
+          - liner
+          - pump only
+          - repair kit
+          - stuff sack
 
   nemo:
     brandId: nemo
@@ -320,6 +377,14 @@ brands:
           - sleeping pad
           - pad only
           - pillow
+      - handle: sleeping-pads
+        category: sleeping-pad
+        subcategory: Sleeping Pads
+        excludeTitleKeywords:
+          - pillow
+          - liner
+          - pump only
+          - repair kit
 
   big-agnes:
     brandId: big-agnes
@@ -344,6 +409,15 @@ brands:
           - sleeping pad
           - pad only
           - pillow
+          - accessory
+      - handle: sleeping-pads
+        category: sleeping-pad
+        subcategory: Sleeping Pads
+        excludeTitleKeywords:
+          - pillow
+          - liner
+          - pump only
+          - repair kit
           - accessory
 
   nanga:
@@ -371,3 +445,42 @@ brands:
           - カバー
           - t-shirt
           - シャツ
+
+  therm-a-rest:
+    brandId: therm-a-rest
+    sourceSite: thermarest.com
+    baseUrl: https://www.thermarest.com
+    currency: USD
+    adapter: shopify
+    useBrowserUserAgent: true
+    rateLimitSeconds: 1.5
+    collections:
+      - handle: sleeping-pads
+        category: sleeping-pad
+        subcategory: Sleeping Pads
+        excludeTitleKeywords:
+          - pillow
+          - liner
+          - pump only
+          - repair kit
+          - sheet
+          - valve only
+
+  klymit:
+    brandId: klymit
+    sourceSite: klymit.com
+    baseUrl: https://klymit.com
+    currency: USD
+    adapter: shopify
+    useBrowserUserAgent: true
+    rateLimitSeconds: 1.5
+    collections:
+      - handle: sleeping-pads
+        category: sleeping-pad
+        subcategory: Sleeping Pads
+        excludeTitleKeywords:
+          - pillow
+          - liner
+          - pump only
+          - repair kit
+          - sheet

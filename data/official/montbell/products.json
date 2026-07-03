@@ -1,5 +1,34 @@
 [
   {
+    "id": "montbell-alpine-pad-25-180-orange",
+    "brandId": "montbell",
+    "category": "sleeping-pad",
+    "subcategory": "sleeping-pad",
+    "model": "Alpine Pad 25 180 (Orange)",
+    "modelEn": "Alpine Pad 25 180 (Orange)",
+    "description": "Weighing just 681 grams when fully packed, the Alpine Pad 25 180 perfectly encapsulates our ‘light and fast’ philosophy. The inflatable, mummy-style design (which Montbell developed, by the way!) strikes the perfect balance between weight, compactness and comfort. Foam padding makes proceedings mighty comfortable, and the 30-denier ripstop outer shell gives you that little extra peace-of-mind when camping upon rough terrain.",
+    "currency": "GBP",
+    "specs": {
+      "weightKg": 0.66,
+      "weightDisplay": "~0.66 kg",
+      "structure": "sleeping pad",
+      "padType": "Foam pad"
+    },
+    "highlights": [
+      "Weighing just 681 grams when fully packed, the Alpine Pad 25 180 perfectly encapsulates our ‘light and fast’ philosophy. The inflatable, mummy-style design (which Montbell developed, by the way!) strikes the perfect balance between weight, compactness and comfort. Foam padding makes proceedings mighty comfortable, and the 30-denier ripstop outer shell gives you that little extra peace-of-mind when"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0765/8753/2555/files/4582755023368_1_MB.jpg?v=1761039240",
+    "imageAlt": "Alpine Pad 25 180 (Orange)",
+    "sourceUrl": "https://www.montbell.co.uk/products/alpine-pad-25-180-orange",
+    "sourceSite": "montbell.co.uk",
+    "scrapedAt": "2026-07-03T14:47:42Z",
+    "status": "draft",
+    "published": true,
+    "price": 150.0,
+    "priceMin": 150.0,
+    "priceMax": 150.0
+  },
+  {
     "id": "montbell-big-tarp-hx-dark-forest",
     "brandId": "montbell",
     "category": "tarp",
@@ -10,7 +39,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 3.08,
-      "weightDisplay": "约 3.08 kg",
+      "weightDisplay": "~3.08 kg",
       "structure": "tarp"
     },
     "highlights": [
@@ -20,7 +49,7 @@
     "imageAlt": "Big Tarp HX (Dark Forest)",
     "sourceUrl": "https://www.montbell.co.uk/products/big-tarp-hx-dark-forest",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:29Z",
+    "scrapedAt": "2026-07-03T14:46:55Z",
     "status": "draft",
     "published": true,
     "price": 225.0,
@@ -38,7 +67,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 5.2,
-      "weightDisplay": "约 5.2 kg",
+      "weightDisplay": "~5.2 kg",
       "structure": "tent"
     },
     "highlights": [],
@@ -46,7 +75,7 @@
     "imageAlt": "Chronos Cabin 3 (Meadow Green)",
     "sourceUrl": "https://www.montbell.co.uk/products/chronos-cabin-3-meadow-green",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:29Z",
+    "scrapedAt": "2026-07-03T14:46:55Z",
     "status": "draft",
     "published": true,
     "price": 430.0,
@@ -64,7 +93,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 2.44,
-      "weightDisplay": "约 2.44 kg",
+      "weightDisplay": "~2.44 kg",
       "structure": "tent"
     },
     "highlights": [
@@ -74,7 +103,7 @@
     "imageAlt": "Chronos Dome 2 (Golden Orange)",
     "sourceUrl": "https://www.montbell.co.uk/products/chronos-dome-2-golden-orange",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:29Z",
+    "scrapedAt": "2026-07-03T14:46:55Z",
     "status": "draft",
     "published": true,
     "price": 240.0,
@@ -92,7 +121,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 4.0,
-      "weightDisplay": "约 4.0 kg",
+      "weightDisplay": "~4.0 kg",
       "structure": "tent"
     },
     "highlights": [
@@ -102,7 +131,7 @@
     "imageAlt": "Chronos Dome 4 (Thyme)",
     "sourceUrl": "https://www.montbell.co.uk/products/chronos-dome-4-thyme",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:29Z",
+    "scrapedAt": "2026-07-03T14:46:55Z",
     "status": "draft",
     "published": true,
     "price": 340.0,
@@ -120,7 +149,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 0.93,
-      "weightDisplay": "约 0.93 kg",
+      "weightDisplay": "~0.93 kg",
       "structure": "sleeping bag",
       "fillType": "羽绒",
       "bagType": "sleeping bag"
@@ -132,7 +161,7 @@
     "imageAlt": "Down Hugger 650 #2 (Sunflower)",
     "sourceUrl": "https://www.montbell.co.uk/products/down-hugger-650-2-sunflower",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 310.0,
@@ -150,7 +179,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 1.05,
-      "weightDisplay": "约 1.05 kg",
+      "weightDisplay": "~1.05 kg",
       "structure": "sleeping bag",
       "fillType": "羽绒",
       "bagType": "sleeping bag"
@@ -162,7 +191,7 @@
     "imageAlt": "Down Hugger 650 #2 Long (Sunflower)",
     "sourceUrl": "https://www.montbell.co.uk/products/down-hugger-650-2-long-sunflower",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 335.0,
@@ -180,7 +209,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 0.72,
-      "weightDisplay": "约 0.72 kg",
+      "weightDisplay": "~0.72 kg",
       "structure": "sleeping bag",
       "fillType": "羽绒",
       "bagType": "sleeping bag"
@@ -192,7 +221,7 @@
     "imageAlt": "Down Hugger 650 #3 (Balsam)",
     "sourceUrl": "https://www.montbell.co.uk/products/down-hugger-650-3-balsam",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 265.0,
@@ -210,7 +239,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 0.82,
-      "weightDisplay": "约 0.82 kg",
+      "weightDisplay": "~0.82 kg",
       "structure": "sleeping bag",
       "fillType": "羽绒",
       "bagType": "sleeping bag"
@@ -222,7 +251,7 @@
     "imageAlt": "Down Hugger 650 #3 Long (Balsam)",
     "sourceUrl": "https://www.montbell.co.uk/products/down-hugger-650-3-long-balsam",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 275.0,
@@ -240,7 +269,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 0.6,
-      "weightDisplay": "约 0.6 kg",
+      "weightDisplay": "~0.6 kg",
       "structure": "sleeping bag",
       "fillType": "羽绒",
       "bagType": "sleeping bag"
@@ -252,7 +281,7 @@
     "imageAlt": "Down Hugger 650 #5 (Blue Ridge)",
     "sourceUrl": "https://www.montbell.co.uk/products/down-hugger-650-5-blue-ridge",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 220.0,
@@ -270,7 +299,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 0.68,
-      "weightDisplay": "约 0.68 kg",
+      "weightDisplay": "~0.68 kg",
       "structure": "sleeping bag",
       "fillType": "羽绒",
       "bagType": "sleeping bag"
@@ -282,12 +311,41 @@
     "imageAlt": "Down Hugger 650 #5 Long (Blue Ridge)",
     "sourceUrl": "https://www.montbell.co.uk/products/down-hugger-650-5-long-blue-ridge",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 230.0,
     "priceMin": 230.0,
     "priceMax": 230.0
+  },
+  {
+    "id": "montbell-exceloft-air-pad-180-orange",
+    "brandId": "montbell",
+    "category": "sleeping-pad",
+    "subcategory": "sleeping-pad",
+    "model": "EXCELOFT Air Pad 180 (Orange)",
+    "modelEn": "EXCELOFT Air Pad 180 (Orange)",
+    "description": "One for the deep winter campers, our Exceloft Air Pad 180 is an extremely warming and lightweight sleeping mat. It’s insulated with Exceloft, a synthetic fibre that we’ve chosen for its warmth-to-packability. The Pad will bolster the comfort rating of your sleeping system, meaning you can still get out for a night under the stairs when the temperature is less favourable. The outer shell is made from hardy 30-denier ripstop as well, giving you that extra peace-of-mind when camping upon rough terrain.",
+    "currency": "GBP",
+    "specs": {
+      "weightKg": 0.69,
+      "weightDisplay": "~0.69 kg",
+      "structure": "sleeping pad",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "One for the deep winter campers, our Exceloft Air Pad 180 is an extremely warming and lightweight sleeping mat. It’s insulated with Exceloft, a synthetic fibre that we’ve chosen for its warmth-to-packability. The Pad will bolster the comfort rating of your sleeping system, meaning you can still get out for a night under the stairs when the temperature is less favourable. The outer shell is made fr"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0765/8753/2555/files/4582755023269_1_MB.jpg?v=1761038853",
+    "imageAlt": "EXCELOFT Air Pad 180 (Orange)",
+    "sourceUrl": "https://www.montbell.co.uk/products/exceloft-air-pad-180-orange",
+    "sourceSite": "montbell.co.uk",
+    "scrapedAt": "2026-07-03T14:47:42Z",
+    "status": "draft",
+    "published": true,
+    "price": 147.0,
+    "priceMin": 147.0,
+    "priceMax": 147.0
   },
   {
     "id": "montbell-mini-tarp-hx-dark-forest",
@@ -300,7 +358,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 0.87,
-      "weightDisplay": "约 0.87 kg",
+      "weightDisplay": "~0.87 kg",
       "structure": "tarp"
     },
     "highlights": [
@@ -310,7 +368,7 @@
     "imageAlt": "Mini Tarp HX (Dark Forest)",
     "sourceUrl": "https://www.montbell.co.uk/products/mini-tarp-hx-dark-forest",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:29Z",
+    "scrapedAt": "2026-07-03T14:46:55Z",
     "status": "draft",
     "published": true,
     "price": 100.0,
@@ -328,7 +386,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 0.87,
-      "weightDisplay": "约 0.87 kg",
+      "weightDisplay": "~0.87 kg",
       "structure": "tarp"
     },
     "highlights": [
@@ -338,7 +396,7 @@
     "imageAlt": "Mini Tarp HX (Green)",
     "sourceUrl": "https://www.montbell.co.uk/products/mini-tarp-hx-green",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:29Z",
+    "scrapedAt": "2026-07-03T14:46:55Z",
     "status": "draft",
     "published": true,
     "price": 100.0,
@@ -356,7 +414,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 3.24,
-      "weightDisplay": "约 3.24 kg",
+      "weightDisplay": "~3.24 kg",
       "structure": "tent"
     },
     "highlights": [
@@ -366,7 +424,7 @@
     "imageAlt": "Rera Dome 4 (Thyme)",
     "sourceUrl": "https://www.montbell.co.uk/products/rera-dome-4-thyme",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:29Z",
+    "scrapedAt": "2026-07-03T14:46:55Z",
     "status": "draft",
     "published": true,
     "price": 335.0,
@@ -384,7 +442,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 1.44,
-      "weightDisplay": "约 1.44 kg",
+      "weightDisplay": "~1.44 kg",
       "structure": "sleeping bag",
       "fillType": "羽绒",
       "bagType": "sleeping bag"
@@ -396,7 +454,7 @@
     "imageAlt": "Seamless Alpine Burrow Bag #2 (Sunflower)",
     "sourceUrl": "https://www.montbell.co.uk/products/seamless-alpine-burrow-bag-2-sunflower",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 170.0,
@@ -414,7 +472,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 1.55,
-      "weightDisplay": "约 1.55 kg",
+      "weightDisplay": "~1.55 kg",
       "structure": "sleeping bag",
       "fillType": "羽绒",
       "bagType": "sleeping bag"
@@ -426,7 +484,7 @@
     "imageAlt": "Seamless Alpine Burrow Bag #2 Long (Sunflower)",
     "sourceUrl": "https://www.montbell.co.uk/products/seamless-alpine-burrow-bag-2-long-sunflower",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 180.0,
@@ -444,7 +502,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 0.77,
-      "weightDisplay": "约 0.77 kg",
+      "weightDisplay": "~0.77 kg",
       "structure": "sleeping bag",
       "fillType": "羽绒",
       "bagType": "sleeping bag"
@@ -456,7 +514,7 @@
     "imageAlt": "Seamless Alpine Burrow Bag #5 (Blue Ridge)",
     "sourceUrl": "https://www.montbell.co.uk/products/seamless-alpine-burrow-bag-5-blue-ridge",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 130.0,
@@ -474,7 +532,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 0.89,
-      "weightDisplay": "约 0.89 kg",
+      "weightDisplay": "~0.89 kg",
       "structure": "sleeping bag",
       "fillType": "羽绒",
       "bagType": "sleeping bag"
@@ -486,7 +544,7 @@
     "imageAlt": "Seamless Alpine Burrow Bag #5 Long (Blue Ridge)",
     "sourceUrl": "https://www.montbell.co.uk/products/seamless-alpine-burrow-bag-5-long-blue-ridge",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 140.0,
@@ -504,7 +562,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 1.48,
-      "weightDisplay": "约 1.48 kg",
+      "weightDisplay": "~1.48 kg",
       "structure": "sleeping bag",
       "fillType": "羽绒",
       "bagType": "sleeping bag"
@@ -516,7 +574,7 @@
     "imageAlt": "Seamless Burrow Bag #2 (Sunflower)",
     "sourceUrl": "https://www.montbell.co.uk/products/seamless-burrow-bag-2-sunflower",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 180.0,
@@ -534,7 +592,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 1.64,
-      "weightDisplay": "约 1.64 kg",
+      "weightDisplay": "~1.64 kg",
       "structure": "sleeping bag",
       "fillType": "羽绒",
       "bagType": "sleeping bag"
@@ -546,7 +604,7 @@
     "imageAlt": "Seamless Burrow Bag #2 Long (Sunflower)",
     "sourceUrl": "https://www.montbell.co.uk/products/seamless-burrow-bag-2-long-sunflower",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 200.0,
@@ -564,7 +622,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 0.81,
-      "weightDisplay": "约 0.81 kg",
+      "weightDisplay": "~0.81 kg",
       "structure": "sleeping bag",
       "fillType": "羽绒",
       "bagType": "sleeping bag"
@@ -576,7 +634,7 @@
     "imageAlt": "Seamless Burrow Bag #5 (Blue Ridge)",
     "sourceUrl": "https://www.montbell.co.uk/products/seamless-burrow-bag-5-blue-ridge",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 140.0,
@@ -594,7 +652,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 0.94,
-      "weightDisplay": "约 0.94 kg",
+      "weightDisplay": "~0.94 kg",
       "structure": "sleeping bag",
       "fillType": "羽绒",
       "bagType": "sleeping bag"
@@ -606,12 +664,40 @@
     "imageAlt": "Seamless Burrow Bag #5 Long (Blue Ridge)",
     "sourceUrl": "https://www.montbell.co.uk/products/seamless-burrow-bag-5-long-blue-ridge",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 150.0,
     "priceMin": 150.0,
     "priceMax": 150.0
+  },
+  {
+    "id": "montbell-seamless-down-hugger-800-3-khaki",
+    "brandId": "montbell",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Seamless Down Hugger 800 #3 (Khaki)",
+    "modelEn": "Seamless Down Hugger 800 #3 (Khaki)",
+    "description": "Our Seamless Down Hugger 800 #3 is a state-of-the-art sleeping bag. Its light weight (clocking in at a minimal 531g) doesn’t come at the expense of performance, as it has a comfort temperature rating of 4°C. It can even go as low as -1°C when bolstered correctly. How’ve we achieved this? Well-thought-out details and premium materials of course! Insulated by 800-fill power EX down, our most premium down, the exterior of the sleeping bag is made with our innovative baffle-less Spider System, specifically designed to not restrict loft. On the interior is our patented Super Spiral Stretch System, a feature that reliably retains heat by moving naturally with your body when you’re tossing-and-turning in the night and draws insulation closer to you. Finally, an insulated zip guard shuts out cold air, and is reinforced with triangulated gussets for extra durability.",
+    "currency": "GBP",
+    "specs": {
+      "structure": "sleeping bag",
+      "fillType": "羽绒",
+      "bagType": "sleeping bag"
+    },
+    "highlights": [
+      "Our Seamless Down Hugger 800 #3 is a state-of-the-art sleeping bag. Its light weight (clocking in at a minimal 531g) doesn’t come at the expense of performance, as it has a comfort temperature rating of 4°C. It can even go as low as -1°C when bolstered correctly. How’ve we achieved this? Well-thought-out details and premium materials of course! Insulated by 800-fill power EX down, our most premium"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0765/8753/2555/files/1121487-KH-L_ZIP-1.jpg?v=1779875654",
+    "imageAlt": "Seamless Down Hugger 800 #3 (Khaki)",
+    "sourceUrl": "https://www.montbell.co.uk/products/seamless-down-hugger-800-3-khaki",
+    "sourceSite": "montbell.co.uk",
+    "scrapedAt": "2026-07-03T14:46:57Z",
+    "status": "draft",
+    "published": false,
+    "price": 290.0,
+    "priceMin": 290.0,
+    "priceMax": 290.0
   },
   {
     "id": "montbell-seamless-down-hugger-800-3-long-blue-green",
@@ -634,7 +720,7 @@
     "imageAlt": "Seamless Down Hugger 800 #3 Long (Blue Green)",
     "sourceUrl": "https://www.montbell.co.uk/products/seamless-down-hugger-800-3-long-blue-green",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 310.0,
@@ -652,7 +738,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 0.46,
-      "weightDisplay": "约 0.46 kg",
+      "weightDisplay": "~0.46 kg",
       "structure": "sleeping bag",
       "fillType": "羽绒",
       "bagType": "sleeping bag"
@@ -664,12 +750,40 @@
     "imageAlt": "Seamless Down Hugger 800 #5 (Blue Ridge)",
     "sourceUrl": "https://www.montbell.co.uk/products/seamless-down-hugger-800-5-blue-ridge",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 174.0,
     "priceMin": 174.0,
     "priceMax": 174.0
+  },
+  {
+    "id": "montbell-seamless-down-hugger-800-5-orange",
+    "brandId": "montbell",
+    "category": "sleeping-bag",
+    "subcategory": "Sleeping Bags",
+    "model": "Seamless Down Hugger 800 #5 (Orange)",
+    "modelEn": "Seamless Down Hugger 800 #5 (Orange)",
+    "description": "Our Seamless Down Hugger 800 #5 is a state-of-the-art, two season sleeping bag. Lightweight and rated to a comfort temperature of 8°C, it’s insulated by 800-fill power EX down, our most premium down. The exterior of the sleeping bag is made with our innovative baffle-less Spider System, specifically designed to not restrict loft. On the interior is our patented Super Spiral Stretch System, a feature that reliably retains heat by moving naturally with your body when you’re tossing-and-turning in the night and draws insulation closer to you. Finally, an insulated zip guard shuts out cold air, and is reinforced with triangulated gussets for extra durability.",
+    "currency": "GBP",
+    "specs": {
+      "structure": "sleeping bag",
+      "fillType": "羽绒",
+      "bagType": "sleeping bag"
+    },
+    "highlights": [
+      "Our Seamless Down Hugger 800 #5 is a state-of-the-art, two season sleeping bag. Lightweight and rated to a comfort temperature of 8°C, it’s insulated by 800-fill power EX down, our most premium down. The exterior of the sleeping bag is made with our innovative baffle-less Spider System, specifically designed to not restrict loft. On the interior is our patented Super Spiral Stretch System, a featu"
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0765/8753/2555/files/1121488-OG-1.jpg?v=1779875528",
+    "imageAlt": "Seamless Down Hugger 800 #5 (Orange)",
+    "sourceUrl": "https://www.montbell.co.uk/products/seamless-down-hugger-800-5-orange",
+    "sourceSite": "montbell.co.uk",
+    "scrapedAt": "2026-07-03T14:46:57Z",
+    "status": "draft",
+    "published": false,
+    "price": 250.0,
+    "priceMin": 250.0,
+    "priceMax": 250.0
   },
   {
     "id": "montbell-seamless-down-hugger-800-5-long-blue-ridge",
@@ -682,7 +796,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 0.51,
-      "weightDisplay": "约 0.51 kg",
+      "weightDisplay": "~0.51 kg",
       "structure": "sleeping bag",
       "fillType": "羽绒",
       "bagType": "sleeping bag"
@@ -694,7 +808,7 @@
     "imageAlt": "Seamless Down Hugger 800 #5 Long (Blue Ridge)",
     "sourceUrl": "https://www.montbell.co.uk/products/seamless-down-hugger-800-5-long-blue-ridge",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 186.0,
@@ -722,12 +836,41 @@
     "imageAlt": "Seamless Down Hugger 800 #7 Long (Purple)",
     "sourceUrl": "https://www.montbell.co.uk/products/seamless-down-hugger-800-7-long-purple",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:30Z",
+    "scrapedAt": "2026-07-03T14:46:57Z",
     "status": "draft",
     "published": true,
     "price": 240.0,
     "priceMin": 240.0,
     "priceMax": 240.0
+  },
+  {
+    "id": "montbell-u-l-air-pad-180-blue",
+    "brandId": "montbell",
+    "category": "sleeping-pad",
+    "subcategory": "sleeping-pad",
+    "model": "U.L. Air Pad 180 (Blue)",
+    "modelEn": "U.L. Air Pad 180 (Blue)",
+    "description": "One of our lightest sleeping mats - clocking in at 514 grams when packed - the U.L. Air Pad 180 is a fantastic all-rounder. Thanks to its flat, stable surface, it’s ideal for side and restless sleepers. Then there’s the hardy 30-denier ripstop outer shell, which gives you that extra peace-of-mind when camping upon rough terrain.",
+    "currency": "GBP",
+    "specs": {
+      "weightKg": 0.53,
+      "weightDisplay": "~0.53 kg",
+      "structure": "sleeping pad",
+      "padType": "Air pad"
+    },
+    "highlights": [
+      "One of our lightest sleeping mats - clocking in at 514 grams when packed - the U.L. Air Pad 180 is a fantastic all-rounder. Thanks to its flat, stable surface, it’s ideal for side and restless sleepers. Then there’s the hardy 30-denier ripstop outer shell, which gives you that extra peace-of-mind when camping upon rough terrain."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0765/8753/2555/files/4582755023306_1_MB.jpg?v=1761039028",
+    "imageAlt": "U.L. Air Pad 180 (Blue)",
+    "sourceUrl": "https://www.montbell.co.uk/products/u-l-air-pad-180-blue",
+    "sourceSite": "montbell.co.uk",
+    "scrapedAt": "2026-07-03T14:47:42Z",
+    "status": "draft",
+    "published": true,
+    "price": 160.0,
+    "priceMin": 160.0,
+    "priceMax": 160.0
   },
   {
     "id": "montbell-u-l-dome-shelter-2-yellow",
@@ -740,7 +883,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 0.89,
-      "weightDisplay": "约 0.89 kg",
+      "weightDisplay": "~0.89 kg",
       "structure": "tent"
     },
     "highlights": [
@@ -750,7 +893,7 @@
     "imageAlt": "U.L. Dome Shelter 2 (Yellow)",
     "sourceUrl": "https://www.montbell.co.uk/products/u-l-dome-shelter-2-yellow",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:29Z",
+    "scrapedAt": "2026-07-03T14:46:55Z",
     "status": "draft",
     "published": true,
     "price": 540.0,
@@ -768,7 +911,7 @@
     "currency": "GBP",
     "specs": {
       "weightKg": 0.61,
-      "weightDisplay": "约 0.61 kg",
+      "weightDisplay": "~0.61 kg",
       "structure": "tent"
     },
     "highlights": [
@@ -778,7 +921,7 @@
     "imageAlt": "U.L. Mono Frame Shelter (Yellow)",
     "sourceUrl": "https://www.montbell.co.uk/products/u-l-mono-frame-shelter-yellow",
     "sourceSite": "montbell.co.uk",
-    "scrapedAt": "2026-06-11T15:17:29Z",
+    "scrapedAt": "2026-07-03T14:46:55Z",
     "status": "draft",
     "published": true,
     "price": 430.0,
