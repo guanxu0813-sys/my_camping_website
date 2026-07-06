@@ -1752,14 +1752,22 @@ body.modal-open {
 @media (max-width: 720px) {
   .product-modal__panel {
     grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(0, 1fr);
     max-height: 92vh;
   }
 
   .product-modal__media {
-    max-height: 40vh;
+    height: 38vh;
+    max-height: 38vh;
+    min-height: 180px;
   }
 
   .product-modal__media img {
-    max-height: 40vh;
+    max-height: 100%;
+  }
+
+  .product-modal__body {
+    max-height: none;
+    min-height: 0;
   }
 }

@@ -1445,6 +1445,9 @@
   }
 
   function unlockPageScroll() {
+    var docEl = document.documentElement;
+    var prevBehavior = docEl.style.scrollBehavior;
+    docEl.style.scrollBehavior = "auto";
     document.body.classList.remove("modal-open");
     document.body.style.position = "";
     document.body.style.top = "";
@@ -1452,6 +1455,7 @@
     document.body.style.right = "";
     document.body.style.width = "";
     window.scrollTo(0, modalScrollY);
+    docEl.style.scrollBehavior = prevBehavior;
   }
 
   function openProductModal(productId) {
