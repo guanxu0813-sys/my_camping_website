@@ -559,9 +559,7 @@
     if (page !== "category" && page !== "furniture") return;
 
     var mount =
-      page === "furniture"
-        ? document.getElementById("category-brands") || document.querySelector(".page__head")
-        : document.getElementById("catalog-status") || document.querySelector(".page__head");
+      document.getElementById("catalog-status") || document.querySelector(".page__head");
     if (!mount) return;
 
     var root = document.getElementById("catalog-filters");
@@ -919,13 +917,32 @@
     return "product-" + product.id;
   }
 
-  function imageCreditHtml(product, className) {
+  function imageCreditHtml(product, className, options) {
     if (!product.imageUrl) return "";
+    options = options || {};
     var brand = brandName(product.brandId);
     var credit =
       "© " +
       brand +
       " · Image from official site";
+    if (options.overlay) {
+      var titleAttr = ' title="' + escapeHtml(credit) + '"';
+      if (product.sourceUrl) {
+        return (
+          '<p class="' +
+          escapeHtml(className) +
+          '">' +
+          '<a href="' +
+          escapeHtml(product.sourceUrl) +
+          '" target="_blank" rel="noopener noreferrer"' +
+          titleAttr +
+          ' aria-label="' +
+          escapeHtml("Image credit: " + credit) +
+          '">©</a></p>'
+        );
+      }
+      return '<p class="' + escapeHtml(className) + '"' + titleAttr + ">©</p>";
+    }
     if (product.sourceUrl) {
       return (
         '<p class="' +
@@ -952,6 +969,7 @@
         '" width="112" height="112" loading="lazy" decoding="async" />';
       return (
         '<td class="compare-table__thumb">' +
+        '<div class="compare-table__thumb-wrap">' +
         '<button type="button" class="compare-table__thumb-btn" data-product-id="' +
         escapeHtml(product.id) +
         '" aria-label="' +
@@ -959,8 +977,8 @@
         '">' +
         img +
         "</button>" +
-        imageCreditHtml(product, "compare-table__thumb-credit") +
-        "</td>"
+        imageCreditHtml(product, "compare-table__thumb-credit", { overlay: true }) +
+        "</div></td>"
       );
     }
     return '<td class="compare-table__thumb compare-table__thumb--empty"><span aria-hidden="true">—</span></td>';
@@ -1241,33 +1259,6 @@
     }
   }
 
-  function categoryBrandNames(category) {
-    var categories =
-      category === "furniture" ? ["table", "chair"] : [category];
-    var skipSummaryFilter = category === "furniture";
-    var seen = {};
-    var ids = [];
-    products.forEach(function (p) {
-      if (categories.indexOf(p.category) === -1) return;
-      if (!skipSummaryFilter && p.inSummaryTable === false) return;
-      if (!p.brandId || seen[p.brandId]) return;
-      seen[p.brandId] = true;
-      ids.push(p.brandId);
-    });
-    ids.sort(function (a, b) {
-      return brandRank(a) - brandRank(b);
-    });
-    return ids.map(brandName);
-  }
-
-  function renderCategoryBrands(category) {
-    var el = document.getElementById("category-brands");
-    if (!el) return;
-    var names = categoryBrandNames(category);
-    el.textContent = names.length ? "Brands: " + names.join(" · ") : "";
-    el.hidden = !names.length;
-  }
-
   var CATEGORY_MODAL = { tent: true, tarp: true, "sleeping-bag": true, "sleeping-pad": true };
 
   function renderCategoryPage(category) {
@@ -1277,8 +1268,6 @@
       return p.category === category && p.inSummaryTable !== false;
     });
     rows = prepareCompareRows(rows, category);
-
-    renderCategoryBrands(category);
 
     var compareHtml = "";
     if (category === "tent") {
@@ -1595,8 +1584,6 @@
   }
 
   function renderFurniturePage() {
-    renderCategoryBrands("furniture");
-
     var tableCount = renderFurnitureMatrix("tables-matrix", "table");
     var chairCount = renderFurnitureMatrix("chairs-matrix", "chair");
 

@@ -588,27 +588,6 @@ a {
   margin-bottom: 2.5rem;
 }
 
-.category-brands {
-  margin: 0 0 1rem;
-  font-size: 0.92rem;
-  font-weight: 500;
-  line-height: 1.55;
-  color: var(--color-text-muted);
-}
-
-.category-brands--page {
-  margin-top: -0.25rem;
-  margin-bottom: 1.25rem;
-}
-
-.category-section .category-brands {
-  margin-top: 0;
-}
-
-.category-brands[hidden] {
-  display: none;
-}
-
 .category-section__title {
   margin: 0 0 1rem;
   font-size: 1.2rem;
@@ -973,6 +952,12 @@ a {
   text-align: center;
 }
 
+.compare-table__thumb-wrap {
+  position: relative;
+  display: inline-block;
+  line-height: 0;
+}
+
 .compare-table__thumb-link,
 .compare-table__thumb-btn {
   display: inline-block;
@@ -1023,18 +1008,35 @@ a {
 }
 
 .compare-table__thumb-credit {
-  margin: 0.35rem 0 0;
-  max-width: 7.5rem;
-  font-size: 0.62rem;
-  line-height: 1.35;
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  z-index: 1;
+  margin: 0;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 0.55rem;
+  line-height: 1.2;
+  white-space: nowrap;
   color: var(--color-text-muted);
-  text-align: center;
+  background: rgba(255, 255, 255, 0.88);
+  pointer-events: auto;
 }
 
 .compare-table__thumb-credit a {
   color: var(--color-forest);
+  text-decoration: none;
+}
+
+.compare-table__thumb-credit a:hover {
   text-decoration: underline;
   text-underline-offset: 1px;
+}
+
+.compare-table__thumb-credit a:focus-visible {
+  outline: 2px solid var(--color-earth-bright);
+  outline-offset: 1px;
+  border-radius: 2px;
 }
 
 .sponsor-badge {
