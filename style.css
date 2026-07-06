@@ -633,6 +633,17 @@ a {
   border-color: rgba(212, 165, 116, 0.45);
 }
 
+.home-hub__card-head {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.home-hub__card-head .category-icon {
+  width: 32px;
+  height: 32px;
+}
+
 .home-hub__card-label {
   font-size: 1.25rem;
   font-weight: 700;
