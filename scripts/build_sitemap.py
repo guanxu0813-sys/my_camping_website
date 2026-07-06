@@ -384,7 +384,7 @@ def build_home_crawl_paragraph(seo: dict) -> str:
     domain = site_domain(seo)
     return (
         f"{brand} — {domain} · Side-by-side camping gear spec comparisons from official brand data. "
-        f"露营装备参数对比：帐篷、天幕、睡袋、露营家具。"
+        f"Compare tents, tarps, sleeping bags, and camp furniture."
     )
 
 

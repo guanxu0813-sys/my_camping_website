@@ -29,6 +29,7 @@
   var furnitureMatrixBound = false;
   var outboundTrackingBound = false;
   var lastModalFocus = null;
+  var modalScrollY = 0;
   var analyticsConfig = null;
 
   function isLocalDevHost() {
@@ -1433,6 +1434,26 @@
     return rows;
   }
 
+  function lockPageScroll() {
+    modalScrollY = window.scrollY || document.documentElement.scrollTop || 0;
+    document.body.style.position = "fixed";
+    document.body.style.top = "-" + modalScrollY + "px";
+    document.body.style.left = "0";
+    document.body.style.right = "0";
+    document.body.style.width = "100%";
+    document.body.classList.add("modal-open");
+  }
+
+  function unlockPageScroll() {
+    document.body.classList.remove("modal-open");
+    document.body.style.position = "";
+    document.body.style.top = "";
+    document.body.style.left = "";
+    document.body.style.right = "";
+    document.body.style.width = "";
+    window.scrollTo(0, modalScrollY);
+  }
+
   function openProductModal(productId) {
     var product = findProductById(productId);
     var modal = document.getElementById("product-modal");
@@ -1541,7 +1562,7 @@
     });
 
     modal.hidden = false;
-    document.body.classList.add("modal-open");
+    lockPageScroll();
     var closeBtn = modal.querySelector(".product-modal__close");
     if (closeBtn) closeBtn.focus();
   }
@@ -1550,7 +1571,7 @@
     var modal = document.getElementById("product-modal");
     if (!modal || modal.hidden) return;
     modal.hidden = true;
-    document.body.classList.remove("modal-open");
+    unlockPageScroll();
     if (lastModalFocus && typeof lastModalFocus.focus === "function") {
       lastModalFocus.focus();
     }
@@ -1570,6 +1591,16 @@
     document.addEventListener("keydown", function (e) {
       if (e.key === "Escape") closeProductModal();
     });
+    document.addEventListener(
+      "touchmove",
+      function (e) {
+        var modal = document.getElementById("product-modal");
+        if (!modal || modal.hidden) return;
+        if (e.target.closest(".product-modal__scroll")) return;
+        e.preventDefault();
+      },
+      { passive: false }
+    );
   }
 
   function bindFurnitureMatrixHandlers() {
