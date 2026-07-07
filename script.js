@@ -821,7 +821,7 @@
     });
   }
 
-  function renderSortableTh(label, key, tableId) {
+  function renderSortableTh(label, key, tableId, center) {
     var sort = tableSort[tableId];
     var active = sort && sort.key === key;
     var indicator = active ? (sort.dir === "asc" ? "↑" : "↓") : "↕";
@@ -829,6 +829,7 @@
     return (
       '<th scope="col" class="compare-table__sortable' +
       (active ? " is-sorted" : "") +
+      (center ? " compare-table__center" : "") +
       '" data-sort-table="' +
       tableId +
       '" data-sort-key="' +
@@ -985,167 +986,369 @@
     return '<td class="compare-table__thumb compare-table__thumb--empty"><span aria-hidden="true">—</span></td>';
   }
 
-  function renderTentTable(rows, compact) {
+  function isEmptyDisplayValue(value) {
+    return value == null || value === "" || value === "—";
+  }
+
+  function orderSpecColumns(columns, rows) {
+    if (!rows.length) return columns.slice();
+    var withData = [];
+    var allEmpty = [];
+    columns.forEach(function (col) {
+      var empty = rows.every(function (p) {
+        return isEmptyDisplayValue(col.getDisplay(p));
+      });
+      if (empty) allEmpty.push(col);
+      else withData.push(col);
+    });
+    return withData.concat(allEmpty);
+  }
+
+  function renderSpecTh(col, tableId) {
+    if (col.sortable) return renderSortableTh(col.label, col.sortKey, tableId, col.center);
+    var cls = col.center ? ' class="compare-table__center"' : "";
+    return '<th scope="col"' + cls + ">" + escapeHtml(col.label) + "</th>";
+  }
+
+  function renderSpecTd(col, p) {
+    var classes = [];
+    if (col.cellClass) classes.push(col.cellClass);
+    if (col.center) classes.push("compare-table__center");
+    var cls = classes.length ? ' class="' + classes.join(" ") + '"' : "";
+    return "<td" + cls + ">" + escapeHtml(col.getDisplay(p)) + "</td>";
+  }
+
+  function renderCompareSpecTable(config) {
+    var rows = config.rows;
+    var columns = orderSpecColumns(config.specColumns, rows);
     var body = rows
       .map(function (p) {
         return (
           "<tr" + compareTableRowAttrs(p) + ">" +
-          "<td>" + escapeHtml(brandName(p.brandId)) + "</td>" +
-          renderCompareModelCell(p) +
-          renderTableThumb(p) +
-          "<td>" + escapeHtml(displayCell(p.structure)) + "</td>" +
-          "<td>" + escapeHtml(formatWeight(p)) + "</td>" +
-          "<td>" + escapeHtml(displayCell(p.capacity)) + "</td>" +
-          "<td>" + escapeHtml(displayCell(p.fabric)) + "</td>" +
-          "<td>" + escapeHtml(priceForProduct(p)) + "</td>" +
-          "<td>" + escapeHtml(formatScenarios(p.scenarios)) + "</td>" +
+          config.leadingCells(p) +
+          columns.map(function (col) {
+            return renderSpecTd(col, p);
+          }).join("") +
           "</tr>"
         );
       })
       .join("");
 
+    var tableClass = config.tableClass || "compare-table";
     return (
-      '<div class="compare-block" data-compare-group="tent">' +
-      '<h2 class="compare-block__title">Tent Specs Overview</h2>' +
+      '<div class="compare-block" data-compare-group="' +
+      escapeHtml(config.group) +
+      '">' +
+      '<h2 class="compare-block__title">' +
+      config.title +
+      "</h2>" +
       TABLE_SCROLL_HINT +
-      '<div class="table-wrap"><table class="compare-table">' +
+      '<div class="table-wrap"><table class="' +
+      tableClass +
+      '">' +
       "<thead><tr>" +
-      "<th scope=\"col\">Brand</th><th scope=\"col\">Model</th><th scope=\"col\" class=\"compare-table__thumb-col\">Thumb</th><th scope=\"col\">Structure</th>" +
-      renderSortableTh("Weight", "weight", "tent") +
-      renderSortableTh("Capacity", "capacity", "tent") +
-      "<th scope=\"col\">Fabric / Waterproofing</th>" +
-      renderSortableTh("Price", "price", "tent") +
-      "<th scope=\"col\">Use Cases</th>" +
+      config.leadingHeader +
+      columns
+        .map(function (col) {
+          return renderSpecTh(col, config.tableId);
+        })
+        .join("") +
       "</tr></thead><tbody>" +
       body +
       "</tbody></table></div></div>"
     );
   }
 
-  function renderTarpTable(rows) {
-    var body = rows
-      .map(function (p) {
-        return (
-          "<tr" + compareTableRowAttrs(p) + ">" +
-          "<td>" + escapeHtml(brandName(p.brandId)) + "</td>" +
-          renderCompareModelCell(p) +
-          renderTableThumb(p) +
-          "<td>" + escapeHtml(displayCell(p.tarpType)) + "</td>" +
-          "<td>" + escapeHtml(formatWeight(p)) + "</td>" +
-          "<td>" + escapeHtml(displayCell(p.capacity)) + "</td>" +
-          "<td>" + escapeHtml(displayCell(p.size)) + "</td>" +
-          "<td>" + escapeHtml(priceForProduct(p)) + "</td>" +
-          "<td>" + escapeHtml(formatScenarios(p.scenarios)) + "</td>" +
-          "</tr>"
-        );
-      })
-      .join("");
-
+  function standardLeadingCells(p) {
     return (
-      '<div class="compare-block" data-compare-group="tarp">' +
-      '<h2 class="compare-block__title">Tarp Specs Overview</h2>' +
-      TABLE_SCROLL_HINT +
-      '<div class="table-wrap"><table class="compare-table">' +
-      "<thead><tr>" +
-      "<th scope=\"col\">Brand</th><th scope=\"col\">Model</th><th scope=\"col\" class=\"compare-table__thumb-col\">Thumb</th><th scope=\"col\">Type</th>" +
-      renderSortableTh("Weight", "weight", "tarp") +
-      renderSortableTh("Capacity", "capacity", "tarp") +
-      "<th scope=\"col\">Size</th>" +
-      renderSortableTh("Price", "price", "tarp") +
-      "<th scope=\"col\">Use Cases</th>" +
-      "</tr></thead><tbody>" +
-      body +
-      "</tbody></table></div></div>"
+      "<td>" +
+      escapeHtml(brandName(p.brandId)) +
+      "</td>" +
+      renderCompareModelCell(p) +
+      renderTableThumb(p)
+    );
+  }
+
+  var STANDARD_LEADING_HEADER =
+    '<th scope="col">Brand</th><th scope="col">Model</th><th scope="col" class="compare-table__thumb-col">Thumb</th>';
+
+  function renderTentTable(rows, compact) {
+    return renderCompareSpecTable({
+      tableId: "tent",
+      group: "tent",
+      title: "Tent Specs Overview",
+      rows: rows,
+      leadingHeader: STANDARD_LEADING_HEADER,
+      leadingCells: standardLeadingCells,
+      specColumns: [
+        {
+          label: "Structure",
+          getDisplay: function (p) {
+            return displayCell(p.structure);
+          },
+        },
+        {
+          label: "Weight",
+          getDisplay: formatWeight,
+          sortable: true,
+          sortKey: "weight",
+          center: true,
+        },
+        {
+          label: "Capacity",
+          getDisplay: function (p) {
+            return displayCell(p.capacity);
+          },
+          sortable: true,
+          sortKey: "capacity",
+          center: true,
+        },
+        {
+          label: "Fabric / Waterproofing",
+          getDisplay: function (p) {
+            return displayCell(p.fabric);
+          },
+        },
+        {
+          label: "Price",
+          getDisplay: priceForProduct,
+          sortable: true,
+          sortKey: "price",
+          center: true,
+          cellClass: "compare-table__price",
+        },
+        {
+          label: "Use Cases",
+          getDisplay: function (p) {
+            return formatScenarios(p.scenarios);
+          },
+          cellClass: "compare-table__scenarios",
+        },
+      ],
+    });
+  }
+
+  function renderTarpTable(rows) {
+    return renderCompareSpecTable({
+      tableId: "tarp",
+      group: "tarp",
+      title: "Tarp Specs Overview",
+      rows: rows,
+      leadingHeader: STANDARD_LEADING_HEADER,
+      leadingCells: standardLeadingCells,
+      specColumns: [
+        {
+          label: "Type",
+          getDisplay: function (p) {
+            return displayCell(p.tarpType);
+          },
+        },
+        {
+          label: "Weight",
+          getDisplay: formatWeight,
+          sortable: true,
+          sortKey: "weight",
+          center: true,
+        },
+        {
+          label: "Capacity",
+          getDisplay: function (p) {
+            return displayCell(p.capacity);
+          },
+          sortable: true,
+          sortKey: "capacity",
+          center: true,
+        },
+        {
+          label: "Size",
+          getDisplay: function (p) {
+            return displayCell(p.size);
+          },
+          center: true,
+        },
+        {
+          label: "Price",
+          getDisplay: priceForProduct,
+          sortable: true,
+          sortKey: "price",
+          center: true,
+          cellClass: "compare-table__price",
+        },
+        {
+          label: "Use Cases",
+          getDisplay: function (p) {
+            return formatScenarios(p.scenarios);
+          },
+          cellClass: "compare-table__scenarios",
+        },
+      ],
+    });
+  }
+
+  function sleepingBagLeadingCells(p) {
+    return (
+      '<td class="compare-table__brand">' +
+      escapeHtml(brandName(p.brandId)) +
+      "</td>" +
+      renderCompareModelCell(p) +
+      renderTableThumb(p)
     );
   }
 
   function renderSleepingBagTable(rows) {
-    var body = rows
-      .map(function (p) {
-        return (
-          "<tr" + compareTableRowAttrs(p) + ">" +
-          "<td class=\"compare-table__brand\">" + escapeHtml(brandName(p.brandId)) + "</td>" +
-          renderCompareModelCell(p) +
-          renderTableThumb(p) +
-          "<td>" + escapeHtml(displayCell(p.bagType || p.structure)) + "</td>" +
-          "<td class=\"compare-table__num\">" + escapeHtml(formatWeight(p)) + "</td>" +
-          "<td class=\"compare-table__num\">" + escapeHtml(displayCell(p.comfortTemp)) + "</td>" +
-          "<td>" + escapeHtml(displayCell(p.fillType || p.fabric)) + "</td>" +
-          "<td class=\"compare-table__price\">" + escapeHtml(priceForProduct(p)) + "</td>" +
-          "<td class=\"compare-table__scenarios\">" + escapeHtml(formatScenarios(p.scenarios)) + "</td>" +
-          "</tr>"
-        );
-      })
-      .join("");
-
-    return (
-      '<div class="compare-block" data-compare-group="sleeping-bag">' +
-      '<h2 class="compare-block__title">Sleeping Bag Specs Overview</h2>' +
-      TABLE_SCROLL_HINT +
-      '<div class="table-wrap"><table class="compare-table compare-table--sleeping-bag">' +
-      "<thead><tr>" +
-      "<th scope=\"col\">Brand</th><th scope=\"col\">Model</th><th scope=\"col\" class=\"compare-table__thumb-col\">Thumb</th>" +
-      "<th scope=\"col\">Type</th>" +
-      renderSortableTh("Weight", "weight", "sleeping-bag") +
-      renderSortableTh("Comfort Rating", "comfort", "sleeping-bag") +
-      "<th scope=\"col\">Fill</th>" +
-      renderSortableTh("Price", "price", "sleeping-bag") +
-      "<th scope=\"col\">Use Cases</th>" +
-      "</tr></thead><tbody>" +
-      body +
-      "</tbody></table></div></div>"
-    );
+    return renderCompareSpecTable({
+      tableId: "sleeping-bag",
+      group: "sleeping-bag",
+      title: "Sleeping Bag Specs Overview",
+      tableClass: "compare-table compare-table--sleeping-bag",
+      rows: rows,
+      leadingHeader: STANDARD_LEADING_HEADER,
+      leadingCells: sleepingBagLeadingCells,
+      specColumns: [
+        {
+          label: "Type",
+          getDisplay: function (p) {
+            return displayCell(p.bagType || p.structure);
+          },
+        },
+        {
+          label: "Weight",
+          getDisplay: formatWeight,
+          sortable: true,
+          sortKey: "weight",
+          center: true,
+          cellClass: "compare-table__num",
+        },
+        {
+          label: "Comfort Rating",
+          getDisplay: function (p) {
+            return displayCell(p.comfortTemp);
+          },
+          sortable: true,
+          sortKey: "comfort",
+          center: true,
+          cellClass: "compare-table__num",
+        },
+        {
+          label: "Fill",
+          getDisplay: function (p) {
+            return displayCell(p.fillType || p.fabric);
+          },
+        },
+        {
+          label: "Price",
+          getDisplay: priceForProduct,
+          sortable: true,
+          sortKey: "price",
+          center: true,
+          cellClass: "compare-table__price",
+        },
+        {
+          label: "Use Cases",
+          getDisplay: function (p) {
+            return formatScenarios(p.scenarios);
+          },
+          cellClass: "compare-table__scenarios",
+        },
+      ],
+    });
   }
 
   function renderSleepingPadTable(rows) {
-    var body = rows
-      .map(function (p) {
-        return (
-          "<tr" + compareTableRowAttrs(p) + ">" +
-          "<td class=\"compare-table__brand\">" + escapeHtml(brandName(p.brandId)) + "</td>" +
-          renderCompareModelCell(p) +
-          renderTableThumb(p) +
-          "<td>" + escapeHtml(displayCell(p.padType || p.structure)) + "</td>" +
-          "<td class=\"compare-table__num\">" + escapeHtml(formatWeight(p)) + "</td>" +
-          "<td class=\"compare-table__num\">" + escapeHtml(displayCell(p.rValue)) + "</td>" +
-          "<td>" + escapeHtml(displayCell(p.size)) + "</td>" +
-          "<td class=\"compare-table__price\">" + escapeHtml(priceForProduct(p)) + "</td>" +
-          "<td class=\"compare-table__scenarios\">" + escapeHtml(formatScenarios(p.scenarios)) + "</td>" +
-          "</tr>"
-        );
-      })
-      .join("");
-
-    return (
-      '<div class="compare-block" data-compare-group="sleeping-pad">' +
-      '<h2 class="compare-block__title">Sleeping Pad Specs Overview</h2>' +
-      TABLE_SCROLL_HINT +
-      '<div class="table-wrap"><table class="compare-table compare-table--sleeping-pad">' +
-      "<thead><tr>" +
-      "<th scope=\"col\">Brand</th><th scope=\"col\">Model</th><th scope=\"col\" class=\"compare-table__thumb-col\">Thumb</th>" +
-      "<th scope=\"col\">Type</th>" +
-      renderSortableTh("Weight", "weight", "sleeping-pad") +
-      renderSortableTh("R-Value", "rvalue", "sleeping-pad") +
-      "<th scope=\"col\">Size</th>" +
-      renderSortableTh("Price", "price", "sleeping-pad") +
-      "<th scope=\"col\">Use Cases</th>" +
-      "</tr></thead><tbody>" +
-      body +
-      "</tbody></table></div></div>"
-    );
+    return renderCompareSpecTable({
+      tableId: "sleeping-pad",
+      group: "sleeping-pad",
+      title: "Sleeping Pad Specs Overview",
+      tableClass: "compare-table compare-table--sleeping-pad",
+      rows: rows,
+      leadingHeader: STANDARD_LEADING_HEADER,
+      leadingCells: sleepingBagLeadingCells,
+      specColumns: [
+        {
+          label: "Type",
+          getDisplay: function (p) {
+            return displayCell(p.padType || p.structure);
+          },
+        },
+        {
+          label: "Weight",
+          getDisplay: formatWeight,
+          sortable: true,
+          sortKey: "weight",
+          center: true,
+          cellClass: "compare-table__num",
+        },
+        {
+          label: "R-Value",
+          getDisplay: function (p) {
+            return displayCell(p.rValue);
+          },
+          sortable: true,
+          sortKey: "rvalue",
+          center: true,
+          cellClass: "compare-table__num",
+        },
+        {
+          label: "Size",
+          getDisplay: function (p) {
+            return displayCell(p.size);
+          },
+        },
+        {
+          label: "Price",
+          getDisplay: priceForProduct,
+          sortable: true,
+          sortKey: "price",
+          center: true,
+          cellClass: "compare-table__price",
+        },
+        {
+          label: "Use Cases",
+          getDisplay: function (p) {
+            return formatScenarios(p.scenarios);
+          },
+          cellClass: "compare-table__scenarios",
+        },
+      ],
+    });
   }
 
   function renderProsTable(rows) {
     if (!rows.length) return "";
+
+    var columns = orderSpecColumns(
+      [
+        {
+          label: "Price",
+          getDisplay: priceForProduct,
+          center: true,
+        },
+        {
+          label: "Strengths",
+          getDisplay: function (p) {
+            return displayCell(p.pros);
+          },
+        },
+        {
+          label: "Trade-offs",
+          getDisplay: function (p) {
+            return displayCell(p.cons);
+          },
+        },
+      ],
+      rows
+    );
 
     var body = rows
       .map(function (p) {
         return (
           "<tr" + compareTableRowAttrs(p) + ">" +
           "<td>" + escapeHtml(fullModelName(p)) + "</td>" +
-          "<td>" + escapeHtml(priceForProduct(p)) + "</td>" +
-          "<td>" + escapeHtml(displayCell(p.pros)) + "</td>" +
-          "<td>" + escapeHtml(displayCell(p.cons)) + "</td>" +
+          columns
+            .map(function (col) {
+              return renderSpecTd(col, p);
+            })
+            .join("") +
           "</tr>"
         );
       })
@@ -1157,8 +1360,12 @@
       TABLE_SCROLL_HINT +
       '<div class="table-wrap"><table class="compare-table compare-table--pros">' +
       "<thead><tr>" +
-      "<th scope=\"col\">Brand &amp; Model</th><th scope=\"col\">Price</th>" +
-      "<th scope=\"col\">Strengths</th><th scope=\"col\">Trade-offs</th>" +
+      '<th scope="col">Brand &amp; Model</th>' +
+      columns
+        .map(function (col) {
+          return renderSpecTh(col, "tent");
+        })
+        .join("") +
       "</tr></thead><tbody>" +
       body +
       "</tbody></table></div></div>"

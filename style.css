@@ -301,6 +301,17 @@ a {
   color: var(--color-text-muted);
 }
 
+.home-hub .seo-crawl {
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.page--sub .seo-crawl {
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+}
+
 .page__title {
   margin: 0 0 0.5rem;
   font-size: clamp(1.5rem, 4vw, 2rem);
@@ -865,9 +876,8 @@ a {
   padding-right: 1rem;
 }
 
-/* Weight, capacity, size, price — center table headers and cells */
-.compare-table thead th:nth-child(n + 5):nth-child(-n + 8),
-.compare-table tbody td:nth-child(n + 5):nth-child(-n + 8) {
+/* Weight, capacity, size, price — center aligned spec columns */
+.compare-table__center {
   text-align: center;
 }
 

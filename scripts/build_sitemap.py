@@ -455,9 +455,16 @@ def inject_html_seo(
             )
             if crawl_pattern.search(text):
                 text = crawl_pattern.sub(crawl_block, text, count=1)
+            elif page.get("breadcrumb") == "Furniture":
+                text = re.sub(
+                    r'(<div id="chairs-matrix"[^>]*></div>\n    </section>)',
+                    r"\1\n    " + crawl_block + "\n",
+                    text,
+                    count=1,
+                )
             else:
                 text = re.sub(
-                    r'(class="page__lead page__lead--compact">[^<]+</p>\n)',
+                    r'(<div id="compare-root"[^>]*></div>)',
                     r"\1\n    " + crawl_block + "\n",
                     text,
                     count=1,
