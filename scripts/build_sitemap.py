@@ -147,7 +147,7 @@ def build_og_and_twitter(page: dict, site_url: str, seo: dict) -> str:
     title = page["title"]
     description = page["description"]
     url = f"{site_url}{page['path']}"
-    image = page.get("ogImage") or seo.get("defaultOgImage") or f"{site_url}/assets/hero-home.jpg"
+    image = page.get("ogImage") or seo.get("defaultOgImage") or f"{site_url}/assets/hero-home.png"
     lines = [
         f'<meta property="og:type" content="website" />',
         f'<meta property="og:site_name" content="{escape_html(seo.get("siteName", "CampGear Compare"))}" />',

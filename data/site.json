@@ -1,9 +1,8 @@
 {
   "hero": {
-    "imageUrl": "assets/hero-home.jpg",
-    "imageAlt": "Camping tent by a lake at sunrise",
+    "imageUrl": "assets/hero-home.png",
+    "imageAlt": "Camping tent under the Milky Way at night",
     "eyebrow": "CampGear Compare",
-    "title": "Camping Gear · Compare Specs in One Table",
     "subtitle": "Compare specs and prices for popular camping gear models—skip the hassle of browsing brand sites",
     "ctaPrimary": { "label": "Compare Tents", "href": "tent.html#compare" },
     "ctaSecondary": { "label": "Compare Tarps", "href": "tarp.html#compare" }

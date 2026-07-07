@@ -1853,7 +1853,7 @@
     var eyebrow = document.getElementById("hero-eyebrow");
     if (eyebrow && h.eyebrow) eyebrow.textContent = h.eyebrow;
     var title = document.getElementById("hero-title");
-    if (title && h.title) title.textContent = h.title;
+    if (title && h.title && !title.getAttribute("data-fixed")) title.textContent = h.title;
     var subtitle = document.getElementById("hero-subtitle");
     if (subtitle && h.subtitle) subtitle.textContent = h.subtitle;
   }

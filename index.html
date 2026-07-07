@@ -14,20 +14,20 @@
   <meta property="og:title" content="Compare Camping Gear Specs &amp; Prices · CampGear Compare" />
   <meta property="og:description" content="CampGear Compare at campgearcompare.com — side-by-side camping gear comparisons for tents, tarps, sleeping bags, and camp furniture. Sort by weight, capacity, and price from official brand specs." />
   <meta property="og:url" content="https://www.campgearcompare.com/" />
-  <meta property="og:image" content="https://www.campgearcompare.com/assets/hero-home.jpg" />
+  <meta property="og:image" content="https://www.campgearcompare.com/assets/hero-home.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Compare Camping Gear Specs &amp; Prices · CampGear Compare" />
   <meta name="twitter:description" content="CampGear Compare at campgearcompare.com — side-by-side camping gear comparisons for tents, tarps, sleeping bags, and camp furniture. Sort by weight, capacity, and price from official brand specs." />
-  <meta name="twitter:image" content="https://www.campgearcompare.com/assets/hero-home.jpg" />
+  <meta name="twitter:image" content="https://www.campgearcompare.com/assets/hero-home.png" />
   <meta name="keywords" content="CampGear Compare,campgearcompare,camping gear comparison,tent comparison,sleeping bag comparison,sleeping pad comparison" />
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.campgearcompare.com/#organization","name":"CampGear Compare","url":"https://www.campgearcompare.com/","logo":"https://www.campgearcompare.com/favicon.svg","alternateName":["campgearcompare","campgearcompare.com","CampGearCompare"],"description":"CampGear Compare (campgearcompare.com) — side-by-side camping gear spec comparisons from official brand data.","sameAs":["https://github.com/guanxu0813-sys/my_camping_website"]},{"@type":"WebSite","@id":"https://www.campgearcompare.com/#website","name":"CampGear Compare","url":"https://www.campgearcompare.com/","publisher":{"@id":"https://www.campgearcompare.com/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.campgearcompare.com/tent.html?q={search_term_string}"},"query-input":"required name=search_term_string"}}]}</script>
   <!-- @seo-head:end -->
   <script defer data-domain="campgearcompare.com" src="https://plausible.io/js/script.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Permanent+Marker&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="preload" as="image" href="assets/hero-home.jpg" fetchpriority="high" />
+  <link rel="preload" as="image" href="assets/hero-home.png" fetchpriority="high" />
 </head>
 <body data-page="home">
   <header class="site-header">
@@ -54,10 +54,10 @@
     <img
       class="hero__media"
       id="hero-image"
-      src="assets/hero-home.jpg"
-      alt="Camping tent by a lake at sunrise"
+      src="assets/hero-home.png"
+      alt="Camping tent under the Milky Way at night"
       width="1920"
-      height="1075"
+      height="1080"
       fetchpriority="high"
       decoding="async"
     />
@@ -65,56 +65,73 @@
     <div class="hero__inner">
       <div class="hero__content">
         <p class="hero__eyebrow" id="hero-eyebrow">CampGear Compare</p>
-        <h1 class="hero__title" id="hero-title">Camping Gear · Compare Specs in One Table</h1>
+        <h1 class="hero__title" id="hero-title" data-fixed="true">
+          <span class="hero__title-line">Camping Gear</span>
+          <span class="hero__title-brush">Compare Specs</span>
+          <span class="hero__title-line">in One Table</span>
+          <span class="hero__title-underline" aria-hidden="true"></span>
+        </h1>
         <p class="hero__subtitle" id="hero-subtitle">Compare specs and prices for popular camping gear models—skip the hassle of browsing brand sites</p>
       </div>
+      <div class="hero__badge" aria-hidden="true">Gear Up<br />⚡ Smarter</div>
     </div>
   </section>
 
   <main class="page page--home">
     <section class="home-hub" aria-labelledby="home-hub-title">
-      <h2 id="home-hub-title" class="home-hub__title">Choose a Category</h2>
+      <h2 id="home-hub-title" class="home-hub__title">
+        <span class="section-title-decor" aria-hidden="true"><span></span><span></span><span></span></span>
+        Choose a Category
+        <span class="section-title-decor" aria-hidden="true"><span></span><span></span><span></span></span>
+      </h2>
       <div class="home-hub__grid home-hub__grid--6">
         <a class="home-hub__card" href="tent.html">
-          <span class="home-hub__card-head">
-            <svg class="category-icon" width="40" height="40" viewBox="0 0 32 32" fill="none" aria-hidden="true"><use href="#icon-tent"/></svg>
+          <img class="home-hub__card-icon" src="assets/icons/category-tents.png" alt="" width="70" height="70" loading="lazy" decoding="async" />
+          <span class="home-hub__card-body">
             <span class="home-hub__card-label">Tents</span>
+            <span class="home-hub__card-desc">Compare specs + model guides</span>
           </span>
-          <span class="home-hub__card-desc">Compare specs + model guides</span>
+          <span class="home-hub__card-arrow" aria-hidden="true"><img src="assets/icons/card-arrow.png" alt="" width="24" height="24" /></span>
         </a>
         <a class="home-hub__card" href="tarp.html">
-          <span class="home-hub__card-head">
-            <svg class="category-icon" width="40" height="40" viewBox="0 0 32 32" fill="none" aria-hidden="true"><use href="#icon-tarp"/></svg>
+          <img class="home-hub__card-icon" src="assets/icons/category-tarps.png" alt="" width="70" height="70" loading="lazy" decoding="async" />
+          <span class="home-hub__card-body">
             <span class="home-hub__card-label">Tarps</span>
+            <span class="home-hub__card-desc">Compare specs + model guides</span>
           </span>
-          <span class="home-hub__card-desc">Compare specs + model guides</span>
+          <span class="home-hub__card-arrow" aria-hidden="true"><img src="assets/icons/card-arrow.png" alt="" width="24" height="24" /></span>
         </a>
         <a class="home-hub__card" href="furniture.html">
-          <span class="home-hub__card-head">
-            <svg class="category-icon" width="40" height="40" viewBox="0 0 32 32" fill="none" aria-hidden="true"><use href="#icon-table"/></svg>
+          <img class="home-hub__card-icon" src="assets/icons/category-furniture.png" alt="" width="70" height="70" loading="lazy" decoding="async" />
+          <span class="home-hub__card-body">
             <span class="home-hub__card-label">Furniture</span>
+            <span class="home-hub__card-desc">Table &amp; chair matrix + details</span>
           </span>
-          <span class="home-hub__card-desc">Table &amp; chair matrix + details</span>
+          <span class="home-hub__card-arrow" aria-hidden="true"><img src="assets/icons/card-arrow.png" alt="" width="24" height="24" /></span>
         </a>
         <a class="home-hub__card" href="sleeping-bag.html">
-          <span class="home-hub__card-head">
-            <svg class="category-icon" width="40" height="40" viewBox="0 0 32 32" fill="none" aria-hidden="true"><use href="#icon-sleeping-bag"/></svg>
+          <img class="home-hub__card-icon" src="assets/icons/category-sleeping-bags.png" alt="" width="70" height="70" loading="lazy" decoding="async" />
+          <span class="home-hub__card-body">
             <span class="home-hub__card-label">Sleeping Bags</span>
+            <span class="home-hub__card-desc">Temp, weight &amp; specs + model guides</span>
           </span>
-          <span class="home-hub__card-desc">Temp, weight &amp; specs + model guides</span>
+          <span class="home-hub__card-arrow" aria-hidden="true"><img src="assets/icons/card-arrow.png" alt="" width="24" height="24" /></span>
         </a>
         <a class="home-hub__card" href="sleeping-pad.html">
-          <span class="home-hub__card-head">
-            <svg class="category-icon" width="40" height="40" viewBox="0 0 32 32" fill="none" aria-hidden="true"><use href="#icon-sleeping-pad"/></svg>
+          <img class="home-hub__card-icon" src="assets/icons/category-sleeping-pads.png" alt="" width="70" height="70" loading="lazy" decoding="async" />
+          <span class="home-hub__card-body">
             <span class="home-hub__card-label">Sleeping Pads</span>
+            <span class="home-hub__card-desc">R-value, weight &amp; specs comparison</span>
           </span>
-          <span class="home-hub__card-desc">R-value, weight &amp; specs comparison</span>
+          <span class="home-hub__card-arrow" aria-hidden="true"><img src="assets/icons/card-arrow.png" alt="" width="24" height="24" /></span>
         </a>
         <a class="home-hub__card home-hub__card--muted" href="etc.html">
-          <span class="home-hub__card-head">
+          <img class="home-hub__card-icon" src="assets/icons/category-more.png" alt="" width="70" height="70" loading="lazy" decoding="async" />
+          <span class="home-hub__card-body">
             <span class="home-hub__card-label">More</span>
+            <span class="home-hub__card-desc">More categories coming</span>
           </span>
-          <span class="home-hub__card-desc">More categories coming</span>
+          <span class="home-hub__card-arrow" aria-hidden="true"><img src="assets/icons/card-arrow.png" alt="" width="24" height="24" /></span>
         </a>
       </div>
     <!-- @seo-crawl -->
