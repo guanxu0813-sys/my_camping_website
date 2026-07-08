@@ -1,7 +1,7 @@
 {
   "hero": {
     "imageUrl": "assets/hero-home.png",
-    "imageAlt": "Camping tent under the Milky Way at night",
+    "imageAlt": "Camping tent by a lake under the Milky Way at night",
     "eyebrow": "CampGear Compare",
     "subtitle": "Compare specs and prices for popular camping gear models—skip the hassle of browsing brand sites",
     "ctaPrimary": { "label": "Compare Tents", "href": "tent.html#compare" },
