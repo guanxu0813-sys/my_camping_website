@@ -738,6 +738,9 @@
   }
 
   function injectNavSearch() {
+    var page = document.body.getAttribute("data-page");
+    if (page !== "home") return;
+
     var nav = document.querySelector(".site-header .nav");
     if (!nav || nav.querySelector(".nav-search")) return;
 
@@ -1467,6 +1470,24 @@
     }
   }
 
+  function captureTableScrollPositions(root) {
+    if (!root) return [];
+    var wraps = root.querySelectorAll(".table-wrap");
+    var positions = [];
+    for (var i = 0; i < wraps.length; i++) {
+      positions.push(wraps[i].scrollLeft);
+    }
+    return positions;
+  }
+
+  function restoreTableScrollPositions(root, positions) {
+    if (!root || !positions || !positions.length) return;
+    var wraps = root.querySelectorAll(".table-wrap");
+    for (var i = 0; i < wraps.length && i < positions.length; i++) {
+      wraps[i].scrollLeft = positions[i];
+    }
+  }
+
   var CATEGORY_MODAL = { tent: true, tarp: true, "sleeping-bag": true, "sleeping-pad": true };
 
   function renderCategoryPage(category) {
@@ -1495,6 +1516,7 @@
     }
 
     var compareRoot = document.getElementById("compare-root");
+    var tableScrollPositions = captureTableScrollPositions(compareRoot);
     if (compareRoot) {
       compareRoot.innerHTML =
         compareHtml || '<p class="page__lead">No comparison data for this category yet.</p>';
@@ -1522,6 +1544,7 @@
     }
     ensureCategoryFilters(category);
     applyCatalogFilters();
+    restoreTableScrollPositions(compareRoot, tableScrollPositions);
     scrollToProductHashIfPresent();
   }
 

@@ -255,21 +255,13 @@ a {
 .hero__badge {
   flex: 0 0 auto;
   align-self: center;
+  width: clamp(7.6rem, 14.4vw, 10.8rem);
+  height: auto;
   margin-right: clamp(0rem, 2vw, 1.5rem);
-  padding: 0.95rem 1.15rem;
-  color: #fff;
-  font-size: 0.68rem;
-  font-weight: 700;
-  line-height: 1.35;
-  letter-spacing: 0.1em;
-  text-align: center;
-  text-transform: uppercase;
-  background: var(--color-accent);
-  border-radius: 6px;
-  box-shadow:
-    0 10px 28px rgba(0, 0, 0, 0.28),
-    inset 0 1px 0 rgba(255, 255, 255, 0.18);
-  transform: rotate(7deg);
+  object-fit: contain;
+  filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.35));
+  transform: rotate(4deg);
+  mix-blend-mode: screen;
 }
 
 .hero__subtitle {
