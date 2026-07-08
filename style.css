@@ -1597,14 +1597,16 @@ a {
     line-height: 1.4;
     max-width: 36em;
   }
+}
 
+/* 顶栏三行布局与紧凑间距：放宽断点，避免 769–960px 平板仍走桌面样式 */
+@media (max-width: 960px) {
   .nav {
     flex-wrap: wrap;
     align-items: flex-start;
-    row-gap: 0.2rem;
-    column-gap: 0.75rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    gap: 0.1rem 0.75rem;
+    padding-top: 0.45rem;
+    padding-bottom: 0.45rem;
     min-height: 0;
   }
 
@@ -1616,23 +1618,29 @@ a {
     order: 3;
     flex: 1 1 100%;
     max-width: none;
-    margin-top: 0.2rem;
+    margin-top: 0.15rem;
   }
 
-  .nav__links {
+  .nav__links,
+  .nav__links.nav__links--categories {
     width: 100%;
-    row-gap: 0.05rem;
-    column-gap: 0.55rem;
-    margin-top: -0.05rem;
+    gap: 0 0.5rem;
+    margin-top: -0.12rem;
   }
 
   .nav__links--categories {
     justify-content: flex-start;
-    row-gap: 0.05rem;
-    column-gap: 0.55rem;
   }
 
+  .nav__links li {
+    margin: 0;
+    padding: 0;
+    line-height: 1.05;
+  }
+
+  .nav__links a,
   .nav__links--categories a {
+    display: block;
     line-height: 1.05;
   }
 
