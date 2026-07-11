@@ -27,7 +27,10 @@
 
 ```bash
 python3 scripts/build_catalog.py
+python3 scripts/build_sitemap.py
 ```
+
+其中 `build_sitemap.py` 会同步 `robots.txt`、`sitemap.xml`、HTML SEO 区块，并重建 `products/` 与 `brands/` 下的静态长尾 SEO 页面。
 
 ## 官网抓取工作流
 

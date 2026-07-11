@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /
-Disallow: /data/
+Allow: /data/catalog.js
+Allow: /data/brands.json
+Allow: /data/official/
+Disallow: /data/products.json
 
 Sitemap: https://www.campgearcompare.com/sitemap.xml
