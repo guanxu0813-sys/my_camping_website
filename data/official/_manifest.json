@@ -309,6 +309,138 @@
       "scrapedAt": "2026-07-14T15:38:53Z",
       "productCount": 18,
       "errors": []
+    },
+    {
+      "brandId": "flames-creed",
+      "scrapedAt": "2026-07-15T14:33:02Z",
+      "productCount": 0,
+      "errors": [
+        "woocommerce products: <urlopen error [Errno 54] Connection reset by peer>"
+      ]
+    },
+    {
+      "brandId": "aegismax",
+      "scrapedAt": "2026-07-15T14:33:20Z",
+      "productCount": 0,
+      "errors": [
+        "woocommerce products: <urlopen error [Errno 54] Connection reset by peer>"
+      ]
+    },
+    {
+      "brandId": "onetigris",
+      "scrapedAt": "2026-07-15T14:35:03Z",
+      "productCount": 0,
+      "errors": [
+        "collection tents-shelters: <urlopen error [Errno 54] Connection reset by peer>",
+        "collection sleeping-gears: <urlopen error [Errno 54] Connection reset by peer>",
+        "collection camping-stoves: <urlopen error [Errno 54] Connection reset by peer>",
+        "collection furniture: <urlopen error [Errno 54] Connection reset by peer>",
+        "all_products: <urlopen error [Errno 54] Connection reset by peer>"
+      ]
+    },
+    {
+      "brandId": "asta-gear",
+      "scrapedAt": "2026-07-15T14:35:37Z",
+      "productCount": 0,
+      "errors": [
+        "all_products: <urlopen error [Errno 54] Connection reset by peer>"
+      ]
+    },
+    {
+      "brandId": "flames-creed",
+      "scrapedAt": "2026-07-15T14:37:39Z",
+      "productCount": 24,
+      "errors": []
+    },
+    {
+      "brandId": "aegismax",
+      "scrapedAt": "2026-07-15T14:37:43Z",
+      "productCount": 26,
+      "errors": []
+    },
+    {
+      "brandId": "onetigris",
+      "scrapedAt": "2026-07-15T14:38:19Z",
+      "productCount": 76,
+      "errors": [
+        "collection tents-shelters: 0 products returned",
+        "collection sleeping-gears: 0 products returned",
+        "collection camping-stoves: 0 products returned",
+        "collection furniture: 0 products returned"
+      ]
+    },
+    {
+      "brandId": "asta-gear",
+      "scrapedAt": "2026-07-15T14:38:23Z",
+      "productCount": 34,
+      "errors": []
+    },
+    {
+      "brandId": "asta-gear",
+      "scrapedAt": "2026-07-15T14:38:50Z",
+      "productCount": 35,
+      "errors": []
+    },
+    {
+      "brandId": "flames-creed",
+      "scrapedAt": "2026-07-15T14:54:05Z",
+      "productCount": 17,
+      "errors": []
+    },
+    {
+      "brandId": "aegismax",
+      "scrapedAt": "2026-07-15T14:54:16Z",
+      "productCount": 19,
+      "errors": []
+    },
+    {
+      "brandId": "onetigris",
+      "scrapedAt": "2026-07-15T14:54:34Z",
+      "productCount": 69,
+      "errors": [
+        "collection tents-shelters: 0 products returned",
+        "collection sleeping-gears: 0 products returned",
+        "collection camping-stoves: 0 products returned",
+        "collection furniture: 0 products returned"
+      ]
+    },
+    {
+      "brandId": "asta-gear",
+      "scrapedAt": "2026-07-15T14:54:39Z",
+      "productCount": 27,
+      "errors": []
+    },
+    {
+      "brandId": "flames-creed",
+      "scrapedAt": "2026-07-15T14:56:06Z",
+      "productCount": 17,
+      "errors": []
+    },
+    {
+      "brandId": "aegismax",
+      "scrapedAt": "2026-07-15T14:56:17Z",
+      "productCount": 19,
+      "errors": []
+    },
+    {
+      "brandId": "onetigris",
+      "scrapedAt": "2026-07-15T14:58:03Z",
+      "productCount": 69,
+      "errors": [
+        "collection tents-shelters: HTTP Error 429: Too Many Requests",
+        "collection sleeping-gears: HTTP Error 429: Too Many Requests",
+        "collection camping-stoves: HTTP Error 429: Too Many Requests",
+        "collection furniture: HTTP Error 429: Too Many Requests",
+        "all_products: HTTP Error 429: Too Many Requests"
+      ]
+    },
+    {
+      "brandId": "asta-gear",
+      "scrapedAt": "2026-07-15T14:58:30Z",
+      "productCount": 24,
+      "errors": [
+        "all_products: HTTP Error 429: Too Many Requests"
+      ]
     }
   ]
 }

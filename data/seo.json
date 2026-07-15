@@ -16,8 +16,8 @@
     {
       "path": "/",
       "file": "index.html",
-      "title": "Compare Camping Gear Specs & Prices · CampGear Compare",
-      "description": "CampGear Compare at campgearcompare.com — side-by-side camping gear comparisons for tents, tarps, sleeping bags, and camp furniture. Sort by weight, capacity, and price from official brand specs.",
+      "title": "Camping Gear Comparison Table — Sort by Weight & Price | CampGear Compare",
+      "description": "Free sortable camping gear specs from official brand pages. Compare 700+ tents, sleeping bags, sleeping pads, tarps & camp furniture — side by side, no signup.",
       "changefreq": "weekly",
       "priority": "1.0",
       "schema": "home"
@@ -25,8 +25,8 @@
     {
       "path": "/tent.html",
       "file": "tent.html",
-      "title": "Compare Camping Tents by Weight, Capacity & Price · CampGear Compare",
-      "description": "Compare 200+ camping tents side by side on CampGear Compare — weight, structure, capacity, fabric, and price. Data from Naturehike, Snow Peak, Big Agnes, and more official sources.",
+      "title": "Camping Tent Comparison Table — Sort 300+ Tents by Weight & Price",
+      "description": "Free side-by-side tent specs: weight, capacity, fabric & price. Snow Peak, Naturehike, Big Agnes, NEMO & more — official data in one sortable table.",
       "changefreq": "weekly",
       "priority": "0.9",
       "schema": "category",
@@ -36,8 +36,8 @@
     {
       "path": "/tarp.html",
       "file": "tarp.html",
-      "title": "Compare Camping Tarps by Weight, Size & Price · CampGear Compare",
-      "description": "Camping tarp comparison table on campgearcompare.com — sort by weight, type, capacity, size, and price. Specs sourced from brand official websites.",
+      "title": "Camping Tarp Comparison Table — Sort 60+ Tarps by Weight & Price",
+      "description": "Free sortable tarp specs: weight, type, size & price from official brand pages. Compare Snow Peak, Montbell, DOD & more side by side.",
       "changefreq": "weekly",
       "priority": "0.9",
       "schema": "category",
@@ -47,8 +47,8 @@
     {
       "path": "/sleeping-bag.html",
       "file": "sleeping-bag.html",
-      "title": "Compare Sleeping Bags by Temp Rating & Weight · CampGear Compare",
-      "description": "Sleeping bag spec comparison on CampGear Compare — comfort rating, fill type, weight, and price across major outdoor brands. Official data in a sortable table.",
+      "title": "Sleeping Bag Comparison Table — Sort 200+ Bags by Weight & Temp",
+      "description": "Compare comfort rating, fill type, weight & price side by side. Official specs from NANGA, Montbell, Sea to Summit & more — free sortable table.",
       "changefreq": "weekly",
       "priority": "0.9",
       "schema": "category",
@@ -58,8 +58,8 @@
     {
       "path": "/sleeping-pad.html",
       "file": "sleeping-pad.html",
-      "title": "Compare Sleeping Pads by R-Value & Weight · CampGear Compare",
-      "description": "Sleeping pad spec comparison on CampGear Compare — R-value, pad type, weight, size, and price across Naturehike, Sea to Summit, NEMO, Therm-a-Rest, Klymit, and more.",
+      "title": "Sleeping Pad Comparison Table — Sort 130+ Pads by R-Value & Weight",
+      "description": "Free sortable sleeping pad specs: R-value, weight, size & price from official brand pages. Compare Therm-a-Rest, Sea to Summit, NEMO & more.",
       "changefreq": "weekly",
       "priority": "0.9",
       "schema": "category",
@@ -69,8 +69,8 @@
     {
       "path": "/stove.html",
       "file": "stove.html",
-      "title": "Compare Camping Stoves by Weight & Price · CampGear Compare",
-      "description": "Camping stove comparison on CampGear Compare — weight, stove type, and price for backpacking canister stoves. Fire Maple and more official brand specs in one table.",
+      "title": "Camping Stove Comparison Table — Sort by Weight & Price",
+      "description": "Free sortable stove specs: weight, type & price from official brand pages. Compare Fire Maple and more backpacking stoves side by side.",
       "changefreq": "weekly",
       "priority": "0.9",
       "schema": "category",
@@ -78,10 +78,21 @@
       "breadcrumb": "Stoves"
     },
     {
+      "path": "/backpack.html",
+      "file": "backpack.html",
+      "title": "Backpack Comparison Table — Sort by Weight & Capacity",
+      "description": "Free sortable backpacking pack specs: weight, capacity & price from official brand pages. Compare Flame's Creed, Aegismax, OneTigris & more side by side.",
+      "changefreq": "weekly",
+      "priority": "0.9",
+      "schema": "category",
+      "categories": ["backpack"],
+      "breadcrumb": "Backpacks"
+    },
+    {
       "path": "/furniture.html",
       "file": "furniture.html",
-      "title": "Compare Camp Tables & Chairs by Weight & Price · CampGear Compare",
-      "description": "Camp furniture comparison on campgearcompare.com — camping tables and chairs sorted by brand, weight, and price. Helinox, Snow Peak, DOD, and more.",
+      "title": "Camp Furniture Comparison Table — Sort Tables & Chairs by Weight",
+      "description": "Free sortable camp table and chair specs: weight, packed size & price. Compare Helinox, Snow Peak, DOD & more from official brand data.",
       "changefreq": "weekly",
       "priority": "0.8",
       "schema": "category",
@@ -97,6 +108,16 @@
       "priority": "0.3",
       "schema": "legal",
       "breadcrumb": "Legal"
+    },
+    {
+      "path": "/guides/snow-peak-amenity-dome-2-vs-naturehike-cloud-up-2.html",
+      "file": "guides/snow-peak-amenity-dome-2-vs-naturehike-cloud-up-2.html",
+      "title": "Snow Peak Amenity Dome 2 vs Naturehike Cloud Up 2 — Spec Comparison",
+      "description": "Side-by-side weight, capacity & price: Snow Peak Amenity Dome 2 (~5.9 kg, $500) vs Naturehike Cloud Up 2 (~2.1 kg, $139). Official specs from both brands.",
+      "changefreq": "monthly",
+      "priority": "0.7",
+      "schema": "legal",
+      "breadcrumb": "Guides"
     }
   ]
 }

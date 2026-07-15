@@ -18,10 +18,12 @@ from common import (  # noqa: E402
     collection_categories,
     fetch_shopify_all_products,
     fetch_shopify_collection_products,
+    fetch_woocommerce_products,
     load_config,
     matches_filter,
     merge_scraped_product,
     normalize_shopify_product,
+    normalize_woocommerce_product,
     read_json,
     update_manifest,
     write_json,
@@ -149,6 +151,76 @@ def scrape_shopify_brand(brand_key: str, cfg: dict) -> int:
         )
     if errors:
         print("Warnings:", "; ".join(errors), file=sys.stderr)
+    from collections import Counter
+
+    counts = Counter((p.get("category"), p.get("subcategory")) for p in products)
+    print("Category breakdown:")
+    for (cat, sub), n in sorted(counts.items(), key=lambda x: (-x[1], str(x[0]))):
+        print(f"  [{cat}] {sub}: {n}")
+    return len(products)
+
+
+def scrape_woocommerce_brand(brand_key: str, cfg: dict) -> int:
+    limiter = RateLimiter(float(cfg.get("rateLimitSeconds", 1.5)))
+    user_agent = resolve_user_agent(cfg)
+    base_url = cfg["baseUrl"]
+    brand_id = cfg["brandId"]
+    errors: list[str] = []
+    by_id: dict[str, dict] = {}
+
+    try:
+        raw_products = fetch_woocommerce_products(
+            base_url,
+            limiter,
+            per_page=int(cfg.get("perPage", 50)),
+            user_agent=user_agent,
+        )
+    except Exception as exc:  # noqa: BLE001
+        errors.append(f"woocommerce products: {exc}")
+        raw_products = []
+
+    for product in raw_products:
+        item = normalize_woocommerce_product(
+            product,
+            brand_id=brand_id,
+            source_site=cfg["sourceSite"],
+            base_url=base_url,
+            category_rules=cfg.get("categoryRules"),
+            exclude_title_keywords=cfg.get("excludeTitleKeywords"),
+        )
+        if not item:
+            continue
+        by_id[item["id"]] = item
+
+    out_path = OFFICIAL_DIR / brand_id / "products.json"
+    existing_by_id: dict[str, dict] = {}
+    if out_path.exists():
+        for item in read_json(out_path):
+            existing_by_id[item["id"]] = item
+
+    merged: dict[str, dict] = {}
+    for pid, fresh in by_id.items():
+        merged[pid] = merge_scraped_product(existing_by_id.get(pid), fresh)
+
+    products = sorted(merged.values(), key=lambda p: p["model"].lower())
+    if not products and errors:
+        print(f"Skipped write to {out_path}: 0 products and {len(errors)} error(s)", file=sys.stderr)
+        if out_path.exists():
+            print(f"Keeping existing file ({len(existing_by_id)} products)", file=sys.stderr)
+        update_manifest(brand_id, 0, errors)
+        return 0
+    write_json(out_path, products)
+    update_manifest(brand_id, len(products), errors)
+    print(f"Wrote {out_path} ({len(products)} products)")
+    if errors:
+        print("Warnings:", "; ".join(errors), file=sys.stderr)
+    # Print category breakdown for decisioning unknown types.
+    from collections import Counter
+
+    counts = Counter((p.get("category"), p.get("subcategory")) for p in products)
+    print("Category breakdown:")
+    for (cat, sub), n in sorted(counts.items(), key=lambda x: (-x[1], str(x[0]))):
+        print(f"  [{cat}] {sub}: {n}")
     return len(products)
 
 
@@ -164,12 +236,15 @@ def main() -> int:
 
     cfg = brands[args.brand]
     adapter = cfg.get("adapter", "shopify")
-    if adapter != "shopify":
-        print(f"Unsupported adapter {adapter!r}", file=sys.stderr)
-        return 1
+    if adapter == "shopify":
+        scrape_shopify_brand(args.brand, cfg)
+        return 0
+    if adapter == "woocommerce":
+        scrape_woocommerce_brand(args.brand, cfg)
+        return 0
 
-    scrape_shopify_brand(args.brand, cfg)
-    return 0
+    print(f"Unsupported adapter {adapter!r}", file=sys.stderr)
+    return 1
 
 
 if __name__ == "__main__":

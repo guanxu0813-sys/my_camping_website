@@ -29,6 +29,7 @@ CATEGORY_LABELS = {
     "sleeping-bag": "Sleeping Bags",
     "sleeping-pad": "Sleeping Pads",
     "stove": "Stoves",
+    "backpack": "Backpacks",
     "table": "Camp Tables",
     "chair": "Camp Chairs",
     "other": "Camping Gear",
@@ -40,6 +41,7 @@ CATEGORY_PAGE_PATHS = {
     "sleeping-bag": "/sleeping-bag.html",
     "sleeping-pad": "/sleeping-pad.html",
     "stove": "/stove.html",
+    "backpack": "/backpack.html",
     "table": "/furniture.html",
     "chair": "/furniture.html",
     "other": "/etc.html",
@@ -161,13 +163,96 @@ def format_weight(product: dict) -> str:
     return f"~{weight_kg} kg" if weight_kg else ""
 
 
+def format_capacity_display(product: dict) -> str:
+    raw = spec_value(product, "capacity")
+    if raw:
+        text = str(raw).strip()
+        text = re.sub(r"-tent$", "", text, flags=re.IGNORECASE)
+        text = re.sub(r"\bppl\b", "person", text, flags=re.IGNORECASE)
+        person_match = re.search(r"(\d+)\s*[-–]\s*(\d+)\s*人", text)
+        if person_match:
+            return f"{person_match.group(2)}-person"
+        single_match = re.search(r"(\d+)\s*人", text)
+        if single_match:
+            return f"{single_match.group(1)}-person"
+        person_range = re.search(r"(\d+)\s*[-–]\s*(\d+)\s*person", text, flags=re.IGNORECASE)
+        if person_range:
+            return f"{person_range.group(2)}-person"
+        single_person = re.search(r"(\d+)\s*person", text, flags=re.IGNORECASE)
+        if single_person:
+            return f"{single_person.group(1)}-person"
+        return text
+    model = str(product.get("model") or "")
+    for pattern in (
+        r"(?:dome|cabin|shelter|tent)\s+(\d+)",
+        r"\b(\d+)\s*person",
+        r"#(\d+)\b",
+    ):
+        match = re.search(pattern, model, flags=re.IGNORECASE)
+        if match:
+            return f"{match.group(1)}-person"
+    return ""
+
+
+def category_count_label(category: str) -> str:
+    labels = {
+        "tent": "tents",
+        "tarp": "tarps",
+        "sleeping-bag": "sleeping bags",
+        "sleeping-pad": "sleeping pads",
+        "stove": "stoves",
+        "backpack": "backpacks",
+        "table": "tables",
+        "chair": "chairs",
+    }
+    return labels.get(category, category_label(category).lower())
+
+
+def product_page_title(product: dict, brands: dict[str, dict]) -> str:
+    brand_id = product.get("brandId", "")
+    brand = brand_display_name(brands.get(brand_id), brand_id)
+    model = product.get("model", "")
+    return f"{brand} {model} — Weight, Specs & Price".strip()
+
+
+def product_meta_description(product: dict, brands: dict[str, dict]) -> str:
+    brand_id = product.get("brandId", "")
+    brand = brand_display_name(brands.get(brand_id), brand_id)
+    model = product.get("model", "")
+    category = product.get("category", "")
+    facts = []
+    weight = format_weight(product)
+    if weight:
+        facts.append(weight)
+    capacity = format_capacity_display(product)
+    if capacity:
+        facts.append(capacity)
+    r_value = spec_value(product, "rValue")
+    if r_value:
+        facts.append(f"R-value {r_value}")
+    comfort = spec_value(product, "comfortTemp")
+    if comfort:
+        facts.append(f"comfort {comfort}")
+    price = format_price(product)
+    if price != "Price not listed":
+        facts.append(price)
+    noun = category_count_label(category)
+    if facts:
+        return truncate_text(
+            f"{brand} {model}: {', '.join(facts[:4])}. Compare with other {noun} in a free sortable table."
+        )
+    return truncate_text(
+        f"{brand} {model} specs, weight & price. Official-source data in a free sortable comparison table."
+    )
+
+
 def product_primary_specs(product: dict) -> list[tuple[str, str]]:
     category = product.get("category")
     rows: list[tuple[str, str]] = []
     weight = format_weight(product)
     if weight:
         rows.append(("Weight", weight))
-    capacity = spec_value(product, "capacity")
+    capacity = format_capacity_display(product) or spec_value(product, "capacity")
     if capacity:
         rows.append(("Capacity", capacity))
     if category == "tent":
@@ -208,9 +293,9 @@ def product_summary(product: dict, brands: dict[str, dict]) -> str:
     weight = format_weight(product)
     if weight:
         facts.append(f"weight {weight}")
-    capacity = spec_value(product, "capacity")
+    capacity = format_capacity_display(product)
     if capacity:
-        facts.append(f"capacity {capacity}")
+        facts.append(capacity)
     r_value = spec_value(product, "rValue")
     if r_value:
         facts.append(f"R-value {r_value}")
@@ -230,31 +315,6 @@ def product_summary(product: dict, brands: dict[str, dict]) -> str:
         f"Compare {brand} {model} {category} specs on CampGear Compare. "
         "Use the official-source data to check model details before you buy."
     )
-
-
-def product_meta_description(product: dict, brands: dict[str, dict]) -> str:
-    brand_id = product.get("brandId", "")
-    brand = brand_display_name(brands.get(brand_id), brand_id)
-    name = f"{brand} {product.get('model', '')}".strip()
-    facts = []
-    weight = format_weight(product)
-    if weight:
-        facts.append(f"weight {weight}")
-    capacity = spec_value(product, "capacity")
-    if capacity:
-        facts.append(f"capacity {capacity}")
-    r_value = spec_value(product, "rValue")
-    if r_value:
-        facts.append(f"R-value {r_value}")
-    comfort = spec_value(product, "comfortTemp")
-    if comfort:
-        facts.append(f"comfort {comfort}")
-    price = format_price(product)
-    if price != "Price not listed":
-        facts.append(f"price {price}")
-    if facts:
-        return truncate_text(f"Compare {name} specs: {', '.join(facts[:4])}. Official-source gear data.")
-    return truncate_text(f"Compare {name} specs and official-source product details on CampGear Compare.")
 
 
 def product_highlights(product: dict) -> list[str]:
@@ -334,6 +394,7 @@ def category_model_noun(category: str | None) -> str:
         "sleeping-bag": "sleeping bag",
         "sleeping-pad": "sleeping pad",
         "stove": "stove",
+        "backpack": "backpack",
         "table": "camp table",
         "chair": "camp chair",
     }.get(category or "", "camping gear")
@@ -627,11 +688,13 @@ def build_crawl_links(
     if page.get("schema") == "home":
         links = [
             ('/tent.html', "Tent comparison"),
+            ('/guides/snow-peak-amenity-dome-2-vs-naturehike-cloud-up-2.html', "Amenity Dome 2 vs Cloud Up 2"),
             ('/sleeping-pad.html', "Sleeping pad comparison"),
             ('/sleeping-bag.html', "Sleeping bag comparison"),
             ('/tarp.html', "Tarp comparison"),
             ('/furniture.html', "Camp furniture comparison"),
             ('/stove.html', "Stove comparison"),
+            ('/backpack.html', "Backpack comparison"),
         ]
         return (
             '<p class="seo-crawl__links"><strong>Popular comparison hubs:</strong> '
@@ -836,6 +899,7 @@ def static_header(current_path: str = "") -> str:
         ("/sleeping-bag.html", "Sleeping Bags"),
         ("/sleeping-pad.html", "Sleeping Pads"),
         ("/stove.html", "Stoves"),
+        ("/backpack.html", "Backpacks"),
         ("/etc.html", "More"),
     ]
     links = []
@@ -960,7 +1024,7 @@ def product_page_html(product: dict, products: list[dict], site_url: str, brands
     model = product.get("model", "")
     category = product.get("category", "")
     name = f"{brand} {model}".strip()
-    title = f"{name} Specs, Weight & Price · CampGear Compare"
+    title = product_page_title(product, brands)
     description = product_meta_description(product, brands)
     canonical = product_url(site_url, product)
     image = product.get("imageUrl") or ""
@@ -1101,7 +1165,7 @@ def brand_page_html(
 ) -> str:
     brand = brand_display_name(brands.get(brand_id), brand_id)
     label = category_label(category)
-    title = f"{brand} {label}: Specs & Price Comparison · CampGear Compare"
+    title = f"{brand} {label} Comparison — {len(rows)} Models by Weight & Price"
     description = truncate_text(
         f"Compare {len(rows)} {brand} {category_model_noun(category)} models by weight, capacity, materials, and reference price from official brand data."
     )

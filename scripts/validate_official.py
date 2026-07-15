@@ -26,7 +26,7 @@ REQUIRED = frozenset(
 )
 VALID_STATUS = frozenset({"draft", "verified", "merged"})
 VALID_CATEGORY = frozenset(
-    {"tent", "tarp", "sleeping-bag", "sleeping-pad", "stove", "table", "chair", "other"}
+    {"tent", "tarp", "sleeping-bag", "sleeping-pad", "stove", "backpack", "table", "chair", "other"}
 )
 ID_PATTERN = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 

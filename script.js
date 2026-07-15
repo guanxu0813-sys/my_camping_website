@@ -16,6 +16,7 @@
     "sleeping-bag": "sleeping-bag.html",
     "sleeping-pad": "sleeping-pad.html",
     stove: "stove.html",
+    backpack: "backpack.html",
     table: "furniture.html",
     chair: "furniture.html",
   };
@@ -25,6 +26,7 @@
     "sleeping-bag": { key: null, dir: "asc" },
     "sleeping-pad": { key: null, dir: "asc" },
     stove: { key: null, dir: "asc" },
+    backpack: { key: null, dir: "asc" },
   };
   var tableSortBound = false;
   var compareSelectBound = false;
@@ -1524,6 +1526,48 @@
     });
   }
 
+  function renderBackpackTable(rows) {
+    return renderCompareSpecTable({
+      tableId: "backpack",
+      group: "backpack",
+      title: "Backpack Specs Overview",
+      tableClass: "compare-table compare-table--backpack",
+      rows: rows,
+      leadingHeader: STANDARD_LEADING_HEADER,
+      leadingCells: standardLeadingCells,
+      specColumns: [
+        {
+          label: "Type",
+          getDisplay: function (p) {
+            return displayCell(p.structure || p.subcategory);
+          },
+        },
+        {
+          label: "Weight",
+          getDisplay: formatWeight,
+          sortable: true,
+          sortKey: "weight",
+          center: true,
+        },
+        {
+          label: "Price",
+          getDisplay: priceForProduct,
+          sortable: true,
+          sortKey: "price",
+          center: true,
+          cellClass: "compare-table__price",
+        },
+        {
+          label: "Use Cases",
+          getDisplay: function (p) {
+            return formatScenarios(p.scenarios);
+          },
+          cellClass: "compare-table__scenarios",
+        },
+      ],
+    });
+  }
+
   function renderProsTable(rows) {
     if (!rows.length) return "";
 
@@ -1603,6 +1647,9 @@
     } else if (product.category === "stove") {
       specs.push({ label: "Type", value: displayCell(product.structure || product.subcategory || product.detailStructure) });
       specs.push({ label: "Weight", value: formatWeight(product) });
+    } else if (product.category === "backpack") {
+      specs.push({ label: "Type", value: displayCell(product.structure || product.subcategory || product.detailStructure) });
+      specs.push({ label: "Weight", value: formatWeight(product) });
     } else {
       specs.push({ label: "Type", value: displayCell(product.detailStructure || product.tarpType) });
       specs.push({ label: "Weight", value: formatWeight(product) });
@@ -1672,6 +1719,7 @@
     "sleeping-bag": "Sleeping Bags",
     "sleeping-pad": "Sleeping Pads",
     stove: "Stoves",
+    backpack: "Backpacks",
     table: "Tables & Chairs",
     chair: "Tables & Chairs",
     other: "Other",
@@ -1701,7 +1749,7 @@
     }
   }
 
-  var CATEGORY_MODAL = { tent: true, tarp: true, "sleeping-bag": true, "sleeping-pad": true, stove: true };
+  var CATEGORY_MODAL = { tent: true, tarp: true, "sleeping-bag": true, "sleeping-pad": true, stove: true, backpack: true };
 
   function renderCategoryPage(category) {
     ensureSortState(category);
@@ -1728,6 +1776,8 @@
       compareHtml = renderSleepingPadTable(rows);
     } else if (category === "stove") {
       compareHtml = renderStoveTable(rows);
+    } else if (category === "backpack") {
+      compareHtml = renderBackpackTable(rows);
     }
 
     var compareRoot = document.getElementById("compare-root");
@@ -1867,6 +1917,9 @@
       rows.push({ label: "Size", value: displayCell(product.size) });
       if (product.thickness) rows.push({ label: "Thickness", value: displayCell(product.thickness) });
     } else if (cat === "stove") {
+      rows.push({ label: "Type", value: displayCell(product.structure || product.subcategory || product.detailStructure) });
+      rows.push({ label: "Weight", value: formatWeight(product) });
+    } else if (cat === "backpack") {
       rows.push({ label: "Type", value: displayCell(product.structure || product.subcategory || product.detailStructure) });
       rows.push({ label: "Weight", value: formatWeight(product) });
     } else if (cat === "table" || cat === "chair") {
@@ -2194,6 +2247,12 @@
         display.detailStructure = display.structure || display.subcategory || "—";
       }
     }
+    if (display.category === "backpack") {
+      if (!display.structure && display.subcategory) display.structure = display.subcategory;
+      if (!display.detailStructure) {
+        display.detailStructure = display.structure || display.subcategory || "—";
+      }
+    }
     ["padType", "size", "bagType", "fillType", "weightDisplay", "weightRange", "capacity", "structure"].forEach(function (key) {
       if (display[key] != null && display[key] !== "") display[key] = localizeDisplayValue(display[key]);
     });
@@ -2232,6 +2291,7 @@
         "sleeping-bag": true,
         "sleeping-pad": true,
         stove: true,
+        backpack: true,
         table: true,
         chair: true,
         other: true,

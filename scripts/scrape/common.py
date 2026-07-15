@@ -645,3 +645,170 @@ def fetch_shopify_all_products(
             break
         page += 1
     return products
+
+
+def infer_category_from_labels(
+    labels: list[str],
+    title: str = "",
+    *,
+    rules: list[dict[str, Any]] | None = None,
+) -> tuple[str, str]:
+    """Map free-form store labels into our category enum.
+
+    Returns (category, subcategory). Unmapped items become category 'other'.
+    """
+    blob = " ".join([*(labels or []), title or ""]).lower()
+    subcategory = (labels[0] if labels else "") or "Uncategorized"
+
+    for rule in rules or []:
+        needles = [n.lower() for n in (rule.get("includeKeywords") or [])]
+        exclude = [n.lower() for n in (rule.get("excludeKeywords") or [])]
+        if exclude and any(n in blob for n in exclude):
+            continue
+        if needles and any(n in blob for n in needles):
+            return str(rule["category"]), str(rule.get("subcategory") or subcategory)
+
+    # Built-in defaults for Chinese budget outdoor brands.
+    defaults: list[tuple[str, list[str], list[str]]] = [
+        ("tent", ["tent", "shelter"], ["footprint", "tarp", "poncho", "mat", "pad", "pole"]),
+        ("tarp", ["tarp", "rainfly", "awning", "canopy"], ["tent", "pole", "footprint"]),
+        ("sleeping-bag", ["sleeping bag", "quilt", "sleepingbag"], ["liner", "pad", "mat", "strap", "compression"]),
+        ("sleeping-pad", ["sleeping pad", "sleeping mat", "air mat", "inflatable pad", "foam mat"], ["sleeping bag", "quilt", "footprint"]),
+        ("stove", ["stove", "burner"], ["pot", "cookware", "kettle", "mat", "fire-retardant", "fire retardant"]),
+        ("backpack", ["backpack", "rucksack", "hiking bag", "frameless"], ["sleeve", "pouch", "packing", "sacoche", "cover", "poncho"]),
+        ("table", ["table", "igt"], ["chair"]),
+        ("chair", ["chair", "stool", "bench", "cot"], ["table"]),
+    ]
+    for category, include, exclude in defaults:
+        if exclude and any(n in blob for n in exclude):
+            continue
+        if any(n in blob for n in include):
+            return category, subcategory
+    return "other", subcategory
+
+
+def fetch_woocommerce_products(
+    base_url: str,
+    limiter: RateLimiter,
+    *,
+    per_page: int = 50,
+    user_agent: str | None = None,
+) -> list[dict[str, Any]]:
+    """Fetch all products from WooCommerce Store API."""
+    products: list[dict[str, Any]] = []
+    page = 1
+    while True:
+        url = (
+            f"{base_url.rstrip('/')}/wp-json/wc/store/v1/products"
+            f"?per_page={per_page}&page={page}"
+        )
+        batch = fetch_json(url, limiter, user_agent=user_agent, timeout=90, retries=4)
+        if not isinstance(batch, list) or not batch:
+            break
+        products.extend(batch)
+        if len(batch) < per_page:
+            break
+        page += 1
+        if page > 40:
+            break
+    return products
+
+
+def _wc_price_fields(product: dict[str, Any]) -> tuple[float | None, float | None, float | None, str]:
+    prices = product.get("prices") or {}
+    minor = int(prices.get("currency_minor_unit") or 2)
+    currency = str(prices.get("currency_code") or "USD")
+    def to_major(raw: Any) -> float | None:
+        if raw in (None, ""):
+            return None
+        try:
+            return float(raw) / (10**minor)
+        except (TypeError, ValueError):
+            return None
+
+    price = to_major(prices.get("price") or prices.get("sale_price") or prices.get("regular_price"))
+    rng = prices.get("price_range") or {}
+    price_min = to_major(rng.get("min_amount")) if rng else price
+    price_max = to_major(rng.get("max_amount")) if rng else price
+    if price_min is None:
+        price_min = price
+    if price_max is None:
+        price_max = price
+    return price, price_min, price_max, currency
+
+
+def normalize_woocommerce_product(
+    product: dict[str, Any],
+    *,
+    brand_id: str,
+    source_site: str,
+    base_url: str,
+    category_rules: list[dict[str, Any]] | None = None,
+    exclude_title_keywords: list[str] | None = None,
+) -> dict[str, Any] | None:
+    name = html.unescape(str(product.get("name") or "")).strip()
+    if not name:
+        return None
+    title_l = name.lower()
+    for bad in exclude_title_keywords or []:
+        if bad.lower() in title_l:
+            return None
+
+    labels = [html.unescape(c.get("name") or "") for c in (product.get("categories") or []) if c.get("name")]
+    category, subcategory = infer_category_from_labels(labels, name, rules=category_rules)
+
+    slug = slugify(product.get("slug") or name)
+    pid = f"{brand_id}-{slug}"
+    price, price_min, price_max, currency = _wc_price_fields(product)
+    images = product.get("images") or []
+    image_url = images[0].get("src") if images else None
+    image_alt = (images[0].get("alt") if images else None) or name
+    description = html_to_text(product.get("description") or product.get("short_description") or "", max_len=1500)
+    permalink = product.get("permalink") or urllib.parse.urljoin(base_url.rstrip("/") + "/", f"product/{slug}/")
+
+    # Rough weight extraction from description/name if present.
+    specs: dict[str, Any] = {}
+    weight_m = re.search(r"(\d+(?:\.\d+)?)\s*(?:g|kg|oz)\b", f"{name} {description}", re.I)
+    if weight_m:
+        raw = weight_m.group(0).lower()
+        num = float(weight_m.group(1))
+        if raw.endswith("kg"):
+            specs["weightKg"] = round(num, 3)
+            specs["weightDisplay"] = f"~{num} kg"
+        elif raw.endswith("g"):
+            specs["weightKg"] = round(num / 1000.0, 3)
+            specs["weightDisplay"] = f"~{num / 1000.0:.2f} kg"
+        elif raw.endswith("oz"):
+            specs["weightKg"] = round(num * 0.0283495, 3)
+            specs["weightDisplay"] = f"~{specs['weightKg']} kg"
+    if subcategory:
+        specs["structure"] = subcategory
+
+    item: dict[str, Any] = {
+        "id": pid,
+        "brandId": brand_id,
+        "category": category,
+        "subcategory": subcategory,
+        "model": name,
+        "modelEn": name,
+        "description": description,
+        "currency": currency,
+        "specs": specs,
+        "highlights": [description[:240]] if description else [],
+        "imageUrl": image_url,
+        "imageAlt": image_alt,
+        "sourceUrl": permalink,
+        "sourceSite": source_site,
+        "scrapedAt": now_iso(),
+        "status": "draft",
+        "published": False,
+    }
+    if price is not None:
+        item["price"] = price
+    if price_min is not None:
+        item["priceMin"] = price_min
+    if price_max is not None:
+        item["priceMax"] = price_max
+    if category in ("table", "chair"):
+        item["inSummaryTable"] = False
+    return item

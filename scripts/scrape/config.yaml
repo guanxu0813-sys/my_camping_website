@@ -535,3 +535,157 @@ brands:
           - tent with
           - cook
           - stove
+
+  flames-creed:
+    brandId: flames-creed
+    sourceSite: flamescreed.com
+    baseUrl: https://flamescreed.com
+    currency: USD
+    adapter: woocommerce
+    useBrowserUserAgent: true
+    rateLimitSeconds: 1.5
+    excludeTitleKeywords:
+      - gift card
+      - seam sealing
+      - footprint
+      - arm bag
+      - water bottle
+      - sleeve
+      - rain pants
+      - rain skirt
+      - boots
+      - sock
+      - quilt strap
+      - ribbon belt
+      - compression
+    categoryRules:
+      - category: tent
+        includeKeywords: [tent]
+        excludeKeywords: [footprint, tarp, poncho, pole]
+        subcategory: Flames Creed Tent
+      - category: tarp
+        includeKeywords: [tarp, rainfly]
+        excludeKeywords: [footprint, pole, tent]
+        subcategory: Flames Creed Tarp
+      - category: sleeping-bag
+        includeKeywords: [sleeping bag, quilt]
+        excludeKeywords: [strap, ribbon, liner, pad]
+        subcategory: Flames Creed Sleeping Bags
+      - category: sleeping-pad
+        includeKeywords: [sleeping pad, r-value]
+        excludeKeywords: [footprint, quilt]
+        subcategory: Flames Creed Sleeping Pads
+      - category: backpack
+        includeKeywords: [backpack, frameless, rucksack]
+        excludeKeywords: [sleeve, pouch, arm bag, bottle]
+        subcategory: Flames Creed Backpack
+
+  aegismax:
+    brandId: aegismax
+    sourceSite: aegismaxstore.com
+    baseUrl: https://aegismaxstore.com
+    currency: USD
+    adapter: woocommerce
+    useBrowserUserAgent: true
+    rateLimitSeconds: 1.5
+    excludeTitleKeywords:
+      - gift card
+      - liner
+      - jacket
+      - pants
+      - trousers
+      - hat
+      - bootie
+      - booties
+      - shoes
+      - compression sack
+    categoryRules:
+      - category: sleeping-bag
+        includeKeywords: [sleeping bag, quilt]
+        excludeKeywords: [liner, compression, sack]
+        subcategory: Aegismax Sleeping Bags
+      - category: backpack
+        includeKeywords: [backpack, hiking bag, rucksack]
+        excludeKeywords: [sleeve, cover, pant, jacket]
+        subcategory: Aegismax Backpack
+
+  # Camping storefront (Shopify). tactical.onetigris.com is intentionally excluded.
+  onetigris:
+    brandId: onetigris
+    sourceSite: camping.onetigris.com
+    baseUrl: https://camping.onetigris.com
+    currency: USD
+    adapter: shopify
+    useBrowserUserAgent: true
+    rateLimitSeconds: 3.0
+    collections:
+      - handle: tents-shelters
+        category: tent
+        subcategory: Tents & Shelters
+        excludeTitleKeywords:
+          - gift card
+          - footprint
+          - tent pole
+          - poles
+      - handle: sleeping-gears
+        classifyFurniture: false
+        category: sleeping-bag
+        subcategory: Sleeping Gears
+        excludeTitleKeywords:
+          - pillow
+          - liner
+      - handle: camping-stoves
+        category: stove
+        subcategory: Camping Stoves
+        excludeTitleKeywords:
+          - fire-retardant
+          - fire retardant
+          - mat
+      - handle: furniture
+        classifyFurniture: true
+        subcategory: Camp Furniture
+    allProductsFilters:
+      - category: tent
+        includeKeywords: [tent, shelter, tipi, teepee]
+        excludeTitleKeywords: [stove, chair, table, pad, mat, bag, footprint, pole]
+      - category: tarp
+        includeKeywords: [tarp, canopy, awning, rain fly]
+        excludeTitleKeywords: [tent, pole, footprint]
+      - category: sleeping-bag
+        includeKeywords: [sleeping bag, quilt, blanket]
+        excludeTitleKeywords: [pad, mat, pillow, liner, strap]
+      - category: sleeping-pad
+        includeKeywords: [sleeping pad, air pad, inflatable pad, foam pad, inflatable mattress, self-inflating mattress]
+        excludeTitleKeywords: [sleeping bag, quilt, footprint]
+      - category: stove
+        includeKeywords: [stove]
+        excludeTitleKeywords: [gift card, fire-retardant, fire retardant, mat]
+      - category: backpack
+        includeKeywords: [backpack, rucksack]
+        excludeTitleKeywords: [backpacking table, sleeve, pouch, cover, tent, stella]
+
+  asta-gear:
+    brandId: asta-gear
+    sourceSite: astagear.com
+    baseUrl: https://astagear.com
+    currency: USD
+    adapter: shopify
+    useBrowserUserAgent: true
+    rateLimitSeconds: 3.0
+    collections: []
+    allProductsFilters:
+      - category: tent
+        includeKeywords: [tent, pyramid, tipi]
+        excludeTitleKeywords: [tarp, quilt, footprint, pole]
+      - category: tarp
+        includeKeywords: [tarp]
+        excludeTitleKeywords: [tent, pole]
+      - category: sleeping-bag
+        includeKeywords: [quilt, sleeping bag]
+        excludeTitleKeywords: [pad, strap]
+      - category: sleeping-pad
+        includeKeywords: [sleeping pad, air pad]
+        excludeTitleKeywords: [quilt, sleeping bag, footprint]
+      - category: backpack
+        includeKeywords: [backpack, rucksack, frameless]
+        excludeTitleKeywords: [tent, quilt, sleeping bag, tarp, sacoche, packing pod, poncho, rain skirt, rain pants, organizer, windchaser]
