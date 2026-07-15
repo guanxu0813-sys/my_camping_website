@@ -15,6 +15,7 @@
     tarp: "tarp.html",
     "sleeping-bag": "sleeping-bag.html",
     "sleeping-pad": "sleeping-pad.html",
+    stove: "stove.html",
     table: "furniture.html",
     chair: "furniture.html",
   };
@@ -23,14 +24,18 @@
     tarp: { key: null, dir: "asc" },
     "sleeping-bag": { key: null, dir: "asc" },
     "sleeping-pad": { key: null, dir: "asc" },
+    stove: { key: null, dir: "asc" },
   };
   var tableSortBound = false;
+  var compareSelectBound = false;
   var furnitureModalBound = false;
   var furnitureMatrixBound = false;
   var outboundTrackingBound = false;
   var lastModalFocus = null;
   var modalScrollY = 0;
   var analyticsConfig = null;
+  var selectedProductIds = {};
+  var selectionCompareActive = false;
 
   function isLocalDevHost() {
     var host = window.location.hostname;
@@ -449,6 +454,39 @@
     });
   }
 
+  function selectedProductCount() {
+    return Object.keys(selectedProductIds).length;
+  }
+
+  function isProductSelected(id) {
+    return !!selectedProductIds[id];
+  }
+
+  function setProductSelected(id, selected) {
+    if (!id) return;
+    if (selected) selectedProductIds[id] = true;
+    else delete selectedProductIds[id];
+  }
+
+  function syncSelectCheckboxes(id) {
+    var checked = isProductSelected(id);
+    document.querySelectorAll('.compare-select__input[data-product-id="' + id + '"]').forEach(function (input) {
+      input.checked = checked;
+    });
+  }
+
+  function clearProductSelection() {
+    selectedProductIds = {};
+    selectionCompareActive = false;
+    document.querySelectorAll(".compare-select__input").forEach(function (input) {
+      input.checked = false;
+    });
+  }
+
+  function exitSelectionCompare() {
+    selectionCompareActive = false;
+  }
+
   function applyCatalogFilters() {
     var categories = currentPageCategories();
     if (!categories.length) return;
@@ -463,7 +501,9 @@
       if (!product || !productInCategories(product, categories)) return;
       seenIds[id] = true;
       var show =
-        productMatchesBrandFilter(product, brandFilter) && productMatchesSearch(product, query);
+        productMatchesBrandFilter(product, brandFilter) &&
+        productMatchesSearch(product, query) &&
+        (!selectionCompareActive || isProductSelected(id));
       el.classList.toggle("is-filtered-out", !show);
       if (show) visibleIds[id] = true;
     });
@@ -490,13 +530,19 @@
 
     var totalCount = Object.keys(seenIds).length;
     var visibleCount = Object.keys(visibleIds).length;
+    var selectedCount = selectedProductCount();
 
     var statusEl = document.getElementById("catalog-filter-status");
     if (statusEl) {
-      var filtering = query || (brandFilter && brandFilter !== "all");
+      var filtering =
+        query || (brandFilter && brandFilter !== "all") || selectionCompareActive;
       if (!filtering) {
         statusEl.hidden = true;
         statusEl.textContent = "";
+      } else if (selectionCompareActive) {
+        statusEl.hidden = false;
+        statusEl.textContent =
+          "Comparing " + selectedCount + " selected model" + (selectedCount === 1 ? "" : "s");
       } else {
         statusEl.hidden = false;
         statusEl.textContent =
@@ -508,6 +554,7 @@
 
     updateSearchUrl();
     renderNavSearchResults();
+    updateCompareTray();
   }
 
   function onSearchInput(value, source) {
@@ -882,6 +929,103 @@
     });
   }
 
+  function ensureCompareTray() {
+    var page = document.body.getAttribute("data-page");
+    if (page !== "category") return null;
+    var tray = document.getElementById("compare-tray");
+    if (tray) return tray;
+    tray = document.createElement("aside");
+    tray.id = "compare-tray";
+    tray.className = "compare-tray";
+    tray.hidden = true;
+    tray.setAttribute("aria-live", "polite");
+    tray.innerHTML =
+      '<p class="compare-tray__count" id="compare-tray-count"></p>' +
+      '<button type="button" class="compare-tray__action" id="compare-tray-action">Compare selected</button>' +
+      '<button type="button" class="compare-tray__clear" id="compare-tray-clear">Clear</button>';
+    document.body.appendChild(tray);
+
+    tray.addEventListener("click", function (e) {
+      var actionBtn = e.target.closest("#compare-tray-action");
+      if (actionBtn) {
+        e.preventDefault();
+        if (selectionCompareActive) {
+          exitSelectionCompare();
+          applyCatalogFilters();
+          return;
+        }
+        if (selectedProductCount() < 2) return;
+        syncSearchInputs("", null);
+        setBrandFilter("all");
+        selectionCompareActive = true;
+        applyCatalogFilters();
+        return;
+      }
+      var clearBtn = e.target.closest("#compare-tray-clear");
+      if (clearBtn) {
+        e.preventDefault();
+        clearProductSelection();
+        applyCatalogFilters();
+      }
+    });
+    return tray;
+  }
+
+  function updateCompareTray() {
+    var page = document.body.getAttribute("data-page");
+    if (page !== "category") return;
+    var tray = ensureCompareTray();
+    if (!tray) return;
+    var count = selectedProductCount();
+    var countEl = document.getElementById("compare-tray-count");
+    var actionBtn = document.getElementById("compare-tray-action");
+    var clearBtn = document.getElementById("compare-tray-clear");
+    if (!countEl || !actionBtn || !clearBtn) return;
+
+    if (count < 1) {
+      tray.hidden = true;
+      return;
+    }
+
+    tray.hidden = false;
+    countEl.textContent = count + " selected";
+    clearBtn.hidden = false;
+
+    if (selectionCompareActive) {
+      actionBtn.textContent = "Show all";
+      actionBtn.disabled = false;
+      actionBtn.setAttribute("aria-label", "Show all products");
+    } else {
+      actionBtn.textContent = "Compare selected";
+      actionBtn.disabled = count < 2;
+      actionBtn.setAttribute(
+        "aria-label",
+        count < 2
+          ? "Select at least 2 products to compare"
+          : "Compare " + count + " selected products"
+      );
+    }
+  }
+
+  function bindCompareSelectHandlers() {
+    var root = document.getElementById("compare-root");
+    if (!root || compareSelectBound) return;
+    compareSelectBound = true;
+
+    root.addEventListener("change", function (e) {
+      var input = e.target.closest(".compare-select__input");
+      if (!input) return;
+      var id = input.getAttribute("data-product-id");
+      if (!id) return;
+      setProductSelected(id, input.checked);
+      syncSelectCheckboxes(id);
+      if (selectionCompareActive && selectedProductCount() < 2) {
+        exitSelectionCompare();
+      }
+      applyCatalogFilters();
+    });
+  }
+
   function scrollToProductHashIfPresent() {
     var hash = window.location.hash;
     if (!hash || hash.indexOf("#product-") !== 0) return;
@@ -1062,8 +1206,28 @@
     );
   }
 
+  function renderSelectCell(p) {
+    var id = p.id;
+    var checked = isProductSelected(id) ? " checked" : "";
+    var label = "Select " + (p.model || id) + " for comparison";
+    return (
+      '<td class="compare-select">' +
+      '<label class="compare-select__label">' +
+      '<input type="checkbox" class="compare-select__input" data-product-id="' +
+      escapeHtml(id) +
+      '"' +
+      checked +
+      ' aria-label="' +
+      escapeHtml(label) +
+      '" />' +
+      "</label>" +
+      "</td>"
+    );
+  }
+
   function standardLeadingCells(p) {
     return (
+      renderSelectCell(p) +
       "<td>" +
       escapeHtml(brandName(p.brandId)) +
       "</td>" +
@@ -1073,6 +1237,7 @@
   }
 
   var STANDARD_LEADING_HEADER =
+    '<th scope="col" class="compare-select"><span class="visually-hidden">Select</span></th>' +
     '<th scope="col">Brand</th><th scope="col">Model</th><th scope="col" class="compare-table__thumb-col">Thumb</th>';
 
   function renderTentTable(rows, compact) {
@@ -1190,6 +1355,7 @@
 
   function sleepingBagLeadingCells(p) {
     return (
+      renderSelectCell(p) +
       '<td class="compare-table__brand">' +
       escapeHtml(brandName(p.brandId)) +
       "</td>" +
@@ -1316,6 +1482,48 @@
     });
   }
 
+  function renderStoveTable(rows) {
+    return renderCompareSpecTable({
+      tableId: "stove",
+      group: "stove",
+      title: "Stove Specs Overview",
+      tableClass: "compare-table compare-table--stove",
+      rows: rows,
+      leadingHeader: STANDARD_LEADING_HEADER,
+      leadingCells: standardLeadingCells,
+      specColumns: [
+        {
+          label: "Type",
+          getDisplay: function (p) {
+            return displayCell(p.structure || p.subcategory);
+          },
+        },
+        {
+          label: "Weight",
+          getDisplay: formatWeight,
+          sortable: true,
+          sortKey: "weight",
+          center: true,
+        },
+        {
+          label: "Price",
+          getDisplay: priceForProduct,
+          sortable: true,
+          sortKey: "price",
+          center: true,
+          cellClass: "compare-table__price",
+        },
+        {
+          label: "Use Cases",
+          getDisplay: function (p) {
+            return formatScenarios(p.scenarios);
+          },
+          cellClass: "compare-table__scenarios",
+        },
+      ],
+    });
+  }
+
   function renderProsTable(rows) {
     if (!rows.length) return "";
 
@@ -1346,6 +1554,7 @@
       .map(function (p) {
         return (
           "<tr" + compareTableRowAttrs(p) + ">" +
+          renderSelectCell(p) +
           "<td>" + escapeHtml(fullModelName(p)) + "</td>" +
           columns
             .map(function (col) {
@@ -1363,6 +1572,7 @@
       TABLE_SCROLL_HINT +
       '<div class="table-wrap"><table class="compare-table compare-table--pros">' +
       "<thead><tr>" +
+      '<th scope="col" class="compare-select"><span class="visually-hidden">Select</span></th>' +
       '<th scope="col">Brand &amp; Model</th>' +
       columns
         .map(function (col) {
@@ -1390,6 +1600,9 @@
       specs.push({ label: "Weight", value: formatWeight(product) });
       specs.push({ label: "R-Value", value: displayCell(product.rValue) });
       specs.push({ label: "Size", value: displayCell(product.size) });
+    } else if (product.category === "stove") {
+      specs.push({ label: "Type", value: displayCell(product.structure || product.subcategory || product.detailStructure) });
+      specs.push({ label: "Weight", value: formatWeight(product) });
     } else {
       specs.push({ label: "Type", value: displayCell(product.detailStructure || product.tarpType) });
       specs.push({ label: "Weight", value: formatWeight(product) });
@@ -1488,7 +1701,7 @@
     }
   }
 
-  var CATEGORY_MODAL = { tent: true, tarp: true, "sleeping-bag": true, "sleeping-pad": true };
+  var CATEGORY_MODAL = { tent: true, tarp: true, "sleeping-bag": true, "sleeping-pad": true, stove: true };
 
   function renderCategoryPage(category) {
     ensureSortState(category);
@@ -1513,6 +1726,8 @@
       compareHtml = renderSleepingBagTable(rows);
     } else if (category === "sleeping-pad") {
       compareHtml = renderSleepingPadTable(rows);
+    } else if (category === "stove") {
+      compareHtml = renderStoveTable(rows);
     }
 
     var compareRoot = document.getElementById("compare-root");
@@ -1539,6 +1754,8 @@
 
     bindProductModalHandlers();
     bindThumbLinkHandlers();
+    bindCompareSelectHandlers();
+    ensureCompareTray();
     if (compareHtml) {
       bindTableSortHandlers();
     }
@@ -1649,6 +1866,9 @@
       rows.push({ label: "R-Value", value: displayCell(product.rValue) });
       rows.push({ label: "Size", value: displayCell(product.size) });
       if (product.thickness) rows.push({ label: "Thickness", value: displayCell(product.thickness) });
+    } else if (cat === "stove") {
+      rows.push({ label: "Type", value: displayCell(product.structure || product.subcategory || product.detailStructure) });
+      rows.push({ label: "Weight", value: formatWeight(product) });
     } else if (cat === "table" || cat === "chair") {
       rows.push({ label: "Weight", value: formatWeight(product) });
       if (product.seatHeight) rows.push({ label: "Seat Height", value: displayCell(product.seatHeight) });
@@ -1968,7 +2188,13 @@
       if (!display.padType && display.subcategory) display.padType = display.subcategory;
       if (!display.detailStructure) display.detailStructure = display.padType || display.subcategory;
     }
-    ["padType", "size", "bagType", "fillType", "weightDisplay", "weightRange", "capacity"].forEach(function (key) {
+    if (display.category === "stove") {
+      if (!display.structure && display.subcategory) display.structure = display.subcategory;
+      if (!display.detailStructure) {
+        display.detailStructure = display.structure || display.subcategory || "—";
+      }
+    }
+    ["padType", "size", "bagType", "fillType", "weightDisplay", "weightRange", "capacity", "structure"].forEach(function (key) {
       if (display[key] != null && display[key] !== "") display[key] = localizeDisplayValue(display[key]);
     });
     if (raw.sponsor) display.sponsor = normalizeSponsor(raw.sponsor);

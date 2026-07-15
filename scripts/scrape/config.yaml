@@ -484,3 +484,54 @@ brands:
           - pump only
           - repair kit
           - sheet
+
+  # Note: 3F UL Gear (3fulgear.com) is WooCommerce, not Shopify — Lanshan
+  # core tents were seeded manually in data/official/3f-ul-gear/products.json.
+
+  fire-maple:
+    brandId: fire-maple
+    sourceSite: firemaplegear.com
+    baseUrl: https://firemaplegear.com
+    currency: USD
+    adapter: shopify
+    useBrowserUserAgent: true
+    rateLimitSeconds: 1.5
+    collections:
+      - handle: backpacking-stoves
+        category: stove
+        subcategory: Backpacking Stoves
+        excludeTitleKeywords:
+          - windscreen only
+          - adapter only
+          - gift card
+      - handle: canister-stoves
+        category: stove
+        subcategory: Canister Stoves
+        excludeTitleKeywords:
+          - windscreen only
+          - adapter only
+          - gift card
+      - handle: tents-camp-gear
+        category: tent
+        subcategory: Tents
+        excludeTitleKeywords:
+          - table
+          - grill
+          - cot
+          - stove
+          - cookware
+          - mug
+          - pot
+          - kettle
+          - lantern
+          - generator
+    allProductsFilters:
+      - category: tarp
+        includeKeywords:
+          - tarp
+          - shelter
+          - canopy
+        excludeTitleKeywords:
+          - tent with
+          - cook
+          - stove

@@ -1,0 +1,140 @@
+[
+  {
+    "id": "3f-ul-gear-lanshan-1",
+    "brandId": "3f-ul-gear",
+    "category": "tent",
+    "subcategory": "Ultralight Tents",
+    "model": "Lanshan 1",
+    "modelEn": "Lanshan 1",
+    "description": "3F UL Gear Lanshan 1 is a double-wall, single-person trekking-pole tent aimed at ultralight backpacking. It pitches with one trekking pole (about 120–125 cm), offers one door and one vestibule, and uses taped seams. Trail weight is about 920 g. 3-season mesh and 4-season solid-inner options are available.",
+    "currency": "USD",
+    "priceMin": 130,
+    "priceMax": 158,
+    "specs": {
+      "weightKg": 0.92,
+      "weightDisplay": "~0.92 kg trail",
+      "capacity": "1 ppl",
+      "structure": "Trekking pole tent",
+      "fabric": "Silnylon ~40 g/m²"
+    },
+    "highlights": [
+      "Double-wall trekking-pole shelter for one person",
+      "Trail weight about 920 g / 32.45 oz",
+      "One door, one vestibule, taped seams",
+      "3-season mesh or 4-season solid inner options"
+    ],
+    "imageUrl": "https://3fulgear.com/wp-content/uploads/2026/02/3FULGEAR-LANSHAN2-2026-award-green.jpg",
+    "imageAlt": "3F UL Gear Lanshan 1 ultralight tent",
+    "sourceUrl": "https://3fulgear.com/product/ultralight-tent/lanshan-1/",
+    "sourceSite": "3fulgear.com",
+    "scrapedAt": "2026-07-14T14:50:00Z",
+    "status": "verified",
+    "published": true,
+    "inSummaryTable": true,
+    "inDetailCards": true
+  },
+  {
+    "id": "3f-ul-gear-lanshan-2",
+    "brandId": "3f-ul-gear",
+    "category": "tent",
+    "subcategory": "Ultralight Tents",
+    "model": "Lanshan 2",
+    "modelEn": "Lanshan 2",
+    "description": "3F UL Gear Lanshan 2 is the two-person companion to the Lanshan 1: a double-wall trekking-pole tent with dual side doors and vestibules. It is one of the most discussed budget ultralight shelters in English-speaking backpacking communities. Trail weight is about 1.06 kg depending on season configuration.",
+    "currency": "USD",
+    "priceMin": 140,
+    "priceMax": 174,
+    "specs": {
+      "weightKg": 1.06,
+      "weightDisplay": "~1.06 kg trail",
+      "capacity": "2 ppl",
+      "structure": "Trekking pole tent",
+      "fabric": "Silnylon ~40 g/m²"
+    },
+    "highlights": [
+      "Two-person double-wall trekking-pole tent",
+      "Two doors and two vestibules",
+      "Trail weight about 1.06 kg",
+      "Strong value vs premium UL freestanding tents"
+    ],
+    "imageUrl": "https://3fulgear.com/wp-content/uploads/2021/10/Lanshan-2-award.jpg",
+    "imageAlt": "3F UL Gear Lanshan 2 ultralight tent",
+    "sourceUrl": "https://3fulgear.com/product/ultralight-tent/lanshan2-classic/",
+    "sourceSite": "3fulgear.com",
+    "scrapedAt": "2026-07-14T14:50:00Z",
+    "status": "verified",
+    "published": true,
+    "inSummaryTable": true,
+    "inDetailCards": true
+  },
+  {
+    "id": "3f-ul-gear-lanshan-1-pro",
+    "brandId": "3f-ul-gear",
+    "category": "tent",
+    "subcategory": "Ultralight Tents",
+    "model": "Lanshan 1 Pro",
+    "modelEn": "Lanshan 1 Pro",
+    "description": "Lanshan 1 Pro is the lighter Pro update of the Lanshan 1 single-person trekking-pole tent. Official packaged weight is about 690–840 g depending on setup; it remains a common entry point into ultralight shelters under $200.",
+    "currency": "USD",
+    "price": 169,
+    "priceMin": 169,
+    "priceMax": 169,
+    "specs": {
+      "weightKg": 0.69,
+      "weightDisplay": "~0.69–0.84 kg",
+      "capacity": "1 ppl",
+      "structure": "Trekking pole tent",
+      "fabric": "Silnylon / Silpoly"
+    },
+    "highlights": [
+      "Lighter Pro version of Lanshan 1",
+      "Trekking-pole, double-wall design",
+      "About 690 g trail / under 840 g packed (config-dependent)",
+      "Frequent budget pick in thru-hiking gear lists"
+    ],
+    "imageUrl": "https://3fulgear.com/wp-content/uploads/2021/10/lanshan1-pro-award.jpg",
+    "imageAlt": "3F UL Gear Lanshan 1 Pro ultralight tent",
+    "sourceUrl": "https://3fulgear.com/product/ultralight-tent/lanshan-1-pro/",
+    "sourceSite": "3fulgear.com",
+    "scrapedAt": "2026-07-14T14:50:00Z",
+    "status": "verified",
+    "published": true,
+    "inSummaryTable": true,
+    "inDetailCards": true
+  },
+  {
+    "id": "3f-ul-gear-lanshan-2-pro",
+    "brandId": "3f-ul-gear",
+    "category": "tent",
+    "subcategory": "Ultralight Tents",
+    "model": "Lanshan 2 Pro",
+    "modelEn": "Lanshan 2 Pro",
+    "description": "Lanshan 2 Pro is the refined two-person Pro model reviewed by OutdoorGearLab and widely recommended as a budget ultralight gateway tent. Options include SilNylon or SilPoly fly fabric and 3-season mesh or 4-season solid inners. Trail weight is about 0.92 kg.",
+    "currency": "USD",
+    "price": 172.9,
+    "priceMin": 172.9,
+    "priceMax": 197,
+    "specs": {
+      "weightKg": 0.92,
+      "weightDisplay": "~0.92 kg trail",
+      "capacity": "2 ppl",
+      "structure": "Trekking pole tent",
+      "fabric": "SilNylon / SilPoly"
+    },
+    "highlights": [
+      "Two-person Pro trekking-pole tent",
+      "SilNylon or SilPoly fly; mesh or solid inner options",
+      "Trail weight about 920 g",
+      "Strong storm worthiness for the price class"
+    ],
+    "imageUrl": "https://3fulgear.com/wp-content/uploads/2026/01/lanshan-2-pro.jpg",
+    "imageAlt": "3F UL Gear Lanshan 2 Pro ultralight tent",
+    "sourceUrl": "https://3fulgear.com/product/ultralight-tent/lanshan-2-pro/",
+    "sourceSite": "3fulgear.com",
+    "scrapedAt": "2026-07-14T14:50:00Z",
+    "status": "verified",
+    "published": true,
+    "inSummaryTable": true,
+    "inDetailCards": true
+  }
+]

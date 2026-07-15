@@ -131,5 +131,47 @@
     "nameEn": "Klymit",
     "country": "US",
     "rank": 19
+  },
+  {
+    "id": "fire-maple",
+    "name": "火枫",
+    "nameEn": "Fire Maple",
+    "country": "CN",
+    "rank": 20
+  },
+  {
+    "id": "onetigris",
+    "name": "OneTigris",
+    "nameEn": "OneTigris",
+    "country": "CN",
+    "rank": 21
+  },
+  {
+    "id": "aegismax",
+    "name": "Aegismax",
+    "nameEn": "Aegismax",
+    "country": "CN",
+    "rank": 22
+  },
+  {
+    "id": "flames-creed",
+    "name": "Flame's Creed",
+    "nameEn": "Flame's Creed",
+    "country": "CN",
+    "rank": 23
+  },
+  {
+    "id": "aricxi",
+    "name": "Aricxi",
+    "nameEn": "Aricxi",
+    "country": "CN",
+    "rank": 24
+  },
+  {
+    "id": "asta-gear",
+    "name": "Asta Gear",
+    "nameEn": "Asta Gear",
+    "country": "CN",
+    "rank": 25
   }
 ]

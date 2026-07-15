@@ -67,6 +67,17 @@
       "breadcrumb": "Sleeping Pads"
     },
     {
+      "path": "/stove.html",
+      "file": "stove.html",
+      "title": "Compare Camping Stoves by Weight & Price · CampGear Compare",
+      "description": "Camping stove comparison on CampGear Compare — weight, stove type, and price for backpacking canister stoves. Fire Maple and more official brand specs in one table.",
+      "changefreq": "weekly",
+      "priority": "0.9",
+      "schema": "category",
+      "categories": ["stove"],
+      "breadcrumb": "Stoves"
+    },
+    {
       "path": "/furniture.html",
       "file": "furniture.html",
       "title": "Compare Camp Tables & Chairs by Weight & Price · CampGear Compare",

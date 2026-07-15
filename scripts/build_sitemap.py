@@ -39,6 +39,7 @@ CATEGORY_PAGE_PATHS = {
     "tarp": "/tarp.html",
     "sleeping-bag": "/sleeping-bag.html",
     "sleeping-pad": "/sleeping-pad.html",
+    "stove": "/stove.html",
     "table": "/furniture.html",
     "chair": "/furniture.html",
     "other": "/etc.html",
@@ -332,6 +333,7 @@ def category_model_noun(category: str | None) -> str:
         "tarp": "tarp",
         "sleeping-bag": "sleeping bag",
         "sleeping-pad": "sleeping pad",
+        "stove": "stove",
         "table": "camp table",
         "chair": "camp chair",
     }.get(category or "", "camping gear")
@@ -629,6 +631,7 @@ def build_crawl_links(
             ('/sleeping-bag.html', "Sleeping bag comparison"),
             ('/tarp.html', "Tarp comparison"),
             ('/furniture.html', "Camp furniture comparison"),
+            ('/stove.html', "Stove comparison"),
         ]
         return (
             '<p class="seo-crawl__links"><strong>Popular comparison hubs:</strong> '
@@ -832,6 +835,7 @@ def static_header(current_path: str = "") -> str:
         ("/furniture.html", "Furniture"),
         ("/sleeping-bag.html", "Sleeping Bags"),
         ("/sleeping-pad.html", "Sleeping Pads"),
+        ("/stove.html", "Stoves"),
         ("/etc.html", "More"),
     ]
     links = []

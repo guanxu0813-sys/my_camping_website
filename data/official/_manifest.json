@@ -281,6 +281,34 @@
       "scrapedAt": "2026-07-03T14:49:10Z",
       "productCount": 15,
       "errors": []
+    },
+    {
+      "brandId": "fire-maple",
+      "scrapedAt": "2026-07-14T14:51:39Z",
+      "productCount": 0,
+      "errors": [
+        "collection backpacking-stoves: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "collection canister-stoves: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "collection tents-camp-gear: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "all_products: <urlopen error Tunnel connection failed: 403 Forbidden>"
+      ]
+    },
+    {
+      "brandId": "fire-maple",
+      "scrapedAt": "2026-07-14T15:37:01Z",
+      "productCount": 0,
+      "errors": [
+        "collection backpacking-stoves: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "collection canister-stoves: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "collection tents-camp-gear: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "all_products: <urlopen error Tunnel connection failed: 403 Forbidden>"
+      ]
+    },
+    {
+      "brandId": "fire-maple",
+      "scrapedAt": "2026-07-14T15:38:53Z",
+      "productCount": 18,
+      "errors": []
     }
   ]
 }

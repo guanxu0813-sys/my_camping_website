@@ -1,0 +1,505 @@
+[
+  {
+    "id": "fire-maple-blade-2-titanium-ultralight-backpacking-stove",
+    "brandId": "fire-maple",
+    "category": "stove",
+    "subcategory": "Backpacking Stoves",
+    "model": "Blade 2 Titanium Remote-Canister Backpacking Stove",
+    "modelEn": "Blade 2 Titanium Remote-Canister Backpacking Stove",
+    "description": "Cold-Weather Cooking at 4.8 Ounces. Blade 2 combines a low remote-canister layout, titanium supports, and a preheat tube for winter backpacking and cold campsite meals. Use the canister upright for normal cooking, then switch to liquid-feed mode after the burner and preheat tube are warm.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.14,
+      "weightDisplay": "约 0.14 kg",
+      "structure": "Canister Stoves"
+    },
+    "highlights": [
+      "Cold-Weather Cooking at 4.8 Ounces. Blade 2 combines a low remote-canister layout, titanium supports, and a preheat tube for winter backpacking and cold campsite meals. Use the canister upright for normal cooking, then switch to liquid-feed mode after the burner and preheat tube are warm."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/blade-2-titanium-backpacking-stove-with-preheat-tube-476-oz-28kw-3432193.png?v=1758115910",
+    "imageAlt": "Blade 2 Titanium Remote-Canister Backpacking Stove",
+    "sourceUrl": "https://firemaplegear.com/products/blade-2-titanium-ultralight-backpacking-stove",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:37:59Z",
+    "status": "draft",
+    "published": true,
+    "price": 69.95,
+    "priceMin": 69.95,
+    "priceMax": 69.95
+  },
+  {
+    "id": "fire-maple-buzz-portable-backpacking-stove",
+    "brandId": "fire-maple",
+    "category": "stove",
+    "subcategory": "Canister Stoves",
+    "model": "Buzz 3.1kW Lightweight Backpacking Stove",
+    "modelEn": "Buzz 3.1kW Lightweight Backpacking Stove",
+    "description": "3.1 kW at Just 2.6 oz. Built for solo backpacking and compact cook kits, Buzz delivers high peak output from a lightweight folding stove. The supports open to a 4.3 in span, while the wire-loop valve adjusts heat for rapid boils and simple trail meals.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.07,
+      "weightDisplay": "约 0.07 kg",
+      "structure": "Backpacking Stoves"
+    },
+    "highlights": [
+      "3.1 kW at Just 2.6 oz. Built for solo backpacking and compact cook kits, Buzz delivers high peak output from a lightweight folding stove. The supports open to a 4.3 in span, while the wire-loop valve adjusts heat for rapid boils and simple trail meals."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/buzz-portable-backpacking-stove-26-oz-3100w-2609964.png?v=1758115904",
+    "imageAlt": "Buzz 3.1kW Lightweight Backpacking Stove",
+    "sourceUrl": "https://firemaplegear.com/products/buzz-portable-backpacking-stove",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:38:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 23.95,
+    "priceMin": 23.95,
+    "priceMax": 23.95
+  },
+  {
+    "id": "fire-maple-fms-102-stove",
+    "brandId": "fire-maple",
+    "category": "stove",
+    "subcategory": "Canister Stoves",
+    "model": "FMS-102 Piezo Gas Stove",
+    "modelEn": "FMS-102 Piezo Gas Stove",
+    "description": "Push-button ignition in a compact trail stove. The FMS-102 pairs 3.2kW output with a built-in piezo igniter and a 5.5-inch unfolded support span. It is made for solo backpackers who value easier starts and a broader cooking platform.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.13,
+      "weightDisplay": "约 0.13 kg",
+      "structure": "Canister Stoves"
+    },
+    "highlights": [
+      "Push-button ignition in a compact trail stove. The FMS-102 pairs 3.2kW output with a built-in piezo igniter and a 5.5-inch unfolded support span. It is made for solo backpackers who value easier starts and a broader cooking platform."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/fms-102-gas-stove-466oz-3200w-7572748.png?v=1758115841",
+    "imageAlt": "FMS-102 Piezo Gas Stove",
+    "sourceUrl": "https://firemaplegear.com/products/fms-102-stove",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:38:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 21.99,
+    "priceMin": 21.99,
+    "priceMax": 21.99
+  },
+  {
+    "id": "fire-maple-fms-105",
+    "brandId": "fire-maple",
+    "category": "stove",
+    "subcategory": "Backpacking Stoves",
+    "model": "FMS-105 3kW Remote-Canister Stove with Piezo Ignition",
+    "modelEn": "FMS-105 3kW Remote-Canister Stove with Piezo Ignition",
+    "description": "Lower Burner. Steadier Cooking. The FMS-105 places the burner close to the ground while keeping the fuel canister off to the side. Its 3 kW output, folding pot supports, and built-in piezo ignition make it a practical stove for campsite meals, water boils, and everyday outdoor cooking.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.25,
+      "weightDisplay": "约 0.25 kg",
+      "structure": "Backpacking Stoves"
+    },
+    "highlights": [
+      "Lower Burner. Steadier Cooking. The FMS-105 places the burner close to the ground while keeping the fuel canister off to the side. Its 3 kW output, folding pot supports, and built-in piezo ignition make it a practical stove for campsite meals, water boils, and everyday outdoor cooking."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/fms-105-gas-stove-with-electric-ignition-79-oz-3000w-7531652.png?v=1758115904",
+    "imageAlt": "FMS-105 3kW Remote-Canister Stove with Piezo Ignition",
+    "sourceUrl": "https://firemaplegear.com/products/fms-105",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:37:59Z",
+    "status": "draft",
+    "published": true,
+    "price": 25.99,
+    "priceMin": 25.99,
+    "priceMax": 25.99
+  },
+  {
+    "id": "fire-maple-116-t-titanium-backpacking-stove",
+    "brandId": "fire-maple",
+    "category": "stove",
+    "subcategory": "Canister Stoves",
+    "model": "FMS-116T Titanium Backpacking Stove",
+    "modelEn": "FMS-116T Titanium Backpacking Stove",
+    "description": "Wide Flame at 1.7 Ounces. Built for weight-focused backpackers who want more than a pinpoint flame, the FMS-116T combines a broad burner head, 4.3 in support span, and adjustable output in a 1.7 oz stove. It folds small for solo and two-person cook kits.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.05,
+      "weightDisplay": "约 0.05 kg",
+      "structure": "Canister Stoves"
+    },
+    "highlights": [
+      "Wide Flame at 1.7 Ounces. Built for weight-focused backpackers who want more than a pinpoint flame, the FMS-116T combines a broad burner head, 4.3 in support span, and adjustable output in a 1.7 oz stove. It folds small for solo and two-person cook kits."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/fms-116t-titanium-gas-stove-17oz-2300w-7066481.png?v=1758115910",
+    "imageAlt": "FMS-116T Titanium Backpacking Stove",
+    "sourceUrl": "https://firemaplegear.com/products/116-t-titanium-backpacking-stove",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:38:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 39.95,
+    "priceMin": 39.95,
+    "priceMax": 39.95
+  },
+  {
+    "id": "fire-maple-fms-118-gas-stove",
+    "brandId": "fire-maple",
+    "category": "stove",
+    "subcategory": "Backpacking Stoves",
+    "model": "FMS-118 Remote Stove with Preheat Tube",
+    "modelEn": "FMS-118 Remote Stove with Preheat Tube",
+    "description": "Lightweight Heat for Colder Trips. The FMS-118 combines a low remote-canister setup, broad burner head, and preheat tube for cold-weather backpacking and campsite meals. Start with the canister upright, then switch to inverted liquid-feed operation after the burner is fully warmed.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.15,
+      "weightDisplay": "约 0.15 kg",
+      "structure": "Backpacking Stoves"
+    },
+    "highlights": [
+      "Lightweight Heat for Colder Trips. The FMS-118 combines a low remote-canister setup, broad burner head, and preheat tube for cold-weather backpacking and campsite meals. Start with the canister upright, then switch to inverted liquid-feed operation after the burner is fully warmed."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/fms-118-gas-stove-with-preheat-tube-508oz-2800w-2570925.png?v=1758115844",
+    "imageAlt": "FMS-118 Remote Stove with Preheat Tube",
+    "sourceUrl": "https://firemaplegear.com/products/fms-118-gas-stove",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:37:59Z",
+    "status": "draft",
+    "published": true,
+    "price": 39.95,
+    "priceMin": 39.95,
+    "priceMax": 39.95
+  },
+  {
+    "id": "fire-maple-300-t-ultralight-titanium-backpacking-stove",
+    "brandId": "fire-maple",
+    "category": "stove",
+    "subcategory": "Canister Stoves",
+    "model": "FMS-300T Titanium Backpacking Stove",
+    "modelEn": "FMS-300T Titanium Backpacking Stove",
+    "description": "45 Grams. Ready to Boil. Built for weight-focused backpackers, the FMS-300T delivers 2.6 kW from a titanium canister stove that folds to 1.6 × 2.0 in. Its compact supports and focused burner work best with small pots, mugs, and simple trail meals.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.04,
+      "weightDisplay": "约 0.04 kg",
+      "structure": "Backpacking Stoves"
+    },
+    "highlights": [
+      "45 Grams. Ready to Boil. Built for weight-focused backpackers, the FMS-300T delivers 2.6 kW from a titanium canister stove that folds to 1.6 × 2.0 in. Its compact supports and focused burner work best with small pots, mugs, and simple trail meals."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/fms-300t-titanium-gas-stove-16oz-2600w-6271900.png?v=1758115910",
+    "imageAlt": "FMS-300T Titanium Backpacking Stove",
+    "sourceUrl": "https://firemaplegear.com/products/300-t-ultralight-titanium-backpacking-stove",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:38:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 29.95,
+    "priceMin": 29.95,
+    "priceMax": 29.95
+  },
+  {
+    "id": "fire-maple-fortress-titanium-wood-stove",
+    "brandId": "fire-maple",
+    "category": "stove",
+    "subcategory": "Backpacking Stoves",
+    "model": "Fortress Titanium Flat-Pack Wood Stove",
+    "modelEn": "Fortress Titanium Flat-Pack Wood Stove",
+    "description": "Burn wood or alcohol from one flat-pack stove. Built for backpacking, paddling, and bushcraft camps, the Fortress uses interlocking titanium panels to create a compact stove for dry twigs or a compatible alcohol burner. It weighs 7.7 oz and packs to just 0.4 inches thick.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.22,
+      "weightDisplay": "约 0.22 kg",
+      "structure": "Wood Stove"
+    },
+    "highlights": [
+      "Burn wood or alcohol from one flat-pack stove. Built for backpacking, paddling, and bushcraft camps, the Fortress uses interlocking titanium panels to create a compact stove for dry twigs or a compatible alcohol burner. It weighs 7.7 oz and packs to just 0.4 inches thick."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/fortress-titanium-multifunctional-stove-9699592.png?v=1758115839",
+    "imageAlt": "Fortress Titanium Flat-Pack Wood Stove",
+    "sourceUrl": "https://firemaplegear.com/products/fortress-titanium-wood-stove",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:37:59Z",
+    "status": "draft",
+    "published": true,
+    "price": 62.95,
+    "priceMin": 62.95,
+    "priceMax": 62.95
+  },
+  {
+    "id": "fire-maple-green-peak-ii-gas-stove-pressure-regulator-3-4oz-2600w",
+    "brandId": "fire-maple",
+    "category": "stove",
+    "subcategory": "Canister Stoves",
+    "model": "GreenPeak II 2.6kW Pressure-Regulated Stove",
+    "modelEn": "GreenPeak II 2.6kW Pressure-Regulated Stove",
+    "description": "Steadier Heat. Wider Support. GreenPeak II combines pressure regulation, 2.6 kW output, and wider folding supports in a 3.4 oz backpacking stove. The regulator helps reduce flame drop as canister pressure falls, while push-button piezo ignition simplifies startup for everyday trail meals.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.1,
+      "weightDisplay": "约 0.1 kg",
+      "structure": "Canister Stoves"
+    },
+    "highlights": [
+      "Steadier Heat. Wider Support. GreenPeak II combines pressure regulation, 2.6 kW output, and wider folding supports in a 3.4 oz backpacking stove. The regulator helps reduce flame drop as canister pressure falls, while push-button piezo ignition simplifies startup for everyday trail meals."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/greenpeak-ii-gas-stove-pressure-regulator-34oz-2600w-5251560.png?v=1758115837",
+    "imageAlt": "GreenPeak II 2.6kW Pressure-Regulated Stove",
+    "sourceUrl": "https://firemaplegear.com/products/green-peak-ii-gas-stove-pressure-regulator-3-4oz-2600w",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:38:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 32.95,
+    "priceMin": 32.95,
+    "priceMax": 32.95
+  },
+  {
+    "id": "fire-maple-greenpeak-gas-stove-with-electric-ignition-pro",
+    "brandId": "fire-maple",
+    "category": "stove",
+    "subcategory": "Canister Stoves",
+    "model": "GreenPeak Pro Pressure-Regulated Backpacking Stove",
+    "modelEn": "GreenPeak Pro Pressure-Regulated Backpacking Stove",
+    "description": "Steadier Heat as Pressure Drops. GreenPeak Pro adds pressure regulation to reduce output loss in colder conditions or as fuel runs low. It weighs 3.4 oz, includes push-button ignition, and trades the Standard model’s higher peak power for more consistent backpacking performance.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.09,
+      "weightDisplay": "约 0.09 kg",
+      "structure": "Canister Stoves"
+    },
+    "highlights": [
+      "Steadier Heat as Pressure Drops. GreenPeak Pro adds pressure regulation to reduce output loss in colder conditions or as fuel runs low. It weighs 3.4 oz, includes push-button ignition, and trades the Standard model’s higher peak power for more consistent backpacking performance."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/greenpeak-gas-stove-with-electric-ignition-3oz-2800w-3377254.png?v=1768207058",
+    "imageAlt": "GreenPeak Pro Pressure-Regulated Backpacking Stove",
+    "sourceUrl": "https://firemaplegear.com/products/greenpeak-gas-stove-with-electric-ignition-pro",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:38:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 32.95,
+    "priceMin": 32.95,
+    "priceMax": 32.95
+  },
+  {
+    "id": "fire-maple-greenpeak-backpacking-stove",
+    "brandId": "fire-maple",
+    "category": "stove",
+    "subcategory": "Canister Stoves",
+    "model": "GreenPeak Standard 2.8kW Backpacking Stove",
+    "modelEn": "GreenPeak Standard 2.8kW Backpacking Stove",
+    "description": "Fast Boils at 3 Ounces. GreenPeak Standard delivers 2.8 kW from a compact 3.0 oz stove for everyday backpacking, quick water boils, and simple trail meals. The built-in piezo igniter simplifies startup, while the folding three-arm support pairs with compatible Petrel cookware.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.09,
+      "weightDisplay": "约 0.09 kg",
+      "structure": "Canister Stoves"
+    },
+    "highlights": [
+      "Fast Boils at 3 Ounces. GreenPeak Standard delivers 2.8 kW from a compact 3.0 oz stove for everyday backpacking, quick water boils, and simple trail meals. The built-in piezo igniter simplifies startup, while the folding three-arm support pairs with compatible Petrel cookware."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/greenpeak-gas-stove-with-electric-ignition-3oz-2800w-1035754.png?v=1758115838",
+    "imageAlt": "GreenPeak Standard 2.8kW Backpacking Stove",
+    "sourceUrl": "https://firemaplegear.com/products/greenpeak-backpacking-stove",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:38:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 19.95,
+    "priceMin": 19.95,
+    "priceMax": 19.95
+  },
+  {
+    "id": "fire-maple-hornet-ii-titanium-gas-stove",
+    "brandId": "fire-maple",
+    "category": "stove",
+    "subcategory": "Canister Stoves",
+    "model": "Hornet Ⅱ Titanium Gas Stove",
+    "modelEn": "Hornet Ⅱ Titanium Gas Stove",
+    "description": "Lighter Pack. Better Stability. At just 1.7 oz (48.5 g), the Hornet II keeps everything backpackers love about ultralight canister stoves while improving everyday stability with redesigned titanium pot supports. Small enough for minimalist trips, dependable enough for daily trail cooking.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.05,
+      "weightDisplay": "约 0.05 kg",
+      "structure": "Canister Stoves"
+    },
+    "highlights": [
+      "Lighter Pack. Better Stability. At just 1.7 oz (48.5 g), the Hornet II keeps everything backpackers love about ultralight canister stoves while improving everyday stability with redesigned titanium pot supports. Small enough for minimalist trips, dependable enough for daily trail cooking."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/hornet-titanium-gas-stove-17oz-2500w-8204837.png?v=1758115904",
+    "imageAlt": "Hornet Ⅱ Titanium Gas Stove",
+    "sourceUrl": "https://firemaplegear.com/products/hornet-ii-titanium-gas-stove",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:38:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 39.95,
+    "priceMin": 39.95,
+    "priceMax": 39.95
+  },
+  {
+    "id": "fire-maple-lotus-titanium-solid-alcohol-stove",
+    "brandId": "fire-maple",
+    "category": "stove",
+    "subcategory": "Backpacking Stoves",
+    "model": "Lotus Titanium Solid Fuel Stove",
+    "modelEn": "Lotus Titanium Solid Fuel Stove",
+    "description": "Boil Water Without a Canister At 2.5 oz (71 g), the Lotus folds flat for minimalist trips and backup cook kits. Its titanium panels form a small-pot support and partially shield the solid fuel tablet, making it best suited to boiling water and reheating simple meals.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.07,
+      "weightDisplay": "约 0.07 kg"
+    },
+    "highlights": [
+      "Boil Water Without a Canister At 2.5 oz (71 g), the Lotus folds flat for minimalist trips and backup cook kits. Its titanium panels form a small-pot support and partially shield the solid fuel tablet, making it best suited to boiling water and reheating simple meals."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/lotus-titanium-solid-alcohol-stove-3996098.png?v=1758115904",
+    "imageAlt": "Lotus Titanium Solid Fuel Stove",
+    "sourceUrl": "https://firemaplegear.com/products/lotus-titanium-solid-alcohol-stove",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:37:59Z",
+    "status": "draft",
+    "published": true,
+    "price": 35.95,
+    "priceMin": 35.95,
+    "priceMax": 35.95
+  },
+  {
+    "id": "fire-maple-petrel-titanium-ultralight-backpack-stove",
+    "brandId": "fire-maple",
+    "category": "stove",
+    "subcategory": "Backpacking Stoves",
+    "model": "Petrel Titanium Ultralight Remote Stove",
+    "modelEn": "Petrel Titanium Ultralight Remote Stove",
+    "description": "Remote stability in a 3.4 oz stove. The low burner and canister-end control keep the cooking platform separate from the fuel canister. The titanium frame folds to 1.3 inches thick, fits compatible Petrel cookware, and delivers 2.7kW output for lightweight three-season cooking.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.1,
+      "weightDisplay": "约 0.1 kg",
+      "structure": "Backpacking Stoves"
+    },
+    "highlights": [
+      "Remote stability in a 3.4 oz stove. The low burner and canister-end control keep the cooking platform separate from the fuel canister. The titanium frame folds to 1.3 inches thick, fits compatible Petrel cookware, and delivers 2.7kW output for lightweight three-season cooking."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/petrel-titanium-ultralight-backpack-stove-8649120.png?v=1758281546",
+    "imageAlt": "Petrel Titanium Ultralight Remote Stove",
+    "sourceUrl": "https://firemaplegear.com/products/petrel-titanium-ultralight-backpack-stove",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:37:59Z",
+    "status": "draft",
+    "published": true,
+    "price": 54.95,
+    "priceMin": 54.95,
+    "priceMax": 54.95
+  },
+  {
+    "id": "fire-maple-polaris-gas-pressure-regulator-stove",
+    "brandId": "fire-maple",
+    "category": "stove",
+    "subcategory": "Canister Stoves",
+    "model": "Polaris Pressure-Regulated Backpacking Stove",
+    "modelEn": "Polaris Pressure-Regulated Backpacking Stove",
+    "description": "Steadier Heat as Pressure Drops. Polaris combines a pressure regulator, recessed burner, and folding supports in a 2.7 oz canister-top stove. It is built for backpackers who want steadier heat from colder or partially used canisters without moving to a heavier remote setup.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.08,
+      "weightDisplay": "约 0.08 kg",
+      "structure": "Backpacking Stoves"
+    },
+    "highlights": [
+      "Steadier Heat as Pressure Drops. Polaris combines a pressure regulator, recessed burner, and folding supports in a 2.7 oz canister-top stove. It is built for backpackers who want steadier heat from colder or partially used canisters without moving to a heavier remote setup."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/polaris-pressure-regulator-gas-stove-27-oz-2500w-9971058.png?v=1758115904",
+    "imageAlt": "Polaris Pressure-Regulated Backpacking Stove",
+    "sourceUrl": "https://firemaplegear.com/products/polaris-gas-pressure-regulator-stove",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:38:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 44.95,
+    "priceMin": 44.95,
+    "priceMax": 44.95
+  },
+  {
+    "id": "fire-maple-polaris-remote-gas-pressure-regulator-stove",
+    "brandId": "fire-maple",
+    "category": "stove",
+    "subcategory": "Backpacking Stoves",
+    "model": "Polaris Pressure-regulator Remote Gas Stove",
+    "modelEn": "Polaris Pressure-regulator Remote Gas Stove",
+    "description": "Steadier Heat as Pressure Drops. Polaris Remote combines pressure regulation, 2.9 kW output, and a low remote-canister layout for backpacking and campsite meals. The regulator helps reduce flame drop as canister pressure falls, while the concave burner provides additional protection from side breezes.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.18,
+      "weightDisplay": "约 0.18 kg",
+      "structure": "Canister Stoves"
+    },
+    "highlights": [
+      "Steadier Heat as Pressure Drops. Polaris Remote combines pressure regulation, 2.9 kW output, and a low remote-canister layout for backpacking and campsite meals. The regulator helps reduce flame drop as canister pressure falls, while the concave burner provides additional protection from side breezes."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/polaris-pressure-regulator-remote-gas-stove-635-oz-2900w-4708860.png?v=1758115904",
+    "imageAlt": "Polaris Pressure-regulator Remote Gas Stove",
+    "sourceUrl": "https://firemaplegear.com/products/polaris-remote-gas-pressure-regulator-stove",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:37:59Z",
+    "status": "draft",
+    "published": true,
+    "price": 59.95,
+    "priceMin": 59.95,
+    "priceMax": 59.95
+  },
+  {
+    "id": "fire-maple-torch-backpacking-stove",
+    "brandId": "fire-maple",
+    "category": "stove",
+    "subcategory": "Canister Stoves",
+    "model": "Torch 2 oz Backpacking Stove with Piezo Ignition",
+    "modelEn": "Torch 2 oz Backpacking Stove with Piezo Ignition",
+    "description": "Piezo Ignition at 2 Ounces. Built for solo backpacking and compact camp kits, Torch combines a 2.1 kW burner, adjustable flame control, and folding supports in a 2 oz package. It boils 16.9 fl oz (500 ml) in 2 minutes 30 seconds and aligns with Petrel G2 and G3 pots.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 0.06,
+      "weightDisplay": "约 0.06 kg",
+      "structure": "Backpacking Stoves"
+    },
+    "highlights": [
+      "Piezo Ignition at 2 Ounces. Built for solo backpacking and compact camp kits, Torch combines a 2.1 kW burner, adjustable flame control, and folding supports in a 2 oz package. It boils 16.9 fl oz (500 ml) in 2 minutes 30 seconds and aligns with Petrel G2 and G3 pots."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/torch-gas-stove-21oz-2100w-1787486.png?v=1758115837",
+    "imageAlt": "Torch 2 oz Backpacking Stove with Piezo Ignition",
+    "sourceUrl": "https://firemaplegear.com/products/torch-backpacking-stove",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:38:10Z",
+    "status": "draft",
+    "published": true,
+    "price": 13.95,
+    "priceMin": 13.95,
+    "priceMax": 13.95
+  },
+  {
+    "id": "fire-maple-tropics-2-person-backpacking-tent",
+    "brandId": "fire-maple",
+    "category": "tent",
+    "subcategory": "Tents",
+    "model": "Tropics 2-Person Backpacking Tent",
+    "modelEn": "Tropics 2-Person Backpacking Tent",
+    "description": "Room for two. Pitch the fly first. At 4.3 lb, the Tropics 2P combines a 55.1-inch-wide floor with two doors, dual vestibules, and 43.3 inches of peak height. Add the matching footprint for fly-first pitching when you want the mesh inner covered during wet-weather setup.",
+    "currency": "USD",
+    "specs": {
+      "weightKg": 1.95,
+      "weightDisplay": "约 1.95 kg",
+      "capacity": "2 人"
+    },
+    "highlights": [
+      "Room for two. Pitch the fly first. At 4.3 lb, the Tropics 2P combines a 55.1-inch-wide floor with two doors, dual vestibules, and 43.3 inches of peak height. Add the matching footprint for fly-first pitching when you want the mesh inner covered during wet-weather setup."
+    ],
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0243/1664/1376/files/tropics-2-person-backpacking-tent-2223983.png?v=1758612935",
+    "imageAlt": "Tropics 2-Person Backpacking Tent",
+    "sourceUrl": "https://firemaplegear.com/products/tropics-2-person-backpacking-tent",
+    "sourceSite": "firemaplegear.com",
+    "scrapedAt": "2026-07-14T15:38:19Z",
+    "status": "draft",
+    "published": true,
+    "price": 229.95,
+    "priceMin": 209.95,
+    "priceMax": 229.95
+  }
+]
