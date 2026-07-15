@@ -1911,8 +1911,8 @@
     "sourceUrl": "https://camping.onetigris.com/products/wild-rocket-bushcraft-pack",
     "sourceSite": "camping.onetigris.com",
     "scrapedAt": "2026-07-15T14:54:34Z",
-    "status": "draft",
-    "published": false,
+    "status": "verified",
+    "published": true,
     "price": 92.99,
     "priceMin": 92.99,
     "priceMax": 92.99
