@@ -2291,6 +2291,49 @@ body.modal-open {
   display: none;
 }
 
+.purchase-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+}
+
+.product-modal__source .purchase-actions a,
+.purchase-actions a.purchase-link:not(.static-button) {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.45rem 0.75rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(26, 77, 58, 0.2);
+  background: var(--color-paper);
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-moss);
+}
+
+.product-modal__source .purchase-actions a.purchase-link {
+  background: var(--color-forest);
+  border-color: transparent;
+  color: #fff;
+}
+
+.product-modal__source .purchase-actions a:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.purchase-actions__note {
+  margin: 0.55rem 0 0;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  line-height: 1.4;
+}
+
+.purchase-actions__note a {
+  color: var(--color-moss);
+}
+
 .product-modal__source a {
   display: inline-flex;
   align-items: center;

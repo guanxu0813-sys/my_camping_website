@@ -100,6 +100,26 @@
       "breadcrumb": "Furniture"
     },
     {
+      "path": "/about.html",
+      "file": "about.html",
+      "title": "About CampGear Compare",
+      "description": "CampGear Compare is an independent camping gear comparison site focused on official specs for tents, sleeping bags, and budget ultralight brands.",
+      "changefreq": "monthly",
+      "priority": "0.4",
+      "schema": "legal",
+      "breadcrumb": "About"
+    },
+    {
+      "path": "/contact.html",
+      "file": "contact.html",
+      "title": "Contact · CampGear Compare",
+      "description": "Contact CampGear Compare for corrections, partnership questions, privacy requests, or copyright concerns.",
+      "changefreq": "monthly",
+      "priority": "0.4",
+      "schema": "legal",
+      "breadcrumb": "Contact"
+    },
+    {
       "path": "/legal.html",
       "file": "legal.html",
       "title": "Legal & Policies · CampGear Compare",

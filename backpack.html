@@ -18,7 +18,7 @@
   <meta name="twitter:title" content="Backpack Comparison Table — Sort by Weight &amp; Capacity" />
   <meta name="twitter:description" content="Free sortable backpacking pack specs: weight, capacity &amp; price from official brand pages. Compare Flame's Creed, Aegismax, OneTigris &amp; more side by side." />
   <meta name="twitter:image" content="https://www.campgearcompare.com/assets/hero-home.png" />
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.campgearcompare.com/"},{"@type":"ListItem","position":2,"name":"Backpacks","item":"https://www.campgearcompare.com/backpack.html"}]},{"@type":"CollectionPage","name":"Backpack Comparison Table — Sort by Weight & Capacity","description":"Free sortable backpacking pack specs: weight, capacity & price from official brand pages. Compare Flame's Creed, Aegismax, OneTigris & more side by side.","url":"https://www.campgearcompare.com/backpack.html","isPartOf":{"@id":"https://www.campgearcompare.com/#website"},"about":{"@type":"Thing","name":"Backpacks","description":"0 models compared across "}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.campgearcompare.com/"},{"@type":"ListItem","position":2,"name":"Backpacks","item":"https://www.campgearcompare.com/backpack.html"}]},{"@type":"CollectionPage","name":"Backpack Comparison Table — Sort by Weight & Capacity","description":"Free sortable backpacking pack specs: weight, capacity & price from official brand pages. Compare Flame's Creed, Aegismax, OneTigris & more side by side.","url":"https://www.campgearcompare.com/backpack.html","isPartOf":{"@id":"https://www.campgearcompare.com/#website"},"about":{"@type":"Thing","name":"Backpacks","description":"3 models compared across OneTigris, Aegismax, Flame's Creed"}},{"@type":"ItemList","name":"Backpacks compared on CampGear Compare","numberOfItems":3,"itemListElement":[{"@type":"ListItem","position":1,"name":"OneTigris WILD ROCKET Bushcraft Pack","url":"https://www.campgearcompare.com/products/onetigris-wild-rocket-bushcraft-pack.html"},{"@type":"ListItem","position":2,"name":"Aegismax AEGISMAX 18L Ultralight Foldable Outdoor Backpacking 20D Nylon Hiking Bag UP1300","url":"https://www.campgearcompare.com/products/aegismax-aegismax-18l-ultralight-foldable-outdoor-backpacking-20d-nylon-hiking-bag-up1300.html"},{"@type":"ListItem","position":3,"name":"Flame's Creed FLAME’S CREED Backpack Qi Dian Pro Ultralight Frameless Backpacking 40+16","url":"https://www.campgearcompare.com/products/flames-creed-flames-creed-backpack-qi-dian-pro-ultralight-frameless-backpacking-4016.html"}]}]}</script>
   <!-- @seo-head:end -->
   <script defer data-domain="campgearcompare.com" src="https://plausible.io/js/script.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -60,7 +60,9 @@
       <div id="compare-root" class="compare-root" hidden></div>
     <!-- @seo-crawl -->
   <div class="seo-crawl" id="seo-crawl">
-  <p>CampGear Compare (campgearcompare.com) — Compare ultralight backpacking packs side by side. Sortable specs include weight, capacity, and reference price from official brand data.</p>
+  <p>CampGear Compare (campgearcompare.com) — Compare 3 backpacks from OneTigris, Aegismax, Flame's Creed. Sortable specs include weight, capacity, materials, and reference price. Featured models: OneTigris WILD ROCKET Bushcraft Pack; Aegismax AEGISMAX 18L Ultralight Foldable Outdoor Backpacking 20D Nylon Hiking Bag UP1300; Flame's Creed FLAME’S CREED Backpack Qi Dian Pro Ultralight Frameless Backpacking 40+16.</p>
+  <p class="seo-crawl__links"><strong>Popular models:</strong> <a href="/products/onetigris-wild-rocket-bushcraft-pack.html">OneTigris WILD ROCKET Bushcraft Pack</a> · <a href="/products/aegismax-aegismax-18l-ultralight-foldable-outdoor-backpacking-20d-nylon-hiking-bag-up1300.html">Aegismax AEGISMAX 18L Ultralight Foldable Outdoor Backpacking 20D Nylon Hiking Bag UP1300</a> · <a href="/products/flames-creed-flames-creed-backpack-qi-dian-pro-ultralight-frameless-backpacking-4016.html">Flame's Creed FLAME’S CREED Backpack Qi Dian Pro Ultralight Frameless Backpacking 40+16</a></p>
+  <p class="seo-crawl__links"><strong>Brand pages:</strong> <a href="/brands/onetigris-backpack.html">OneTigris backpacks</a> · <a href="/brands/aegismax-backpack.html">Aegismax backpacks</a> · <a href="/brands/flames-creed-backpack.html">Flame's Creed backpacks</a></p>
   </div>
   <!-- @seo-crawl:end -->
     </section>
@@ -80,9 +82,7 @@
           <div class="product-modal__desc" id="product-modal-desc"></div>
           <ul class="product-modal__highlights" id="product-modal-highlights" hidden></ul>
         </div>
-        <p class="product-modal__source" id="product-modal-source">
-          <a id="product-modal-link" href="#" target="_blank" rel="noopener noreferrer">View official site ↗</a>
-        </p>
+        <div class="product-modal__source" id="product-modal-source" hidden></div>
       </div>
     </div>
   </div>
@@ -90,7 +90,9 @@
   <footer class="site-footer">
     <div class="site-footer__inner">
       <p class="site-footer__disclaimer">CampGear Compare helps campers compare official product specs side by side. Some links may earn us a commission at no extra cost to you. Specs and images are sourced from brand websites; image copyright belongs to the respective brands.</p>
-      <nav class="site-footer__legal" aria-label="Legal">
+      <nav class="site-footer__legal" aria-label="Site and legal">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
         <a href="legal.html#affiliate">Affiliate Disclosure</a>
         <a href="legal.html#privacy">Privacy</a>
         <a href="legal.html#content-ip">Content &amp; IP</a>

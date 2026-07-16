@@ -80,6 +80,77 @@ def load_official_products() -> list[dict]:
     return products
 
 
+def load_affiliates() -> dict:
+    path = DATA / "affiliates.json"
+    if not path.exists():
+        return {"amazon": {"enabled": False}, "aliexpress": {"enabled": False}}
+    data = load_json(path)
+    return data if isinstance(data, dict) else {}
+
+
+def load_affiliate_links() -> dict:
+    path = DATA / "affiliate-links.json"
+    if not path.exists():
+        return {}
+    data = load_json(path)
+    if not isinstance(data, dict):
+        return {}
+    links = data.get("links")
+    return links if isinstance(links, dict) else data
+
+
+def resolve_amazon_url(entry: dict, affiliates: dict) -> str:
+    amz = affiliates.get("amazon") or {}
+    if not amz.get("enabled"):
+        return ""
+    if entry.get("amazonUrl"):
+        return str(entry["amazonUrl"])
+    asin = str(entry.get("amazonAsin") or "").strip()
+    tag = str(amz.get("associateTag") or "").strip()
+    if not asin or not tag:
+        return ""
+    host = str(amz.get("marketplace") or "www.amazon.com").replace("https://", "").replace("http://", "")
+    return f"https://{host}/dp/{asin}?tag={tag}"
+
+
+def product_purchase_actions_html(product: dict, affiliates: dict, affiliate_links: dict) -> str:
+    entry = affiliate_links.get(product.get("id") or "") or {}
+    if not isinstance(entry, dict):
+        entry = {}
+    buttons: list[str] = []
+    amazon_url = resolve_amazon_url(entry, affiliates)
+    if amazon_url:
+        buttons.append(
+            f'<a class="purchase-link static-button static-button--primary" href="{escape_html(amazon_url)}" '
+            f'target="_blank" rel="nofollow sponsored noopener noreferrer" '
+            f'data-product-id="{escape_html(product.get("id") or "")}" data-platform="amazon">Check Amazon</a>'
+        )
+    ae = affiliates.get("aliexpress") or {}
+    ae_url = entry.get("aliexpressUrl") if ae.get("enabled") else None
+    if ae_url:
+        buttons.append(
+            f'<a class="purchase-link static-button static-button--primary" href="{escape_html(str(ae_url))}" '
+            f'target="_blank" rel="nofollow sponsored noopener noreferrer" '
+            f'data-product-id="{escape_html(product.get("id") or "")}" data-platform="aliexpress">Check AliExpress</a>'
+        )
+    official = product.get("sourceUrl") or ""
+    if official:
+        buttons.append(
+            f'<a class="static-button outbound-link" href="{escape_html(official)}" '
+            f'target="_blank" rel="noopener noreferrer" '
+            f'data-product-id="{escape_html(product.get("id") or "")}" data-platform="official">View official source</a>'
+        )
+    if not buttons:
+        return ""
+    note = ""
+    if amazon_url or ae_url:
+        note = (
+            '<p class="purchase-actions__note">Prices &amp; stock on retailer sites; we may earn a commission. '
+            '<a href="/legal.html#affiliate">Affiliate disclosure</a></p>'
+        )
+    return f'<div class="static-actions purchase-actions">{"".join(buttons)}</div>{note}'
+
+
 def brand_map(brands: list[dict]) -> dict[str, dict]:
     return {b["id"]: b for b in brands if b.get("id")}
 
@@ -930,7 +1001,9 @@ def static_footer() -> str:
         '  <div class="site-footer__inner">\n'
         '    <p class="site-footer__brand-url"><a href="https://www.campgearcompare.com/">CampGear Compare</a> · campgearcompare.com</p>\n'
         '    <p class="site-footer__disclaimer">CampGear Compare helps campers compare official product specs side by side. Some links may earn us a commission at no extra cost to you. Specs and images are sourced from brand websites; image copyright belongs to the respective brands.</p>\n'
-        '    <nav class="site-footer__legal" aria-label="Legal">\n'
+        '    <nav class="site-footer__legal" aria-label="Site and legal">\n'
+        '      <a href="/about.html">About</a>\n'
+        '      <a href="/contact.html">Contact</a>\n'
         '      <a href="/legal.html#affiliate">Affiliate Disclosure</a>\n'
         '      <a href="/legal.html#privacy">Privacy</a>\n'
         '      <a href="/legal.html#content-ip">Content &amp; IP</a>\n'
@@ -1018,7 +1091,14 @@ def product_json_ld(product: dict, site_url: str, brands: dict[str, dict]) -> di
     }
 
 
-def product_page_html(product: dict, products: list[dict], site_url: str, brands: dict[str, dict]) -> str:
+def product_page_html(
+    product: dict,
+    products: list[dict],
+    site_url: str,
+    brands: dict[str, dict],
+    affiliates: dict | None = None,
+    affiliate_links: dict | None = None,
+) -> str:
     brand_id = product.get("brandId", "")
     brand = brand_display_name(brands.get(brand_id), brand_id)
     model = product.get("model", "")
@@ -1030,12 +1110,28 @@ def product_page_html(product: dict, products: list[dict], site_url: str, brands
     image = product.get("imageUrl") or ""
     specs = product_primary_specs(product)
     related = related_products(product, products, brands)
-    official = product.get("sourceUrl") or ""
-    official_link = (
-        f'<a class="static-button static-button--primary outbound-link" href="{escape_html(official)}" target="_blank" rel="noopener noreferrer">View official source</a>'
-        if official
-        else ""
+    actions = product_purchase_actions_html(
+        product,
+        affiliates or {},
+        affiliate_links or {},
     )
+    if not actions:
+        official = product.get("sourceUrl") or ""
+        actions = (
+            f'<div class="static-actions"><a class="static-button static-button--primary outbound-link" href="{escape_html(official)}" target="_blank" rel="noopener noreferrer">View official source</a></div>'
+            if official
+            else '<div class="static-actions"></div>'
+        )
+    back_btn = f'<a class="static-button" href="{escape_html(category_page_path(category))}">Back to comparison table</a>'
+    # Append back button into actions container when present
+    if 'class="static-actions' in actions:
+        actions = actions.replace(
+            "</div>",
+            f"{back_btn}</div>",
+            1,
+        )
+    else:
+        actions = f'<div class="static-actions">{back_btn}</div>'
     image_html = (
         f'<img src="{escape_html(image)}" alt="{escape_html(product.get("imageAlt") or name)}" width="760" height="570" loading="eager" decoding="async" />'
         if image
@@ -1066,7 +1162,7 @@ def product_page_html(product: dict, products: list[dict], site_url: str, brands
         f'      <p class="page__eyebrow">{escape_html(brand)} · {escape_html(category_label(category))}</p>\n'
         f'      <h1 class="page__title">{escape_html(name)}</h1>\n'
         f'      <p class="page__lead">{escape_html(product_summary(product, brands))}</p>\n'
-        f'      <div class="static-actions">{official_link}<a class="static-button" href="{escape_html(current_path)}">Back to comparison table</a></div>\n'
+        f"      {actions}\n"
         "    </header>\n"
         '    <div class="product-detail__layout">\n'
         '      <figure class="product-detail__media">\n'
@@ -1261,9 +1357,14 @@ def write_static_pages(site_url: str, products: list[dict], brands: dict[str, di
 
     entries: list[dict] = []
     rows = sorted_visible_products(products, brands)
+    affiliates = load_affiliates()
+    affiliate_links = load_affiliate_links()
     for product in rows:
         path = PRODUCT_DIR / f"{product.get('id')}.html"
-        path.write_text(product_page_html(product, rows, site_url, brands), encoding="utf-8")
+        path.write_text(
+            product_page_html(product, rows, site_url, brands, affiliates, affiliate_links),
+            encoding="utf-8",
+        )
         entries.append(
             {
                 "loc": f"{site_url}{product_path(product)}",
@@ -1342,6 +1443,8 @@ def write_robots(site_url: str) -> None:
         "Allow: /\n"
         "Allow: /data/catalog.js\n"
         "Allow: /data/brands.json\n"
+        "Allow: /data/affiliates.json\n"
+        "Allow: /data/affiliate-links.json\n"
         "Allow: /data/official/\n"
         "Disallow: /data/products.json\n"
         "\n"

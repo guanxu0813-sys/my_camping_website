@@ -41,11 +41,32 @@ def main() -> None:
         if sponsors_path.exists()
         else {"campaigns": []}
     )
+    affiliates_path = DATA / "affiliates.json"
+    affiliates = (
+        json.loads(affiliates_path.read_text(encoding="utf-8"))
+        if affiliates_path.exists()
+        else {"amazon": {"enabled": False}, "aliexpress": {"enabled": False}}
+    )
+    affiliate_links_path = DATA / "affiliate-links.json"
+    affiliate_links_raw = (
+        json.loads(affiliate_links_path.read_text(encoding="utf-8"))
+        if affiliate_links_path.exists()
+        else {}
+    )
+    affiliate_links = (
+        affiliate_links_raw.get("links")
+        if isinstance(affiliate_links_raw, dict) and "links" in affiliate_links_raw
+        else affiliate_links_raw
+        if isinstance(affiliate_links_raw, dict)
+        else {}
+    )
     payload = {
         "brands": brands,
         "products": products,
         "site": site,
         "sponsors": sponsors,
+        "affiliates": affiliates,
+        "affiliateLinks": affiliate_links,
         "source": "official",
     }
     out = DATA / "catalog.js"

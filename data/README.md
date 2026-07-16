@@ -115,6 +115,59 @@ python3 scripts/validate_sponsors.py
 
 也可在产品 JSON 内嵌 `sponsor` 对象（见 `products.schema.json`）；`sponsors.json` 会覆盖同 `productId` 的配置。
 
+### 联盟购买链接（Amazon / AliExpress）
+
+账号开通前也可上线框架：按钮仅在 **配置已启用** 且 **该产品有可解析链接** 时显示。
+
+| 文件 | 用途 |
+|------|------|
+| [`affiliates.json`](affiliates.json) | Amazon Associate Tag、AliExpress tracking、总开关 `enabled` |
+| [`affiliate-links.json`](affiliate-links.json) | 按 `productId` 映射 `amazonAsin` / `amazonUrl` / `aliexpressUrl`（与 scrape 数据分离，避免被覆盖） |
+
+**开通后启用 Amazon：**
+
+1. 在 Associates Central 拿到 Tracking ID（Associate Tag）。
+2. 编辑 `affiliates.json`：
+
+```json
+{
+  "amazon": {
+    "enabled": true,
+    "associateTag": "yourtag-20",
+    "marketplace": "www.amazon.com"
+  },
+  "aliexpress": { "enabled": false, "trackingId": "" },
+  "disclosureNote": "As an Amazon Associate we earn from qualifying purchases."
+}
+```
+
+3. 在 `affiliate-links.json` 的 `links` 里为产品写入 ASIN（推荐）或完整 `amazonUrl`：
+
+```json
+{
+  "links": {
+    "naturehike-cloud-up-2-person-ultralight-backpacking-tent": {
+      "amazonAsin": "B0EXAMPLE",
+      "note": "Verify listing matches Cloud Up 2 20D"
+    }
+  }
+}
+```
+
+**开通后启用 AliExpress：**
+
+1. 在 [AliExpress Portals](https://portals.aliexpress.com/) 为商品生成带追踪的推广链接。
+2. 设 `aliexpress.enabled: true`，并把链接写入对应产品的 `aliexpressUrl`。
+
+改完后重建：
+
+```bash
+python3 scripts/build_catalog.py
+python3 scripts/build_sitemap.py
+```
+
+Modal 与静态产品页会渲染 `Check Amazon` / `Check AliExpress`（`purchase-link`，Plausible `Outbound Click` 带 `data-platform`）。无映射或 `enabled: false` 时只保留 Official（若有 `sourceUrl`）。
+
 ### 依赖
 
 ```bash

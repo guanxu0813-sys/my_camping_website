@@ -2,6 +2,8 @@ User-agent: *
 Allow: /
 Allow: /data/catalog.js
 Allow: /data/brands.json
+Allow: /data/affiliates.json
+Allow: /data/affiliate-links.json
 Allow: /data/official/
 Disallow: /data/products.json
 

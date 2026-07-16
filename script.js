@@ -38,6 +38,11 @@
   var analyticsConfig = null;
   var selectedProductIds = {};
   var selectionCompareActive = false;
+  var affiliatesConfig = {
+    amazon: { enabled: false, associateTag: "", marketplace: "www.amazon.com" },
+    aliexpress: { enabled: false, trackingId: "" },
+  };
+  var affiliateLinksMap = {};
 
   function isLocalDevHost() {
     var host = window.location.hostname;
@@ -121,6 +126,104 @@
         category: document.body.getAttribute("data-category") || "",
       });
     });
+  }
+
+  function setAffiliateData(affiliates, links) {
+    if (affiliates && typeof affiliates === "object") {
+      affiliatesConfig = affiliates;
+    }
+    if (links && typeof links === "object") {
+      affiliateLinksMap = links.links && typeof links.links === "object" ? links.links : links;
+    }
+  }
+
+  function resolveAmazonUrl(entry) {
+    var amz = affiliatesConfig.amazon || {};
+    if (!amz.enabled) return "";
+    if (entry.amazonUrl) return String(entry.amazonUrl);
+    var asin = entry.amazonAsin ? String(entry.amazonAsin).trim() : "";
+    var tag = amz.associateTag ? String(amz.associateTag).trim() : "";
+    if (!asin || !tag) return "";
+    var host = amz.marketplace || "www.amazon.com";
+    return "https://" + host.replace(/^https?:\/\//, "") + "/dp/" + encodeURIComponent(asin) + "?tag=" + encodeURIComponent(tag);
+  }
+
+  function resolvePurchaseLinks(product) {
+    if (!product || !product.id) return [];
+    var entry = affiliateLinksMap[product.id] || {};
+    var links = [];
+    var amazonUrl = resolveAmazonUrl(entry);
+    if (amazonUrl) {
+      links.push({
+        platform: "amazon",
+        label: "Check Amazon",
+        href: amazonUrl,
+        purchase: true,
+      });
+    }
+    var ae = affiliatesConfig.aliexpress || {};
+    if (ae.enabled && entry.aliexpressUrl) {
+      links.push({
+        platform: "aliexpress",
+        label: "Check AliExpress",
+        href: String(entry.aliexpressUrl),
+        purchase: true,
+      });
+    }
+    if (product.sourceUrl) {
+      links.push({
+        platform: "official",
+        label: "More details on the official site ↗",
+        href: product.sourceUrl,
+        purchase: false,
+      });
+    }
+    return links;
+  }
+
+  function renderPurchaseActionsHtml(product, options) {
+    var opts = options || {};
+    var links = resolvePurchaseLinks(product);
+    if (!links.length) return "";
+    var hasPurchase = links.some(function (l) {
+      return l.purchase;
+    });
+    var items = links
+      .map(function (link) {
+        var classes = link.purchase ? "purchase-link" : "outbound-link";
+        if (opts.staticButtons) {
+          classes += " static-button";
+          if (link.purchase) classes += " static-button--primary";
+        }
+        var rel = link.purchase
+          ? ' rel="nofollow sponsored noopener noreferrer"'
+          : ' rel="noopener noreferrer"';
+        return (
+          '<a class="' +
+          classes +
+          '" href="' +
+          escapeHtml(link.href) +
+          '" target="_blank"' +
+          rel +
+          ' data-product-id="' +
+          escapeHtml(product.id) +
+          '" data-platform="' +
+          escapeHtml(link.platform) +
+          '">' +
+          escapeHtml(link.label) +
+          "</a>"
+        );
+      })
+      .join("");
+    var note = "";
+    if (opts.includeNote && hasPurchase) {
+      var disclosureHref = opts.disclosureHref || "legal.html#affiliate";
+      note =
+        '<p class="purchase-actions__note">Prices &amp; stock on retailer sites; we may earn a commission. <a href="' +
+        escapeHtml(disclosureHref) +
+        '">Affiliate disclosure</a></p>';
+    }
+    return '<div class="purchase-actions">' + items + "</div>" + note;
   }
 
   function scrollToHash(hash) {
@@ -2041,21 +2144,14 @@
       }
     }
 
-    var linkEl = document.getElementById("product-modal-link");
     var sourceWrap = document.getElementById("product-modal-source");
-    if (linkEl && sourceWrap) {
-      if (product.sourceUrl) {
-        linkEl.href = product.sourceUrl;
-        linkEl.classList.add("outbound-link");
-        linkEl.setAttribute("data-product-id", product.id);
-        linkEl.setAttribute("data-platform", "official");
-        linkEl.removeAttribute("hidden");
+    if (sourceWrap) {
+      var actionsHtml = renderPurchaseActionsHtml(product, { includeNote: true });
+      if (actionsHtml) {
+        sourceWrap.innerHTML = actionsHtml;
         sourceWrap.hidden = false;
       } else {
-        linkEl.href = "#";
-        linkEl.classList.remove("outbound-link");
-        linkEl.removeAttribute("data-product-id");
-        linkEl.removeAttribute("data-platform");
+        sourceWrap.innerHTML = "";
         sourceWrap.hidden = true;
       }
     }
@@ -2330,7 +2426,7 @@
     });
   }
 
-  function hydrateCatalog(brandsData, productsData, siteData, sponsorsData) {
+  function hydrateCatalog(brandsData, productsData, siteData, sponsorsData, affiliatesData, affiliateLinksData) {
     brands = sortBrandsByFame(Array.isArray(brandsData) ? brandsData : []);
     brandMap = {};
     brands.forEach(function (b) {
@@ -2338,6 +2434,7 @@
     });
     products = productsFromOfficial(productsData, brands);
     catalogLoaded = true;
+    setAffiliateData(affiliatesData, affiliateLinksData);
     if (sponsorsData && sponsorsData.campaigns) {
       applySponsorCampaigns(sponsorsData.campaigns);
     }
@@ -2387,6 +2484,38 @@
     if (statusEl) statusEl.hidden = true;
   }
 
+  function loadAffiliateConfig() {
+    if (window.CAMPGEAR_DATA) {
+      return Promise.resolve({
+        affiliates: window.CAMPGEAR_DATA.affiliates,
+        affiliateLinks: window.CAMPGEAR_DATA.affiliateLinks,
+      });
+    }
+    return Promise.all([
+      fetch("data/affiliates.json")
+        .then(function (r) {
+          return r.ok ? r.json() : null;
+        })
+        .catch(function () {
+          return null;
+        }),
+      fetch("data/affiliate-links.json")
+        .then(function (r) {
+          return r.ok ? r.json() : null;
+        })
+        .catch(function () {
+          return null;
+        }),
+    ]).then(function (pair) {
+      var linksPayload = pair[1];
+      return {
+        affiliates: pair[0],
+        affiliateLinks:
+          linksPayload && linksPayload.links ? linksPayload.links : linksPayload,
+      };
+    });
+  }
+
   function loadCatalog() {
     if (window.location.protocol === "file:") {
       if (window.CAMPGEAR_DATA) {
@@ -2394,7 +2523,9 @@
           window.CAMPGEAR_DATA.brands,
           window.CAMPGEAR_DATA.products,
           window.CAMPGEAR_DATA.site,
-          window.CAMPGEAR_DATA.sponsors
+          window.CAMPGEAR_DATA.sponsors,
+          window.CAMPGEAR_DATA.affiliates,
+          window.CAMPGEAR_DATA.affiliateLinks
         );
         return;
       }
@@ -2413,9 +2544,18 @@
       }),
       loadOfficialBrandIds().then(loadOfficialProducts),
       loadSponsors(),
+      loadAffiliateConfig(),
     ])
       .then(function (results) {
-        hydrateCatalog(results[1], results[2], null, results[3]);
+        var aff = results[4] || {};
+        hydrateCatalog(
+          results[1],
+          results[2],
+          null,
+          results[3],
+          aff.affiliates,
+          aff.affiliateLinks
+        );
       })
       .catch(function (err) {
         if (window.CAMPGEAR_DATA) {
@@ -2423,7 +2563,9 @@
             window.CAMPGEAR_DATA.brands,
             window.CAMPGEAR_DATA.products,
             window.CAMPGEAR_DATA.site,
-            window.CAMPGEAR_DATA.sponsors
+            window.CAMPGEAR_DATA.sponsors,
+            window.CAMPGEAR_DATA.affiliates,
+            window.CAMPGEAR_DATA.affiliateLinks
           );
           return;
         }

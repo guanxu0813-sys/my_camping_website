@@ -1,0 +1,4 @@
+{
+  "_comment": "Map productId -> retailer IDs/URLs. Buttons render only when affiliates.*.enabled is true AND a resolvable URL exists. Prefer amazonAsin; amazonUrl overrides. aliexpressUrl should be the tracked Portals link once approved.",
+  "links": {}
+}

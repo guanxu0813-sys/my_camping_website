@@ -1,0 +1,12 @@
+{
+  "amazon": {
+    "enabled": false,
+    "associateTag": "",
+    "marketplace": "www.amazon.com"
+  },
+  "aliexpress": {
+    "enabled": false,
+    "trackingId": ""
+  },
+  "disclosureNote": "As an Amazon Associate we earn from qualifying purchases. We may also earn from AliExpress Affiliate links."
+}
