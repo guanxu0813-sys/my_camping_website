@@ -1,0 +1,5 @@
+date,sitemap,discovered,crawled,indexed,not_indexed,notes
+2026-07-21,legacy/all,11,,4,7,"Baseline reported before split sitemap deployment"
+2026-07-28,sitemap-core.xml,,,,,"Fill from GSC after report delay"
+2026-07-28,sitemap-brands.xml,,,,,"Fill from GSC after report delay"
+2026-07-28,sitemap-products.xml,,,,,"Fill from GSC after report delay"
