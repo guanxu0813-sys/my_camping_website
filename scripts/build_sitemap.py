@@ -848,6 +848,53 @@ def build_legal_schema(page: dict, site_url: str, seo: dict) -> dict:
     }
 
 
+def build_guide_schema(page: dict, site_url: str, seo: dict) -> dict:
+    page_url = f"{site_url}{page['path']}"
+    return {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": f"{site_url}/",
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Guides",
+                        "item": f"{site_url}/guides/",
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": page["title"],
+                        "item": page_url,
+                    },
+                ],
+            },
+            {
+                "@type": "Article",
+                "headline": page["title"],
+                "description": page["description"],
+                "url": page_url,
+                "datePublished": page.get("published", "2026-07-15"),
+                "dateModified": page_lastmod(page, []),
+                "author": {
+                    "@type": "Organization",
+                    "name": seo.get("siteName", "CampGear Compare"),
+                    "url": f"{site_url}/",
+                },
+                "publisher": {"@id": f"{site_url}/#organization"},
+                "isPartOf": {"@id": f"{site_url}/#website"},
+            },
+        ],
+    }
+
+
 def build_json_ld(
     page: dict,
     site_url: str,
@@ -860,6 +907,8 @@ def build_json_ld(
         return build_home_schema(site_url, seo)
     if schema == "category":
         return build_category_schema(page, site_url, seo, products, brands)
+    if schema == "guide":
+        return build_guide_schema(page, site_url, seo)
     return build_legal_schema(page, site_url, seo)
 
 
@@ -941,7 +990,8 @@ def build_crawl_links(
     if page.get("schema") == "home":
         links = [
             ('/tent.html', "Tent comparison"),
-            ('/guides/snow-peak-amenity-dome-2-vs-naturehike-cloud-up-2.html', "Amenity Dome 2 vs Cloud Up 2"),
+            ('/guides/', "Gear guides"),
+            ('/guides/camping-gear-weight-price-report-2026.html', "2026 weight & price report"),
             ('/sleeping-pad.html', "Sleeping pad comparison"),
             ('/sleeping-bag.html', "Sleeping bag comparison"),
             ('/tarp.html', "Tarp comparison"),
@@ -1012,6 +1062,10 @@ def build_crawl_links(
             )
             + "</p>"
         )
+    blocks.append(
+        '<p class="seo-crawl__links"><strong>Research guides:</strong> '
+        '<a href="/guides/">Browse data-backed comparisons and reports</a></p>'
+    )
     return "\n  ".join(blocks)
 
 
@@ -1203,6 +1257,7 @@ def static_footer() -> str:
         '    <p class="site-footer__brand-url"><a href="https://www.campgearcompare.com/">CampGear Compare</a> · campgearcompare.com</p>\n'
         '    <p class="site-footer__disclaimer">CampGear Compare helps campers compare official product specs side by side. Some links may earn us a commission at no extra cost to you. Specs and images are sourced from brand websites; image copyright belongs to the respective brands.</p>\n'
         '    <nav class="site-footer__legal" aria-label="Site and legal">\n'
+        '      <a href="/guides/">Guides</a>\n'
         '      <a href="/about.html">About</a>\n'
         '      <a href="/contact.html">Contact</a>\n'
         '      <a href="/legal.html#affiliate">Affiliate Disclosure</a>\n'
@@ -1500,6 +1555,7 @@ def product_page_html(
     browse_links.append(
         f'<a href="{escape_html(category_page_path(category))}">Full {escape_html(category_label(category).lower())} comparison table</a>'
     )
+    browse_links.append('<a href="/guides/">Data-backed gear guides</a>')
     browse_html = (
         '<p class="static-browse">Browse more: ' + " · ".join(browse_links) + "</p>"
     )
@@ -1890,9 +1946,19 @@ def main() -> int:
     brands_list = load_json(DATA / "brands.json")
     brands = brand_map(brands_list if isinstance(brands_list, list) else [])
     products = load_official_products()
+    from build_guides import build_guides
+
+    generated_guide_pages = build_guides(
+        site_url, products, brands, sys.modules[__name__]
+    )
     generated_entries = write_static_pages(site_url, products, brands)
 
-    write_sitemap(site_url, pages, products, generated_entries)
+    write_sitemap(
+        site_url,
+        [*pages, *generated_guide_pages],
+        products,
+        generated_entries,
+    )
     write_robots(site_url)
 
     updated = 0
@@ -1903,6 +1969,7 @@ def main() -> int:
     print(
         f"Wrote sitemap.xml and robots.txt for {site_url}; "
         f"generated {len(generated_entries)} static SEO page(s); "
+        f"generated {len(generated_guide_pages)} guide page(s); "
         f"injected SEO blocks into {updated} HTML file(s); "
         f"{len(products)} products indexed for structured data"
     )

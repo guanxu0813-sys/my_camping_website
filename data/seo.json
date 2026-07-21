@@ -136,7 +136,8 @@
       "description": "Side-by-side weight, capacity & price: Snow Peak Amenity Dome 2 (~5.9 kg, $500) vs Naturehike Cloud Up 2 (~2.1 kg, $139). Official specs from both brands.",
       "changefreq": "monthly",
       "priority": "0.7",
-      "schema": "legal",
+      "schema": "guide",
+      "published": "2026-07-15",
       "breadcrumb": "Guides"
     }
   ]

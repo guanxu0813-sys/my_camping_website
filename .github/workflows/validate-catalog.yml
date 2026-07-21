@@ -5,11 +5,14 @@ on:
     paths:
       - "data/**"
       - "data/seo.json"
+      - "scripts/build_guides.py"
       - "scripts/build_sitemap.py"
       - ".github/workflows/validate-catalog.yml"
   pull_request:
     paths:
       - "data/**"
+      - "scripts/build_guides.py"
+      - "scripts/build_sitemap.py"
 
 jobs:
   validate:
