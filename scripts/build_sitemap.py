@@ -279,6 +279,23 @@ def category_count_label(category: str) -> str:
     return labels.get(category, category_label(category).lower())
 
 
+def parse_weight_kg(product: dict) -> float | None:
+    value = spec_value(product, "weightKg")
+    if value in (None, ""):
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def parse_price(product: dict) -> float | None:
+    value = product.get("priceMin", product.get("price"))
+    if isinstance(value, (int, float)):
+        return float(value)
+    return None
+
+
 def product_page_title(product: dict, brands: dict[str, dict]) -> str:
     brand_id = product.get("brandId", "")
     brand = brand_display_name(brands.get(brand_id), brand_id)
@@ -456,6 +473,171 @@ def truncate_text(text: object, limit: int = 155) -> str:
     if len(value) <= limit:
         return value
     return value[: limit - 1].rsplit(" ", 1)[0].rstrip(" ,.;") + "…"
+
+
+# Mirrors DISPLAY_TERM_MAP in script.js so static tables match the JS-rendered ones.
+DISPLAY_TERM_MAP = [
+    ("睡袋系统", "Sleeping bag system"),
+    ("化纤棉", "Synthetic fill"),
+    ("棉 / 化纤", "Cotton / synthetic"),
+    ("羽绒", "Down"),
+    ("信封式", "Envelope"),
+    ("木乃伊", "Mummy"),
+    ("双层帐", "Double-wall tent"),
+    ("单层帐", "Single-wall tent"),
+    ("双层", "Double-wall"),
+    ("单层", "Single-wall"),
+    ("四季", "4-season"),
+    ("三季", "3-season"),
+    ("露营地", "Campsite"),
+    ("登山", "Mountaineering"),
+    ("徒步", "Hiking"),
+    ("自驾", "Car camping"),
+    ("家庭", "Family"),
+    ("天幕", "Tarp"),
+    ("帐篷", "Tent"),
+    ("睡袋", "Sleeping bag"),
+    ("充气垫", "Air pad"),
+    ("自充气", "Self-inflating"),
+    ("泡沫垫", "Foam pad"),
+    ("羽绒垫", "Down pad"),
+    ("双人宽版", "Double wide"),
+    ("加宽", "Wide"),
+    ("长款", "Long"),
+    ("短款", "Short"),
+    ("常规", "Regular"),
+    ("内胆", "Liner"),
+]
+
+
+def localize_display_value(value: object) -> str:
+    text = str(value or "")
+    if not text:
+        return ""
+    for zh, en in DISPLAY_TERM_MAP:
+        text = text.replace(zh, en)
+    text = re.sub(r"(\d[\d\-–~to]*)\s*人", lambda m: f"{m.group(1)}-person", text)
+    return text
+
+
+def display_cell(value: object) -> str:
+    localized = localize_display_value(value)
+    return localized if localized else "—"
+
+
+STATIC_TABLE_COLUMNS: dict[str, list[tuple[str, str]]] = {
+    "tent": [
+        ("Structure", "structure"),
+        ("Weight", "@weight"),
+        ("Capacity", "@capacity"),
+        ("Fabric / Waterproofing", "fabric"),
+        ("Price", "@price"),
+    ],
+    "tarp": [
+        ("Type", "tarpType"),
+        ("Weight", "@weight"),
+        ("Capacity", "@capacity"),
+        ("Size", "size"),
+        ("Price", "@price"),
+    ],
+    "sleeping-bag": [
+        ("Type", "bagType"),
+        ("Weight", "@weight"),
+        ("Comfort Rating", "comfortTemp"),
+        ("Fill", "fillType"),
+        ("Price", "@price"),
+    ],
+    "sleeping-pad": [
+        ("Type", "padType"),
+        ("Weight", "@weight"),
+        ("R-Value", "rValue"),
+        ("Size", "size"),
+        ("Price", "@price"),
+    ],
+    "stove": [
+        ("Type", "structure"),
+        ("Weight", "@weight"),
+        ("Price", "@price"),
+    ],
+    "backpack": [
+        ("Type", "structure"),
+        ("Weight", "@weight"),
+        ("Price", "@price"),
+    ],
+    "furniture": [
+        ("Category", "@category"),
+        ("Weight", "@weight"),
+        ("Price", "@price"),
+    ],
+}
+
+
+def static_table_cell(product: dict, key: str) -> str:
+    if key == "@weight":
+        return format_weight(product) or "—"
+    if key == "@price":
+        return format_price(product)
+    if key == "@capacity":
+        return format_capacity_display(product) or "—"
+    if key == "@category":
+        return category_label(product.get("category"))
+    value = spec_value(product, key)
+    if not value and key == "bagType":
+        value = spec_value(product, "structure")
+    if not value and key == "padType":
+        value = spec_value(product, "structure")
+    if not value and key == "structure":
+        value = spec_value(product, "subcategory")
+    return display_cell(value)
+
+
+def build_static_compare_table(
+    page: dict,
+    products: list[dict],
+    brands: dict[str, dict],
+) -> str:
+    is_furniture = page.get("breadcrumb") == "Furniture"
+    rows = [
+        p
+        for p in sorted_products_for_page(page, products, brands)
+        # Furniture renders as matrix cards, so inSummaryTable does not apply there.
+        if is_furniture or p.get("inSummaryTable") is not False
+    ]
+    if not rows:
+        return ""
+    categories = page.get("categories") or []
+    column_key = "furniture" if is_furniture else (categories[0] if categories else "")
+    columns = STATIC_TABLE_COLUMNS.get(column_key)
+    if not columns:
+        return ""
+    label = page.get("breadcrumb") or "Products"
+    header_cells = "".join(
+        f"<th>{escape_html(h)}</th>" for h in ["Brand", "Model", *(c[0] for c in columns)]
+    )
+    body_rows = []
+    for product in rows:
+        brand_id = product.get("brandId", "")
+        brand = brand_display_name(brands.get(brand_id), brand_id)
+        model = product.get("model", "")
+        cells = "".join(
+            f"<td>{escape_html(static_table_cell(product, key))}</td>" for _, key in columns
+        )
+        body_rows.append(
+            "<tr>"
+            f"<td>{escape_html(brand)}</td>"
+            f'<td><a href="{escape_html(product_path(product))}">{escape_html(model)}</a></td>'
+            f"{cells}"
+            "</tr>"
+        )
+    return (
+        '<div class="static-compare" id="static-compare">\n'
+        f'  <h2 class="compare-block__title">{escape_html(label)} Specs — All {len(rows)} Models</h2>\n'
+        '  <div class="table-wrap"><table class="compare-table static-table">\n'
+        f"    <thead><tr>{header_cells}</tr></thead>\n"
+        f"    <tbody>{''.join(body_rows)}</tbody>\n"
+        "  </table></div>\n"
+        "  </div>"
+    )
 
 
 def category_model_noun(category: str | None) -> str:
@@ -786,13 +968,26 @@ def build_crawl_links(
         product_links.append((product_path(product), label))
 
     brand_links = []
-    seen: set[str] = set()
+    brand_category_counts: dict[tuple[str, str], int] = defaultdict(int)
     for product in rows:
         brand_id = product.get("brandId")
         category = product.get("category")
-        if not brand_id or not category or brand_id in seen:
+        if brand_id and category:
+            brand_category_counts[(brand_id, category)] += 1
+
+    seen: set[tuple[str, str]] = set()
+    for product in rows:
+        brand_id = product.get("brandId")
+        category = product.get("category")
+        key = (brand_id, category)
+        if (
+            not brand_id
+            or not category
+            or key in seen
+            or brand_category_counts[key] < MIN_BRAND_CATEGORY_PRODUCTS
+        ):
             continue
-        seen.add(brand_id)
+        seen.add(key)
         label = f"{brand_display_name(brands.get(brand_id), brand_id)} {category_label(category).lower()}"
         brand_links.append((brand_category_path(brand_id, category), label))
         if len(brand_links) >= 8:
@@ -834,8 +1029,14 @@ def build_crawl_block(
         return ""
     crawl_id = "seo-crawl-home" if page.get("schema") == "home" else "seo-crawl"
     link_html = build_crawl_links(page, products, brands, seo)
+    static_table = ""
+    if page.get("schema") == "category":
+        table_html = build_static_compare_table(page, products, brands)
+        if table_html:
+            static_table = f"  {table_html}\n"
     return (
         f"{SEO_CRAWL_START}\n"
+        f"{static_table}"
         f'  <div class="seo-crawl" id="{crawl_id}">\n'
         f"  <p>{escape_html(paragraph)}</p>\n"
         f"  {link_html}\n"
@@ -1023,6 +1224,181 @@ def spec_dl_html(specs: list[tuple[str, str]]) -> str:
     )
 
 
+def build_category_stats(products: list[dict]) -> dict[str, dict]:
+    stats: dict[str, dict] = {}
+    grouped: dict[str, list[dict]] = defaultdict(list)
+    for product in products:
+        category = product.get("category")
+        if category:
+            grouped[category].append(product)
+    for category, group in grouped.items():
+        weights = sorted(w for w in (parse_weight_kg(p) for p in group) if w is not None)
+        prices = sorted(v for v in (parse_price(p) for p in group) if v is not None)
+        stats[category] = {"count": len(group), "weights": weights, "prices": prices}
+    return stats
+
+
+def median(values: list[float]) -> float | None:
+    if not values:
+        return None
+    mid = len(values) // 2
+    if len(values) % 2:
+        return values[mid]
+    return (values[mid - 1] + values[mid]) / 2
+
+
+def percent_heavier_than(value: float, values: list[float]) -> int | None:
+    """Share of the category that is heavier (or pricier) than this product."""
+    if len(values) < 8:
+        return None
+    heavier = sum(1 for v in values if v > value)
+    return round(heavier * 100 / len(values))
+
+
+def format_kg(value: float) -> str:
+    return f"{value:g} kg"
+
+
+def product_position_paragraph(
+    product: dict,
+    stats: dict[str, dict],
+    brands: dict[str, dict],
+) -> str:
+    category = product.get("category", "")
+    cat_stats = stats.get(category)
+    if not cat_stats:
+        return ""
+    brand_id = product.get("brandId", "")
+    brand = brand_display_name(brands.get(brand_id), brand_id)
+    model = product.get("model", "")
+    name = f"{brand} {model}".strip()
+    noun = category_count_label(category)
+    count = cat_stats["count"]
+    sentences: list[str] = []
+
+    weight = parse_weight_kg(product)
+    weights = cat_stats["weights"]
+    weight_median = median(weights)
+    if weight is not None and weight_median is not None:
+        share = percent_heavier_than(weight, weights)
+        if share is not None:
+            if share >= 55:
+                sentences.append(
+                    f"At about {format_kg(weight)}, the {name} is lighter than {share}% of the "
+                    f"{count} {noun} in our database (category median {format_kg(weight_median)})."
+                )
+            elif share <= 45:
+                sentences.append(
+                    f"At about {format_kg(weight)}, the {name} sits on the heavier side of our "
+                    f"{count}-model {category_label(category).lower()} database (median {format_kg(weight_median)})."
+                )
+            else:
+                sentences.append(
+                    f"At about {format_kg(weight)}, the {name} is close to the median weight "
+                    f"({format_kg(weight_median)}) of the {count} {noun} we track."
+                )
+
+    price = parse_price(product)
+    prices = cat_stats["prices"]
+    price_median = median(prices)
+    currency = product.get("currency") or "USD"
+    if price is not None and price_median is not None and len(prices) >= 8:
+        if price < price_median * 0.85:
+            sentences.append(
+                f"Its reference price of {price:g} {currency} is below the category median "
+                f"of {price_median:g} {currency}."
+            )
+        elif price > price_median * 1.15:
+            sentences.append(
+                f"Its reference price of {price:g} {currency} is above the category median "
+                f"of {price_median:g} {currency}."
+            )
+        else:
+            sentences.append(
+                f"Its reference price of {price:g} {currency} is near the category median "
+                f"of {price_median:g} {currency}."
+            )
+
+    return " ".join(sentences)
+
+
+def similar_weight_competitors(
+    product: dict,
+    products: list[dict],
+    limit: int = 5,
+) -> list[dict]:
+    """Closest-weight models from other brands in the same category."""
+    weight = parse_weight_kg(product)
+    if weight is None:
+        return []
+    category = product.get("category")
+    brand_id = product.get("brandId")
+    candidates = []
+    for p in products:
+        if p.get("id") == product.get("id"):
+            continue
+        if p.get("category") != category or p.get("brandId") == brand_id:
+            continue
+        w = parse_weight_kg(p)
+        if w is None:
+            continue
+        candidates.append((abs(w - weight), w, p))
+    candidates.sort(key=lambda item: (item[0], (item[2].get("model") or "").lower()))
+    picked: list[dict] = []
+    seen_brands: set[str] = set()
+    for _, _, p in candidates:
+        b = p.get("brandId", "")
+        if b in seen_brands:
+            continue
+        seen_brands.add(b)
+        picked.append(p)
+        if len(picked) >= limit:
+            break
+    return picked
+
+
+def competitor_table_html(
+    product: dict,
+    products: list[dict],
+    brands: dict[str, dict],
+) -> str:
+    competitors = similar_weight_competitors(product, products)
+    if not competitors:
+        return ""
+    brand_id = product.get("brandId", "")
+    name = f"{brand_display_name(brands.get(brand_id), brand_id)} {product.get('model', '')}".strip()
+    rows = [product, *competitors]
+    body = []
+    for p in rows:
+        b_id = p.get("brandId", "")
+        b_name = brand_display_name(brands.get(b_id), b_id)
+        model = p.get("model", "")
+        is_current = p.get("id") == product.get("id")
+        model_cell = (
+            f"<strong>{escape_html(model)}</strong>"
+            if is_current
+            else f'<a href="{escape_html(product_path(p))}">{escape_html(model)}</a>'
+        )
+        body.append(
+            "<tr>"
+            f"<td>{escape_html(b_name)}</td>"
+            f"<td>{model_cell}</td>"
+            f"<td>{escape_html(format_weight(p) or '—')}</td>"
+            f"<td>{escape_html(format_price(p))}</td>"
+            "</tr>"
+        )
+    return (
+        '<section class="static-panel" aria-labelledby="similar-weight">\n'
+        '      <h2 id="similar-weight">Alternatives at a Similar Weight</h2>\n'
+        f"      <p>Other brands' {escape_html(category_count_label(product.get('category', '')))} closest in weight to the {escape_html(name)}:</p>\n"
+        '      <div class="table-wrap"><table class="compare-table static-table">\n'
+        "        <thead><tr><th>Brand</th><th>Model</th><th>Weight</th><th>Price</th></tr></thead>\n"
+        f"        <tbody>{''.join(body)}</tbody>\n"
+        "      </table></div>\n"
+        "    </section>"
+    )
+
+
 def related_products(product: dict, products: list[dict], brands: dict[str, dict], limit: int = 6) -> list[dict]:
     category = product.get("category")
     brand_id = product.get("brandId")
@@ -1098,6 +1474,7 @@ def product_page_html(
     brands: dict[str, dict],
     affiliates: dict | None = None,
     affiliate_links: dict | None = None,
+    stats: dict[str, dict] | None = None,
 ) -> str:
     brand_id = product.get("brandId", "")
     brand = brand_display_name(brands.get(brand_id), brand_id)
@@ -1110,6 +1487,22 @@ def product_page_html(
     image = product.get("imageUrl") or ""
     specs = product_primary_specs(product)
     related = related_products(product, products, brands)
+    position_text = product_position_paragraph(product, stats or {}, brands)
+    competitor_html = competitor_table_html(product, products, brands)
+    brand_category_count = sum(
+        1 for p in products if p.get("brandId") == brand_id and p.get("category") == category
+    )
+    browse_links = []
+    if brand_category_count >= MIN_BRAND_CATEGORY_PRODUCTS:
+        browse_links.append(
+            f'<a href="{escape_html(brand_category_path(brand_id, category))}">All {escape_html(brand)} {escape_html(category_count_label(category))}</a>'
+        )
+    browse_links.append(
+        f'<a href="{escape_html(category_page_path(category))}">Full {escape_html(category_label(category).lower())} comparison table</a>'
+    )
+    browse_html = (
+        '<p class="static-browse">Browse more: ' + " · ".join(browse_links) + "</p>"
+    )
     actions = product_purchase_actions_html(
         product,
         affiliates or {},
@@ -1177,7 +1570,9 @@ def product_page_html(
         '    <section class="static-panel" aria-labelledby="comparison-notes">\n'
         '      <h2 id="comparison-notes">Comparison Notes</h2>\n'
         f'      <p>{escape_html(strip_html(notes))}</p>\n'
-        "    </section>\n"
+        + (f"      <p>{escape_html(position_text)}</p>\n" if position_text else "")
+        + "    </section>\n"
+        + (f"    {competitor_html}\n" if competitor_html else "")
         + (
             '    <section class="static-panel" aria-labelledby="highlights">\n'
             '      <h2 id="highlights">Highlights</h2>\n'
@@ -1190,9 +1585,10 @@ def product_page_html(
             '    <section class="static-panel" aria-labelledby="related-models">\n'
             '      <h2 id="related-models">Related Models</h2>\n'
             f'      <ul class="static-link-list">{related_html}</ul>\n'
+            f"      {browse_html}\n"
             "    </section>\n"
             if related_html
-            else ""
+            else f'    <section class="static-panel">{browse_html}</section>\n'
         )
         + "  </article>\n"
         "</main>\n"
@@ -1359,10 +1755,11 @@ def write_static_pages(site_url: str, products: list[dict], brands: dict[str, di
     rows = sorted_visible_products(products, brands)
     affiliates = load_affiliates()
     affiliate_links = load_affiliate_links()
+    stats = build_category_stats(rows)
     for product in rows:
         path = PRODUCT_DIR / f"{product.get('id')}.html"
         path.write_text(
-            product_page_html(product, rows, site_url, brands, affiliates, affiliate_links),
+            product_page_html(product, rows, site_url, brands, affiliates, affiliate_links, stats),
             encoding="utf-8",
         )
         entries.append(
@@ -1371,6 +1768,7 @@ def write_static_pages(site_url: str, products: list[dict], brands: dict[str, di
                 "lastmod": source_lastmod_for_product(product),
                 "changefreq": "monthly",
                 "priority": "0.6",
+                "group": "products",
             }
         )
 
@@ -1400,41 +1798,73 @@ def write_static_pages(site_url: str, products: list[dict], brands: dict[str, di
                 "lastmod": lastmod,
                 "changefreq": "weekly",
                 "priority": "0.7",
+                "group": "brands",
             }
         )
 
     return entries
 
 
-def write_sitemap(site_url: str, pages: list[dict], products: list[dict], generated_entries: list[dict]) -> None:
-    entries = []
-    for page in pages:
-        loc = f"{site_url}{page['path']}"
-        lastmod = page_lastmod(page, products)
-        entries.append(
-            "  <url>\n"
-            f"    <loc>{loc}</loc>\n"
-            f"    <lastmod>{lastmod}</lastmod>\n"
-            f"    <changefreq>{page['changefreq']}</changefreq>\n"
-            f"    <priority>{page['priority']}</priority>\n"
-            "  </url>"
-        )
-    for entry in generated_entries:
-        entries.append(
-            "  <url>\n"
-            f"    <loc>{entry['loc']}</loc>\n"
-            f"    <lastmod>{entry['lastmod']}</lastmod>\n"
-            f"    <changefreq>{entry['changefreq']}</changefreq>\n"
-            f"    <priority>{entry['priority']}</priority>\n"
-            "  </url>"
-        )
-    sitemap = (
+def render_url_entry(entry: dict) -> str:
+    return (
+        "  <url>\n"
+        f"    <loc>{entry['loc']}</loc>\n"
+        f"    <lastmod>{entry['lastmod']}</lastmod>\n"
+        f"    <changefreq>{entry['changefreq']}</changefreq>\n"
+        f"    <priority>{entry['priority']}</priority>\n"
+        "  </url>"
+    )
+
+
+def write_urlset(path: Path, entries: list[dict]) -> None:
+    body = "\n".join(render_url_entry(e) for e in entries)
+    path.write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        + "\n".join(entries)
-        + "\n</urlset>\n"
+        + body
+        + "\n</urlset>\n",
+        encoding="utf-8",
     )
-    (ROOT / "sitemap.xml").write_text(sitemap, encoding="utf-8")
+
+
+def write_sitemap(site_url: str, pages: list[dict], products: list[dict], generated_entries: list[dict]) -> None:
+    core_entries = [
+        {
+            "loc": f"{site_url}{page['path']}",
+            "lastmod": page_lastmod(page, products),
+            "changefreq": page["changefreq"],
+            "priority": page["priority"],
+        }
+        for page in pages
+    ]
+    brand_entries = [e for e in generated_entries if e.get("group") == "brands"]
+    product_entries = [e for e in generated_entries if e.get("group") == "products"]
+
+    # Split sitemaps so GSC reports indexing coverage per page type.
+    sections = [
+        ("sitemap-core.xml", core_entries),
+        ("sitemap-brands.xml", brand_entries),
+        ("sitemap-products.xml", product_entries),
+    ]
+    index_items = []
+    for filename, entries in sections:
+        if not entries:
+            continue
+        write_urlset(ROOT / filename, entries)
+        lastmod = max(e["lastmod"] for e in entries)
+        index_items.append(
+            "  <sitemap>\n"
+            f"    <loc>{site_url}/{filename}</loc>\n"
+            f"    <lastmod>{lastmod}</lastmod>\n"
+            "  </sitemap>"
+        )
+    (ROOT / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "\n".join(index_items)
+        + "\n</sitemapindex>\n",
+        encoding="utf-8",
+    )
 
 
 def write_robots(site_url: str) -> None:

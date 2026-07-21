@@ -1890,6 +1890,7 @@
         compareHtml || '<p class="page__lead">No comparison data for this category yet.</p>';
       compareRoot.hidden = false;
     }
+    hideStaticCompare(!!compareHtml);
 
     var label = CATEGORY_LABELS[category] || category;
     var introRoot = document.getElementById("intro-root");
@@ -2221,10 +2222,18 @@
     var tableCount = renderFurnitureMatrix("tables-matrix", "table");
     var chairCount = renderFurnitureMatrix("chairs-matrix", "chair");
 
+    hideStaticCompare(tableCount + chairCount > 0);
     bindProductModalHandlers();
     bindFurnitureMatrixHandlers();
     ensureCategoryFilters("furniture");
     applyCatalogFilters();
+  }
+
+  // The static SEO table (rendered by build_sitemap.py) is a crawler/no-JS
+  // fallback; hide it once the interactive table has rendered.
+  function hideStaticCompare(rendered) {
+    var staticCompare = document.getElementById("static-compare");
+    if (staticCompare) staticCompare.hidden = !!rendered;
   }
 
   function setStatus(message, isError) {

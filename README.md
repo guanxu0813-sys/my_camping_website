@@ -35,7 +35,9 @@ python3 scripts/build_sitemap.py
 python3 scripts/validate_official.py
 ```
 
-`build_sitemap.py` also regenerates static SEO pages under `products/` and `brands/`.
+`build_sitemap.py` also regenerates static SEO pages under `products/` and
+`brands/`, injects no-JS fallback tables into category pages, and writes the
+`sitemap.xml` index plus separate core, brand, and product sitemaps.
 
 ## SEO & indexing
 
