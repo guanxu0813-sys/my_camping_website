@@ -5,12 +5,20 @@ on:
     paths:
       - "data/**"
       - "data/seo.json"
+      - "docs/growth-metrics.csv"
+      - "scripts/discover_guide_candidates.py"
+      - "scripts/growth_report.py"
+      - "scripts/submit_indexnow.py"
       - "scripts/build_guides.py"
       - "scripts/build_sitemap.py"
       - ".github/workflows/validate-catalog.yml"
   pull_request:
     paths:
       - "data/**"
+      - "docs/growth-metrics.csv"
+      - "scripts/discover_guide_candidates.py"
+      - "scripts/growth_report.py"
+      - "scripts/submit_indexnow.py"
       - "scripts/build_guides.py"
       - "scripts/build_sitemap.py"
 
@@ -37,7 +45,15 @@ jobs:
         run: python3 scripts/build_sitemap.py
 
       - name: Validate official catalog
-        run: python3 scripts/validate_official.py
+        run: python3 scripts/validate_official.py --quality-report /tmp/product-quality-audit.csv
+
+      - name: Validate growth tooling
+        run: |
+          python3 scripts/test_growth_tools.py
+          python3 scripts/validate_generated_site.py
+          python3 scripts/discover_guide_candidates.py --output /tmp/guide-candidates.csv
+          python3 scripts/growth_report.py --output /tmp/growth-status.md --month 1
+          python3 scripts/submit_indexnow.py --changed-file guides/index.html --dry-run
 
       - name: Validate sponsor campaigns
         run: python3 scripts/validate_sponsors.py

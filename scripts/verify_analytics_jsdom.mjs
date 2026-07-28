@@ -93,7 +93,9 @@ async function main() {
     throw new Error("Missing Product Modal Open event");
   }
 
-  const outboundLink = window.document.getElementById("product-modal-link");
+  const outboundLink = window.document.querySelector(
+    "#product-modal-source a.outbound-link, #product-modal-source a.purchase-link"
+  );
   if (!outboundLink || !outboundLink.href || outboundLink.href === "#") {
     throw new Error("Modal outbound link not set");
   }
@@ -103,6 +105,28 @@ async function main() {
   const outbound = analyticsLogs.some((l) => l.includes("Outbound Click"));
   if (!outbound) {
     throw new Error("Missing Outbound Click event");
+  }
+
+  const searchInput = window.document.getElementById("catalog-search-input");
+  searchInput.value = "naturehike";
+  searchInput.dispatchEvent(new window.Event("input", { bubbles: true }));
+  await new Promise((r) => setTimeout(r, 900));
+  if (!analyticsLogs.some((l) => l.includes("Catalog Search"))) {
+    throw new Error("Missing Catalog Search event");
+  }
+
+  const brandChip = window.document.querySelector(
+    '[data-brand-filter]:not([data-brand-filter="all"])'
+  );
+  brandChip.dispatchEvent(new window.MouseEvent("click", { bubbles: true }));
+  if (!analyticsLogs.some((l) => l.includes("Brand Filter"))) {
+    throw new Error("Missing Brand Filter event");
+  }
+
+  const sortButton = window.document.querySelector(".compare-table__sort-btn");
+  sortButton.dispatchEvent(new window.MouseEvent("click", { bubbles: true }));
+  if (!analyticsLogs.some((l) => l.includes("Table Sort"))) {
+    throw new Error("Missing Table Sort event");
   }
 
   console.log("Analytics verification passed (jsdom smoke test).");

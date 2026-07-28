@@ -3,3 +3,4 @@ date,sitemap,discovered,crawled,indexed,not_indexed,notes
 2026-07-28,sitemap-core.xml,,,,,"Fill from GSC after report delay"
 2026-07-28,sitemap-brands.xml,,,,,"Fill from GSC after report delay"
 2026-07-28,sitemap-products.xml,,,,,"Fill from GSC after report delay"
+2026-07-28,coverage/all,848,,453,395,"Coverage report through 2026-07-24: 303 discovered not crawled; 89 crawled not indexed; split-sitemap counts pending"

@@ -2,5 +2,16 @@
   "provider": "plausible",
   "enabled": true,
   "plausibleDomain": "campgearcompare.com",
-  "contactEmail": "guanxu0813@gmail.com"
+  "contactEmail": "guanxu0813@gmail.com",
+  "trackedEvents": [
+    "Catalog Search",
+    "Brand Filter",
+    "Table Sort",
+    "Compare Selected",
+    "Compare Cleared",
+    "Product Modal Open",
+    "Outbound Click",
+    "Guide Download",
+    "Guide Share"
+  ]
 }

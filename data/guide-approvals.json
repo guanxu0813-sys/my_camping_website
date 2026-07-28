@@ -1,0 +1,89 @@
+{
+  "guides": [
+    {
+      "status": "approved",
+      "type": "comparison",
+      "slug": "big-agnes-copper-spur-ul1-vs-ul2",
+      "title": "Big Agnes Copper Spur UL1 vs UL2 — Weight & Price",
+      "description": "Compare Big Agnes Copper Spur UL1 and UL2 tents by representative weight, model capacity, structure and official reference price.",
+      "eyebrow": "Copper Spur capacity comparison",
+      "category": "tent",
+      "product_ids": [
+        "big-agnes-copper-spur-ul-one",
+        "big-agnes-copper-spur-ul-two"
+      ],
+      "intro": "The Copper Spur UL1 and UL2 share the same freestanding HyperBead platform. The decision is mainly whether the UL2's additional room is worth its listed weight and price increase.",
+      "takeaways": [
+        "<strong>Weight:</strong> representative catalog weights are about 0.97 kg for the UL1 and 1.19 kg for the UL2.",
+        "<strong>Model capacity:</strong> UL1 and UL2 identify the one- and two-person versions in the current Big Agnes range.",
+        "<strong>Price:</strong> the UL2 currently lists about $100 above the UL1.",
+        "<strong>Shared platform:</strong> both listings describe a freestanding design and HyperBead fabric.",
+        "<strong>Decision:</strong> choose the UL1 for the lower solo carry weight; choose the UL2 when additional room or shared use justifies roughly 220 g."
+      ]
+    },
+    {
+      "status": "approved",
+      "type": "comparison",
+      "slug": "big-agnes-tiger-wall-ul2-vs-copper-spur-ul2",
+      "title": "Big Agnes Tiger Wall UL2 vs Copper Spur UL2",
+      "description": "Compare Big Agnes Tiger Wall UL2 and Copper Spur UL2 by representative weight, architecture, official positioning and price.",
+      "eyebrow": "Big Agnes 2-person tent comparison",
+      "category": "tent",
+      "product_ids": [
+        "big-agnes-tiger-wall-ul-two",
+        "big-agnes-copper-spur-ul-two"
+      ],
+      "intro": "These two-person Big Agnes tents trade minimum listed weight against structure and feature level. Tiger Wall targets minimalists; Copper Spur emphasizes a freestanding, roomier platform.",
+      "takeaways": [
+        "<strong>Weight:</strong> Tiger Wall UL2 is listed around 0.99 kg versus 1.19 kg for Copper Spur UL2.",
+        "<strong>Architecture:</strong> Tiger Wall uses a lightweight single-pole architecture; Copper Spur is described as fully freestanding.",
+        "<strong>Price:</strong> Tiger Wall UL2 currently starts about $100 below Copper Spur UL2.",
+        "<strong>Shared material:</strong> both current listings highlight Big Agnes HyperBead fabric.",
+        "<strong>Decision:</strong> prioritize Tiger Wall for the lower representative weight; prioritize Copper Spur when freestanding structure and interior comfort matter more."
+      ]
+    },
+    {
+      "status": "approved",
+      "type": "comparison",
+      "slug": "nemo-hornet-vs-dragonfly-vs-dagger-osmo",
+      "title": "NEMO Hornet vs Dragonfly vs Dagger OSMO",
+      "description": "Compare NEMO Hornet, Dragonfly and Dagger OSMO backpacking tents by official positioning, structure and current reference price.",
+      "eyebrow": "NEMO backpacking tent range comparison",
+      "category": "tent",
+      "product_ids": [
+        "nemo-hornet-osmo",
+        "nemo-dragonfly-osmo",
+        "nemo-dagger-osmo"
+      ],
+      "intro": "Hornet, Dragonfly and Dagger represent three different priorities in NEMO's backpacking line: minimum weight, balanced freestanding space, and maximum livability.",
+      "takeaways": [
+        "<strong>Hornet:</strong> NEMO positions it as the ultralight option, using a minimal pole structure and Flybar for added volume.",
+        "<strong>Dragonfly:</strong> the listing emphasizes a freestanding frame and balance between weight and livability.",
+        "<strong>Dagger:</strong> NEMO describes it as the roomiest, most livable backpacking option of the three.",
+        "<strong>Price:</strong> current ranges overlap by capacity; verify the exact person-count variant before comparing totals.",
+        "<strong>Data limitation:</strong> the current catalog lacks normalized weights for these multi-variant listings, so this page does not invent a single figure."
+      ]
+    },
+    {
+      "status": "approved",
+      "type": "comparison",
+      "slug": "thermarest-neoair-xlite-vs-xtherm-nxt",
+      "title": "Therm-a-Rest NeoAir XLite vs XTherm NXT",
+      "description": "Compare Therm-a-Rest NeoAir XLite NXT and XTherm NXT sleeping pads by representative weight, official positioning and reference price.",
+      "eyebrow": "NeoAir sleeping pad comparison",
+      "category": "sleeping-pad",
+      "product_ids": [
+        "therm-a-rest-neoair-xlite-nxt-sleeping-pad",
+        "therm-a-rest-neoair-xtherm-nxt-sleeping-pad"
+      ],
+      "intro": "XLite NXT is the lighter all-season model, while XTherm NXT is positioned around maximum warmth-to-weight performance for colder use.",
+      "takeaways": [
+        "<strong>Weight:</strong> representative catalog weights are about 0.33 kg for XLite NXT and 0.44 kg for XTherm NXT.",
+        "<strong>Positioning:</strong> Therm-a-Rest calls XLite an all-season do-it-all pad and XTherm its warmth-to-weight specialist.",
+        "<strong>Price:</strong> XTherm NXT currently starts about $50 above XLite NXT.",
+        "<strong>Shape:</strong> compare these standard models separately from the wider rectangular MAX variants.",
+        "<strong>Decision:</strong> choose by expected overnight temperatures first, then compare the 110 g representative weight difference."
+      ]
+    }
+  ]
+}

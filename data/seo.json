@@ -25,8 +25,8 @@
     {
       "path": "/tent.html",
       "file": "tent.html",
-      "title": "Camping Tent Comparison Table — Sort 300+ Tents by Weight & Price",
-      "description": "Free side-by-side tent specs: weight, capacity, fabric & price. Snow Peak, Naturehike, Big Agnes, NEMO & more — official data in one sortable table.",
+      "title": "Compare 300+ Camping Tents by Weight, Capacity & Price",
+      "description": "Compare official tent specs from Naturehike, Snow Peak, Big Agnes, NEMO and more. Sort 300+ models by weight, capacity and price — free.",
       "changefreq": "weekly",
       "priority": "0.9",
       "schema": "category",

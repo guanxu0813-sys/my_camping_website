@@ -36,6 +36,7 @@
   var lastModalFocus = null;
   var modalScrollY = 0;
   var analyticsConfig = null;
+  var searchTrackTimer = null;
   var selectedProductIds = {};
   var selectionCompareActive = false;
   var affiliatesConfig = {
@@ -43,6 +44,18 @@
     aliexpress: { enabled: false, trackingId: "" },
   };
   var affiliateLinksMap = {};
+  var LOW_VALUE_ACCESSORY_PATTERN =
+    /\b(footprint|groundsheet|inner tent|replacement|spare part|repair kit|stuff sack|storage bag|pump sack|pole set|pole kit|tent pole|stake set|peg set|tent pegs?|tent stakes?|rainfly only|fly only|liner)\b/i;
+
+  function isLowValueAccessory(product) {
+    var model = String((product && product.model) || "");
+    if (LOW_VALUE_ACCESSORY_PATTERN.test(model)) return true;
+    return (
+      product &&
+      (product.category === "tent" || product.category === "tarp") &&
+      /\b(dry bag|tent body|tr\d(?:\s+plus)? body)\b/i.test(model)
+    );
+  }
 
   function isLocalDevHost() {
     var host = window.location.hostname;
@@ -70,7 +83,7 @@
     if (window.location.protocol === "file:") {
       return Promise.resolve(null);
     }
-    return fetch("data/analytics.json")
+    return fetch("/data/analytics.json")
       .then(function (r) {
         if (!r.ok) return null;
         return r.json();
@@ -78,6 +91,11 @@
       .then(function (cfg) {
         analyticsConfig = cfg;
         if (cfg && cfg.enabled && cfg.plausibleDomain) {
+          window.plausible =
+            window.plausible ||
+            function () {
+              (window.plausible.q = window.plausible.q || []).push(arguments);
+            };
           if (!document.querySelector('script[src="https://plausible.io/js/script.js"]')) {
             var s = document.createElement("script");
             s.defer = true;
@@ -125,6 +143,45 @@
         page: document.body.getAttribute("data-page") || "unknown",
         category: document.body.getAttribute("data-category") || "",
       });
+    });
+  }
+
+  function bindGrowthInteractionTracking() {
+    document.addEventListener("click", function (e) {
+      var shareLink = e.target.closest("a.share-link[data-share-channel]");
+      if (shareLink) {
+        trackEvent("Guide Share", {
+          channel: shareLink.getAttribute("data-share-channel") || "unknown",
+          path: window.location.pathname,
+        });
+      }
+
+      var downloadLink = e.target.closest("a[download]");
+      if (downloadLink) {
+        trackEvent("Guide Download", {
+          file: downloadLink.getAttribute("href") || "",
+          path: window.location.pathname,
+        });
+      }
+
+      var copyButton = e.target.closest("[data-copy-url]");
+      if (!copyButton) return;
+      e.preventDefault();
+      var value = copyButton.getAttribute("data-copy-url") || window.location.href;
+      var original = copyButton.textContent;
+      var copied = function () {
+        copyButton.textContent = "Copied";
+        window.setTimeout(function () {
+          copyButton.textContent = original;
+        }, 1800);
+        trackEvent("Guide Share", {
+          channel: "copy",
+          path: window.location.pathname,
+        });
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(value).then(copied).catch(function () {});
+      }
     });
   }
 
@@ -435,7 +492,7 @@
           : null
       );
     }
-    return fetch("data/sponsors.json")
+    return fetch("/data/sponsors.json")
       .then(function (r) {
         if (!r.ok) return null;
         return r.json();
@@ -665,11 +722,25 @@
   function onSearchInput(value, source) {
     syncSearchInputs(value, source);
     applyCatalogFilters();
+    window.clearTimeout(searchTrackTimer);
+    if (String(value || "").trim().length >= 2) {
+      searchTrackTimer = window.setTimeout(function () {
+        trackEvent("Catalog Search", {
+          query: String(value).trim().slice(0, 80),
+          category: document.body.getAttribute("data-category") || "all",
+          source: source && source.id === "nav-search-input" ? "nav" : "catalog",
+        });
+      }, 800);
+    }
   }
 
   function onBrandFilterClick(brandId) {
     setBrandFilter(brandId);
     applyCatalogFilters();
+    trackEvent("Brand Filter", {
+      brandId: brandId || "all",
+      category: document.body.getAttribute("data-category") || "furniture",
+    });
   }
 
   function categoryBrandIds(category) {
@@ -1010,6 +1081,12 @@
       sort.dir = "asc";
     }
     var category = document.body.getAttribute("data-category") || tableId;
+    trackEvent("Table Sort", {
+      table: tableId,
+      key: key,
+      direction: sort.dir,
+      category: category,
+    });
     ensureSortState(tableId);
     renderCategoryPage(category);
   }
@@ -1063,12 +1140,21 @@
         syncSearchInputs("", null);
         setBrandFilter("all");
         selectionCompareActive = true;
+        trackEvent("Compare Selected", {
+          count: selectedProductCount(),
+          category: document.body.getAttribute("data-category") || "",
+          productIds: Object.keys(selectedProductIds).sort().join("|").slice(0, 400),
+        });
         applyCatalogFilters();
         return;
       }
       var clearBtn = e.target.closest("#compare-tray-clear");
       if (clearBtn) {
         e.preventDefault();
+        trackEvent("Compare Cleared", {
+          count: selectedProductCount(),
+          category: document.body.getAttribute("data-category") || "",
+        });
         clearProductSelection();
         applyCatalogFilters();
       }
@@ -2263,7 +2349,7 @@
     '<p class="table-scroll__hint" aria-hidden="true">← Swipe to see more columns →</p>';
 
   function loadSite() {
-    return fetch("data/site.json")
+    return fetch("/data/site.json")
       .then(function (r) {
         if (!r.ok) return null;
         return r.json();
@@ -2304,6 +2390,10 @@
       cons: raw.cons,
       scenarios: raw.scenarios,
     };
+    if (isLowValueAccessory(raw)) {
+      display.inSummaryTable = false;
+      display.inDetailCards = false;
+    }
     var fields = [
       "structure",
       "detailStructure",
@@ -2409,7 +2499,7 @@
   }
 
   function loadOfficialBrandIds() {
-    return fetch("data/official/index.json")
+    return fetch("/data/official/index.json")
       .then(function (r) {
         if (!r.ok) throw new Error("Failed to load official/index.json");
         return r.json();
@@ -2423,7 +2513,7 @@
     if (!brandIds.length) return Promise.resolve([]);
     return Promise.all(
       brandIds.map(function (brandId) {
-        return fetch("data/official/" + brandId + "/products.json").then(function (r) {
+        return fetch("/data/official/" + brandId + "/products.json").then(function (r) {
           if (!r.ok) throw new Error("Failed to load official/" + brandId + "/products.json");
           return r.json();
         });
@@ -2501,14 +2591,14 @@
       });
     }
     return Promise.all([
-      fetch("data/affiliates.json")
+      fetch("/data/affiliates.json")
         .then(function (r) {
           return r.ok ? r.json() : null;
         })
         .catch(function () {
           return null;
         }),
-      fetch("data/affiliate-links.json")
+      fetch("/data/affiliate-links.json")
         .then(function (r) {
           return r.ok ? r.json() : null;
         })
@@ -2547,7 +2637,7 @@
 
     return Promise.all([
       loadSite(),
-      fetch("data/brands.json").then(function (r) {
+      fetch("/data/brands.json").then(function (r) {
         if (!r.ok) throw new Error("Failed to load brands.json");
         return r.json();
       }),
@@ -2595,6 +2685,7 @@
   bindOutboundTracking();
 
   function boot() {
+    bindGrowthInteractionTracking();
     injectNavSearch();
     readSearchFromUrl();
     var page = document.body.getAttribute("data-page") || "home";

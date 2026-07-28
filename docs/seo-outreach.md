@@ -8,6 +8,11 @@ Use this only after the report and CSV return `200` in production:
 The goal is to earn relevant citations. Do not buy links, automate comments, or
 post the same promotional message across communities.
 
+Track every action in [`outreach-log.csv`](./outreach-log.csv) and use the UTM
+convention in [`growth-operations.md`](./growth-operations.md). Entries marked
+`ready_to_send` or `ready_to_post` still require the site owner to review and
+publish them from the relevant account.
+
 ## 1. Data Is Plural
 
 Data Is Plural accepts dataset suggestions by email and prefers bulk-downloadable

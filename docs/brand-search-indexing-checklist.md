@@ -6,17 +6,20 @@
 
 资源 URL 必须为 **`https://www.campgearcompare.com`**（带 www）。
 
-1. **网址检查** → 对以下 URL 逐个 **测试实际 URL** → **请求编入索引**（若显示尚未编入索引）：
+1. **网址检查** → 对以下代表性 URL **测试实际 URL**；仅在排查重要页面时使用“请求编入索引”：
    - `https://www.campgearcompare.com/tarp.html`
    - `https://www.campgearcompare.com/sleeping-bag.html`
    - `https://www.campgearcompare.com/furniture.html`
 
-2. **不必**重复提交 sitemap（已提交且状态正常即可）。
+2. 确认 `sitemap.xml` 已提交且状态正常，不必在每次发布后重复提交。
+3. 不向 Google Indexing API 提交普通装备页；该 API 官方仅支持招聘和直播页面。
+4. 验收以 GSC 的有效收录页与搜索点击为准，不使用 `site:` 结果数作为精确指标。
 
-3. GitHub → **Actions** → **Submit URLs to Google Indexing API** → **Run workflow**  
-   日志应出现 6 行 `OK https://www.campgearcompare.com/...`
+## Bing Webmaster Tools
 
-4. 验收：`site:www.campgearcompare.com` 结果数从 3 增至 **6**。
+1. 从 GSC 导入站点并提交 `sitemap.xml`。
+2. Push 部署后检查 **Submit changed URLs to IndexNow** workflow。
+3. 在 Bing 的 IndexNow 报告确认已接收 URL。
 
 ## 百度搜索资源平台
 

@@ -1,0 +1,49 @@
+name: Submit changed URLs to IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "*.html"
+      - "**/*.html"
+      - "indexnow-key.txt"
+      - "sitemap*.xml"
+      - "scripts/submit_indexnow.py"
+      - ".github/workflows/submit-indexnow.yml"
+  workflow_dispatch:
+    inputs:
+      submit_all:
+        description: Submit every URL currently listed in the sitemaps
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  submit-indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Preview changed URLs
+        if: github.event_name == 'push'
+        run: >-
+          python3 scripts/submit_indexnow.py
+          --git-before "${{ github.event.before }}"
+          --git-after "${{ github.sha }}"
+          --dry-run
+
+      - name: Submit changed URLs
+        if: github.event_name == 'push'
+        run: >-
+          python3 scripts/submit_indexnow.py
+          --git-before "${{ github.event.before }}"
+          --git-after "${{ github.sha }}"
+
+      - name: Submit all sitemap URLs
+        if: github.event_name == 'workflow_dispatch' && inputs.submit_all
+        run: python3 scripts/submit_indexnow.py --all

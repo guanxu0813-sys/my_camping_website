@@ -1,0 +1,2 @@
+date,period,total_visits,organic_visits,gsc_clicks,gsc_impressions,gsc_ctr,gsc_position,indexed_urls,known_urls,referring_domains,published_guides,notes
+2026-07-28,baseline,,,16,879,1.82,15.28,453,848,,14,"GSC export covers the site's first month; total and organic visits must be filled from Plausible"
