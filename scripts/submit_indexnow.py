@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import ssl
 import subprocess
 import sys
 import urllib.error
@@ -128,6 +129,30 @@ def submit(targets: list[str], base: str, key: str, dry_run: bool) -> int:
         print(f"IndexNow error {exc.code}: {exc.read().decode()[:300]}", file=sys.stderr)
         return 1
     except urllib.error.URLError as exc:
+        if isinstance(exc.reason, ssl.SSLCertVerificationError):
+            fallback = subprocess.run(
+                [
+                    "curl",
+                    "--fail",
+                    "--silent",
+                    "--show-error",
+                    "--request",
+                    "POST",
+                    "--header",
+                    "Content-Type: application/json; charset=utf-8",
+                    "--data-binary",
+                    payload.decode("utf-8"),
+                    ENDPOINT,
+                ],
+                check=False,
+                capture_output=True,
+                text=True,
+            )
+            if fallback.returncode == 0:
+                print(f"IndexNow accepted {len(targets)} changed URL(s) via curl.")
+                return 0
+            print(f"IndexNow curl fallback failed: {fallback.stderr[:300]}", file=sys.stderr)
+            return 1
         print(f"IndexNow request failed: {exc}", file=sys.stderr)
         return 1
 
