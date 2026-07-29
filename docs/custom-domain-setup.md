@@ -15,7 +15,7 @@
 | `data/seo.json` | `siteUrl` → `https://www.campgearcompare.com` |
 | 各 HTML `<link rel="canonical">` | 由 `scripts/sync_site_url.py` 同步 |
 | `sitemap.xml` / `robots.txt` | 由 `scripts/build_sitemap.py` 生成 |
-| `data/analytics.json` | `plausibleDomain` → `campgearcompare.com`（`enabled` 仍为 `false`，Plausible 就绪后再开） |
+| `data/analytics.json` | GA4 `measurementId` → `G-S8Z3T5RQ2J`，`enabled` → `true` |
 | `vercel.json` | `www` → 根域 301 重定向 |
 
 **换域名后一键同步：**
@@ -99,22 +99,26 @@ curl -s https://www.campgearcompare.com/tent.html | grep canonical
 
 ---
 
-## 5. Plausible Analytics（正式域上线后）
+## 5. Google Analytics 4（正式域上线后）
 
-1. 在 [Plausible](https://plausible.io) 添加站点 `campgearcompare.com`
+1. 在 [Google Analytics](https://analytics.google.com/) 创建网站数据流 `https://www.campgearcompare.com`
 2. 修改 `data/analytics.json`：
 
 ```json
 {
-  "provider": "plausible",
+  "provider": "ga4",
   "enabled": true,
-  "plausibleDomain": "campgearcompare.com",
+  "measurementId": "G-S8Z3T5RQ2J",
   "contactEmail": "guanxu0813@gmail.com"
 }
 ```
 
-3. Push 部署 → 打开站点 → 控制台应无 `[CampGear analytics]` 本地日志（生产环境走 Plausible）
+3. Push 部署后，在 GA4 实时报告确认 `page_view` 与自定义事件
 4. 积累 30 天后，更新 `docs/sponsor/media-kit-one-pager.md` 中的流量指标表
+
+`api/consent-region.js` 使用 Vercel 的 `x-vercel-ip-country` 请求头判断地区。
+EEA、英国和瑞士访客须先同意才加载 GA4；其他地区直接加载。地区判断失败时
+默认显示同意弹窗。
 
 ---
 

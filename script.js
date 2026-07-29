@@ -36,6 +36,18 @@
   var lastModalFocus = null;
   var modalScrollY = 0;
   var analyticsConfig = null;
+  var ANALYTICS_CONSENT_KEY = "campgear_analytics_consent";
+  var GA4_EVENT_NAMES = {
+    "Catalog Search": "catalog_search",
+    "Brand Filter": "brand_filter",
+    "Table Sort": "table_sort",
+    "Compare Selected": "compare_selected",
+    "Compare Cleared": "compare_cleared",
+    "Product Modal Open": "product_modal_open",
+    "Outbound Click": "outbound_click",
+    "Guide Download": "guide_download",
+    "Guide Share": "guide_share",
+  };
   var searchTrackTimer = null;
   var selectedProductIds = {};
   var selectionCompareActive = false;
@@ -79,6 +91,138 @@
     }
   }
 
+  function readAnalyticsConsent() {
+    try {
+      return window.localStorage.getItem(ANALYTICS_CONSENT_KEY) || "";
+    } catch (e) {
+      return "";
+    }
+  }
+
+  function writeAnalyticsConsent(value) {
+    try {
+      window.localStorage.setItem(ANALYTICS_CONSENT_KEY, value);
+    } catch (e) {
+      // Continue without persistence when storage is blocked.
+    }
+  }
+
+  function initializeGa4(cfg) {
+    if (
+      !cfg ||
+      !cfg.enabled ||
+      cfg.provider !== "ga4" ||
+      !cfg.measurementId ||
+      typeof window.gtag === "function"
+    ) {
+      return;
+    }
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () {
+      window.dataLayer.push(arguments);
+    };
+    window.gtag("consent", "default", {
+      analytics_storage: "granted",
+      ad_storage: "denied",
+      ad_user_data: "denied",
+      ad_personalization: "denied",
+    });
+    window.gtag("js", new Date());
+    window.gtag("config", cfg.measurementId, {
+      allow_google_signals: false,
+      send_page_view: true,
+    });
+
+    if (
+      !isLocalDevHost() &&
+      !document.querySelector('script[src^="https://www.googletagmanager.com/gtag/js"]')
+    ) {
+      var script = document.createElement("script");
+      script.async = true;
+      script.src =
+        "https://www.googletagmanager.com/gtag/js?id=" +
+        encodeURIComponent(cfg.measurementId);
+      document.head.appendChild(script);
+    }
+  }
+
+  function removeConsentBanner() {
+    var banner = document.querySelector(".cookie-consent");
+    if (banner) banner.remove();
+  }
+
+  function showConsentBanner(cfg) {
+    if (document.querySelector(".cookie-consent")) return;
+
+    var banner = document.createElement("aside");
+    banner.className = "cookie-consent";
+    banner.setAttribute("role", "dialog");
+    banner.setAttribute("aria-modal", "false");
+    banner.setAttribute("aria-labelledby", "cookie-consent-title");
+    banner.innerHTML =
+      '<div class="cookie-consent__content">' +
+      '<h2 id="cookie-consent-title">Analytics cookies</h2>' +
+      "<p>We use Google Analytics to understand visits and improve comparisons. " +
+      'You can accept or reject analytics cookies. <a href="/legal.html#privacy">Privacy details</a>.</p>' +
+      "</div>" +
+      '<div class="cookie-consent__actions">' +
+      '<button class="cookie-consent__button cookie-consent__button--secondary" ' +
+      'type="button" data-analytics-consent="denied">Reject</button>' +
+      '<button class="cookie-consent__button cookie-consent__button--primary" ' +
+      'type="button" data-analytics-consent="granted">Accept analytics</button>' +
+      "</div>";
+
+    banner.addEventListener("click", function (event) {
+      var button = event.target.closest("[data-analytics-consent]");
+      if (!button) return;
+      var choice = button.getAttribute("data-analytics-consent");
+      writeAnalyticsConsent(choice);
+      removeConsentBanner();
+      if (choice === "granted") {
+        if (typeof window.gtag === "function") {
+          window.gtag("consent", "update", { analytics_storage: "granted" });
+        } else {
+          initializeGa4(cfg);
+        }
+      } else if (typeof window.gtag === "function") {
+        window.gtag("consent", "update", { analytics_storage: "denied" });
+      }
+    });
+
+    document.body.appendChild(banner);
+  }
+
+  function resolveAnalyticsConsent(cfg) {
+    var saved = readAnalyticsConsent();
+    if (saved === "granted") {
+      initializeGa4(cfg);
+      return Promise.resolve();
+    }
+    if (saved === "denied") {
+      return Promise.resolve();
+    }
+
+    return fetch("/api/consent-region", {
+      headers: { Accept: "application/json" },
+      credentials: "same-origin",
+    })
+      .then(function (response) {
+        if (!response.ok) throw new Error("Consent region unavailable");
+        return response.json();
+      })
+      .then(function (region) {
+        if (region && region.requiresConsent) {
+          showConsentBanner(cfg);
+        } else {
+          initializeGa4(cfg);
+        }
+      })
+      .catch(function () {
+        showConsentBanner(cfg);
+      });
+  }
+
   function loadAnalytics() {
     if (window.location.protocol === "file:") {
       return Promise.resolve(null);
@@ -90,19 +234,10 @@
       })
       .then(function (cfg) {
         analyticsConfig = cfg;
-        if (cfg && cfg.enabled && cfg.plausibleDomain) {
-          window.plausible =
-            window.plausible ||
-            function () {
-              (window.plausible.q = window.plausible.q || []).push(arguments);
-            };
-          if (!document.querySelector('script[src="https://plausible.io/js/script.js"]')) {
-            var s = document.createElement("script");
-            s.defer = true;
-            s.dataset.domain = cfg.plausibleDomain;
-            s.src = "https://plausible.io/js/script.js";
-            document.head.appendChild(s);
-          }
+        if (cfg && cfg.enabled && cfg.provider === "ga4" && cfg.measurementId) {
+          return resolveAnalyticsConsent(cfg).then(function () {
+            return cfg;
+          });
         }
         return cfg;
       })
@@ -111,10 +246,53 @@
       });
   }
 
+  function bindAnalyticsConsentManagement() {
+    document.addEventListener("click", function (event) {
+      var button = event.target.closest("[data-manage-analytics-consent]");
+      if (!button) return;
+      event.preventDefault();
+      try {
+        window.localStorage.removeItem(ANALYTICS_CONSENT_KEY);
+      } catch (e) {
+        // The banner still allows a session-only choice when storage is blocked.
+      }
+      showConsentBanner(analyticsConfig);
+    });
+  }
+
+  function ga4Parameters(props) {
+    var normalized = {};
+    Object.keys(props || {}).forEach(function (key) {
+      var ga4Key = key
+        .replace(/([a-z0-9])([A-Z])/g, "$1_$2")
+        .replace(/[^a-zA-Z0-9_]/g, "_")
+        .toLowerCase()
+        .slice(0, 40);
+      var value = props[key];
+      if (typeof value === "string") {
+        normalized[ga4Key] = value.slice(0, 100);
+      } else if (typeof value === "number" || typeof value === "boolean") {
+        normalized[ga4Key] = value;
+      } else if (value != null) {
+        normalized[ga4Key] = String(value).slice(0, 100);
+      }
+    });
+    return normalized;
+  }
+
   function trackEvent(name, props) {
     var payload = props || {};
-    if (typeof window.plausible === "function") {
-      window.plausible(name, { props: payload });
+    if (
+      analyticsConfig &&
+      analyticsConfig.enabled &&
+      analyticsConfig.provider === "ga4" &&
+      typeof window.gtag === "function"
+    ) {
+      window.gtag(
+        "event",
+        GA4_EVENT_NAMES[name] || name.toLowerCase().replace(/[^a-z0-9]+/g, "_"),
+        ga4Parameters(payload)
+      );
     }
     if (
       window.location.hostname === "localhost" ||
@@ -2698,5 +2876,6 @@
   }
 
   loadBaiduPush();
+  bindAnalyticsConsentManagement();
   loadAnalytics().then(boot);
 })();

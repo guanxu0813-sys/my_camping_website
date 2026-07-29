@@ -41,7 +41,7 @@ CampGear Compare
 
 **百度搜索资源平台**：索引量、抓取频次。
 
-## Plausible
+## Google Analytics 4
 
 - 直接访问 `/` 的流量（品牌词 type-in）是否上升
 

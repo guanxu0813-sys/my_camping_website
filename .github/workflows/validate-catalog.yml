@@ -5,7 +5,12 @@ on:
     paths:
       - "data/**"
       - "data/seo.json"
+      - "api/consent-region.js"
+      - "script.js"
+      - "style.css"
+      - "legal.html"
       - "docs/growth-metrics.csv"
+      - "scripts/test_consent_region.cjs"
       - "scripts/discover_guide_candidates.py"
       - "scripts/growth_report.py"
       - "scripts/submit_indexnow.py"
@@ -15,7 +20,12 @@ on:
   pull_request:
     paths:
       - "data/**"
+      - "api/consent-region.js"
+      - "script.js"
+      - "style.css"
+      - "legal.html"
       - "docs/growth-metrics.csv"
+      - "scripts/test_consent_region.cjs"
       - "scripts/discover_guide_candidates.py"
       - "scripts/growth_report.py"
       - "scripts/submit_indexnow.py"
@@ -49,6 +59,7 @@ jobs:
 
       - name: Validate growth tooling
         run: |
+          node scripts/test_consent_region.cjs
           python3 scripts/test_growth_tools.py
           python3 scripts/validate_generated_site.py
           python3 scripts/discover_guide_candidates.py --output /tmp/guide-candidates.csv

@@ -12,6 +12,6 @@ Documents for Phase 1 brand outreach (English-facing).
 | [`sponsorship-agreement-template.md`](./sponsorship-agreement-template.md) | Contract + asset license + Schedule A/B |
 | [`sponsorship-agreement-template-zh.md`](./sponsorship-agreement-template-zh.md) | 中文版合同模板 |
 
-**Before outreach:** Fill the metrics table in the media kit from Plausible (30-day window). Until then, lead with catalog depth and Founding Partner pricing.
+**Before outreach:** Fill the metrics table in the media kit from GA4 (30-day window). Until then, lead with catalog depth and Founding Partner pricing.
 
 **Contact:** guanxu0813@gmail.com

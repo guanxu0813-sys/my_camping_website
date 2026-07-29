@@ -15,7 +15,7 @@ Decision: **CONTINUE**
 - Published guides: 14.0 (change n/a)
 
 ## Gate actions
-- Fill total_visits from Plausible before making a traffic decision.
+- Fill total_visits from GA4 before making a traffic decision.
 
 ## Operating rule
 Expand only clusters that already earn impressions, clicks, qualified referral traffic, or relevant links. If the decision is FOCUS, spend the next cycle on data quality, intent matching, CTR and distribution instead of URL growth.

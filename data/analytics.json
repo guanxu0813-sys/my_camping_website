@@ -1,17 +1,17 @@
 {
-  "provider": "plausible",
+  "provider": "ga4",
   "enabled": true,
-  "plausibleDomain": "campgearcompare.com",
+  "measurementId": "G-S8Z3T5RQ2J",
   "contactEmail": "guanxu0813@gmail.com",
   "trackedEvents": [
-    "Catalog Search",
-    "Brand Filter",
-    "Table Sort",
-    "Compare Selected",
-    "Compare Cleared",
-    "Product Modal Open",
-    "Outbound Click",
-    "Guide Download",
-    "Guide Share"
+    "catalog_search",
+    "brand_filter",
+    "table_sort",
+    "compare_selected",
+    "compare_cleared",
+    "product_modal_open",
+    "outbound_click",
+    "guide_download",
+    "guide_share"
   ]
 }

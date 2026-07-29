@@ -9,7 +9,7 @@ judgment.
 ### Monday — measurement
 
 1. Export the latest GSC pages and queries.
-2. Record Plausible total and organic visits.
+2. Record GA4 total and organic visits.
 3. Add one row to `docs/growth-metrics.csv`.
 4. Run `python3 scripts/growth_report.py --month N`.
 5. Select three topics only from queries or product families already showing
@@ -73,7 +73,7 @@ The following cannot be completed by repository code:
 - Import the site into Bing Webmaster Tools and inspect IndexNow receipts.
 - Send email from the owner's mailbox.
 - Publish Reddit, forum, Product Hunt or other community posts.
-- Read Plausible's private dashboard.
+- Read the private GA4 dashboard.
 
 Do not store account passwords, API credentials or email subscriber addresses in
 the repository.

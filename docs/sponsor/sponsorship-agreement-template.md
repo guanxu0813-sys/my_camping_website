@@ -224,4 +224,4 @@ Date: ___________________________
 - Set `expiresAt` = Campaign End Date.
 - Prefer `status: verified` on sponsored SKUs.
 - File executed PDF in `docs/sponsor/contracts/` (create folder when first deal closes).
-- Update Plausible dashboard export into media kit before renewal conversations.
+- Update the GA4 dashboard export in the media kit before renewal conversations.

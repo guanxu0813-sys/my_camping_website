@@ -1170,6 +1170,13 @@ def inject_html_seo(
         return False
 
     text = html_path.read_text(encoding="utf-8")
+    text = re.sub(
+        r'\s*<script defer data-domain="campgearcompare\.com" '
+        r'src="https://plausible\.io/js/script\.js"></script>\n?',
+        "\n",
+        text,
+        count=1,
+    )
     text = sync_html_title_description(text, page)
     head_block = build_seo_head_block(page, site_url, seo, products, brands)
     head_pattern = re.compile(re.escape(SEO_HEAD_START) + r".*?" + re.escape(SEO_HEAD_END), re.DOTALL)
@@ -1279,7 +1286,6 @@ def static_page_head(
         f'  <meta name="twitter:description" content="{escape_html(description)}" />\n'
         f"{image_meta}"
         f'  <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False, separators=(",", ":"))}</script>\n'
-        '  <script defer data-domain="campgearcompare.com" src="https://plausible.io/js/script.js"></script>\n'
         '  <link rel="preconnect" href="https://fonts.googleapis.com" />\n'
         '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
         '  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Permanent+Marker&display=swap" rel="stylesheet" />\n'

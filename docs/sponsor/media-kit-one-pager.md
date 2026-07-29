@@ -63,16 +63,16 @@ See full pricing, bundles, and pilot discounts: [`pricing-sheet.md`](./pricing-s
 
 ## Performance metrics *(update monthly from analytics)*
 
-Analytics stack: **Plausible** (privacy-friendly, no cookies). Custom events already instrumented:
+Analytics stack: **Google Analytics 4**. Custom events already instrumented:
 
 | Event | Meaning |
 |-------|---------|
-| `Product Modal Open` | User opened a product detail modal (high intent) |
-| `Outbound Click` | User clicked through to a brand official URL |
+| `product_modal_open` | User opened a product detail modal (high intent) |
+| `outbound_click` | User clicked through to a brand official URL |
 
 ### Reporting template
 
-Fill this table once Plausible is enabled on your production domain (minimum **30 days** of data recommended before outreach):
+Fill this table after GA4 has collected at least **30 days** of production data:
 
 | Page / category | Monthly pageviews | Modal opens | Modal rate¹ | Outbound clicks | Outbound CTR² |
 |-----------------|------------------:|------------:|------------:|----------------:|--------------:|
@@ -84,11 +84,11 @@ Fill this table once Plausible is enabled on your production domain (minimum **3
 ¹ **Modal rate** = Modal opens ÷ Pageviews on that category page  
 ² **Outbound CTR** = Outbound clicks ÷ Modal opens *(or ÷ Pageviews for top-of-funnel view)*
 
-**How to export from Plausible**
+**How to export from GA4**
 
-1. Enable `data/analytics.json` on production (`enabled: true`, correct domain).
-2. In Plausible → **Goals**, confirm custom events `Product Modal Open` and `Outbound Click`.
-3. Filter by page URL and date range (last 30 days).
+1. Confirm `data/analytics.json` is enabled with the correct measurement ID.
+2. In GA4 → **Reports → Engagement → Events**, confirm `product_modal_open` and `outbound_click`.
+3. Filter by page path and date range (last 30 days).
 4. Paste numbers into the table above before sending this kit to a brand.
 
 > **Note for early outreach:** Until traffic baselines exist, lead with **catalog depth**, **comparison UX**, and **editorial firewall** (below). Offer **Founding Partner** pilot pricing (see pricing sheet).

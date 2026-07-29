@@ -225,4 +225,4 @@ CampGear Compare
 - 设置 `expiresAt` = 活动结束日。
 - 赞助 SKU 优先 `status: verified`。
 - 签署 PDF 存档于 `docs/sponsor/contracts/`（首单成交时建目录）。
-- 续谈前从 Plausible 导出数据更新媒体 kit。
+- 续谈前从 GA4 导出数据更新媒体 kit。

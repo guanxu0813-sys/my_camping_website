@@ -48,6 +48,12 @@ async function main() {
     if (url.includes("data/analytics.json")) {
       return origFetch(`${base}/data/analytics.json`);
     }
+    if (url.includes("/api/consent-region")) {
+      return {
+        ok: true,
+        json: async () => ({ country: "DE", requiresConsent: true }),
+      };
+    }
     if (url.includes("data/brands.json")) {
       return origFetch(`${base}/data/brands.json`);
     }
@@ -68,6 +74,25 @@ async function main() {
   window.eval(catalogJs);
   const scriptJs = await fetchText(`${base}/script.js`);
   window.eval(scriptJs);
+
+  let consentBanner = null;
+  for (let i = 0; i < 20; i++) {
+    await new Promise((r) => setTimeout(r, 50));
+    consentBanner = window.document.querySelector(".cookie-consent");
+    if (consentBanner) break;
+  }
+  if (!consentBanner) {
+    throw new Error("European analytics consent banner not shown");
+  }
+  if (typeof window.gtag === "function") {
+    throw new Error("GA4 initialized before analytics consent");
+  }
+  consentBanner
+    .querySelector('[data-analytics-consent="granted"]')
+    .dispatchEvent(new window.MouseEvent("click", { bubbles: true }));
+  if (window.localStorage.getItem("campgear_analytics_consent") !== "granted") {
+    throw new Error("Analytics consent choice not persisted");
+  }
 
   let thumb = null;
   for (let i = 0; i < 40; i++) {
@@ -127,6 +152,22 @@ async function main() {
   sortButton.dispatchEvent(new window.MouseEvent("click", { bubbles: true }));
   if (!analyticsLogs.some((l) => l.includes("Table Sort"))) {
     throw new Error("Missing Table Sort event");
+  }
+
+  const ga4Events = (window.dataLayer || [])
+    .map((entry) => Array.from(entry))
+    .filter((entry) => entry[0] === "event")
+    .map((entry) => entry[1]);
+  for (const expected of [
+    "product_modal_open",
+    "outbound_click",
+    "catalog_search",
+    "brand_filter",
+    "table_sort",
+  ]) {
+    if (!ga4Events.includes(expected)) {
+      throw new Error(`Missing GA4 event: ${expected}`);
+    }
   }
 
   console.log("Analytics verification passed (jsdom smoke test).");

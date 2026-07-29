@@ -64,16 +64,16 @@ Big Agnes · Blackdeer · DOD · Helinox · Mobi Garden · Montbell · NANGA · 
 
 ## 效果指标 *(每月从分析后台更新)*
 
-分析工具：**Plausible**（隐私友好、无 Cookie）。已埋点的自定义事件：
+分析工具：**Google Analytics 4**。已埋点的自定义事件：
 
 | 事件 | 含义 |
 |-------|---------|
-| `Product Modal Open` | 用户打开产品详情弹窗（高意向行为） |
-| `Outbound Click` | 用户点击跳转至品牌官网 |
+| `product_modal_open` | 用户打开产品详情弹窗（高意向行为） |
+| `outbound_click` | 用户点击跳转至品牌官网 |
 
 ### 汇报模板
 
-正式域名启用 Plausible 后（建议 outreach 前至少积累 **30 天** 数据），填写下表：
+GA4 在正式域名积累至少 **30 天** 数据后，填写下表：
 
 | 页面 / 品类 | 月 PV | Modal 打开数 | Modal 率¹ | 出站点击数 | 出站 CTR² |
 |-----------------|------------------:|------------:|------------:|----------------:|--------------:|
@@ -85,11 +85,11 @@ Big Agnes · Blackdeer · DOD · Helinox · Mobi Garden · Montbell · NANGA · 
 ¹ **Modal 率** = Modal 打开数 ÷ 该品类页 PV  
 ² **出站 CTR** = 出站点击数 ÷ Modal 打开数 *（或以 PV 为分母看漏斗上层）*
 
-**从 Plausible 导出步骤**
+**从 GA4 导出步骤**
 
-1. 在生产环境启用 `data/analytics.json`（`enabled: true`，填入正确域名）。
-2. 在 Plausible → **Goals** 中确认 `Product Modal Open` 与 `Outbound Click` 事件。
-3. 按页面 URL 与日期范围（近 30 天）筛选。
+1. 确认生产环境的 `data/analytics.json` 已启用并填入正确衡量 ID。
+2. 在 GA4 → **报告 → 互动 → 事件** 中确认 `product_modal_open` 与 `outbound_click`。
+3. 按网页路径与日期范围（近 30 天）筛选。
 4. 发媒体 kit 给品牌前，将数字填入上表。
 
 > **早期 outreach 提示：** 在流量基线建立前，主打 **目录深度**、**对比体验** 与 **编辑防火墙**（见下）。可提供 **创始合作伙伴** 试点价（见定价表）。

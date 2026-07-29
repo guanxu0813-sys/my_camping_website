@@ -28,6 +28,6 @@ Phase 1 品牌 outreach 用文档索引。
 | 内部报价 | 中文或英文 pricing sheet |
 | 正式签约 | 律师审阅后的 contract（以英文版为准对外，除非对方要求中文） |
 
-**outreach 前：** 从 Plausible 填写媒体 kit 中的指标表（建议 30 天窗口）。尚无流量基线时，主打目录深度与创始合作伙伴定价。
+**outreach 前：** 从 GA4 填写媒体 kit 中的指标表（建议 30 天窗口）。尚无流量基线时，主打目录深度与创始合作伙伴定价。
 
 **联系：** guanxu0813@gmail.com
