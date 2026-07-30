@@ -1,2 +1,2 @@
 date,period,total_visits,organic_visits,gsc_clicks,gsc_impressions,gsc_ctr,gsc_position,indexed_urls,known_urls,referring_domains,published_guides,notes
-2026-07-28,baseline,,,16,879,1.82,15.28,453,848,,14,"GSC export covers the site's first month; total and organic visits must be filled from GA4"
+2026-07-30,baseline-partial-ga4,4,1,16,879,1.82,15.28,453,861,,14,"GA4 covers only the period after deployment on 2026-07-30; 15 views and 38 events; channels: Direct 2, Unassigned 2, AI Assistant 1, Organic Search 1; top pages: /guides/ 2, /stove.html 2, /tent.html 2; verified custom events: catalog_search, product_modal_open, compare_selected, outbound_click, guide_download, guide_share; GSC metrics are the latest available export"

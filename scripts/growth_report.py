@@ -39,10 +39,16 @@ def gate_decision(rows: list[dict], month: int) -> tuple[str, list[str]]:
     latest = rows[-1]
     previous = rows[-2] if len(rows) > 1 else {}
     notes: list[str] = []
+    partial_period = "partial" in str(latest.get("period", "")).lower()
     visits = number(latest, "total_visits")
     low, high = VISIT_GATES.get(month, VISIT_GATES[6])
-    if visits is None:
-        notes.append("Fill total_visits from Plausible before making a traffic decision.")
+    if partial_period:
+        notes.append(
+            "GA4 covers only a partial baseline period: collect seven complete days "
+            "before applying the M1 traffic gate."
+        )
+    elif visits is None:
+        notes.append("Fill total_visits from GA4 before making a traffic decision.")
     elif visits < low:
         notes.append(
             f"Traffic is below the M{month} lower gate ({low}/day): pause broad page expansion."
@@ -67,7 +73,7 @@ def gate_decision(rows: list[dict], month: int) -> tuple[str, list[str]]:
         notes.append(
             "M3+ search clicks are below the plan gate: stop publishing unvalidated clusters."
         )
-    decision = "CONTINUE" if not any(
+    decision = "BASELINE" if partial_period else "CONTINUE" if not any(
         phrase in " ".join(notes)
         for phrase in ("pause broad", "stop publishing")
     ) else "FOCUS"
@@ -95,9 +101,9 @@ def render(rows: list[dict], month: int) -> str:
     action_lines = "\n".join(f"- {note}" for note in notes)
     return (
         "# CampGear Compare Growth Status\n\n"
-        f"Generated: {date.today().isoformat()}  \n"
-        f"Measurement row: {latest.get('date', '')} ({latest.get('period', '')})  \n"
-        f"Plan month: M{month}  \n"
+        f"Generated: {date.today().isoformat()}\n"
+        f"Measurement row: {latest.get('date', '')} ({latest.get('period', '')})\n"
+        f"Plan month: M{month}\n"
         f"Decision: **{decision}**\n\n"
         "## Metrics\n"
         f"{metric_lines}\n\n"
