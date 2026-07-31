@@ -4526,8 +4526,8 @@
     "description": "Naturehike YL01 Folding Camping Table is a lightweight and portable outdoor table designed for camping, hiking, tailgating, picnics, beach trips, and travel. Its compact foldable design and sturdy construction make it perfect for any adventure, offering convenience, durability, and versatility. Key Features: Quick Assembly – No Tools Required – The table can be quickly set up or folded down without any tools, saving time and effort for your outdoor activities. Sturdy Construction – Made from durable aluminum alloy with stable foot caps, it supports up to 110 lbs and remains steady on various terrains. Lightweight & Portable – Weighing only 3.9 lbs and folding to 15.7” x 5.5”, it easily fits into the included storage bag for convenient transport. Anti-Scratch & Easy to Clean – Powder-coated tabletop is waterproof and simple to clean; just rinse or wipe with water without damaging the surface. Versatile Use – Ideal for camping, picnics, beach outings, BBQs, hiking, and other outdoor adventures. Weight may vary slightly depending on measurement method.",
     "currency": "USD",
     "specs": {
-      "weightKg": 2.15,
-      "weightDisplay": "~2.15 kg",
+      "weightKg": 1.77,
+      "weightDisplay": "~1.77 kg (3.9 lb)",
       "structure": "Camping furniture"
     },
     "highlights": [
@@ -4542,9 +4542,9 @@
     "sourceSite": "naturehike.com",
     "scrapedAt": "2026-07-03T14:45:15Z",
     "status": "draft",
-    "price": 49.99,
-    "priceMin": 49.99,
-    "priceMax": 49.99,
+    "price": 59.99,
+    "priceMin": 59.99,
+    "priceMax": 59.99,
     "inSummaryTable": false
   },
   {
@@ -4874,7 +4874,7 @@
       "weightDisplay": "~1.2 kg",
       "capacity": "1 ppl",
       "structure": "Sleeping Bag",
-      "comfortTemp": "3°F / -1.5°C",
+      "comfortTemp": "29.3°F / -1.5°C",
       "fillType": "羽绒",
       "bagType": "木乃伊"
     },
@@ -4904,8 +4904,8 @@
     "description": "Conquer the coldest and wettest snowlines with the Snowbird Mummy Down Sleeping Bag , designed for ultimate heat retention and protection against harsh winter conditions. Built with 650FP duck down and advanced insulation technology, this sleeping bag ensures warmth, comfort, and durability for all your winter adventures. Whether you're camping in sub-zero temperatures or trekking through snowy terrains, the Snowbird Mummy Down Sleeping Bag is your reliable companion for staying warm and dry. Key Features: Exceptional Warmth : Filled with 650FP high-quality duck down , the sleeping bag offers superior heat retention and prevents clumping, ensuring consistent warmth even in extreme cold. Windproof Design : Features dual windproof strips and a saddle-shaped neck collar (available in SP700 and SP1000 models) to block cold air and retain body heat. Comfortable Fit : The 3D foot box provides ample space for your feet, reducing restriction while enhancing warmth and comfort. Durable & Lightweight : Made with 20D nylon shell and lining (down-proof), this sleeping bag is both lightweight and durable, with a compact storage size for easy portability. YKK Two-Way Zipper : Equipped with a high-quality YKK zipper for smooth, snag-free operation and flexible ventilation options. Product Specifications: Model SP400 SP700 SP1000 Down Filling 400g (650FP Duck Down) 700g (650FP Duck Down) 1000g (650FP Duck Down) Dimensions M: 190×75cm / L: 205×80cm M: 190×75cm / L: 205×80cm M: 190×75cm / L: 2",
     "currency": "USD",
     "specs": {
-      "weightKg": 1.5,
-      "weightDisplay": "~1.5 kg",
+      "weightKg": 1.2,
+      "weightDisplay": "~1.20 kg (M size)",
       "capacity": "1 ppl",
       "structure": "Sleeping Bag",
       "comfortTemp": "19°F / -7.3°C",
@@ -4924,8 +4924,8 @@
     "sourceSite": "naturehike.com",
     "scrapedAt": "2026-07-03T14:45:05Z",
     "status": "draft",
-    "price": 199.99,
-    "priceMin": 199.99,
+    "price": 159.0,
+    "priceMin": 159.0,
     "priceMax": 199.99
   },
   {

@@ -9,6 +9,9 @@
     "description": "2021 New Version 2 person tent Type: 3 Season Tent 2 person 2 layer Inner size: 220*110*125cm (L*W*H) Flysheet: 15D Nylon (Waterproof Index 5000mm) Inner tent: High density mesh Bottom of Tent: 20D Nylon (Waterproof Index 8000mm) Color: gray /green/Khaki (As Shown) Weight: 1155 grams List: inner tent *1,outer tent*1, ground nail *8, wind rope *2 NOTICE:The alpenstock(walking stick) is NOT included.",
     "currency": "USD",
     "specs": {
+      "weightKg": 1.155,
+      "weightDisplay": "~1.155 kg",
+      "capacity": "2 ppl",
       "structure": "Flames Creed Tent"
     },
     "highlights": [
@@ -56,14 +59,16 @@
   {
     "id": "flames-creed-flames-creed-210150cm-15d-tarp-shelter-groundsheet",
     "brandId": "flames-creed",
-    "category": "tarp",
-    "subcategory": "Flames Creed Tarp",
+    "category": "other",
+    "subcategory": "Groundsheets",
     "model": "FLAME’S CREED 210*150cm 15D Tarp Shelter Groundsheet",
     "modelEn": "FLAME’S CREED 210*150cm 15D Tarp Shelter Groundsheet",
-    "description": "",
+    "description": "A 210 x 150 cm 15D nylon groundsheet for protecting a shelter floor from wet or abrasive ground.",
     "currency": "USD",
     "specs": {
-      "structure": "Flames Creed Tarp"
+      "weightKg": 0.3,
+      "weightDisplay": "~0.30 kg",
+      "structure": "Groundsheet"
     },
     "highlights": [],
     "imageUrl": "https://ae01.alicdn.com/kf/HTB1w4A2XkCy2eVjSZSyq6xukVXaH/FLAME-S-CREED-210-150cm-15D-Silicone-High-Quality-Ultralight-Outdoor-Large-Tarp-Shelter-High-Quality.jpg",
@@ -75,7 +80,9 @@
     "published": true,
     "price": 0.0,
     "priceMin": 0.0,
-    "priceMax": 0.0
+    "priceMax": 0.0,
+    "inSummaryTable": false,
+    "inDetailCards": false
   },
   {
     "id": "flames-creed-flames-creed-33m-tarp-ultralight-15d-nylon-silicone-coating",
@@ -167,6 +174,9 @@
     "description": "1 person tent Type: 3 Season Tent 1 person 2 layer Inner size: 210*75*120cm (L*W*H) Flysheet:15D Nylon (Waterproof Index 5000mm) Inner tent:High density mesh Bottom of Tent:20D Nylon (Waterproof Index 8000mm) Color:Gray /Yellow/Khaki/Green (As Shown) Weight:845 grams List: inner tent *1 ,outer tent *1 , ground nail *9, wind rope *2 NOTE:the trekking pole and mat is NOT included.",
     "currency": "USD",
     "specs": {
+      "weightKg": 0.845,
+      "weightDisplay": "~0.845 kg",
+      "capacity": "1 ppl",
       "structure": "Flames Creed Tent"
     },
     "highlights": [
@@ -221,6 +231,9 @@
     "description": "This tent need seam-sealed by yourself! (due to the glue is the contraband of logistics, so it is Not included) Specifications: Brand: FLAME’S CREED Item NO: LanShan 2 Pro Inner size: 230*120*115cm (L*W*H) Flysheet:20D 2 side Silnylon(Waterproof Index2000mm) Inner tent: No-See-Um mesh / Breathable nylon Color: Dark Green / Khaki /Gray (As Shown) Weight: 1050 grams NOTICE:The alpenstock(walking stick) is NOT included.",
     "currency": "USD",
     "specs": {
+      "weightKg": 1.05,
+      "weightDisplay": "~1.05 kg",
+      "capacity": "2 ppl",
       "structure": "Flames Creed Tent"
     },
     "highlights": [
@@ -268,10 +281,13 @@
     "subcategory": "Flames Creed Tent",
     "model": "FLAME’S CREED TAIJI 2 15D Ultralight Tent Freestanding tent",
     "modelEn": "FLAME’S CREED TAIJI 2 15D Ultralight Tent Freestanding tent",
-    "description": "",
+    "description": "A two-person freestanding 15D nylon tent with four-season positioning and an official listed weight of 2.5 kg.",
     "currency": "USD",
     "specs": {
-      "structure": "Flames Creed Tent"
+      "weightKg": 2.5,
+      "weightDisplay": "~2.50 kg",
+      "capacity": "2 ppl",
+      "structure": "Freestanding tent"
     },
     "highlights": [],
     "imageUrl": "https://ae01.alicdn.com/kf/S9069fbcdef33477c9e9657b4c241a757S/FLAME-S-CREED-TAIJI-2-15D-Nylon-Camping-Ultralight-Tent-Outdoor-2-Persons-3-4-Season.jpg",
@@ -292,10 +308,13 @@
     "subcategory": "Tent",
     "model": "FLAME’S CREED TrailStar Ultralight Tarp Tent 20D Nylon",
     "modelEn": "FLAME’S CREED TrailStar Ultralight Tarp Tent 20D Nylon",
-    "description": "",
+    "description": "A 20D nylon trekking-pole tarp tent for one or two people, with an official listed shelter weight of 0.5 kg.",
     "currency": "USD",
     "specs": {
-      "structure": "Flames Creed Tarp"
+      "weightKg": 0.5,
+      "weightDisplay": "~0.50 kg",
+      "capacity": "2 ppl",
+      "structure": "Trekking-pole tarp tent"
     },
     "highlights": [],
     "imageUrl": "https://ae01.alicdn.com/kf/Safdb0284481c439d8323c21d462f8b44K/FLAME-S-CREED-TrailStar-Camping-Tent-Ultralight-1-2-Person-Outdoor-20D-Nylon-Both-Sides-Silicon.jpg",
@@ -316,10 +335,13 @@
     "subcategory": "Tent",
     "model": "FLAME’S CREED Ultralight 20D Tarp Tent Nylon Zipper Rainfly",
     "modelEn": "FLAME’S CREED Ultralight 20D Tarp Tent Nylon Zipper Rainfly",
-    "description": "",
+    "description": "A zippered 20D nylon tarp tent or rainfly for one or two people, with an official listed weight of 0.75 kg.",
     "currency": "USD",
     "specs": {
-      "structure": "Flames Creed Tarp"
+      "weightKg": 0.75,
+      "weightDisplay": "~0.75 kg",
+      "capacity": "2 ppl",
+      "structure": "Tarp tent"
     },
     "highlights": [],
     "imageUrl": "https://ae01.alicdn.com/kf/HTB1vMLqOYrpK1RjSZTEq6AWAVXas/FLAME-S-CREED-Double-Side-Silicon-Coated-Ultra-light-20D-Nylon-Outdoor-Tarp-Shelter-Professional-Beach.jpg",

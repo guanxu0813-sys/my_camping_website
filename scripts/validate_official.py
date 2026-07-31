@@ -134,7 +134,8 @@ def quality_issues(product: dict) -> list[tuple[int, str]]:
 
     if not str(product.get("description") or "").strip():
         issues.append((1, "missing description"))
-    if ACCESSORY_PATTERN.search(model):
+    is_tent_bundle = re.search(r"\btent\s*&\s*footprint\b", model, re.IGNORECASE)
+    if ACCESSORY_PATTERN.search(model) and not is_tent_bundle:
         score = 4 if product.get("inSummaryTable") is not False else 2
         issues.append((score, "accessory candidate; review indexability"))
     if not str(product.get("sourceUrl") or "").startswith("https://"):

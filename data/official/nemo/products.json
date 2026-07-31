@@ -87,7 +87,8 @@
     "description": "Offering massive interior space that’s truly unmatched for its weight class, Aurora™ is a worthy investment for the adventurer that loves a roomy shelter when car camping and backpacking. Updated with premium hardware and features, this tent now also measures up to NEMO’s high sustainability standards with a PFAS-, FRC-free fabric suite and bluesign® approved recycled floor. Aurora’s vertical sidewalls and massive doors allow for comfortable side-by-side seating and the lightweight aluminum pole set includes a custom forged hub, part of NEMO’s new Elements™ hardware collection. Interior gear pockets keep personal items organized and at hand, while overhead Nightlight Pockets™ diffuse headlamp light to cast a warm glow at night. Packed in a Divvy Cube™ stuff sack, Aurora can be more efficiently stowed in a backpack, especially when the poles are removed to share the weight with a friend. A complementary tent footprint is included to help extend the lifespan of the tent, protecting it from rough terrain and abrasion.",
     "currency": "USD",
     "specs": {
-      "structure": "Tents"
+      "capacity": "2-3 ppl",
+      "structure": "Freestanding tent"
     },
     "highlights": [
       "Offering massive interior space that’s truly unmatched for its weight class, Aurora™ is a worthy investment for the adventurer that loves a roomy shelter when car camping and backpacking. Updated with premium hardware and features, this tent now also measures up to NEMO’s high sustainability standards with a PFAS-, FRC-free fabric suite and bluesign® approved recycled floor. Aurora’s vertical side"
@@ -268,8 +269,8 @@
   {
     "id": "nemo-dragonfly-bikepack-footprint",
     "brandId": "nemo",
-    "category": "tent",
-    "subcategory": "Tents",
+    "category": "other",
+    "subcategory": "Footprints",
     "model": "Dragonfly™ Bikepack OSMO™ Footprint",
     "modelEn": "Dragonfly™ Bikepack OSMO™ Footprint",
     "description": "This NEMO footprint is an abrasion-resistant polyester tarp perfectly sized to fit underneath your corresponding NEMO tent. Adding this layer of durable, waterproof fabric reduces wear and tear on your tent floor, which can be caused by camping on rough or rocky ground.",
@@ -289,7 +290,9 @@
     "published": true,
     "price": 42.0,
     "priceMin": 42.0,
-    "priceMax": 49.0
+    "priceMax": 49.0,
+    "inSummaryTable": false,
+    "inDetailCards": false
   },
   {
     "id": "nemo-dragonfly-osmo-bikepack",

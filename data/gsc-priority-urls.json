@@ -1,41 +1,153 @@
 {
-  "exportDate": "2026-07-28",
-  "source": "Google Search Console performance export",
-  "day3ReviewDate": "2026-07-31",
-  "method": "Keep URLs already present in the 2026-07-28 GSC performance export, then add close product-family siblings that can support focused internal links and reviewed guide topics. Do not publish generated pages without editorial approval.",
+  "exportDate": "2026-07-31",
+  "period": {
+    "start": "2026-07-02",
+    "end": "2026-07-29",
+    "label": "past 28 days"
+  },
+  "source": "Google Search Console Performance export",
+  "sourceFiles": {
+    "queries": "data/gsc/2026-07-31/查询数.csv",
+    "pages": "data/gsc/2026-07-31/网页.csv",
+    "filters": "data/gsc/2026-07-31/过滤器.csv"
+  },
+  "comparison": {
+    "current28DayClicks": 26,
+    "previous28DayClicks": 2,
+    "current28DayImpressions": 1320,
+    "previous28DayImpressions": 15,
+    "impressionGrowthPercent": 8700,
+    "source": "GSC previous-period comparison viewed on 2026-07-31"
+  },
+  "method": "Prioritize pages with measurable GSC demand in one of two bands: average position 4-15 with low CTR, or position 16-30 during a sitewide impressions expansion from 15 to 1,320. Confirm guide themes with matching query clusters and existing product records; exclude topics already covered by a published guide.",
   "urls": [
+    "https://www.campgearcompare.com/tent.html",
     "https://www.campgearcompare.com/products/naturehike-giling-protm-1-person-backpacking-tent.html",
+    "https://www.campgearcompare.com/sleeping-bag.html",
+    "https://www.campgearcompare.com/products/naturehike-snowbird-sp700-down-mummy-sleeping-bag.html",
+    "https://www.campgearcompare.com/sleeping-pad.html",
+    "https://www.campgearcompare.com/products/naturehike-mongartm-base-3-person-ultralight-backpacking-tent.html",
     "https://www.campgearcompare.com/products/naturehike-peaklite-yl01-ultralight-folding-camping-table.html",
     "https://www.campgearcompare.com/products/naturehike-mongartm-pro-1-person-ultralight-backpacking-tent.html",
     "https://www.campgearcompare.com/products/naturehike-snowbirdtm-sp550-down-mummy-sleeping-bag-29-3-f-1-5-c.html",
-    "https://www.campgearcompare.com/products/naturehike-suntherm-m300-synthetic-sleeping-bag.html",
-    "https://www.campgearcompare.com/products/asta-gear-astagear-vista-2-person-lightweight-tent-outdoor-hiking-camping-shelter-rainproof-wind-resistant.html",
-    "https://www.campgearcompare.com/products/naturehike-giling-protm-2-person-backpacking-tent.html",
-    "https://www.campgearcompare.com/products/naturehike-mongar-pro-2-person-ultralight-backpacking-tent.html",
-    "https://www.campgearcompare.com/products/naturehike-snowbird-sp700-down-mummy-sleeping-bag.html",
-    "https://www.campgearcompare.com/products/naturehike-suntherm-m400-synthetic-sleeping-bag.html"
+    "https://www.campgearcompare.com/brands/nemo-tarp.html"
+  ],
+  "priorityDetails": [
+    {
+      "priority": 1,
+      "url": "https://www.campgearcompare.com/tent.html",
+      "clicks": 0,
+      "impressions": 97,
+      "ctrPercent": 0,
+      "position": 10.89,
+      "opportunity": "low-ctr-position-4-15"
+    },
+    {
+      "priority": 2,
+      "url": "https://www.campgearcompare.com/products/naturehike-giling-protm-1-person-backpacking-tent.html",
+      "clicks": 0,
+      "impressions": 46,
+      "ctrPercent": 0,
+      "position": 9.57,
+      "opportunity": "low-ctr-position-4-15"
+    },
+    {
+      "priority": 3,
+      "url": "https://www.campgearcompare.com/sleeping-bag.html",
+      "clicks": 1,
+      "impressions": 44,
+      "ctrPercent": 2.27,
+      "position": 24.68,
+      "opportunity": "position-16-30-during-impression-growth"
+    },
+    {
+      "priority": 4,
+      "url": "https://www.campgearcompare.com/products/naturehike-snowbird-sp700-down-mummy-sleeping-bag.html",
+      "clicks": 2,
+      "impressions": 42,
+      "ctrPercent": 4.76,
+      "position": 9.38,
+      "opportunity": "exact-model-query-support"
+    },
+    {
+      "priority": 5,
+      "url": "https://www.campgearcompare.com/sleeping-pad.html",
+      "clicks": 0,
+      "impressions": 34,
+      "ctrPercent": 0,
+      "position": 19.12,
+      "opportunity": "position-16-30-during-impression-growth"
+    },
+    {
+      "priority": 6,
+      "url": "https://www.campgearcompare.com/products/naturehike-mongartm-base-3-person-ultralight-backpacking-tent.html",
+      "clicks": 1,
+      "impressions": 30,
+      "ctrPercent": 3.33,
+      "position": 8.63,
+      "opportunity": "exact-model-query-support"
+    },
+    {
+      "priority": 7,
+      "url": "https://www.campgearcompare.com/products/naturehike-peaklite-yl01-ultralight-folding-camping-table.html",
+      "clicks": 0,
+      "impressions": 28,
+      "ctrPercent": 0,
+      "position": 7.07,
+      "opportunity": "low-ctr-position-4-15"
+    },
+    {
+      "priority": 8,
+      "url": "https://www.campgearcompare.com/products/naturehike-mongartm-pro-1-person-ultralight-backpacking-tent.html",
+      "clicks": 0,
+      "impressions": 25,
+      "ctrPercent": 0,
+      "position": 11.76,
+      "opportunity": "low-ctr-position-4-15"
+    },
+    {
+      "priority": 9,
+      "url": "https://www.campgearcompare.com/products/naturehike-snowbirdtm-sp550-down-mummy-sleeping-bag-29-3-f-1-5-c.html",
+      "clicks": 0,
+      "impressions": 24,
+      "ctrPercent": 0,
+      "position": 12.25,
+      "opportunity": "low-ctr-position-4-15"
+    },
+    {
+      "priority": 10,
+      "url": "https://www.campgearcompare.com/brands/nemo-tarp.html",
+      "clicks": 0,
+      "impressions": 24,
+      "ctrPercent": 0,
+      "position": 16.46,
+      "opportunity": "position-16-30-during-impression-growth"
+    }
   ],
   "guideThemes": [
     {
       "priority": 1,
-      "status": "review",
-      "slug": "naturehike-giling-pro-1-vs-2",
+      "status": "confirmed",
+      "slug": "naturehike-giling-pro-models-compared",
       "topic": "Naturehike Giling Pro 1 vs 2",
-      "intent": "capacity and weight comparison for a product family with GSC product-page signal"
+      "queryClusterImpressions": 13,
+      "evidence": "Five Giling Pro queries produced 13 impressions; the Giling Pro 1 page produced 46 impressions at position 9.57 with 0% CTR, and both 1-person and 2-person records exist."
     },
     {
       "priority": 2,
-      "status": "review",
-      "slug": "naturehike-snowbird-models-compared",
-      "topic": "Naturehike Snowbird sleeping bags compared",
-      "intent": "temperature, fill amount, weight and price comparison around the SP550 page already seen in GSC"
+      "status": "confirmed",
+      "slug": "naturehike-mongar-base-models-compared",
+      "topic": "Naturehike Mongar Base 2 vs 3",
+      "queryClusterImpressions": 14,
+      "evidence": "Three Mongar Base queries produced 14 impressions; the Mongar Base 3 page produced 30 impressions and one click at position 8.63, and both 2-person and 3-person records exist."
     },
     {
       "priority": 3,
-      "status": "review",
-      "slug": "naturehike-peaklite-tables-compared",
-      "topic": "Naturehike PeakLite folding tables compared",
-      "intent": "shopping comparison around the YL01 table page already seen in GSC"
+      "status": "confirmed",
+      "slug": "nemo-tarps-and-shelters-compared",
+      "topic": "NEMO tarps and shelters compared",
+      "queryClusterImpressions": 20,
+      "evidence": "The query 'nemo tarp tents' produced 19 impressions at position 17.47; the NEMO tarp hub produced 24 impressions at position 16.46, with three published NEMO tarp or shelter records available for a factual comparison."
     }
   ]
 }

@@ -360,7 +360,7 @@
   {
     "id": "aegismax-aegismax-sleeping-bag-pack-stuff-sack-storage-carry-bag",
     "brandId": "aegismax",
-    "category": "sleeping-bag",
+    "category": "other",
     "subcategory": "Aegismax Accessories",
     "model": "AEGISMAX Sleeping Bag Pack Stuff Sack Storage Carry Bag",
     "modelEn": "AEGISMAX Sleeping Bag Pack Stuff Sack Storage Carry Bag",
@@ -381,7 +381,9 @@
     "published": true,
     "price": 13.2,
     "priceMin": 13.2,
-    "priceMax": 13.2
+    "priceMax": 13.2,
+    "inSummaryTable": false,
+    "inDetailCards": false
   },
   {
     "id": "aegismax-aegismax-ultra-light-90-white-duck-down-sleeping-bag-open-square",

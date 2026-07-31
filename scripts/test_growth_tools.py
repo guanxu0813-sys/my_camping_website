@@ -62,6 +62,13 @@ class GrowthToolTests(unittest.TestCase):
         }
         self.assertTrue(build_sitemap.is_low_value_accessory(product))
 
+    def test_tent_with_included_footprint_is_not_an_accessory(self) -> None:
+        product = {
+            "model": "Aurora Backpacking Tent & Footprint",
+            "category": "tent",
+        }
+        self.assertFalse(build_sitemap.is_low_value_accessory(product))
+
 
 if __name__ == "__main__":
     unittest.main()

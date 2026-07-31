@@ -2,42 +2,60 @@
 
 Date: 2026-07-31
 
-## Inputs Reviewed
+Status: Complete
 
-- `docs/growth-metrics.csv`: baseline row has 16 GSC clicks, 879 impressions, 1.82% CTR, 15.28 average position, 453 indexed URLs, 14 published guides.
-- `docs/growth-status.md`: M1 decision is `BASELINE`; collect seven complete GA4 days before applying the traffic gate.
-- `docs/gsc-indexing-log.csv`: GSC child sitemap discovery is 26 core / 66 brands / 769 products; Bing sitemap submission is successful; IndexNow key and manual submit are verified.
-- `data/gsc-priority-urls.json`: 2026-07-28 GSC performance export lists 6 product URLs with search signal.
-- `data/reports/guide-candidates.csv`: review-only guide candidates are available; they must be verified before approval.
+## Source Data
 
-## Data Limitation
+- GSC period: 2026-07-02 through 2026-07-29 (past 28 days).
+- Raw export: 192 query rows and 306 page rows in `data/gsc/2026-07-31/`.
+- Current period: 26 clicks, 1,320 impressions, 2.0% CTR, average position 16.1.
+- Previous 28 days: 2 clicks and 15 impressions, observed with the GSC previous-period comparison.
+- Sitewide impression growth: 8,700%. Because the previous period is extremely small, this is treated as an emergence signal rather than a stable growth rate.
 
-The repository does not contain the full past-28-day GSC query/page export. The current analysis therefore uses the recorded GSC URL export plus product-family siblings that can support focused internal linking. Before publishing any new guide, export GSC Performance data by query and by page for the same 28-day window and confirm the query intent.
+## Selection Method
+
+Pages were selected when they met at least one of these conditions:
+
+1. Average position 4-15 with weak CTR relative to the available impressions.
+2. Average position 16-30 while the site moved from 15 to 1,320 impressions.
+3. A matching exact-model query cluster showed measurable impressions and the page can support a factual comparison.
+
+Guide themes also had to have matching product records and could not duplicate an already published guide.
 
 ## Ten Priority URLs
 
-| Priority | URL | Why it is prioritized | Day 3 action |
-| --- | --- | --- | --- |
-| 1 | `/products/naturehike-giling-protm-1-person-backpacking-tent.html` | Present in the GSC priority export; commercial solo tent comparison intent. | Review title/meta against queries; add stronger internal links from tent and guide pages. |
-| 2 | `/products/naturehike-mongartm-pro-1-person-ultralight-backpacking-tent.html` | Present in the GSC priority export; already supports the Giling Pro vs Mongar Pro guide. | Check CTR snippet and strengthen links from relevant Naturehike tent guide sections. |
-| 3 | `/products/naturehike-snowbirdtm-sp550-down-mummy-sleeping-bag-29-3-f-1-5-c.html` | Present in the GSC priority export; clear temperature/model comparison intent. | Link from sleeping bag category and Snowbird comparison content. |
-| 4 | `/products/naturehike-suntherm-m300-synthetic-sleeping-bag.html` | Present in the GSC priority export; synthetic sleeping bag model intent. | Compare title/meta with SunTherm M180/M400 sibling wording. |
-| 5 | `/products/naturehike-peaklite-yl01-ultralight-folding-camping-table.html` | Present in the GSC priority export; commercial table query intent. | Review whether table copy answers size, weight, price and use-case differences. |
-| 6 | `/products/asta-gear-astagear-vista-2-person-lightweight-tent-outdoor-hiking-camping-shelter-rainproof-wind-resistant.html` | Present in the GSC priority export; lightweight 2-person tent intent and already published. | Check page title length and internal links from lightweight tent content. |
-| 7 | `/products/naturehike-giling-protm-2-person-backpacking-tent.html` | Same product family as priority URL 1; needed for a reviewed 1-vs-2 comparison. | Add to review queue; do not publish a guide until query data confirms demand. |
-| 8 | `/products/naturehike-mongar-pro-2-person-ultralight-backpacking-tent.html` | Same product line as priority URL 2; supports Mongar Pro model exploration. | Use as supporting internal-link target from the existing Mongar/Giling guide. |
-| 9 | `/products/naturehike-snowbird-sp700-down-mummy-sleeping-bag.html` | Close sibling to priority URL 3 and already used in an approved SP700 vs SP550 guide. | Verify snippet and add cross-links among Snowbird records. |
-| 10 | `/products/naturehike-suntherm-m400-synthetic-sleeping-bag.html` | Close sibling to priority URL 4; useful for M300 vs warmer M400 intent. | Prepare comparison notes, then validate with query export before guide approval. |
+| Priority | URL | Clicks | Impressions | CTR | Position | Opportunity |
+| --- | --- | ---: | ---: | ---: | ---: | --- |
+| 1 | `/tent.html` | 0 | 97 | 0% | 10.89 | Highest-impression page with page-one visibility and no clicks. |
+| 2 | `/products/naturehike-giling-protm-1-person-backpacking-tent.html` | 0 | 46 | 0% | 9.57 | Page-one exact-model visibility; supported by a 13-impression Giling Pro query cluster. |
+| 3 | `/sleeping-bag.html` | 1 | 44 | 2.27% | 24.68 | Category page in the 16-30 improvement band during sitewide impression growth. |
+| 4 | `/products/naturehike-snowbird-sp700-down-mummy-sleeping-bag.html` | 2 | 42 | 4.76% | 9.38 | Strongest exact-model page; use it to strengthen the existing SP700 vs SP550 guide and sibling links. |
+| 5 | `/sleeping-pad.html` | 0 | 34 | 0% | 19.12 | Category page in the 16-30 band with no clicks. |
+| 6 | `/products/naturehike-mongartm-base-3-person-ultralight-backpacking-tent.html` | 1 | 30 | 3.33% | 8.63 | Exact-model demand; matching Mongar Base queries produced 14 impressions. |
+| 7 | `/products/naturehike-peaklite-yl01-ultralight-folding-camping-table.html` | 0 | 28 | 0% | 7.07 | High position and zero clicks; prioritize title and snippet review. |
+| 8 | `/products/naturehike-mongartm-pro-1-person-ultralight-backpacking-tent.html` | 0 | 25 | 0% | 11.76 | Improve snippet and links from the existing Giling Pro vs Mongar Pro guide. |
+| 9 | `/products/naturehike-snowbirdtm-sp550-down-mummy-sleeping-bag-29-3-f-1-5-c.html` | 0 | 24 | 0% | 12.25 | Improve snippet and links from the existing Snowbird comparison. |
+| 10 | `/brands/nemo-tarp.html` | 0 | 24 | 0% | 16.46 | The matching `nemo tarp tents` query had 19 impressions at position 17.47. |
 
-## Three Guide Themes To Review
+## Three Confirmed Guide Themes
 
-1. `naturehike-giling-pro-1-vs-2`: compare Giling Pro 1-person vs 2-person by capacity, listed weight, price and intended use. This expands from an existing GSC product URL without creating a broad unvalidated cluster.
-2. `naturehike-snowbird-models-compared`: compare Snowbird SP400, SP550, SP700 and SP1000 by temperature label, listed weight, fill amount and price. This builds around the SP550 URL already seen in GSC and can link to the existing SP700 vs SP550 guide.
-3. `naturehike-peaklite-tables-compared`: compare PeakLite FT07, FT08, L02, Y01 and YL01 tables by weight, price and packed-use case. This is a narrower furniture/table opportunity anchored by the YL01 GSC URL.
+1. `naturehike-giling-pro-models-compared` - **Naturehike Giling Pro 1 vs 2**
+   Evidence: five matching queries produced 13 impressions. The Giling Pro 1 page had 46 impressions at position 9.57 with no clicks, and both model records are present.
+
+2. `naturehike-mongar-base-models-compared` - **Naturehike Mongar Base 2 vs 3**
+   Evidence: three matching queries produced 14 impressions. The Mongar Base 3 page had 30 impressions and one click at position 8.63, and both model records are present.
+
+3. `nemo-tarps-and-shelters-compared` - **NEMO tarps and shelters compared**
+   Evidence: `nemo tarp tents` had 19 impressions at position 17.47, while the NEMO tarp hub had 24 impressions at position 16.46. Three published NEMO tarp or shelter records are available for comparison.
+
+## Topics Not Selected
+
+- Snowbird SP700 vs SP550 already has a published guide, so its signal should drive an update and stronger internal links rather than a duplicate article.
+- Giling Pro 1 vs Mongar Pro 1 already has a published guide. The new Giling theme compares capacities within the same product line instead.
+- PeakLite tables remain a future candidate, but the export contains no matching PeakLite query cluster, so the topic is not confirmed for next week.
 
 ## Day 4 Handoff
 
-- Export GSC Performance for the past 28 days by `Queries` and by `Pages`.
-- Match queries to the 10 priority URLs above, then sort by impressions first and clicks second.
-- Only approve a guide theme if at least one matching query cluster shows real impressions or a clear near-match commercial intent.
-- Keep `data/reports/guide-candidates.csv` as a review queue, not a publishing queue.
+- Use these ten URLs as the next-page optimization queue.
+- Keep all three guide themes in editorial review until official specifications and comparison takeaways are checked.
+- Do not bulk-publish generated guide candidates.

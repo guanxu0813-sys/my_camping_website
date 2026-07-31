@@ -500,6 +500,8 @@ def truncate_text(text: object, limit: int = 155) -> str:
 def is_low_value_accessory(product: dict) -> bool:
     """Identify non-comparable accessories that should not get standalone SEO pages."""
     model = str(product.get("model") or "")
+    if re.search(r"\btent\s*&\s*footprint\b", model, re.IGNORECASE):
+        return False
     if LOW_VALUE_ACCESSORY_PATTERN.search(model):
         return True
     return product.get("category") in {"tent", "tarp"} and re.search(
