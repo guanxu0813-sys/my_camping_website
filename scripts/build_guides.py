@@ -106,7 +106,7 @@ COMPARISON_GUIDES = [
     {
         "slug": "naturehike-snowbird-sp700-vs-sp550",
         "title": "Naturehike Snowbird SP700 vs SP550 — Temperature, Weight & Price",
-        "description": "Compare Naturehike Snowbird SP700 and SP550 down sleeping bags by model temperature, listed weight, fill power and official price.",
+        "description": "Choose Snowbird SP700 for the lower 19°F label or SP550 for milder trips and a lower starting price; compare current weight, fill and price data.",
         "eyebrow": "Cold-weather down sleeping bag comparison",
         "category": "sleeping-bag",
         "product_ids": [
@@ -115,21 +115,36 @@ COMPARISON_GUIDES = [
         ],
         "intro": (
             "The Snowbird SP700 targets colder trips with more down and a lower "
-            "temperature label, while the SP550 reduces carried weight and cost. "
-            "This page compares the exact records currently listed by Naturehike."
+            "temperature label, while the SP550 targets milder conditions at a "
+            "lower starting price. Their current representative catalog weights "
+            "are both about 1.2 kg, so warmth target matters more than model number."
+        ),
+        "verdict": (
+            "Choose the SP700 when the colder 19°F / -7.3°C brand label is the "
+            "priority. Choose the SP550 for milder 29.3°F / -1.5°C conditions "
+            "and the lower $149.99 starting price. Current representative weights "
+            "are both about 1.2 kg, so the SP550 has no clear normalized weight advantage."
+        ),
+        "reviewed_on": "2026-07-31",
+        "limitations": (
+            "This is a specification comparison, not a hands-on thermal test. The "
+            "temperature figures are Naturehike model labels, not independently "
+            "verified ISO comfort ratings. SP700 weight is the listed M-size value; "
+            "other sizes and current prices can differ. Check the linked official "
+            "variant before relying on a weight or temperature figure."
         ),
         "takeaways": [
             "<strong>Temperature label:</strong> the SP700 model is listed at 19°F / -7.3°C; the SP550 at 29.3°F / -1.5°C.",
-            "<strong>Weight:</strong> representative catalog weights are about 1.5 kg for the SP700 and 1.2 kg for the SP550.",
+            "<strong>Weight:</strong> current representative catalog weights are about 1.2 kg for both models; the SP700 figure is for M size.",
             "<strong>Insulation:</strong> both listings describe 650-fill-power duck down, but the model names represent different fill amounts and warmth targets.",
-            "<strong>Price:</strong> the SP550 starts lower; choose by the exact size and temperature requirement rather than model number alone.",
+            "<strong>Price:</strong> SP700 currently spans $159–$199.99, while SP550 spans $149.99–$169.99; compare the exact size rather than only the starting price.",
             "<strong>Temperature warning:</strong> brand model labels are not interchangeable with independently tested ISO comfort ratings.",
         ],
     },
     {
         "slug": "naturehike-giling-pro-1-vs-mongar-pro-1",
         "title": "Naturehike Giling Pro 1 vs Mongar Pro 1 — Weight & Season",
-        "description": "Compare Naturehike Giling Pro 1 and Mongar Pro 1 tents by listed weight, season positioning, structure, fabric and official price.",
+        "description": "Choose Giling Pro 1 for four-season positioning or Mongar Pro 1 for a 230 g lighter three-season setup; compare structure and price.",
         "eyebrow": "Naturehike solo tent comparison",
         "category": "tent",
         "product_ids": [
@@ -140,6 +155,20 @@ COMPARISON_GUIDES = [
             "These solo tents share the same current reference price but serve "
             "different use cases. Naturehike positions the Giling Pro for "
             "four-season protection and the lighter Mongar Pro for three-season trekking."
+        ),
+        "verdict": (
+            "Choose the Giling Pro 1 for its four-season positioning, semi-solid "
+            "inner and reinforced quick-pitch X-frame. Choose the Mongar Pro 1 for "
+            "three-season trips when its roughly 230 g lower listed weight and "
+            "freestanding double-wall layout are the better fit. Both currently list at $149."
+        ),
+        "reviewed_on": "2026-07-31",
+        "limitations": (
+            "This is a specification comparison, not a storm-worthiness test. "
+            "Season labels describe Naturehike's intended positioning and do not "
+            "guarantee performance in every winter or alpine condition. Listed "
+            "weights and the $149 reference prices can change by variant or market; "
+            "verify the linked official listings before purchase."
         ),
         "takeaways": [
             "<strong>Weight:</strong> the Mongar Pro is listed at about 1.97 kg, roughly 230 g lighter than the 2.2 kg Giling Pro.",
@@ -410,6 +439,29 @@ def comparison_page(
         if p.get("sourceUrl")
     )
     takeaways = "".join(f"<li>{item}</li>" for item in guide["takeaways"])
+    verdict = ""
+    if guide.get("verdict"):
+        verdict = (
+            '    <section class="static-panel" aria-labelledby="bottom-line">\n'
+            '      <h2 id="bottom-line">Bottom line</h2>\n'
+            f'      <p>{b.escape_html(guide["verdict"])}</p>\n'
+            "    </section>\n"
+        )
+    reviewed_note = ""
+    if guide.get("reviewed_on"):
+        reviewed_on = b.escape_html(guide["reviewed_on"])
+        reviewed_note = (
+            '      <p class="page__lead page__lead--compact">'
+            f'Data manually reviewed <time datetime="{reviewed_on}">{reviewed_on}</time>.'
+            "</p>\n"
+        )
+    limitations = guide.get(
+        "limitations",
+        "This is a specification comparison, not a hands-on review. Weights and "
+        "prices can vary by size, fabric, season and market. We use representative "
+        "values from brand listings and link the source so you can verify the exact "
+        "variant before buying.",
+    )
     product_links = "".join(
         f'<li><a href="{b.escape_html(b.product_path(p))}">'
         f"{b.escape_html(name)} — full specs</a></li>"
@@ -432,6 +484,7 @@ def comparison_page(
         f"Open full {b.escape_html(category_name.lower())} table</a>\n"
         "      </div>\n"
         "    </header>\n"
+        f"{verdict}"
         '    <section class="static-panel" aria-labelledby="spec-table">\n'
         '      <h2 id="spec-table">Official specs side by side</h2>\n'
         '      <div class="table-wrap"><table class="compare-table static-table">\n'
@@ -439,17 +492,15 @@ def comparison_page(
         f"        <tbody>{''.join(rows)}</tbody>\n"
         "      </table></div>\n"
         f'      <p class="page__lead page__lead--compact">Sources: {source_links}</p>\n'
+        f"{reviewed_note}"
         "    </section>\n"
         '    <section class="static-panel" aria-labelledby="takeaways">\n'
-        '      <h2 id="takeaways">How to choose</h2>\n'
+        '      <h2 id="takeaways">Evidence and decision points</h2>\n'
         f'      <ul class="static-link-list">{takeaways}</ul>\n'
         "    </section>\n"
         '    <section class="static-panel" aria-labelledby="methodology">\n'
         '      <h2 id="methodology">Method and limitations</h2>\n'
-        "      <p>This is a specification comparison, not a hands-on review. "
-        "Weights and prices can vary by size, fabric, season and market. We use "
-        "representative values from brand listings and link the source so you "
-        "can verify the exact variant before buying.</p>\n"
+        f"      <p>{b.escape_html(limitations)}</p>\n"
         "    </section>\n"
         '    <section class="static-panel" aria-labelledby="related-products">\n'
         '      <h2 id="related-products">Full product pages</h2>\n'
@@ -1066,4 +1117,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

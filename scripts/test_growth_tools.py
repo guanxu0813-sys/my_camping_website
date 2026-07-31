@@ -69,6 +69,23 @@ class GrowthToolTests(unittest.TestCase):
         }
         self.assertFalse(build_sitemap.is_low_value_accessory(product))
 
+    def test_search_priority_guides_have_reviewed_answers(self) -> None:
+        priority_slugs = {
+            "naturehike-snowbird-sp700-vs-sp550",
+            "naturehike-giling-pro-1-vs-mongar-pro-1",
+        }
+        guides = {
+            guide["slug"]: guide for guide in build_guides.all_comparison_guides()
+        }
+        for slug in priority_slugs:
+            guide = guides[slug]
+            self.assertTrue(guide["verdict"])
+            self.assertRegex(guide["reviewed_on"], r"^\d{4}-\d{2}-\d{2}$")
+            self.assertTrue(guide["limitations"])
+
+        snowbird = guides["naturehike-snowbird-sp700-vs-sp550"]
+        self.assertNotIn("1.5 kg", " ".join(snowbird["takeaways"]))
+
 
 if __name__ == "__main__":
     unittest.main()
