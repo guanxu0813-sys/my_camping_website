@@ -134,6 +134,43 @@ class GrowthToolTests(unittest.TestCase):
             growth_report.comparison_number(latest, previous, "total_visits")
         )
 
+    def test_day_seven_tiger_wall_guide_is_reviewed_and_cross_linked(self) -> None:
+        guides = {
+            guide["slug"]: guide
+            for guide in build_guides.all_collection_guides()
+        }
+        tiger_slug = "big-agnes-tiger-wall-models-compared"
+        copper_slug = "big-agnes-copper-spur-ul1-vs-ul2"
+        tiger = guides[tiger_slug]
+        copper = guides[copper_slug]
+        expected_ids = {
+            "big-agnes-tiger-wall-platinum-two-tent",
+            "big-agnes-tiger-wall-platinum-three-tent",
+            "big-agnes-tiger-wall-ul-one",
+            "big-agnes-tiger-wall-ul1-bikepack",
+            "big-agnes-tiger-wall-ul-two",
+            "big-agnes-tiger-wall-ul2-bikepack",
+            "big-agnes-tiger-wall-ul-three",
+            "big-agnes-tiger-wall-ul3-bikepack",
+        }
+        self.assertEqual(set(tiger["product_ids"]), expected_ids)
+        self.assertTrue(tiger["verdict"])
+        self.assertTrue(tiger["limitations"])
+        self.assertEqual(tiger["brand_id"], "big-agnes")
+        self.assertIn(
+            copper_slug,
+            {item["slug"] for item in tiger["related_guides"]},
+        )
+        self.assertIn(
+            tiger_slug,
+            {item["slug"] for item in copper["related_guides"]},
+        )
+
+        tiger_path = f"/guides/{tiger_slug}.html"
+        for product_id in expected_ids:
+            product_links = build_guides.guide_links_by_product()[product_id]
+            self.assertIn(tiger_path, {path for path, _ in product_links})
+
 
 if __name__ == "__main__":
     unittest.main()

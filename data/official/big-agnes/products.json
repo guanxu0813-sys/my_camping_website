@@ -2419,7 +2419,8 @@
     "specs": {
       "weightKg": 0.99,
       "weightDisplay": "~0.99 kg",
-      "structure": "TENTS"
+      "capacity": "2-person",
+      "structure": "Semi-freestanding"
     },
     "highlights": [
       "Featuring the lightest-yet iteration of our revolutionary HyperBead® fabric, the redesigned Tiger Wall Platinum is one of the lightest freestanding shelters on the market. Two doors, two vestibules, and all the features you need for backcountry comfort - without the weight and bulk of extra frills. Designed for efficiency, the Tiger Wall Platinum is built for fast and light trail missions where ev"
@@ -2447,7 +2448,8 @@
     "specs": {
       "weightKg": 1.11,
       "weightDisplay": "~1.11 kg",
-      "structure": "TENTS"
+      "capacity": "3-person",
+      "structure": "Semi-freestanding"
     },
     "highlights": [
       "Featuring the lightest-yet iteration of our revolutionary HyperBead® fabric, the redesigned Tiger Wall Platinum is one of the lightest freestanding shelters on the market. Two doors, two vestibules, and all the features you need for backcountry comfort - without the weight and bulk of extra frills. Designed for efficiency, the Tiger Wall Platinum is built for fast and light trail missions where ev"
@@ -2475,7 +2477,8 @@
     "specs": {
       "weightKg": 0.85,
       "weightDisplay": "~0.85 kg",
-      "structure": "TENTS"
+      "capacity": "1-person",
+      "structure": "Semi-freestanding"
     },
     "highlights": [
       "Lighter, stronger, and more waterproof than ever thanks to our proprietary HyperBead® fabric, the Tiger Wall UL is ideal for minimalists looking for a side entry, ultralight tent. Defined by its high-volume, single pole architecture with large side entry doors and generous vestibule space, this tent is a favorite for backcountry adventures for good reason. Single pole architecture using DAC Feathe"
@@ -2503,7 +2506,8 @@
     "specs": {
       "weightKg": 1.19,
       "weightDisplay": "~1.19 kg",
-      "structure": "TENTS"
+      "capacity": "1-person",
+      "structure": "Semi-freestanding"
     },
     "highlights": [
       "Designed for two wheeled travel on road and trail, the Tiger Wall UL Bikepack is ready for any adventure. Ultralight HyperBead® fabric technology combined with a specialized dry bag stuff sack means this tent is more durable and waterproof both on your bike and at camp. A shorter packed size due to our 12\" Shortstik pole set, and daisy chain loops integrated into the stuff sack make the Tiger Wall"
@@ -2531,7 +2535,8 @@
     "specs": {
       "weightKg": 0.99,
       "weightDisplay": "~0.99 kg",
-      "structure": "TENTS"
+      "capacity": "2-person",
+      "structure": "Semi-freestanding"
     },
     "highlights": [
       "Lighter, stronger, and more waterproof than ever thanks to our proprietary HyperBead® fabric, the Tiger Wall UL is ideal for minimalists looking for a side entry, ultralight tent. Defined by its high-volume, single pole architecture with large side entry doors and generous vestibule space, this tent is a favorite for backcountry adventures for good reason. Single pole architecture using DAC Feathe"
@@ -2559,7 +2564,8 @@
     "specs": {
       "weightKg": 1.36,
       "weightDisplay": "~1.36 kg",
-      "structure": "TENTS"
+      "capacity": "2-person",
+      "structure": "Semi-freestanding"
     },
     "highlights": [
       "Designed for two wheeled travel on road and trail, the Tiger Wall UL Bikepack is ready for any adventure. Ultralight HyperBead® fabric technology combined with a specialized dry bag stuff sack means this tent is more durable and waterproof both on your bike and at camp. A shorter packed size due to our 12\" Shortstik pole set, and daisy chain loops integrated into the stuff sack make the Tiger Wall"
@@ -2587,7 +2593,8 @@
     "specs": {
       "weightKg": 1.19,
       "weightDisplay": "~1.19 kg",
-      "structure": "TENTS"
+      "capacity": "3-person",
+      "structure": "Semi-freestanding"
     },
     "highlights": [
       "Lighter, stronger, and more waterproof than ever thanks to our proprietary HyperBead® fabric, the Tiger Wall UL is ideal for minimalists looking for a side entry, ultralight tent. Defined by its high-volume, single pole architecture with large side entry doors and generous vestibule space, this tent is a favorite for backcountry adventures for good reason. Single pole architecture using DAC Feathe"
@@ -2615,7 +2622,8 @@
     "specs": {
       "weightKg": 1.5,
       "weightDisplay": "~1.5 kg",
-      "structure": "TENTS"
+      "capacity": "3-person",
+      "structure": "Semi-freestanding"
     },
     "highlights": [
       "\"The features you know from our award-winning line of Tiger Wall UL tents have been enhanced and equipped with functions you need for two-wheeled travel. Now using solution-dyed fabric that is highly resistant to UV fade and drastically reduces energy consumption and water use during manufacturing, a process that is better for the environment and improves the quality of the tent fabric. Built for "

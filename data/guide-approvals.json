@@ -9,6 +9,12 @@
       "eyebrow": "Manually reviewed Copper Spur range guide",
       "category": "tent",
       "brand_id": "big-agnes",
+      "related_guides": [
+        {
+          "slug": "big-agnes-tiger-wall-models-compared",
+          "label": "Compare the full Big Agnes Tiger Wall range"
+        }
+      ],
       "product_ids": [
         "big-agnes-copper-spur-ul-one",
         "big-agnes-copper-spur-ul1-bikepack",
@@ -31,6 +37,48 @@
         "<strong>Shared platform:</strong> all eight official listings describe a three-season, fully freestanding Copper Spur design using HyperBead fabric."
       ],
       "limitations": "This is a specification-based buying guide, not a hands-on durability or weather test. Weight values are representative normalized catalog values in our official-source dataset; Big Agnes may separately publish packed, trail or component weights, so do not treat these figures as interchangeable. Prices and availability were checked on 2026-08-03 and can change by market or promotion. The guide covers the current standard UL1/UL2/UL3, Bikepack and XL branches; it intentionally excludes older HV records, mtnGLO variants and larger UL4/UL5 models."
+    },
+    {
+      "status": "approved",
+      "type": "collection",
+      "slug": "big-agnes-tiger-wall-models-compared",
+      "title": "Big Agnes Tiger Wall Models Compared — Platinum, UL & Bikepack",
+      "description": "Compare eight Big Agnes Tiger Wall models by capacity, representative catalog weight, semi-freestanding architecture, official price and intended use.",
+      "eyebrow": "Manually reviewed Tiger Wall range guide",
+      "category": "tent",
+      "brand_id": "big-agnes",
+      "related_guides": [
+        {
+          "slug": "big-agnes-copper-spur-ul1-vs-ul2",
+          "label": "Compare the full Big Agnes Copper Spur range"
+        },
+        {
+          "slug": "big-agnes-tiger-wall-ul2-vs-copper-spur-ul2",
+          "label": "Tiger Wall UL2 vs Copper Spur UL2"
+        }
+      ],
+      "product_ids": [
+        "big-agnes-tiger-wall-ul-one",
+        "big-agnes-tiger-wall-ul1-bikepack",
+        "big-agnes-tiger-wall-ul-two",
+        "big-agnes-tiger-wall-ul2-bikepack",
+        "big-agnes-tiger-wall-platinum-two-tent",
+        "big-agnes-tiger-wall-ul-three",
+        "big-agnes-tiger-wall-platinum-three-tent",
+        "big-agnes-tiger-wall-ul3-bikepack"
+      ],
+      "intro": "Tiger Wall is a three-season, semi-freestanding tent family built around low weight and side entry. Capacity identifies sleeping space; Platinum, standard UL and Bikepack identify different materials, feature sets and packing priorities. Those choices should be compared within the same capacity before treating any weight difference as meaningful.",
+      "verdict": "Choose the standard UL1, UL2 or UL3 as the default backpacking option for the capacity you need. Pay for Platinum only when its lighter 7D fabric and stripped-back fast-and-light design matter more than price; the representative UL2 and Tiger Wall 2 Platinum records both weigh about 0.99 kg, so the Platinum name alone does not guarantee a lower comparable total. Choose Bikepack only when the 12-inch pole set, waterproof mounting sack and bike storage features solve a real packing problem.",
+      "reviewed_on": "2026-08-03",
+      "takeaways": [
+        "<strong>Capacity is not a performance tier:</strong> UL1 is the one-person branch, while UL2/Platinum 2 and UL3/Platinum 3 are the two- and three-person branches. A larger number describes space, not automatic weather strength or overall quality.",
+        "<strong>Standard UL baseline:</strong> representative catalog weights are about 0.85 kg for UL1, 0.99 kg for UL2 and 1.19 kg for UL3, with reviewed official prices of $469.95, $499.95 and $579.95.",
+        "<strong>Platinum trade-off:</strong> Tiger Wall 2 Platinum and UL2 both normalize to about 0.99 kg in this catalog, while Platinum costs $200 more. Tiger Wall 3 Platinum is about 80 g lighter than UL3 but costs $170 more. Platinum uses lighter 7D HyperBead fabric and a reduced feature set; it is not a capacity upgrade.",
+        "<strong>Current Bikepack trade-off:</strong> UL1 Bikepack adds about 340 g and $30 over UL1; UL2 Bikepack adds about 370 g and $50 over UL2. Big Agnes lists a 12-inch Shortstik pole set, waterproof dry-bag stuff sack and bike-mounting loops as the reason to choose them.",
+        "<strong>UL3 Bikepack warning:</strong> the listed UL3 Bikepack Solution Dye record is an older, separate solution-dyed model at a temporary $467.45 sale price. Its 1.5 kg representative weight and discount should not be used as the normal price trend for the current UL1/UL2 Bikepack range.",
+        "<strong>Shared architecture:</strong> Big Agnes describes the reviewed Tiger Wall models as three-season and semi-freestanding. Capacity and material changes do not establish stronger wind or rain performance without a separate test."
+      ],
+      "limitations": "This is a specification-based selection guide, not a hands-on weather, durability or livability test. Weights are representative normalized catalog values and may not use the same packed, trail or minimum basis shown elsewhere by the manufacturer. Prices and availability were checked on 2026-08-03 and can change. The UL3 Bikepack Solution Dye is retained for completeness but is an older sale record, not evidence of current-series pricing. Interior dimensions and capacity labels are not used here to infer stability, comfort or performance."
     },
     {
       "status": "approved",

@@ -594,6 +594,19 @@ def collection_page(
             f'<a href="{b.escape_html(b.brand_home_path(brand_id))}">'
             f'{b.escape_html(brand_name)} gear hub</a> · '
         )
+    related_section = ""
+    if guide.get("related_guides"):
+        related_items = "".join(
+            f'<li><a href="/guides/{b.escape_html(item["slug"])}.html">'
+            f'{b.escape_html(item["label"])}</a></li>'
+            for item in guide["related_guides"]
+        )
+        related_section = (
+            '    <section class="static-panel" aria-labelledby="related-guides">\n'
+            '      <h2 id="related-guides">Related buying guides</h2>\n'
+            f'      <ul class="static-link-list">{related_items}</ul>\n'
+            "    </section>\n"
+        )
     body = (
         '<main class="page page--sub static-page">\n'
         '  <nav class="static-breadcrumb" aria-label="Breadcrumb">\n'
@@ -621,6 +634,7 @@ def collection_page(
         '      <h2 id="takeaways">How to narrow the range</h2>\n'
         f'      <ul class="static-link-list">{takeaways}</ul>\n'
         "    </section>\n"
+        f"{related_section}"
         '    <section class="static-panel" aria-labelledby="methodology">\n'
         '      <h2 id="methodology">Method and limitations</h2>\n'
         f"      <p>{b.escape_html(limitations)}</p>\n"
