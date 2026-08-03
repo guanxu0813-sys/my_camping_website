@@ -86,6 +86,36 @@ class GrowthToolTests(unittest.TestCase):
         snowbird = guides["naturehike-snowbird-sp700-vs-sp550"]
         self.assertNotIn("1.5 kg", " ".join(snowbird["takeaways"]))
 
+    def test_day_five_copper_spur_guide_is_reviewed_and_connected(self) -> None:
+        slug = "big-agnes-copper-spur-ul1-vs-ul2"
+        guide = next(
+            guide
+            for guide in build_guides.all_collection_guides()
+            if guide["slug"] == slug
+        )
+        expected_ids = {
+            "big-agnes-copper-spur-ul-one",
+            "big-agnes-copper-spur-ul1-bikepack",
+            "big-agnes-copper-spur-ul-two",
+            "big-agnes-copper-spur-ul2-bikepack",
+            "big-agnes-copper-spur-ul-two-xl",
+            "big-agnes-copper-spur-ul-three",
+            "big-agnes-copper-spur-ul3-bikepack",
+            "big-agnes-copper-spur-ul-three-xl",
+        }
+        self.assertEqual(set(guide["product_ids"]), expected_ids)
+        self.assertEqual(guide["brand_id"], "big-agnes")
+        self.assertTrue(guide["verdict"])
+        self.assertTrue(guide["limitations"])
+        self.assertRegex(guide["reviewed_on"], r"^\d{4}-\d{2}-\d{2}$")
+
+        guide_path = f"/guides/{slug}.html"
+        for product_id in expected_ids:
+            product_links = build_guides.guide_links_by_product()[product_id]
+            self.assertIn(guide_path, {path for path, _ in product_links})
+        brand_links = build_guides.guide_links_by_brand()["big-agnes"]
+        self.assertIn(guide_path, {path for path, _ in brand_links})
+
 
 if __name__ == "__main__":
     unittest.main()

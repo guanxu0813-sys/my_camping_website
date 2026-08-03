@@ -1902,6 +1902,7 @@ def brand_home_page_html(
     rows: list[dict],
     site_url: str,
     brands: dict[str, dict],
+    guide_links: list[tuple[str, str]] | None = None,
 ) -> str:
     brand = brand_display_name(brands.get(brand_id), brand_id)
     grouped: dict[str, list[dict]] = defaultdict(list)
@@ -1959,6 +1960,18 @@ def brand_home_page_html(
             "itemListElement": item_list,
         },
     }
+    guide_section = ""
+    if guide_links:
+        guide_items = "".join(
+            f'<li><a href="{escape_html(path)}">{escape_html(label)}</a></li>'
+            for path, label in guide_links
+        )
+        guide_section = (
+            '  <section class="static-panel" aria-labelledby="brand-guides">\n'
+            '    <h2 id="brand-guides">Buying Guides</h2>\n'
+            f'    <ul class="static-link-list">{guide_items}</ul>\n'
+            "  </section>\n"
+        )
     return (
         "<!DOCTYPE html>\n"
         '<html lang="en">\n'
@@ -1975,6 +1988,7 @@ def brand_home_page_html(
         f'    <h1 class="page__title">{escape_html(brand)} Camping Gear</h1>\n'
         f'    <p class="page__lead">{escape_html(description)}</p>\n'
         "  </header>\n"
+        f"{guide_section}"
         f"  {''.join(sections)}\n"
         "</main>\n"
         f"{static_footer()}\n"
@@ -2013,6 +2027,7 @@ def write_static_pages(
     brands: dict[str, dict],
     seo_overrides: dict | None = None,
     guide_links: dict[str, list[tuple[str, str]]] | None = None,
+    brand_guide_links: dict[str, list[tuple[str, str]]] | None = None,
 ) -> list[dict]:
     PRODUCT_DIR.mkdir(exist_ok=True)
     BRAND_DIR.mkdir(exist_ok=True)
@@ -2098,7 +2113,13 @@ def write_static_pages(
             continue
         path = BRAND_DIR / f"{brand_id}.html"
         path.write_text(
-            brand_home_page_html(brand_id, brand_rows, site_url, brands),
+            brand_home_page_html(
+                brand_id,
+                brand_rows,
+                site_url,
+                brands,
+                (brand_guide_links or {}).get(brand_id, []),
+            ),
             encoding="utf-8",
         )
         entries.append(
@@ -2232,7 +2253,7 @@ def main() -> int:
     brands_list = load_json(DATA / "brands.json")
     brands = brand_map(brands_list if isinstance(brands_list, list) else [])
     products = load_official_products()
-    from build_guides import build_guides, guide_links_by_product
+    from build_guides import build_guides, guide_links_by_brand, guide_links_by_product
 
     generated_guide_pages = build_guides(
         site_url, products, brands, sys.modules[__name__]
@@ -2243,6 +2264,7 @@ def main() -> int:
         brands,
         load_seo_overrides(),
         guide_links_by_product(),
+        guide_links_by_brand(),
     )
 
     write_sitemap(

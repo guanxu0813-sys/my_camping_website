@@ -557,6 +557,43 @@ def collection_page(
             "</tr>"
         )
     takeaways = "".join(f"<li>{item}</li>" for item in guide["takeaways"])
+    source_links = "".join(
+        f'<li><a href="{b.escape_html(product.get("sourceUrl", ""))}" '
+        f'rel="noopener noreferrer" target="_blank">'
+        f'{b.escape_html(product_name(product, brands, b))} official listing</a></li>'
+        for product in products
+        if product.get("sourceUrl")
+    )
+    verdict = ""
+    if guide.get("verdict"):
+        verdict = (
+            '    <section class="static-panel" aria-labelledby="bottom-line">\n'
+            '      <h2 id="bottom-line">Bottom line</h2>\n'
+            f'      <p>{b.escape_html(guide["verdict"])}</p>\n'
+            "    </section>\n"
+        )
+    reviewed_note = ""
+    if guide.get("reviewed_on"):
+        reviewed_on = b.escape_html(guide["reviewed_on"])
+        reviewed_note = (
+            '      <p class="page__lead page__lead--compact">'
+            f'Data and official prices manually reviewed <time datetime="{reviewed_on}">{reviewed_on}</time>.'
+            "</p>\n"
+        )
+    limitations = guide.get(
+        "limitations",
+        "This is a specification guide, not a hands-on review. Values come from "
+        "the current official-source catalog and may describe a representative "
+        "size or variant.",
+    )
+    brand_link = ""
+    if guide.get("brand_id"):
+        brand_id = guide["brand_id"]
+        brand_name = b.brand_display_name(brands.get(brand_id), brand_id)
+        brand_link = (
+            f'<a href="{b.escape_html(b.brand_home_path(brand_id))}">'
+            f'{b.escape_html(brand_name)} gear hub</a> · '
+        )
     body = (
         '<main class="page page--sub static-page">\n'
         '  <nav class="static-breadcrumb" aria-label="Breadcrumb">\n'
@@ -570,6 +607,7 @@ def collection_page(
         f'      <h1 class="page__title">{b.escape_html(guide["title"].split(" — ")[0])}</h1>\n'
         f'      <p class="page__lead">{b.escape_html(guide["intro"])}</p>\n'
         "    </header>\n"
+        f"{verdict}"
         '    <section class="static-panel" aria-labelledby="models">\n'
         f'      <h2 id="models">{len(products)} models side by side</h2>\n'
         '      <div class="table-wrap"><table class="compare-table static-table">\n'
@@ -577,6 +615,7 @@ def collection_page(
         "<th>Structure</th><th>Reference Price</th></tr></thead>\n"
         f"        <tbody>{''.join(rows)}</tbody>\n"
         "      </table></div>\n"
+        f"{reviewed_note}"
         "    </section>\n"
         '    <section class="static-panel" aria-labelledby="takeaways">\n'
         '      <h2 id="takeaways">How to narrow the range</h2>\n'
@@ -584,11 +623,10 @@ def collection_page(
         "    </section>\n"
         '    <section class="static-panel" aria-labelledby="methodology">\n'
         '      <h2 id="methodology">Method and limitations</h2>\n'
-        "      <p>This is a specification guide, not a hands-on review. Values "
-        "come from the current official-source catalog and may describe a "
-        "representative size or variant. Open each model page to check the "
-        "linked official source before making a purchase decision.</p>\n"
-        f'      <p><a href="{b.escape_html(category_path)}">Compare all '
+        f"      <p>{b.escape_html(limitations)}</p>\n"
+        '      <h3>Official product sources</h3>\n'
+        f'      <ul class="static-link-list">{source_links}</ul>\n'
+        f'      <p>{brand_link}<a href="{b.escape_html(category_path)}">Compare all '
         f"{b.escape_html(category_name.lower())}</a> · "
         '<a href="/guides/">Browse all data-backed guides</a></p>\n'
         "    </section>\n"
@@ -708,6 +746,18 @@ def guide_links_by_product() -> dict[str, list[tuple[str, str]]]:
         links.setdefault(product_id, []).append(
             (lightweight_path, "2-Person Backpacking Tents Under 2 kg")
         )
+    return links
+
+
+def guide_links_by_brand() -> dict[str, list[tuple[str, str]]]:
+    links: dict[str, list[tuple[str, str]]] = {}
+    for guide in [*all_comparison_guides(), *all_collection_guides()]:
+        brand_id = guide.get("brand_id")
+        if not brand_id:
+            continue
+        path = f"/guides/{guide['slug']}.html"
+        label = guide["title"].split(" — ")[0]
+        links.setdefault(brand_id, []).append((path, label))
     return links
 
 

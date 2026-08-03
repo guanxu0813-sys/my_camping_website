@@ -2,24 +2,35 @@
   "guides": [
     {
       "status": "approved",
-      "type": "comparison",
+      "type": "collection",
       "slug": "big-agnes-copper-spur-ul1-vs-ul2",
-      "title": "Big Agnes Copper Spur UL1 vs UL2 — Weight & Price",
-      "description": "Compare Big Agnes Copper Spur UL1 and UL2 tents by representative weight, model capacity, structure and official reference price.",
-      "eyebrow": "Copper Spur capacity comparison",
+      "title": "Big Agnes Copper Spur Models Compared — UL1, UL2, UL3, Bikepack & XL",
+      "description": "Compare eight current Big Agnes Copper Spur models by capacity, representative catalog weight, official reference price and intended use.",
+      "eyebrow": "Manually reviewed Copper Spur range guide",
       "category": "tent",
+      "brand_id": "big-agnes",
       "product_ids": [
         "big-agnes-copper-spur-ul-one",
-        "big-agnes-copper-spur-ul-two"
+        "big-agnes-copper-spur-ul1-bikepack",
+        "big-agnes-copper-spur-ul-two",
+        "big-agnes-copper-spur-ul2-bikepack",
+        "big-agnes-copper-spur-ul-two-xl",
+        "big-agnes-copper-spur-ul-three",
+        "big-agnes-copper-spur-ul3-bikepack",
+        "big-agnes-copper-spur-ul-three-xl"
       ],
-      "intro": "The Copper Spur UL1 and UL2 share the same freestanding HyperBead platform. The decision is mainly whether the UL2's additional room is worth its listed weight and price increase.",
+      "intro": "The current Copper Spur range shares a three-season, freestanding HyperBead platform, but capacity is only the first decision. Standard models minimize carry weight, Bikepack versions add short poles and bike-mounting storage, and XL versions trade a modest weight and price increase for more room.",
+      "verdict": "For one backpacker, start with the standard UL1; for two people or a solo camper who values room, the standard UL2 is the most balanced choice; for two people who want extra length and headroom, choose the UL2 XL. Move to a Bikepack model only when its 12-inch pole set and bike-mounting dry bag solve a real packing problem. The UL3 and UL3 XL make the most sense for three sleepers or a roomy two-person setup.",
+      "reviewed_on": "2026-08-03",
       "takeaways": [
-        "<strong>Weight:</strong> representative catalog weights are about 0.97 kg for the UL1 and 1.19 kg for the UL2.",
-        "<strong>Model capacity:</strong> UL1 and UL2 identify the one- and two-person versions in the current Big Agnes range.",
-        "<strong>Price:</strong> the UL2 currently lists about $100 above the UL1.",
-        "<strong>Shared platform:</strong> both listings describe a freestanding design and HyperBead fabric.",
-        "<strong>Decision:</strong> choose the UL1 for the lower solo carry weight; choose the UL2 when additional room or shared use justifies roughly 220 g."
-      ]
+        "<strong>Capacity first:</strong> UL1, UL2 and UL3 are the one-, two- and three-person branches. A couple should compare UL2 with UL2 XL; a roomy pair should also consider UL3.",
+        "<strong>Standard models:</strong> the representative catalog weights rise from about 0.97 kg for UL1 to 1.19 kg for UL2 and 1.59 kg for UL3. These are the lightest choices at each listed capacity in this eight-model set.",
+        "<strong>Bikepack trade-off:</strong> Bikepack versions add about 390 g, 480 g and 370 g over the corresponding standard UL1, UL2 and UL3 records. In return, Big Agnes lists a 12-inch Shortstik pole set, waterproof dry-bag stuff sack and bike-mounting features.",
+        "<strong>XL trade-off:</strong> UL2 XL adds about 90 g and $50 over UL2; UL3 XL adds about 30 g and $50 over UL3. Big Agnes positions XL around extra length, width and head height rather than a different capacity.",
+        "<strong>Reference prices:</strong> the reviewed official prices run from $499.95 for UL1 to $699.95 for UL3 Bikepack and UL3 XL. Price alone should not decide between standard, Bikepack and XL because each solves a different packing or space need.",
+        "<strong>Shared platform:</strong> all eight official listings describe a three-season, fully freestanding Copper Spur design using HyperBead fabric."
+      ],
+      "limitations": "This is a specification-based buying guide, not a hands-on durability or weather test. Weight values are representative normalized catalog values in our official-source dataset; Big Agnes may separately publish packed, trail or component weights, so do not treat these figures as interchangeable. Prices and availability were checked on 2026-08-03 and can change by market or promotion. The guide covers the current standard UL1/UL2/UL3, Bikepack and XL branches; it intentionally excludes older HV records, mtnGLO variants and larger UL4/UL5 models."
     },
     {
       "status": "approved",
