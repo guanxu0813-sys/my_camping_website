@@ -10,3 +10,5 @@ date,sitemap,discovered,crawled,indexed,not_indexed,notes
 2026-07-29,bing/sitemap-brands.xml,66,,,,"Bing status Success; submitted and crawled 2026-07-29"
 2026-07-29,bing/sitemap-products.xml,769,,,,"Bing status Success; submitted and crawled 2026-07-29"
 2026-07-29,indexnow/github-actions,,,,,"Key file verified online; run 30375916850 succeeded; homepage manually accepted by IndexNow on 2026-07-29; Bing report may take up to 48 hours"
+2026-08-03,gsc/performance-pages,264,,,,"264 pages recorded impressions in the current 2026-07-26 to 2026-08-01 GSC period; Giling Pro vs Mongar Pro guide had 13 impressions and 1 click; Naturehike CW300 product had 4 impressions and 1 click"
+2026-08-03,gsc/url-inspection-copper-spur-guide,1,0,0,1,"Inspected only this priority anomaly. Status: Discovered - currently not indexed; discovered through sitemap-core.xml and sitemap.xml; no crawl date and no referring page detected. No indexing request submitted; wait for Google to process the new product and brand internal links deployed 2026-08-03."

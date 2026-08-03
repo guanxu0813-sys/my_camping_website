@@ -13,6 +13,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import build_guides
 import build_sitemap
 import discover_guide_candidates
+import growth_report
 import submit_indexnow
 
 
@@ -115,6 +116,23 @@ class GrowthToolTests(unittest.TestCase):
             self.assertIn(guide_path, {path for path, _ in product_links})
         brand_links = build_guides.guide_links_by_brand()["big-agnes"]
         self.assertIn(guide_path, {path for path, _ in brand_links})
+
+    def test_growth_report_prefers_explicit_comparison_periods(self) -> None:
+        latest = {
+            "gsc_impressions": "1037",
+            "comparison_gsc_impressions": "453",
+            "comparison_total_visits": "",
+        }
+        previous = {"gsc_impressions": "879", "total_visits": "4"}
+        self.assertEqual(
+            growth_report.comparison_number(
+                latest, previous, "gsc_impressions"
+            ),
+            453,
+        )
+        self.assertIsNone(
+            growth_report.comparison_number(latest, previous, "total_visits")
+        )
 
 
 if __name__ == "__main__":

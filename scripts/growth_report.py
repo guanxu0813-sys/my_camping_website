@@ -35,6 +35,13 @@ def percent_change(current: float | None, previous: float | None) -> str:
     return f"{((current - previous) / previous) * 100:+.1f}%"
 
 
+def comparison_number(latest: dict, previous: dict, key: str) -> float | None:
+    explicit_key = f"comparison_{key}"
+    if explicit_key in latest:
+        return number(latest, explicit_key)
+    return number(previous, key)
+
+
 def gate_decision(rows: list[dict], month: int) -> tuple[str, list[str]]:
     latest = rows[-1]
     previous = rows[-2] if len(rows) > 1 else {}
@@ -59,7 +66,7 @@ def gate_decision(rows: list[dict], month: int) -> tuple[str, list[str]]:
         notes.append("Traffic is above the monthly stretch gate; expand the winning cluster.")
 
     current_impressions = number(latest, "gsc_impressions")
-    previous_impressions = number(previous, "gsc_impressions")
+    previous_impressions = comparison_number(latest, previous, "gsc_impressions")
     if (
         current_impressions is not None
         and previous_impressions not in (None, 0)
@@ -85,10 +92,10 @@ def render(rows: list[dict], month: int) -> str:
     previous = rows[-2] if len(rows) > 1 else {}
     decision, notes = gate_decision(rows, month)
     metrics = [
-        ("Total visits/day", number(latest, "total_visits"), number(previous, "total_visits")),
-        ("Organic visits/day", number(latest, "organic_visits"), number(previous, "organic_visits")),
-        ("GSC clicks", number(latest, "gsc_clicks"), number(previous, "gsc_clicks")),
-        ("GSC impressions", number(latest, "gsc_impressions"), number(previous, "gsc_impressions")),
+        ("Total visits/day", number(latest, "total_visits"), comparison_number(latest, previous, "total_visits")),
+        ("Organic visits/day", number(latest, "organic_visits"), comparison_number(latest, previous, "organic_visits")),
+        ("GSC clicks", number(latest, "gsc_clicks"), comparison_number(latest, previous, "gsc_clicks")),
+        ("GSC impressions", number(latest, "gsc_impressions"), comparison_number(latest, previous, "gsc_impressions")),
         ("Indexed URLs", number(latest, "indexed_urls"), number(previous, "indexed_urls")),
         ("Referring domains", number(latest, "referring_domains"), number(previous, "referring_domains")),
         ("Published guides", number(latest, "published_guides"), number(previous, "published_guides")),
