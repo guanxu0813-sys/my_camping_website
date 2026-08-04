@@ -82,6 +82,59 @@
     },
     {
       "status": "approved",
+      "type": "collection",
+      "slug": "montbell-down-hugger-650-models-compared",
+      "title": "Montbell Down Hugger 650 Models Compared — #2 vs #3 vs #5",
+      "description": "Compare six Montbell Down Hugger 650 sleeping bags by official ISO comfort and lower-limit temperatures, Regular or Long fit, packed weight and UK price.",
+      "eyebrow": "Manually reviewed Down Hugger 650 range guide",
+      "category": "sleeping-bag",
+      "brand_id": "montbell",
+      "preserve_product_order": true,
+      "columns": [
+        {
+          "label": "Length",
+          "key": "size"
+        },
+        {
+          "label": "ISO comfort",
+          "key": "comfortTemp"
+        },
+        {
+          "label": "ISO lower limit",
+          "key": "lowerLimitTemp"
+        },
+        {
+          "label": "Packed weight",
+          "key": "weight"
+        },
+        {
+          "label": "Reference price",
+          "key": "price"
+        }
+      ],
+      "product_ids": [
+        "montbell-down-hugger-650-2-sunflower",
+        "montbell-down-hugger-650-2-long-sunflower",
+        "montbell-down-hugger-650-3-balsam",
+        "montbell-down-hugger-650-3-long-balsam",
+        "montbell-down-hugger-650-5-blue-ridge",
+        "montbell-down-hugger-650-5-long-blue-ridge"
+      ],
+      "intro": "Down Hugger 650 model numbers identify temperature tiers, not capacity. In this UK range, #2 is the warmest option, #3 sits in the middle and #5 targets milder nights. Each tier has a Regular and Long version with the same published temperature ratings but different fit, packed weight and price.",
+      "verdict": "Start with the official comfort temperature: choose #5 for mild nights around 8°C, #3 for cooler three-season use around 3°C, or #2 when a -1°C comfort rating is the appropriate planning point. Choose Long only if you need its 198 cm maximum occupant height instead of the Regular model's 183 cm fit; Long adds about 80–120 g and £10–£25 without changing the published temperature rating.",
+      "reviewed_on": "2026-08-04",
+      "takeaways": [
+        "<strong>How to choose a temperature tier:</strong> use the official comfort figure as the more conservative first planning point. Do not treat the lower-limit figure as a routine comfort target, and leave margin for your sleep system and conditions.",
+        "<strong>#2:</strong> Regular and Long are both listed at -1°C comfort and -7°C lower limit. Packed weights are about 0.93 kg and 1.05 kg, with £310 and £335 reference prices.",
+        "<strong>#3:</strong> both lengths are listed at 3°C comfort and -2°C lower limit. Packed weights are about 0.72 kg and 0.82 kg, with £265 and £275 reference prices.",
+        "<strong>#5:</strong> both lengths are listed at 8°C comfort and 3°C lower limit. Packed weights are about 0.60 kg and 0.68 kg, with £220 and £230 reference prices.",
+        "<strong>Regular vs Long:</strong> Montbell lists maximum occupant heights of 183 cm for Regular and 198 cm for Long. The size suffix changes fit, weight and price, not the published temperature tier.",
+        "<strong>Temperature evidence:</strong> Montbell UK labels these comfort and lower-limit values as ISO tested. CampGear Compare links every product page but has not independently reviewed a laboratory report or performed its own thermal test."
+      ],
+      "limitations": "This is a specification-based selection guide, not an independent warmth test. Montbell UK labels the published comfort and lower-limit temperatures as ISO tested, but CampGear Compare has not independently verified the laboratory reports. Individual warmth varies with shelter, sleeping pad, clothing, humidity, wind, physiology and other conditions. Packed weights include the stuff bag and are rounded to the catalog's kilogram display. Prices and availability were checked on 2026-08-04 in the UK market; the Regular #3 listing was sold out at review time, and all stock and prices can change."
+    },
+    {
+      "status": "approved",
       "type": "comparison",
       "slug": "big-agnes-tiger-wall-ul2-vs-copper-spur-ul2",
       "title": "Big Agnes Tiger Wall UL2 vs Copper Spur UL2",

@@ -42,6 +42,7 @@
         "bagType": { "type": "string" },
         "fillType": { "type": "string" },
         "comfortTemp": { "type": "string" },
+        "lowerLimitTemp": { "type": "string" },
         "padType": { "type": "string" },
         "rValue": { "type": "string" },
         "thickness": { "type": "string" }
@@ -78,6 +79,7 @@
     "bagType": { "type": "string" },
     "fillType": { "type": "string" },
     "comfortTemp": { "type": "string" },
+    "lowerLimitTemp": { "type": "string" },
     "padType": { "type": "string" },
     "rValue": { "type": "string" },
     "thickness": { "type": "string" },

@@ -145,24 +145,27 @@
     "subcategory": "Sleeping Bags",
     "model": "Down Hugger 650 #2 (Sunflower)",
     "modelEn": "Down Hugger 650 #2 (Sunflower)",
-    "description": "The Down Hugger 650 #3 is one of our most versatile sleeping bags. Designed for four season use, the sleeping bag has a comfort temperature rating of -1°C, but can go as low as -7°C when bolstered correctly. This isn't just down to the deployment of premium 650-fill power down (although that certainly doesn’t hurt!) - a roster of innovative design features contribute heavily as well. There’s many small, elastic gathered threads within the quilting and the seams have been strategically oriented. These two features enable the sleeping bag to move naturally and draw insulation closer to your body as you change positions throughout the night, eliminating drafty dead spaces and keeping body heat where it belongs. But that’s not all. Our patented Super Spiral Stretch System reliably retains heat, the two way zip is insulated to shut out cold air, and has been reinforced with triangulated gussets for extra durability.",
+    "description": "The Down Hugger 650 #2 is one of Montbell's warmer Down Hugger 650 sleeping bags. Montbell UK lists an ISO-tested comfort temperature of -1°C and lower limit of -7°C. It uses 650-fill-power down and the Super Spiral Stretch System.",
     "currency": "GBP",
     "specs": {
       "weightKg": 0.93,
       "weightDisplay": "~0.93 kg",
       "structure": "sleeping bag",
-      "fillType": "羽绒",
-      "bagType": "sleeping bag"
+      "fillType": "650-fill-power down",
+      "bagType": "sleeping bag",
+      "size": "Regular",
+      "comfortTemp": "-1°C",
+      "lowerLimitTemp": "-7°C"
     },
     "highlights": [
-      "The Down Hugger 650 #3 is one of our most versatile sleeping bags. Designed for four season use, the sleeping bag has a comfort temperature rating of -1°C, but can go as low as -7°C when bolstered correctly. This isn't just down to the deployment of premium 650-fill power down (although that certainly doesn’t hurt!) - a roster of innovative design features contribute heavily as well. There’s many "
+      "Montbell UK lists this Regular #2 at 928 g with its stuff bag, with an ISO-tested comfort temperature of -1°C and lower limit of -7°C."
     ],
     "imageUrl": "https://cdn.shopify.com/s/files/1/0765/8753/2555/files/4548801640460_1_MB.jpg?v=1761036640",
     "imageAlt": "Down Hugger 650 #2 (Sunflower)",
     "sourceUrl": "https://www.montbell.co.uk/products/down-hugger-650-2-sunflower",
     "sourceSite": "montbell.co.uk",
     "scrapedAt": "2026-07-03T14:46:57Z",
-    "status": "draft",
+    "status": "verified",
     "published": true,
     "price": 310.0,
     "priceMin": 310.0,
@@ -181,8 +184,11 @@
       "weightKg": 1.05,
       "weightDisplay": "~1.05 kg",
       "structure": "sleeping bag",
-      "fillType": "羽绒",
-      "bagType": "sleeping bag"
+      "fillType": "650-fill-power down",
+      "bagType": "sleeping bag",
+      "size": "Long",
+      "comfortTemp": "-1°C",
+      "lowerLimitTemp": "-7°C"
     },
     "highlights": [
       "The Down Hugger 650 #2 is one of our most versatile sleeping bags. Designed for four season use, the sleeping bag has a comfort temperature rating of -1°C, but can go as low as -7°C when bolstered correctly. This isn't just down to the deployment of premium 650-fill power down (although that certainly doesn’t hurt!) - a roster of innovative design features contribute heavily as well. There’s many "
@@ -192,7 +198,7 @@
     "sourceUrl": "https://www.montbell.co.uk/products/down-hugger-650-2-long-sunflower",
     "sourceSite": "montbell.co.uk",
     "scrapedAt": "2026-07-03T14:46:57Z",
-    "status": "draft",
+    "status": "verified",
     "published": true,
     "price": 335.0,
     "priceMin": 335.0,
@@ -211,8 +217,11 @@
       "weightKg": 0.72,
       "weightDisplay": "~0.72 kg",
       "structure": "sleeping bag",
-      "fillType": "羽绒",
-      "bagType": "sleeping bag"
+      "fillType": "650-fill-power down",
+      "bagType": "sleeping bag",
+      "size": "Regular",
+      "comfortTemp": "3°C",
+      "lowerLimitTemp": "-2°C"
     },
     "highlights": [
       "The Down Hugger 650 #3 is one of our most versatile sleeping bags. Designed for three season use, the sleeping bag has a comfort temperature rating of 3°C, but can go as low as -2°C when bolstered correctly. This isn't just down to the deployment of premium 650 fill power down (although that certainly doesn’t hurt!) - a roster of innovative design features contribute heavily as well. There are man"
@@ -222,7 +231,7 @@
     "sourceUrl": "https://www.montbell.co.uk/products/down-hugger-650-3-balsam",
     "sourceSite": "montbell.co.uk",
     "scrapedAt": "2026-07-03T14:46:57Z",
-    "status": "draft",
+    "status": "verified",
     "published": true,
     "price": 265.0,
     "priceMin": 265.0,
@@ -241,8 +250,11 @@
       "weightKg": 0.82,
       "weightDisplay": "~0.82 kg",
       "structure": "sleeping bag",
-      "fillType": "羽绒",
-      "bagType": "sleeping bag"
+      "fillType": "650-fill-power down",
+      "bagType": "sleeping bag",
+      "size": "Long",
+      "comfortTemp": "3°C",
+      "lowerLimitTemp": "-2°C"
     },
     "highlights": [
       "The Down Hugger 650 #3 Long is one of our most versatile sleeping bags. Designed for three season use, the sleeping bag has a comfort temperature rating of 3°C, but can go as low as -2°C when bolstered correctly. This isn't just down to the deployment of premium 650 fill power down (although that certainly doesn’t hurt!) - a roster of innovative design features contribute heavily as well. There ar"
@@ -252,7 +264,7 @@
     "sourceUrl": "https://www.montbell.co.uk/products/down-hugger-650-3-long-balsam",
     "sourceSite": "montbell.co.uk",
     "scrapedAt": "2026-07-03T14:46:57Z",
-    "status": "draft",
+    "status": "verified",
     "published": true,
     "price": 275.0,
     "priceMin": 275.0,
@@ -271,8 +283,11 @@
       "weightKg": 0.6,
       "weightDisplay": "~0.6 kg",
       "structure": "sleeping bag",
-      "fillType": "羽绒",
-      "bagType": "sleeping bag"
+      "fillType": "650-fill-power down",
+      "bagType": "sleeping bag",
+      "size": "Regular",
+      "comfortTemp": "8°C",
+      "lowerLimitTemp": "3°C"
     },
     "highlights": [
       "The Down Hugger 650 #5 is one of our summer-weight sleeping bags. Designed for two season use, the sleeping bag has a comfort temperature rating of 8°C, but can go as low as 3°C when bolstered correctly. This isn't just down to the deployment of premium 650-fill power down (although that certainly doesn’t hurt!) - a roster of innovative design features contribute heavily as well. There’s many smal"
@@ -282,7 +297,7 @@
     "sourceUrl": "https://www.montbell.co.uk/products/down-hugger-650-5-blue-ridge",
     "sourceSite": "montbell.co.uk",
     "scrapedAt": "2026-07-03T14:46:57Z",
-    "status": "draft",
+    "status": "verified",
     "published": true,
     "price": 220.0,
     "priceMin": 220.0,
@@ -301,8 +316,11 @@
       "weightKg": 0.68,
       "weightDisplay": "~0.68 kg",
       "structure": "sleeping bag",
-      "fillType": "羽绒",
-      "bagType": "sleeping bag"
+      "fillType": "650-fill-power down",
+      "bagType": "sleeping bag",
+      "size": "Long",
+      "comfortTemp": "8°C",
+      "lowerLimitTemp": "3°C"
     },
     "highlights": [
       "The Down Hugger 650 #5 Long is one of our summer-weight sleeping bags. Designed for two season use, the sleeping bag has a comfort temperature rating of 8°C, but can go as low as 3°C when bolstered correctly. This isn't just down to the deployment of premium 650-fill power down (although that certainly doesn’t hurt!) - a roster of innovative design features contribute heavily as well. There’s many"
@@ -312,7 +330,7 @@
     "sourceUrl": "https://www.montbell.co.uk/products/down-hugger-650-5-long-blue-ridge",
     "sourceSite": "montbell.co.uk",
     "scrapedAt": "2026-07-03T14:46:57Z",
-    "status": "draft",
+    "status": "verified",
     "published": true,
     "price": 230.0,
     "priceMin": 230.0,

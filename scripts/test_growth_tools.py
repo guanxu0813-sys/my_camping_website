@@ -171,6 +171,45 @@ class GrowthToolTests(unittest.TestCase):
             product_links = build_guides.guide_links_by_product()[product_id]
             self.assertIn(tiger_path, {path for path, _ in product_links})
 
+    def test_day_eight_down_hugger_guide_preserves_temperature_tiers(self) -> None:
+        slug = "montbell-down-hugger-650-models-compared"
+        guide = next(
+            guide
+            for guide in build_guides.all_collection_guides()
+            if guide["slug"] == slug
+        )
+        expected_ids = {
+            "montbell-down-hugger-650-2-sunflower",
+            "montbell-down-hugger-650-2-long-sunflower",
+            "montbell-down-hugger-650-3-balsam",
+            "montbell-down-hugger-650-3-long-balsam",
+            "montbell-down-hugger-650-5-blue-ridge",
+            "montbell-down-hugger-650-5-long-blue-ridge",
+        }
+        self.assertEqual(set(guide["product_ids"]), expected_ids)
+        self.assertEqual(guide["brand_id"], "montbell")
+        self.assertTrue(guide["preserve_product_order"])
+        self.assertTrue(guide["verdict"])
+        self.assertIn("ISO", guide["limitations"])
+        self.assertEqual(
+            [column["key"] for column in guide["columns"]],
+            ["size", "comfortTemp", "lowerLimitTemp", "weight", "price"],
+        )
+
+        product_map = {
+            product["id"]: product for product in build_sitemap.load_official_products()
+        }
+        guide_path = f"/guides/{slug}.html"
+        for product_id in expected_ids:
+            product = product_map[product_id]
+            self.assertEqual(product["status"], "verified")
+            self.assertIn(product["specs"]["size"], {"Regular", "Long"})
+            self.assertTrue(product["specs"]["comfortTemp"])
+            self.assertTrue(product["specs"]["lowerLimitTemp"])
+            self.assertEqual(build_sitemap.format_capacity_display(product), "")
+            product_links = build_guides.guide_links_by_product()[product_id]
+            self.assertIn(guide_path, {path for path, _ in product_links})
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -533,29 +533,41 @@ def collection_page(
     b: ModuleType,
 ) -> str:
     products = [product_map[pid] for pid in guide["product_ids"]]
-    products.sort(
-        key=lambda p: (
-            b.format_capacity_display(p) or "99-person",
-            b.parse_weight_kg(p) or 99,
-            p.get("model", ""),
+    if not guide.get("preserve_product_order"):
+        products.sort(
+            key=lambda p: (
+                b.format_capacity_display(p) or "99-person",
+                b.parse_weight_kg(p) or 99,
+                p.get("model", ""),
+            )
         )
-    )
     slug = guide["slug"]
     path = f"/guides/{slug}.html"
     category_path = b.category_page_path(guide["category"])
     category_name = b.category_label(guide["category"])
+    columns = guide.get("columns") or [
+        {"label": "Capacity", "key": "capacity"},
+        {"label": "Weight", "key": "weight"},
+        {"label": "Structure", "key": "structure"},
+        {"label": "Reference Price", "key": "price"},
+    ]
     rows = []
     for product in products:
+        cells = "".join(
+            f"<td>{b.escape_html(comparison_value(product, column['key'], b))}</td>"
+            for column in columns
+        )
         rows.append(
             "<tr>"
             f'<td><a href="{b.escape_html(b.product_path(product))}">'
             f"{b.escape_html(product.get('model', ''))}</a></td>"
-            f"<td>{b.escape_html(b.format_capacity_display(product) or 'Not listed')}</td>"
-            f"<td>{b.escape_html(b.format_weight(product) or 'Not listed')}</td>"
-            f"<td>{b.escape_html(b.spec_value(product, 'structure') or 'Not listed')}</td>"
-            f"<td>{b.escape_html(b.format_price(product))}</td>"
+            f"{cells}"
             "</tr>"
         )
+    column_headers = "".join(
+        f'<th scope="col">{b.escape_html(column["label"])}</th>'
+        for column in columns
+    )
     takeaways = "".join(f"<li>{item}</li>" for item in guide["takeaways"])
     source_links = "".join(
         f'<li><a href="{b.escape_html(product.get("sourceUrl", ""))}" '
@@ -624,8 +636,7 @@ def collection_page(
         '    <section class="static-panel" aria-labelledby="models">\n'
         f'      <h2 id="models">{len(products)} models side by side</h2>\n'
         '      <div class="table-wrap"><table class="compare-table static-table">\n'
-        "        <thead><tr><th>Model</th><th>Capacity</th><th>Weight</th>"
-        "<th>Structure</th><th>Reference Price</th></tr></thead>\n"
+        f'        <thead><tr><th scope="col">Model</th>{column_headers}</tr></thead>\n'
         f"        <tbody>{''.join(rows)}</tbody>\n"
         "      </table></div>\n"
         f"{reviewed_note}"

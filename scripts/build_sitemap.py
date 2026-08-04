@@ -271,6 +271,8 @@ def format_capacity_display(product: dict) -> str:
         if single_person:
             return f"{single_person.group(1)}-person"
         return text
+    if product.get("category") != "tent":
+        return ""
     model = str(product.get("model") or "")
     for pattern in (
         r"(?:dome|cabin|shelter|tent)\s+(\d+)",
@@ -372,7 +374,12 @@ def product_primary_specs(product: dict) -> list[tuple[str, str]]:
             if value:
                 rows.append((label, value))
     elif category == "sleeping-bag":
-        for label, key in (("Type", "bagType"), ("Comfort Rating", "comfortTemp"), ("Fill", "fillType")):
+        for label, key in (
+            ("Type", "bagType"),
+            ("Comfort Rating", "comfortTemp"),
+            ("Lower Limit", "lowerLimitTemp"),
+            ("Fill", "fillType"),
+        ):
             value = spec_value(product, key)
             if value:
                 rows.append((label, value))
