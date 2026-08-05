@@ -108,9 +108,18 @@ def load_affiliate_links() -> dict:
 
 def load_seo_overrides() -> dict:
     if not SEO_OVERRIDES_PATH.exists():
-        return {"products": {}, "brands": {}}
+        return {"pages": {}, "products": {}, "brands": {}}
     data = load_json(SEO_OVERRIDES_PATH)
-    return data if isinstance(data, dict) else {"products": {}, "brands": {}}
+    return data if isinstance(data, dict) else {"pages": {}, "products": {}, "brands": {}}
+
+
+def apply_page_seo_overrides(pages: list[dict], seo_overrides: dict) -> None:
+    page_overrides = seo_overrides.get("pages") or {}
+    for page in pages:
+        override = page_overrides.get(page.get("path", "")) or {}
+        for field in ("title", "description"):
+            if override.get(field):
+                page[field] = override[field]
 
 
 def resolve_amazon_url(entry: dict, affiliates: dict) -> str:
@@ -2255,6 +2264,8 @@ def write_robots(site_url: str) -> None:
 
 def main() -> int:
     seo = load_json(SEO_PATH)
+    seo_overrides = load_seo_overrides()
+    apply_page_seo_overrides(seo.get("pages", []), seo_overrides)
     site_url = seo["siteUrl"].rstrip("/")
     pages = seo.get("pages", [])
     brands_list = load_json(DATA / "brands.json")
@@ -2263,13 +2274,13 @@ def main() -> int:
     from build_guides import build_guides, guide_links_by_brand, guide_links_by_product
 
     generated_guide_pages = build_guides(
-        site_url, products, brands, sys.modules[__name__]
+        site_url, products, brands, sys.modules[__name__], seo_overrides
     )
     generated_entries = write_static_pages(
         site_url,
         products,
         brands,
-        load_seo_overrides(),
+        seo_overrides,
         guide_links_by_product(),
         guide_links_by_brand(),
     )

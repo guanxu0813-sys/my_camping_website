@@ -3,8 +3,10 @@
 
 from __future__ import annotations
 
+import csv
 import sys
 import unittest
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -62,6 +64,9 @@ class GrowthToolTests(unittest.TestCase):
             "inSummaryTable": True,
         }
         self.assertTrue(build_sitemap.is_low_value_accessory(product))
+        self.assertIsNotNone(
+            build_guides.ACCESSORY_PATTERN.search("Ground Control Tent Pegs")
+        )
 
     def test_tent_with_included_footprint_is_not_an_accessory(self) -> None:
         product = {
@@ -209,6 +214,46 @@ class GrowthToolTests(unittest.TestCase):
             self.assertEqual(build_sitemap.format_capacity_display(product), "")
             product_links = build_guides.guide_links_by_product()[product_id]
             self.assertIn(guide_path, {path for path, _ in product_links})
+
+    def test_day_ten_seo_overrides_cover_ten_gsc_pages(self) -> None:
+        overrides = build_sitemap.load_seo_overrides()
+        entries = [
+            *(overrides.get("pages") or {}).values(),
+            *(overrides.get("products") or {}).values(),
+            *(overrides.get("brands") or {}).values(),
+        ]
+        self.assertEqual(len(entries), 10)
+        self.assertEqual(overrides["_meta"]["updated"], "2026-08-05")
+        self.assertEqual(overrides["_meta"]["reviewAfter"], "2026-09-02")
+        for entry in entries:
+            self.assertGreaterEqual(len(entry["title"]), 30)
+            self.assertLessEqual(len(entry["title"]), 60)
+            self.assertGreaterEqual(len(entry["description"]), 120)
+            self.assertLessEqual(len(entry["description"]), 160)
+
+        pages = [{"path": "/tent.html", "title": "Old", "description": "Old"}]
+        build_sitemap.apply_page_seo_overrides(pages, overrides)
+        self.assertEqual(
+            pages[0]["title"],
+            overrides["pages"]["/tent.html"]["title"],
+        )
+
+    def test_day_eleven_report_preserves_currency_boundaries(self) -> None:
+        report_path = ROOT / "data" / "reports" / "camping-gear-weight-price-2026.csv"
+        with report_path.open(encoding="utf-8", newline="") as report_file:
+            rows = list(csv.DictReader(report_file))
+        self.assertEqual(len(rows), 543)
+        self.assertEqual(
+            Counter(row["currency"] for row in rows),
+            Counter({"USD": 497, "GBP": 28, "JPY": 18}),
+        )
+        self.assertTrue(all(row["data_reviewed"] == "2026-08-05" for row in rows))
+
+        report_html = (
+            ROOT / "guides" / "camping-gear-weight-price-report-2026.html"
+        ).read_text(encoding="utf-8")
+        self.assertIn("Median USD Price", report_html)
+        self.assertIn("Other currencies remain in the", report_html)
 
 
 if __name__ == "__main__":

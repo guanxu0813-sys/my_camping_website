@@ -234,9 +234,11 @@ COLLECTION_GUIDES = [
 ]
 
 ACCESSORY_PATTERN = re.compile(
-    r"\b(accessor|footprint|stuff sack|dry bag|peg|pole|inner tent|"
-    r"groundsheet|connection|jack|pump|strap|repair|liner|blanket|"
-    r"seat|pillow|cot|bench|table|chair)\b",
+    r"\b(accessor(?:y|ies)|footprints?|stuff sacks?|dry bags?|pegs?|"
+    r"pole sets?|pole kits?|tent poles?|inner (?:bug )?(?:tent|tarp)|shelter inner|"
+    r"ground(?:sheets?| cloth)|connection|jack|pumps?|straps?|repair|"
+    r"liners?|blankets?|seats?|pillows?|cots?|benches?|tables?|chairs?|"
+    r"daisy chain|stakes?|tent body)\b",
     re.IGNORECASE,
 )
 
@@ -676,10 +678,14 @@ def lightweight_tents_page(
     brands: dict[str, dict],
     site_url: str,
     b: ModuleType,
+    seo_override: dict | None = None,
 ) -> tuple[dict, str]:
     slug = "2-person-backpacking-tents-under-2kg"
-    title = "2-Person Backpacking Tents Under 2 kg — 14 Models Compared"
-    description = (
+    override = seo_override or {}
+    title = override.get("title") or (
+        "2-Person Backpacking Tents Under 2 kg — 14 Models Compared"
+    )
+    description = override.get("description") or (
         "Compare 14 two-person backpacking tents under 2 kg by listed weight, "
         "structure and official reference price."
     )
@@ -795,6 +801,14 @@ def clean_report_rows(products: list[dict], category: str, b: ModuleType) -> lis
             continue
         if ACCESSORY_PATTERN.search(product.get("model", "")):
             continue
+        source_terms = re.sub(r"[-_/]+", " ", product.get("sourceUrl", ""))
+        if re.search(
+            r"\b(inner (?:bug )?(?:tent|tarp)|ground cloth|shelter inner|"
+            r"accessory vestibule|daisy chain)\b",
+            source_terms,
+            re.IGNORECASE,
+        ):
+            continue
         weight = b.parse_weight_kg(product)
         price = b.parse_price(product)
         if weight is None or weight <= 0 or price is None or price <= 0:
@@ -819,16 +833,21 @@ def data_report_page(
         report_rows.extend(rows)
         total += len(rows)
         weights = sorted(b.parse_weight_kg(p) for p in rows)
-        prices = sorted(b.parse_price(p) for p in rows)
+        usd_prices = sorted(
+            b.parse_price(p)
+            for p in rows
+            if str(p.get("currency") or "USD").upper() == "USD"
+        )
         stats.append(
             {
                 "category": category,
                 "count": len(rows),
                 "brands": len({p.get("brandId") for p in rows}),
                 "median_weight": statistics.median(weights),
-                "median_price": statistics.median(prices),
+                "usd_price_count": len(usd_prices),
+                "median_usd_price": statistics.median(usd_prices),
                 "under_1kg": sum(weight <= 1 for weight in weights),
-                "under_200": sum(price <= 200 for price in prices),
+                "under_200_usd": sum(price <= 200 for price in usd_prices),
             }
         )
     title = f"Camping Gear Weight & Price Report 2026 — {total} Products"
@@ -840,7 +859,7 @@ def data_report_page(
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
     report_path = REPORT_DIR / "camping-gear-weight-price-2026.csv"
     with report_path.open("w", encoding="utf-8", newline="") as csv_file:
-        writer = csv.writer(csv_file)
+        writer = csv.writer(csv_file, lineterminator="\n")
         writer.writerow(
             [
                 "category",
@@ -849,6 +868,7 @@ def data_report_page(
                 "weight_kg",
                 "reference_price",
                 "currency",
+                "data_reviewed",
                 "product_url",
                 "official_source",
             ]
@@ -870,6 +890,7 @@ def data_report_page(
                     b.parse_weight_kg(product),
                     b.parse_price(product),
                     product.get("currency", "USD"),
+                    date.today().isoformat(),
                     f"{site_url}{b.product_path(product)}",
                     product.get("sourceUrl", ""),
                 ]
@@ -880,9 +901,10 @@ def data_report_page(
         f"<td>{row['count']}</td>"
         f"<td>{row['brands']}</td>"
         f"<td>{row['median_weight']:.2f} kg</td>"
-        f"<td>{row['median_price']:.2f} USD*</td>"
+        f"<td>{row['usd_price_count']}</td>"
+        f"<td>${row['median_usd_price']:.2f}</td>"
         f"<td>{row['under_1kg']}</td>"
-        f"<td>{row['under_200']}</td>"
+        f"<td>{row['under_200_usd']}</td>"
         "</tr>"
         for row in stats
     )
@@ -896,7 +918,7 @@ def data_report_page(
         "  </nav>\n"
         '  <article class="static-detail">\n'
         '    <header class="page__head">\n'
-        '      <p class="page__eyebrow">Original catalog analysis · July 2026</p>\n'
+        '      <p class="page__eyebrow">Original catalog analysis · August 2026</p>\n'
         '      <h1 class="page__title">Camping Gear Weight &amp; Price Report 2026</h1>\n'
         f'      <p class="page__lead">We analyzed {total} product records with '
         "usable weight and price data across five camping categories. The result "
@@ -909,20 +931,21 @@ def data_report_page(
         '      <h2 id="results">Category benchmarks</h2>\n'
         '      <div class="table-wrap"><table class="compare-table static-table">\n'
         "        <thead><tr><th>Category</th><th>Products</th><th>Brands</th>"
-        "<th>Median Weight</th><th>Median Price</th><th>≤ 1 kg</th><th>≤ $200</th></tr></thead>\n"
+        "<th>Median Weight</th><th>USD-priced</th><th>Median USD Price</th>"
+        "<th>≤ 1 kg</th><th>≤ $200 USD</th></tr></thead>\n"
         f"        <tbody>{rows_html}</tbody>\n"
         "      </table></div>\n"
-        "      <p class=\"page__lead page__lead--compact\">*Reference prices are "
-        "normalized only by their stored numeric value; most records are USD, "
-        "but a small number of other-market records may use another currency. "
-        "Use medians directionally, not as exchange-rate-adjusted market prices.</p>\n"
+        "      <p class=\"page__lead page__lead--compact\">Price medians and "
+        "the ≤ $200 counts use USD records only. Other currencies remain in the "
+        "downloadable CSV but are excluded from price benchmarks; no exchange-rate "
+        "conversion is applied.</p>\n"
         "    </section>\n"
         '    <section class="static-panel" aria-labelledby="findings">\n'
         '      <h2 id="findings">What the data shows</h2>\n'
         "      <ul class=\"static-link-list\">"
         f"<li><strong>Tents:</strong> {stats[0]['count']} clean records have a median representative weight of {stats[0]['median_weight']:.2f} kg.</li>"
         f"<li><strong>Sleeping bags:</strong> {stats[2]['under_1kg']} of {stats[2]['count']} records weigh 1 kg or less.</li>"
-        f"<li><strong>Sleeping pads:</strong> {stats[3]['under_200']} of {stats[3]['count']} records list a reference price at or below 200.</li>"
+        f"<li><strong>Sleeping pads:</strong> {stats[3]['under_200_usd']} of {stats[3]['usd_price_count']} USD-priced records list a reference price at or below $200.</li>"
         f"<li><strong>Stoves:</strong> the median representative weight is {stats[4]['median_weight']:.2f} kg in the cleaned sample.</li>"
         "</ul>\n"
         "    </section>\n"
@@ -932,8 +955,10 @@ def data_report_page(
         "CampGear Compare catalog. We included visible records with positive "
         "weight and price values, then excluded model names that clearly describe "
         "accessories such as footprints, stuff sacks, pumps, repair parts and "
-        "inner tents. Medians reduce the influence of unusually large or premium "
-        "products. The report is regenerated by <code>scripts/build_guides.py</code>.</p>\n"
+        "inner tents. Weight medians use every included row; price medians and "
+        "price thresholds use USD rows only. Records in other currencies stay in "
+        "the CSV for inspection and are never compared numerically without currency "
+        "conversion. The report is regenerated by <code>scripts/build_guides.py</code>.</p>\n"
         "      <p>Download or inspect the source records through the site's "
         '<a href="/about.html">methodology page</a>, use the '
         '<a href="/data/reports/camping-gear-weight-price-2026.csv" download>cleaned CSV</a>, '
@@ -1118,10 +1143,12 @@ def build_guides(
     products: list[dict],
     brands: dict[str, dict],
     b: ModuleType,
+    seo_overrides: dict | None = None,
 ) -> list[dict]:
     GUIDE_DIR.mkdir(exist_ok=True)
     product_map = {product.get("id"): product for product in products}
     pages: list[dict] = []
+    page_overrides = (seo_overrides or {}).get("pages") or {}
 
     for guide in all_comparison_guides():
         missing = [pid for pid in guide["product_ids"] if pid not in product_map]
@@ -1152,7 +1179,14 @@ def build_guides(
     missing_tents = [pid for pid in LIGHTWEIGHT_TENT_IDS if pid not in product_map]
     if missing_tents:
         raise ValueError(f"lightweight tent guide: missing product IDs: {missing_tents}")
-    page, html = lightweight_tents_page(product_map, brands, site_url, b)
+    lightweight_path = "/guides/2-person-backpacking-tents-under-2kg.html"
+    page, html = lightweight_tents_page(
+        product_map,
+        brands,
+        site_url,
+        b,
+        page_overrides.get(lightweight_path),
+    )
     (GUIDE_DIR / "2-person-backpacking-tents-under-2kg.html").write_text(
         html, encoding="utf-8"
     )
@@ -1185,7 +1219,7 @@ def main() -> int:
     brands_data = b.load_json(b.DATA / "brands.json")
     brands = b.brand_map(brands_data if isinstance(brands_data, list) else [])
     products = b.load_official_products()
-    pages = build_guides(site_url, products, brands, b)
+    pages = build_guides(site_url, products, brands, b, b.load_seo_overrides())
     print(f"Generated {len(pages)} guide page(s) in {GUIDE_DIR}")
     return 0
 

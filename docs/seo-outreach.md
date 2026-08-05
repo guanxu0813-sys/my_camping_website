@@ -23,12 +23,12 @@ data with clear methodology.
 
 Suggested subject:
 
-> Dataset suggestion: weights and prices for 554 camping gear products
+> Dataset suggestion: weights and prices for 543 camping gear products
 
 Suggested message:
 
 > Hi Jeremy — I maintain CampGear Compare, a catalog built from official brand
-> product pages. I published a cleaned CSV of 554 tents, tarps, sleeping bags,
+> product pages. I published a cleaned CSV of 543 tents, tarps, sleeping bags,
 > sleeping pads, and stoves with representative weight, reference price,
 > currency, product URL, and original source URL.
 >
@@ -37,7 +37,8 @@ Suggested message:
 > Methodology and summary:
 > https://www.campgearcompare.com/guides/camping-gear-weight-price-report-2026.html
 >
-> The report explains exclusions and known currency/variant limitations. I
+> The report explains exclusions and keeps GBP and JPY rows in the CSV while
+> limiting price benchmarks to USD records. I
 > thought the category medians and lightweight-product counts might be useful
 > for outdoor or consumer-data analysis.
 
@@ -85,4 +86,3 @@ Reddit and forums should be treated as communities, not link directories. Link
 only when the report directly answers an existing question, disclose that you
 made the site, and include the useful result in the comment so the link is
 optional.
-

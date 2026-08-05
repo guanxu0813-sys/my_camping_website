@@ -1,26 +1,55 @@
 {
+  "_meta": {
+    "updated": "2026-08-05",
+    "gscPeriod": "2026-07-06 to 2026-08-02",
+    "siteAverageCtr": 1.9,
+    "reviewAfter": "2026-09-02",
+    "rule": "Keep or revise only after four weeks of comparable GSC data."
+  },
+  "pages": {
+    "/tent.html": {
+      "title": "Camping Tent Comparison — 300+ Models by Weight & Price",
+      "description": "Compare 300+ camping tents by weight, capacity, season and official reference price. Filter Naturehike, Snow Peak, Big Agnes, NEMO and more."
+    },
+    "/guides/2-person-backpacking-tents-under-2kg.html": {
+      "title": "2-Person Tents Under 2 kg — 14 Backpacking Models",
+      "description": "Compare 14 complete two-person backpacking tents under 2 kg by listed weight, structure and official reference price, with variant limitations."
+    },
+    "/sleeping-pad.html": {
+      "title": "Sleeping Pad Comparison — 130+ Models by R-Value & Weight",
+      "description": "Compare 130+ sleeping pads by R-value, weight, size and official price. Filter Therm-a-Rest, Sea to Summit, NEMO, Naturehike and more."
+    },
+    "/sleeping-bag.html": {
+      "title": "Sleeping Bag Comparison — 200+ Models by Temp & Weight",
+      "description": "Compare 200+ sleeping bags by temperature rating, fill, weight and official price. Filter NANGA, Montbell, Sea to Summit, Naturehike and more."
+    }
+  },
   "products": {
     "naturehike-giling-protm-1-person-backpacking-tent": {
-      "title": "Naturehike Giling Pro 1 Tent — Weight, Price & Specs",
-      "description": "Naturehike Giling Pro 1: 2.2 kg, 1-person, 4-season tent with a $149 reference price. Compare official waterproofing, setup and capacity specs."
+      "title": "Naturehike Giling Pro 1 Tent — 2.2 kg, 4-Season",
+      "description": "Naturehike Giling Pro 1 is a 2.2 kg, one-person four-season tent listed at $149. Compare its official waterproofing, structure and packed-size specs."
     },
     "naturehike-peaklite-yl01-ultralight-folding-camping-table": {
-      "title": "Naturehike PeakLite YL01 Table — Weight, Folded Size & Price",
-      "description": "Naturehike PeakLite YL01 table: 2.15 kg, folds to 15.7 × 5.5 in, supports up to 110 lb and lists at $49.99. See official specs."
+      "title": "Naturehike PeakLite YL01 Table — 2.15 kg, $49.99",
+      "description": "Naturehike PeakLite YL01 folding table weighs 2.15 kg, packs to 15.7 x 5.5 inches and supports up to 110 lb. Check its official $49.99 reference price."
+    },
+    "naturehike-daban-2-person-ultralight-4-season-tunnel-tent": {
+      "title": "Naturehike DABAN 2 Tent — 1.6 kg, 4-Season, $139",
+      "description": "Naturehike DABAN 2 is a two-person four-season tunnel tent at about 1.6 kg and $139. Compare official waterproofing, dimensions and packed size."
     },
     "naturehike-mongartm-pro-1-person-ultralight-backpacking-tent": {
-      "title": "Naturehike Mongar Pro 1 — Weight, Price & Tent Specs",
-      "description": "Naturehike Mongar Pro 1: 1.97 kg, 1-person freestanding double-wall tent with a $149 reference price. Compare official 20D nylon and capacity specs."
+      "title": "Naturehike Mongar Pro 1 Tent — 1.97 kg, $149",
+      "description": "Naturehike Mongar Pro 1 is a 1.97 kg one-person freestanding tent listed at $149. Compare its official 20D nylon, waterproofing and capacity specs."
     },
     "naturehike-snowbirdtm-sp550-down-mummy-sleeping-bag-29-3-f-1-5-c": {
-      "title": "Naturehike Snowbird SP550 — Temperature, Fill & Weight",
-      "description": "Snowbird SP550 down mummy bag: 29.3°F / -1.5°C model, 1.2 kg, 650 fill power and $149.99–169.99. Compare official specs."
+      "title": "Naturehike Snowbird SP550 — -1.5°C, 650 Fill, 1.2 kg",
+      "description": "Naturehike Snowbird SP550 is a 650-fill down mummy bag with a -1.5°C model label and 1.2 kg listed weight. Check the exact variant before comparing warmth."
     }
   },
   "brands": {
     "nemo-tarp": {
-      "title": "NEMO Tarps & Camp Shelters — 3 Models Compared",
-      "description": "Compare NEMO Heliopolis, Scalar and Victory camp shelters by type and official reference price, with links to full product specs."
+      "title": "NEMO Tarps & Camp Shelters — Heliopolis, Scalar, Victory",
+      "description": "Compare NEMO Heliopolis, Scalar and Victory tarps and camp shelters by intended use and official reference price, with links to full product specs."
     }
   }
 }
