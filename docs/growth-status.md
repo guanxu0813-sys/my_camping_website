@@ -1,18 +1,18 @@
 # CampGear Compare Growth Status
 
-Generated: 2026-08-03
-Measurement row: 2026-08-03 (week-1-ga4-last-7-days-gsc-2026-07-26-to-2026-08-01)
+Generated: 2026-08-06
+Measurement row: 2026-08-06 (day-13-early-ga4-last-7-days-gsc-2026-07-29-to-2026-08-04)
 Plan month: M1
 Decision: **FOCUS**
 
 ## Metrics
-- Total visits/day: 3.71 (change n/a)
-- Organic visits/day: 1.29 (change n/a)
-- GSC clicks: 23.0 (change +155.6%)
-- GSC impressions: 1037.0 (change +128.9%)
+- Total visits/day: 5.57 (change +50.1%)
+- Organic visits/day: 2.43 (change +88.4%)
+- GSC clicks: 25.0 (change +38.9%)
+- GSC impressions: 1270.0 (change +75.4%)
 - Indexed URLs: 453.0 (change +0.0%)
-- Referring domains: not entered (change n/a)
-- Published guides: 14.0 (change +0.0%)
+- Referring domains: 2.0 (change n/a)
+- Published guides: 16.0 (change +14.3%)
 
 ## Gate actions
 - Traffic is below the M1 lower gate (20/day): pause broad page expansion.
