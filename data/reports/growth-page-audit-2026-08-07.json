@@ -1,0 +1,45 @@
+{
+  "generated": "2026-08-07",
+  "sampleSize": 20,
+  "sourceSample": "data/reports/growth-page-sample-2026-08-07.json",
+  "definition": {
+    "factualErrorPage": "A rendered claim is contradicted by an official source or is produced by an invalid comparison method.",
+    "status": {
+      "pass": "The sampled page met the criterion in this review.",
+      "partial": "The page provides some value but needs a material improvement.",
+      "fail": "The page contains a confirmed error or does not meet the criterion."
+    }
+  },
+  "summary": {
+    "factualErrorPages": 8,
+    "factualErrorRatePercent": 40,
+    "directOfficialSourceMismatchPages": 4,
+    "directOfficialSourceMismatchRatePercent": 20,
+    "fullFiveCriterionPassPages": 2,
+    "fullFiveCriterionPassRatePercent": 10,
+    "pagesWithoutDirectOfficialLink": 10,
+    "pagesWithoutDirectOfficialLinkPercent": 50
+  },
+  "pages": [
+    {"id":"S01","tier":"B","pageType":"guide","path":"/guides/2-person-backpacking-tents-under-2kg.html","intent":"pass","accuracy":"pass","uniqueValue":"pass","sourceTraceability":"partial","nextStep":"pass","issues":["Method is clear, but the shortlist has no direct official-source links."]},
+    {"id":"S02","tier":"A","pageType":"guide","path":"/guides/naturehike-giling-pro-1-vs-mongar-pro-1.html","intent":"pass","accuracy":"pass","uniqueValue":"pass","sourceTraceability":"pass","nextStep":"pass","issues":[]},
+    {"id":"S08","tier":"C","pageType":"guide","path":"/guides/nemo-hornet-vs-dragonfly-vs-dagger-osmo.html","intent":"pass","accuracy":"pass","uniqueValue":"pass","sourceTraceability":"pass","nextStep":"pass","issues":[]},
+    {"id":"S09","tier":"A","pageType":"category","path":"/tent.html","intent":"pass","accuracy":"partial","uniqueValue":"pass","sourceTraceability":"partial","nextStep":"pass","issues":["The 276-model table has no row-level official-source links or visible data date."]},
+    {"id":"S11","tier":"B","pageType":"category","path":"/sleeping-pad.html","intent":"pass","accuracy":"partial","uniqueValue":"pass","sourceTraceability":"partial","nextStep":"pass","issues":["The 127-model table has no row-level official-source links or visible data date."]},
+    {"id":"S12","tier":"B","pageType":"category","path":"/sleeping-bag.html","intent":"pass","accuracy":"partial","uniqueValue":"pass","sourceTraceability":"partial","nextStep":"pass","issues":["The 195-model table has no row-level official-source links or visible data date."]},
+    {"id":"S13","tier":"C","pageType":"category","path":"/tarp.html","intent":"pass","accuracy":"partial","uniqueValue":"pass","sourceTraceability":"partial","nextStep":"pass","issues":["The 56-model table has no row-level official-source links or visible data date."]},
+    {"id":"S14","tier":"C","pageType":"category","path":"/furniture.html","intent":"pass","accuracy":"partial","uniqueValue":"pass","sourceTraceability":"partial","nextStep":"pass","issues":["Mixed table and chair intent is only lightly separated; rows have no direct source link."]},
+    {"id":"S15","tier":"C","pageType":"category","path":"/stove.html","intent":"pass","accuracy":"partial","uniqueValue":"pass","sourceTraceability":"partial","nextStep":"pass","issues":["The table has no row-level official-source links or visible data date."]},
+    {"id":"S16","tier":"A","pageType":"brand","path":"/brands/nemo-tarp.html","intent":"pass","accuracy":"partial","uniqueValue":"partial","sourceTraceability":"partial","nextStep":"pass","issues":["Three sparse records leave most key-spec cells empty; the page has no direct official citations."]},
+    {"id":"S17","tier":"B","pageType":"brand","path":"/brands/nemo-tent.html","intent":"pass","accuracy":"partial","uniqueValue":"partial","sourceTraceability":"partial","nextStep":"pass","issues":["Most weight fields are empty and the page adds little decision guidance beyond the generated table."]},
+    {"id":"S23","tier":"C","pageType":"brand","path":"/brands/flames-creed.html","intent":"pass","accuracy":"partial","uniqueValue":"partial","sourceTraceability":"partial","nextStep":"pass","issues":["The broad product list lacks brand context and direct official-source links."]},
+    {"id":"S24","tier":"A","pageType":"product","path":"/products/naturehike-mongartm-base-3-person-ultralight-backpacking-tent.html","intent":"pass","accuracy":"fail","uniqueValue":"pass","sourceTraceability":"pass","nextStep":"pass","issues":["The category price benchmark mixes currencies and therefore makes an invalid below-median claim."]},
+    {"id":"S25","tier":"A","pageType":"product","path":"/products/naturehike-giling-protm-1-person-backpacking-tent.html","intent":"pass","accuracy":"fail","uniqueValue":"pass","sourceTraceability":"pass","nextStep":"pass","issues":["The category price benchmark mixes currencies and therefore makes an invalid below-median claim."]},
+    {"id":"S30","tier":"A","pageType":"product","path":"/products/naturehike-peaklite-yl01-ultralight-folding-camping-table.html","intent":"pass","accuracy":"fail","uniqueValue":"pass","sourceTraceability":"pass","nextStep":"pass","issues":["The category price benchmark mixes currencies and therefore makes an invalid below-median claim."]},
+    {"id":"S36","tier":"D","pageType":"product","path":"/products/nanga-level-8-20-udd-bag.html","intent":"partial","accuracy":"fail","uniqueValue":"partial","sourceTraceability":"pass","nextStep":"pass","issues":["The page shows 0.75 kg; NANGA lists about 1.54 kg total weight.","The page labels -20 C as comfort; NANGA lists -11 C comfort and -20 C lower limit.","Most decision text remains untranslated Japanese.","The category price benchmark mixes currencies."]},
+    {"id":"S37","tier":"D","pageType":"product","path":"/products/naturehike-naturehike-morning-view-king-air-mattress-with-built-in-pump.html","intent":"partial","accuracy":"fail","uniqueValue":"partial","sourceTraceability":"pass","nextStep":"pass","issues":["A king-size 200 x 180 cm mattress is incorrectly normalized as 1-person.","The official prose says 5.9 kg while variant metadata says 5.8 kg; the page does not disclose the conflict.","The brand name is duplicated in the page title.","The category price benchmark mixes currencies."]},
+    {"id":"S41","tier":"D","pageType":"product","path":"/products/montbell-seamless-alpine-burrow-bag-5-long-blue-ridge.html","intent":"pass","accuracy":"fail","uniqueValue":"partial","sourceTraceability":"pass","nextStep":"pass","issues":["The page identifies the fill as down, but Montbell lists EXCELOFT synthetic insulation.","The official 8 C comfort and 4 C lower-limit ratings are omitted.","The category price benchmark mixes currencies."]},
+    {"id":"S42","tier":"D","pageType":"product","path":"/products/big-agnes-tiger-wall-platinum-two-tent.html","intent":"pass","accuracy":"fail","uniqueValue":"partial","sourceTraceability":"pass","nextStep":"pass","issues":["The category price benchmark mixes currencies.","The similar-weight table includes zero-price and implausible range records without a warning."]},
+    {"id":"S46","tier":"D","pageType":"product","path":"/products/3f-ul-gear-lanshan-1-pro.html","intent":"pass","accuracy":"fail","uniqueValue":"partial","sourceTraceability":"pass","nextStep":"pass","issues":["A highlight calls the Lanshan 1 Pro double-wall; the official page says it is single-wall.","The displayed 169 USD price is stale relative to the current official tent range reaching 179 USD.","The category price benchmark mixes currencies."]}
+  ]
+}
