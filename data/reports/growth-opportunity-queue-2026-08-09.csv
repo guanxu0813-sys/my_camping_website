@@ -1,0 +1,13 @@
+queue,priority,theme,target_url,search_demand,rank_proximity,data_completeness,decision_value,internal_authority,commercial_relevance,total,decision
+update,1,Naturehike Mongar,/products/naturehike-mongartm-base-3-person-ultralight-backpacking-tent.html,5,3,3,3,2,2,18,Strengthen the existing winner and its family links
+update,2,Naturehike Snowbird,/guides/naturehike-snowbird-sp700-vs-sp550.html,3,3,3,3,2,2,16,Refresh the existing comparison before expanding
+update,3,NEMO tarp and shelter,/brands/nemo-tarp.html,4,2,1,2,2,2,13,Improve intent coverage but do not create a guide with incomplete data
+update,4,Montbell Down Hugger 650,/guides/montbell-down-hugger-650-models-compared.html,1,3,3,3,2,2,14,Perform the scheduled source and decision-value refresh
+update,5,Big Agnes Tiger Wall,/guides/big-agnes-tiger-wall-models-compared.html,1,0,2,3,2,2,10,Run the scheduled controlled improvement despite weak query evidence
+observe,1,Mobi Garden Lunta,/products/mobi-garden-mobi-garden-lunta-pro-backpacking-tent-quartz-pink.html,3,3,3,2,2,2,15,Protect the early winner and wait for a larger sample
+observe,2,Naturehike Yugu,/products/naturehike-yugutm-ultralight-self-inflating-mummy-pad.html,3,3,2,3,2,2,15,Audit variants before approving a family guide
+observe,3,Naturehike FC pads,/products/naturehike-fc01-ultralight-inflatable-doublewide-pad.html,3,3,2,3,2,2,15,Observe query split between FC01 and FC10
+observe,4,Snow Peak Amenity Dome,/guides/snow-peak-amenity-dome-2-vs-naturehike-cloud-up-2.html,2,2,3,3,2,2,14,Keep unchanged until the query sample grows
+observe,5,Montbell Rera Dome,/products/montbell-rera-dome-4-thyme.html,2,3,2,2,2,2,13,Good position but only eight impressions and no click
+new_candidate,1,Naturehike Mongar Base 2 vs 3,/guides/naturehike-mongar-base-2-vs-3.html,5,3,3,3,2,2,18,Candidate only; review source freshness before Day 25 approval
+new_candidate,2,Naturehike Massif 2 vs 4,/guides/naturehike-massif-2-vs-4.html,2,3,3,3,2,2,15,Candidate only; confirm that comparison intent is distinct from product intent

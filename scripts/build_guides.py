@@ -591,9 +591,16 @@ def collection_page(
     reviewed_note = ""
     if guide.get("reviewed_on"):
         reviewed_on = b.escape_html(guide["reviewed_on"])
+        reviewer = ""
+        if guide.get("reviewer"):
+            reviewer = (
+                'Reviewed by <a href="/about.html">'
+                f'{b.escape_html(guide["reviewer"])}</a>. '
+            )
         reviewed_note = (
             '      <p class="page__lead page__lead--compact">'
-            f'Data and official prices manually reviewed <time datetime="{reviewed_on}">{reviewed_on}</time>.'
+            f'{reviewer}Data and official prices manually reviewed '
+            f'<time datetime="{reviewed_on}">{reviewed_on}</time>.'
             "</p>\n"
         )
     limitations = guide.get(

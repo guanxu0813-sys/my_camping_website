@@ -1,10 +1,43 @@
 {
   "_meta": {
-    "updated": "2026-08-05",
-    "gscPeriod": "2026-07-06 to 2026-08-02",
-    "siteAverageCtr": 1.9,
-    "reviewAfter": "2026-09-02",
+    "updated": "2026-08-10",
     "rule": "Keep or revise only after four weeks of comparable GSC data."
+  },
+  "experiments": {
+    "EXP-2026-08-05-CTR-01": {
+      "gscPeriod": "2026-07-06 to 2026-08-02",
+      "siteAverageCtr": 1.9,
+      "reviewAfter": "2026-09-02"
+    },
+    "EXP-2026-08-10-CTR-02": {
+      "gscPeriod": "2026-07-12 to 2026-08-08",
+      "siteAverageCtr": 2.0,
+      "reviewAfter": "2026-09-07",
+      "treatmentProducts": [
+        "naturehike-mongar-ul-2-person-ultralight-backpacking-tent",
+        "onetigris-coco-nest-solo-hot-tent",
+        "naturehike-cloud-up-ul-2-person-ultralight-backpacking-tent",
+        "3f-ul-gear-lanshan-1",
+        "naturehike-cloud-up-pro-1-person-ultralight-backpacking-tent",
+        "naturehike-cloud-up-2-person-ultralight-backpacking-tent",
+        "sea-to-summit-comfort-light-insulated-pad",
+        "therm-a-rest-neoloft-sleeping-pad",
+        "sea-to-summit-ascent-womens-down-sleeping-bag",
+        "big-agnes-anthracite-thirty"
+      ],
+      "controlPaths": [
+        "/products/naturehike-cloud-up-base-2-person-ultralight-backpacking-tent.html",
+        "/products/snow-peak-amenity-dome-m-ivory.html",
+        "/products/naturehike-mongar-2-person-ultralight-backpacking-tent.html",
+        "/products/3f-ul-gear-lanshan-2.html",
+        "/products/snow-peak-land-lock.html",
+        "/products/snow-peak-land-lock-tent-set.html",
+        "/products/nemo-roamer.html",
+        "/products/sea-to-summit-camp-self-inflating-pad.html",
+        "/products/big-agnes-greystone-thirty.html",
+        "/products/aegismax-aegismax-wind-hard-twilight-10d-5-degree-800fp-down-sleeping-bag-ultralight.html"
+      ]
+    }
   },
   "pages": {
     "/tent.html": {
@@ -44,6 +77,46 @@
     "naturehike-snowbirdtm-sp550-down-mummy-sleeping-bag-29-3-f-1-5-c": {
       "title": "Naturehike Snowbird SP550 — -1.5°C, 650 Fill, 1.2 kg",
       "description": "Naturehike Snowbird SP550 is a 650-fill down mummy bag with a -1.5°C model label and 1.2 kg listed weight. Check the exact variant before comparing warmth."
+    },
+    "naturehike-mongar-ul-2-person-ultralight-backpacking-tent": {
+      "title": "Naturehike Mongar UL 2 Tent — 2-Person, 15D, $199",
+      "description": "Compare the Naturehike Mongar UL 2 tent by two-person capacity, 15D fly, dual doors, expandable awning and its official $199 reference price."
+    },
+    "onetigris-coco-nest-solo-hot-tent": {
+      "title": "OneTigris COCO NEST Hot Tent — Solo, Stove Jack, 3.3 kg",
+      "description": "Check the OneTigris COCO NEST solo hot tent: 3.3 kg listed weight, 3000 mm waterproofing, reinforced poles, stove jack and $229.98 official price."
+    },
+    "naturehike-cloud-up-ul-2-person-ultralight-backpacking-tent": {
+      "title": "Naturehike Cloud Up UL 2 Tent — 1.45 kg, 2-Person, $179",
+      "description": "Compare the Naturehike Cloud Up UL 2 tent: two-person capacity, about 1.45 kg, silicone-coated nylon, upgraded ventilation and $179 reference price."
+    },
+    "3f-ul-gear-lanshan-1": {
+      "title": "3F UL Gear Lanshan 1 Tent — 920 g, 1-Person, $130–158",
+      "description": "Check the 3F UL Gear Lanshan 1 trekking-pole tent: one-person double-wall design, about 920 g trail weight, seasonal inner options and $130–$158 pricing."
+    },
+    "naturehike-cloud-up-pro-1-person-ultralight-backpacking-tent": {
+      "title": "Naturehike Cloud Up Pro 1 Tent — 1.85 kg, $129",
+      "description": "Check the Naturehike Cloud Up Pro 1 tent: one-person capacity, about 1.85 kg, three-season design, improved ventilation and a $129 reference price."
+    },
+    "naturehike-cloud-up-2-person-ultralight-backpacking-tent": {
+      "title": "Naturehike Cloud Up 2 Tent — 2-Person, 2.1 kg, $119–169",
+      "description": "Compare the Naturehike Cloud Up 2 tent: two-person freestanding design, about 2.1 kg, 20D nylon construction and an official $119–$169 price range."
+    },
+    "sea-to-summit-comfort-light-insulated-pad": {
+      "title": "Sea to Summit Comfort Light Pad — R-Value 3.7, 0.8 kg",
+      "description": "Compare the Sea to Summit Comfort Light insulated air pad: R-value 3.7, about 0.8 kg, hybrid Air Sprung Cells and a $119.40–$131.40 price range."
+    },
+    "therm-a-rest-neoloft-sleeping-pad": {
+      "title": "Therm-a-Rest NeoLoft Sleeping Pad — 0.85 kg, $249.95",
+      "description": "Compare the Therm-a-Rest NeoLoft air sleeping pad: about 0.85 kg, backpacking-focused comfort, air-pad construction and $249.95–$269.95 pricing."
+    },
+    "sea-to-summit-ascent-womens-down-sleeping-bag": {
+      "title": "Sea to Summit Ascent Women's Bag — 750+ Fill, 1.02 kg",
+      "description": "Compare the Sea to Summit Ascent Women's down sleeping bag: 750+ fill power, about 1.02 kg, Free-Flow Zip ventilation and $399–$479 pricing."
+    },
+    "big-agnes-anthracite-thirty": {
+      "title": "Big Agnes Anthracite 30 Sleeping Bag — 0.95 kg, $150",
+      "description": "Check the Big Agnes Anthracite 30 mummy sleeping bag: about 0.95 kg, recycled FireLine Pro Eco synthetic insulation and $149.95–$159.95 pricing."
     }
   },
   "brands": {

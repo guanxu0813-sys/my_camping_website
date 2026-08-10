@@ -215,16 +215,29 @@ class GrowthToolTests(unittest.TestCase):
             product_links = build_guides.guide_links_by_product()[product_id]
             self.assertIn(guide_path, {path for path, _ in product_links})
 
-    def test_day_ten_seo_overrides_cover_ten_gsc_pages(self) -> None:
+    def test_active_seo_experiments_keep_distinct_cohorts(self) -> None:
         overrides = build_sitemap.load_seo_overrides()
         entries = [
             *(overrides.get("pages") or {}).values(),
             *(overrides.get("products") or {}).values(),
             *(overrides.get("brands") or {}).values(),
         ]
-        self.assertEqual(len(entries), 10)
-        self.assertEqual(overrides["_meta"]["updated"], "2026-08-05")
-        self.assertEqual(overrides["_meta"]["reviewAfter"], "2026-09-02")
+        self.assertEqual(len(entries), 20)
+        self.assertEqual(overrides["_meta"]["updated"], "2026-08-10")
+        experiments = overrides["experiments"]
+        self.assertEqual(
+            experiments["EXP-2026-08-05-CTR-01"]["reviewAfter"],
+            "2026-09-02",
+        )
+        day_21 = experiments["EXP-2026-08-10-CTR-02"]
+        self.assertEqual(day_21["reviewAfter"], "2026-09-07")
+        self.assertEqual(len(day_21["treatmentProducts"]), 10)
+        self.assertEqual(len(day_21["controlPaths"]), 10)
+        treatment_paths = {
+            f"/products/{product_id}.html"
+            for product_id in day_21["treatmentProducts"]
+        }
+        self.assertTrue(treatment_paths.isdisjoint(day_21["controlPaths"]))
         for entry in entries:
             self.assertGreaterEqual(len(entry["title"]), 30)
             self.assertLessEqual(len(entry["title"]), 60)
