@@ -1,4 +1,4 @@
 {
-  "_comment": "Map productId -> retailer IDs/URLs. Buttons render only when affiliates.*.enabled is true AND a resolvable URL exists. Prefer amazonAsin; amazonUrl overrides. aliexpressUrl should be the tracked Portals link once approved.",
+  "_comment": "Map productId only after manual brand, model and variant verification. Buttons require an approved program ID and enabled=true. Amazon accepts an exact 10-character ASIN or a direct /dp/ or /gp/product/ URL on the configured marketplace. AliExpress accepts only a tracked https://s.click.aliexpress.com/e/ link. Search/category URLs and guessed IDs are rejected.",
   "links": {}
 }

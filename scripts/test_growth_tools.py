@@ -260,13 +260,73 @@ class GrowthToolTests(unittest.TestCase):
             Counter(row["currency"] for row in rows),
             Counter({"USD": 497, "GBP": 28, "JPY": 18}),
         )
-        self.assertTrue(all(row["data_reviewed"] == "2026-08-05" for row in rows))
+        self.assertTrue(all(row["data_reviewed"] == "2026-08-12" for row in rows))
 
         report_html = (
             ROOT / "guides" / "camping-gear-weight-price-report-2026.html"
         ).read_text(encoding="utf-8")
         self.assertIn("Median USD Price", report_html)
         self.assertIn("Other currencies remain in the", report_html)
+        self.assertIn("Three cross-category findings", report_html)
+        self.assertIn("descriptive catalog results", report_html)
+
+    def test_affiliate_links_require_approval_ids_and_direct_products(self) -> None:
+        inactive = {
+            "amazon": {"enabled": False, "associateTag": ""},
+            "aliexpress": {"enabled": False, "trackingId": ""},
+        }
+        entry = {
+            "amazonAsin": "B012345678",
+            "aliexpressUrl": "https://s.click.aliexpress.com/e/_example",
+        }
+        self.assertEqual(build_sitemap.resolve_amazon_url(entry, inactive), "")
+        self.assertEqual(build_sitemap.resolve_aliexpress_url(entry, inactive), "")
+
+        active = {
+            "amazon": {
+                "enabled": True,
+                "associateTag": "campgear-20",
+                "marketplace": "www.amazon.com",
+            },
+            "aliexpress": {"enabled": True, "trackingId": "approved-id"},
+        }
+        self.assertEqual(
+            build_sitemap.resolve_amazon_url(entry, active),
+            "https://www.amazon.com/dp/B012345678?tag=campgear-20",
+        )
+        self.assertEqual(
+            build_sitemap.resolve_aliexpress_url(entry, active),
+            entry["aliexpressUrl"],
+        )
+
+        search_pages = {
+            "amazonUrl": "https://www.amazon.com/s?k=camping+tent",
+            "aliexpressUrl": "https://www.aliexpress.com/w/wholesale-tent.html",
+        }
+        self.assertEqual(build_sitemap.resolve_amazon_url(search_pages, active), "")
+        self.assertEqual(build_sitemap.resolve_aliexpress_url(search_pages, active), "")
+
+    def test_affiliate_buttons_always_include_disclosure_and_sponsored_rel(self) -> None:
+        product = {
+            "id": "verified-product",
+            "sourceUrl": "https://brand.example/products/verified-product",
+        }
+        affiliates = {
+            "amazon": {
+                "enabled": True,
+                "associateTag": "campgear-20",
+                "marketplace": "www.amazon.com",
+            },
+            "aliexpress": {"enabled": False, "trackingId": ""},
+        }
+        html = build_sitemap.product_purchase_actions_html(
+            product,
+            affiliates,
+            {"verified-product": {"amazonAsin": "B012345678"}},
+        )
+        self.assertIn('rel="nofollow sponsored noopener noreferrer"', html)
+        self.assertIn("Affiliate disclosure", html)
+        self.assertIn("View official source", html)
 
 
 if __name__ == "__main__":

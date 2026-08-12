@@ -926,6 +926,11 @@ def data_report_page(
         "</tr>"
         for row in stats
     )
+    tent_lightweight_share = stats[0]["under_1kg"] / stats[0]["count"] * 100
+    bag_lightweight_share = stats[2]["under_1kg"] / stats[2]["count"] * 100
+    pad_lightweight_share = stats[3]["under_1kg"] / stats[3]["count"] * 100
+    tent_budget_share = stats[0]["under_200_usd"] / stats[0]["usd_price_count"] * 100
+    pad_budget_share = stats[3]["under_200_usd"] / stats[3]["usd_price_count"] * 100
     path = page["path"]
     body = (
         '<main class="page page--sub static-page">\n'
@@ -966,6 +971,15 @@ def data_report_page(
         f"<li><strong>Sleeping pads:</strong> {stats[3]['under_200_usd']} of {stats[3]['usd_price_count']} USD-priced records list a reference price at or below $200.</li>"
         f"<li><strong>Stoves:</strong> the median representative weight is {stats[4]['median_weight']:.2f} kg in the cleaned sample.</li>"
         "</ul>\n"
+        "    </section>\n"
+        '    <section class="static-panel" aria-labelledby="citable-findings">\n'
+        '      <h2 id="citable-findings">Three cross-category findings</h2>\n'
+        '      <ul class="static-link-list">'
+        f"<li><strong>Sub-1 kg products are category-dependent:</strong> {pad_lightweight_share:.1f}% of sleeping pads and {bag_lightweight_share:.1f}% of sleeping bags in the cleaned sample are 1 kg or less, compared with {tent_lightweight_share:.1f}% of tents.</li>"
+        f"<li><strong>The $200 line separates pads and tents:</strong> {pad_budget_share:.1f}% of USD-priced sleeping pads are listed at $200 or less, versus {tent_budget_share:.1f}% of USD-priced tents.</li>"
+        f"<li><strong>Tarps are not automatically lighter in this catalog:</strong> the tarp median is {stats[1]['median_weight']:.2f} kg versus {stats[0]['median_weight']:.2f} kg for tents because the tarp sample includes large shelter systems as well as backpacking tarps.</li>"
+        "</ul>\n"
+        '      <p class="page__lead page__lead--compact">These are descriptive catalog results, not market-share estimates. Product mix differs by category, and price percentages use USD records only.</p>\n'
         "    </section>\n"
         '    <section class="static-panel" aria-labelledby="methodology">\n'
         '      <h2 id="methodology">Reproducible methodology</h2>\n'

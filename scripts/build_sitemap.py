@@ -9,6 +9,7 @@ import sys
 from collections import defaultdict
 from datetime import date
 from pathlib import Path
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -29,6 +30,11 @@ LOW_VALUE_ACCESSORY_PATTERN = re.compile(
     r"stake set|peg set|tent pegs?|tent stakes?|rainfly only|fly only|liner)\b",
     re.IGNORECASE,
 )
+AMAZON_ASIN_PATTERN = re.compile(r"^[A-Z0-9]{10}$")
+AMAZON_PRODUCT_PATH_PATTERN = re.compile(
+    r"/(?:dp|gp/product)/([A-Z0-9]{10})(?:/|$)", re.IGNORECASE
+)
+ALIEXPRESS_TRACKED_HOST = "s.click.aliexpress.com"
 
 CATEGORY_LABELS = {
     "tent": "Tents",
@@ -126,14 +132,40 @@ def resolve_amazon_url(entry: dict, affiliates: dict) -> str:
     amz = affiliates.get("amazon") or {}
     if not amz.get("enabled"):
         return ""
-    if entry.get("amazonUrl"):
-        return str(entry["amazonUrl"])
-    asin = str(entry.get("amazonAsin") or "").strip()
     tag = str(amz.get("associateTag") or "").strip()
-    if not asin or not tag:
+    if not tag:
         return ""
-    host = str(amz.get("marketplace") or "www.amazon.com").replace("https://", "").replace("http://", "")
+    host = urlparse(
+        f"https://{str(amz.get('marketplace') or 'www.amazon.com').removeprefix('https://').removeprefix('http://')}"
+    ).hostname or "www.amazon.com"
+    configured_url = str(entry.get("amazonUrl") or "").strip()
+    if configured_url:
+        parsed = urlparse(configured_url)
+        match = AMAZON_PRODUCT_PATH_PATTERN.search(parsed.path)
+        if parsed.scheme != "https" or parsed.hostname != host or not match:
+            return ""
+        query = dict(parse_qsl(parsed.query, keep_blank_values=True))
+        query["tag"] = tag
+        return urlunparse(parsed._replace(query=urlencode(query)))
+    asin = str(entry.get("amazonAsin") or "").strip().upper()
+    if not AMAZON_ASIN_PATTERN.fullmatch(asin):
+        return ""
     return f"https://{host}/dp/{asin}?tag={tag}"
+
+
+def resolve_aliexpress_url(entry: dict, affiliates: dict) -> str:
+    ae = affiliates.get("aliexpress") or {}
+    if not ae.get("enabled") or not str(ae.get("trackingId") or "").strip():
+        return ""
+    configured_url = str(entry.get("aliexpressUrl") or "").strip()
+    parsed = urlparse(configured_url)
+    if (
+        parsed.scheme != "https"
+        or parsed.hostname != ALIEXPRESS_TRACKED_HOST
+        or not parsed.path.startswith("/e/")
+    ):
+        return ""
+    return configured_url
 
 
 def product_purchase_actions_html(product: dict, affiliates: dict, affiliate_links: dict) -> str:
@@ -148,8 +180,7 @@ def product_purchase_actions_html(product: dict, affiliates: dict, affiliate_lin
             f'target="_blank" rel="nofollow sponsored noopener noreferrer" '
             f'data-product-id="{escape_html(product.get("id") or "")}" data-platform="amazon">Check Amazon</a>'
         )
-    ae = affiliates.get("aliexpress") or {}
-    ae_url = entry.get("aliexpressUrl") if ae.get("enabled") else None
+    ae_url = resolve_aliexpress_url(entry, affiliates)
     if ae_url:
         buttons.append(
             f'<a class="purchase-link static-button static-button--primary" href="{escape_html(str(ae_url))}" '

@@ -39,9 +39,11 @@ conversion rate.
   Organic Search, divided by seven.
 - **Qualified organic sessions:** Organic Search sessions that land on a guide,
   category, product or comparison page and are engaged or trigger
-  `compare_selected`, `product_modal_open` or `outbound_click`. Until the GA4
-  exploration is available, report organic sessions and high-intent event
-  counts separately.
+  `compare_selected`, `product_modal_open` or `outbound_click`. Use the GA4
+  exploration `Organic High-Intent Weekly` for the strict, event-confirmed
+  subset. Keep engaged organic landing sessions separate until a session-level
+  OR segment is validated; do not add the two counts because sessions may
+  overlap.
 - **GSC clicks, impressions, CTR and position:** Property-level Web search
   metrics for the fixed complete window. Use page/query rows only for page or
   cluster decisions.
@@ -93,8 +95,11 @@ as an experiment and mention the maintenance reason in its notes.
 
 1. Use a complete Wednesday-to-Tuesday GSC window and compare it with the
    immediately preceding, non-overlapping seven days.
-2. Record GA4 total, organic and qualified organic sessions with matching
-   filters where available.
+2. Open the GA4 exploration `Organic High-Intent Weekly`. Keep its rolling
+   28-day window while traffic is sparse, record the total event-confirmed
+   organic sessions, and read `product_modal_open`, `compare_selected` and
+   `outbound_click` as separate rows. Also record total and organic sessions
+   with matching filters where available.
 3. Add one row to `docs/growth-metrics.csv` and run
    `python3 scripts/growth_report.py --month N`.
 4. Record absolute values as well as percentages; do not treat low-base growth
