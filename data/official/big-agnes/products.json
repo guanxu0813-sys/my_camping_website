@@ -2429,12 +2429,12 @@
     "imageAlt": "Tiger Wall 2 Platinum",
     "sourceUrl": "https://www.bigagnes.com/products/tiger-wall-platinum-two-tent",
     "sourceSite": "bigagnes.com",
-    "scrapedAt": "2026-07-03T14:46:17Z",
-    "status": "draft",
+    "scrapedAt": "2026-08-15T00:00:00Z",
+    "status": "verified",
     "published": true,
-    "price": 699.95,
-    "priceMin": 699.95,
-    "priceMax": 699.95
+    "price": 649.95,
+    "priceMin": 649.95,
+    "priceMax": 649.95
   },
   {
     "id": "big-agnes-tiger-wall-platinum-three-tent",

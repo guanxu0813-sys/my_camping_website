@@ -509,6 +509,8 @@ def sorted_products_for_page(page: dict, products: list[dict], brands: dict[str,
 
 
 def page_lastmod(page: dict, products: list[dict]) -> str:
+    if page.get("lastmod"):
+        return str(page["lastmod"])[:10]
     html_path = ROOT / page["file"]
     stamps = [html_path.stat().st_mtime] if html_path.exists() else []
     for product in page_products(page, products):

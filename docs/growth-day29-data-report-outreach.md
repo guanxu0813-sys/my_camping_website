@@ -1,6 +1,6 @@
 # Day 29 Data Report and Editorial Outreach
 
-Execution date: 2026-08-12
+Execution date: 2026-08-12 to 2026-08-13
 
 ## Report improvement
 
@@ -27,5 +27,13 @@ shares. All price percentages remain restricted to USD records.
 - Do not follow up unless the editor replies or the later outreach review
   explicitly allows one follow-up.
 
-Sent-message details and delivery status are recorded in
-`docs/outreach-log.csv` after each Gmail send succeeds.
+## Completed outreach
+
+On 2026-08-13, three tailored messages were sent successfully through Gmail:
+
+- The Outdoor Journal: `editorial@outdoorjournal.com`
+- Camping Magazine: `editorial@campingmagazine.co.uk`
+- Outdoor i: `info@outdoori.com`
+
+Each message used a different finding relevant to the recipient. Sent-message
+details and follow-up rules are recorded in `docs/outreach-log.csv`.

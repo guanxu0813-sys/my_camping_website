@@ -260,7 +260,12 @@ class GrowthToolTests(unittest.TestCase):
             Counter(row["currency"] for row in rows),
             Counter({"USD": 497, "GBP": 28, "JPY": 18}),
         )
-        self.assertTrue(all(row["data_reviewed"] == "2026-08-12" for row in rows))
+        self.assertTrue(
+            all(
+                row["data_reviewed"] == build_guides.WEIGHT_PRICE_REPORT_REVIEWED
+                for row in rows
+            )
+        )
 
         report_html = (
             ROOT / "guides" / "camping-gear-weight-price-report-2026.html"

@@ -76,9 +76,9 @@
     "modelEn": "Lanshan 1 Pro",
     "description": "Lanshan 1 Pro is the lighter Pro update of the Lanshan 1 single-person trekking-pole tent. Official packaged weight is about 690–840 g depending on setup; it remains a common entry point into ultralight shelters under $200.",
     "currency": "USD",
-    "price": 169,
-    "priceMin": 169,
-    "priceMax": 169,
+    "price": 179,
+    "priceMin": 179,
+    "priceMax": 179,
     "specs": {
       "weightKg": 0.69,
       "weightDisplay": "~0.69–0.84 kg",
@@ -88,7 +88,7 @@
     },
     "highlights": [
       "Lighter Pro version of Lanshan 1",
-      "Trekking-pole, double-wall design",
+      "Trekking-pole, single-wall design",
       "About 690 g trail / under 840 g packed (config-dependent)",
       "Frequent budget pick in thru-hiking gear lists"
     ],
@@ -96,7 +96,7 @@
     "imageAlt": "3F UL Gear Lanshan 1 Pro ultralight tent",
     "sourceUrl": "https://3fulgear.com/product/ultralight-tent/lanshan-1-pro/",
     "sourceSite": "3fulgear.com",
-    "scrapedAt": "2026-07-14T14:50:00Z",
+    "scrapedAt": "2026-08-15T00:00:00Z",
     "status": "verified",
     "published": true,
     "inSummaryTable": true,

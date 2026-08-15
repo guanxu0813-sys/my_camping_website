@@ -1,0 +1,161 @@
+{
+  "generated": "2026-08-15",
+  "sampleSize": 10,
+  "passed": 10,
+  "failed": 0,
+  "pages": [
+    {
+      "path": "products/naturehike-mongartm-base-3-person-ultralight-backpacking-tent.html",
+      "h1": "Naturehike Mongar™ BASE 3-Person Backpacking Tent",
+      "canonical": "https://www.campgearcompare.com/products/naturehike-mongartm-base-3-person-ultralight-backpacking-tent.html",
+      "types": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "expectedTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "issues": [],
+      "result": "pass"
+    },
+    {
+      "path": "products/naturehike-giling-protm-1-person-backpacking-tent.html",
+      "h1": "Naturehike Giling PRO™ 4-Season 1-Person Backpacking Tent",
+      "canonical": "https://www.campgearcompare.com/products/naturehike-giling-protm-1-person-backpacking-tent.html",
+      "types": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "expectedTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "issues": [],
+      "result": "pass"
+    },
+    {
+      "path": "products/3f-ul-gear-lanshan-1-pro.html",
+      "h1": "3F UL Gear Lanshan 1 Pro",
+      "canonical": "https://www.campgearcompare.com/products/3f-ul-gear-lanshan-1-pro.html",
+      "types": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "expectedTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "issues": [],
+      "result": "pass"
+    },
+    {
+      "path": "products/big-agnes-tiger-wall-platinum-two-tent.html",
+      "h1": "Big Agnes Tiger Wall 2 Platinum",
+      "canonical": "https://www.campgearcompare.com/products/big-agnes-tiger-wall-platinum-two-tent.html",
+      "types": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "expectedTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "issues": [],
+      "result": "pass"
+    },
+    {
+      "path": "guides/camping-gear-weight-price-report-2026.html",
+      "h1": "Camping Gear Weight & Price Report 2026",
+      "canonical": "https://www.campgearcompare.com/guides/camping-gear-weight-price-report-2026.html",
+      "types": [
+        "Article",
+        "BreadcrumbList",
+        "Dataset"
+      ],
+      "expectedTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "issues": [],
+      "result": "pass"
+    },
+    {
+      "path": "guides/naturehike-giling-pro-1-vs-mongar-pro-1.html",
+      "h1": "Naturehike Giling Pro 1 vs Mongar Pro 1",
+      "canonical": "https://www.campgearcompare.com/guides/naturehike-giling-pro-1-vs-mongar-pro-1.html",
+      "types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "expectedTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "issues": [],
+      "result": "pass"
+    },
+    {
+      "path": "guides/fire-maple-fms-300t-vs-hornet-ii.html",
+      "h1": "Fire Maple FMS-300T vs Hornet II",
+      "canonical": "https://www.campgearcompare.com/guides/fire-maple-fms-300t-vs-hornet-ii.html",
+      "types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "expectedTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "issues": [],
+      "result": "pass"
+    },
+    {
+      "path": "guides/2-person-backpacking-tents-under-2kg.html",
+      "h1": "2-Person Backpacking Tents Under 2 kg",
+      "canonical": "https://www.campgearcompare.com/guides/2-person-backpacking-tents-under-2kg.html",
+      "types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "expectedTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "issues": [],
+      "result": "pass"
+    },
+    {
+      "path": "brands/naturehike-tent.html",
+      "h1": "Naturehike Tents Specs",
+      "canonical": "https://www.campgearcompare.com/brands/naturehike-tent.html",
+      "types": [
+        "BreadcrumbList",
+        "CollectionPage"
+      ],
+      "expectedTypes": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "issues": [],
+      "result": "pass"
+    },
+    {
+      "path": "tent.html",
+      "h1": "Tents",
+      "canonical": "https://www.campgearcompare.com/tent.html",
+      "types": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "ItemList"
+      ],
+      "expectedTypes": [
+        "CollectionPage",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "issues": [],
+      "result": "pass"
+    }
+  ]
+}
