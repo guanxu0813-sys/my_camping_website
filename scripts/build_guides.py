@@ -29,17 +29,56 @@ COMPARISON_GUIDES = [
         "description": "Compare the 3F UL Gear Lanshan 1 and Lanshan 1 Pro by trail weight, wall design, fabric and official price.",
         "eyebrow": "Solo trekking-pole tent comparison",
         "category": "tent",
+        "brand_id": "3f-ul-gear",
         "product_ids": ["3f-ul-gear-lanshan-1", "3f-ul-gear-lanshan-1-pro"],
         "intro": (
             "The standard Lanshan 1 and Lanshan 1 Pro target the same solo "
             "ultralight buyer, but they make a different trade-off between a "
             "double-wall layout and lower packed weight."
         ),
+        "verdict": (
+            "Choose the standard Lanshan 1 if you want a separate inner and fly, "
+            "factory-taped seams and a more familiar way to manage condensation. "
+            "Choose the Lanshan 1 Pro if saving roughly 230 g matters more and you "
+            "are comfortable managing a single-wall shelter and sealing its "
+            "silicone-coated seams before wet-weather use."
+        ),
+        "reviewed_on": "2026-08-17",
+        "date_modified": "2026-08-17",
+        "limitations": (
+            "This is a specification comparison, not a hands-on weather test. "
+            "The representative 0.92 kg standard weight and 0.69-0.84 kg Pro "
+            "range use different setup and packing bases, so compare the exact "
+            "variant and included components. Current official prices can include "
+            "footprints or accessories. The Pro's seam-sealing requirement and "
+            "single-wall condensation trade-off do not predict performance in "
+            "every climate."
+        ),
+        "decision_path": [
+            "Need a removable inner, factory-taped seams or more separation from condensation? Start with the standard Lanshan 1.",
+            "Prioritizing the lowest shelter weight and comfortable maintaining a single-wall tent? Shortlist the Lanshan 1 Pro.",
+            "Before buying, match the season inner or fabric variant and compare total carried weight with stakes, guylines and storage sack included.",
+        ],
+        "counterexamples": [
+            "The Pro is not automatically the better ultralight choice: a humid-climate beginner may get more practical value from the heavier double-wall model.",
+            "The standard model is not automatically the safer choice: in dry, well-ventilated conditions, its separate inner may add weight without solving the buyer's main constraint.",
+        ],
+        "related_guides": [
+            {
+                "slug": "lanshan-2-vs-lanshan-2-pro",
+                "label": "Need more room? Compare Lanshan 2 and Lanshan 2 Pro",
+            },
+            {
+                "slug": "2-person-backpacking-tents-under-2kg",
+                "label": "Browse complete two-person backpacking tents under 2 kg",
+            },
+        ],
         "takeaways": [
-            "<strong>Weight:</strong> the Pro starts about 230 g lighter by the catalog's representative weights.",
-            "<strong>Construction:</strong> the standard model uses a removable double-wall layout; the Pro integrates the inner and fly to save material.",
-            "<strong>Price:</strong> the standard model starts lower, while the Pro charges more for its lighter configuration.",
-            "<strong>Decision:</strong> choose the standard model for a more conventional double-wall setup; choose the Pro when reducing carried weight matters more.",
+            "<strong>Weight:</strong> the Pro starts about 230 g lighter, but its 0.69-0.84 kg range depends on the selected setup.",
+            "<strong>Construction:</strong> the standard model separates inner and fly; the Pro combines them in a lighter single-wall layout.",
+            "<strong>Wet-weather preparation:</strong> the standard listing specifies taped seams, while 3F UL Gear sells seam sealing as a separate service for Lanshan Pro tents.",
+            "<strong>Season choice:</strong> the standard listing offers mesh and solid-inner options; verify the selected variant instead of relying on the model name alone.",
+            "<strong>Price:</strong> compare the tent-only variant because current official price ranges can include a footprint or accessory option.",
         ],
     },
     {
@@ -150,9 +189,18 @@ COMPARISON_GUIDES = [
         "description": "Choose Giling Pro 1 for four-season positioning or Mongar Pro 1 for a 230 g lighter three-season setup; compare structure and price.",
         "eyebrow": "Naturehike solo tent comparison",
         "category": "tent",
+        "brand_id": "naturehike",
         "product_ids": [
             "naturehike-giling-protm-1-person-backpacking-tent",
             "naturehike-mongartm-pro-1-person-ultralight-backpacking-tent",
+        ],
+        "internal_link_product_ids": [
+            "naturehike-giling-protm-2-person-backpacking-tent",
+            "naturehike-giling-ultm-1-person-backpacking-tent",
+            "naturehike-giling-ultm-2-person-backpacking-tent",
+            "naturehike-mongartm-pro-3-person-ultralight-backpacking-tent",
+            "naturehike-mongar-ul-1-person-ultralight-backpacking-tent",
+            "naturehike-mongar-ul-2-person-ultralight-backpacking-tent",
         ],
         "intro": (
             "These solo tents share the same current reference price but serve "
@@ -166,6 +214,7 @@ COMPARISON_GUIDES = [
             "freestanding double-wall layout are the better fit. Both currently list at $149."
         ),
         "reviewed_on": "2026-07-31",
+        "date_modified": "2026-08-17",
         "limitations": (
             "This is a specification comparison, not a storm-worthiness test. "
             "Season labels describe Naturehike's intended positioning and do not "
@@ -207,6 +256,7 @@ COLLECTION_GUIDES = [
         "description": "Compare 12 Naturehike Cloud Up, Base, Pro, UL and EXT tents by capacity, representative weight and official reference price.",
         "eyebrow": "Naturehike Cloud Up model guide",
         "category": "tent",
+        "date_modified": "2026-08-17",
         "product_ids": [
             "naturehike-cloud-up-1-person-ultralight-backpacking-tent",
             "naturehike-cloud-up-2-person-ultralight-backpacking-tent",
@@ -226,6 +276,12 @@ COLLECTION_GUIDES = [
             "and EXT records cover different capacities and price points, so the "
             "suffix and selected variant matter as much as the Cloud Up name."
         ),
+        "related_guides": [
+            {
+                "slug": "naturehike-giling-pro-1-vs-mongar-pro-1",
+                "label": "Compare Naturehike Giling Pro 1 and Mongar Pro 1",
+            },
+        ],
         "takeaways": [
             "<strong>Start with capacity:</strong> compare one-, two- and three-person records separately before looking at weight.",
             "<strong>UL models:</strong> the UL 2 has the lowest representative weight among the two-person Cloud Up records in this catalog.",
@@ -459,6 +515,41 @@ def comparison_page(
             f'      <p>{b.escape_html(guide["verdict"])}</p>\n'
             "    </section>\n"
         )
+    decision_section = ""
+    if guide.get("decision_path"):
+        decision_items = "".join(
+            f"<li>{b.escape_html(item)}</li>" for item in guide["decision_path"]
+        )
+        decision_section = (
+            '    <section class="static-panel" aria-labelledby="decision-path">\n'
+            '      <h2 id="decision-path">Choose in three steps</h2>\n'
+            f'      <ol class="static-link-list">{decision_items}</ol>\n'
+            "    </section>\n"
+        )
+    counterexample_section = ""
+    if guide.get("counterexamples"):
+        counterexample_items = "".join(
+            f"<li>{b.escape_html(item)}</li>" for item in guide["counterexamples"]
+        )
+        counterexample_section = (
+            '    <section class="static-panel" aria-labelledby="counterexamples">\n'
+            '      <h2 id="counterexamples">When the obvious choice can be wrong</h2>\n'
+            f'      <ul class="static-link-list">{counterexample_items}</ul>\n'
+            "    </section>\n"
+        )
+    related_section = ""
+    if guide.get("related_guides"):
+        related_items = "".join(
+            f'<li><a href="/guides/{b.escape_html(item["slug"])}.html">'
+            f'{b.escape_html(item["label"])}</a></li>'
+            for item in guide["related_guides"]
+        )
+        related_section = (
+            '    <section class="static-panel" aria-labelledby="related-guides">\n'
+            '      <h2 id="related-guides">Related buying guides</h2>\n'
+            f'      <ul class="static-link-list">{related_items}</ul>\n'
+            "    </section>\n"
+        )
     reviewed_note = ""
     if guide.get("reviewed_on"):
         reviewed_on = b.escape_html(guide["reviewed_on"])
@@ -497,6 +588,7 @@ def comparison_page(
         "      </div>\n"
         "    </header>\n"
         f"{verdict}"
+        f"{decision_section}"
         '    <section class="static-panel" aria-labelledby="spec-table">\n'
         '      <h2 id="spec-table">Official specs side by side</h2>\n'
         '      <div class="table-wrap"><table class="compare-table static-table">\n'
@@ -510,6 +602,8 @@ def comparison_page(
         '      <h2 id="takeaways">Evidence and decision points</h2>\n'
         f'      <ul class="static-link-list">{takeaways}</ul>\n'
         "    </section>\n"
+        f"{counterexample_section}"
+        f"{related_section}"
         '    <section class="static-panel" aria-labelledby="methodology">\n'
         '      <h2 id="methodology">Method and limitations</h2>\n'
         f"      <p>{b.escape_html(limitations)}</p>\n"
@@ -808,7 +902,11 @@ def guide_links_by_product() -> dict[str, list[tuple[str, str]]]:
     for guide in [*all_comparison_guides(), *all_collection_guides()]:
         path = f"/guides/{guide['slug']}.html"
         label = guide["title"].split(" — ")[0]
-        for product_id in guide["product_ids"]:
+        product_ids = [
+            *guide["product_ids"],
+            *guide.get("internal_link_product_ids", []),
+        ]
+        for product_id in dict.fromkeys(product_ids):
             links.setdefault(product_id, []).append((path, label))
     lightweight_path = "/guides/2-person-backpacking-tents-under-2kg.html"
     for product_id in LIGHTWEIGHT_TENT_IDS:

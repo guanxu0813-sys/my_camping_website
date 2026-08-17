@@ -1,6 +1,12 @@
 {
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "my-camping-website.vercel.app" }],
+      "destination": "https://www.campgearcompare.com/:path*",
+      "permanent": true
+    },
+    {
       "source": "/other.html",
       "destination": "/sleeping-pad.html",
       "permanent": true

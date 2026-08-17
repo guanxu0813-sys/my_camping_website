@@ -1159,9 +1159,23 @@ def build_crawl_links(
             )
             + "</p>"
         )
+    research_links = [
+        ("/guides/", "Browse data-backed comparisons and reports"),
+    ]
+    if page.get("path") == "/tent.html":
+        research_links.append(
+            (
+                "/guides/naturehike-giling-pro-1-vs-mongar-pro-1.html",
+                "Naturehike Giling Pro 1 vs Mongar Pro 1",
+            )
+        )
     blocks.append(
         '<p class="seo-crawl__links"><strong>Research guides:</strong> '
-        '<a href="/guides/">Browse data-backed comparisons and reports</a></p>'
+        + " · ".join(
+            f'<a href="{escape_html(path)}">{escape_html(label)}</a>'
+            for path, label in research_links
+        )
+        + "</p>"
     )
     return "\n  ".join(blocks)
 
@@ -1870,6 +1884,7 @@ def brand_page_html(
     site_url: str,
     brands: dict[str, dict],
     seo_override: dict | None = None,
+    guide_links: list[tuple[str, str]] | None = None,
 ) -> str:
     brand = brand_display_name(brands.get(brand_id), brand_id)
     label = category_label(category)
@@ -1904,6 +1919,18 @@ def brand_page_html(
                 f'<li><a href="{escape_html(brand_category_path(brand_id, sibling_category))}">{escape_html(brand)} {escape_html(category_label(sibling_category))}</a> ({count})</li>'
             )
     sibling_html = "\n".join(sibling_categories)
+    guide_section = ""
+    if guide_links:
+        guide_items = "".join(
+            f'<li><a href="{escape_html(path)}">{escape_html(label)}</a></li>'
+            for path, label in guide_links
+        )
+        guide_section = (
+            '  <section class="static-panel" aria-labelledby="brand-category-guides">\n'
+            '    <h2 id="brand-category-guides">Buying Guides</h2>\n'
+            f'    <ul class="static-link-list">{guide_items}</ul>\n'
+            "  </section>\n"
+        )
     return (
         "<!DOCTYPE html>\n"
         '<html lang="en">\n'
@@ -1937,6 +1964,7 @@ def brand_page_html(
             if sibling_html
             else ""
         )
+        + guide_section
         + f'  <p class="static-browse"><a href="{escape_html(brand_home_path(brand_id))}">Browse the complete {escape_html(brand)} gear hub</a></p>\n'
         + "</main>\n"
         f"{static_footer()}\n"
@@ -2200,6 +2228,11 @@ def write_static_pages(
                 site_url,
                 brands,
                 brand_overrides.get(f"{brand_id}-{category}"),
+                (
+                    (brand_guide_links or {}).get(brand_id, [])
+                    if brand_id == "naturehike" and category == "tent"
+                    else []
+                ),
             ),
             encoding="utf-8",
         )
