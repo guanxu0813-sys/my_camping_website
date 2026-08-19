@@ -1,30 +1,46 @@
 # Day 20 Weekly Review
 
-Status: in progress as of 2026-08-09.
+Completed: 2026-08-19
+Decision: **FOCUS**
 
-## What can be completed today
+## Fixed-window comparison
 
-- Checked the five outreach email threads sent on 2026-08-05. Each thread still contains only the sent message; no reply has arrived.
-- Checked both r/CampingGear answers. Neither comment has a nested reply, and each currently shows a score of 1.
-- Updated `docs/outreach-log.csv` with the check date, current result and next action.
-- Sent no follow-up. The approved follow-up date is 2026-08-13, and each eligible recipient should receive at most one short follow-up if there is still no reply.
+| Metric | Jul 29-Aug 4 | Aug 5-11 | Change |
+| --- | ---: | ---: | ---: |
+| GA4 sessions | 35 | 46 | +31.4% |
+| GA4 organic-source sessions | 15 | 26 | +73.3% |
+| GA4 active users | 32 | 43 | +34.4% |
+| GA4 views | 74 | 55 | -25.7% |
+| GA4 events | 240 | 210 | -12.5% |
+| GA4 key events | 4 | 2 | -50.0% |
+| GSC clicks | 25 | 28 | +12.0% |
+| GSC impressions | 1,270 | 1,346 | +6.0% |
+| GSC CTR | 2.0% | 2.1% | +0.1 pp |
+| GSC average position | 16.6 | 12.9 | improved 3.7 |
 
-## Metrics still pending
+GA4 organic-source sessions use the manual session-source report: Google,
+Bing, DuckDuckGo and Yahoo. The current window contained 21, 2, 2 and 1
+sessions respectively; the comparison window contained 14 Google and 1 Bing
+session. This is a transparent source sum rather than a hidden channel estimate.
 
-The requested GSC and GA4 period is 2026-08-05 through 2026-08-11. On
-2026-08-09 that period is still open, so a complete non-overlapping comparison
-against 2026-07-29 through 2026-08-04 does not yet exist. No partial row was
-added to `docs/growth-metrics.csv`, because it would not satisfy the Day 20
-comparison rule.
+GSC reported an update six hours before the review and data through August 16,
+so both requested seven-day windows were complete when read.
 
-Earliest completion date: 2026-08-13, after the full period has ended and the
-reporting systems have had time to process 2026-08-11.
+## Interpretation
 
-## Day 20 completion checklist
+- Search visibility improved, but 6% impression growth is too small to justify broad expansion.
+- Sessions and organic-source sessions increased from a low base.
+- Views per session fell from 2.11 to 1.20, while key events fell from 4 to 2. Traffic quantity improved but depth and conversion did not.
+- At 6.57 sessions per day, traffic remains below the M1 lower gate of 20 per day.
+- Keep the plan in **FOCUS**: improve intent matching, internal paths and high-intent actions before increasing page output.
 
-- Pull GSC totals for both seven-day periods.
-- Pull GA4 sessions, organic sessions, views and key events for both periods.
-- Add one weekly row to `docs/growth-metrics.csv` and note any reporting lag.
-- Recheck the five email threads and both Reddit comments.
-- Send one short follow-up only to eligible recipients that still have no reply.
-- Record every reply, link earned and next action in `docs/outreach-log.csv`.
+## Outreach and community closeout
+
+- The later Day 31 audit checked all nine editorial or brand contacts; no reply had arrived as of August 18.
+- All four published Reddit answers were still visible with no direct reply.
+- One `brand_email` session was recorded, but no target-level attribution or attributable backlink was available.
+- No follow-up was sent during this closeout. Sending the missed August 13 cold follow-up now would restart stale outreach without a reply or correction request.
+
+The completed row is recorded in `docs/growth-metrics.csv`. Day 27 retains its
+separate August 12-18 decision window; this review does not pre-approve the new
+Mongar guide.
