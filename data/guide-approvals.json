@@ -201,6 +201,62 @@
         "<strong>Shape:</strong> compare these standard models separately from the wider rectangular MAX variants.",
         "<strong>Decision:</strong> choose by expected overnight temperatures first, then compare the 110 g representative weight difference."
       ]
+    },
+    {
+      "status": "approved",
+      "type": "comparison",
+      "slug": "naturehike-mongar-base-2-vs-3",
+      "title": "Naturehike Mongar Base 2 vs Base 3 — Capacity, Weight & Price",
+      "description": "Choose Mongar Base 2 for a lower carried load or Base 3 for one more listed sleeping place; compare minimum weight, total weight and price.",
+      "eyebrow": "Naturehike Mongar Base capacity comparison",
+      "category": "tent",
+      "brand_id": "naturehike",
+      "product_ids": [
+        "naturehike-mongartm-base-2-person-backpacking-tent",
+        "naturehike-mongartm-base-3-person-ultralight-backpacking-tent"
+      ],
+      "show_product_images": true,
+      "spec_rows": [
+        ["Capacity", "capacity"],
+        ["Minimum weight", "minimumWeightDisplay"],
+        ["Total weight with accessories", "weight"],
+        ["Type / Structure", "structure"],
+        ["Reference Price", "price"]
+      ],
+      "intro": "Mongar Base 2 and Base 3 use the same listed 210T polyester fabric, PU 3000 mm waterproof rating, aluminum pole material and core accessory kit. The useful decision is whether a lower carried load matters more than one additional listed sleeping place and extra room.",
+      "verdict": "Choose Mongar Base 2 for solo use or two campers who prioritize the lower load and $30 lower reviewed reference price. Choose Base 3 for three listed sleeping places, or for two campers willing to carry about 0.52 kg more minimum weight and 0.65 kg more total weight for additional room. Capacity labels do not prove comfort for three adults plus equipment.",
+      "reviewer": "CampGear Compare",
+      "date_published": "2026-08-20",
+      "reviewed_on": "2026-08-20",
+      "date_modified": "2026-08-20",
+      "decision_path": [
+        "Only one or two people, and carried weight is the main constraint? Start with Base 2.",
+        "Need three listed sleeping places, or more room for two people and equipment? Consider Base 3.",
+        "Before buying, verify the current regional price and compare minimum weight separately from total weight with accessories."
+      ],
+      "takeaways": [
+        "<strong>Minimum weight:</strong> Base 2 is listed at approximately 2.33 kg and Base 3 at approximately 2.85 kg, a difference of about 0.52 kg.",
+        "<strong>Total weight:</strong> with the listed accessory kit, Base 2 is approximately 2.75 kg and Base 3 approximately 3.4 kg, a difference of about 0.65 kg.",
+        "<strong>Capacity:</strong> the official labels are two people and three people. They are planning limits, not evidence of comfort with three adults and their gear.",
+        "<strong>Shared specification:</strong> both official listings describe 210T ripstop polyester with PU 3000 mm waterproofing, Yuksom aluminum alloy poles and the same core kit.",
+        "<strong>Reviewed price:</strong> the US reference prices observed were $129 for Base 2 and $159 for Base 3. Discounts and regional availability can change.",
+        "<strong>Decision:</strong> Base 2 saves weight and cost; Base 3 buys one additional listed place and more usable room."
+      ],
+      "counterexamples": [
+        "Base 3 is not automatically better for two people: the extra room may not justify carrying another 0.65 kg with the full listed kit.",
+        "Base 2 is not automatically the better backpacking choice: two campers with bulky equipment may value Base 3 space more than the weight saving."
+      ],
+      "related_guides": [
+        {
+          "slug": "naturehike-giling-pro-1-vs-mongar-pro-1",
+          "label": "Compare Naturehike Giling Pro 1 and Mongar Pro 1"
+        },
+        {
+          "slug": "2-person-backpacking-tents-under-2kg",
+          "label": "Need a lighter shelter? Compare two-person tents under 2 kg"
+        }
+      ],
+      "limitations": "Method: CampGear Compare manually checked the current official Base 2 and Base 3 technical-spec sections, separated minimum weight from total weight with accessories, and excluded the conflicting 3.1 kg and 3.8 kg storefront variant values. This is an official-spec comparison, not a hands-on weather, durability or livability test. We do not infer wind or storm performance, and capacity labels do not establish comfort. Dimensions, discounts, prices and availability can change by region or variant; verify the linked official listings before purchase."
     }
   ]
 }

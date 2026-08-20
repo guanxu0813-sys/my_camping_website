@@ -1163,11 +1163,17 @@ def build_crawl_links(
         ("/guides/", "Browse data-backed comparisons and reports"),
     ]
     if page.get("path") == "/tent.html":
-        research_links.append(
-            (
+        research_links.extend(
+            [
+                (
                 "/guides/naturehike-giling-pro-1-vs-mongar-pro-1.html",
                 "Naturehike Giling Pro 1 vs Mongar Pro 1",
-            )
+                ),
+                (
+                    "/guides/naturehike-mongar-base-2-vs-3.html",
+                    "Naturehike Mongar Base 2 vs Base 3",
+                ),
+            ]
         )
     blocks.append(
         '<p class="seo-crawl__links"><strong>Research guides:</strong> '

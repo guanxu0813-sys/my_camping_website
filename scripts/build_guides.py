@@ -214,7 +214,13 @@ COMPARISON_GUIDES = [
             "freestanding double-wall layout are the better fit. Both currently list at $149."
         ),
         "reviewed_on": "2026-07-31",
-        "date_modified": "2026-08-17",
+        "date_modified": "2026-08-20",
+        "related_guides": [
+            {
+                "slug": "naturehike-mongar-base-2-vs-3",
+                "label": "Compare Naturehike Mongar Base 2 and Base 3",
+            },
+        ],
         "limitations": (
             "This is a specification comparison, not a storm-worthiness test. "
             "Season labels describe Naturehike's intended positioning and do not "
@@ -354,6 +360,7 @@ def article_schema(
     description: str,
     category_label: str = "Guides",
     date_modified: str | None = None,
+    date_published: str | None = None,
 ) -> dict:
     url = f"{site_url}{path}"
     return {
@@ -387,7 +394,7 @@ def article_schema(
                 "headline": title,
                 "description": description,
                 "url": url,
-                "datePublished": PUBLISHED,
+                "datePublished": date_published or PUBLISHED,
                 "dateModified": date_modified or date.today().isoformat(),
                 "author": {
                     "@type": "Organization",
@@ -476,7 +483,7 @@ def comparison_page(
     category_path = b.category_page_path(guide["category"])
     category_name = b.category_label(guide["category"])
 
-    spec_rows = [
+    spec_rows = guide.get("spec_rows") or [
         ("Weight", "weight"),
         ("Capacity", "capacity"),
         ("R-Value", "rValue"),
@@ -553,9 +560,17 @@ def comparison_page(
     reviewed_note = ""
     if guide.get("reviewed_on"):
         reviewed_on = b.escape_html(guide["reviewed_on"])
+        if guide.get("reviewer"):
+            review_text = (
+                'Reviewed by <a href="/about.html">'
+                f'{b.escape_html(guide["reviewer"])}</a>. '
+                "Data and official prices manually reviewed "
+            )
+        else:
+            review_text = "Data manually reviewed "
         reviewed_note = (
             '      <p class="page__lead page__lead--compact">'
-            f'Data manually reviewed <time datetime="{reviewed_on}">{reviewed_on}</time>.'
+            f'{review_text}<time datetime="{reviewed_on}">{reviewed_on}</time>.'
             "</p>\n"
         )
     limitations = guide.get(
@@ -570,6 +585,25 @@ def comparison_page(
         f"{b.escape_html(name)} — full specs</a></li>"
         for p, name in zip(products, names)
     )
+    product_media = ""
+    if guide.get("show_product_images"):
+        figures = "".join(
+            '<figure class="product-detail__media">'
+            f'<img src="{b.escape_html(product.get("imageUrl", ""))}" '
+            f'alt="{b.escape_html(name)}" width="760" height="570" '
+            'loading="eager" decoding="async" />'
+            f'<figcaption>{b.escape_html(name)}. Image from the official product listing.</figcaption>'
+            "</figure>"
+            for product, name in zip(products, names)
+            if product.get("imageUrl")
+        )
+        if figures:
+            product_media = (
+                '    <div class="product-detail__layout product-detail__layout--comparison" '
+                'aria-label="Products compared">\n'
+                f"      {figures}\n"
+                "    </div>\n"
+            )
     body = (
         '<main class="page page--sub static-page">\n'
         '  <nav class="static-breadcrumb" aria-label="Breadcrumb">\n'
@@ -587,6 +621,7 @@ def comparison_page(
         f"Open full {b.escape_html(category_name.lower())} table</a>\n"
         "      </div>\n"
         "    </header>\n"
+        f"{product_media}"
         f"{verdict}"
         f"{decision_section}"
         '    <section class="static-panel" aria-labelledby="spec-table">\n'
@@ -624,6 +659,7 @@ def comparison_page(
         guide["description"],
         guide["eyebrow"],
         guide_modified(guide),
+        guide.get("date_published"),
     )
     return page_shell(
         title=guide["title"],
