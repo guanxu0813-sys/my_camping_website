@@ -20,3 +20,12 @@ Audit date: 2026-08-18 (six days ahead of schedule)
 ## Evidence boundary
 
 The email result comes from the connected Gmail account. Reddit survival and reply status were checked on the live comment pages. AliExpress emails were searched separately and no new message was found. No email or community reply was sent during this audit.
+
+## Scheduled-date closeout
+
+Closeout date: 2026-08-24
+
+- Repeated a bounded Gmail search for the nine named recipients and the nine original subject lines covering messages after August 18; no reply was found.
+- Searched messages after August 18 for AliExpress, affiliate, account-disabled, risk-registration and appeal terms; no new application or appeal notice was found.
+- Did not reopen the four Reddit pages because the August 18 decision requires a direct-reply notification before another check.
+- Sent no follow-up. All nine outreach targets remain closed unless a recipient replies.

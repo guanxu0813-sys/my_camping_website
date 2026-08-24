@@ -24,3 +24,13 @@ Published path: `/guides/naturehike-mongar-base-2-vs-3.html`
 - Regenerated the guide index, RSS feed, product and brand pages, and sitemap files.
 - Ran the generated-site and growth-tool validation suites.
 - Checked the guide at desktop and mobile widths, including table scrolling and internal links.
+
+## Indexing closeout
+
+Completed: 2026-08-23
+
+- Confirmed the production guide returned HTTP 200.
+- Submitted only the new guide URL to IndexNow; the service accepted one URL.
+- GSC initially reported that Google did not yet recognize or crawl the URL and had not associated a sitemap or referring page with it.
+- Submitted one GSC indexing request. GSC confirmed the URL was added to the priority crawl queue.
+- Do not repeat the request; reassess discovery and indexing in the Day 34 review.
