@@ -5,20 +5,18 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { fileURLToPath, pathToFileURL } from "node:url";
+import { fileURLToPath } from "node:url";
 import { JSDOM } from "jsdom";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
-const port = process.argv[2] || "8765";
-const base = `http://127.0.0.1:${port}`;
+const base = "http://127.0.0.1";
 
 const analyticsLogs = [];
 
 async function fetchText(url) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-  return res.text();
+  const pathname = new URL(url, base).pathname;
+  return fs.readFileSync(path.join(root, pathname.replace(/^\//, "")), "utf8");
 }
 
 async function main() {
@@ -26,47 +24,44 @@ async function main() {
   const dom = new JSDOM(tentHtml, {
     url: `${base}/tent.html`,
     runScripts: "outside-only",
-    resources: "usable",
     pretendToBeVisual: true,
   });
 
   const { window } = dom;
-
-  if (!window.fetch) {
-    window.fetch = (...args) => fetch(...args);
-  }
+  window.CAMPGEAR_TEST_MODE = true;
 
   window.console.info = (...args) => {
     const text = args.map(String).join(" ");
     if (text.includes("[CampGear analytics]")) analyticsLogs.push(text);
   };
 
-  // Stub fetch for data files used by script.js
-  const origFetch = window.fetch.bind(window);
+  // Resolve site data from disk so this smoke test does not require a network port.
   window.fetch = async (input) => {
     const url = String(input);
-    if (url.includes("data/analytics.json")) {
-      return origFetch(`${base}/data/analytics.json`);
-    }
     if (url.includes("/api/consent-region")) {
       return {
         ok: true,
         json: async () => ({ country: "DE", requiresConsent: true }),
       };
     }
-    if (url.includes("data/brands.json")) {
-      return origFetch(`${base}/data/brands.json`);
+    try {
+      const pathname = new URL(url, base).pathname;
+      const filePath = path.join(root, pathname.replace(/^\//, ""));
+      const body = fs.readFileSync(filePath, "utf8");
+      return {
+        ok: true,
+        status: 200,
+        json: async () => JSON.parse(body),
+        text: async () => body,
+      };
+    } catch (error) {
+      return {
+        ok: false,
+        status: 404,
+        json: async () => ({}),
+        text: async () => "",
+      };
     }
-    if (url.includes("data/official/index.json")) {
-      return origFetch(`${base}/data/official/index.json`);
-    }
-    if (url.includes("data/official/") && url.endsWith("/products.json")) {
-      return origFetch(url.replace(/^https?:\/\/[^/]+/, base));
-    }
-    if (url.includes("data/site.json")) {
-      return origFetch(`${base}/data/site.json`);
-    }
-    return origFetch(input);
   };
 
   // Load catalog bundle then app script (same order as tent.html)
@@ -154,6 +149,34 @@ async function main() {
     throw new Error("Missing Table Sort event");
   }
 
+  const compareInputs = window.document.querySelectorAll(".compare-select__input");
+  if (compareInputs.length < 2) {
+    throw new Error("Not enough compare inputs rendered");
+  }
+  for (const input of Array.from(compareInputs).slice(0, 2)) {
+    input.checked = true;
+    input.dispatchEvent(new window.Event("change", { bubbles: true }));
+  }
+  if (!analyticsLogs.some((l) => l.includes("Compare Item Toggle"))) {
+    throw new Error("Missing Compare Item Toggle event");
+  }
+  const compareButton = window.document.getElementById("compare-tray-action");
+  compareButton.dispatchEvent(new window.MouseEvent("click", { bubbles: true }));
+  if (!analyticsLogs.some((l) => l.includes("Compare Selected"))) {
+    throw new Error("Missing Compare Selected event");
+  }
+
+  const newsletterForm = window.document.querySelector("[data-newsletter-form]");
+  const newsletterEmail = window.document.getElementById("newsletter-email");
+  if (!newsletterForm || !newsletterEmail) {
+    throw new Error("Newsletter signup entry not rendered");
+  }
+  newsletterEmail.value = "reader@example.com";
+  newsletterForm.dispatchEvent(new window.Event("submit", { bubbles: true, cancelable: true }));
+  if (!analyticsLogs.some((l) => l.includes("Newsletter Signup Intent"))) {
+    throw new Error("Missing Newsletter Signup Intent event");
+  }
+
   const ga4Events = (window.dataLayer || [])
     .map((entry) => Array.from(entry))
     .filter((entry) => entry[0] === "event")
@@ -164,6 +187,9 @@ async function main() {
     "catalog_search",
     "brand_filter",
     "table_sort",
+    "compare_item_toggle",
+    "compare_selected",
+    "newsletter_signup_intent",
   ]) {
     if (!ga4Events.includes(expected)) {
       throw new Error(`Missing GA4 event: ${expected}`);

@@ -21,6 +21,12 @@ node_modules/
 __pycache__/
 *.pyc
 
+# Superseded generated social outputs (final reviewed assets live in product-v3)
+assets/social/week2/pinterest/
+assets/social/week2/video/
+assets/social/week2/loop-v2/pinterest/
+assets/social/week2/loop-v2/video/
+
 # Google Indexing API / secrets
 *-sa.json
 secrets/

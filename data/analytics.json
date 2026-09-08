@@ -9,9 +9,12 @@
     "table_sort",
     "compare_selected",
     "compare_cleared",
+    "compare_item_toggle",
     "product_modal_open",
     "outbound_click",
     "guide_download",
-    "guide_share"
+    "guide_share",
+    "newsletter_signup_intent",
+    "email_contact"
   ]
 }

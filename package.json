@@ -7,13 +7,18 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node scripts/verify_analytics_jsdom.mjs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guanxu0813-sys/my_camping_website.git"
   },
-  "keywords": ["campgearcompare", "CampGear Compare", "camping gear", "comparison"],
+  "keywords": [
+    "campgearcompare",
+    "CampGear Compare",
+    "camping gear",
+    "comparison"
+  ],
   "author": "CampGear Compare",
   "license": "ISC",
   "type": "commonjs",

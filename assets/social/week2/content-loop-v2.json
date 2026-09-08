@@ -1,0 +1,77 @@
+[
+  {
+    "slug": "gear-report",
+    "guide": "camping-gear-weight-price-report-2026.html",
+    "background": "gear-report.png",
+    "source_checks": ["64.5% of sleeping pads", "11.7% of tents", "86.7% of USD-priced sleeping pads", "42.9% of USD-priced tents", "tarp median is 4.94 kg versus 2.65 kg for tents"],
+    "pins": [
+      {"label": "BUYING LIGHT?", "hook": "Compare weight within the category", "stat": "64.5% vs 11.7%", "decision": "Pads vs tents at 1 kg or less"},
+      {"label": "$200 BUDGET?", "hook": "Your budget stretches further in pads", "stat": "86.7% vs 42.9%", "decision": "Share of pads vs tents priced at $200 or less"},
+      {"label": "TARP OR TENT?", "hook": "Don't assume the tarp is lighter", "stat": "4.94 vs 2.65 KG", "decision": "Catalog medians; large shelter tarps change the result"}
+    ],
+    "videos": [
+      {"hook": "A 1 kg gear rule can mislead you", "fact1": "64.5% of pads are 1 kg or less", "fact2": "Only 11.7% of tents are", "decision": "Compare weight inside the category"},
+      {"hook": "$200 buys very different options by category", "fact1": "86.7% of pads fall at or below $200", "fact2": "Only 42.9% of tents do", "decision": "Budget goes further in sleeping pads"}
+    ]
+  },
+  {
+    "slug": "tents-under-2kg",
+    "guide": "2-person-backpacking-tents-under-2kg.html",
+    "background": "tents-under-2kg.png",
+    "source_checks": ["14 complete two-person backpacking tents under 2 kg", "~0.89 kg", "~0.92 kg trail", "~1.06 kg trail", "does not compare floor area, peak height, mesh coverage or the number of doors and vents"],
+    "pins": [
+      {"label": "NEED 2P UNDER 2 KG?", "hook": "Start with this 14-model shortlist", "stat": "14 MODELS", "decision": "Then filter by structure and livability"},
+      {"label": "TREKKING-POLE TENT?", "hook": "Lanshan 2 Pro lists lighter", "stat": "0.92 vs 1.06 KG", "decision": "Trail weights; verify the complete carried setup"},
+      {"label": "DON'T STOP AT WEIGHT", "hook": "Check space, doors and ventilation", "stat": "< 2 KG", "decision": "A weight filter starts the decision—it doesn't finish it"}
+    ],
+    "videos": [
+      {"hook": "14 two-person tents pass this 2 kg filter", "fact1": "This catalog shortlist has 14 models", "fact2": "Listed weights run ~0.89 to ~1.95 kg", "decision": "Choose structure and livability next"},
+      {"hook": "Is the lightest tent automatically best?", "fact1": "Weight misses floor area and peak height", "fact2": "It also misses doors, vents and mesh", "decision": "Use 2 kg as a filter—not the verdict"}
+    ]
+  },
+  {
+    "slug": "lanshan-1-vs-pro",
+    "guide": "lanshan-1-vs-lanshan-1-pro.html",
+    "background": "lanshan-1-vs-pro.png",
+    "source_checks": ["saving roughly 230 g", "separate inner and fly", "single-wall shelter", "factory-taped seams", "sealing its silicone-coated seams"],
+    "pins": [
+      {"label": "WANT DOUBLE WALL?", "hook": "Choose the standard Lanshan 1", "stat": "INNER + FLY", "decision": "More familiar condensation and wet-weather management"},
+      {"label": "WANT LOWEST WEIGHT?", "hook": "Choose the Lanshan 1 Pro", "stat": "~230 G LIGHTER", "decision": "Accept single-wall condensation and seam preparation"},
+      {"label": "THE REAL TRADE-OFF", "hook": "Wet-weather ease or fewer grams?", "stat": "0.92 vs 0.69 KG", "decision": "Compare the exact fabric and included setup"}
+    ],
+    "videos": [
+      {"hook": "230 g lighter—but it changes the shelter", "fact1": "Lanshan 1 separates the inner and fly", "fact2": "The Pro is lighter but single-wall", "decision": "Choose the shelter you can manage"},
+      {"hook": "Which Lanshan 1 should you buy?", "fact1": "Standard: taped seams and double wall", "fact2": "Pro: lower weight and seam preparation", "decision": "Wet-weather comfort or fewer grams?"}
+    ]
+  },
+  {
+    "slug": "cloud-up-models",
+    "guide": "naturehike-cloud-up-models-compared.html",
+    "background": "cloud-up-models.png",
+    "source_checks": ["Compare 12 Naturehike Cloud Up", "UL 2 has the lowest representative weight", "~1.45 kg", "~1.8 kg", "~2.1 kg"],
+    "pins": [
+      {"label": "WHICH CLOUD UP?", "hook": "Choose capacity before the suffix", "stat": "1P · 2P · 3P", "decision": "Base, Pro, UL and EXT are different configurations"},
+      {"label": "WANT LIGHTEST 2P?", "hook": "Start with Cloud Up UL 2", "stat": "~1.45 KG", "decision": "Lowest listed 2P weight in this catalog"},
+      {"label": "SHOPPING ON BUDGET?", "hook": "Check Base models first", "stat": "LOWER PRICE END", "decision": "Then verify fabric, size and included components"}
+    ],
+    "videos": [
+      {"hook": "Buying a Cloud Up? The suffix matters", "fact1": "This guide compares 12 model records", "fact2": "Base, Pro, UL and EXT differ", "decision": "Choose capacity before the suffix"},
+      {"hook": "Which 2P Cloud Up lists lightest?", "fact1": "UL 2: ~1.45 kg", "fact2": "EXT 2: ~1.8 kg; several others ~2.1 kg", "decision": "Pick UL 2 for listed weight"}
+    ]
+  },
+  {
+    "slug": "xlite-vs-xtherm",
+    "guide": "thermarest-neoair-xlite-vs-xtherm-nxt.html",
+    "background": "xlite-vs-xtherm.png",
+    "source_checks": ["about 0.33 kg for XLite NXT", "0.44 kg for XTherm NXT", "starts about $50 above", "110 g representative weight difference", "expected overnight temperatures first"],
+    "pins": [
+      {"label": "WANT LIGHTER ALL-SEASON?", "hook": "Choose the XLite NXT", "stat": "~0.33 KG", "decision": "Therm-a-Rest's all-season do-it-all positioning"},
+      {"label": "EXPECT COLDER NIGHTS?", "hook": "Choose the XTherm NXT", "stat": "~0.44 KG", "decision": "Warmth-to-weight specialist; about $50 higher"},
+      {"label": "DON'T CHASE 110 G", "hook": "Choose temperature range first", "stat": "110 G DIFFERENCE", "decision": "Then compare weight, price and exact pad shape"}
+    ],
+    "videos": [
+      {"hook": "Saving 110 g can be the wrong goal", "fact1": "XLite NXT: ~0.33 kg", "fact2": "XTherm NXT: ~0.44 kg", "decision": "Choose by overnight temperature first"},
+      {"hook": "Don't choose a sleeping pad by grams", "fact1": "XLite targets all-season use", "fact2": "XTherm targets colder warmth-to-weight", "decision": "Temperature first. Weight second."}
+    ]
+  }
+]

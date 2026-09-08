@@ -43,10 +43,13 @@
     "Table Sort": "table_sort",
     "Compare Selected": "compare_selected",
     "Compare Cleared": "compare_cleared",
+    "Compare Item Toggle": "compare_item_toggle",
     "Product Modal Open": "product_modal_open",
     "Outbound Click": "outbound_click",
     "Guide Download": "guide_download",
     "Guide Share": "guide_share",
+    "Newsletter Signup Intent": "newsletter_signup_intent",
+    "Email Contact": "email_contact",
   };
   var searchTrackTimer = null;
   var selectedProductIds = {};
@@ -308,19 +311,87 @@
     if (outboundTrackingBound) return;
     outboundTrackingBound = true;
     document.addEventListener("click", function (e) {
-      var link = e.target.closest(
-        "a.purchase-link, a.sponsor-link, a.outbound-link, #product-modal-link"
-      );
-      if (!link || !link.href || link.href === "#" || link.href.indexOf("javascript:") === 0) {
+      var link = e.target.closest("a[href]");
+      if (!link || !link.href || link.href === "#" || link.href.indexOf("javascript:") === 0) return;
+
+      if (link.href.indexOf("mailto:") === 0) {
+        trackEvent("Email Contact", {
+          location: link.closest(".newsletter-signup") ? "newsletter" : "site",
+          path: window.location.pathname,
+        });
         return;
+      }
+
+      var destination;
+      try {
+        destination = new URL(link.href, window.location.href);
+      } catch (err) {
+        return;
+      }
+      if (destination.protocol !== "http:" && destination.protocol !== "https:") return;
+      if (destination.hostname === window.location.hostname) return;
+      if (link.closest(".guide-share") || link.classList.contains("share-link")) return;
+
+      var linkType = "reference";
+      if (link.classList.contains("purchase-link")) linkType = "affiliate";
+      else if (link.classList.contains("sponsor-link")) linkType = "sponsor";
+      else if (link.classList.contains("outbound-link") || link.id === "product-modal-link") {
+        linkType = "official";
       }
       trackEvent("Outbound Click", {
         productId: link.getAttribute("data-product-id") || "",
         platform: link.getAttribute("data-platform") || "official",
+        linkType: linkType,
+        destinationHost: destination.hostname,
+        linkText: (link.textContent || "").trim().replace(/\s+/g, " "),
         href: link.href,
         page: document.body.getAttribute("data-page") || "unknown",
         category: document.body.getAttribute("data-category") || "",
       });
+    });
+  }
+
+  function injectNewsletterSignup() {
+    var footer = document.querySelector(".site-footer__inner");
+    if (!footer || footer.querySelector(".newsletter-signup")) return;
+    var block = document.createElement("section");
+    block.className = "newsletter-signup";
+    block.setAttribute("aria-labelledby", "newsletter-signup-title");
+    block.innerHTML =
+      '<div class="newsletter-signup__copy">' +
+      '<h2 id="newsletter-signup-title">Get new gear comparisons</h2>' +
+      '<p>Occasional data-backed guides and comparison updates. No spam.</p>' +
+      "</div>" +
+      '<form class="newsletter-signup__form" data-newsletter-form>' +
+      '<label class="sr-only" for="newsletter-email">Email address</label>' +
+      '<input id="newsletter-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />' +
+      '<button type="submit">Request updates</button>' +
+      '<p class="newsletter-signup__status" data-newsletter-status aria-live="polite"></p>' +
+      "</form>";
+    footer.insertBefore(block, footer.firstChild);
+
+    block.querySelector("form").addEventListener("submit", function (event) {
+      event.preventDefault();
+      var form = event.currentTarget;
+      var input = form.querySelector('input[type="email"]');
+      var status = form.querySelector("[data-newsletter-status]");
+      if (!input || !input.checkValidity()) {
+        if (input) input.reportValidity();
+        return;
+      }
+      trackEvent("Newsletter Signup Intent", {
+        location: "footer",
+        path: window.location.pathname,
+      });
+      status.textContent = "Your email app will open to confirm the request.";
+      var cfgEmail = analyticsConfig && analyticsConfig.contactEmail;
+      var contactEmail = cfgEmail || "guanxu0813@gmail.com";
+      var subject = "Subscribe me to CampGear Compare updates";
+      var body = "Please add " + input.value.trim() + " to CampGear Compare updates.";
+      if (!window.CAMPGEAR_TEST_MODE) {
+        window.location.href =
+          "mailto:" + contactEmail + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+      }
     });
   }
 
@@ -1387,6 +1458,12 @@
       var id = input.getAttribute("data-product-id");
       if (!id) return;
       setProductSelected(id, input.checked);
+      trackEvent("Compare Item Toggle", {
+        productId: id,
+        selected: input.checked,
+        count: selectedProductCount(),
+        category: document.body.getAttribute("data-category") || "",
+      });
       syncSelectCheckboxes(id);
       if (selectionCompareActive && selectedProductCount() < 2) {
         exitSelectionCompare();
@@ -2864,6 +2941,7 @@
 
   function boot() {
     bindGrowthInteractionTracking();
+    injectNewsletterSignup();
     injectNavSearch();
     readSearchFromUrl();
     var page = document.body.getAttribute("data-page") || "home";

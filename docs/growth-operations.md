@@ -130,12 +130,15 @@ as an experiment and mention the maintenance reason in its notes.
 
 ### Weekend — distribution
 
-1. Answer one or two relevant community questions without unsolicited link
-   drops.
-2. Send up to three personalized editor or brand emails tied to one useful
-   asset or data point.
-3. Update `docs/outreach-log.csv` immediately.
-4. Refresh one existing guide or the downloadable data report.
+1. Answer a relevant community question only when it is active and the answer
+   is useful without an unsolicited link drop.
+2. Send a personalized editor or brand email only when a named recipient has a
+   direct fit with a newly improved asset. There is no weekly volume target.
+3. Update `docs/outreach-log.csv` immediately after any action.
+4. Do not manually reopen closed community threads or repeatedly search the
+   inbox for old outreach. Act on direct notifications instead.
+5. Use the saved time to refresh one existing guide or the downloadable data
+   report.
 
 ## UTM convention
 

@@ -1,6 +1,7 @@
 # Day 39: Affiliate readiness precheck
 
 Review date: 2026-08-18
+M1 status: **Task complete; activation remains externally blocked**
 
 ## Decision
 
@@ -19,7 +20,8 @@ The AliExpress complaint page could not be read through the automated browser ch
 
 ## Activation gate
 
-Day 39 can be marked fully complete only after all of the following are available:
+Day 39's required safe precheck is complete. Affiliate activation is a separate
+triggered task and can happen only after all of the following are available:
 
 1. AliExpress approval shown in the portal or an official approval email.
 2. A valid account Tracking ID.
@@ -27,3 +29,5 @@ Day 39 can be marked fully complete only after all of the following are availabl
 4. A test click confirming the destination and GA4 product/platform parameters.
 
 Until then, the official-site path is the correct and measurable user path.
+The pending approval does not keep M1 open and should not be checked repeatedly
+without a portal or email notification.

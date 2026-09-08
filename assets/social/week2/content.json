@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "gear-report",
+    "guide": "camping-gear-weight-price-report-2026.html",
+    "background": "gear-report.png",
+    "pins": [
+      {"eyebrow": "2026 DATA REPORT", "title": "What 543 camping products reveal", "stat": "543 PRODUCTS", "detail": "Weight and reference-price patterns across five gear categories"},
+      {"eyebrow": "WEIGHT BENCHMARK", "title": "Lightweight means something different by category", "stat": "64.5% vs 11.7%", "detail": "Sleeping pads vs tents at 1 kg or less in the cleaned sample"},
+      {"eyebrow": "PRICE BENCHMARK", "title": "The $200 line separates pads and tents", "stat": "86.7% vs 42.9%", "detail": "Share priced at $200 or less: sleeping pads vs tents"}
+    ],
+    "videos": [
+      ["543 CAMPING PRODUCTS", "One dataset. Five gear categories.", "Sleeping pads: 64.5% are 1 kg or less", "Tents: only 11.7% are 1 kg or less", "See the full 2026 report"],
+      ["IS A TARP ALWAYS LIGHTER?", "Not in this catalog.", "Median tarp weight: 4.94 kg", "Median tent weight: 2.65 kg", "Large shelter systems change the picture"]
+    ]
+  },
+  {
+    "slug": "tents-under-2kg",
+    "guide": "2-person-backpacking-tents-under-2kg.html",
+    "background": "tents-under-2kg.png",
+    "pins": [
+      {"eyebrow": "LIGHTWEIGHT TENT SHORTLIST", "title": "14 two-person tents under 2 kg", "stat": "14 MODELS", "detail": "Official listed weights, structures and reference prices"},
+      {"eyebrow": "LOWEST LISTED WEIGHT", "title": "The shortlist starts below 1 kg", "stat": "~0.89 KG", "detail": "Montbell U.L. Dome Shelter 2 in the current catalog"},
+      {"eyebrow": "TREKKING-POLE OPTIONS", "title": "Lanshan 2 Pro vs Lanshan 2", "stat": "0.92 vs 1.06 KG", "detail": "Trail-weight records; verify the exact included setup"}
+    ],
+    "videos": [
+      ["2-PERSON TENTS UNDER 2 KG", "We found 14 catalog matches", "Weights run from ~0.89 to ~1.95 kg", "Compare structure and included components", "Open the full sortable shortlist"],
+      ["DON'T BUY ON WEIGHT ALONE", "A 2 kg filter is only step one", "Check floor area and peak height", "Then doors, vents and mesh coverage", "Use the shortlist to start—not finish—the decision"]
+    ]
+  },
+  {
+    "slug": "lanshan-1-vs-pro",
+    "guide": "lanshan-1-vs-lanshan-1-pro.html",
+    "background": "lanshan-1-vs-pro.png",
+    "pins": [
+      {"eyebrow": "SOLO TENT COMPARISON", "title": "Lanshan 1 vs Lanshan 1 Pro", "stat": "~230 G", "detail": "Approximate starting weight saved by choosing the Pro"},
+      {"eyebrow": "CHOOSE THE STANDARD", "title": "Want a separate inner and fly?", "stat": "DOUBLE WALL", "detail": "Factory-taped seams and more familiar condensation management"},
+      {"eyebrow": "CHOOSE THE PRO", "title": "Prioritizing the lowest shelter weight?", "stat": "0.69–0.84 KG", "detail": "Single-wall setup; plan for condensation and seam sealing"}
+    ],
+    "videos": [
+      ["LANSHAN 1 OR 1 PRO?", "Standard: separate inner and fly", "Pro: roughly 230 g lighter at the low end", "The trade-off is wall design and maintenance", "Choose the setup you can manage in wet weather"],
+      ["THE 20-SECOND DECISION", "Choose Lanshan 1 for double-wall familiarity", "Choose Pro for the lowest listed weight", "Check fabric and season variant", "Compare total carried weight—not tent body alone"]
+    ]
+  },
+  {
+    "slug": "cloud-up-models",
+    "guide": "naturehike-cloud-up-models-compared.html",
+    "background": "cloud-up-models.png",
+    "pins": [
+      {"eyebrow": "MODEL FAMILY GUIDE", "title": "Naturehike Cloud Up is not one tent", "stat": "12 MODELS", "detail": "Base, standard, Pro, UL and EXT records compared"},
+      {"eyebrow": "TWO-PERSON MODELS", "title": "The UL 2 has the lowest listed weight", "stat": "~1.45 KG", "detail": "Among two-person Cloud Up records in this catalog"},
+      {"eyebrow": "BUYING RULE", "title": "Start with capacity, then suffix", "stat": "1P · 2P · 3P", "detail": "A Pro or EXT name is not a simple linear upgrade"}
+    ],
+    "videos": [
+      ["WHICH CLOUD UP?", "There are 12 records in this guide", "First choose 1P, 2P or 3P", "Then compare Base, Pro, UL and EXT", "The suffix changes more than the price"],
+      ["BEST LISTED 2P WEIGHT", "Cloud Up UL 2: ~1.45 kg", "Cloud Up EXT 2: ~1.8 kg", "Several standard/Base/Pro records: ~2.1 kg", "Verify fabric and included components before buying"]
+    ]
+  },
+  {
+    "slug": "xlite-vs-xtherm",
+    "guide": "thermarest-neoair-xlite-vs-xtherm-nxt.html",
+    "background": "xlite-vs-xtherm.png",
+    "pins": [
+      {"eyebrow": "SLEEPING PAD COMPARISON", "title": "NeoAir XLite NXT vs XTherm NXT", "stat": "110 G", "detail": "Representative weight difference in the current catalog"},
+      {"eyebrow": "CHOOSE XLITE NXT", "title": "Lighter all-season positioning", "stat": "~0.33 KG", "detail": "Compare expected temperatures before optimizing weight"},
+      {"eyebrow": "CHOOSE XTHERM NXT", "title": "Cold-use warmth-to-weight specialist", "stat": "~0.44 KG", "detail": "Current starting price is about $50 above XLite NXT"}
+    ],
+    "videos": [
+      ["XLITE NXT OR XTHERM NXT?", "XLite: lighter all-season positioning", "XTherm: colder-use warmth-to-weight focus", "Representative difference: 110 g", "Choose by expected overnight temperature first"],
+      ["WEIGHT VS COLD USE", "XLite NXT: ~0.33 kg", "XTherm NXT: ~0.44 kg", "XTherm starts about $50 higher", "Compare standard models separately from MAX variants"]
+    ]
+  }
+]
