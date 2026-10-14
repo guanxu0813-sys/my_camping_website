@@ -21,6 +21,7 @@ PUBLISHED = "2026-07-21"
 DEFAULT_GUIDE_MODIFIED = "2026-08-05"
 LIGHTWEIGHT_TENTS_REVIEWED = "2026-08-05T23:57:11+08:00"
 WEIGHT_PRICE_REPORT_REVIEWED = "2026-08-15"
+WEIGHT_PRICE_REPORT_PAGE_MODIFIED = "2026-10-14"
 
 COMPARISON_GUIDES = [
     {
@@ -301,7 +302,7 @@ COLLECTION_GUIDES = [
 ACCESSORY_PATTERN = re.compile(
     r"\b(accessor(?:y|ies)|footprints?|stuff sacks?|dry bags?|pegs?|"
     r"pole sets?|pole kits?|tent poles?|inner (?:bug )?(?:tent|tarp)|shelter inner|"
-    r"ground(?:sheets?| cloth)|connection|jack|pumps?|straps?|repair|"
+    r"ground(?:sheets?| cloth)|connection|couplers?|jack|pumps?|straps?|repair|"
     r"liners?|blankets?|seats?|pillows?|cots?|benches?|tables?|chairs?|"
     r"daisy chain|stakes?|tent body)\b",
     re.IGNORECASE,
@@ -482,6 +483,8 @@ def comparison_page(
     names = [product_name(p, brands, b) for p in products]
     category_path = b.category_page_path(guide["category"])
     category_name = b.category_label(guide["category"])
+    compare_query = quote(",".join(guide["product_ids"]), safe="")
+    compare_path = f"{category_path}?compare={compare_query}&amp;source=guide"
 
     spec_rows = guide.get("spec_rows") or [
         ("Weight", "weight"),
@@ -617,7 +620,10 @@ def comparison_page(
         f'      <h1 class="page__title">{b.escape_html(guide["title"].split(" — ")[0])}</h1>\n'
         f'      <p class="page__lead">{b.escape_html(guide["intro"])}</p>\n'
         '      <div class="static-actions">\n'
-        f'        <a class="static-button static-button--primary" href="{b.escape_html(category_path)}">'
+        f'        <a class="static-button static-button--primary guide-compare-link" '
+        f'href="{compare_path}" data-compare-count="{len(products)}">'
+        f"Compare these {len(products)} models</a>\n"
+        f'        <a class="static-button" href="{b.escape_html(category_path)}">'
         f"Open full {b.escape_html(category_name.lower())} table</a>\n"
         "      </div>\n"
         "    </header>\n"
@@ -692,6 +698,8 @@ def collection_page(
     path = f"/guides/{slug}.html"
     category_path = b.category_page_path(guide["category"])
     category_name = b.category_label(guide["category"])
+    compare_query = quote(",".join(guide["product_ids"]), safe="")
+    compare_path = f"{category_path}?compare={compare_query}&amp;source=guide"
     columns = guide.get("columns") or [
         {"label": "Capacity", "key": "capacity"},
         {"label": "Weight", "key": "weight"},
@@ -785,6 +793,13 @@ def collection_page(
         f'      <p class="page__eyebrow">{b.escape_html(guide["eyebrow"])}</p>\n'
         f'      <h1 class="page__title">{b.escape_html(guide["title"].split(" — ")[0])}</h1>\n'
         f'      <p class="page__lead">{b.escape_html(guide["intro"])}</p>\n'
+        '      <div class="static-actions">\n'
+        f'        <a class="static-button static-button--primary guide-compare-link" '
+        f'href="{compare_path}" data-compare-count="{len(products)}">'
+        f"Compare these {len(products)} models</a>\n"
+        f'        <a class="static-button" href="{b.escape_html(category_path)}">'
+        f"Open full {b.escape_html(category_name.lower())} table</a>\n"
+        "      </div>\n"
         "    </header>\n"
         f"{verdict}"
         '    <section class="static-panel" aria-labelledby="models">\n'
@@ -973,6 +988,10 @@ def clean_report_rows(products: list[dict], category: str, b: ModuleType) -> lis
             continue
         if ACCESSORY_PATTERN.search(product.get("model", "")):
             continue
+        if category == "sleeping-pad" and re.search(
+            r"\bsleeping bags?\b", product.get("model", ""), re.IGNORECASE
+        ):
+            continue
         source_terms = re.sub(r"[-_/]+", " ", product.get("sourceUrl", ""))
         if re.search(
             r"\b(inner (?:bug )?(?:tent|tarp)|ground cloth|shelter inner|"
@@ -1082,6 +1101,23 @@ def data_report_page(
         "</tr>"
         for row in stats
     )
+    explorer_records = []
+    for product in report_rows:
+        brand_id = product.get("brandId", "")
+        currency = str(product.get("currency") or "USD").upper()
+        explorer_records.append(
+            {
+                "category": product.get("category", ""),
+                "brand": b.brand_display_name(brands.get(brand_id), brand_id),
+                "model": product.get("model", ""),
+                "weight": b.parse_weight_kg(product),
+                "usdPrice": b.parse_price(product) if currency == "USD" else None,
+                "url": b.product_path(product),
+            }
+        )
+    explorer_json = json.dumps(
+        explorer_records, ensure_ascii=True, separators=(",", ":")
+    ).replace("</", "<\\/")
     tent_lightweight_share = stats[0]["under_1kg"] / stats[0]["count"] * 100
     bag_lightweight_share = stats[2]["under_1kg"] / stats[2]["count"] * 100
     pad_lightweight_share = stats[3]["under_1kg"] / stats[3]["count"] * 100
@@ -1097,7 +1133,7 @@ def data_report_page(
         "  </nav>\n"
         '  <article class="static-detail">\n'
         '    <header class="page__head">\n'
-        '      <p class="page__eyebrow">Original catalog analysis · August 2026</p>\n'
+        '      <p class="page__eyebrow">Catalog data reviewed August 15, 2026 · Explorer updated October 14, 2026</p>\n'
         '      <h1 class="page__title">Camping Gear Weight &amp; Price Report 2026</h1>\n'
         f'      <p class="page__lead">We analyzed {total} product records with '
         "usable weight and price data across five camping categories. The result "
@@ -1118,6 +1154,39 @@ def data_report_page(
         "the ≤ $200 counts use USD records only. Other currencies remain in the "
         "downloadable CSV but are excluded from price benchmarks; no exchange-rate "
         "conversion is applied.</p>\n"
+        "    </section>\n"
+        '    <section class="static-panel data-explorer" aria-labelledby="explorer-title">\n'
+        '      <div class="data-explorer__head">\n'
+        '        <div><p class="page__eyebrow">Interactive data tool</p>'
+        '<h2 id="explorer-title">Explore weight and USD price</h2></div>\n'
+        '        <p class="data-explorer__status" id="data-explorer-status" aria-live="polite"></p>\n'
+        "      </div>\n"
+        '      <div class="data-explorer__controls">\n'
+        '        <label>Category<select id="data-explorer-category">'
+        '<option value="all">All five categories</option>'
+        '<option value="tent">Tents</option><option value="tarp">Tarps</option>'
+        '<option value="sleeping-bag">Sleeping bags</option>'
+        '<option value="sleeping-pad">Sleeping pads</option>'
+        '<option value="stove">Stoves</option></select></label>\n'
+        '        <label>Maximum weight (kg)<input id="data-explorer-weight" type="number" '
+        'min="0" step="0.1" inputmode="decimal" placeholder="No limit" /></label>\n'
+        '        <label>Maximum USD price<input id="data-explorer-price" type="number" '
+        'min="0" step="10" inputmode="decimal" placeholder="No limit" /></label>\n'
+        '        <label>Search brand or model<input id="data-explorer-query" type="search" '
+        'autocomplete="off" placeholder="e.g. Naturehike" /></label>\n'
+        "      </div>\n"
+        '      <div class="data-explorer__chart" id="data-explorer-chart" '
+        'role="img" aria-label="Weight and USD price scatter plot"></div>\n'
+        '      <p class="page__lead page__lead--compact">Each dot is one USD-priced product. '
+        "Use the filters to create a shortlist; hover or focus a dot for its model and values. "
+        "Prices can represent the lowest listed variant, so verify the linked official page before buying.</p>\n"
+        '      <div class="table-wrap"><table class="compare-table static-table data-explorer__table">\n'
+        '        <thead><tr><th>Product</th><th>Category</th><th>Weight</th><th>USD Price</th></tr></thead>\n'
+        '        <tbody id="data-explorer-results"></tbody>\n'
+        "      </table></div>\n"
+        '      <script id="data-explorer-data" type="application/json">'
+        f"{explorer_json}</script>\n"
+        '      <script src="/data-report-explorer.js" defer></script>\n'
         "    </section>\n"
         '    <section class="static-panel" aria-labelledby="findings">\n'
         '      <h2 id="findings">What the data shows</h2>\n'
@@ -1172,7 +1241,7 @@ def data_report_page(
         title,
         description,
         "Data report",
-        WEIGHT_PRICE_REPORT_REVIEWED,
+        WEIGHT_PRICE_REPORT_PAGE_MODIFIED,
     )
     schema["@graph"].append(
         {

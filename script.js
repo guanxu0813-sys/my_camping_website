@@ -54,6 +54,7 @@
   var searchTrackTimer = null;
   var selectedProductIds = {};
   var selectionCompareActive = false;
+  var compareDeepLinkApplied = false;
   var affiliatesConfig = {
     amazon: { enabled: false, associateTag: "", marketplace: "www.amazon.com" },
     aliexpress: { enabled: false, trackingId: "" },
@@ -892,6 +893,55 @@
     document.querySelectorAll(".compare-select__input").forEach(function (input) {
       input.checked = false;
     });
+  }
+
+  function applyCompareDeepLink() {
+    if (compareDeepLinkApplied || window.location.protocol === "file:") return;
+    compareDeepLinkApplied = true;
+
+    var url = new URL(window.location.href);
+    var requested = (url.searchParams.get("compare") || "")
+      .split(",")
+      .map(function (id) {
+        return id.trim();
+      })
+      .filter(Boolean)
+      .slice(0, 16);
+    if (requested.length < 2) return;
+
+    var category = document.body.getAttribute("data-category") || "";
+    var validIds = requested.filter(function (id, index) {
+      var product = findProductById(id);
+      return (
+        product &&
+        product.category === category &&
+        requested.indexOf(id) === index
+      );
+    });
+    if (validIds.length < 2) return;
+
+    selectedProductIds = {};
+    validIds.forEach(function (id) {
+      setProductSelected(id, true);
+      syncSelectCheckboxes(id);
+    });
+    syncSearchInputs("", null);
+    setBrandFilter("all");
+    selectionCompareActive = true;
+    trackEvent("Compare Selected", {
+      count: validIds.length,
+      category: category,
+      source: url.searchParams.get("source") || "deeplink",
+      productIds: validIds.sort().join("|").slice(0, 400),
+    });
+    applyCatalogFilters();
+
+    var compare = document.getElementById("compare-root");
+    if (compare) {
+      window.setTimeout(function () {
+        compare.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 80);
+    }
   }
 
   function exitSelectionCompare() {
@@ -2832,6 +2882,7 @@
         return;
       }
       renderCategoryPage(category);
+      applyCompareDeepLink();
     }
 
     setStatus("");

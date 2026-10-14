@@ -198,6 +198,42 @@ async function main() {
 
   console.log("Analytics verification passed (jsdom smoke test).");
   analyticsLogs.forEach((l) => console.log(" ", l));
+
+  const firstTwoIds = [
+    "big-agnes-tiger-wall-ul-two",
+    "big-agnes-copper-spur-ul-two",
+  ];
+  const deepLinkDom = new JSDOM(tentHtml, {
+    url: `${base}/tent.html?compare=${firstTwoIds.join(",")}&source=guide`,
+    runScripts: "outside-only",
+    pretendToBeVisual: true,
+  });
+  deepLinkDom.window.CAMPGEAR_TEST_MODE = true;
+  deepLinkDom.window.localStorage.setItem("campgear_analytics_consent", "granted");
+  deepLinkDom.window.fetch = window.fetch;
+  deepLinkDom.window.HTMLElement.prototype.scrollIntoView = () => {};
+  deepLinkDom.window.eval(catalogJs);
+  deepLinkDom.window.eval(scriptJs);
+  for (let i = 0; i < 40; i++) {
+    await new Promise((r) => setTimeout(r, 100));
+    const selected = deepLinkDom.window.document.querySelectorAll(
+      ".compare-select__input:checked"
+    );
+    if (selected.length >= 2) break;
+  }
+  const deepLinkSelected = deepLinkDom.window.document.querySelectorAll(
+    ".compare-select__input:checked"
+  );
+  if (deepLinkSelected.length !== 2) {
+    throw new Error("Guide compare deep link did not select two products");
+  }
+  const visibleRows = Array.from(
+    deepLinkDom.window.document.querySelectorAll("tr[data-product-id]")
+  ).filter((row) => !row.classList.contains("is-filtered-out"));
+  if (!visibleRows.length || visibleRows.some((row) => !firstTwoIds.includes(row.dataset.productId))) {
+    throw new Error("Guide compare deep link did not filter to requested products");
+  }
+  console.log("Guide compare deep-link verification passed.");
 }
 
 main().catch((err) => {
