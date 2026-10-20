@@ -255,11 +255,17 @@ class GrowthToolTests(unittest.TestCase):
         report_path = ROOT / "data" / "reports" / "camping-gear-weight-price-2026.csv"
         with report_path.open(encoding="utf-8", newline="") as report_file:
             rows = list(csv.DictReader(report_file))
-        self.assertEqual(len(rows), 543)
+        self.assertEqual(len(rows), 541)
         self.assertEqual(
             Counter(row["currency"] for row in rows),
-            Counter({"USD": 497, "GBP": 28, "JPY": 18}),
+            Counter({"USD": 495, "GBP": 28, "JPY": 18}),
         )
+        models = {row["model"] for row in rows}
+        self.assertNotIn(
+            "FlowLite™ LD150 Hooded Synthetic Sleeping Bag 54°F / 12°C",
+            models,
+        )
+        self.assertNotIn("Pad Coupler Kit Loops", models)
         self.assertTrue(
             all(
                 row["data_reviewed"] == build_guides.WEIGHT_PRICE_REPORT_REVIEWED
