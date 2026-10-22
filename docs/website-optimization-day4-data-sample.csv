@@ -1,0 +1,21 @@
+category,id,weight_kg,price_range,currency,source_check,review_outcome,issue,next_action
+tent,naturehike-giling-protm-1-person-backpacking-tent,2.2,149.00,USD,redirected_to_brand_home,NEEDS_SOURCE_REFRESH,"Local weight and price are structurally valid, but the stored product URL no longer resolves to the product page",Verify the current official product URL in a normal browser
+tent,big-agnes-tiger-wall-ul-two,0.99,499.95,USD,200_exact,PASS,"No sampled issue",Keep
+tent,onetigris-daisy-chain,0.12,12.98,USD,redirected_to_brand_home,FAIL,"Accessory is categorized as a tent and the stored product URL no longer resolves to the product page",Reclassify or exclude after manual source confirmation
+tent,sea-to-summit-alto-tr2-inner-tent,0.83,180.00,USD,200_exact,FAIL,"Inner-tent accessory is eligible for main-product comparison",Exclude from main comparison and review indexability
+tarp,naturehike-naturehike-camping-aluminum-alloy-wood-pattern-tent-pole,1.3,42.87-52.84,USD,redirected_to_brand_home,FAIL,"Tent-pole accessory is categorized as a tarp and the stored product URL no longer resolves to the product page",Reclassify or exclude after manual source confirmation
+tarp,snow-peak-land-station,0,678.96,USD,403_protected,FAIL,"Zero weight is not a valid product weight; source could not be independently read because the official site returned 403",Replace zero with unknown until manually verified
+tarp,flames-creed-flames-creed-33m-tarp-ultralight-15d-nylon-silicone-coating,0.51,0,USD,200_exact,FAIL,"Zero price is not a valid reference price",Replace zero with unknown until the official page price is verified
+tarp,big-agnes-gold-camp-3-tarp,2.09,159.96,USD,200_exact,PASS,"No sampled issue",Keep
+sleeping-bag,naturehike-snowbird-sp700-down-mummy-sleeping-bag,1.2,159.00-199.99,USD,200_exact,PASS,"No sampled issue",Keep
+sleeping-bag,flames-creed-flames-creed-sleeping-bag-90-white-duck-down-20d,,0,USD,200_exact,FAIL,"Weight is missing and zero price is invalid",Keep out of data reports until re-sourced
+sleeping-bag,aegismax-aegismax-air-10d-800fp-ultra-dry-down-sleeping-bag-ultralight,,107.37,USD,200_exact,FAIL,"Weight and description are missing",Re-source fields before using in weight analysis
+sleeping-bag,onetigris-sleeping-bag-stuff-sack,0.17,16.99,USD,200_exact,FAIL,"Stuff sack accessory is categorized as a sleeping bag",Exclude from main comparison and review indexability
+sleeping-pad,therm-a-rest-neoair-xlite-nxt-sleeping-pad,0.33,199.95-239.95,USD,200_valid_redirect,PASS,"Official URL redirects to the current Cascades Designs product page",Keep
+sleeping-pad,sea-to-summit-mat-coupler-kit-loops,0.03,9.95,USD,200_exact,FAIL,"Pad coupler accessory is categorized as a sleeping pad",Exclude from main comparison and review indexability
+sleeping-pad,nemo-vortex-pump-sack,,29.95,USD,200_exact,FAIL,"Pump sack accessory is categorized as a sleeping pad and has no product weight",Exclude from main comparison and review indexability
+sleeping-pad,flames-creed-flames-creed-winter-mat-r-value-5-8-sleeping-pad-ultralight,0.43,0,USD,200_exact,FAIL,"Zero price is not a valid reference price",Replace zero with unknown until the official page price is verified
+stove,fire-maple-300-t-ultralight-titanium-backpacking-stove,0.04,29.95,USD,200_exact,PASS,"No sampled issue",Keep
+stove,fire-maple-hornet-ii-titanium-gas-stove,0.05,39.95,USD,redirected_to_brand_home,NEEDS_SOURCE_REFRESH,"Local weight and price are plausible, but the stored product URL no longer resolves to the product page",Verify the current official product URL in a normal browser
+stove,onetigris-tiger-roar-tent-stove,9.6,299.99,USD,200_exact,PASS,"High weight is plausible for this full tent stove system",Keep
+stove,fire-maple-116-t-titanium-backpacking-stove,0.05,39.95,USD,200_exact,PASS,"No sampled issue",Keep
