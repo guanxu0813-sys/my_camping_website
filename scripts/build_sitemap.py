@@ -394,7 +394,10 @@ def product_meta_description(product: dict, brands: dict[str, dict]) -> str:
     )
 
 
-def product_primary_specs(product: dict) -> list[tuple[str, str]]:
+def product_primary_specs(
+    product: dict,
+    seo_override: dict | None = None,
+) -> list[tuple[str, str]]:
     category = product.get("category")
     rows: list[tuple[str, str]] = []
     weight = format_weight(product)
@@ -433,7 +436,11 @@ def product_primary_specs(product: dict) -> list[tuple[str, str]]:
             value = spec_value(product, key)
             if value:
                 rows.append((label, value))
-    rows.append(("Reference Price", format_price(product)))
+    override = seo_override or {}
+    if override.get("priceNote"):
+        rows.append(("Reference Price", str(override["priceNote"])))
+    elif not override.get("hidePrice"):
+        rows.append(("Reference Price", format_price(product)))
     return rows
 
 
@@ -1631,24 +1638,30 @@ def related_products(product: dict, products: list[dict], brands: dict[str, dict
     return sorted(same_brand, key=sort_key)[:limit] + sorted(same_category, key=sort_key)[: max(0, limit - len(same_brand))]
 
 
-def product_json_ld(product: dict, site_url: str, brands: dict[str, dict]) -> dict:
+def product_json_ld(
+    product: dict,
+    site_url: str,
+    brands: dict[str, dict],
+    seo_override: dict | None = None,
+) -> dict:
     brand_id = product.get("brandId", "")
     brand = brand_display_name(brands.get(brand_id), brand_id)
     name = f"{brand} {product.get('model', '')}".strip()
+    override = seo_override or {}
     product_node: dict = {
         "@type": "Product",
         "@id": f"{product_url(site_url, product)}#product",
         "name": name,
         "brand": {"@type": "Brand", "name": brand},
         "category": category_label(product.get("category")),
-        "description": product_summary(product, brands),
+        "description": override.get("lead") or product_summary(product, brands),
         "url": product_url(site_url, product),
     }
     if product.get("imageUrl"):
         product_node["image"] = product["imageUrl"]
     price = product.get("priceMin", product.get("price"))
     currency = product.get("currency")
-    if price is not None and currency:
+    if price is not None and currency and not override.get("hidePrice"):
         product_node["offers"] = {
             "@type": "Offer",
             "price": price,
@@ -1695,14 +1708,19 @@ def product_page_html(
     category = product.get("category", "")
     name = f"{brand} {model}".strip()
     override = seo_override or {}
+    display_product = product
+    if override.get("hidePrice"):
+        display_product = dict(product)
+        for field in ("price", "priceMin", "priceMax"):
+            display_product.pop(field, None)
     title = override.get("title") or product_page_title(product, brands)
-    description = override.get("description") or product_meta_description(product, brands)
+    description = override.get("description") or product_meta_description(display_product, brands)
     canonical = product_url(site_url, product)
     image = product.get("imageUrl") or ""
-    specs = product_primary_specs(product)
+    specs = product_primary_specs(display_product, override)
     related = related_products(product, products, brands)
-    position_text = product_position_paragraph(product, stats or {}, brands)
-    competitor_html = competitor_table_html(product, products, brands)
+    position_text = product_position_paragraph(display_product, stats or {}, brands)
+    competitor_html = competitor_table_html(display_product, products, brands)
     brand_category_count = sum(
         1 for p in products if p.get("brandId") == brand_id and p.get("category") == category
     )
@@ -1749,6 +1767,20 @@ def product_page_html(
         )
     else:
         actions = f'<div class="static-actions">{back_btn}</div>'
+    compare_ids = [
+        product_id
+        for product_id in (override.get("compareIds") or [])
+        if any(row.get("id") == product_id for row in products)
+    ]
+    if len(compare_ids) >= 2:
+        compare_url = f"{category_page_path(category)}?{urlencode({'compare': ','.join(compare_ids), 'source': 'product'})}"
+        compare_label = override.get("compareLabel") or f"Compare these {len(compare_ids)} models"
+        compare_button = (
+            f'<a class="static-button static-button--primary guide-compare-link" '
+            f'href="{escape_html(compare_url)}" data-compare-count="{len(compare_ids)}">'
+            f'{escape_html(compare_label)}</a>'
+        )
+        actions = actions.replace(">", f">{compare_button}", 1)
     image_html = (
         f'<img src="{escape_html(image)}" alt="{escape_html(product.get("imageAlt") or name)}" width="760" height="570" loading="eager" decoding="async" />'
         if image
@@ -1760,12 +1792,30 @@ def product_page_html(
     )
     highlights = product_highlights(product)
     highlight_html = "\n".join(f"<li>{escape_html(strip_html(h))}</li>" for h in highlights[:4] if strip_html(h))
-    notes = product_comparison_notes(product, brands)
+    notes = override.get("comparisonNotes") or product_comparison_notes(display_product, brands)
+    lead = override.get("lead") or product_summary(product, brands)
+    source_details = []
+    if override.get("sourceNote"):
+        source_details.append(
+            f'<p><strong>Source:</strong> {escape_html(override["sourceNote"])}</p>'
+        )
+    if override.get("limitations"):
+        source_details.append(
+            f'<p><strong>Limitations:</strong> {escape_html(override["limitations"])}</p>'
+        )
+    source_section = (
+        '    <section class="static-panel" aria-labelledby="source-limitations">\n'
+        '      <h2 id="source-limitations">Source and Limitations</h2>\n'
+        f"      {''.join(source_details)}\n"
+        "    </section>\n"
+        if source_details
+        else ""
+    )
     current_path = category_page_path(category)
     return (
         "<!DOCTYPE html>\n"
         '<html lang="en">\n'
-        f"{static_page_head(title, description, canonical, product_json_ld(product, site_url, brands), image, 'noindex,follow' if noindex else '')}\n"
+        f"{static_page_head(title, description, canonical, product_json_ld(product, site_url, brands, override), image, 'noindex,follow' if noindex else '')}\n"
         '<body data-page="product" data-category="' + escape_html(category) + '">\n'
         f"{static_header(current_path)}\n"
         '<main class="page page--sub static-page">\n'
@@ -1778,7 +1828,7 @@ def product_page_html(
         "    <header class=\"page__head\">\n"
         f'      <p class="page__eyebrow">{escape_html(brand)} · {escape_html(category_label(category))}</p>\n'
         f'      <h1 class="page__title">{escape_html(name)}</h1>\n'
-        f'      <p class="page__lead">{escape_html(product_summary(product, brands))}</p>\n'
+        f'      <p class="page__lead">{escape_html(lead)}</p>\n'
         f"      {actions}\n"
         "    </header>\n"
         '    <div class="product-detail__layout">\n'
@@ -1797,6 +1847,7 @@ def product_page_html(
         + (f"      <p>{escape_html(position_text)}</p>\n" if position_text else "")
         + "    </section>\n"
         + (f"    {competitor_html}\n" if competitor_html else "")
+        + source_section
         + (
             '    <section class="static-panel" aria-labelledby="highlights">\n'
             '      <h2 id="highlights">Highlights</h2>\n'
@@ -2137,6 +2188,7 @@ def write_static_pages(
     product_overrides = overrides.get("products") or {}
     brand_overrides = overrides.get("brands") or {}
     for product in rows:
+        product_override = product_overrides.get(product.get("id", "")) or {}
         path = PRODUCT_DIR / f"{product.get('id')}.html"
         path.write_text(
             product_page_html(
@@ -2147,7 +2199,7 @@ def write_static_pages(
                 affiliates,
                 affiliate_links,
                 stats,
-                product_overrides.get(product.get("id", "")),
+                product_override,
                 (guide_links or {}).get(product.get("id", ""), []),
             ),
             encoding="utf-8",
@@ -2155,7 +2207,7 @@ def write_static_pages(
         entries.append(
             {
                 "loc": f"{site_url}{product_path(product)}",
-                "lastmod": source_lastmod_for_product(product),
+                "lastmod": product_override.get("lastmod") or source_lastmod_for_product(product),
                 "changefreq": "monthly",
                 "priority": "0.6",
                 "group": "products",

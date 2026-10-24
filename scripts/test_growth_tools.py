@@ -339,6 +339,50 @@ class GrowthToolTests(unittest.TestCase):
         self.assertIn("Affiliate disclosure", html)
         self.assertIn("View official source", html)
 
+    def test_product_override_hides_stale_price_and_adds_decision_context(self) -> None:
+        product = {
+            "id": "example-tent",
+            "brandId": "example",
+            "category": "tent",
+            "model": "Example Tent",
+            "currency": "USD",
+            "price": 199,
+            "priceMin": 199,
+            "priceMax": 199,
+            "sourceUrl": "https://brand.example/example-tent",
+            "specs": {"weightKg": 1.6, "capacity": "2 ppl"},
+        }
+        sibling = {
+            "id": "example-tent-one",
+            "brandId": "example",
+            "category": "tent",
+            "model": "Example Tent One",
+            "specs": {"weightKg": 1.2, "capacity": "1 ppl"},
+        }
+        override = {
+            "lead": "A source-reviewed decision summary.",
+            "hidePrice": True,
+            "priceNote": "Unavailable — sold out",
+            "sourceNote": "Official listing reviewed 2026-10-24.",
+            "limitations": "Weight variants differ.",
+            "compareIds": ["example-tent-one", "example-tent"],
+            "compareLabel": "Compare both tents",
+        }
+        html = build_sitemap.product_page_html(
+            product,
+            [product, sibling],
+            "https://www.campgearcompare.com",
+            {"example": {"nameEn": "Example"}},
+            seo_override=override,
+        )
+        self.assertIn("A source-reviewed decision summary.", html)
+        self.assertIn("Unavailable — sold out", html)
+        self.assertIn("Source and Limitations", html)
+        self.assertIn("Compare both tents", html)
+        self.assertIn("source=product", html)
+        self.assertNotIn('"offers"', html)
+        self.assertNotIn("199 USD", html)
+
 
 if __name__ == "__main__":
     unittest.main()

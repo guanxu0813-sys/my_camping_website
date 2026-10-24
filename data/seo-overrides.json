@@ -67,8 +67,19 @@
       "description": "Naturehike PeakLite YL01 folding table weighs 2.15 kg, packs to 15.7 x 5.5 inches and supports up to 110 lb. Check its official $49.99 reference price."
     },
     "naturehike-daban-2-person-ultralight-4-season-tunnel-tent": {
-      "title": "Naturehike DABAN 2 Tent — 1.6 kg, 4-Season, $139",
-      "description": "Naturehike DABAN 2 is a two-person four-season tunnel tent at about 1.6 kg and $139. Compare official waterproofing, dimensions and packed size."
+      "title": "Naturehike DABAN 2 Tent — 1.6 kg, 2-Person, 4-Season",
+      "description": "Compare the Naturehike DABAN 2 tent: two-person tunnel design, about 1.6 kg, 3000 mm+ fly and 4000 mm+ floor. Official listing is sold out.",
+      "lastmod": "2026-10-24",
+      "lead": "The DABAN 2 is a two-person, four-season tunnel tent at about 1.6 kg. Naturehike lists a 3000 mm+ fly and 4000 mm+ floor, but the official product page is sold out and says it will not be restocked. Use this page for specification comparison, not current purchase availability.",
+      "hidePrice": true,
+      "priceNote": "Unavailable — official listing is sold out; current official price displays conflict",
+      "sourceNote": "Naturehike official DABAN 2 product listing, reviewed 2026-10-24. The listing identifies a two-person tunnel tent, 15D fly, 20D floor, 3000 mm+ / 4000 mm+ waterproofing and sold-out status.",
+      "limitations": "The official copy says about 3.2 lb (roughly 1.45 kg), while its embedded variant data reports 1600 g. We retain the approximate 1.6 kg catalog value and do not present a current price because official product and collection displays conflict.",
+      "compareIds": [
+        "naturehike-daban-1-person-ultralight-4-season-tunnel-tent",
+        "naturehike-daban-2-person-ultralight-4-season-tunnel-tent"
+      ],
+      "compareLabel": "Compare DABAN 1 and DABAN 2"
     },
     "naturehike-mongartm-pro-1-person-ultralight-backpacking-tent": {
       "title": "Naturehike Mongar Pro 1 Tent — 1.97 kg, $149",
