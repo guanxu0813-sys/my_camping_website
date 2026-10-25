@@ -61,7 +61,7 @@
   };
   var affiliateLinksMap = {};
   var LOW_VALUE_ACCESSORY_PATTERN =
-    /\b(footprint|groundsheet|inner tent|replacement|spare part|repair kit|stuff sack|storage bag|pump sack|pole set|pole kit|tent pole|stake set|peg set|tent pegs?|tent stakes?|rainfly only|fly only|liner)\b/i;
+    /\b(footprint|groundsheet|inner tent|replacement|spare part|repair kit|stuff sack|storage bag|pump sack|daisy chain|coupler kit|pole set|pole kit|tent pole|stake set|peg set|tent pegs?|tent stakes?|rainfly only|fly only|liner)\b/i;
 
   function isLowValueAccessory(product) {
     var model = String((product && product.model) || "");

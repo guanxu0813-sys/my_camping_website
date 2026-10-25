@@ -1020,6 +1020,8 @@
     "published": true,
     "price": 29.95,
     "priceMin": 29.95,
-    "priceMax": 29.95
+    "priceMax": 29.95,
+    "inSummaryTable": false,
+    "inDetailCards": false
   }
 ]

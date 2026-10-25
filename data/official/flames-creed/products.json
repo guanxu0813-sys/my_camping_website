@@ -107,10 +107,7 @@
     "sourceSite": "flamescreed.com",
     "scrapedAt": "2026-07-15T14:56:06Z",
     "status": "verified",
-    "published": true,
-    "price": 0.0,
-    "priceMin": 0.0,
-    "priceMax": 0.0
+    "published": true
   },
   {
     "id": "flames-creed-flames-creed-backpack-qi-dian-pro-ultralight-frameless-backpacking-4016",
@@ -269,10 +266,7 @@
     "sourceSite": "flamescreed.com",
     "scrapedAt": "2026-07-15T14:56:06Z",
     "status": "verified",
-    "published": true,
-    "price": 0.0,
-    "priceMin": 0.0,
-    "priceMax": 0.0
+    "published": true
   },
   {
     "id": "flames-creed-flames-creed-taiji-2-15d-ultralight-tent-freestanding-tent",
@@ -378,9 +372,6 @@
     "sourceSite": "flamescreed.com",
     "scrapedAt": "2026-07-15T14:56:06Z",
     "status": "verified",
-    "published": true,
-    "price": 0.0,
-    "priceMin": 0.0,
-    "priceMax": 0.0
+    "published": true
   }
 ]

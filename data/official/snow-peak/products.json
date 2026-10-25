@@ -1296,8 +1296,6 @@
     "description": "The Land Station is a dynamic tarp designed to accommodate up to eight people. With a variety of set-up options, the Land Station is a natural centerpiece in camp, whether for sleeping or gathering. The Land Station is designed to protect from the elements like wind and rain, and is made from a fabric that shelters from the sun, while still letting in light. Please note: Wing Poles are not included. Pair the Land Station with the Tarp Pole 210cm Aluminum and Wing Pole 140cm Aluminum for a complete set-up.",
     "currency": "USD",
     "specs": {
-      "weightKg": 0.0,
-      "weightDisplay": "~0.0 kg",
       "capacity": "4-8 ppl-shelter",
       "structure": "Tarps"
     },

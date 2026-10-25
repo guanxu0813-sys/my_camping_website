@@ -311,7 +311,9 @@
     "published": true,
     "price": 180.0,
     "priceMin": 180.0,
-    "priceMax": 180.0
+    "priceMax": 180.0,
+    "inSummaryTable": false,
+    "inDetailCards": false
   },
   {
     "id": "sea-to-summit-alto-tr2-plus-body",
@@ -1333,7 +1335,9 @@
     "published": true,
     "price": 9.95,
     "priceMin": 9.95,
-    "priceMax": 9.95
+    "priceMax": 9.95,
+    "inSummaryTable": false,
+    "inDetailCards": false
   },
   {
     "id": "sea-to-summit-pursuit-plus-self-inflating-sleeping-pad",

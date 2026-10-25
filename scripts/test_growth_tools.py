@@ -67,6 +67,12 @@ class GrowthToolTests(unittest.TestCase):
         self.assertIsNotNone(
             build_guides.ACCESSORY_PATTERN.search("Ground Control Tent Pegs")
         )
+        self.assertTrue(
+            build_sitemap.is_low_value_accessory({"model": "Daisy Chain"})
+        )
+        self.assertTrue(
+            build_sitemap.is_low_value_accessory({"model": "Pad Coupler Kit Loops"})
+        )
 
     def test_tent_with_included_footprint_is_not_an_accessory(self) -> None:
         product = {

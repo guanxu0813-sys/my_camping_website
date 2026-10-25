@@ -286,7 +286,9 @@
     "published": true,
     "price": 12.98,
     "priceMin": 12.98,
-    "priceMax": 12.98
+    "priceMax": 12.98,
+    "inSummaryTable": false,
+    "inDetailCards": false
   },
   {
     "id": "onetigris-dreamstar-sleeping-pad",
@@ -1572,7 +1574,9 @@
     "published": true,
     "price": 16.99,
     "priceMin": 16.99,
-    "priceMax": 16.99
+    "priceMax": 16.99,
+    "inSummaryTable": false,
+    "inDetailCards": false
   },
   {
     "id": "onetigris-smokey-hut-hot-tent",

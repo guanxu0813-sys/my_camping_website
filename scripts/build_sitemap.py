@@ -26,7 +26,7 @@ BRAND_DIR = ROOT / "brands"
 MIN_BRAND_CATEGORY_PRODUCTS = 3
 LOW_VALUE_ACCESSORY_PATTERN = re.compile(
     r"\b(footprint|groundsheet|inner tent|replacement|spare part|repair kit|"
-    r"stuff sack|storage bag|pump sack|pole set|pole kit|tent pole|"
+    r"stuff sack|storage bag|pump sack|daisy chain|coupler kit|pole set|pole kit|tent pole|"
     r"stake set|peg set|tent pegs?|tent stakes?|rainfly only|fly only|liner)\b",
     re.IGNORECASE,
 )

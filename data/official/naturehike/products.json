@@ -27,7 +27,9 @@
     "status": "draft",
     "price": 42.87,
     "priceMin": 42.87,
-    "priceMax": 52.84
+    "priceMax": 52.84,
+    "inSummaryTable": false,
+    "inDetailCards": false
   },
   {
     "id": "naturehike-3-people-pop-up-camping-tent",

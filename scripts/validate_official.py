@@ -46,7 +46,7 @@ ID_PATTERN = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 CURRENCY_PATTERN = re.compile(r"^[A-Z]{3}$")
 ACCESSORY_PATTERN = re.compile(
     r"\b(footprint|groundsheet|inner tent|replacement|spare part|repair kit|"
-    r"stuff sack|storage bag|pump sack|pole set|pole kit|tent pole|"
+    r"stuff sack|storage bag|pump sack|daisy chain|coupler kit|pole set|pole kit|tent pole|"
     r"stake set|peg set|tent pegs?|tent stakes?|rainfly only|fly only|liner)\b",
     re.IGNORECASE,
 )
