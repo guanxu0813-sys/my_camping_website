@@ -129,6 +129,7 @@ COMPARISON_GUIDES = [
         "description": "Compare Naturehike TuYe R5.8, R6.5 and R8.8 sleeping pads by insulation, representative weight, design and price.",
         "eyebrow": "Cold-weather sleeping pad comparison",
         "category": "sleeping-pad",
+        "brand_id": "naturehike",
         "product_ids": [
             "naturehike-tuye-r5-8-ultralight-inflatable-pad",
             "naturehike-tuye-r6-5-ultralight-inflatable-pad",
@@ -152,6 +153,7 @@ COMPARISON_GUIDES = [
         "description": "Choose Snowbird SP700 for the lower 19°F label or SP550 for milder trips and a lower starting price; compare current weight, fill and price data.",
         "eyebrow": "Cold-weather down sleeping bag comparison",
         "category": "sleeping-bag",
+        "brand_id": "naturehike",
         "product_ids": [
             "naturehike-snowbird-sp700-down-mummy-sleeping-bag",
             "naturehike-snowbirdtm-sp550-down-mummy-sleeping-bag-29-3-f-1-5-c",
@@ -263,6 +265,7 @@ COLLECTION_GUIDES = [
         "description": "Compare 12 Naturehike Cloud Up, Base, Pro, UL and EXT tents by capacity, representative weight and official reference price.",
         "eyebrow": "Naturehike Cloud Up model guide",
         "category": "tent",
+        "brand_id": "naturehike",
         "date_modified": "2026-08-17",
         "product_ids": [
             "naturehike-cloud-up-1-person-ultralight-backpacking-tent",
@@ -583,6 +586,14 @@ def comparison_page(
         "values from brand listings and link the source so you can verify the exact "
         "variant before buying.",
     )
+    brand_link = ""
+    if guide.get("brand_id"):
+        brand_id = guide["brand_id"]
+        brand_name = b.brand_display_name(brands.get(brand_id), brand_id)
+        brand_link = (
+            f'<a href="{b.escape_html(b.brand_home_path(brand_id))}">'
+            f'{b.escape_html(brand_name)} gear hub</a> · '
+        )
     product_links = "".join(
         f'<li><a href="{b.escape_html(b.product_path(p))}">'
         f"{b.escape_html(name)} — full specs</a></li>"
@@ -652,7 +663,7 @@ def comparison_page(
         '    <section class="static-panel" aria-labelledby="related-products">\n'
         '      <h2 id="related-products">Full product pages</h2>\n'
         f'      <ul class="static-link-list">{product_links}</ul>\n'
-        f'      <p><a href="/guides/">Browse all data-backed guides</a> · '
+        f'      <p>{brand_link}<a href="/guides/">Browse all data-backed guides</a> · '
         f'<a href="{b.escape_html(category_path)}">Compare all {b.escape_html(category_name.lower())}</a></p>\n'
         "    </section>\n"
         "  </article>\n"
@@ -976,6 +987,20 @@ def guide_links_by_brand() -> dict[str, list[tuple[str, str]]]:
         path = f"/guides/{guide['slug']}.html"
         label = guide["title"].split(" — ")[0]
         links.setdefault(brand_id, []).append((path, label))
+    return links
+
+
+def guide_links_by_brand_category() -> dict[tuple[str, str], list[tuple[str, str]]]:
+    links: dict[tuple[str, str], list[tuple[str, str]]] = {}
+    for guide in [*all_comparison_guides(), *all_collection_guides()]:
+        brand_id = guide.get("brand_id")
+        category = guide.get("category")
+        if not brand_id or not category:
+            continue
+        path = f"/guides/{guide['slug']}.html"
+        label = guide["title"].split(" — ")[0]
+        key = (brand_id, category)
+        links.setdefault(key, []).append((path, label))
     return links
 
 

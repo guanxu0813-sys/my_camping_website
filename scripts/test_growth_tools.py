@@ -128,6 +128,31 @@ class GrowthToolTests(unittest.TestCase):
         brand_links = build_guides.guide_links_by_brand()["big-agnes"]
         self.assertIn(guide_path, {path for path, _ in brand_links})
 
+    def test_naturehike_guides_link_brand_and_relevant_category_hubs(self) -> None:
+        expected = {
+            ("naturehike", "tent"): {
+                "/guides/naturehike-cloud-up-models-compared.html",
+                "/guides/naturehike-giling-pro-1-vs-mongar-pro-1.html",
+                "/guides/naturehike-mongar-base-2-vs-3.html",
+            },
+            ("naturehike", "sleeping-bag"): {
+                "/guides/naturehike-snowbird-sp700-vs-sp550.html",
+            },
+            ("naturehike", "sleeping-pad"): {
+                "/guides/naturehike-tuye-r5-8-vs-r6-5-vs-r8-8.html",
+            },
+        }
+        category_links = build_guides.guide_links_by_brand_category()
+        for key, expected_paths in expected.items():
+            actual = [path for path, _ in category_links[key]]
+            self.assertEqual(set(actual), expected_paths)
+            self.assertEqual(len(actual), len(set(actual)))
+
+        brand_paths = {
+            path for path, _ in build_guides.guide_links_by_brand()["naturehike"]
+        }
+        self.assertEqual(brand_paths, set().union(*expected.values()))
+
     def test_growth_report_prefers_explicit_comparison_periods(self) -> None:
         latest = {
             "gsc_impressions": "1037",

@@ -2162,6 +2162,7 @@ def write_static_pages(
     seo_overrides: dict | None = None,
     guide_links: dict[str, list[tuple[str, str]]] | None = None,
     brand_guide_links: dict[str, list[tuple[str, str]]] | None = None,
+    brand_category_guide_links: dict[tuple[str, str], list[tuple[str, str]]] | None = None,
 ) -> list[dict]:
     PRODUCT_DIR.mkdir(exist_ok=True)
     BRAND_DIR.mkdir(exist_ok=True)
@@ -2286,11 +2287,7 @@ def write_static_pages(
                 site_url,
                 brands,
                 brand_overrides.get(f"{brand_id}-{category}"),
-                (
-                    (brand_guide_links or {}).get(brand_id, [])
-                    if brand_id == "naturehike" and category == "tent"
-                    else []
-                ),
+                (brand_category_guide_links or {}).get((brand_id, category), []),
             ),
             encoding="utf-8",
         )
@@ -2395,7 +2392,12 @@ def main() -> int:
     brands_list = load_json(DATA / "brands.json")
     brands = brand_map(brands_list if isinstance(brands_list, list) else [])
     products = load_official_products()
-    from build_guides import build_guides, guide_links_by_brand, guide_links_by_product
+    from build_guides import (
+        build_guides,
+        guide_links_by_brand,
+        guide_links_by_brand_category,
+        guide_links_by_product,
+    )
 
     generated_guide_pages = build_guides(
         site_url, products, brands, sys.modules[__name__], seo_overrides
@@ -2407,6 +2409,7 @@ def main() -> int:
         seo_overrides,
         guide_links_by_product(),
         guide_links_by_brand(),
+        guide_links_by_brand_category(),
     )
 
     write_sitemap(
