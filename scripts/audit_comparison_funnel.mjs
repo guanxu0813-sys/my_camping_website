@@ -42,6 +42,12 @@ for (const guideFile of guideFiles) {
   const links = Array.from(
     dom.window.document.querySelectorAll("a.guide-compare-link")
   );
+  if (links.length) {
+    const viewport = dom.window.document.querySelector('meta[name="viewport"]');
+    if (!viewport?.content.includes("width=device-width")) {
+      fail(`${guideFile}: missing responsive viewport metadata`);
+    }
+  }
 
   for (const link of links) {
     auditedLinks += 1;
@@ -99,6 +105,15 @@ const mobileTrayRule = /@media\s*\(max-width:\s*720px\)[\s\S]*?\.compare-tray\s*
 const mobileModalRule = /@media\s*\(max-width:\s*720px\)[\s\S]*?\.product-modal__panel\s*\{[\s\S]*?grid-template-columns:\s*1fr/;
 if (!mobileTrayRule.test(css)) fail("Missing mobile compare tray layout rule");
 if (!mobileModalRule.test(css)) fail("Missing mobile product modal layout rule");
+
+const mobileGuideActionsRule = /@media\s*\(max-width:\s*768px\)[\s\S]*?\.static-actions\s*\{[\s\S]*?flex-direction:\s*column[\s\S]*?\.static-button\s*\{[\s\S]*?width:\s*100%/;
+const scrollableGuideTableRule = /\.table-wrap\s*\{[\s\S]*?overflow-x:\s*auto/;
+if (!mobileGuideActionsRule.test(css)) {
+  fail("Missing stacked mobile guide action layout rule");
+}
+if (!scrollableGuideTableRule.test(css)) {
+  fail("Missing horizontally scrollable guide table rule");
+}
 
 console.log(
   `Comparison funnel audit passed: ${auditedLinks} guide links across ${categoryFiles.size} category pages.`

@@ -153,6 +153,41 @@ class GrowthToolTests(unittest.TestCase):
         }
         self.assertEqual(brand_paths, set().union(*expected.values()))
 
+    def test_big_agnes_guides_link_brand_and_tent_hubs(self) -> None:
+        expected_paths = {
+            "/guides/big-agnes-copper-spur-ul1-vs-ul2.html",
+            "/guides/big-agnes-tiger-wall-models-compared.html",
+            "/guides/big-agnes-tiger-wall-ul2-vs-copper-spur-ul2.html",
+        }
+        brand_links = build_guides.guide_links_by_brand()["big-agnes"]
+        brand_paths = [path for path, _ in brand_links]
+        self.assertEqual(set(brand_paths), expected_paths)
+        self.assertEqual(len(brand_paths), len(set(brand_paths)))
+
+        category_links = build_guides.guide_links_by_brand_category()[
+            ("big-agnes", "tent")
+        ]
+        category_paths = [path for path, _ in category_links]
+        self.assertEqual(set(category_paths), expected_paths)
+        self.assertEqual(len(category_paths), len(set(category_paths)))
+
+        guide_products = set()
+        for guide in [
+            *build_guides.all_comparison_guides(),
+            *build_guides.all_collection_guides(),
+        ]:
+            if guide.get("brand_id") != "big-agnes":
+                continue
+            guide_path = f"/guides/{guide['slug']}.html"
+            for product_id in guide["product_ids"]:
+                guide_products.add(product_id)
+                product_paths = {
+                    path
+                    for path, _ in build_guides.guide_links_by_product()[product_id]
+                }
+                self.assertIn(guide_path, product_paths)
+        self.assertEqual(len(guide_products), 16)
+
     def test_growth_report_prefers_explicit_comparison_periods(self) -> None:
         latest = {
             "gsc_impressions": "1037",

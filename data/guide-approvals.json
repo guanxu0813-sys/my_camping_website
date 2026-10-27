@@ -146,6 +146,7 @@
       "description": "Compare Big Agnes Tiger Wall UL2 and Copper Spur UL2 by representative weight, architecture, official positioning and price.",
       "eyebrow": "Big Agnes 2-person tent comparison",
       "category": "tent",
+      "brand_id": "big-agnes",
       "product_ids": [
         "big-agnes-tiger-wall-ul-two",
         "big-agnes-copper-spur-ul-two"
