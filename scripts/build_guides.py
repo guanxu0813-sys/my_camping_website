@@ -21,7 +21,7 @@ PUBLISHED = "2026-07-21"
 DEFAULT_GUIDE_MODIFIED = "2026-08-05"
 LIGHTWEIGHT_TENTS_REVIEWED = "2026-08-05T23:57:11+08:00"
 WEIGHT_PRICE_REPORT_REVIEWED = "2026-08-15"
-WEIGHT_PRICE_REPORT_PAGE_MODIFIED = "2026-10-14"
+WEIGHT_PRICE_REPORT_PAGE_MODIFIED = "2026-10-28"
 
 COMPARISON_GUIDES = [
     {
@@ -1072,7 +1072,7 @@ def data_report_page(
         "stoves: median weight, price and lightweight product counts."
     )
     page = guide_page_config(
-        slug, title, description, "0.8", WEIGHT_PRICE_REPORT_REVIEWED
+        slug, title, description, "0.8", WEIGHT_PRICE_REPORT_PAGE_MODIFIED
     )
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
     report_path = REPORT_DIR / "camping-gear-weight-price-2026.csv"
@@ -1158,7 +1158,7 @@ def data_report_page(
         "  </nav>\n"
         '  <article class="static-detail">\n'
         '    <header class="page__head">\n'
-        '      <p class="page__eyebrow">Catalog data reviewed August 15, 2026 · Explorer updated October 14, 2026</p>\n'
+        '      <p class="page__eyebrow">Catalog snapshot August 15, 2026 · Method and display reviewed October 28, 2026</p>\n'
         '      <h1 class="page__title">Camping Gear Weight &amp; Price Report 2026</h1>\n'
         f'      <p class="page__lead">We analyzed {total} product records with '
         "usable weight and price data across five camping categories. The result "
@@ -1179,6 +1179,15 @@ def data_report_page(
         "the ≤ $200 counts use USD records only. Other currencies remain in the "
         "downloadable CSV but are excluded from price benchmarks; no exchange-rate "
         "conversion is applied.</p>\n"
+        "    </section>\n"
+        '    <section class="static-panel" aria-labelledby="coverage-limits">\n'
+        '      <h2 id="coverage-limits">Coverage and known limits</h2>\n'
+        '      <ul class="static-link-list">'
+        '<li><strong>Snapshot date:</strong> values and source URLs in this dataset were reviewed on August 15, 2026; the tool and method wording were reviewed on October 28, 2026.</li>'
+        '<li><strong>One row is one catalog record:</strong> sizes and variants are not normalized, and a reference price can be the lowest listed variant or a temporary promotion.</li>'
+        '<li><strong>Category mix matters:</strong> car-camping mattresses, tent stoves, glamping tents and large shelter systems remain when they are genuine products, so use the category filter before comparing unlike gear.</li>'
+        '<li><strong>Not a market sample:</strong> medians describe the current CampGear Compare catalog, not every product sold in a category.</li>'
+        '</ul>\n'
         "    </section>\n"
         '    <section class="static-panel data-explorer" aria-labelledby="explorer-title">\n'
         '      <div class="data-explorer__head">\n'
@@ -1204,7 +1213,8 @@ def data_report_page(
         'role="img" aria-label="Weight and USD price scatter plot"></div>\n'
         '      <p class="page__lead page__lead--compact">Each dot is one USD-priced product. '
         "Use the filters to create a shortlist; hover or focus a dot for its model and values. "
-        "Prices can represent the lowest listed variant, so verify the linked official page before buying.</p>\n"
+        "Prices can represent the lowest listed variant, so verify the linked official page before buying. "
+        "The all-category view spans ultralight stoves through heavy shelters; choose one category for a useful like-for-like chart.</p>\n"
         '      <div class="table-wrap"><table class="compare-table static-table data-explorer__table">\n'
         '        <thead><tr><th>Product</th><th>Category</th><th>Weight</th><th>USD Price</th></tr></thead>\n'
         '        <tbody id="data-explorer-results"></tbody>\n'

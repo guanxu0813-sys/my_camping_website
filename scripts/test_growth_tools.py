@@ -347,6 +347,30 @@ class GrowthToolTests(unittest.TestCase):
         self.assertIn("Three cross-category findings", report_html)
         self.assertIn("descriptive catalog results", report_html)
 
+    def test_day_ten_report_corrects_weights_and_states_scope(self) -> None:
+        products = {
+            product["id"]: product for product in build_sitemap.load_official_products()
+        }
+        self.assertEqual(
+            products["naturehike-cw295-down-ultralight-sleeping-bag"]["specs"]["weightKg"],
+            0.565,
+        )
+        self.assertEqual(
+            products["naturehike-snowmelt-down-sleeping-bag-xr1500"]["specs"]["weightKg"],
+            3.8,
+        )
+        report_html = (
+            ROOT / "guides" / "camping-gear-weight-price-report-2026.html"
+        ).read_text(encoding="utf-8")
+        self.assertIn("Coverage and known limits", report_html)
+        self.assertIn("One row is one catalog record", report_html)
+        self.assertIn("Not a market sample", report_html)
+        self.assertIn("Method and display reviewed October 28, 2026", report_html)
+        self.assertEqual(
+            build_guides.WEIGHT_PRICE_REPORT_PAGE_MODIFIED,
+            "2026-10-28",
+        )
+
     def test_affiliate_links_require_approval_ids_and_direct_products(self) -> None:
         inactive = {
             "amazon": {"enabled": False, "associateTag": ""},

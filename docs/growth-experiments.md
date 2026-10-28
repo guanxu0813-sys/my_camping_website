@@ -31,6 +31,8 @@ the data.
 | ID | Date | Reason code | URLs or files | Change | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | MAINT-2026-08-12-MONGAR-01 | 2026-08-12 | DATA_CORRECTION | Mongar Base 2 and Base 3 official records | Replaced storefront variant weights with official total weights and stored minimum weights separately | Compared both current Naturehike technical-spec blocks and recorded the review in `growth-day26-mongar-base-source-review.md` | The future guide must label minimum and total weight; shipping/variant weights remain excluded. |
+| MAINT-2026-10-28-REPORT-01 | 2026-10-28 | DATA_CORRECTION | Naturehike CW295 and XR1500 official records | Corrected CW295 from 5.0 kg to 0.565 kg and XR1500 from 5.0 kg to 3.8 kg using explicit weights in the stored official descriptions | Regenerated both product pages and the weight-price report; growth tests preserve the corrected values | No uncertain sleeping-pad outlier was changed without an explicit source value. |
+| MAINT-2026-10-28-REPORT-02 | 2026-10-28 | RENDERING_FIX | `/guides/camping-gear-weight-price-report-2026.html` | Clarified snapshot date, record basis, variant-price caveat, category mix and market-sample limits; corrected report sitemap/article modified date | Generated-site, structured-data and report regression checks | Dataset snapshot remains 2026-08-15; method/display review is 2026-10-28. |
 
 ## Experiment entry template
 
