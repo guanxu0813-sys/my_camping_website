@@ -17,6 +17,7 @@ import build_sitemap
 import discover_guide_candidates
 import growth_report
 import submit_indexnow
+import build_winter_sleeping_bag_sample
 
 
 class GrowthToolTests(unittest.TestCase):
@@ -370,6 +371,43 @@ class GrowthToolTests(unittest.TestCase):
             build_guides.WEIGHT_PRICE_REPORT_PAGE_MODIFIED,
             "2026-10-28",
         )
+
+    def test_day_eleven_winter_sample_keeps_review_gate(self) -> None:
+        brands_data = build_sitemap.load_json(ROOT / "data" / "brands.json")
+        brands = build_sitemap.brand_map(
+            brands_data if isinstance(brands_data, list) else []
+        )
+        rows = build_winter_sleeping_bag_sample.build_rows(
+            build_sitemap.load_official_products(), brands
+        )
+        eligible = [row for row in rows if row["eligibility"] == "eligible"]
+        self.assertEqual(len(rows), 48)
+        self.assertEqual(len(eligible), 27)
+        self.assertEqual(
+            Counter(row["catalog_status"] for row in eligible),
+            Counter({"draft": 23, "verified": 4}),
+        )
+        self.assertEqual(
+            Counter(row["currency"] for row in eligible),
+            Counter({"USD": 12, "JPY": 11, "GBP": 4}),
+        )
+        self.assertEqual(
+            Counter(
+                row["exclusion_reason"]
+                for row in rows
+                if row["exclusion_reason"]
+            ),
+            Counter(
+                {
+                    "above_5c_scope": 12,
+                    "missing_weight": 5,
+                    "temperature_mismatch": 3,
+                    "missing_celsius": 1,
+                }
+            ),
+        )
+        self.assertTrue(all(float(row["comfort_c"]) <= 5 for row in eligible))
+        self.assertTrue(all(row["official_source"] for row in eligible))
 
     def test_affiliate_links_require_approval_ids_and_direct_products(self) -> None:
         inactive = {
