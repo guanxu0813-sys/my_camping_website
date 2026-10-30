@@ -18,6 +18,7 @@ import discover_guide_candidates
 import growth_report
 import submit_indexnow
 import build_winter_sleeping_bag_sample
+import build_winter_sleeping_bag_draft
 
 
 class GrowthToolTests(unittest.TestCase):
@@ -408,6 +409,36 @@ class GrowthToolTests(unittest.TestCase):
         )
         self.assertTrue(all(float(row["comfort_c"]) <= 5 for row in eligible))
         self.assertTrue(all(row["official_source"] for row in eligible))
+
+    def test_day_twelve_winter_asset_stays_private_and_reproducible(self) -> None:
+        rows = build_winter_sleeping_bag_draft.load_eligible_rows()
+        draft_html = build_winter_sleeping_bag_draft.render_html(rows)
+        self.assertEqual(len(rows), 27)
+        self.assertEqual(
+            Counter(row["brand"] for row in rows),
+            Counter({"Naturehike": 12, "NANGA": 11, "Montbell": 4}),
+        )
+        self.assertEqual(
+            Counter(row["currency"] for row in rows),
+            Counter({"USD": 12, "JPY": 11, "GBP": 4}),
+        )
+        self.assertIn('name="robots" content="noindex,nofollow,noarchive"', draft_html)
+        self.assertIn("PRIVATE DRAFT", draft_html)
+        self.assertIn("not compared with other currencies", draft_html)
+        self.assertIn("Individual warmth varies", draft_html)
+        self.assertIn("Listed comfort temperature and weight", draft_html)
+
+        output_path = ROOT / "docs" / "drafts" / "winter-sleeping-bag-data-asset.html"
+        self.assertEqual(output_path.read_text(encoding="utf-8"), draft_html)
+        sitemap = (ROOT / "sitemap.xml").read_text(encoding="utf-8")
+        self.assertNotIn("winter-sleeping-bag-data-asset", sitemap)
+        rss_paths = [ROOT / "rss.xml", ROOT / "feed.xml", ROOT / "guides" / "rss.xml"]
+        for path in rss_paths:
+            if path.exists():
+                self.assertNotIn(
+                    "winter-sleeping-bag-data-asset",
+                    path.read_text(encoding="utf-8"),
+                )
 
     def test_affiliate_links_require_approval_ids_and_direct_products(self) -> None:
         inactive = {
