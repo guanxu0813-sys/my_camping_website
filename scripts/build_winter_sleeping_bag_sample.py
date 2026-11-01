@@ -72,6 +72,7 @@ def build_rows(products: list[dict], brands: dict[str, dict]) -> list[dict]:
                 "reference_price": "" if price is None else price,
                 "currency": str(product.get("currency") or "USD").upper(),
                 "catalog_status": product.get("status", ""),
+                "source_snapshot_at": product.get("scrapedAt", ""),
                 "official_source": product.get("sourceUrl", ""),
                 "eligibility": "eligible" if not reason else "excluded",
                 "exclusion_reason": reason,

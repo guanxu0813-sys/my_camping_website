@@ -409,6 +409,10 @@ class GrowthToolTests(unittest.TestCase):
         )
         self.assertTrue(all(float(row["comfort_c"]) <= 5 for row in eligible))
         self.assertTrue(all(row["official_source"] for row in eligible))
+        self.assertEqual(
+            {row["source_snapshot_at"][:10] for row in eligible},
+            {"2026-07-03"},
+        )
 
     def test_day_twelve_winter_asset_stays_private_and_reproducible(self) -> None:
         rows = build_winter_sleeping_bag_draft.load_eligible_rows()
@@ -424,6 +428,9 @@ class GrowthToolTests(unittest.TestCase):
         )
         self.assertIn('name="robots" content="noindex,nofollow,noarchive"', draft_html)
         self.assertIn("PRIVATE DRAFT", draft_html)
+        self.assertIn("Publication blocked", draft_html)
+        self.assertIn("5 rows and 2 failed (40%)", draft_html)
+        self.assertIn("Stored source snapshot:</strong> 2026-07-03", draft_html)
         self.assertIn("not compared with other currencies", draft_html)
         self.assertIn("Individual warmth varies", draft_html)
         self.assertIn("Listed comfort temperature and weight", draft_html)

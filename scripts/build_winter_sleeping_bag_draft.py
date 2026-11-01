@@ -12,8 +12,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SAMPLE = ROOT / "data" / "reports" / "winter-sleeping-bag-candidate-sample.csv"
 OUTPUT = ROOT / "docs" / "drafts" / "winter-sleeping-bag-data-asset.html"
-SNAPSHOT_DATE = "2026-10-29"
 DRAFT_DATE = "2026-10-30"
+FACT_CHECK_DATE = "2026-11-01"
 CURRENCY_SYMBOLS = {"USD": "$", "GBP": "£", "JPY": "¥"}
 BRAND_COLORS = {"Naturehike": "#24735b", "NANGA": "#b44b36", "Montbell": "#345aa8"}
 
@@ -117,6 +117,10 @@ def render_html(rows: list[dict]) -> str:
     statuses = Counter(row["catalog_status"] for row in rows)
     bands = Counter(temperature_band(float(row["comfort_c"])) for row in rows)
     lower_limit_count = sum(bool(row["lower_limit_label"]) for row in rows)
+    snapshot_dates = sorted(
+        {row["source_snapshot_at"][:10] for row in rows if row["source_snapshot_at"]}
+    )
+    snapshot_label = ", ".join(snapshot_dates) or "not recorded"
     legend = "".join(
         f'<span><i style="background:{color}"></i>{html.escape(brand)} ({brands[brand]})</span>'
         for brand, color in BRAND_COLORS.items()
@@ -166,7 +170,7 @@ def render_html(rows: list[dict]) -> str:
       <div class="fact"><strong>{statuses['verified']}</strong><span>catalog-verified rows</span></div>
       <div class="fact"><strong>{lower_limit_count}</strong><span>separate lower-limit labels</span></div>
     </div>
-    <p class="note"><strong>Review gate:</strong> {statuses['draft']} of {len(rows)} rows still have draft catalog status. Do not publish, cite, or use this page for purchase claims until Day 13 source verification is complete and the factual error rate is below 5%.</p>
+    <p class="note"><strong>Publication blocked:</strong> Day 13 checked 5 rows and 2 failed (40%). One Naturehike record no longer matches current temperature, weight and price details, and one Montbell source URL returns 404. {statuses['draft']} of {len(rows)} rows also retain draft catalog status. Do not publish, cite, or use this page for purchase claims.</p>
   </header>
   <section>
     <h2>What the labels show</h2>
@@ -188,7 +192,7 @@ def render_html(rows: list[dict]) -> str:
       <li>Keep USD, GBP, and JPY records separate. No exchange-rate conversion or cross-currency price ranking is performed.</li>
       <li>Plot listed comfort temperature against representative catalog weight; preserve the original temperature label in the table.</li>
     </ol>
-    <p><strong>Source snapshot:</strong> {SNAPSHOT_DATE}. <strong>Draft generated:</strong> {DRAFT_DATE}. Rebuild with <code>python3 scripts/build_winter_sleeping_bag_draft.py</code>.</p>
+    <p><strong>Stored source snapshot:</strong> {snapshot_label}. <strong>Draft generated:</strong> {DRAFT_DATE}. <strong>Partial fact check:</strong> {FACT_CHECK_DATE}. Rebuild with <code>python3 scripts/build_winter_sleeping_bag_draft.py</code>.</p>
     <p><strong>Known limitations:</strong> this is a selected catalog, not a complete market sample. Product variants, regional availability, testing standards, fit, fill characteristics, and current prices may differ. Official links are retained for manual Day 13 verification.</p>
   </section>
 </main></body></html>
