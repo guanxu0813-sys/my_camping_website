@@ -190,6 +190,30 @@ class GrowthToolTests(unittest.TestCase):
                 self.assertIn(guide_path, product_paths)
         self.assertEqual(len(guide_products), 16)
 
+    def test_day_sixteen_big_agnes_ul2_guide_has_current_trust_signals(self) -> None:
+        slug = "big-agnes-tiger-wall-ul2-vs-copper-spur-ul2"
+        guide = next(
+            guide
+            for guide in build_guides.all_comparison_guides()
+            if guide["slug"] == slug
+        )
+        self.assertEqual(guide["reviewer"], "CampGear Compare")
+        self.assertEqual(guide["reviewed_on"], "2026-11-03")
+        self.assertEqual(guide["date_modified"], "2026-11-03")
+        self.assertTrue(guide["verdict"])
+        self.assertEqual(len(guide["decision_path"]), 3)
+        self.assertEqual(len(guide["counterexamples"]), 2)
+        self.assertIn("993 g", guide["limitations"])
+        self.assertIn("1,188 g", guide["limitations"])
+        self.assertIn("footprints are sold separately", guide["limitations"])
+
+        html = (ROOT / "guides" / f"{slug}.html").read_text(encoding="utf-8")
+        self.assertIn("Reviewed by", html)
+        self.assertIn('datetime="2026-11-03"', html)
+        self.assertIn("Choose in three steps", html)
+        self.assertIn("When the obvious choice can be wrong", html)
+        self.assertIn('"dateModified":"2026-11-03"', html)
+
     def test_growth_report_prefers_explicit_comparison_periods(self) -> None:
         latest = {
             "gsc_impressions": "1037",

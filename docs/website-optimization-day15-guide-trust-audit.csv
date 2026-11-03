@@ -1,0 +1,10 @@
+priority,page,cluster,structured_author,visible_reviewer,review_date,explicit_method_limits,official_sources,bottom_line,status,next_action
+1,/guides/big-agnes-tiger-wall-ul2-vs-copper-spur-ul2.html,Big Agnes,yes,no,no,no,yes,no,HIGH_GAP,"Day 16: verify both official pages and add reviewer, date, verdict, decision path and page-specific limits"
+2,/guides/naturehike-cloud-up-models-compared.html,Naturehike,yes,no,no,no,yes,no,HIGH_GAP,"Refresh its 12-source range before any rewrite; do not reuse stale generic limits"
+3,/guides/naturehike-tuye-r5-8-vs-r6-5-vs-r8-8.html,Naturehike,yes,no,no,no,yes,no,HIGH_GAP,"Verify R-values and variants before adding a reviewed decision framework"
+4,/guides/naturehike-snowbird-sp700-vs-sp550.html,Naturehike,yes,no,yes,yes,yes,yes,PARTIAL,"Keep published but refresh sources before changing current price or temperature claims"
+5,/guides/naturehike-giling-pro-1-vs-mongar-pro-1.html,Naturehike,yes,no,yes,yes,yes,yes,PARTIAL,"Keep; add visible reviewer during a future source refresh"
+6,/guides/naturehike-mongar-base-2-vs-3.html,Naturehike,yes,yes,yes,yes,yes,yes,COMPLETE,"Keep and monitor"
+7,/guides/big-agnes-copper-spur-ul1-vs-ul2.html,Big Agnes,yes,no,yes,yes,yes,yes,PARTIAL,"Keep; add visible reviewer during a future full-range source refresh"
+8,/guides/big-agnes-tiger-wall-models-compared.html,Big Agnes,yes,no,yes,yes,yes,yes,PARTIAL,"Keep; add visible reviewer during a future full-range source refresh"
+9,/guides/camping-gear-weight-price-report-2026.html,Data report,yes,no,yes,yes,yes,yes,PARTIAL,"Keep; organization author is in schema and method dates are visible"
