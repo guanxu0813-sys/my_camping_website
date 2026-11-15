@@ -1411,7 +1411,11 @@ def guides_index_page(
 
 def write_rss_feed(pages: list[dict], site_url: str, b: ModuleType) -> None:
     items = []
-    for page in pages:
+    for page in sorted(
+        pages,
+        key=lambda item: str(item.get("lastmod", PUBLISHED))[:10],
+        reverse=True,
+    ):
         url = f"{site_url}{page['path']}"
         published = date.fromisoformat(str(page.get("lastmod", PUBLISHED))[:10])
         items.append(

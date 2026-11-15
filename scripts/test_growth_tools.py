@@ -4,8 +4,10 @@
 from __future__ import annotations
 
 import csv
+import email.utils
 import sys
 import unittest
+import xml.etree.ElementTree as ET
 from collections import Counter
 from pathlib import Path
 
@@ -22,6 +24,18 @@ import build_winter_sleeping_bag_draft
 
 
 class GrowthToolTests(unittest.TestCase):
+    def test_rss_feed_lists_newest_updates_first(self) -> None:
+        channel = ET.parse(ROOT / "feed.xml").getroot().find("channel")
+        self.assertIsNotNone(channel)
+        items = channel.findall("item")
+        dates = [
+            email.utils.parsedate_to_datetime(item.findtext("pubDate", ""))
+            for item in items
+        ]
+        self.assertTrue(items)
+        self.assertEqual(dates, sorted(dates, reverse=True))
+        self.assertEqual(len(items), len({item.findtext("guid") for item in items}))
+
     def test_indexnow_maps_public_html(self) -> None:
         base = "https://www.campgearcompare.com"
         self.assertEqual(
