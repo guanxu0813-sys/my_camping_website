@@ -1,0 +1,7 @@
+page,viewport,document_overflow,interaction,console_error,result,risk
+/index.html,390x844,no,home content and category links render,no,pass,"font and hero resources remain on the render path"
+/guides/big-agnes-tiger-wall-ul2-vs-copper-spur-ul2.html,390x844,no,stacked CTAs and scrollable spec table,no,pass,"header text links have small measured boxes"
+/guides/big-agnes-tiger-wall-ul2-vs-copper-spur-ul2.html,1440x900,no,961px table fits 1040px main region,no,pass,"no current field CWV export"
+/tent.html?compare=big-agnes-tiger-wall-ul-two%2Cbig-agnes-copper-spur-ul-two&source=guide,390x844,no,"two selected products; fixed tray; modal opens",no,pass,"catalog.js is about 1.7 MB uncompressed; modal close is 36x36px"
+/tent.html?compare=big-agnes-tiger-wall-ul-two%2Cbig-agnes-copper-spur-ul-two&source=guide,1440x900,no,"two selected rows and tray visible; local ready check about 372ms",no,pass,"scripts are included without defer"
+/products/naturehike-daban-2-person-ultralight-4-season-tunnel-tent.html,390x844,no,product content renders,no,pass_with_external_dependency,"in-app decode inconclusive; official CDN independently returned HTTP 200 JPEG"
