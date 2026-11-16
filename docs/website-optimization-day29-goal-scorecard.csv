@@ -1,0 +1,8 @@
+goal,status,evidence,next_decision
+"Technical generation and measurement tests remain healthy",achieved,"902 HTML; 863 sitemap URLs; valid RSS/internal links; structured data 10/10","keep regression gates"
+"Current aligned 28-day GA4 GSC and referring-domain baseline",not_achieved,"latest confirmed data ends 2026-09-01","NEEDS_USER export one aligned recent 28-day window"
+"Focus Naturehike and Big Agnes without a third cluster",achieved,"both clusters received focused paths; no third cluster expanded","hold until current cluster evidence"
+"Improve user paths weekly and validate with events",partial,"deep link comparison Modal outbound mobile and RSS implementations tested; current live event totals absent","verify in current GA4 export"
+"Seasonal data asset or existing data-tool upgrade",achieved,"weight-price tool upgraded; stale sleeping-bag draft blocked","keep report; stop draft until refreshed"
+"Evidence-gated guide volume",achieved,"published guide count remains 17","do not expand without query gate"
+"Independent UTM attribution and qualified channel decisions",partial,"7 assets have unique UTM values; no verified qualified visit","pause production until one qualified outcome"
